@@ -1,0 +1,10 @@
+{
+  "cli": "agently-cli",
+  "mode": "dedicated-inbox",
+  "alias": "naturalselection01@agent.qq.com",
+  "subject_prefix": "投稿",
+  "watermark": "2026-10-06T00:00:00Z",
+  "byline": "站外投稿",
+  "page_size": 30,
+  "note": "三条过滤腿只换条件、不改流水线形状。subject-prefix=退路（主信箱 hutao520 + 主题前缀「投稿」）；alias=CLI 仍绑主信箱但别名可投递时按 --to 过滤；dedicated-inbox=CLI 直接绑到 naturalselection01 这个收稿信箱身份（该信箱每封来信都是投稿，只列 inbox）。后台点『接入 Agent』并在终端完成 agently-cli auth login 后，把 mode 改成 dedicated-inbox。"
+}

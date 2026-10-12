@@ -1,0 +1,106 @@
+FAIL RB20 [index.html @1280px/冷历史] 当前页带实色暗红下边线（冷历史） :: 期望 solid rgb(122, 36, 36) / 实际 2px solid rgb(245, 239, 228)
+FAIL RN5 [article-classroom-screen-upgrade.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RN5 [article-math-to-ai-learning.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RN5 [article-school-course-volunteer.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RN5 [index.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RN5 [news-commentary.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RN5 [news-feature.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RN5 [news-message.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RB20 [index.html @1280px/冷历史] 当前页带实色暗红下边线（冷历史） :: 2px solid rgb(245, 239, 228) -> Task 16
+FAIL RN5 [article-classroom-screen-upgrade.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+FAIL RN5 [article-math-to-ai-learning.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+FAIL RN5 [article-school-course-volunteer.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+FAIL RN5 [index.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+FAIL RN5 [news-commentary.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+FAIL RN5 [news-feature.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+FAIL RN5 [news-message.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+
+合计 77 条（计分 67）：PASS 59 / FAIL 8 / SKIPPED-BY-DESIGN 0 / REC 10 / PENDING 0
+FAIL RB20 [index.html @1280px/冷历史] 当前页带实色暗红下边线（冷历史） :: 期望 solid rgb(122, 36, 36) / 实际 2px solid rgb(245, 239, 228)
+FAIL RN5 [article-along-the-north-small-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RN5 [article-classroom-screen-upgrade.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RN5 [article-math-to-ai-learning.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RN5 [article-north-of-dam-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RN5 [article-school-course-volunteer.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RN5 [index.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RN5 [news-commentary.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RN5 [news-feature.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RN5 [news-message.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=undefined 距accent=undefined
+FAIL RB20 [index.html @1280px/冷历史] 当前页带实色暗红下边线（冷历史） :: 2px solid rgb(245, 239, 228) -> Task 16
+FAIL RN5 [article-along-the-north-small-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+FAIL RN5 [article-classroom-screen-upgrade.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+FAIL RN5 [article-math-to-ai-learning.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+FAIL RN5 [article-north-of-dam-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+FAIL RN5 [article-school-course-volunteer.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+FAIL RN5 [index.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+FAIL RN5 [news-commentary.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+FAIL RN5 [news-feature.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+FAIL RN5 [news-message.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=undefined 距accent=undefined -> Task 16
+
+合计 91 条（计分 79）：PASS 69 / FAIL 10 / SKIPPED-BY-DESIGN 0 / REC 12 / PENDING 0
+FAIL RB20 [index.html @1280px/冷历史] 当前页带实色暗红下边线（冷历史） :: 期望 solid rgb(122, 36, 36) / 实际 2px solid rgb(245, 239, 228)
+FAIL RN5 [article-along-the-north-small-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [article-classroom-screen-upgrade.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [article-math-to-ai-learning.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [article-north-of-dam-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [article-school-course-volunteer.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [index.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [news-commentary.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [news-feature.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [news-message.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RB20 [index.html @1280px/冷历史] 当前页带实色暗红下边线（冷历史） :: 2px solid rgb(245, 239, 228) -> Task 16
+FAIL RN5 [article-along-the-north-small-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [article-classroom-screen-upgrade.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [article-math-to-ai-learning.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [article-north-of-dam-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [article-school-course-volunteer.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [index.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [news-commentary.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [news-feature.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [news-message.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+
+合计 91 条（计分 79）：PASS 69 / FAIL 10 / SKIPPED-BY-DESIGN 0 / REC 12 / PENDING 0
+FAIL RB20 [index.html @1280px/冷历史] 当前页带实色暗红下边线（冷历史） :: 期望 solid rgb(122, 36, 36) / 实际 2px solid rgb(245, 239, 228)
+FAIL RN5 [article-along-the-north-small-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [article-classroom-screen-upgrade.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [article-math-to-ai-learning.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [article-north-of-dam-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [article-school-course-volunteer.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [index.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [news-commentary.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [news-feature.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [news-message.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RB20 [index.html @1280px/冷历史] 当前页带实色暗红下边线（冷历史） :: 2px solid rgb(245, 239, 228) -> Task 16
+FAIL RN5 [article-along-the-north-small-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [article-classroom-screen-upgrade.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [article-math-to-ai-learning.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [article-north-of-dam-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [article-school-course-volunteer.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [index.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [news-commentary.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [news-feature.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [news-message.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+
+合计 91 条（计分 79）：PASS 69 / FAIL 10 / SKIPPED-BY-DESIGN 0 / REC 12 / PENDING 0
+FAIL RB20 [index.html @1280px/冷历史] 当前页带实色暗红下边线（冷历史） :: 期望 solid rgb(122, 36, 36) / 实际 2px solid rgb(245, 239, 228)
+FAIL RN5 [article-along-the-north-small-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [article-classroom-screen-upgrade.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [article-math-to-ai-learning.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [article-north-of-dam-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [article-school-course-volunteer.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [index.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [news-commentary.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [news-feature.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RN5 [news-message.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: 期望 暗红(accent) / 实际 rgb(245,239,228) 距ink=null 距accent=null
+FAIL RB20 [index.html @1280px/冷历史] 当前页带实色暗红下边线（冷历史） :: 2px solid rgb(245, 239, 228) -> Task 16
+FAIL RN5 [article-along-the-north-small-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [article-classroom-screen-upgrade.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [article-math-to-ai-learning.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [article-north-of-dam-river.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [article-school-course-volunteer.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [index.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [news-commentary.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [news-feature.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+FAIL RN5 [news-message.html @1280px/全部目标页均已访问] R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） :: rgb(245,239,228) 距ink=null 距accent=null -> Task 16
+
+合计 91 条（计分 79）：PASS 69 / FAIL 10 / SKIPPED-BY-DESIGN 0 / REC 12 / PENDING 0

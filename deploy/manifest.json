@@ -1,0 +1,156 @@
+{
+  "schema": 1,
+  "columns": [
+    {
+      "key": "message",
+      "label": "新闻消息",
+      "list": "news-message.html",
+      "articles": [
+        {
+          "slug": "school-course-selection-results",
+          "page": "article-school-course-selection-results.html",
+          "title": "我校校本课程选择结果公布"
+        },
+        {
+          "slug": "school-course-volunteer",
+          "page": "article-school-course-volunteer.html",
+          "title": "我校启动校本课程志愿填报"
+        }
+      ]
+    },
+    {
+      "key": "feature",
+      "label": "新闻通讯",
+      "list": "news-feature.html",
+      "articles": [
+        {
+          "slug": "along-the-north-small-river",
+          "page": "article-along-the-north-small-river.html",
+          "title": "封路之后，沿北小河往南"
+        },
+        {
+          "slug": "north-of-dam-river",
+          "page": "article-north-of-dam-river.html",
+          "title": "坝河以北，走过的东坝"
+        },
+        {
+          "slug": "math-to-ai-learning",
+          "page": "article-math-to-ai-learning.html",
+          "title": "从数学题到AI时代的学习"
+        }
+      ]
+    },
+    {
+      "key": "commentary",
+      "label": "新闻评论",
+      "list": "news-commentary.html",
+      "articles": [
+        {
+          "slug": "classroom-screen-upgrade",
+          "page": "article-classroom-screen-upgrade.html",
+          "title": "设备升级了，使用门槛也该降下来"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "path": "404.html",
+      "bytes": 2192,
+      "sha256": "6522089d2c0d1a80ca53fb22a376f40e78fc30fb6d2ac005885f92a0cc30989f"
+    },
+    {
+      "path": "article-along-the-north-small-river.html",
+      "bytes": 3269,
+      "sha256": "c7316dd329a00a365b30893d960ec347254dbed6f01fa39ba54265b6027ce4e4"
+    },
+    {
+      "path": "article-classroom-screen-upgrade.html",
+      "bytes": 8626,
+      "sha256": "e75ff133866912dbf6d0efbcff1264786cd2ac6da9b8f1503671835007b9bc89"
+    },
+    {
+      "path": "article-math-to-ai-learning.html",
+      "bytes": 7102,
+      "sha256": "69b146f874d90ba39354acaf16aea008e09903c12665bece002dd34ba3e1de2c"
+    },
+    {
+      "path": "article-north-of-dam-river.html",
+      "bytes": 3432,
+      "sha256": "2739b2cfc0455c38b9a25ea8661299d4f5a72c22d1f760ef5fd9d8580ddf5cc2"
+    },
+    {
+      "path": "article-school-course-selection-results.html",
+      "bytes": 2648,
+      "sha256": "a4ac377ee8f822dd88a6391f95f7f5dd72220651f0aea494c49e53e0259f820a"
+    },
+    {
+      "path": "article-school-course-volunteer.html",
+      "bytes": 3151,
+      "sha256": "9541e54fae113100c16b1dc8a678bb05793daf1a5e7994002ca938348d903f02"
+    },
+    {
+      "path": "easteregg.css",
+      "bytes": 8402,
+      "sha256": "510ae50df442199d93944e2bf00f113a672fbc03544c9a56e4a26d7910b4cea6"
+    },
+    {
+      "path": "easteregg.html",
+      "bytes": 13232,
+      "sha256": "6d6f572c222dbce83053193fbd49107ef13dd66d1220b2925b2c974efc857d73"
+    },
+    {
+      "path": "easteregg.js",
+      "bytes": 23211,
+      "sha256": "7d1e107fe649caa9334a304fbdf27da2a544bf701ca9206f63ee743cf70e122d"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3828,
+      "sha256": "0689ce3bd4d129bee68448e3f4f83faa17792edb5dafb1e7f28c439489599638"
+    },
+    {
+      "path": "news-commentary.html",
+      "bytes": 2207,
+      "sha256": "52fa8647be8a58d775f7b7e03e348eebf31ba6c1b07d7a920b9d7df3600903b1"
+    },
+    {
+      "path": "news-feature.html",
+      "bytes": 2689,
+      "sha256": "8fa7c99d3d3c9901e1b401e964bd79087c70b0963e8cd67c0114d167343a0ec8"
+    },
+    {
+      "path": "news-message.html",
+      "bytes": 2460,
+      "sha256": "892ef97d71c1c1df28612a3caf1878f024ca9e2c4731c8309a6e4b5de642b095"
+    },
+    {
+      "path": "script.js",
+      "bytes": 2204,
+      "sha256": "abb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 15628,
+      "sha256": "25941dccb28885d6f0acd27211ef2134b92cb8dc5a61d254cfa7f674630eb5f3"
+    },
+    {
+      "path": "submission.html",
+      "bytes": 9442,
+      "sha256": "f55bc02bb758bec84bef82f15523509acfa41cd66343f9fa6068510cc0db5682"
+    }
+  ],
+  "config": [
+    {
+      "path": "_headers",
+      "bytes": 518,
+      "sha256": "b0273f2ff60c2c95d24899b8bd8a72ae050d233bc38e8b9903a28421d6f9ba7a"
+    }
+  ],
+  "counts": {
+    "pages": 17,
+    "html": 13,
+    "config": 1,
+    "articles": 6
+  }
+}

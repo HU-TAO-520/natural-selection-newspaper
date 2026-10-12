@@ -1,0 +1,162 @@
+
+=== desktop1024 (20 checks) ===
+  PASS clientWidth == 目标宽度
+  PASS 无 CSS 时样式表可枚举
+  PASS 浏览器 textContent 四段严格相等
+  PASS type 文本
+  PASS h1 文本
+  PASS byline 文本
+  PASS 唯一 main/h1/aria-current
+  PASS dateline textContent
+  PASS strong 后是文本节点且首字符 U+0020
+  PASS 文本节点第二字符为“我”
+  PASS 电头后无连续两个空格
+  PASS 首段无前导空白
+  PASS 正文无 <br>/&nbsp; 生成的 NBSP
+  PASS 阅读顺序 = type,title,byline,M01..M04
+  PASS 无横向溢出
+  PASS 正文未换行成竖排且段落数 4
+  PASS 文章文字已渲染（innerText 长度）
+  PASS 四项导航可访问
+  PASS 目标页加载成功（readyState）
+  PASS 宽度断言
+
+=== desktop1280 (20 checks) ===
+  PASS clientWidth == 目标宽度
+  PASS 无 CSS 时样式表可枚举
+  PASS 浏览器 textContent 四段严格相等
+  PASS type 文本
+  PASS h1 文本
+  PASS byline 文本
+  PASS 唯一 main/h1/aria-current
+  PASS dateline textContent
+  PASS strong 后是文本节点且首字符 U+0020
+  PASS 文本节点第二字符为“我”
+  PASS 电头后无连续两个空格
+  PASS 首段无前导空白
+  PASS 正文无 <br>/&nbsp; 生成的 NBSP
+  PASS 阅读顺序 = type,title,byline,M01..M04
+  PASS 无横向溢出
+  PASS 正文未换行成竖排且段落数 4
+  PASS 文章文字已渲染（innerText 长度）
+  PASS 四项导航可访问
+  PASS 目标页加载成功（readyState）
+  PASS 宽度断言
+
+=== mobile375 (20 checks) ===
+  PASS clientWidth == 目标宽度
+  PASS 无 CSS 时样式表可枚举
+  PASS 浏览器 textContent 四段严格相等
+  PASS type 文本
+  PASS h1 文本
+  PASS byline 文本
+  PASS 唯一 main/h1/aria-current
+  PASS dateline textContent
+  PASS strong 后是文本节点且首字符 U+0020
+  PASS 文本节点第二字符为“我”
+  PASS 电头后无连续两个空格
+  PASS 首段无前导空白
+  PASS 正文无 <br>/&nbsp; 生成的 NBSP
+  PASS 阅读顺序 = type,title,byline,M01..M04
+  PASS 无横向溢出
+  PASS 正文未换行成竖排且段落数 4
+  PASS 文章文字已渲染（innerText 长度）
+  PASS 四项导航可访问
+  PASS 目标页加载成功（readyState）
+  PASS 宽度断言
+
+=== tablet768 (20 checks) ===
+  PASS clientWidth == 目标宽度
+  PASS 无 CSS 时样式表可枚举
+  PASS 浏览器 textContent 四段严格相等
+  PASS type 文本
+  PASS h1 文本
+  PASS byline 文本
+  PASS 唯一 main/h1/aria-current
+  PASS dateline textContent
+  PASS strong 后是文本节点且首字符 U+0020
+  PASS 文本节点第二字符为“我”
+  PASS 电头后无连续两个空格
+  PASS 首段无前导空白
+  PASS 正文无 <br>/&nbsp; 生成的 NBSP
+  PASS 阅读顺序 = type,title,byline,M01..M04
+  PASS 无横向溢出
+  PASS 正文未换行成竖排且段落数 4
+  PASS 文章文字已渲染（innerText 长度）
+  PASS 四项导航可访问
+  PASS 目标页加载成功（readyState）
+  PASS 宽度断言
+
+=== zoom200_640 (20 checks) ===
+  PASS clientWidth == 目标宽度
+  PASS 无 CSS 时样式表可枚举
+  PASS 浏览器 textContent 四段严格相等
+  PASS type 文本
+  PASS h1 文本
+  PASS byline 文本
+  PASS 唯一 main/h1/aria-current
+  PASS dateline textContent
+  PASS strong 后是文本节点且首字符 U+0020
+  PASS 文本节点第二字符为“我”
+  PASS 电头后无连续两个空格
+  PASS 首段无前导空白
+  PASS 正文无 <br>/&nbsp; 生成的 NBSP
+  PASS 阅读顺序 = type,title,byline,M01..M04
+  PASS 无横向溢出
+  PASS 正文未换行成竖排且段落数 4
+  PASS 文章文字已渲染（innerText 长度）
+  PASS 四项导航可访问
+  PASS 目标页加载成功（readyState）
+  PASS 宽度断言
+
+=== nocss_1024 (23 checks) ===
+  PASS clientWidth == 目标宽度
+  PASS 无 CSS 时样式表可枚举
+  PASS 浏览器 textContent 四段严格相等
+  PASS type 文本
+  PASS h1 文本
+  PASS byline 文本
+  PASS 唯一 main/h1/aria-current
+  PASS dateline textContent
+  PASS strong 后是文本节点且首字符 U+0020
+  PASS 文本节点第二字符为“我”
+  PASS 电头后无连续两个空格
+  PASS 首段无前导空白
+  PASS 正文无 <br>/&nbsp; 生成的 NBSP
+  PASS 阅读顺序 = type,title,byline,M01..M04
+  PASS 无横向溢出
+  PASS 正文未换行成竖排且段落数 4
+  PASS 文章文字已渲染（innerText 长度）
+  PASS 四项导航可访问
+  PASS 禁用 CSS 后阅读顺序不变
+  PASS 禁用 CSS 后四段仍完整
+  PASS 禁用 CSS 后导航仍可见
+  PASS 目标页加载成功（readyState）
+  PASS 宽度断言
+
+=== nojs_1024 (22 checks) ===
+  PASS clientWidth == 目标宽度
+  PASS 无 CSS 时样式表可枚举
+  PASS 浏览器 textContent 四段严格相等
+  PASS type 文本
+  PASS h1 文本
+  PASS byline 文本
+  PASS 唯一 main/h1/aria-current
+  PASS dateline textContent
+  PASS strong 后是文本节点且首字符 U+0020
+  PASS 文本节点第二字符为“我”
+  PASS 电头后无连续两个空格
+  PASS 首段无前导空白
+  PASS 正文无 <br>/&nbsp; 生成的 NBSP
+  PASS 阅读顺序 = type,title,byline,M01..M04
+  PASS 无横向溢出
+  PASS 正文未换行成竖排且段落数 4
+  PASS 文章文字已渲染（innerText 长度）
+  PASS 四项导航可访问
+  PASS 禁用 JS 后文章内容完整
+  PASS 禁用 JS 后无脚本执行
+  PASS 目标页加载成功（readyState）
+  PASS 宽度断言
+
+浏览器断言 145 项，失败 0
+FAILS: 无

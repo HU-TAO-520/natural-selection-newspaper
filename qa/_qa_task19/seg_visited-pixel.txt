@@ -1,0 +1,4 @@
+
+
+合计 77 条（计分 67）：PASS 67 / FAIL 0 / SKIPPED-BY-DESIGN 0 / REC 10 / PENDING 0
+SEG_EXIT visited-pixel=0

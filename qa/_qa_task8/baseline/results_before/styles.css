@@ -1,0 +1,348 @@
+/* ============================================================
+   《自然选择号》共享样式表 — Task 3 桌面端纸媒视觉基线
+   适用页面：index.html / news-message.html / news-feature.html / news-commentary.html
+   移动端（max-width: 768px）覆盖规则由 Task 8 追加在本文件末尾。
+   ============================================================ */
+
+/* ---------- 1. 设计变量 ---------- */
+
+:root {
+  --color-paper: #f5efe4;
+  --color-ink: #211f1c;
+  --color-muted: #665d56;
+  --color-accent: #7a2424;
+  --color-rule: #b8aa98;
+
+  --font-serif: "Songti SC", "STSong", "SimSun", serif;
+
+  --layout-max: 70rem;
+  --reading-max: 46rem;
+  --title-max: 52rem;
+  --page-gutter: 2rem;
+
+  --font-size-small: 0.9375rem;
+  --font-size-body: 1rem;
+  --font-size-reading: 1.125rem;
+  --font-size-section-title: 1.5rem;
+  --font-size-page-title: 2.5rem;
+  --font-size-masthead: 4rem;
+
+  --line-height-tight: 1.25;
+  --line-height-ui: 1.5;
+  --line-height-reading: 1.9;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+
+  --rule-thin: 1px;
+  --rule-double: 3px;
+  --focus-width: 2px;
+}
+
+/* ---------- 2. 盒模型与元素重置 ---------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-serif);
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-ui);
+}
+
+button {
+  font: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- 3. 文档底色、链接与通用焦点 ---------- */
+
+a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+a:visited {
+  color: var(--color-accent);
+}
+
+/* 键盘焦点：暗红实线轮廓，不依赖背景变化 */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: var(--focus-width) solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* 跳转链接到达正文时保留可感知轮廓 */
+.main-content:focus {
+  outline: var(--focus-width) solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* ---------- 4. 跳至正文链接 ---------- */
+
+/* 默认移出可视区域，仍留在焦点顺序与无障碍树中 */
+.skip-link {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: var(--space-3) var(--space-4);
+  border: var(--focus-width) solid var(--color-accent);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-weight: 700;
+  text-decoration: none;
+  transform: translateY(-150%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+/* ---------- 5. 报头与主导航 ---------- */
+
+.site-header {
+  padding-top: var(--space-5);
+  background: var(--color-paper);
+}
+
+/* 公共版心公式：报头内部与主内容共用 */
+.site-header__inner,
+.main-content {
+  width: calc(100% - var(--page-gutter) - var(--page-gutter));
+  max-width: var(--layout-max);
+  margin-inline: auto;
+}
+
+.site-masthead {
+  margin: 0;
+  padding-block: 1.25rem;
+  border-top: var(--rule-double) double var(--color-rule);
+  border-bottom: var(--rule-double) double var(--color-rule);
+  text-align: center;
+}
+
+.site-masthead__link {
+  display: inline-block;
+  font-size: var(--font-size-masthead);
+  line-height: var(--line-height-tight);
+  font-weight: 700;
+  color: var(--color-ink);
+  text-decoration: none;
+  letter-spacing: 0.16em;
+  /* 与字间距等量，补偿末字符后不可见字距，保持视觉居中 */
+  text-indent: 0.16em;
+}
+
+.site-masthead__link:hover {
+  color: var(--color-accent);
+}
+
+/* 桌面基线隐藏菜单按钮；显示规则由 Task 8/Task 9 处理 */
+.nav-toggle {
+  display: none;
+}
+
+.site-navigation {
+  display: block;
+  border-bottom: var(--rule-thin) solid var(--color-rule);
+}
+
+/* 无脚本状态下主导航同样完整可见 */
+.no-js .site-navigation {
+  display: block;
+}
+
+.site-navigation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.site-navigation__item {
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation__link {
+  display: block;
+  padding-top: 0.875rem;
+  padding-bottom: 0.75rem;
+  border-bottom: var(--focus-width) solid transparent;
+  color: var(--color-ink);
+  font-size: var(--font-size-body);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.site-navigation__link:hover {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-rule);
+}
+
+/* 当前页：颜色 + 字重 + 实线下边线，不单独依赖颜色 */
+.site-navigation__link[aria-current="page"] {
+  color: var(--color-accent);
+  font-weight: 700;
+  border-bottom: var(--focus-width) solid var(--color-accent);
+}
+
+.site-navigation__link[aria-current="page"]:hover {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+/* ---------- 6. 主内容版心与页面标题 ---------- */
+
+.main-content {
+  min-width: 0;
+  padding-top: var(--space-7);
+  padding-bottom: 5rem;
+}
+
+.page-title {
+  max-width: var(--title-max);
+  margin: 0 auto var(--space-4);
+  color: var(--color-ink);
+  font-size: var(--font-size-page-title);
+  line-height: var(--line-height-tight);
+  font-weight: 700;
+  text-align: center;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+/* ---------- 7. 首页介绍区块接口（Task 4 使用） ---------- */
+
+.home-sections {
+  max-width: var(--reading-max);
+  margin: var(--space-7) auto 0;
+}
+
+.home-section {
+  padding-block: var(--space-5);
+  border-top: var(--rule-thin) solid var(--color-rule);
+}
+
+.home-section:last-child {
+  border-bottom: var(--rule-thin) solid var(--color-rule);
+}
+
+.home-section__title {
+  margin: 0 0 var(--space-3);
+  color: var(--color-accent);
+  font-size: var(--font-size-section-title);
+  line-height: var(--line-height-tight);
+  font-weight: 700;
+  text-align: left;
+}
+
+.home-section__text {
+  margin: 0;
+  color: var(--color-ink);
+  font-size: var(--font-size-reading);
+  line-height: var(--line-height-reading);
+}
+
+/* ---------- 8. 新闻文章接口（Task 5—Task 7 使用） ---------- */
+
+.article {
+  min-width: 0;
+}
+
+.article__header {
+  max-width: var(--title-max);
+  margin-inline: auto;
+  padding-bottom: var(--space-5);
+  border-bottom: var(--rule-thin) solid var(--color-rule);
+  text-align: center;
+}
+
+.article__type {
+  margin: 0 0 var(--space-4);
+  color: var(--color-accent);
+  font-size: var(--font-size-small);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-indent: 0.18em;
+}
+
+.article__byline {
+  margin: var(--space-4) 0 0;
+  color: var(--color-muted);
+  font-size: var(--font-size-small);
+  font-weight: 400;
+  text-align: center;
+}
+
+.article__body {
+  max-width: var(--reading-max);
+  margin: var(--space-6) auto 0;
+  color: var(--color-ink);
+  font-size: var(--font-size-reading);
+  line-height: var(--line-height-reading);
+  text-align: justify;
+  text-justify: inter-ideograph;
+  line-break: strict;
+  word-break: normal;
+  hyphens: none;
+}
+
+/* 仅文章正文段落首行缩进，不波及栏目类型、署名与日期 */
+.article__body > p {
+  margin: 0;
+  text-indent: 2em;
+}
+
+.article__body > p + p {
+  margin-top: 0.75em;
+}
+
+.dateline {
+  font-weight: 700;
+}
+
+/* 仅评论页正文末尾的日期使用 */
+.article__date {
+  max-width: var(--reading-max);
+  margin: var(--space-5) auto 0;
+  color: var(--color-ink);
+  font-size: var(--font-size-reading);
+  font-weight: 700;
+  text-align: right;
+  text-indent: 0;
+}

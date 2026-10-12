@@ -1,0 +1,435 @@
+{
+  "measured_at": "2026-10-05 Asia/Taipei",
+  "root": "C:\\Users\\weibo\\Documents\\语文报纸",
+  "article_sources": 6,
+  "tools": {
+    "python": "3.14.3",
+    "python_path": "C:\\Users\\weibo\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "node": "C:\\Program Files\\nodejs\\node.EXE",
+    "node_version": "v26.2.0",
+    "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "protected_files": [
+    {
+      "path": "build/shell.html",
+      "bytes": 1844,
+      "sha256": "8cfbe85b293b56017a1ba1fcf59cb0025a3d155cede629c032d31b7e3bc66dbd"
+    },
+    {
+      "path": "content/_模板.md",
+      "bytes": 637,
+      "sha256": "6264baf96a65d49b5eaf89476422ee5497ed924e006e4521df1b6b4d5b83abeb"
+    },
+    {
+      "path": "content/articles/along-the-north-small-river.md",
+      "bytes": 1149,
+      "sha256": "b39fef3f22f29a690da9516ae3cfe1460e5f087640ad050538f4d1d7bc2eaf9e"
+    },
+    {
+      "path": "content/articles/classroom-screen-upgrade.md",
+      "bytes": 6127,
+      "sha256": "8baf673e6f1bf38a930115073e650020da4e526cfc18d169efc6749e90de2d2a"
+    },
+    {
+      "path": "content/articles/math-to-ai-learning.md",
+      "bytes": 4688,
+      "sha256": "e92c5b9b9a27abcdabd2d480e2cad498f8d52f39c5557c6db97ec626bdc3af71"
+    },
+    {
+      "path": "content/articles/north-of-dam-river.md",
+      "bytes": 1292,
+      "sha256": "5ae84170621bbe28add312dd51ea259b2910b4a6148efe5d026ddc4f326897d0"
+    },
+    {
+      "path": "content/articles/school-course-selection-results.md",
+      "bytes": 553,
+      "sha256": "7d2c74c585a866cd96bd6dd05fbe8b67d6f9bffbff1676f88864526198263f49"
+    },
+    {
+      "path": "content/articles/school-course-volunteer.md",
+      "bytes": 1003,
+      "sha256": "890232940a6c5de4fc2eadc56bd0b2e2f238ef3c53de50bd4c9ff4dae1dd949e"
+    },
+    {
+      "path": "content/columns.md",
+      "bytes": 123,
+      "sha256": "c97465a56e6dbd02289d5c792ef8991c0290bc2f62fbac619b009c9c3eccf2a4"
+    },
+    {
+      "path": "deploy/_headers",
+      "bytes": 518,
+      "sha256": "b0273f2ff60c2c95d24899b8bd8a72ae050d233bc38e8b9903a28421d6f9ba7a"
+    },
+    {
+      "path": "Materials/新闻消息.docx",
+      "bytes": 14742,
+      "sha256": "de10b575399e0563430f2f255c956b179c9978c087897a24910ad70d6a50f6fc"
+    },
+    {
+      "path": "Materials/新闻评价.docx",
+      "bytes": 20014,
+      "sha256": "8e50cfc89287035163d5fe95c8b1cee20a5aa405e9d04ec358fb5c9312c3827c"
+    },
+    {
+      "path": "Materials/新闻通讯.docx",
+      "bytes": 17155,
+      "sha256": "0c5b35256b7271acfb2f49aec146288b404ed49c376ac2c8b3f6246b38f894a4"
+    },
+    {
+      "path": "qa/_qa_task13/baseline/hashes_before.txt",
+      "bytes": 678,
+      "sha256": "6f2a032a23b1af5ba99a499ea07a7089c624dc871c76f1614cf8604e144797b9"
+    },
+    {
+      "path": "qa/_qa_task13/baseline/index.html",
+      "bytes": 2629,
+      "sha256": "971e57a5f85bae99c389e58d7a132e96c02388432de997c4df3d4af495e6416a"
+    },
+    {
+      "path": "qa/_qa_task13/baseline/news-commentary.html",
+      "bytes": 8486,
+      "sha256": "a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52"
+    },
+    {
+      "path": "qa/_qa_task13/baseline/news-feature.html",
+      "bytes": 6962,
+      "sha256": "73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5"
+    },
+    {
+      "path": "qa/_qa_task13/baseline/news-message.html",
+      "bytes": 3011,
+      "sha256": "66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8"
+    },
+    {
+      "path": "qa/_qa_task13/baseline/script.js",
+      "bytes": 2204,
+      "sha256": "abb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666"
+    },
+    {
+      "path": "qa/_qa_task13/baseline/styles.css",
+      "bytes": 12401,
+      "sha256": "2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad418ba1"
+    },
+    {
+      "path": "qa/_qa_task13/expected-spec.json",
+      "bytes": 23039,
+      "sha256": "e1018e2e3b87ffd77c7d86b27cb18e477184847e099d787cab88e71b6569eab5"
+    },
+    {
+      "path": "qa/_qa_task13/main_slices/news-commentary.main-interior.html",
+      "bytes": 6735,
+      "sha256": "0a10c97742f8ee50033ee81ea62515aecfd0c8d53ef4b0e9acccf14fcb2b2a17"
+    },
+    {
+      "path": "qa/_qa_task13/main_slices/news-feature.main-interior.html",
+      "bytes": 5224,
+      "sha256": "f3d6517a076b10a39455f6e15ef89a9b094d1dd1c7a937ddab1ce45576b86834"
+    },
+    {
+      "path": "qa/_qa_task13/main_slices/news-message.main-interior.html",
+      "bytes": 1269,
+      "sha256": "4b941f8e6b101558919f9877dce152373999a35fe0fc7f8a11302931d13c212a"
+    },
+    {
+      "path": "qa/_qa_task13/main_slices/tags.txt",
+      "bytes": 375,
+      "sha256": "c8ac74ad36e165d193796b231b38eb61ee91b4cc2d16bb4465ea280e02b084f8"
+    },
+    {
+      "path": "qa/_qa_task14/out/article-classroom-screen-upgrade.html",
+      "bytes": 8486,
+      "sha256": "a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52"
+    },
+    {
+      "path": "qa/_qa_task14/out/article-math-to-ai-learning.html",
+      "bytes": 6962,
+      "sha256": "73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5"
+    },
+    {
+      "path": "qa/_qa_task14/out/article-school-course-volunteer.html",
+      "bytes": 3011,
+      "sha256": "66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8"
+    },
+    {
+      "path": "qa/_qa_task14/out/index.html",
+      "bytes": 3635,
+      "sha256": "475e02f8bbf195ca4be23b8c71807962e1edbdaeef6ab45e1782c2d184a78f91"
+    },
+    {
+      "path": "qa/_qa_task14/out/news-commentary.html",
+      "bytes": 2067,
+      "sha256": "76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8"
+    },
+    {
+      "path": "qa/_qa_task14/out/news-feature.html",
+      "bytes": 2049,
+      "sha256": "485a8750d996bcba6d24877c0816dcff108d4cd8eb3cc33114e1bc7dcb20e68c"
+    },
+    {
+      "path": "qa/_qa_task14/out/news-message.html",
+      "bytes": 2057,
+      "sha256": "3a267591a4a976ef3848a415e16848cbcb577b327ff4c61e77ed484727b48637"
+    },
+    {
+      "path": "Results/404.html",
+      "bytes": 2192,
+      "sha256": "6522089d2c0d1a80ca53fb22a376f40e78fc30fb6d2ac005885f92a0cc30989f"
+    },
+    {
+      "path": "Results/article-along-the-north-small-river.html",
+      "bytes": 3269,
+      "sha256": "c7316dd329a00a365b30893d960ec347254dbed6f01fa39ba54265b6027ce4e4"
+    },
+    {
+      "path": "Results/article-classroom-screen-upgrade.html",
+      "bytes": 8626,
+      "sha256": "e75ff133866912dbf6d0efbcff1264786cd2ac6da9b8f1503671835007b9bc89"
+    },
+    {
+      "path": "Results/article-math-to-ai-learning.html",
+      "bytes": 7102,
+      "sha256": "69b146f874d90ba39354acaf16aea008e09903c12665bece002dd34ba3e1de2c"
+    },
+    {
+      "path": "Results/article-north-of-dam-river.html",
+      "bytes": 3432,
+      "sha256": "2739b2cfc0455c38b9a25ea8661299d4f5a72c22d1f760ef5fd9d8580ddf5cc2"
+    },
+    {
+      "path": "Results/article-school-course-selection-results.html",
+      "bytes": 2648,
+      "sha256": "a4ac377ee8f822dd88a6391f95f7f5dd72220651f0aea494c49e53e0259f820a"
+    },
+    {
+      "path": "Results/article-school-course-volunteer.html",
+      "bytes": 3151,
+      "sha256": "9541e54fae113100c16b1dc8a678bb05793daf1a5e7994002ca938348d903f02"
+    },
+    {
+      "path": "Results/news-commentary.html",
+      "bytes": 2207,
+      "sha256": "52fa8647be8a58d775f7b7e03e348eebf31ba6c1b07d7a920b9d7df3600903b1"
+    },
+    {
+      "path": "Results/news-feature.html",
+      "bytes": 2689,
+      "sha256": "8fa7c99d3d3c9901e1b401e964bd79087c70b0963e8cd67c0114d167343a0ec8"
+    },
+    {
+      "path": "Results/news-message.html",
+      "bytes": 2460,
+      "sha256": "892ef97d71c1c1df28612a3caf1878f024ca9e2c4731c8309a6e4b5de642b095"
+    },
+    {
+      "path": "Results/script.js",
+      "bytes": 2204,
+      "sha256": "abb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666"
+    }
+  ],
+  "mutable_source_snapshot_files": [
+    {
+      "path": "build/build.py",
+      "bytes": 48084,
+      "sha256": "07ce39ef82b9d0af2e08034d8297a11dc462ea71bef9e501f55273c87ff6af3a"
+    },
+    {
+      "path": "build/pack.py",
+      "bytes": 33126,
+      "sha256": "fcf2d572fb2fa772a8c57213899c55ed9b3e8028a789de3d9e8c2fda49437cb4"
+    },
+    {
+      "path": "build/partials/home-intro.html",
+      "bytes": 823,
+      "sha256": "622d8cce02633b64f5fe35034c24764f90727a28416213e798bfeb6bf0a13646"
+    },
+    {
+      "path": "deploy/manifest.json",
+      "bytes": 3860,
+      "sha256": "fee87a7b7577dc71367fc2bad44a3dcfc3c6a382e72ad5b10097463356d7a547"
+    },
+    {
+      "path": "deploy/site.zip",
+      "bytes": 24314,
+      "sha256": "72870029e94964f79d57ec5f7ce830004b180d2e8460662ecd96b8765f5821c8"
+    },
+    {
+      "path": "deploy/UPLOAD.md",
+      "bytes": 3617,
+      "sha256": "4d68dd825172174051d2c35e1b4f6f8e2b1aba2d045c4adfcb5c830705015b97"
+    },
+    {
+      "path": "plan/Task0-总方案与任务索引.md",
+      "bytes": 52695,
+      "sha256": "381a436a04adc53a70b29d89e70b3cdf414a980e2e50b4933517426b9e73ae1c"
+    },
+    {
+      "path": "plan/Task12-归档总方案与全局合同修订.md",
+      "bytes": 106612,
+      "sha256": "d1b763c6d9af34b58e71812434f239ed31ea8fc4a16d0a776a737ff5fb82ff30"
+    },
+    {
+      "path": "plan/Task14-实现构建器内核.md",
+      "bytes": 52686,
+      "sha256": "cc7fa964ba4f7076023af74764180a66208d7a63d294d2027c4b572b296e0b32"
+    },
+    {
+      "path": "plan/Task17-重建打包与发布产物.md",
+      "bytes": 34019,
+      "sha256": "9d761208d509f5bc00c0d160a2e3fe5ba60a8d210aa19782a940b67c0e4ae016"
+    },
+    {
+      "path": "plan/Task18-核验闸门重构.md",
+      "bytes": 49698,
+      "sha256": "35ad504b151f667c8dd586db0f2339935d10f7fd89354f544a016be30ddbffa0"
+    },
+    {
+      "path": "plan/Task19-浏览器回归与整站验收.md",
+      "bytes": 36660,
+      "sha256": "99b6426b76c5254eae3e2b318b32fe43511ff8f23a2b8662950763cc65f7c541"
+    },
+    {
+      "path": "plan/Task4-完成首页内容.md",
+      "bytes": 28403,
+      "sha256": "7442bffd463ee67e18ce3911f7b78d238024501dcfede91b8decefb394f91aa6"
+    },
+    {
+      "path": "qa/_qa_task18/probe_lib18.mjs",
+      "bytes": 10847,
+      "sha256": "8d87d99db635105475e278112455dd6db2c4b49ce1f580edf6cf077ca2ba3150"
+    },
+    {
+      "path": "qa/_qa_task18/probe_task18.mjs",
+      "bytes": 2522,
+      "sha256": "249809758e2132eae25fa848f8314252efc6b2662b205919ca25d306a5805ffb"
+    },
+    {
+      "path": "qa/_qa_task18/verify_task18.mjs",
+      "bytes": 135990,
+      "sha256": "b1fb929c7ea0506dfe67070d00260cb5956edbbe275a1b5ceaaa024e58e16fea"
+    },
+    {
+      "path": "qa/_qa_task19/cdp_regression19.mjs",
+      "bytes": 35585,
+      "sha256": "2c45b6d306e5d402fa8b5208df114635092ec9d5dcfc6c1396aa9f160673a039"
+    },
+    {
+      "path": "qa/_qa_task19/consistency19.mjs",
+      "bytes": 3277,
+      "sha256": "68a18db3943a345e4884efd3167b5ba177ad160b334e98d16309569e9599448f"
+    },
+    {
+      "path": "qa/_qa_task19/contract19.mjs",
+      "bytes": 19835,
+      "sha256": "ed20af2f59335f6cef012223a78cc799f9cea66903f364b122bae09258f37961"
+    },
+    {
+      "path": "qa/_qa_task19/online_check.mjs",
+      "bytes": 21688,
+      "sha256": "9079ae88fc639653e998c724009768524109bf06bf6160f0919e7aa4d8d64657"
+    },
+    {
+      "path": "Results/index.html",
+      "bytes": 3631,
+      "sha256": "14b82801fc5c1a965e94fd3d9956bd54ae41ac61f996441b5f0a68f66973dd40"
+    },
+    {
+      "path": "Results/styles.css",
+      "bytes": 15340,
+      "sha256": "de2d9022625d6c6a6c2833c09ad4cccd73dd0582689d018374ed09f68f3f5cc4"
+    },
+    {
+      "path": "skills/skill-添加新文章.md",
+      "bytes": 17919,
+      "sha256": "f41b1f2340c1c2c64b6ac13d82183e94a80275dee47d00e33454970ae11b2b55"
+    }
+  ],
+  "results_at_start": [
+    {
+      "path": "Results/404.html",
+      "bytes": 2051,
+      "sha256": "d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb"
+    },
+    {
+      "path": "Results/article-along-the-north-small-river.html",
+      "bytes": 3129,
+      "sha256": "28a18f3a37e0577d1527aa19d925b3a0b6cd2d959d4166a7d01b0bbe583e2617"
+    },
+    {
+      "path": "Results/article-classroom-screen-upgrade.html",
+      "bytes": 8486,
+      "sha256": "a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52"
+    },
+    {
+      "path": "Results/article-math-to-ai-learning.html",
+      "bytes": 6962,
+      "sha256": "73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5"
+    },
+    {
+      "path": "Results/article-north-of-dam-river.html",
+      "bytes": 3292,
+      "sha256": "2b6d2d5d51f8247a087906c2ea6c180fd052268db75379c5bed97e09e90acbb6"
+    },
+    {
+      "path": "Results/article-school-course-selection-results.html",
+      "bytes": 2508,
+      "sha256": "58da6cff5b2411403b6b03317a1061b391647b0768459a015f0000d1afa4de2f"
+    },
+    {
+      "path": "Results/article-school-course-volunteer.html",
+      "bytes": 3011,
+      "sha256": "66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8"
+    },
+    {
+      "path": "Results/index.html",
+      "bytes": 3631,
+      "sha256": "14b82801fc5c1a965e94fd3d9956bd54ae41ac61f996441b5f0a68f66973dd40"
+    },
+    {
+      "path": "Results/news-commentary.html",
+      "bytes": 2067,
+      "sha256": "76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8"
+    },
+    {
+      "path": "Results/news-feature.html",
+      "bytes": 2549,
+      "sha256": "203a111b51988e1f91ef9dbeefab2a1a54f1aaf26efc192cfbe6aa5965373f4c"
+    },
+    {
+      "path": "Results/news-message.html",
+      "bytes": 2320,
+      "sha256": "2e84e8001fa4bb1a95aeaa3a10d14ae0c6df6e8f98e54f2fa0a25ac0a2399bf3"
+    },
+    {
+      "path": "Results/script.js",
+      "bytes": 2204,
+      "sha256": "abb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666"
+    },
+    {
+      "path": "Results/styles.css",
+      "bytes": 15340,
+      "sha256": "de2d9022625d6c6a6c2833c09ad4cccd73dd0582689d018374ed09f68f3f5cc4"
+    }
+  ],
+  "deploy_at_start": [
+    {
+      "path": "deploy/manifest.json",
+      "bytes": 3860,
+      "sha256": "fee87a7b7577dc71367fc2bad44a3dcfc3c6a382e72ad5b10097463356d7a547"
+    },
+    {
+      "path": "deploy/site.zip",
+      "bytes": 24314,
+      "sha256": "72870029e94964f79d57ec5f7ce830004b180d2e8460662ecd96b8765f5821c8"
+    },
+    {
+      "path": "deploy/UPLOAD.md",
+      "bytes": 3617,
+      "sha256": "4d68dd825172174051d2c35e1b4f6f8e2b1aba2d045c4adfcb5c830705015b97"
+    },
+    {
+      "path": "deploy/_headers",
+      "bytes": 518,
+      "sha256": "b0273f2ff60c2c95d24899b8bd8a72ae050d233bc38e8b9903a28421d6f9ba7a"
+    }
+  ]
+}

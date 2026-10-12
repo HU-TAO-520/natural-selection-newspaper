@@ -1,0 +1,11 @@
+# Task 15.8 回滚演练记录（不触碰真实 Results/）
+演练目录：_qa_task15/rollback_drill/Results（从真实 Results/ 九文件复制）
+执行依据：_qa_task15/rollback.md 第 1–4 步（cp 六文件 + rm 三详情页 + sha256 对表）
+
+副本初始 = 真实 Results/ 九文件哈希逐项相同: True
+回滚前 verify_pre_state == 切换前状态: False（预期，否则演练无意义）
+回滚后六文件与表 1 逐项相等、三详情页已删除、无子目录: True
+回滚后校验说明: 无异常
+真实 Results/ 未被触碰: True
+
+结论：rollback.md 可被他人照做，路径与文件名均实测有效。

@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>probe</title>
+  <script src="expected.js"></script>
+</head>
+<body>
+  <div id="out">running</div>
+  <script>
+    const q = new URLSearchParams(location.search);
+    const target = q.get("t");
+    const width = parseInt(q.get("w") || "1024", 10);
+    const E = window.EXPECT;
+    const results = [];
+    const txt = (el) => (el ? el.textContent : null);
+    function check(name, pass, detail) {
+      results.push({ name, pass: !!pass, detail: detail === undefined ? "" : String(detail).slice(0, 220) });
+    }
+    const order = () => [E.type, E.title, E.byline, ...E.body];
+    const norm = (a) => a.map((s) => s.trim());
+
+    const frame = document.createElement("iframe");
+    frame.style.cssText = "border:0;width:100%;height:900px";
+    if (q.get("nojs") === "1") frame.setAttribute("sandbox", "allow-same-origin");
+    frame.src = target + (q.get("cache") || "");
+    const outer = document.createElement("div");
+    outer.style.cssText = "position:fixed;left:0;top:0;width:" + width + "px;height:10px;overflow:hidden";
+    const inner = document.createElement("div");
+    inner.style.cssText = "width:" + width + "px;height:10px;overflow-x:scroll";
+    outer.appendChild(inner);
+    document.body.append(outer, frame);
+    const bar = inner.offsetWidth - inner.clientWidth;
+
+    frame.onload = () => {
+      try {
+        const d = frame.contentDocument, w = frame.contentWindow;
+        const wantW = width + (w.innerWidth - d.documentElement.clientWidth) + bar;
+        frame.style.width = wantW + "px";
+        const r = () => d.documentElement.clientWidth;
+        const wait = (n, cb) => (n <= 0 || r() === width ? cb()
+          : (frame.style.width = (wantW + (width - r())) + "px", setTimeout(() => wait(n - 1, cb), 40)));
+        wait(15, () => run(d, w));
+      } catch (e) {
+        check("probe 可访问 iframe", false, e.message);
+        finish();
+      }
+    };
+
+    function run(d, w) {
+      check("布局视口 == 目标宽度", d.documentElement.clientWidth === width,
+        d.documentElement.clientWidth + " vs " + width);
+      check("文档加载完成", /^(complete|interactive)$/.test(d.readyState), d.readyState);
+      check("离线 file:// 协议", target.startsWith("file:///"), target.slice(0, 40));
+
+      const paras = Array.from(d.querySelectorAll(".article__body > p"), (p) => p.textContent);
+      check("浏览器 .article__body > p 数量 23", paras.length === 23, paras.length);
+      check("浏览器 textContent 与 Task1 数组逐字符相等",
+        JSON.stringify(paras) === JSON.stringify(E.body),
+        (paras.findIndex((p, i) => p !== E.body[i]) + 1) + " 起首个不匹配");
+      check("type 文本", txt(d.querySelector(".article__type")) === E.type, txt(d.querySelector(".article__type")));
+      check("h1 文本", txt(d.querySelector("h1.page-title")) === E.title, txt(d.querySelector("h1.page-title")));
+      check("byline 文本", txt(d.querySelector(".article__byline")) === E.byline, txt(d.querySelector(".article__byline")));
+      check("唯一 main / h1 / aria-current",
+        d.querySelectorAll("main").length === 1 && d.querySelectorAll("h1").length === 1 &&
+        d.querySelectorAll('[aria-current="page"]').length === 1,
+        d.querySelectorAll("main").length + "/" + d.querySelectorAll("h1").length + "/" +
+        d.querySelectorAll('[aria-current="page"]').length);
+      check("当前导航项是 新闻通讯",
+        txt(d.querySelector('[aria-current="page"]')) === "新闻通讯", txt(d.querySelector('[aria-current="page"]')));
+      check("文章结构 header+div 两个子元素",
+        d.querySelectorAll(".article > *").length === 2 &&
+        d.querySelector(".article").firstElementChild.className === "article__header",
+        Array.from(d.querySelectorAll(".article > *"), (n) => n.tagName + "." + n.className).join(","));
+      check("文章头三个子元素顺序",
+        Array.from(d.querySelectorAll(".article__header > *"), (n) => n.tagName + "." + n.className).join(",") ===
+        "P.article__type,H1.page-title,P.article__byline",
+        Array.from(d.querySelectorAll(".article__header > *"), (n) => n.tagName + "." + n.className).join(","));
+
+      const p0 = d.querySelector(".article__body > p");
+      const strong = p0 && p0.querySelector("strong.dateline");
+      check("dateline textContent", strong && strong.textContent === E.dateline, strong && strong.textContent);
+      const node = strong && strong.nextSibling;
+      check("strong 后紧跟文本节点且首字符 U+0020",
+        node && node.nodeType === 3 && node.data.charCodeAt(0) === 0x20,
+        node && node.nodeType + "/" + (node.data ? node.data.charCodeAt(0) : "-"));
+      check("电头后第二个字符不是空格且是“上”",
+        node && node.data.charCodeAt(1) === 0x4e0a, node && JSON.stringify(node.data.slice(0, 3)));
+      check("F01 全段仅一个 U+0020", (paras[0].match(/ /g) || []).length === 1, (paras[0].match(/ /g) || []).length);
+      check("全页正文仅一个 U+0020", paras.join("").split(" ").length - 1 === 1, paras.join("").split(" ").length - 1);
+      check("无 &nbsp; 生成的 U+00A0", !paras.some((p) => p.includes("\u00a0")));
+      check("无零宽/软连字符", !/[\u200b-\u200f\u00ad]/.test(paras.join("")));
+      check("正文无 <br>", !d.querySelector(".article__body br"));
+      check("正文段落无子元素（F02 起）",
+        paras.slice(1).every((p, i) => d.querySelectorAll(".article__body > p")[i + 1].children.length === 0));
+      check("F01 无前导空白", p0 && !/^\s/.test(p0.textContent), p0 && JSON.stringify(p0.textContent.slice(0, 3)));
+
+      const AI = paras.join("").match(/AI/g) || [];
+      check("渲染文本 AI = 19", AI.length === 19, AI.length);
+      check("双破折号 —— 保留一处", (paras.join("").match(/\u2014\u2014/g) || []).length === 1);
+      check("F05 仍为“在她看来”", paras[4].startsWith("在她看来"), paras[4].slice(0, 6));
+      check("F02/F10/F12/F20 仍为“他”",
+        /他认为/.test(paras[1]) && /仍由他自己完成/.test(paras[9]) &&
+        /不过，他并不赞成/.test(paras[11]) && /他举了一个简单的例子/.test(paras[19]));
+      check("F04 嵌套引号渲染一致",
+        paras[3] === "\u201c如果想提高自己的\u2018下限\u2019，就要做好改错，认真完成作业；如果想进一步提高自己的\u2018上限\u2019，还需要进行有针对性的补充。\u201d",
+        JSON.stringify(paras[3].slice(0, 14)));
+
+      const visible = d.querySelector("main").innerText.split("\n").map((s) => s.trim()).filter(Boolean);
+      check("DOM/渲染阅读顺序 = type,title,byline,F01..F23",
+        JSON.stringify(visible) === JSON.stringify(norm(order())), JSON.stringify(visible).slice(0, 160));
+      check("渲染段落数 = 26 行可见文本", visible.length === 26, visible.length);
+      check("主导航四项可访问",
+        Array.from(d.querySelectorAll("#site-navigation a"), (a) => txt(a)).join(",") === "首页,新闻消息,新闻通讯,新闻评论",
+        Array.from(d.querySelectorAll("#site-navigation a"), (a) => txt(a)).join(","));
+      check("无横向溢出", d.documentElement.scrollWidth <= d.documentElement.clientWidth + 1,
+        d.documentElement.scrollWidth + " > " + d.documentElement.clientWidth);
+      check("文章区可见宽度为正", d.querySelector(".article__body").getBoundingClientRect().width > 200,
+        d.querySelector(".article__body").getBoundingClientRect().width);
+      check("文章内容无 <a> 链接", d.querySelectorAll(".article a").length === 0);
+      check("无 footer/aside", !d.querySelector("footer") && !d.querySelector("aside"));
+      check("禁 CSS/JS 相关节点不存在", !d.querySelector(".article [hidden], .article [aria-hidden], .article [style]"));
+      check("跳至正文链接是首个可聚焦元素",
+        Array.from(d.querySelectorAll("body a, body button")).shift() === d.querySelector(".skip-link") ||
+        d.querySelector("body a").className.includes("skip-link"),
+        d.querySelector("body a") && d.querySelector("body a").className);
+
+      if (q.get("nocss") === "1") {
+        Array.from(d.styleSheets).forEach((s) => { s.disabled = true; });
+        const v2 = d.querySelector("main").innerText.split("\n").map((s) => s.trim()).filter(Boolean);
+        check("[禁CSS] 阅读顺序不变", JSON.stringify(v2) === JSON.stringify(norm(order())),
+          JSON.stringify(v2).slice(0, 160));
+        check("[禁CSS] 26 行完整可读", v2.length === 26, v2.length);
+        check("[禁CSS] 23 段 textContent 仍逐字符相等",
+          JSON.stringify(Array.from(d.querySelectorAll(".article__body > p"), (p) => p.textContent)) ===
+          JSON.stringify(E.body));
+        check("[禁CSS] 导航仍可见", d.querySelectorAll("#site-navigation a").length === 4);
+        check("[禁CSS] 样式表确已禁用", Array.from(d.styleSheets).every((s) => s.disabled));
+      }
+      if (q.get("nojs") === "1") {
+        check("[禁JS] 23 段正文仍完整", JSON.stringify(paras) === JSON.stringify(E.body), paras.length);
+        check("[禁JS] 正文为静态标记而非脚本注入",
+          d.querySelector(".article__body > p").innerHTML.includes('<strong class="dateline">') &&
+          E.body.slice(1).every((t, i) =>
+            d.querySelectorAll(".article__body > p")[i + 1].innerHTML.includes(t.slice(0, 24))) &&
+          !d.querySelector(".article__body script, .article__body template, .article__body noscript"),
+          d.querySelectorAll(".article__body script,template,noscript").length);
+        check("[禁JS] 沙箱内无脚本执行痕迹", !w.__task6Ran);
+        check("[禁JS] 文章 DOM 结构与有脚本一致",
+          d.querySelectorAll(".article__body > p").length === 23 && d.querySelectorAll("article").length === 1);
+      }
+      finish();
+    }
+    function finish() {
+      document.title = "done";
+      document.getElementById("out").textContent = "PROBE" + encodeURIComponent(JSON.stringify(results));
+    }
+    setTimeout(() => { if (document.title !== "done") { check("probe 超时", false, ""); finish(); } }, 18000);
+  </script>
+</body>
+</html>

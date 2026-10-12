@@ -1,0 +1,92 @@
+[PASS] article-school-course-volunteer.html 浏览器逐段 textContent == extracted_baseline.json（4 段 / 288 字符）
+[PASS] article-school-course-volunteer.html <title> == Task1 标题｜自然选择号，h1 == 标题主体 — "我校启动校本课程志愿填报｜自然选择号" / "我校启动校本课程志愿填报"
+[PASS] article-school-course-volunteer.html aria-current 落在所属栏目 news-message.html — ["news-message.html"]
+[PASS] article-math-to-ai-learning.html 浏览器逐段 textContent == extracted_baseline.json（23 段 / 1529 字符）
+[PASS] article-math-to-ai-learning.html <title> == Task1 标题｜自然选择号，h1 == 标题主体 — "从数学题到AI时代的学习｜自然选择号" / "从数学题到AI时代的学习"
+[PASS] article-math-to-ai-learning.html aria-current 落在所属栏目 news-feature.html — ["news-feature.html"]
+[PASS] article-classroom-screen-upgrade.html 浏览器逐段 textContent == extracted_baseline.json（29 段 / 2038 字符）
+[PASS] article-classroom-screen-upgrade.html <title> == Task1 标题｜自然选择号，h1 == 标题主体 — "设备升级了，使用门槛也该降下来｜自然选择号" / "设备升级了，使用门槛也该降下来"
+[PASS] article-classroom-screen-upgrade.html aria-current 落在所属栏目 news-commentary.html — ["news-commentary.html"]
+[PASS] 评论详情页结尾行 p.article__date 唯一且为（自然选择号9月18日） — ["（自然选择号9月18日）"]
+[PASS] 消息与通讯详情页首段内层为 strong.dateline — strong.dateline / strong.dateline
+[PASS] 消息/通讯详情页无 article__date 节点
+[PASS] index.html 恰一个 <nav> 且恰一个 aria-current
+[PASS] index.html 导航四条文字与次序不变 — index.html|news-message.html|news-feature.html|news-commentary.html
+[PASS] index.html 正文完整可读（body 文本 > 200 字符） — len=654
+[PASS] news-message.html 恰一个 <nav> 且恰一个 aria-current
+[PASS] news-message.html 导航四条文字与次序不变 — index.html|news-message.html|news-feature.html|news-commentary.html
+[PASS] news-message.html 正文完整可读（body 文本 > 200 字符） — len=344
+[PASS] news-feature.html 恰一个 <nav> 且恰一个 aria-current
+[PASS] news-feature.html 导航四条文字与次序不变 — index.html|news-message.html|news-feature.html|news-commentary.html
+[PASS] news-feature.html 正文完整可读（body 文本 > 200 字符） — len=344
+[PASS] news-commentary.html 恰一个 <nav> 且恰一个 aria-current
+[PASS] news-commentary.html 导航四条文字与次序不变 — index.html|news-message.html|news-feature.html|news-commentary.html
+[PASS] news-commentary.html 正文完整可读（body 文本 > 200 字符） — len=347
+[PASS] article-school-course-volunteer.html 恰一个 <nav> 且恰一个 aria-current
+[PASS] article-school-course-volunteer.html 导航四条文字与次序不变 — index.html|news-message.html|news-feature.html|news-commentary.html
+[PASS] article-school-course-volunteer.html 正文完整可读（body 文本 > 200 字符） — len=694
+[PASS] article-math-to-ai-learning.html 恰一个 <nav> 且恰一个 aria-current
+[PASS] article-math-to-ai-learning.html 导航四条文字与次序不变 — index.html|news-message.html|news-feature.html|news-commentary.html
+[PASS] article-math-to-ai-learning.html 正文完整可读（body 文本 > 200 字符） — len=2106
+[PASS] article-classroom-screen-upgrade.html 恰一个 <nav> 且恰一个 aria-current
+[PASS] article-classroom-screen-upgrade.html 导航四条文字与次序不变 — index.html|news-message.html|news-feature.html|news-commentary.html
+[PASS] article-classroom-screen-upgrade.html 正文完整可读（body 文本 > 200 字符） — len=2692
+[PASS] 首页 #main-content 浏览器侧三个直接子元素（h1→home-sections→home-latest） — ["h1.page-title","div.home-sections","div.home-latest"]
+[PASS] 首页最新区三条，每条 entry+date 双 span，次序消息→通讯→评论 — ["我校启动校本课程志愿填报9月18日","从数学题到AI时代的学习9月17日","设备升级了，使用门槛也该降下来9月18日"]
+[PASS] news-message.html 列表页浏览器侧恰一个条目且无正文段落 — ["h1.page-title","ul.entry-list"] 条目 ["我校启动校本课程志愿填报9月18日"]
+[PASS] news-feature.html 列表页浏览器侧恰一个条目且无正文段落 — ["h1.page-title","ul.entry-list"] 条目 ["从数学题到AI时代的学习9月17日"]
+[PASS] news-commentary.html 列表页浏览器侧恰一个条目且无正文段落 — ["h1.page-title","ul.entry-list"] 条目 ["设备升级了，使用门槛也该降下来9月18日"]
+[PASS] 禁CSS index.html 样式表已全部 disabled — [{"href":"styles.css","disabled":true,"rules":45}]
+[PASS] 禁CSS index.html DOM 顺序与文本与带样式时完全一致（结构不依赖 CSS）
+[PASS] 禁CSS index.html 链接可点：导航四条均为非零高度可点击盒，且指向真实文件 — index.html@24px, news-message.html@24px, news-feature.html@24px, news-commentary.html@24px
+[PASS] 禁CSS index.html 生成区链接同样可点（3 条） — article-school-course-volunteer.html@24px, article-math-to-ai-learning.html@24px, article-classroom-screen-upgrade.html@24px
+[PASS] 禁CSS news-message.html 样式表已全部 disabled — [{"href":"styles.css","disabled":true,"rules":45}]
+[PASS] 禁CSS news-message.html DOM 顺序与文本与带样式时完全一致（结构不依赖 CSS）
+[PASS] 禁CSS news-message.html 链接可点：导航四条均为非零高度可点击盒，且指向真实文件 — index.html@24px, news-message.html@24px, news-feature.html@24px, news-commentary.html@24px
+[PASS] 禁CSS news-message.html 生成区链接同样可点（1 条） — article-school-course-volunteer.html@24px
+[PASS] 禁CSS news-feature.html 样式表已全部 disabled — [{"href":"styles.css","disabled":true,"rules":45}]
+[PASS] 禁CSS news-feature.html DOM 顺序与文本与带样式时完全一致（结构不依赖 CSS）
+[PASS] 禁CSS news-feature.html 链接可点：导航四条均为非零高度可点击盒，且指向真实文件 — index.html@24px, news-message.html@24px, news-feature.html@24px, news-commentary.html@24px
+[PASS] 禁CSS news-feature.html 生成区链接同样可点（1 条） — article-math-to-ai-learning.html@24px
+[PASS] 禁CSS news-commentary.html 样式表已全部 disabled — [{"href":"styles.css","disabled":true,"rules":45}]
+[PASS] 禁CSS news-commentary.html DOM 顺序与文本与带样式时完全一致（结构不依赖 CSS）
+[PASS] 禁CSS news-commentary.html 链接可点：导航四条均为非零高度可点击盒，且指向真实文件 — index.html@24px, news-message.html@24px, news-feature.html@24px, news-commentary.html@24px
+[PASS] 禁CSS news-commentary.html 生成区链接同样可点（1 条） — article-classroom-screen-upgrade.html@24px
+[PASS] 禁CSS article-school-course-volunteer.html 样式表已全部 disabled — [{"href":"styles.css","disabled":true,"rules":45}]
+[PASS] 禁CSS article-school-course-volunteer.html DOM 顺序与文本与带样式时完全一致（结构不依赖 CSS）
+[PASS] 禁CSS article-school-course-volunteer.html 链接可点：导航四条均为非零高度可点击盒，且指向真实文件 — index.html@24px, news-message.html@24px, news-feature.html@24px, news-commentary.html@24px
+[PASS] 禁CSS article-school-course-volunteer.html 生成区链接同样可点（0 条）
+[PASS] 禁CSS article-math-to-ai-learning.html 样式表已全部 disabled — [{"href":"styles.css","disabled":true,"rules":45}]
+[PASS] 禁CSS article-math-to-ai-learning.html DOM 顺序与文本与带样式时完全一致（结构不依赖 CSS）
+[PASS] 禁CSS article-math-to-ai-learning.html 链接可点：导航四条均为非零高度可点击盒，且指向真实文件 — index.html@24px, news-message.html@24px, news-feature.html@24px, news-commentary.html@24px
+[PASS] 禁CSS article-math-to-ai-learning.html 生成区链接同样可点（0 条）
+[PASS] 禁CSS article-classroom-screen-upgrade.html 样式表已全部 disabled — [{"href":"styles.css","disabled":true,"rules":45}]
+[PASS] 禁CSS article-classroom-screen-upgrade.html DOM 顺序与文本与带样式时完全一致（结构不依赖 CSS）
+[PASS] 禁CSS article-classroom-screen-upgrade.html 链接可点：导航四条均为非零高度可点击盒，且指向真实文件 — index.html@24px, news-message.html@24px, news-feature.html@24px, news-commentary.html@24px
+[PASS] 禁CSS article-classroom-screen-upgrade.html 生成区链接同样可点（0 条）
+[PASS] 禁JS index.html 导航常显（#site-navigation 可见，display=block） — navVisible=true toggleVisible=false
+[PASS] 禁JS index.html 正文完整（body 文本与正常模式等长） — 654 vs 654
+[PASS] 禁JS index.html 根元素保持 no-js（脚本未运行） — class="no-js"
+[PASS] 禁JS news-message.html 导航常显（#site-navigation 可见，display=block） — navVisible=true toggleVisible=false
+[PASS] 禁JS news-message.html 正文完整（body 文本与正常模式等长） — 344 vs 344
+[PASS] 禁JS news-message.html 根元素保持 no-js（脚本未运行） — class="no-js"
+[PASS] 禁JS news-feature.html 导航常显（#site-navigation 可见，display=block） — navVisible=true toggleVisible=false
+[PASS] 禁JS news-feature.html 正文完整（body 文本与正常模式等长） — 344 vs 344
+[PASS] 禁JS news-feature.html 根元素保持 no-js（脚本未运行） — class="no-js"
+[PASS] 禁JS news-commentary.html 导航常显（#site-navigation 可见，display=block） — navVisible=true toggleVisible=false
+[PASS] 禁JS news-commentary.html 正文完整（body 文本与正常模式等长） — 347 vs 347
+[PASS] 禁JS news-commentary.html 根元素保持 no-js（脚本未运行） — class="no-js"
+[PASS] 禁JS article-school-course-volunteer.html 导航常显（#site-navigation 可见，display=block） — navVisible=true toggleVisible=false
+[PASS] 禁JS article-school-course-volunteer.html 正文完整（body 文本与正常模式等长） — 694 vs 694
+[PASS] 禁JS article-school-course-volunteer.html 根元素保持 no-js（脚本未运行） — class="no-js"
+[PASS] 禁JS article-math-to-ai-learning.html 导航常显（#site-navigation 可见，display=block） — navVisible=true toggleVisible=false
+[PASS] 禁JS article-math-to-ai-learning.html 正文完整（body 文本与正常模式等长） — 2106 vs 2106
+[PASS] 禁JS article-math-to-ai-learning.html 根元素保持 no-js（脚本未运行） — class="no-js"
+[PASS] 禁JS article-classroom-screen-upgrade.html 导航常显（#site-navigation 可见，display=block） — navVisible=true toggleVisible=false
+[PASS] 禁JS article-classroom-screen-upgrade.html 正文完整（body 文本与正常模式等长） — 2692 vs 2692
+[PASS] 禁JS article-classroom-screen-upgrade.html 根元素保持 no-js（脚本未运行） — class="no-js"
+[PASS] 全部网络请求均为 file://（等价于断网双击可用） — 请求 56 条，非 file:// 0 条：[]
+[PASS] 控制台与日志错误为 0 — []
+[PASS] 页内 href/src 无外部/绝对形式 — []
+
+合计 90 条：PASS 90 / FAIL 0

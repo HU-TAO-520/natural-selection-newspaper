@@ -1,0 +1,108 @@
+FAIL | Results/ holds exactly the 5 agreed files | ['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+FAIL | index.html untouched by Task 7 | 971e57a5f85bae99
+PASS | news-message.html untouched by Task 7 | 66ae5826bbdf9829
+PASS | news-feature.html untouched by Task 7 | 73ff75678c453bad
+FAIL | styles.css untouched by Task 7 | 2c23817299492ea9
+PASS | Materials/新闻消息.docx hash+size intact | DE10B575399E0563
+PASS | Materials/新闻通讯.docx hash+size intact | 0C5B35256B7271AC
+PASS | Materials/新闻评价.docx hash+size intact | 8E50CFC892870351
+PASS | page is UTF-8 without BOM
+PASS | page uses LF newlines only
+PASS | page ends with a single newline
+PASS | page declares charset utf-8
+PASS | <html lang=zh-CN class=no-js>
+PASS | <title> exact with full-width bar | '设备升级了，使用门槛也该降下来｜自然选择号'
+PASS | styles.css referenced exactly once
+PASS | script.js referenced once with defer and no inline handler
+PASS | no inline event attributes
+PASS | skip-link is first focusable and targets #main-content
+PASS | masthead links to index.html
+PASS | nav button id/class/type/aria intact
+PASS | nav id/class/aria-label
+PASS | nav source has no hidden/aria-hidden/is-open
+PASS | four nav links, text and order | [('首页', 'index.html'), ('新闻消息', 'news-message.html'), ('新闻通讯', 'news-feature.html'), ('新闻评论', 'news-commentary.html')]
+PASS | exactly one aria-current, on the commentary self-link | [('news-commentary.html', '新闻评论')]
+PASS | masthead link carries no aria-current
+PASS | single main with id/class/tabindex
+PASS | main has exactly one element child: article.article | ['article']
+PASS | article children order = header, div, p.article__date | ['header.article__header', 'div.article__body', 'p.article__date']
+PASS | header children order = type, h1.page-title, byline | ['p.article__type', 'h1.page-title', 'p.article__byline']
+PASS | counts: 1 article/1 header/1 type/1 h1/1 byline/1 body/1 date
+PASS | body has exactly 29 direct <p> and nothing else | 29 / 29
+PASS | each body <p> carries no class and no element children
+PASS | date <p> is outside the body container and follows it directly
+PASS | no .dateline / time / blockquote / q / cite / h2 / lists / img / a in the article
+PASS | whole page: no <time>, no datetime attribute, no <img>
+PASS | no <section>/<aside>/<details>/<template>/<noscript> in main
+PASS | no footer on the page
+PASS | type textContent === 新闻评论 | '新闻评论'
+PASS | h1 textContent === title | '设备升级了，使用门槛也该降下来'
+PASS | byline textContent === 蓝色空间 | '蓝色空间'
+PASS | date textContent === （自然选择号9月18日） | '（自然选择号9月18日）'
+PASS | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at none
+PASS | no paragraph carries leading/trailing whitespace | []
+PASS | no paragraph contains newline / double space / nbsp / zero width
+PASS | entity escaping round-trips to identical textContent (no & present)
+PASS | source: 29 single-line <p> matching the contract exactly | matched 29
+PASS | date on a single source line
+PASS | total public units = 33 (1 type + 1 title + 1 byline + 29 body + 1 date)
+PASS | body .exe exactly 3, no 。exe / bare exe / Windows10
+PASS | Windows 10 twice with one U+0020 each
+PASS | body U+0020 total == 2 | 2
+PASS | no 安 装 anywhere on the page
+PASS | 86英寸 / 同窗AI大屏 kept
+PASS | term casing preserved (USB/UOS/OPS/Linux/4K/AI counts)
+PASS | no lowercase variant of a capitalised term | []
+PASS | C05 keeps 不完全统计 / 5次碰撞 / 3个U盘被撞坏 / 还需要进一步检查
+PASS | C05 is one paragraph of 138 chars | 138
+PASS | C12 is one paragraph of 167 chars | 167
+PASS | C20 comparison stays one paragraph of 126 chars | 126
+PASS | C21 keeps 科大讯飞 as plain text and 4K显示
+PASS | C26 is one plain paragraph of 163 chars with 连续 安装
+PASS | C29 = title echo + quote in one paragraph of 36 chars
+PASS | quotes are full-width curly, no straight quotes in the body
+PASS | no Arabic year / no 2026 anywhere
+PASS | date has no year and uses full-width brackets
+PASS | main visible units == the 33-item whitelist in order | 33 units, first diff at length
+PASS | no paragraph numbering / internal ids visible
+PASS | page uses only the shared classes | {'nav-toggle__icon', 'article__type', 'main-content', 'no-js', 'site-header', 'site-masthead__link', 'site-masthead', 'site-navigation', 'site-navigation__item', 'site-navigation__link', 'nav-toggle__text', 'article__header', 'page-title', 'skip-link', 'site-header__inner', 'site-navigation__list', 'article__byline', 'nav-toggle', 'article__date', 'article__body', 'article'}
+PASS | no page-specific class names
+PASS | no inline style / <style> / data-* / id outside the shell contract
+PASS | no align attribute / nbsp used to push the date
+PASS | shared CSS already styles .article__date (right alignment lives in Task 3) | .article__date {   max-width: var(--reading-max);   margin: var(--space-5) auto 0;   color: var(--color-ink);   font-siz
+PASS | shared CSS defines .article
+PASS | shared CSS defines .article__header
+PASS | shared CSS defines .article__type
+PASS | shared CSS defines .article__byline
+PASS | shared CSS defines .article__body
+PASS | shared CSS defines .page-title
+PASS | forbidden '厨一枚' count 0 in Results/ | 0
+PASS | forbidden '胡桃' count 0 in Results/ | 0
+PASS | forbidden '新闻评价' count 0 in Results/ | 0
+PASS | forbidden 'TODO' count 0 in Results/ | 0
+PASS | forbidden 'TBD' count 0 in Results/ | 0
+PASS | forbidden 'Lorem ipsum' count 0 in Results/ | 0
+PASS | forbidden '待补充' count 0 in Results/ | 0
+PASS | forbidden '待核验' count 0 in Results/ | 0
+PASS | forbidden '作者：' count 0 in Results/ | 0
+PASS | forbidden '记者：' count 0 in Results/ | 0
+PASS | forbidden '评论员：' count 0 in Results/ | 0
+PASS | forbidden '来源：' count 0 in Results/ | 0
+PASS | forbidden '出处：' count 0 in Results/ | 0
+PASS | forbidden 'Materials/' count 0 in Results/ | 0
+PASS | forbidden '.docx' count 0 in Results/ | 0
+PASS | forbidden '8E50CFC8' count 0 in Results/ | 0
+PASS | forbidden 'DE10B575' count 0 in Results/ | 0
+PASS | forbidden '0C5B3525' count 0 in Results/ | 0
+PASS | forbidden '2026-09' count 0 in Results/ | 0
+PASS | forbidden 'window.__' count 0 in Results/ | 0
+PASS | forbidden 'placeholder' count 0 in Results/ | 0
+PASS | no HTML comment anywhere in Results/*.html
+PASS | no external URL / protocol-relative / absolute path reference
+PASS | no fetch/XHR/import/require in the page
+PASS | article and its subtree carry no role / aria-label overrides | {'class': ['article']}
+PASS | no aria-roledescription / aria-hidden / aria-live inside main
+PASS | all 29 paragraphs are static markup in the file bytes
+PASS | content does not depend on script.js existing
+PASS | before/after differ only inside <main>
+PASS | before.html snapshot is the Task 2 shell (h1 directly in main, 1829 bytes) | 1829 bytes

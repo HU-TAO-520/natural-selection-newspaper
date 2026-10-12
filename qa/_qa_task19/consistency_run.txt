@@ -1,0 +1,5 @@
+逐段：content(189) cross(87) degrade(96) desktop(741) interact(171) list(92) load(100) mobile(378) nav(123) online(96) pressure(197) tap(128) tri(279) visited-pixel(75) visited(53) visual(31) zoom(108)
+all 键集 2544 ／ 逐段并集 2544
+只在 all 出现：0 条；只在分段出现：0 条；状态不一致：0 条
+两段一致性：差集为空 ✓
+CONS_EXIT=0

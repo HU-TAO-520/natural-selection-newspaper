@@ -1,0 +1,62 @@
+已产出 deploy/site.zip：10 文件条目、0 目录条目、18774 字节 c9b6b72ad58b8abc16be39d80c0494d4f6e6aa1663f634f5c51fac1717868007
+已产出 deploy/manifest.json、deploy/UPLOAD.md：counts={'pages': 9, 'html': 7, 'config': 1, 'articles': 3}
+已产出 deploy/site.zip：10 文件条目、0 目录条目、18774 字节 c9b6b72ad58b8abc16be39d80c0494d4f6e6aa1663f634f5c51fac1717868007
+已产出 deploy/manifest.json、deploy/UPLOAD.md：counts={'pages': 9, 'html': 7, 'config': 1, 'articles': 3}
+| # | 变异 | 自证确实违约 | 指定断言翻红 | 证据 |
+| --- | --- | --- | --- | --- |
+| 1 | 删掉一个详情页 → preflight 缺文件红 | 是 | 红（正确） | 退出码 2｜期望页集合来源：build/build.py build_pages 装配出口（7 个装配页 + 2 个静态文件）；缺文件：Results/article-math-to-ai-learning.html |
+| 2a | Results/ 放 notes.txt → 退出码 4 并点名 | 是 | 红（正确） | 退出码 4｜期望页集合来源：build/build.py build_pages 装配出口（7 个装配页 + 2 个静态文件）；清单外文件：Results/notes.txt；该文件不属于本项目任何任务，请勿删除，请由用户确认处置｜含"请勿删除"提示=True |
+| 2b | Results/ 放名为 _headers 的文件 → 同样退出码 4 | 是 | 红（正确） | 退出码 4｜期望页集合来源：build/build.py build_pages 装配出口（7 个装配页 + 2 个静态文件）；清单外文件：Results/_headers（zip 要求 _headers 在场于 deploy/，Results/ 禁止它在场）；该文件不属于本项目任何任务，请勿删除，请由用户确认处置｜点名"只进包不进 Results/"=True |
+| 3 | 创建 Results/articles/ 并放入一页 → 子目录错误 | 是 | 红（正确） | 退出码 4｜期望页集合来源：build/build.py build_pages 装配出口（7 个装配页 + 2 个静态文件）；子目录：Results/articles/，内含 articles/article-notes-page.html |
+| 4 | styles.css 改名 Styles.css → 大小写错误 | 是 | 红（正确） | 目录列举=Styles.css｜退出码 4｜期望页集合来源：build/build.py build_pages 装配出口（7 个装配页 + 2 个静态文件）；大小写不符：Results/Styles.css（清单期望 styles.css，文件系统大小写不敏感，二者是同一个文件）——按清单外文件处理 |
+| 5 | 用 Results.zip 当包体跑回验 → 五类失败逐项命中 | 是 | 红（正确） | 命中 39 条失败；五类判定={'目录条目': True, 'Results/ 前缀': True, '旧 CSS 哈希不符': True, '缺 _headers': True, '文件条目数不符': True} |
+| 6 | 打包漏掉 _headers → 回验 (d) 红 | 是 | 红（正确） | 合同6(a)：zip 文件条目集合与 pages∪config 不等（缺 ['_headers']，多 []）；合同6(e)：文件条目数 9 ≠ len(pages)+len(config)=10；合同6(d)：_headers 不在包内 |
+| 7 | 时间戳继承 mtime → 可复现性红 | 是 | 红（正确） | 继承 mtime 时改一次 mtime 包字节就变（fddd4f973f≠4d037ff720）；固定时间戳同样改 mtime 后仍相等=True｜合同5：_headers 条目时间戳 (2026, 9, 19, 22, 28, 4) 未固定为 (1980, 1, 1, 0, 0, 0)；合同5：article-classroom-screen-upgrade.html 条目时间戳 (2026, 10, 2, 10, 51, 10) 未固定为  |
+| 8 | 把 manifest.json 塞进 zip → 集合红 | 是 | 红（正确） | 合同6(a)：zip 文件条目集合与 pages∪config 不等（缺 []，多 ['manifest.json']）；合同3：条目顺序不是 sorted(名)：['_headers', 'article-classroom-screen-upgrade.html', 'article-math-to-ai-learning.html', 'article-school-course-volunteer.html', 'index.html', 'news-commentary.html', 'news-feat |
+| 9 | 篡改某个 sha256 → 与实测不符红 | 是 | 红（正确） | 契约1：article-classroom-screen-upgrade.html 清单承诺 8486/00000000 与磁盘实测 8486/a2dbf4aa 不等｜合同6(b)：article-classroom-screen-upgrade.html 解包实测 8486/a2dbf4aa ≠ 清单承诺 8486/00000000 |
+| 10 | manifest 写入 date: 2026-09-18 → R5① 扫描红 | 是 | 红（正确） | manifest.json：出现 date／display_date／end_date 字段（Task12 R5①）；manifest.json：出现 ISO 日期串 2026-09-18；契约5：manifest 字符串值含四位年份：2026-09-18；契约：pages/config 键名或键序不符｜verify 也拒：退出码 3｜manifest.json：出现 date／display_date／end_date 字段（Task12 R5①）；manifest.json：出现 ISO 日期串 2026-09-18；契约5：manif |
+| 11 | columns.articles 顺序与列表页实际条目顺序交换 → 一致性红 | 是 | 红（正确） | 页面实际 ['article-school-course-volunteer.html', 'article-math-to-ai-learning.html'] vs 清单声明 ['article-math-to-ai-learning.html', 'article-school-course-volunteer.html']｜契约3：message 的 articles 顺序与列表页实际条目不等（页面 ['article-school-course-volunteer.html', 'article-math-to-ai-learning.html']，清单 ['article-math-to-ai-learning.html', 'article-schoo |
+| 12 | 只改 manifest 不重打包 → zip 与 manifest 集合比较红 | 是 | 红（正确） | 删掉的条目=article-classroom-screen-upgrade.html｜退出码 3｜合同6(e)：文件条目数 10 ≠ len(pages)+len(config)=9；合同6(b)：article-classroom-screen-upgrade.html 不在清单内；契约1：pages 集合或字典序与装配出口不等：['article-math-to-ai-learning.html', 'article-school-course-volunteer.html', 'index.html', 'news |
+
+## 17.6 反面样本 Results.zip 逐条失败（39 条，五类判定={'目录条目': True, 'Results/ 前缀': True, '旧 CSS 哈希不符': True, '缺 _headers': True, '文件条目数不符': True}）
+- 合同6(a)：zip 文件条目集合与 pages∪config 不等（缺 ['_headers', 'article-classroom-screen-upgrade.html', 'article-math-to-ai-learning.html', 'article-school-course-volunteer.html', 'index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']，多 ['Results/index.html', 'Results/news-commentary.html', 'Results/news-feature.html', 'Results/news-message.html', 'Results/script.js', 'Results/styles.css']）
+- 合同6(e)：文件条目数 6 ≠ len(pages)+len(config)=10
+- 合同3：zip 含目录条目 ['Results/']
+- 合同3：条目名含路径分隔符或目录前缀 ['Results/index.html', 'Results/news-commentary.html', 'Results/news-feature.html', 'Results/news-message.html', 'Results/script.js', 'Results/styles.css']
+- 合同5：Results/index.html 条目时间戳 (2026, 9, 19, 9, 30, 12) 未固定为 (1980, 1, 1, 0, 0, 0)
+- 合同3：Results/index.html 压缩方式 0 不是 ZIP_DEFLATED
+- 合同5：Results/index.html 携带 extra 或 comment
+- 合同5：Results/news-commentary.html 条目时间戳 (2026, 9, 19, 14, 34, 42) 未固定为 (1980, 1, 1, 0, 0, 0)
+- 合同3：Results/news-commentary.html 压缩方式 0 不是 ZIP_DEFLATED
+- 合同5：Results/news-commentary.html 携带 extra 或 comment
+- 合同5：Results/news-feature.html 条目时间戳 (2026, 9, 19, 12, 52, 42) 未固定为 (1980, 1, 1, 0, 0, 0)
+- 合同3：Results/news-feature.html 压缩方式 0 不是 ZIP_DEFLATED
+- 合同5：Results/news-feature.html 携带 extra 或 comment
+- 合同5：Results/news-message.html 条目时间戳 (2026, 9, 19, 9, 53, 20) 未固定为 (1980, 1, 1, 0, 0, 0)
+- 合同3：Results/news-message.html 压缩方式 0 不是 ZIP_DEFLATED
+- 合同5：Results/news-message.html 携带 extra 或 comment
+- 合同5：Results/script.js 条目时间戳 (2026, 9, 19, 15, 38, 4) 未固定为 (1980, 1, 1, 0, 0, 0)
+- 合同3：Results/script.js 压缩方式 0 不是 ZIP_DEFLATED
+- 合同5：Results/script.js 携带 extra 或 comment
+- 合同5：Results/styles.css 条目时间戳 (2026, 9, 19, 15, 1, 22) 未固定为 (1980, 1, 1, 0, 0, 0)
+- 合同3：Results/styles.css 压缩方式 0 不是 ZIP_DEFLATED
+- 合同5：Results/styles.css 携带 extra 或 comment
+- 合同6(d)：_headers 不在包内
+- 合同3：Results/index.html 条目名带目录前缀，其内容按裸名核对
+- 合同6(b)：Results/index.html 解包实测 2612/73f49fd8 ≠ 清单承诺 3635/475e02f8
+- 合同6(b)：Results/index.html 解包实测与源文件磁盘实测不等（源 3635，包 2612）
+- 合同3：Results/news-commentary.html 条目名带目录前缀，其内容按裸名核对
+- 合同6(b)：Results/news-commentary.html 解包实测 8486/a2dbf4aa ≠ 清单承诺 2067/76aa950d
+- 合同6(b)：Results/news-commentary.html 解包实测与源文件磁盘实测不等（源 2067，包 8486）
+- 合同3：Results/news-feature.html 条目名带目录前缀，其内容按裸名核对
+- 合同6(b)：Results/news-feature.html 解包实测 6962/73ff7567 ≠ 清单承诺 2049/485a8750
+- 合同6(b)：Results/news-feature.html 解包实测与源文件磁盘实测不等（源 2049，包 6962）
+- 合同3：Results/news-message.html 条目名带目录前缀，其内容按裸名核对
+- 合同6(b)：Results/news-message.html 解包实测 3011/66ae5826 ≠ 清单承诺 2057/3a267591
+- 合同6(b)：Results/news-message.html 解包实测与源文件磁盘实测不等（源 2057，包 3011）
+- 合同3：Results/script.js 条目名带目录前缀，其内容按裸名核对
+- 合同3：Results/styles.css 条目名带目录前缀，其内容按裸名核对
+- 合同6(b)：Results/styles.css 解包实测 12062/14a4a204 ≠ 清单承诺 15340/de2d9022
+- 合同6(b)：Results/styles.css 解包实测与源文件磁盘实测不等（源 15340，包 12062）
+
+捕获 13／13；真实树 29 项指纹在变异前后未变

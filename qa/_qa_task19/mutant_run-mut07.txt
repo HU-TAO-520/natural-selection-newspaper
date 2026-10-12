@@ -1,0 +1,102 @@
+FAIL RD1 [news-commentary.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-commentary.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-feature.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-feature.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-message.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-message.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-commentary.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-commentary.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-feature.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-feature.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-message.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-message.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+
+合计 130 条（计分 118）：PASS 112 / FAIL 6 / SKIPPED-BY-DESIGN 0 / REC 12 / PENDING 0
+FAIL RD1 [news-commentary.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-commentary.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-feature.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-feature.html @375px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-feature.html @375px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-feature.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-feature.html @768px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-feature.html @768px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-message.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-message.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-commentary.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-commentary.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-feature.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-feature.html @375px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-feature.html @375px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-feature.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-feature.html @768px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-feature.html @768px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-message.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-message.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+
+合计 164 条（计分 146）：PASS 136 / FAIL 10 / SKIPPED-BY-DESIGN 0 / REC 18 / PENDING 0
+FAIL RD1 [news-commentary.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-commentary.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-feature.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-feature.html @375px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-feature.html @375px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-feature.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-feature.html @768px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-feature.html @768px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-message.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-message.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-commentary.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-commentary.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-feature.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-feature.html @375px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-feature.html @375px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-feature.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-feature.html @768px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-feature.html @768px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-message.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-message.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+
+合计 164 条（计分 146）：PASS 136 / FAIL 10 / SKIPPED-BY-DESIGN 0 / REC 18 / PENDING 0
+FAIL RD1 [news-commentary.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-commentary.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-feature.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-feature.html @375px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-feature.html @375px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-feature.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-feature.html @768px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-feature.html @768px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-message.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-message.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-commentary.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-commentary.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-feature.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-feature.html @375px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-feature.html @375px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-feature.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-feature.html @768px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-feature.html @768px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-message.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-message.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+
+合计 164 条（计分 146）：PASS 136 / FAIL 10 / SKIPPED-BY-DESIGN 0 / REC 18 / PENDING 0
+FAIL RD1 [news-commentary.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-commentary.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-feature.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-feature.html @375px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-feature.html @375px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-feature.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-feature.html @768px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-feature.html @768px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-message.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 343×28
+FAIL RD1 [news-message.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 期望 ≥44×44 / 实际 736×28
+FAIL RD1 [news-commentary.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-commentary.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-feature.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-feature.html @375px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-feature.html @375px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-feature.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-feature.html @768px] entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-feature.html @768px] entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+FAIL RD1 [news-message.html @375px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 343×28 -> Task 16
+FAIL RD1 [news-message.html @768px] entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） :: 736×28 -> Task 16
+
+合计 164 条（计分 146）：PASS 136 / FAIL 10 / SKIPPED-BY-DESIGN 0 / REC 18 / PENDING 0

@@ -1,0 +1,38 @@
+FAIL RK1 [index.html @1280px] K1 首页最新区第 2 条 → 详情页：frameNavigated 计数 +1 :: 期望 导航发生且落地=article-math-to-ai-learning.html / 实际 落地=article-classroom-screen-upgrade.html
+FAIL RK3 [index.html @1280px] K3 第 2 条 href == 栏目「新闻通讯」首条 href（标题与 href 双一致） :: 期望 article-math-to-ai-learning.html / 实际 article-classroom-screen-upgrade.html
+FAIL RK1 [index.html @1280px] K1 首页最新区第 2 条 → 详情页：frameNavigated 计数 +1 :: 落地=article-classroom-screen-upgrade.html -> Task 15
+FAIL RK3 [index.html @1280px] K3 第 2 条 href == 栏目「新闻通讯」首条 href（标题与 href 双一致） :: article-classroom-screen-upgrade.html -> Task 15
+
+合计 94 条（计分 91）：PASS 89 / FAIL 2 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RK1 [index.html @1280px] K1 首页最新区第 2 条 → 详情页：frameNavigated 计数 +1 :: 期望 导航发生且落地=article-north-of-dam-river.html / 实际 落地=article-classroom-screen-upgrade.html
+FAIL RK3 [index.html @1280px] K3 第 2 条 href == 全局序第 2 篇（date 降序→order→栏目序→slug） :: 期望 article-north-of-dam-river.html / 实际 article-classroom-screen-upgrade.html
+FAIL RK3/dup [index.html @1280px] K3 最新区 href 集合（含重复项与顺序）逐等于全局序前 N 条 :: 期望 article-along-the-north-small-river.html|article-north-of-dam-river.html|article-school-course-volunteer.html / 实际 article-along-the-north-small-river.html|article-classroom-screen-upgrade.html|article-school-course-volunteer.html
+FAIL RK1 [index.html @1280px] K1 首页最新区第 2 条 → 详情页：frameNavigated 计数 +1 :: 落地=article-classroom-screen-upgrade.html -> Task 15
+FAIL RK3 [index.html @1280px] K3 第 2 条 href == 全局序第 2 篇（date 降序→order→栏目序→slug） :: article-classroom-screen-upgrade.html -> Task 15
+FAIL RK3/dup [index.html @1280px] K3 最新区 href 集合（含重复项与顺序）逐等于全局序前 N 条 :: article-along-the-north-small-river.html|article-classroom-screen-upgrade.html|article-school-course-volunteer.html -> Task 15
+
+合计 113 条（计分 110）：PASS 107 / FAIL 3 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RK1 [index.html @1280px] K1 首页最新区第 2 条 → 详情页：frameNavigated 计数 +1 :: 期望 导航发生且落地=article-north-of-dam-river.html / 实际 落地=article-classroom-screen-upgrade.html
+FAIL RK3 [index.html @1280px] K3 第 2 条 href == 全局序第 2 篇（date 降序→order→栏目序→slug） :: 期望 article-north-of-dam-river.html / 实际 article-classroom-screen-upgrade.html
+FAIL RK3/dup [index.html @1280px] K3 最新区 href 集合（含重复项与顺序）逐等于全局序前 N 条 :: 期望 article-along-the-north-small-river.html|article-north-of-dam-river.html|article-school-course-volunteer.html / 实际 article-along-the-north-small-river.html|article-classroom-screen-upgrade.html|article-school-course-volunteer.html
+FAIL RK1 [index.html @1280px] K1 首页最新区第 2 条 → 详情页：frameNavigated 计数 +1 :: 落地=article-classroom-screen-upgrade.html -> Task 15
+FAIL RK3 [index.html @1280px] K3 第 2 条 href == 全局序第 2 篇（date 降序→order→栏目序→slug） :: article-classroom-screen-upgrade.html -> Task 15
+FAIL RK3/dup [index.html @1280px] K3 最新区 href 集合（含重复项与顺序）逐等于全局序前 N 条 :: article-along-the-north-small-river.html|article-classroom-screen-upgrade.html|article-school-course-volunteer.html -> Task 15
+
+合计 113 条（计分 110）：PASS 107 / FAIL 3 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RK1 [index.html @1280px] K1 首页最新区第 2 条 → 详情页：frameNavigated 计数 +1 :: 期望 导航发生且落地=article-north-of-dam-river.html / 实际 落地=article-classroom-screen-upgrade.html
+FAIL RK3 [index.html @1280px] K3 第 2 条 href == 全局序第 2 篇（date 降序→order→栏目序→slug） :: 期望 article-north-of-dam-river.html / 实际 article-classroom-screen-upgrade.html
+FAIL RK3/dup [index.html @1280px] K3 最新区 href 集合（含重复项与顺序）逐等于全局序前 N 条 :: 期望 article-along-the-north-small-river.html|article-north-of-dam-river.html|article-school-course-volunteer.html / 实际 article-along-the-north-small-river.html|article-classroom-screen-upgrade.html|article-school-course-volunteer.html
+FAIL RK1 [index.html @1280px] K1 首页最新区第 2 条 → 详情页：frameNavigated 计数 +1 :: 落地=article-classroom-screen-upgrade.html -> Task 15
+FAIL RK3 [index.html @1280px] K3 第 2 条 href == 全局序第 2 篇（date 降序→order→栏目序→slug） :: article-classroom-screen-upgrade.html -> Task 15
+FAIL RK3/dup [index.html @1280px] K3 最新区 href 集合（含重复项与顺序）逐等于全局序前 N 条 :: article-along-the-north-small-river.html|article-classroom-screen-upgrade.html|article-school-course-volunteer.html -> Task 15
+
+合计 113 条（计分 110）：PASS 107 / FAIL 3 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RK1 [index.html @1280px] K1 首页最新区第 2 条 → 详情页：frameNavigated 计数 +1 :: 期望 导航发生且落地=article-north-of-dam-river.html / 实际 落地=article-classroom-screen-upgrade.html
+FAIL RK3 [index.html @1280px] K3 第 2 条 href == 全局序第 2 篇（date 降序→order→栏目序→slug） :: 期望 article-north-of-dam-river.html / 实际 article-classroom-screen-upgrade.html
+FAIL RK3/dup [index.html @1280px] K3 最新区 href 集合（含重复项与顺序）逐等于全局序前 N 条 :: 期望 article-along-the-north-small-river.html|article-north-of-dam-river.html|article-school-course-volunteer.html / 实际 article-along-the-north-small-river.html|article-classroom-screen-upgrade.html|article-school-course-volunteer.html
+FAIL RK1 [index.html @1280px] K1 首页最新区第 2 条 → 详情页：frameNavigated 计数 +1 :: 落地=article-classroom-screen-upgrade.html -> Task 15
+FAIL RK3 [index.html @1280px] K3 第 2 条 href == 全局序第 2 篇（date 降序→order→栏目序→slug） :: article-classroom-screen-upgrade.html -> Task 15
+FAIL RK3/dup [index.html @1280px] K3 最新区 href 集合（含重复项与顺序）逐等于全局序前 N 条 :: article-along-the-north-small-river.html|article-classroom-screen-upgrade.html|article-school-course-volunteer.html -> Task 15
+
+合计 113 条（计分 110）：PASS 107 / FAIL 3 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0

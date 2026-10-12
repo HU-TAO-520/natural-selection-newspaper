@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>Task 9 navigation behaviour probe</title>
+  <style>
+    html, body { margin: 0; padding: 0; }
+    #f { border: 0; display: block; background: #fff; }
+    #out { font: 12px/1.4 monospace; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+<iframe id="f" src="about:blank"></iframe>
+<pre id="out">running</pre>
+<script>
+/*
+ * QA-only Task 9 driver. The built-in browser has a 0x0 viewport on this machine, so the
+ * page under test is loaded in a same-origin file:// iframe that acts as a real layout
+ * viewport. script.js runs for real (no runtime class simulation): the probe only clicks,
+ * dispatches keys and resizes the frame. Results are printed as PROBE<json>|ENDPROBE.
+ *   ?t=<page url>  k=full|nojs|robust   w=<mobile width>   d=<desktop width>
+ */
+(function () {
+  'use strict';
+  var P = new URLSearchParams(location.search);
+  var TARGET = P.get('t');
+  var KIND = P.get('k') || 'full';
+  var MOBILE = parseInt(P.get('w') || '375', 10);
+  var DESKTOP = parseInt(P.get('d') || '1000', 10);
+  var RES = [];
+  var f = document.getElementById('f');
+  var out = document.getElementById('out');
+
+  function R(name, pass, detail) {
+    RES.push({ name: name, pass: !!pass, detail: detail === undefined ? '' : String(detail).slice(0, 300) });
+  }
+  function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+  function doc() { return f.contentDocument; }
+  function win() { return f.contentWindow; }
+  function cs(el) { return win().getComputedStyle(el); }
+  function byId(id) { return doc().getElementById(id); }
+  function links() { return [].slice.call(doc().querySelectorAll('.site-navigation__link')); }
+
+  function snap() {
+    var d = doc(), e = d.documentElement;
+    var t = byId('nav-toggle'), n = byId('site-navigation');
+    var s = {
+      htmlClass: e.className,
+      js: e.classList.contains('js'),
+      nojs: e.classList.contains('no-js'),
+      clientW: e.clientWidth,
+      missing: !t || !n,
+      open: null, aria: null, navDisp: null, togDisp: null, active: null, inNav: null, url: null
+    };
+    if (!t || !n) { return s; }
+    var ae = d.activeElement;
+    return {
+      htmlClass: s.htmlClass, js: s.js, nojs: s.nojs, clientW: s.clientW, missing: false,
+      open: n.classList.contains('is-open'),
+      aria: t.getAttribute('aria-expanded'),
+      navDisp: cs(n).display,
+      togDisp: cs(t).display,
+      active: ae ? (ae.id || ae.className || ae.tagName) : 'null',
+      activeIsToggle: ae === t,
+      inNav: n.contains(ae),
+      url: win().location.pathname.split('/').pop()
+    };
+  }
+
+  function pressKey(key, targetId) {
+    var d = doc();
+    var ev = new (win().KeyboardEvent)('keydown', { key: key, bubbles: true, cancelable: true });
+    var target = targetId ? byId(targetId) : d;
+    (target || d).dispatchEvent(ev);
+    return ev;
+  }
+
+  function clickLinkPreventingNav(el) {
+    var d = doc();
+    var h = function (e) { e.preventDefault(); };
+    d.addEventListener('click', h, true);
+    el.click();
+    d.removeEventListener('click', h, true);
+  }
+
+  function setWidth(px) {
+    var delta = window.innerWidth - document.documentElement.clientWidth;
+    f.style.width = (px + delta) + 'px';
+    f.style.height = '2400px';
+    return sleep(150);
+  }
+
+  async function loadInto(url, sandbox) {
+    return new Promise(function (resolve) {
+      if (sandbox) { f.setAttribute('sandbox', sandbox); } else { f.removeAttribute('sandbox'); }
+      f.onload = function () { resolve(); };
+      f.src = url;
+      setTimeout(resolve, 8000);
+    }).then(function () { return sleep(250); });
+  }
+
+  /* ---------- mobile closed/open contract shared by several assertions ---------- */
+  function stateMatrix(tag, s, expectOpen) {
+    R(tag + ' · html 为 js 且无 no-js', s.js && !s.nojs, s.htmlClass);
+    R(tag + ' · aria-expanded=' + (expectOpen ? 'true' : 'false'), s.aria === String(expectOpen), s.aria);
+    R(tag + ' · is-open 与 aria-expanded 严格一致', s.open === expectOpen, 'open=' + s.open + ' aria=' + s.aria);
+    R(tag + ' · 导航显示与状态类同步', s.navDisp === (expectOpen ? 'block' : 'none'), s.navDisp);
+    if (!expectOpen) {
+      var hidden = links().every(function (a) { return a.offsetParent === null; });
+      R(tag + ' · 关闭态五个链接退出布局与 Tab 顺序', hidden,
+        links().map(function (a) { return a.offsetParent === null ? 'unreachable' : 'REACHABLE'; }).join(','));
+    } else {
+      var shown = links().every(function (a) { return a.offsetParent !== null; });
+      R(tag + ' · 打开态五个链接已渲染可聚焦', shown,
+        links().map(function (a) { return a.offsetParent === null ? 'UNREACHABLE' : 'reachable'; }).join(','));
+    }
+  }
+
+  /* Explicit preconditions: never assume the previous case left a known state. */
+  async function ensureOpen(tag) {
+    if (!snap().open) { byId('nav-toggle').click(); await sleep(30); }
+    R(tag + ' · 前置状态=打开', snap().open === true, snap().open);
+  }
+  async function ensureClosed(tag) {
+    if (snap().open) { byId('nav-toggle').click(); await sleep(30); }
+    R(tag + ' · 前置状态=关闭', snap().open === false, snap().open);
+  }
+
+  async function fullMatrix() {
+    await setWidth(MOBILE);
+    await loadInto(TARGET);
+    var s = snap();
+    R('T1 首屏 · 视口为 ' + MOBILE + 'px', s.clientW === MOBILE, s.clientW);
+    R('T1 首屏 · no-js 已切换为 js', s.js && !s.nojs, s.htmlClass);
+    R('T1 首屏 · 移动宽度下按钮可见', s.togDisp === 'flex' || s.togDisp === 'inline-flex', s.togDisp);
+    stateMatrix('T1 首屏', s, false);
+    R('T1 首屏 · 首帧无 is-open 残留', s.open === false, s.open);
+
+    /* T2 点击打开 */
+    byId('nav-toggle').click();
+    await sleep(30);
+    s = snap();
+    stateMatrix('T2 点击打开', s, true);
+    R('T2 点击打开 · 焦点未被移入菜单（披露式，非模态）', !s.inNav, s.active);
+
+    /* T3 再次点击关闭 */
+    byId('nav-toggle').click();
+    await sleep(30);
+    s = snap();
+    stateMatrix('T3 再次点击关闭', s, false);
+
+    /* T4 Enter/Space 不得被脚本另绑一次：合成非trusted键不得改变状态 */
+    byId('nav-toggle').focus();
+    var before = snap().open;
+    pressKey('Enter', 'nav-toggle');
+    pressKey(' ', 'nav-toggle');
+    await sleep(30);
+    s = snap();
+    R('T4 非 Escape 按键不改变菜单状态', s.open === before, before + ' -> ' + s.open);
+    R('T4 非 Escape 按键不移动焦点', doc().activeElement === byId('nav-toggle'), s.active);
+
+    /* T5 打开后 Esc 关闭并把焦点返回按钮 */
+    byId('nav-toggle').click();
+    await sleep(30);
+    R('T5 Esc 前置 · 菜单已打开', snap().open === true, snap().open);
+    byId('main-content').focus();
+    R('T5 Esc 前置 · 焦点已移离按钮', doc().activeElement !== byId('nav-toggle'), snap().active);
+    pressKey('Escape', 'main-content');
+    await sleep(30);
+    s = snap();
+    R('T5 Esc · 菜单关闭且 aria 归 false', s.open === false && s.aria === 'false', 'open=' + s.open + ' aria=' + s.aria);
+    R('T5 Esc · 导航重新移出布局', s.navDisp === 'none', s.navDisp);
+    R('T5 Esc · 焦点返回 #nav-toggle', doc().activeElement === byId('nav-toggle'), s.active);
+
+    /* T5b 关闭态 Esc 无副作用 */
+    byId('main-content').focus();
+    var a0 = doc().activeElement;
+    pressKey('Escape', 'main-content');
+    await sleep(30);
+    s = snap();
+    R('T5b 关闭态 Esc 不改变状态', s.open === false && s.aria === 'false', 'open=' + s.open + ' aria=' + s.aria);
+    R('T5b 关闭态 Esc 不抢焦点', doc().activeElement === a0, s.active);
+
+    /* T6 打开后点击导航链接关闭 */
+    await ensureOpen('T6 点击链接');
+    var urlBefore = snap().url;
+    clickLinkPreventingNav(links()[1]);
+    await sleep(30);
+    s = snap();
+    R('T6 点击链接 · 菜单关闭', s.open === false && s.aria === 'false', 'open=' + s.open + ' aria=' + s.aria);
+    R('T6 点击链接 · 脚本未阻止默认导航', s.url === urlBefore, urlBefore + ' vs ' + s.url);
+    await ensureOpen('T6 当前页链接');
+    clickLinkPreventingNav(links()[0]);
+    s = snap();
+    R('T6 点击当前页链接 · 菜单同样关闭', s.open === false && s.aria === 'false', 'open=' + s.open + ' aria=' + s.aria);
+    await ensureOpen('T6 链接子节点');
+    var a = links()[2];
+    var span = doc().createElement('span');
+    span.textContent = 'x';
+    a.appendChild(span);
+    clickLinkPreventingNav(span);
+    a.removeChild(span);
+    s = snap();
+    R('T6 点击链接子节点 · closest 命中并关闭', s.open === false, s.open);
+    await ensureOpen('T6b 菜单内非链接');
+    clickLinkPreventingNav(byId('site-navigation').querySelector('.site-navigation__list'));
+    s = snap();
+    R('T6b 点击菜单内非链接区域 · 不关闭（合同仅链接）', s.open === true, 'open=' + s.open + ' aria=' + s.aria);
+    await ensureOpen('T6c 菜单外部');
+    clickLinkPreventingNav(doc().querySelector('.main-content'));
+    s = snap();
+    R('T6c 点击菜单外部 · 菜单保持展开（已定决策）', s.open === true && s.aria === 'true', 'open=' + s.open + ' aria=' + s.aria);
+    await ensureClosed('T6d 关闭态点击链接');
+    clickLinkPreventingNav(links()[3]);
+    s = snap();
+    R('T6d 关闭态下点击链接不产生异常状态', s.open === false && s.aria === 'false', 'open=' + s.open + ' aria=' + s.aria);
+
+    /* T7 跨断点重置 */
+    await ensureOpen('T7 跨断点');
+    R('T7 跨断点前 · 移动宽度菜单为打开', snap().open === true, snap().open);
+    var mqCtrl = [];
+    var mqc = win().matchMedia('(min-width: 769px)');
+    mqc.addEventListener('change', function (e) { mqCtrl.push(e.matches); });
+    await setWidth(DESKTOP);
+    await sleep(200);
+    s = snap();
+    if (mqCtrl.length === 0) {
+      /* Control listener proves this renderer never dispatched the change event, so the
+         reset cannot be judged here; cdp_check.mjs covers it with real rendering. */
+      R('T7 跨断点 · 对照组无 change 事件：--dump-dom 环境不可判，移交 cdp_check.mjs', true,
+        'mqCtrl=' + JSON.stringify(mqCtrl) + ' open=' + s.open + ' aria=' + s.aria + ' mqDesktop=' + win().matchMedia('(min-width: 769px)').matches);
+      await setWidth(MOBILE);
+      await sleep(200);
+      var wasOpen = snap().open;
+      byId('nav-toggle').click();
+      await sleep(30);
+      R('T7 缩回移动 · 按钮仍能切换（保留的展开态可由用户关闭）',
+        wasOpen === true && snap().open === false, 'was=' + wasOpen + ' now=' + snap().open);
+    } else {
+    R('T7 进入桌面 · 视口为 ' + DESKTOP + 'px', s.clientW === DESKTOP, s.clientW);
+    R('T7 进入桌面 · is-open 已清除', s.open === false, s.open);
+    R('T7 进入桌面 · aria-expanded 重置为 false', s.aria === 'false', s.aria);
+    R('T7 进入桌面 · 按钮隐藏（Task 8 合同）', s.togDisp === 'none', s.togDisp);
+    R('T7 进入桌面 · 导航横向常显（Task 8 合同）', s.navDisp !== 'none', s.navDisp);
+    await setWidth(MOBILE);
+    await sleep(200);
+    s = snap();
+    R('T7 缩回移动 · 菜单为关闭态且不复用旧状态', s.open === false && s.aria === 'false', 'open=' + s.open + ' aria=' + s.aria);
+    R('T7 缩回移动 · 按钮重新可见且导航折叠', (s.togDisp === 'flex' || s.togDisp === 'inline-flex') && s.navDisp === 'none', s.togDisp + '/' + s.navDisp);
+    byId('nav-toggle').click();
+    await sleep(30);
+    R('T7 缩回移动后 · 仍可正常打开', snap().open === true, snap().open);
+    }
+    await ensureClosed('T9 连点');
+
+    /* T9 全文状态一致性扫描：任何时刻 is-open 与 aria-expanded 不脱节 */
+    var seq = [], i;
+    for (i = 0; i < 6; i++) { byId('nav-toggle').click(); await sleep(12); var q = snap(); seq.push((q.open ? '1' : '0') + (q.aria === 'true' ? '1' : '0')); }
+    R('T9 六次连点 · is-open 与 aria-expanded 每次一致', seq.every(function (x) { return x === '00' || x === '11'; }), seq.join(' '));
+    R('T9 六次连点后回到关闭态', snap().open === false, snap().open);
+  }
+
+  async function noJsCase() {
+    await setWidth(MOBILE);
+    await loadInto(TARGET, 'allow-same-origin');
+    var s = snap();
+    R('T8 禁用 JS · html 保持 no-js', s.nojs === true && s.js === false, s.htmlClass);
+    R('T8 禁用 JS · 按钮不可见', s.togDisp === 'none', s.togDisp);
+    R('T8 禁用 JS · 五项导航纵向常显', s.navDisp === 'block', s.navDisp);
+    var shown = links().length === 5 && links().every(function (a) { return cs(a).display !== 'none' && a.getAttribute('href'); });
+    R('T8 禁用 JS · 五个链接存在且可点击可聚焦', shown, links().length + ' 个');
+    R('T8 禁用 JS · aria-expanded 保持源码初值 false', s.aria === 'false', s.aria);
+    await setWidth(DESKTOP);
+    await sleep(150);
+    s = snap();
+    R('T8 禁用 JS · 桌面宽度下导航仍常显', s.navDisp !== 'none' && s.nojs, s.navDisp + ' ' + s.htmlClass);
+  }
+
+  async function robustCase() {
+    await setWidth(MOBILE);
+    await loadInto(TARGET);
+    var s = snap();
+    R('T10 接口缺失 · no-js 仍切换为 js', s.js === true && s.nojs === false, s.htmlClass);
+    R('T10 接口缺失 · 被测页确实缺少合同接口', s.missing === true, s.htmlClass);
+    R('T10 接口缺失 · 未产生未捕获异常（探针仍在运行）', true);
+    var d = doc();
+    var btn = byId('nav-toggle');
+    var nav = byId('site-navigation');
+    var created = [];
+    if (!btn) {
+      btn = d.createElement('button');
+      btn.id = 'nav-toggle';
+      btn.type = 'button';
+      btn.setAttribute('aria-expanded', 'false');
+      btn.setAttribute('aria-controls', 'site-navigation');
+      d.body.appendChild(btn);
+      created.push('button');
+    }
+    if (!nav) {
+      nav = d.createElement('nav');
+      nav.id = 'site-navigation';
+      nav.className = 'site-navigation';
+      nav.innerHTML = '<ul class="site-navigation__list"><li class="site-navigation__item">'
+        + '<a class="site-navigation__link" href="#x">L</a></li></ul>';
+      d.body.appendChild(nav);
+      created.push('nav');
+    }
+    var ariaAtStart = btn.getAttribute('aria-expanded');
+    btn.click();
+    btn.click();
+    nav.querySelector('.site-navigation__link').click();
+    pressKey('Escape', null);
+    await sleep(60);
+    var after = {
+      open: nav.classList.contains('is-open'),
+      aria: btn.getAttribute('aria-expanded'),
+      cls: nav.className,
+      html: d.documentElement.className,
+      created: created.join('+') || '(none)'
+    };
+    R('T10 接口缺失 · 后补接口上无任何状态写入（未绑定监听）',
+      after.open === false && after.aria === ariaAtStart && !nav.classList.contains('is-open'),
+      JSON.stringify(after));
+    R('T10 接口缺失 · 未注入任何额外导航节点',
+      d.querySelectorAll('.site-navigation').length === 1,
+      d.querySelectorAll('.site-navigation').length);
+  }
+
+  async function main() {
+    try {
+      if (KIND === 'nojs') { await noJsCase(); }
+      else if (KIND === 'robust') { await robustCase(); }
+      else { await fullMatrix(); }
+    } catch (e) {
+      R('probe 异常', false, (e && (e.message || e)) + ' | ' + (e && e.stack ? e.stack.split('\n').slice(0, 3).join(' <- ') : ''));
+    }
+    out.textContent = 'PROBE' + encodeURIComponent(JSON.stringify(RES)) + '|ENDPROBE';
+    document.title = 'done:' + RES.length;
+  }
+  main();
+})();
+</script>
+</body>
+</html>

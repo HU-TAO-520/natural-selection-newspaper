@@ -1,0 +1,293 @@
+{
+  "mode": "local-http-fixture",
+  "base": "http://127.0.0.1:57776",
+  "errorPage": "404.html",
+  "errorPageSha256": "d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb",
+  "errorPageBytes": 2051,
+  "rows": [
+    {
+      "name": "HTTP /task19-missing → 404 HTML with URL retained and no path echo",
+      "status": "PASS",
+      "actual": "404 text/html; charset=utf-8 sha256=d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb url=http://127.0.0.1:57776/task19-missing"
+    },
+    {
+      "name": "HTTP /foo/bar → 404 HTML with URL retained and no path echo",
+      "status": "PASS",
+      "actual": "404 text/html; charset=utf-8 sha256=d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb url=http://127.0.0.1:57776/foo/bar"
+    },
+    {
+      "name": "HTTP /foo/bar/ → 404 HTML with URL retained and no path echo",
+      "status": "PASS",
+      "actual": "404 text/html; charset=utf-8 sha256=d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb url=http://127.0.0.1:57776/foo/bar/"
+    },
+    {
+      "name": "HTTP /foo/a/b/c → 404 HTML with URL retained and no path echo",
+      "status": "PASS",
+      "actual": "404 text/html; charset=utf-8 sha256=d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb url=http://127.0.0.1:57776/foo/a/b/c"
+    },
+    {
+      "name": "HTTP /article-task19-does-not-exist.html → 404 HTML with URL retained and no path echo",
+      "status": "PASS",
+      "actual": "404 text/html; charset=utf-8 sha256=d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb url=http://127.0.0.1:57776/article-task19-does-not-exist.html"
+    },
+    {
+      "name": "HTTP /foo/bar?from=qa → 404 HTML with URL retained and no path echo",
+      "status": "PASS",
+      "actual": "404 text/html; charset=utf-8 sha256=d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb url=http://127.0.0.1:57776/foo/bar?from=qa"
+    },
+    {
+      "name": "HTTP /_headers → 404 HTML with URL retained and no path echo",
+      "status": "PASS",
+      "actual": "404 text/html; charset=utf-8 sha256=d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb url=http://127.0.0.1:57776/_headers"
+    },
+    {
+      "name": "root CSS returns stylesheet MIME",
+      "status": "PASS",
+      "actual": "200 text/css; charset=utf-8"
+    },
+    {
+      "name": "root JS returns JavaScript MIME",
+      "status": "PASS",
+      "actual": "200 text/javascript; charset=utf-8"
+    },
+    {
+      "name": "deployment ZIP contains 404.html",
+      "status": "PASS",
+      "actual": "404.html,_headers,article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css"
+    },
+    {
+      "name": "negative case: ZIP missing 404.html is detected by manifest-set comparison",
+      "status": "PASS",
+      "actual": "mutant removed 404.html; expected-set difference contains 404.html"
+    },
+    {
+      "name": "404 document fixed copy and root references",
+      "status": "PASS",
+      "actual": "sha256=d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb bytes=2051"
+    },
+    {
+      "name": "negative case: relative CSS is detected",
+      "status": "PASS",
+      "actual": "mutated href=\"styles.css\""
+    },
+    {
+      "name": "negative case: relative JS is detected",
+      "status": "PASS",
+      "actual": "mutated src=\"script.js\""
+    },
+    {
+      "name": "desktop nested URL remains in address bar",
+      "status": "PASS",
+      "actual": "/foo/bar?probe=desktop"
+    },
+    {
+      "name": "desktop error content and root CSS/JS work",
+      "status": "PASS",
+      "actual": "{\"url\":\"/foo/bar?probe=desktop\",\"title\":\"页面不存在｜自然选择号\",\"h1\":\"页面不存在\",\"message\":\"这个页面不存在，或已经被移走。\",\"home\":\"返回首页\",\"bg\":\"rgb(245, 239, 228)\",\"cls\":\"js\",\"css\":\"/styles.css\",\"cssLoaded\":true,\"script\":\"/script.js\",\"current\":0,\"nav\":[\"/\",\"/news-message.html\",\"/news-feature.html\",\"/news-commentary.html\"],\"navDisplay\":\"block\",\"menuExpanded\":\"false\",\"skip\":\"#main-content\",\"mainId\":\"main-content\",\"overflow\":false}"
+    },
+    {
+      "name": "desktop navigation has four root paths and skip link works",
+      "status": "PASS",
+      "actual": "[\"/\",\"/news-message.html\",\"/news-feature.html\",\"/news-commentary.html\"]"
+    },
+    {
+      "name": "browser received 404 document plus stylesheet and script with correct MIME",
+      "status": "PASS",
+      "actual": "[{\"url\":\"http://127.0.0.1:57776/foo/bar?probe=desktop\",\"status\":404,\"mimeType\":\"text/html\"},{\"url\":\"http://127.0.0.1:57776/styles.css\",\"status\":200,\"mimeType\":\"text/css\"},{\"url\":\"http://127.0.0.1:57776/script.js\",\"status\":200,\"mimeType\":\"text/javascript\"}]"
+    },
+    {
+      "name": "skip link reaches main content",
+      "status": "PASS",
+      "actual": "#main-content/main-content"
+    },
+    {
+      "name": "mobile layout stays within viewport and keeps error content",
+      "status": "PASS",
+      "actual": "{\"url\":\"/foo/bar/?probe=mobile\",\"title\":\"页面不存在｜自然选择号\",\"h1\":\"页面不存在\",\"message\":\"这个页面不存在，或已经被移走。\",\"home\":\"返回首页\",\"bg\":\"rgb(245, 239, 228)\",\"cls\":\"js\",\"css\":\"/styles.css\",\"cssLoaded\":true,\"script\":\"/script.js\",\"current\":0,\"nav\":[\"/\",\"/news-message.html\",\"/news-feature.html\",\"/news-commentary.html\"],\"navDisplay\":\"none\",\"menuExpanded\":\"false\",\"skip\":\"#main-content\",\"mainId\":\"main-content\",\"overflow\":false}"
+    },
+    {
+      "name": "mobile menu opens and synchronizes ARIA",
+      "status": "PASS",
+      "actual": "aria-expanded=true display=block"
+    },
+    {
+      "name": "mobile navigation reaches the root-level column page",
+      "status": "PASS",
+      "actual": "/news-feature.html"
+    },
+    {
+      "name": "return-home link opens the site root",
+      "status": "PASS",
+      "actual": "//true"
+    },
+    {
+      "name": "without JavaScript, error copy and navigation remain visible",
+      "status": "PASS",
+      "actual": "{\"url\":\"/no-js/nested\",\"title\":\"页面不存在｜自然选择号\",\"h1\":\"页面不存在\",\"message\":\"这个页面不存在，或已经被移走。\",\"home\":\"返回首页\",\"bg\":\"rgb(245, 239, 228)\",\"cls\":\"no-js\",\"css\":\"/styles.css\",\"cssLoaded\":true,\"script\":\"/script.js\",\"current\":0,\"nav\":[\"/\",\"/news-message.html\",\"/news-feature.html\",\"/news-commentary.html\"],\"navDisplay\":\"block\",\"menuExpanded\":\"false\",\"skip\":\"#main-content\",\"mainId\":\"main-content\",\"overflow\":false}"
+    },
+    {
+      "name": "error-page browser run has no console errors",
+      "status": "PASS",
+      "actual": "0"
+    }
+  ],
+  "network": [
+    {
+      "url": "http://127.0.0.1:57776/foo/bar?probe=desktop",
+      "status": 404,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:57776/styles.css",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://127.0.0.1:57776/script.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:57776/favicon.ico",
+      "status": 404,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:57776/foo/bar/?probe=mobile",
+      "status": 404,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:57776/styles.css",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://127.0.0.1:57776/script.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:57776/foo/bar/?probe=menu",
+      "status": 404,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:57776/styles.css",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://127.0.0.1:57776/script.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:57776/news-feature.html",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:57776/styles.css",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://127.0.0.1:57776/script.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:57776/foo/bar/?probe=home-link",
+      "status": 404,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:57776/styles.css",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://127.0.0.1:57776/script.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:57776/",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:57776/styles.css",
+      "status": 200,
+      "mimeType": "text/css"
+    },
+    {
+      "url": "http://127.0.0.1:57776/script.js",
+      "status": 200,
+      "mimeType": "text/javascript"
+    },
+    {
+      "url": "http://127.0.0.1:57776/no-js/nested",
+      "status": 404,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:57776/styles.css",
+      "status": 200,
+      "mimeType": "text/css"
+    }
+  ],
+  "consoleErrors": [],
+  "http": [
+    {
+      "route": "/task19-missing",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "url": "http://127.0.0.1:57776/task19-missing",
+      "bodySha256": "d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb"
+    },
+    {
+      "route": "/foo/bar",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "url": "http://127.0.0.1:57776/foo/bar",
+      "bodySha256": "d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb"
+    },
+    {
+      "route": "/foo/bar/",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "url": "http://127.0.0.1:57776/foo/bar/",
+      "bodySha256": "d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb"
+    },
+    {
+      "route": "/foo/a/b/c",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "url": "http://127.0.0.1:57776/foo/a/b/c",
+      "bodySha256": "d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb"
+    },
+    {
+      "route": "/article-task19-does-not-exist.html",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "url": "http://127.0.0.1:57776/article-task19-does-not-exist.html",
+      "bodySha256": "d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb"
+    },
+    {
+      "route": "/foo/bar?from=qa",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "url": "http://127.0.0.1:57776/foo/bar?from=qa",
+      "bodySha256": "d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb"
+    },
+    {
+      "route": "/_headers",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "url": "http://127.0.0.1:57776/_headers",
+      "bodySha256": "d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb"
+    }
+  ]
+}

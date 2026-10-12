@@ -1,0 +1,74 @@
+FAIL [文件级] Results/index.html 未被本任务改动 :: expected='73f49fd8d01bb578a5a1fcc76ca8967e19feb29ec8e1c64e1aed7b2006c3d901' actual='475e02f8bbf195ca4be23b8c71807962e1edbdaeef6ab45e1782c2d184a78f91'
+FAIL [文件级] Results/news-commentary.html 未被本任务改动 :: expected='cdc13a4023aea725c6c12e6940940b9a00253f84433d1675672b15de046f27ee' actual='76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8'
+FAIL [文件级] Results/news-feature.html 未被本任务改动 :: expected='5afe7d1bb37216c72d60b3fca62e0a247332014968081b12743ca1cc0fffe275' actual='485a8750d996bcba6d24877c0816dcff108d4cd8eb3cc33114e1bc7dcb20e68c'
+FAIL [文件级] Results/styles.css 未被本任务改动 :: expected='30d746616ae9dfd0e0aa07e373874b5f442ed14fbd3b78f9efe0abdcc21d040d' actual='2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad418ba1'
+FAIL [文件级] Results/ 文件集合固定为 5 个已约定文件 :: expected=['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'styles.css'] actual=['article-classroom-screen-upgrade.html', 'article-math-to-ai-learning.html', 'article-school-course-volunteer.html', 'index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+FAIL [公共壳] <title> 全角｜分隔 :: expected='我校启动校本课程志愿填报｜自然选择号' actual='新闻消息｜自然选择号'
+FAIL [DOM 结构] main 唯一直接元素子节点是 article.article :: expected=[('article', ['article'])] actual=[('h1', ['page-title']), ('ul', ['entry-list'])]
+FAIL [DOM 结构] .article 数量 :: expected=1 actual=0
+FAIL [DOM 结构] article 直接子级 = header + div :: expected=[('header', ['article__header']), ('div', ['article__body'])] actual=[]
+FAIL [DOM 结构] article__header 直接子级顺序 :: expected=[('p', ['article__type']), ('h1', ['page-title']), ('p', ['article__byline'])] actual=[]
+FAIL [DOM 结构] 文章头部直接元素子节点数 == 3 :: expected=3 actual=0
+FAIL [DOM 结构] .article__body 数量 :: expected=1 actual=0
+FAIL [DOM 结构] 正文容器只有 4 个 <p> :: expected=['p', 'p', 'p', 'p'] actual=[]
+FAIL [DOM 结构] strong.dateline 数量 :: expected=1 actual=0
+FAIL [DOM 结构] 正文 <strong> 总数 1 :: expected=1 actual=0
+FAIL [DOM 结构] dateline 位于第一个正文段落起始 :: 
+FAIL [DOM 结构] 0 个 列表 <ul> :: expected=0 actual=1
+FAIL [DOM 结构] 0 个 列表 <li> :: expected=0 actual=1
+FAIL [DOM 结构] 0 个 正文链接 :: expected=0 actual=1
+FAIL [逐字符文本] .article__type :: expected='新闻消息' actual=None
+FAIL [逐字符文本] h1.page-title :: expected='我校启动校本课程志愿填报' actual='新闻消息'
+FAIL [逐字符文本] .article__byline :: expected='蓝色空间' actual=None
+FAIL [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要求。例如，心理社团面向心理委员招生，合唱团报名者需要向指导老师展示一段演唱，经老师同意后方可加入。', '在此前的动员会上，老师也提醒同学们，即使最终没有进入最初希望选择的社团，也可以尝试了解调剂后的课程，在新的活动中获得不同的体验。', '目前，校本课程志愿填报工作正在进行中。'] actual=[]
+FAIL [逐字符文本] 首段以“自然选择号”开始 :: 
+FAIL [逐字符文本] 末段以“。”结束且无尾随空白 :: 
+FAIL [电头边界] 源码中 </strong> 后紧跟一个半角空格再“我” :: 
+FAIL [电头边界] M01 写在同一源码行 :: 
+FAIL [高风险字符串] 原样存在：自然选择号9月18日7时电 :: 
+FAIL [高风险字符串] 原样存在：今日7时 :: 
+FAIL [高风险字符串] 原样存在：第一志愿、第二志愿 :: 
+FAIL [高风险字符串] 原样存在：47个社团 :: 
+FAIL [高风险字符串] 原样存在：进行录取；部分社团 :: 
+FAIL [高风险字符串] 原样存在：目前，校本课程志愿填报工作正在进行中。 :: 
+FAIL [高风险字符串] 原样存在：调剂至尚有名额的其他社团。 :: 
+FAIL [可见内容白名单] main 内可见文本序列（忽略空白） :: expected=['新闻消息', '我校启动校本课程志愿填报', '蓝色空间', '自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要求。例如，心理社团面向心理委员招生，合唱团报名者需要向指导老师展示一段演唱，经老师同意后方可加入。', '在此前的动员会上，老师也提醒同学们，即使最终没有进入最初希望选择的社团，也可以尝试了解调剂后的课程，在新的活动中获得不同的体验。', '目前，校本课程志愿填报工作正在进行中。'] actual=['新闻消息', '我校启动校本课程志愿填报9月18日']
+FAIL [可见内容白名单] 正文无第八项可见内容 :: expected=7 actual=2
+{"total": 136, "passed": 100, "failed": 36}
+FAIL [文件级] Results/index.html 未被本任务改动 :: expected='73f49fd8d01bb578a5a1fcc76ca8967e19feb29ec8e1c64e1aed7b2006c3d901' actual='475e02f8bbf195ca4be23b8c71807962e1edbdaeef6ab45e1782c2d184a78f91'
+FAIL [文件级] Results/news-commentary.html 未被本任务改动 :: expected='cdc13a4023aea725c6c12e6940940b9a00253f84433d1675672b15de046f27ee' actual='76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8'
+FAIL [文件级] Results/news-feature.html 未被本任务改动 :: expected='5afe7d1bb37216c72d60b3fca62e0a247332014968081b12743ca1cc0fffe275' actual='485a8750d996bcba6d24877c0816dcff108d4cd8eb3cc33114e1bc7dcb20e68c'
+FAIL [文件级] Results/styles.css 未被本任务改动 :: expected='30d746616ae9dfd0e0aa07e373874b5f442ed14fbd3b78f9efe0abdcc21d040d' actual='2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad418ba1'
+FAIL [文件级] Results/ 文件集合固定为 5 个已约定文件 :: expected=['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'styles.css'] actual=['article-classroom-screen-upgrade.html', 'article-math-to-ai-learning.html', 'article-school-course-volunteer.html', 'index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+FAIL [公共壳] <title> 全角｜分隔 :: expected='我校启动校本课程志愿填报｜自然选择号' actual='新闻消息｜自然选择号'
+FAIL [DOM 结构] main 唯一直接元素子节点是 article.article :: expected=[('article', ['article'])] actual=[('h1', ['page-title']), ('ul', ['entry-list'])]
+FAIL [DOM 结构] .article 数量 :: expected=1 actual=0
+FAIL [DOM 结构] article 直接子级 = header + div :: expected=[('header', ['article__header']), ('div', ['article__body'])] actual=[]
+FAIL [DOM 结构] article__header 直接子级顺序 :: expected=[('p', ['article__type']), ('h1', ['page-title']), ('p', ['article__byline'])] actual=[]
+FAIL [DOM 结构] 文章头部直接元素子节点数 == 3 :: expected=3 actual=0
+FAIL [DOM 结构] .article__body 数量 :: expected=1 actual=0
+FAIL [DOM 结构] 正文容器只有 4 个 <p> :: expected=['p', 'p', 'p', 'p'] actual=[]
+FAIL [DOM 结构] strong.dateline 数量 :: expected=1 actual=0
+FAIL [DOM 结构] 正文 <strong> 总数 1 :: expected=1 actual=0
+FAIL [DOM 结构] dateline 位于第一个正文段落起始 :: 
+FAIL [DOM 结构] 0 个 列表 <ul> :: expected=0 actual=1
+FAIL [DOM 结构] 0 个 列表 <li> :: expected=0 actual=1
+FAIL [DOM 结构] 0 个 正文链接 :: expected=0 actual=1
+FAIL [逐字符文本] .article__type :: expected='新闻消息' actual=None
+FAIL [逐字符文本] h1.page-title :: expected='我校启动校本课程志愿填报' actual='新闻消息'
+FAIL [逐字符文本] .article__byline :: expected='蓝色空间' actual=None
+FAIL [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要求。例如，心理社团面向心理委员招生，合唱团报名者需要向指导老师展示一段演唱，经老师同意后方可加入。', '在此前的动员会上，老师也提醒同学们，即使最终没有进入最初希望选择的社团，也可以尝试了解调剂后的课程，在新的活动中获得不同的体验。', '目前，校本课程志愿填报工作正在进行中。'] actual=[]
+FAIL [逐字符文本] 首段以“自然选择号”开始 :: 
+FAIL [逐字符文本] 末段以“。”结束且无尾随空白 :: 
+FAIL [电头边界] 源码中 </strong> 后紧跟一个半角空格再“我” :: 
+FAIL [电头边界] M01 写在同一源码行 :: 
+FAIL [高风险字符串] 原样存在：自然选择号9月18日7时电 :: 
+FAIL [高风险字符串] 原样存在：今日7时 :: 
+FAIL [高风险字符串] 原样存在：第一志愿、第二志愿 :: 
+FAIL [高风险字符串] 原样存在：47个社团 :: 
+FAIL [高风险字符串] 原样存在：进行录取；部分社团 :: 
+FAIL [高风险字符串] 原样存在：目前，校本课程志愿填报工作正在进行中。 :: 
+FAIL [高风险字符串] 原样存在：调剂至尚有名额的其他社团。 :: 
+FAIL [可见内容白名单] main 内可见文本序列（忽略空白） :: expected=['新闻消息', '我校启动校本课程志愿填报', '蓝色空间', '自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要求。例如，心理社团面向心理委员招生，合唱团报名者需要向指导老师展示一段演唱，经老师同意后方可加入。', '在此前的动员会上，老师也提醒同学们，即使最终没有进入最初希望选择的社团，也可以尝试了解调剂后的课程，在新的活动中获得不同的体验。', '目前，校本课程志愿填报工作正在进行中。'] actual=['新闻消息', '我校启动校本课程志愿填报9月18日']
+FAIL [可见内容白名单] 正文无第八项可见内容 :: expected=7 actual=2
+{"total": 136, "passed": 100, "failed": 36}

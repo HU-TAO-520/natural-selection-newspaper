@@ -1,0 +1,25 @@
+[RZ0] [REC] - — - — 验收环境 — Chrome/154.0.8037.93 · headless=new · file:// 直开 · profile=C:\Users\weibo\Documents\语文报纸\_qa_task19\.cdp9392-1790936042917 · 被测目录=C:\Users\weibo\Documents\语文报纸\Results · 段=desktop,mobile,degrade,content
+[RZ1] [PASS] - — - — 19.1 遍历清单条数 == manifest.counts.html（HTML 子集，非目录扫描所得） — article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 styles.css／script.js 不是页（不进遍历清单） — article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 遍历顺序按 path 字典序 — article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [REC] - — - — 本轮实跑页集合（QODER_ONLY 只影响实跑范围，不改变清单结论） — news-message.html
+[RZ2] [PASS] - — - — 前置闸门：Task 18 结论 FAIL 0 且 PENDING 0（未全绿则本包不开跑） — 匹配=true
+[RZ2] [PASS] - — - — 前置闸门：Task 18 变异捕获率 100% — 100
+[RZ2] [PASS] - — - — 前置闸门：Task 18 断言数 ≥340 — 1149
+[RZ2] [PASS] - — - — 前置闸门：expected_reversals.md 已读入本包前置（区分真回归与范围过期的唯一依据） — true
+[RZ3] [PASS] - — - — 19.1 Task18 facts.json 的 __meta 与目录绑定：页集合与本包遍历清单同源（复用 M1 结论，不重造） — article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ3] [PASS] - — - — 19.1 快照未过期：__meta 逐页哈希 == 当前 Results/ 逐页哈希 — 0 页失配
+[RZ4] [PASS] - — - — 19.1 首页哈希 == 清单登记值（合同基线表里的 2629 字节 971e57a5… 是 v1 六文件值，当前以 manifest 为准，Task18 §8.3 已登记） — 475e02f8bbf195ca…/3635B
+[RZ4] [PASS] - — - — 19.1 Results/ 文件数 == 清单 pages 数（交付文件 6+N=9） — 9
+[RZ5] [PASS] - — - — 19.1 输入前置：五处目录齐备 — 全部存在
+[RZ5] [PASS] - — - — 19.1 输入前置：清单／打包件／上传单／Task18 事实／Task13 基线／v1 母本齐备 — 全部存在
+[RB20] [PASS] index.html — 1280px/冷历史 — 未访问过的导航链接为墨色（组件覆盖 a 基础色；冷历史基线，供 R-N 对照） — 新闻消息=rgb(33, 31, 28),新闻通讯=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB20] [PASS] index.html — 1280px/冷历史 — 当前页带实色暗红下边线（冷历史） — 2px solid rgb(122, 36, 36)
+[RB21] [PASS] index.html — 1280px/冷历史 — 报头链接冷历史下为墨色 — rgb(33, 31, 28)
+[RB1] [PASS] news-message.html — 769px — 桌面无横向溢出（scrollWidth<=clientWidth） — 769<=769
+[RB1] [PASS] news-message.html — 769px — 报头版心不超出 视口−2×--page-gutter — 705.0
+[RZ99] [FAIL] - — - — 驱动异常（main 抛出）—— 绝不把崩溃当成全绿 — 期望 无异常 / 实际 TypeError: Cannot read properties of undefined (reading 'toFixed')
+    at desktopChecks (file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task19/passes_load19.mjs:69:206)
+    at async main (file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task19/cdp_regression19.mjs:321:47) — 移交: Task 19 驱动自身
+
+合计 21 条（计分 19）：PASS 18 / FAIL 1 / SKIPPED-BY-DESIGN 0 / REC 2 / PENDING 0（驱动异常）

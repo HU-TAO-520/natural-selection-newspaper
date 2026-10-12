@@ -1,0 +1,1002 @@
+{
+  "schema": 1,
+  "revision": "R14",
+  "checks": [
+    {
+      "id": "T20-P01",
+      "status": "PASS",
+      "target": "main",
+      "case": "set/disk-files",
+      "expected": [
+        "404.html",
+        "article-along-the-north-small-river.html",
+        "article-classroom-screen-upgrade.html",
+        "article-math-to-ai-learning.html",
+        "article-north-of-dam-river.html",
+        "article-school-course-selection-results.html",
+        "article-school-course-volunteer.html",
+        "easteregg.css",
+        "easteregg.html",
+        "easteregg.js",
+        "index.html",
+        "news-commentary.html",
+        "news-feature.html",
+        "news-message.html",
+        "script.js",
+        "styles.css"
+      ],
+      "actual": [
+        "404.html",
+        "article-along-the-north-small-river.html",
+        "article-classroom-screen-upgrade.html",
+        "article-math-to-ai-learning.html",
+        "article-north-of-dam-river.html",
+        "article-school-course-selection-results.html",
+        "article-school-course-volunteer.html",
+        "easteregg.css",
+        "easteregg.html",
+        "easteregg.js",
+        "index.html",
+        "news-commentary.html",
+        "news-feature.html",
+        "news-message.html",
+        "script.js",
+        "styles.css"
+      ],
+      "source": "R14 fixed files + independently enumerated content/articles/*.md"
+    },
+    {
+      "id": "T20-P01",
+      "status": "PASS",
+      "target": "main",
+      "case": "set/no-directories",
+      "expected": [],
+      "actual": [],
+      "source": "target directory entries"
+    },
+    {
+      "id": "T20-P01",
+      "status": "PASS",
+      "target": "main",
+      "case": "set/manifest-pages",
+      "expected": [
+        "404.html",
+        "article-along-the-north-small-river.html",
+        "article-classroom-screen-upgrade.html",
+        "article-math-to-ai-learning.html",
+        "article-north-of-dam-river.html",
+        "article-school-course-selection-results.html",
+        "article-school-course-volunteer.html",
+        "easteregg.css",
+        "easteregg.html",
+        "easteregg.js",
+        "index.html",
+        "news-commentary.html",
+        "news-feature.html",
+        "news-message.html",
+        "script.js",
+        "styles.css"
+      ],
+      "actual": [
+        "404.html",
+        "article-along-the-north-small-river.html",
+        "article-classroom-screen-upgrade.html",
+        "article-math-to-ai-learning.html",
+        "article-north-of-dam-river.html",
+        "article-school-course-selection-results.html",
+        "article-school-course-volunteer.html",
+        "easteregg.css",
+        "easteregg.html",
+        "easteregg.js",
+        "index.html",
+        "news-commentary.html",
+        "news-feature.html",
+        "news-message.html",
+        "script.js",
+        "styles.css"
+      ],
+      "source": "R14 contract + article source stems"
+    },
+    {
+      "id": "T20-P01",
+      "status": "PASS",
+      "target": "main",
+      "case": "set/config",
+      "expected": [
+        "_headers"
+      ],
+      "actual": [
+        "_headers"
+      ],
+      "source": "Task17 config rule"
+    },
+    {
+      "id": "T20-P01",
+      "status": "PASS",
+      "target": "main",
+      "case": "set/columns",
+      "expected": "main columns present",
+      "actual": [
+        {
+          "key": "message",
+          "label": "新闻消息",
+          "list": "news-message.html",
+          "articles": [
+            {
+              "slug": "school-course-selection-results",
+              "page": "article-school-course-selection-results.html",
+              "title": "我校校本课程选择结果公布"
+            },
+            {
+              "slug": "school-course-volunteer",
+              "page": "article-school-course-volunteer.html",
+              "title": "我校启动校本课程志愿填报"
+            }
+          ]
+        },
+        {
+          "key": "feature",
+          "label": "新闻通讯",
+          "list": "news-feature.html",
+          "articles": [
+            {
+              "slug": "along-the-north-small-river",
+              "page": "article-along-the-north-small-river.html",
+              "title": "封路之后，沿北小河往南"
+            },
+            {
+              "slug": "north-of-dam-river",
+              "page": "article-north-of-dam-river.html",
+              "title": "坝河以北，走过的东坝"
+            },
+            {
+              "slug": "math-to-ai-learning",
+              "page": "article-math-to-ai-learning.html",
+              "title": "从数学题到AI时代的学习"
+            }
+          ]
+        },
+        {
+          "key": "commentary",
+          "label": "新闻评论",
+          "list": "news-commentary.html",
+          "articles": [
+            {
+              "slug": "classroom-screen-upgrade",
+              "page": "article-classroom-screen-upgrade.html",
+              "title": "设备升级了，使用门槛也该降下来"
+            }
+          ]
+        }
+      ],
+      "source": "main article registry / preview columns=[]"
+    },
+    {
+      "id": "T20-P01",
+      "status": "PASS",
+      "target": "main",
+      "case": "count/formulas",
+      "expected": {
+        "counts": {
+          "pages": 16,
+          "html": 12,
+          "config": 1,
+          "articles": 6
+        },
+        "files": "10+N",
+        "html": "6+N",
+        "zip": "11+N"
+      },
+      "actual": {
+        "counts": {
+          "pages": 16,
+          "html": 12,
+          "config": 1,
+          "articles": 6
+        },
+        "files": 16,
+        "html": 12,
+        "zip": 17
+      },
+      "source": "R14 contract"
+    },
+    {
+      "id": "T20-P02",
+      "status": "PASS",
+      "target": "main",
+      "case": "digest/disk-manifest",
+      "expected": "every page/config entry matches disk byte count and SHA-256",
+      "actual": {
+        "404.html": {
+          "bytes": 2051,
+          "sha256": "d7f7be1ba8546fbd2148fd276a6f55bb91baab0e31efe7ef083e08241618cfbb"
+        },
+        "article-along-the-north-small-river.html": {
+          "bytes": 3129,
+          "sha256": "28a18f3a37e0577d1527aa19d925b3a0b6cd2d959d4166a7d01b0bbe583e2617"
+        },
+        "article-classroom-screen-upgrade.html": {
+          "bytes": 8486,
+          "sha256": "a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52"
+        },
+        "article-math-to-ai-learning.html": {
+          "bytes": 6962,
+          "sha256": "73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5"
+        },
+        "article-north-of-dam-river.html": {
+          "bytes": 3292,
+          "sha256": "2b6d2d5d51f8247a087906c2ea6c180fd052268db75379c5bed97e09e90acbb6"
+        },
+        "article-school-course-selection-results.html": {
+          "bytes": 2508,
+          "sha256": "58da6cff5b2411403b6b03317a1061b391647b0768459a015f0000d1afa4de2f"
+        },
+        "article-school-course-volunteer.html": {
+          "bytes": 3011,
+          "sha256": "66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8"
+        },
+        "easteregg.css": {
+          "bytes": 8402,
+          "sha256": "510ae50df442199d93944e2bf00f113a672fbc03544c9a56e4a26d7910b4cea6"
+        },
+        "easteregg.html": {
+          "bytes": 13232,
+          "sha256": "6d6f572c222dbce83053193fbd49107ef13dd66d1220b2925b2c974efc857d73"
+        },
+        "easteregg.js": {
+          "bytes": 23211,
+          "sha256": "7d1e107fe649caa9334a304fbdf27da2a544bf701ca9206f63ee743cf70e122d"
+        },
+        "index.html": {
+          "bytes": 3688,
+          "sha256": "2dd055348be3bc03bb1dc86b6a8629f2e83bf689f750ce948f9a51fbe5314bb9"
+        },
+        "news-commentary.html": {
+          "bytes": 2067,
+          "sha256": "76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8"
+        },
+        "news-feature.html": {
+          "bytes": 2549,
+          "sha256": "203a111b51988e1f91ef9dbeefab2a1a54f1aaf26efc192cfbe6aa5965373f4c"
+        },
+        "news-message.html": {
+          "bytes": 2320,
+          "sha256": "2e84e8001fa4bb1a95aeaa3a10d14ae0c6df6e8f98e54f2fa0a25ac0a2399bf3"
+        },
+        "script.js": {
+          "bytes": 2204,
+          "sha256": "abb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666"
+        },
+        "styles.css": {
+          "bytes": 15628,
+          "sha256": "25941dccb28885d6f0acd27211ef2134b92cb8dc5a61d254cfa7f674630eb5f3"
+        },
+        "_headers": {
+          "bytes": 518,
+          "sha256": "b0273f2ff60c2c95d24899b8bd8a72ae050d233bc38e8b9903a28421d6f9ba7a"
+        }
+      },
+      "source": "C:\\Users\\weibo\\Documents\\语文报纸\\deploy\\manifest.json"
+    },
+    {
+      "id": "T20-P02",
+      "status": "PASS",
+      "target": "main",
+      "case": "headers/protected",
+      "expected": {
+        "bytes": 518,
+        "sha256": "b0273f2ff60c2c95d24899b8bd8a72ae050d233bc38e8b9903a28421d6f9ba7a"
+      },
+      "actual": {
+        "bytes": 518,
+        "sha256": "b0273f2ff60c2c95d24899b8bd8a72ae050d233bc38e8b9903a28421d6f9ba7a"
+      },
+      "source": "deploy/_headers protected baseline"
+    },
+    {
+      "id": "T20-P03",
+      "status": "PASS",
+      "target": "main",
+      "case": "zip/set",
+      "expected": [
+        "404.html",
+        "_headers",
+        "article-along-the-north-small-river.html",
+        "article-classroom-screen-upgrade.html",
+        "article-math-to-ai-learning.html",
+        "article-north-of-dam-river.html",
+        "article-school-course-selection-results.html",
+        "article-school-course-volunteer.html",
+        "easteregg.css",
+        "easteregg.html",
+        "easteregg.js",
+        "index.html",
+        "news-commentary.html",
+        "news-feature.html",
+        "news-message.html",
+        "script.js",
+        "styles.css"
+      ],
+      "actual": {
+        "entries": [
+          "404.html",
+          "_headers",
+          "article-along-the-north-small-river.html",
+          "article-classroom-screen-upgrade.html",
+          "article-math-to-ai-learning.html",
+          "article-north-of-dam-river.html",
+          "article-school-course-selection-results.html",
+          "article-school-course-volunteer.html",
+          "easteregg.css",
+          "easteregg.html",
+          "easteregg.js",
+          "index.html",
+          "news-commentary.html",
+          "news-feature.html",
+          "news-message.html",
+          "script.js",
+          "styles.css"
+        ],
+        "directories": []
+      },
+      "source": "C:\\Users\\weibo\\Documents\\语文报纸\\deploy\\site.zip"
+    },
+    {
+      "id": "T20-P03",
+      "status": "PASS",
+      "target": "main",
+      "case": "zip/metadata",
+      "expected": {
+        "timestamp": [
+          1980,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "compression": "DEFLATED",
+        "system": 0,
+        "mode": "0644",
+        "extra": "",
+        "comment": ""
+      },
+      "actual": [
+        {
+          "name": "404.html",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "_headers",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "article-along-the-north-small-river.html",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "article-classroom-screen-upgrade.html",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "article-math-to-ai-learning.html",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "article-north-of-dam-river.html",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "article-school-course-selection-results.html",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "article-school-course-volunteer.html",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "easteregg.css",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "easteregg.html",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "easteregg.js",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "index.html",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "news-commentary.html",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "news-feature.html",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "news-message.html",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "script.js",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "styles.css",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        }
+      ],
+      "source": "Task17 deterministic ZIP metadata"
+    },
+    {
+      "id": "T20-P03",
+      "status": "PASS",
+      "target": "main",
+      "case": "zip/content",
+      "expected": "each ZIP entry matches manifest SHA/bytes and disk bytes",
+      "actual": {
+        "entries": 17,
+        "zip_sha256": "df3692829ffe1fc0031214a27bdbfbdcde50419b2b3080391fae12b8d3a1292f"
+      },
+      "source": "C:\\Users\\weibo\\Documents\\语文报纸\\deploy\\site.zip"
+    },
+    {
+      "id": "T20-P03",
+      "status": "PASS",
+      "target": "main",
+      "case": "repeat/deterministic",
+      "expected": "two independently generated ZIP byte streams equal the delivered ZIP SHA-256",
+      "actual": {
+        "first": "df3692829ffe1fc0031214a27bdbfbdcde50419b2b3080391fae12b8d3a1292f",
+        "second": "df3692829ffe1fc0031214a27bdbfbdcde50419b2b3080391fae12b8d3a1292f",
+        "delivered": "df3692829ffe1fc0031214a27bdbfbdcde50419b2b3080391fae12b8d3a1292f"
+      },
+      "source": "standard-library deterministic reconstruction"
+    },
+    {
+      "id": "T20-P03",
+      "status": "PASS",
+      "target": "main",
+      "case": "zip/upload-guide",
+      "expected": "target guide contains current package bytes/hash and manual upload instructions",
+      "actual": {
+        "guide_exists": true,
+        "zip_sha256": "df3692829ffe1fc0031214a27bdbfbdcde50419b2b3080391fae12b8d3a1292f",
+        "zip_bytes": 36925
+      },
+      "source": "C:\\Users\\weibo\\Documents\\语文报纸\\deploy\\UPLOAD.md"
+    },
+    {
+      "id": "T20-P01",
+      "status": "PASS",
+      "target": "preview",
+      "case": "set/disk-files",
+      "expected": [
+        "404.html",
+        "easteregg.css",
+        "easteregg.js",
+        "index.html"
+      ],
+      "actual": [
+        "404.html",
+        "easteregg.css",
+        "easteregg.js",
+        "index.html"
+      ],
+      "source": "R14 fixed files + independently enumerated content/articles/*.md"
+    },
+    {
+      "id": "T20-P01",
+      "status": "PASS",
+      "target": "preview",
+      "case": "set/no-directories",
+      "expected": [],
+      "actual": [],
+      "source": "target directory entries"
+    },
+    {
+      "id": "T20-P01",
+      "status": "PASS",
+      "target": "preview",
+      "case": "set/manifest-pages",
+      "expected": [
+        "404.html",
+        "easteregg.css",
+        "easteregg.js",
+        "index.html"
+      ],
+      "actual": [
+        "404.html",
+        "easteregg.css",
+        "easteregg.js",
+        "index.html"
+      ],
+      "source": "R14 contract + article source stems"
+    },
+    {
+      "id": "T20-P01",
+      "status": "PASS",
+      "target": "preview",
+      "case": "set/config",
+      "expected": [
+        "_headers"
+      ],
+      "actual": [
+        "_headers"
+      ],
+      "source": "Task17 config rule"
+    },
+    {
+      "id": "T20-P01",
+      "status": "PASS",
+      "target": "preview",
+      "case": "set/columns",
+      "expected": [],
+      "actual": [],
+      "source": "main article registry / preview columns=[]"
+    },
+    {
+      "id": "T20-P01",
+      "status": "PASS",
+      "target": "preview",
+      "case": "count/formulas",
+      "expected": {
+        "counts": {
+          "pages": 4,
+          "html": 2,
+          "config": 1,
+          "articles": 0
+        },
+        "files": 4,
+        "html": 2,
+        "zip": 5
+      },
+      "actual": {
+        "counts": {
+          "pages": 4,
+          "html": 2,
+          "config": 1,
+          "articles": 0
+        },
+        "files": 4,
+        "html": 2,
+        "zip": 5
+      },
+      "source": "R14 contract"
+    },
+    {
+      "id": "T20-P02",
+      "status": "PASS",
+      "target": "preview",
+      "case": "digest/disk-manifest",
+      "expected": "every page/config entry matches disk byte count and SHA-256",
+      "actual": {
+        "404.html": {
+          "bytes": 716,
+          "sha256": "527feda89e8a9cba855986679c3825080b78529bccaea3a1a3c0c0fd8acc5af0"
+        },
+        "easteregg.css": {
+          "bytes": 8402,
+          "sha256": "510ae50df442199d93944e2bf00f113a672fbc03544c9a56e4a26d7910b4cea6"
+        },
+        "easteregg.js": {
+          "bytes": 23211,
+          "sha256": "7d1e107fe649caa9334a304fbdf27da2a544bf701ca9206f63ee743cf70e122d"
+        },
+        "index.html": {
+          "bytes": 13294,
+          "sha256": "48bfde92db590d05c48753be621d5616c3eb094d6be15158e768062540cee3eb"
+        },
+        "_headers": {
+          "bytes": 518,
+          "sha256": "b0273f2ff60c2c95d24899b8bd8a72ae050d233bc38e8b9903a28421d6f9ba7a"
+        }
+      },
+      "source": "C:\\Users\\weibo\\Documents\\语文报纸\\deploy\\easteregg-manifest.json"
+    },
+    {
+      "id": "T20-P02",
+      "status": "PASS",
+      "target": "preview",
+      "case": "headers/protected",
+      "expected": {
+        "bytes": 518,
+        "sha256": "b0273f2ff60c2c95d24899b8bd8a72ae050d233bc38e8b9903a28421d6f9ba7a"
+      },
+      "actual": {
+        "bytes": 518,
+        "sha256": "b0273f2ff60c2c95d24899b8bd8a72ae050d233bc38e8b9903a28421d6f9ba7a"
+      },
+      "source": "deploy/_headers protected baseline"
+    },
+    {
+      "id": "T20-P03",
+      "status": "PASS",
+      "target": "preview",
+      "case": "zip/set",
+      "expected": [
+        "404.html",
+        "_headers",
+        "easteregg.css",
+        "easteregg.js",
+        "index.html"
+      ],
+      "actual": {
+        "entries": [
+          "404.html",
+          "_headers",
+          "easteregg.css",
+          "easteregg.js",
+          "index.html"
+        ],
+        "directories": []
+      },
+      "source": "C:\\Users\\weibo\\Documents\\语文报纸\\deploy\\easteregg.zip"
+    },
+    {
+      "id": "T20-P03",
+      "status": "PASS",
+      "target": "preview",
+      "case": "zip/metadata",
+      "expected": {
+        "timestamp": [
+          1980,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "compression": "DEFLATED",
+        "system": 0,
+        "mode": "0644",
+        "extra": "",
+        "comment": ""
+      },
+      "actual": [
+        {
+          "name": "404.html",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "_headers",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "easteregg.css",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "easteregg.js",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        },
+        {
+          "name": "index.html",
+          "date_time": [
+            1980,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "compress_type": 8,
+          "create_system": 0,
+          "external_attr": 27525120,
+          "extra": false,
+          "comment": false
+        }
+      ],
+      "source": "Task17 deterministic ZIP metadata"
+    },
+    {
+      "id": "T20-P03",
+      "status": "PASS",
+      "target": "preview",
+      "case": "zip/content",
+      "expected": "each ZIP entry matches manifest SHA/bytes and disk bytes",
+      "actual": {
+        "entries": 5,
+        "zip_sha256": "1c9c2b2e4454533c239b14134278018a5fdc9b715805792c5160c921b3349c84"
+      },
+      "source": "C:\\Users\\weibo\\Documents\\语文报纸\\deploy\\easteregg.zip"
+    },
+    {
+      "id": "T20-P03",
+      "status": "PASS",
+      "target": "preview",
+      "case": "repeat/deterministic",
+      "expected": "two independently generated ZIP byte streams equal the delivered ZIP SHA-256",
+      "actual": {
+        "first": "1c9c2b2e4454533c239b14134278018a5fdc9b715805792c5160c921b3349c84",
+        "second": "1c9c2b2e4454533c239b14134278018a5fdc9b715805792c5160c921b3349c84",
+        "delivered": "1c9c2b2e4454533c239b14134278018a5fdc9b715805792c5160c921b3349c84"
+      },
+      "source": "standard-library deterministic reconstruction"
+    },
+    {
+      "id": "T20-P03",
+      "status": "PASS",
+      "target": "preview",
+      "case": "zip/upload-guide",
+      "expected": "target guide contains current package bytes/hash and manual upload instructions",
+      "actual": {
+        "guide_exists": true,
+        "zip_sha256": "1c9c2b2e4454533c239b14134278018a5fdc9b715805792c5160c921b3349c84",
+        "zip_bytes": 13481
+      },
+      "source": "C:\\Users\\weibo\\Documents\\语文报纸\\deploy\\EASTEREGG-UPLOAD.md"
+    },
+    {
+      "id": "T20-P04",
+      "status": "PASS",
+      "target": "cross",
+      "case": "cross-target-rejection",
+      "expected": "main and preview ZIP entry/content profiles differ",
+      "actual": "entry sets differ",
+      "source": "independent ZIP directory comparison"
+    }
+  ],
+  "summary": {
+    "pass": 27,
+    "fail": 0
+  },
+  "contract_sha256": "fa9ed76e965ca66892ec3baa89a27230696dc67a160c06606440adff9ce023ec"
+}

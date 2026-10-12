@@ -1,0 +1,29 @@
+{
+  "results": [
+    "index.html",
+    "news-message.html",
+    "news-feature.html",
+    "news-commentary.html",
+    "article-school-course-volunteer.html",
+    "article-math-to-ai-learning.html",
+    "article-classroom-screen-upgrade.html"
+  ],
+  "before": [
+    "index.html",
+    "news-message.html",
+    "news-feature.html",
+    "news-commentary.html"
+  ],
+  "nodate": [
+    "news-message.html",
+    "news-feature.html",
+    "news-commentary.html",
+    "index.html"
+  ],
+  "bare": [
+    "index.html",
+    "news-message.html",
+    "news-feature.html",
+    "news-commentary.html"
+  ]
+}

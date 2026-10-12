@@ -1,0 +1,7 @@
+after Tab loop  {"open":false,"aria":"false","clicks":0,"active":"nav-toggle","y":0,"tr":["doc:Tab","doc:Tab","doc:Tab","keyup:Tab"]}
+Enter#1          {"open":true,"aria":"true","clicks":1,"active":"nav-toggle","y":0,"tr":["doc:Enter","keydown:Enter","click","keyup:Enter"]}
+Enter#2          {"open":false,"aria":"false","clicks":1,"active":"nav-toggle","y":0,"tr":["doc:Enter","keydown:Enter","click","keyup:Enter"]}
+Space#1          {"open":true,"aria":"true","clicks":1,"active":"nav-toggle","y":0,"tr":["doc: ","keydown: ","keyup: ","click"]}
+Space#2          {"open":false,"aria":"false","clicks":1,"active":"nav-toggle","y":0,"tr":["doc: ","keydown: ","keyup: ","click"]}
+Space#3 keyonly  {"open":true,"aria":"true","clicks":1,"active":"nav-toggle","y":0,"tr":["doc: ","keydown: ","keyup: ","click"]}
+Space#4 rawkey+char {"open":false,"aria":"false","clicks":1,"active":"nav-toggle","y":0,"tr":["doc: ","keydown: ","keyup: ","click"]}

@@ -1,0 +1,70 @@
+FAIL RA2 [index.html @1280px] 资源树：全部本目录资源成功、无 failed、无外部 URL :: 期望 全 file:// 且成功 / 实际 [{"n":"script.js","failed":false,"local":true},{"n":"x.png","failed":true,"local":false},{"n":"styles.css","failed":false,"local":true}]
+FAIL RA2 [index.html @1280px] DOM 属性无 http(s)/协议相对/data:/查询串 :: 期望 0 条 / 实际 IMG@src=https://task19-mutant.invalid/x.png
+FAIL RA3 [index.html @1280px] 加载阶段控制台 0 错误 0 警告 0 未捕获异常 :: 期望 0 条 / 实际 LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+FAIL RA4 [七页汇总 @-] Network 域全程事件中外部（http/CDN/远程字体）请求数为 0 —— Task0 正向验收"全站网络请求数为 0" :: 期望 0 条外部请求 / 实际 https://task19-mutant.invalid/x.png
+FAIL RA4 [七页汇总 @-] Network 域无 404／失败资源 :: 期望 0 条 / 实际 FAILED::https://task19-mutant.invalid/x.png::net::ERR_NAME_NOT_RESOLVED
+FAIL RJ5 [七页全程 @全部宽度/状态/操作] 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） :: 期望 0 条 / 实际 LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+FAIL RA2 [index.html @1280px] 资源树：全部本目录资源成功、无 failed、无外部 URL :: [{"n":"script.js","failed":false,"local":true},{"n":"x.png","failed":true,"local":false},{"n":"styles.css","failed":false,"local":true}] -> Task 17
+FAIL RA2 [index.html @1280px] DOM 属性无 http(s)/协议相对/data:/查询串 :: IMG@src=https://task19-mutant.invalid/x.png -> Task 15
+FAIL RA3 [index.html @1280px] 加载阶段控制台 0 错误 0 警告 0 未捕获异常 :: LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED -> Task 15／16
+FAIL RA4 [七页汇总 @-] Network 域全程事件中外部（http/CDN/远程字体）请求数为 0 —— Task0 正向验收"全站网络请求数为 0" :: https://task19-mutant.invalid/x.png -> Task 15
+FAIL RA4 [七页汇总 @-] Network 域无 404／失败资源 :: FAILED::https://task19-mutant.invalid/x.png::net::ERR_NAME_NOT_RESOLVED -> Task 17
+FAIL RJ5 [七页全程 @全部宽度/状态/操作] 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） :: LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED -> Task 15／16
+
+合计 177 条（计分 173）：PASS 167 / FAIL 6 / SKIPPED-BY-DESIGN 0 / REC 4 / PENDING 0
+FAIL RA2 [index.html @1280px] 资源树：全部本目录资源成功、无 failed、无外部 URL :: 期望 全 file:// 且成功 / 实际 [{"n":"script.js","failed":false,"local":true},{"n":"x.png","failed":true,"local":false},{"n":"styles.css","failed":false,"local":true}]
+FAIL RA2 [index.html @1280px] DOM 属性无 http(s)/协议相对/data:/查询串 :: 期望 0 条 / 实际 IMG@src=https://task19-mutant.invalid/x.png
+FAIL RA3 [index.html @1280px] 加载阶段控制台 0 错误 0 警告 0 未捕获异常 :: 期望 0 条 / 实际 LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+FAIL RA4 [七页汇总 @-] Network 域全程事件中外部（http/CDN/远程字体）请求数为 0 —— Task0 正向验收"全站网络请求数为 0" :: 期望 0 条外部请求 / 实际 https://task19-mutant.invalid/x.png
+FAIL RA4 [七页汇总 @-] Network 域无 404／失败资源 :: 期望 0 条 / 实际 FAILED::https://task19-mutant.invalid/x.png::net::ERR_NAME_NOT_RESOLVED
+FAIL RJ5 [七页全程 @全部宽度/状态/操作] 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） :: 期望 0 条 / 实际 LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+FAIL RA2 [index.html @1280px] 资源树：全部本目录资源成功、无 failed、无外部 URL :: [{"n":"script.js","failed":false,"local":true},{"n":"x.png","failed":true,"local":false},{"n":"styles.css","failed":false,"local":true}] -> Task 17
+FAIL RA2 [index.html @1280px] DOM 属性无 http(s)/协议相对/data:/查询串 :: IMG@src=https://task19-mutant.invalid/x.png -> Task 15
+FAIL RA3 [index.html @1280px] 加载阶段控制台 0 错误 0 警告 0 未捕获异常 :: LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED -> Task 15／16
+FAIL RA4 [七页汇总 @-] Network 域全程事件中外部（http/CDN/远程字体）请求数为 0 —— Task0 正向验收"全站网络请求数为 0" :: https://task19-mutant.invalid/x.png -> Task 15
+FAIL RA4 [七页汇总 @-] Network 域无 404／失败资源 :: FAILED::https://task19-mutant.invalid/x.png::net::ERR_NAME_NOT_RESOLVED -> Task 17
+FAIL RJ5 [七页全程 @全部宽度/状态/操作] 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） :: LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED -> Task 15／16
+
+合计 219 条（计分 215）：PASS 209 / FAIL 6 / SKIPPED-BY-DESIGN 0 / REC 4 / PENDING 0
+FAIL RA2 [index.html @1280px] 资源树：全部本目录资源成功、无 failed、无外部 URL :: 期望 全 file:// 且成功 / 实际 [{"n":"script.js","failed":false,"local":true},{"n":"x.png","failed":true,"local":false},{"n":"styles.css","failed":false,"local":true}]
+FAIL RA2 [index.html @1280px] DOM 属性无 http(s)/协议相对/data:/查询串 :: 期望 0 条 / 实际 IMG@src=https://task19-mutant.invalid/x.png
+FAIL RA3 [index.html @1280px] 加载阶段控制台 0 错误 0 警告 0 未捕获异常 :: 期望 0 条 / 实际 LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+FAIL RA4 [七页汇总 @-] Network 域全程事件中外部（http/CDN/远程字体）请求数为 0 —— Task0 正向验收"全站网络请求数为 0" :: 期望 0 条外部请求 / 实际 https://task19-mutant.invalid/x.png
+FAIL RA4 [七页汇总 @-] Network 域无 404／失败资源 :: 期望 0 条 / 实际 FAILED::https://task19-mutant.invalid/x.png::net::ERR_NAME_NOT_RESOLVED
+FAIL RJ5 [七页全程 @全部宽度/状态/操作] 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） :: 期望 0 条 / 实际 LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+FAIL RA2 [index.html @1280px] 资源树：全部本目录资源成功、无 failed、无外部 URL :: [{"n":"script.js","failed":false,"local":true},{"n":"x.png","failed":true,"local":false},{"n":"styles.css","failed":false,"local":true}] -> Task 17
+FAIL RA2 [index.html @1280px] DOM 属性无 http(s)/协议相对/data:/查询串 :: IMG@src=https://task19-mutant.invalid/x.png -> Task 15
+FAIL RA3 [index.html @1280px] 加载阶段控制台 0 错误 0 警告 0 未捕获异常 :: LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED -> Task 15／16
+FAIL RA4 [七页汇总 @-] Network 域全程事件中外部（http/CDN/远程字体）请求数为 0 —— Task0 正向验收"全站网络请求数为 0" :: https://task19-mutant.invalid/x.png -> Task 15
+FAIL RA4 [七页汇总 @-] Network 域无 404／失败资源 :: FAILED::https://task19-mutant.invalid/x.png::net::ERR_NAME_NOT_RESOLVED -> Task 17
+FAIL RJ5 [七页全程 @全部宽度/状态/操作] 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） :: LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED -> Task 15／16
+
+合计 219 条（计分 215）：PASS 209 / FAIL 6 / SKIPPED-BY-DESIGN 0 / REC 4 / PENDING 0
+FAIL RA2 [index.html @1280px] 资源树：全部本目录资源成功、无 failed、无外部 URL :: 期望 全 file:// 且成功 / 实际 [{"n":"script.js","failed":false,"local":true},{"n":"x.png","failed":true,"local":false},{"n":"styles.css","failed":false,"local":true}]
+FAIL RA2 [index.html @1280px] DOM 属性无 http(s)/协议相对/data:/查询串 :: 期望 0 条 / 实际 IMG@src=https://task19-mutant.invalid/x.png
+FAIL RA3 [index.html @1280px] 加载阶段控制台 0 错误 0 警告 0 未捕获异常 :: 期望 0 条 / 实际 LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+FAIL RA4 [全部 HTML 页汇总 @-] Network 域全程事件中外部（http/CDN/远程字体）请求数为 0 —— Task0 正向验收"全站网络请求数为 0" :: 期望 0 条外部请求 / 实际 https://task19-mutant.invalid/x.png
+FAIL RA4 [全部 HTML 页汇总 @-] Network 域无 404／失败资源 :: 期望 0 条 / 实际 FAILED::https://task19-mutant.invalid/x.png::net::ERR_NAME_NOT_RESOLVED
+FAIL RJ5 [全部 HTML 页全程 @全部宽度/状态/操作] 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） :: 期望 0 条 / 实际 LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+FAIL RA2 [index.html @1280px] 资源树：全部本目录资源成功、无 failed、无外部 URL :: [{"n":"script.js","failed":false,"local":true},{"n":"x.png","failed":true,"local":false},{"n":"styles.css","failed":false,"local":true}] -> Task 17
+FAIL RA2 [index.html @1280px] DOM 属性无 http(s)/协议相对/data:/查询串 :: IMG@src=https://task19-mutant.invalid/x.png -> Task 15
+FAIL RA3 [index.html @1280px] 加载阶段控制台 0 错误 0 警告 0 未捕获异常 :: LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED -> Task 15／16
+FAIL RA4 [全部 HTML 页汇总 @-] Network 域全程事件中外部（http/CDN/远程字体）请求数为 0 —— Task0 正向验收"全站网络请求数为 0" :: https://task19-mutant.invalid/x.png -> Task 15
+FAIL RA4 [全部 HTML 页汇总 @-] Network 域无 404／失败资源 :: FAILED::https://task19-mutant.invalid/x.png::net::ERR_NAME_NOT_RESOLVED -> Task 17
+FAIL RJ5 [全部 HTML 页全程 @全部宽度/状态/操作] 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） :: LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED -> Task 15／16
+
+合计 219 条（计分 215）：PASS 209 / FAIL 6 / SKIPPED-BY-DESIGN 0 / REC 4 / PENDING 0
+FAIL RA2 [index.html @1280px] 资源树：全部本目录资源成功、无 failed、无外部 URL :: 期望 全 file:// 且成功 / 实际 [{"n":"styles.css","failed":false,"local":true},{"n":"script.js","failed":false,"local":true},{"n":"x.png","failed":true,"local":false}]
+FAIL RA2 [index.html @1280px] DOM 属性无 http(s)/协议相对/data:/查询串 :: 期望 0 条 / 实际 IMG@src=https://task19-mutant.invalid/x.png
+FAIL RA3 [index.html @1280px] 加载阶段控制台 0 错误 0 警告 0 未捕获异常 :: 期望 0 条 / 实际 LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+FAIL RA4 [全部 HTML 页汇总 @-] Network 域全程事件中外部（http/CDN/远程字体）请求数为 0 —— Task0 正向验收"全站网络请求数为 0" :: 期望 0 条外部请求 / 实际 https://task19-mutant.invalid/x.png
+FAIL RA4 [全部 HTML 页汇总 @-] Network 域无 404／失败资源 :: 期望 0 条 / 实际 FAILED::https://task19-mutant.invalid/x.png::net::ERR_NAME_NOT_RESOLVED
+FAIL RJ5 [全部 HTML 页全程 @全部宽度/状态/操作] 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） :: 期望 0 条 / 实际 LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+FAIL RA2 [index.html @1280px] 资源树：全部本目录资源成功、无 failed、无外部 URL :: [{"n":"styles.css","failed":false,"local":true},{"n":"script.js","failed":false,"local":true},{"n":"x.png","failed":true,"local":false}] -> Task 17
+FAIL RA2 [index.html @1280px] DOM 属性无 http(s)/协议相对/data:/查询串 :: IMG@src=https://task19-mutant.invalid/x.png -> Task 15
+FAIL RA3 [index.html @1280px] 加载阶段控制台 0 错误 0 警告 0 未捕获异常 :: LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED -> Task 15／16
+FAIL RA4 [全部 HTML 页汇总 @-] Network 域全程事件中外部（http/CDN/远程字体）请求数为 0 —— Task0 正向验收"全站网络请求数为 0" :: https://task19-mutant.invalid/x.png -> Task 15
+FAIL RA4 [全部 HTML 页汇总 @-] Network 域无 404／失败资源 :: FAILED::https://task19-mutant.invalid/x.png::net::ERR_NAME_NOT_RESOLVED -> Task 17
+FAIL RJ5 [全部 HTML 页全程 @全部宽度/状态/操作] 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） :: LOG:error::Failed to load resource: net::ERR_NAME_NOT_RESOLVED -> Task 15／16
+
+合计 219 条（计分 215）：PASS 209 / FAIL 6 / SKIPPED-BY-DESIGN 0 / REC 4 / PENDING 0

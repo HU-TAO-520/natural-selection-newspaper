@@ -1,0 +1,57 @@
+对照组（真实交付）静态：PASS
+
+变异                      违约条款                              静态     行为     CDP   捕获
+m01_no_js_class         行为1：no-js 未替换为 js                 FAIL   FAIL   -     ✓
+      └─ FAIL  存在 classList.add('js')
+      └─ FAIL  no-js -> js 先于任何元素查询  :: remove=90 add=-1 query=148
+m02_lazy_switch         行为1：切换未置于元素查询之前                   pass   pass   -     ✗ 未捕获
+m03_no_aria_sync        输出状态3：只改 is-open 不同步 aria-expandedFAIL   FAIL   -     ✓
+      └─ FAIL  setAttribute 仅出现在 toggle.aria-expanded  :: []
+      └─ FAIL  aria-expanded 取值仅 'true'/'false' 且随 open 同步
+m04_boolean_aria        aria-expanded 写成布尔而非字符串           FAIL   pass   -     ✓
+      └─ FAIL  aria-expanded 取值仅 'true'/'false' 且随 open 同步
+m05_classname_rewrite   行为1：整体改写 class 字符串                FAIL   pass   -     ✓
+      └─ FAIL  存在 classList.remove('no-js')
+      └─ FAIL  存在 classList.add('js')
+m06_double_keydown      常见返工：为按钮重复绑定 Enter/Space keydown  FAIL   pass   -     ✓
+      └─ FAIL  不为按钮绑定 keydown（避免 Enter/Space 双触发）
+      └─ FAIL  keydown 只挂在 document 上
+m07_breakpoint_768      断点与 Task 8 合同错位（768px）            FAIL   pass   -     ✓
+      └─ FAIL  跨断点使用 matchMedia('(min-width: 769px)')
+      └─ FAIL  断点不含 768 / 48rem / max-width
+m08_no_breakpoint_reset 行为5：未监听跨断点重置                      FAIL   pass   -     ✓
+      └─ FAIL  跨断点使用 matchMedia('(min-width: 769px)')
+m09_inverted_breakpoint 行为5：进入桌面时未关闭（条件取反）                FAIL   FAIL   -     ✓
+      └─ FAIL  change 监听进入桌面时关闭
+      └─ FAIL T7 缩回移动 · 按钮仍能切换（保留的展开态可由用户关闭） :: was=false now=true
+m10_outside_close       已定决策：擅自实现点击菜单外关闭                  FAIL   FAIL   -     ✓
+      └─ FAIL  监听器总数为 4 且类型符合合同  :: [('toggle', 'click'), ('document', 'keydown'), ('navigation', 'click'), ('document', 'click'), ('media', 'change')]
+      └─ FAIL  document/window 上不绑定 click
+m11_text_match_links    禁止：以中文链接文本判定导航链接                  FAIL   FAIL   -     ✓
+      └─ FAIL  DOM 写入对象仅限 root/navigation/toggle  :: [('target', 'textContent'), ('target', 'textContent')]
+      └─ FAIL  链接点击委托绑定在 navigation 上且按类名匹配
+m12_no_early_return     健壮性：接口缺失时未安全返回                    FAIL   pass   -     ✓
+      └─ FAIL  接口缺失时先完成 no-js->js 再安全 return
+m13_no_focus_return     行为3：Esc 未把焦点返回按钮                  FAIL   FAIL   -     ✓
+      └─ FAIL  Esc 仅在打开时关闭并返回焦点
+      └─ FAIL  Esc 关闭态无副作用（focus 只在该分支内）  :: 0
+m14_link_close_removed  行为4：点击导航链接不关闭菜单                   pass   FAIL   -     ✓
+      └─ FAIL T6 点击链接 · 菜单关闭 :: open=true aria=true
+      └─ FAIL T6 点击当前页链接 · 菜单同样关闭 :: open=true aria=true
+m15_inline_style        越权：用脚本写内联显示样式                     FAIL   FAIL   -     ✓
+      └─ FAIL  is-open 与 aria-expanded 在同一函数内原子写入
+      └─ FAIL  无内联样式/布局尺寸读写
+m16_console_log         交付要求：生产脚本残留 console 输出            FAIL   pass   -     ✓
+      └─ FAIL  禁用项不存在：console.  :: console.
+m17_prevent_default     行为4：阻止链接默认导航                      FAIL   pass   -     ✓
+      └─ FAIL  不对链接事件 preventDefault（保持真实导航）
+m18_tabindex_focus_mgmt 禁止：用 tabindex 管理可聚焦性              FAIL   pass   -     ✓
+      └─ FAIL  setAttribute 仅出现在 toggle.aria-expanded  :: [('navigation', 'tabindex'), ('toggle', 'aria-expanded')]
+      └─ FAIL  is-open 与 aria-expanded 在同一函数内原子写入
+m19_startup_open        健壮性：启动未归一化为关闭态                    FAIL   pass   -     ✓
+      └─ FAIL  启动归一化为关闭态且先于监听绑定  :: (869, 635)
+m20_global_leak         健壮性：向 window 暴露全局变量               FAIL   pass   -     ✓
+      └─ FAIL  不向 window/globalThis/self 写属性
+
+MUTATION: 19/20 变异被捕获
+未被捕获（验收脚本存在盲区）：m02_lazy_switch

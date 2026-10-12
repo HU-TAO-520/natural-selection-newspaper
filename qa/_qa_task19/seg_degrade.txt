@@ -1,0 +1,4 @@
+
+
+合计 98 条（计分 95）：PASS 95 / FAIL 0 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+SEG_EXIT degrade=0

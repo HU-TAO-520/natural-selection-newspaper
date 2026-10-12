@@ -1,0 +1,3 @@
+FAIL | 文件与版本 | news-commentary.html 未被本任务改动 | expected='cdc13a4023aea725c6c12e6940940b9a00253f84433d1675672b15de046f27ee' actual='a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52'
+FAIL | 文件与版本 | styles.css 未被本任务改动 | expected='30d746616ae9dfd0e0aa07e373874b5f442ed14fbd3b78f9efe0abdcc21d040d' actual='14a4a204f62e5c59be9a9edbab7f8dd2a09b81d43346769645223b72a599e093'
+TOTAL 202 checks, 2 failures

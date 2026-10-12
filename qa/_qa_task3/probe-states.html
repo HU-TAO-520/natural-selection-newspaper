@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task 3 焦点/悬停渲染探针（非交付文件）</title>
+  <link rel="stylesheet" href="../Results/styles.css">
+</head>
+<body>
+  <!--
+    仅用于把 Results/styles.css 中 :focus-visible 与 :hover 规则的真实声明
+    克隆到普通类上，以便无头浏览器截图验证渲染结果。不属于 Results/ 交付物。
+  -->
+  <a class="skip-link fok-focus" href="#m1">跳至正文</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <p class="site-masthead"><a class="site-masthead__link fok-focus" href="#">自然选择号</a></p>
+      <nav class="site-navigation">
+        <ul class="site-navigation__list">
+          <li><a class="site-navigation__link" href="#">首页</a></li>
+          <li><a class="site-navigation__link fok-focus" href="#">新闻消息</a></li>
+          <li><a class="site-navigation__link" href="#" aria-current="page">新闻通讯</a></li>
+          <li><a class="site-navigation__link" href="#">新闻评论</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main-content fok-focus" id="m1" tabindex="-1">
+    <h1 class="page-title">键盘焦点状态渲染</h1>
+  </main>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <p class="site-masthead"><a class="site-masthead__link fok-hover" href="#">自然选择号</a></p>
+      <nav class="site-navigation">
+        <ul class="site-navigation__list">
+          <li><a class="site-navigation__link" href="#">首页</a></li>
+          <li><a class="site-navigation__link fok-hover" href="#">新闻消息</a></li>
+          <li><a class="site-navigation__link" href="#" aria-current="page">新闻通讯</a></li>
+          <li><a class="site-navigation__link fok-hover" href="#">新闻评论</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main-content">
+    <h1 class="page-title">鼠标悬停状态渲染</h1>
+  </main>
+
+  <script>
+    (function () {
+      var log = [];
+      try {
+        var sheet = document.styleSheets[0], rules;
+        log.push('sheet=' + (sheet ? sheet.href : 'none'));
+        rules = sheet.cssRules;
+        log.push('ruleCount=' + rules.length);
+        var css = '';
+        function grab(r, asClass) {
+          var sel = r.selectorText || '';
+          var body = r.style ? r.style.cssText : '';
+          if (sel.indexOf(':focus-visible') !== -1 && asClass === '.fok-focus') css += asClass + '{' + body + '}\n';
+          if (sel === '.main-content:focus' && asClass === '.fok-focus') css += asClass + '{' + body + '}\n';
+          if (sel === '.skip-link:focus' && asClass === '.fok-focus') css += asClass + '{' + body + '}\n';
+          if (sel.indexOf(':hover') !== -1 && asClass === '.fok-hover') {
+            css += sel.replace(/:hover/g, asClass) + '{' + body + '}\n';
+          }
+        }
+        for (var i = 0; i < rules.length; i++) grab(rules[i], rules[i].selectorText && rules[i].selectorText.indexOf(':hover') !== -1 ? '.fok-hover' : '.fok-focus');
+        var s = document.createElement('style');
+        s.textContent = css;
+        document.head.appendChild(s);
+        log.push('cloned=' + css);
+      } catch (e) {
+        log.push('ERROR=' + e.name + ': ' + e.message);
+      }
+      var pre = document.createElement('pre');
+      pre.textContent = log.join('\n');
+      document.body.appendChild(pre);
+    })();
+  </script>
+</body>
+</html>

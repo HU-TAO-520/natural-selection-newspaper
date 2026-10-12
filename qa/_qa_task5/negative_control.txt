@@ -1,0 +1,37 @@
+m02-nbsp: 5 项 FAIL
+    - 浏览器 textContent 四段严格相等
+    - strong 后是文本节点且首字符 U+0020
+    - 电头后无连续两个空格
+    - 正文无 <br>/&nbsp; 生成的 NBSP
+    - 阅读顺序 = type,title,byline,M01..M04
+m25-newline-in-p: 4 项 FAIL
+    - 浏览器 textContent 四段严格相等
+    - strong 后是文本节点且首字符 U+0020
+    - 文本节点第二字符为“我”
+    - 电头后无连续两个空格
+m29-visible-M04-label: 2 项 FAIL
+    - 浏览器 textContent 四段严格相等
+    - 阅读顺序 = type,title,byline,M01..M04
+m03-dateline-own-paragraph: 7 项 FAIL
+    - 浏览器 textContent 四段严格相等
+    - dateline textContent
+    - strong 后是文本节点且首字符 U+0020
+    - 文本节点第二字符为“我”
+    - 电头后无连续两个空格
+    - 首段无前导空白
+    - 正文未换行成竖排且段落数 4
+m07-article-date-2026: 3 项 FAIL
+    - 浏览器 textContent 四段严格相等
+    - 阅读顺序 = type,title,byline,M01..M04
+    - 正文未换行成竖排且段落数 4
+m10-trailing-space-in-strong: 2 项 FAIL
+    - 浏览器 textContent 四段严格相等
+    - dateline textContent
+m23-no-strong: 4 项 FAIL
+    - dateline textContent
+    - strong 后是文本节点且首字符 U+0020
+    - 文本节点第二字符为“我”
+    - 电头后无连续两个空格
+m04-author-prefix: 2 项 FAIL
+    - byline 文本
+    - 阅读顺序 = type,title,byline,M01..M04

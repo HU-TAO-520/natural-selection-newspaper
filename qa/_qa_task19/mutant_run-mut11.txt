@@ -1,0 +1,80 @@
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 第 1/29 段浏览器所见与基线码点级全等（移动档） :: 期望 80 码点 / 实际 80 码点
+FAIL RJ1 [article-classroom-screen-upgrade.html @1280px] 第 1/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） :: 期望 基线第 1 段 / 实际 桌面第 1 段 80 码点
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 整篇正文拼接后逐字符全等 :: 期望 2038 字符 / 实际 2038 字符
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 第 1/29 段浏览器所见与基线码点级全等（移动档） :: 80 码点 -> Task 15
+FAIL RJ1 [article-classroom-screen-upgrade.html @1280px] 第 1/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） :: 桌面第 1 段 80 码点 -> Task 16
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 整篇正文拼接后逐字符全等 :: 2038 字符 -> Task 15
+
+合计 191 条（计分 188）：PASS 185 / FAIL 3 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RZ5 [article-along-the-north-small-river.html @content] 段 content 在 article-along-the-north-small-river.html 抛错（记 FAIL 并继续，不掩盖也不冒充结论） :: 期望 无异常 / 实际 TypeError: Cannot read properties of undefined (reading 'join')
+    at file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task19/passes_inter19.mjs:317:30
+    at Array.forEach (<anonymous>)
+    at contentPass (file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 第 1/29 段浏览器所见与基线码点级全等（移动档） :: 期望 80 码点 / 实际 80 码点
+FAIL RJ1 [article-classroom-screen-upgrade.html @1280px] 第 1/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） :: 期望 基线第 1 段 / 实际 桌面第 1 段 80 码点
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 整篇正文拼接后逐字符全等 :: 期望 2038 字符 / 实际 2038 字符
+FAIL RZ5 [article-north-of-dam-river.html @content] 段 content 在 article-north-of-dam-river.html 抛错（记 FAIL 并继续，不掩盖也不冒充结论） :: 期望 无异常 / 实际 TypeError: Cannot read properties of undefined (reading 'join')
+    at file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task19/passes_inter19.mjs:317:30
+    at Array.forEach (<anonymous>)
+    at contentPass (file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%
+FAIL RJ2 [index.html @1280px] 首页最新区标题序列 == 各栏目首条标题序列（manifest 派生，不写死栏目顺序） :: 期望 我校启动校本课程志愿填报|封路之后，沿北小河往南|设备升级了，使用门槛也该降下来 / 实际 封路之后，沿北小河往南|坝河以北，走过的东坝|我校启动校本课程志愿填报
+FAIL RJ9 [index.html @1280px] R5②：每条月日都在对应文章 DOM 文本之内（正文段落或末尾日期行 p.article__date），不是新增事实 :: 期望 逐条命中该页 DOM 文本 / 实际 10月1日,9月27日,9月18日
+FAIL RZ5 [article-along-the-north-small-river.html @content] 段 content 在 article-along-the-north-small-river.html 抛错（记 FAIL 并继续，不掩盖也不冒充结论） :: TypeError: Cannot read properties of undefined (reading 'join')
+    at file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task19/passes_inter19.mjs:317:30
+    at Array.forEach (<anonymous>)
+    at contentPass (file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA% -> Task 19 驱动自身
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 第 1/29 段浏览器所见与基线码点级全等（移动档） :: 80 码点 -> Task 15
+FAIL RJ1 [article-classroom-screen-upgrade.html @1280px] 第 1/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） :: 桌面第 1 段 80 码点 -> Task 16
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 整篇正文拼接后逐字符全等 :: 2038 字符 -> Task 15
+FAIL RZ5 [article-north-of-dam-river.html @content] 段 content 在 article-north-of-dam-river.html 抛错（记 FAIL 并继续，不掩盖也不冒充结论） :: TypeError: Cannot read properties of undefined (reading 'join')
+    at file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task19/passes_inter19.mjs:317:30
+    at Array.forEach (<anonymous>)
+    at contentPass (file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA% -> Task 19 驱动自身
+FAIL RJ2 [index.html @1280px] 首页最新区标题序列 == 各栏目首条标题序列（manifest 派生，不写死栏目顺序） :: 封路之后，沿北小河往南|坝河以北，走过的东坝|我校启动校本课程志愿填报 -> Task 15
+FAIL RJ9 [index.html @1280px] R5②：每条月日都在对应文章 DOM 文本之内（正文段落或末尾日期行 p.article__date），不是新增事实 :: 10月1日,9月27日,9月18日 -> Task 15
+
+合计 195 条（计分 192）：PASS 185 / FAIL 7 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RZ5 [article-along-the-north-small-river.html @content] 段 content 在 article-along-the-north-small-river.html 抛错（记 FAIL 并继续，不掩盖也不冒充结论） :: 期望 无异常 / 实际 TypeError: Cannot read properties of undefined (reading 'join')
+    at file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task19/passes_inter19.mjs:317:30
+    at Array.forEach (<anonymous>)
+    at contentPass (file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 第 1/29 段浏览器所见与基线码点级全等（移动档） :: 期望 80 码点 / 实际 80 码点
+FAIL RJ1 [article-classroom-screen-upgrade.html @1280px] 第 1/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） :: 期望 基线第 1 段 / 实际 桌面第 1 段 80 码点
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 整篇正文拼接后逐字符全等 :: 期望 2038 字符 / 实际 2038 字符
+FAIL RZ5 [article-north-of-dam-river.html @content] 段 content 在 article-north-of-dam-river.html 抛错（记 FAIL 并继续，不掩盖也不冒充结论） :: 期望 无异常 / 实际 TypeError: Cannot read properties of undefined (reading 'join')
+    at file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task19/passes_inter19.mjs:317:30
+    at Array.forEach (<anonymous>)
+    at contentPass (file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%
+FAIL RJ2 [index.html @1280px] 首页最新区标题序列 == 各栏目首条标题序列（manifest 派生，不写死栏目顺序） :: 期望 我校启动校本课程志愿填报|封路之后，沿北小河往南|设备升级了，使用门槛也该降下来 / 实际 封路之后，沿北小河往南|坝河以北，走过的东坝|我校启动校本课程志愿填报
+FAIL RJ9 [index.html @1280px] R5②：每条月日都在对应文章 DOM 文本之内（正文段落或末尾日期行 p.article__date），不是新增事实 :: 期望 逐条命中该页 DOM 文本 / 实际 10月1日,9月27日,9月18日
+FAIL RZ5 [article-along-the-north-small-river.html @content] 段 content 在 article-along-the-north-small-river.html 抛错（记 FAIL 并继续，不掩盖也不冒充结论） :: TypeError: Cannot read properties of undefined (reading 'join')
+    at file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task19/passes_inter19.mjs:317:30
+    at Array.forEach (<anonymous>)
+    at contentPass (file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA% -> Task 19 驱动自身
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 第 1/29 段浏览器所见与基线码点级全等（移动档） :: 80 码点 -> Task 15
+FAIL RJ1 [article-classroom-screen-upgrade.html @1280px] 第 1/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） :: 桌面第 1 段 80 码点 -> Task 16
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 整篇正文拼接后逐字符全等 :: 2038 字符 -> Task 15
+FAIL RZ5 [article-north-of-dam-river.html @content] 段 content 在 article-north-of-dam-river.html 抛错（记 FAIL 并继续，不掩盖也不冒充结论） :: TypeError: Cannot read properties of undefined (reading 'join')
+    at file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task19/passes_inter19.mjs:317:30
+    at Array.forEach (<anonymous>)
+    at contentPass (file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA% -> Task 19 驱动自身
+FAIL RJ2 [index.html @1280px] 首页最新区标题序列 == 各栏目首条标题序列（manifest 派生，不写死栏目顺序） :: 封路之后，沿北小河往南|坝河以北，走过的东坝|我校启动校本课程志愿填报 -> Task 15
+FAIL RJ9 [index.html @1280px] R5②：每条月日都在对应文章 DOM 文本之内（正文段落或末尾日期行 p.article__date），不是新增事实 :: 10月1日,9月27日,9月18日 -> Task 15
+
+合计 195 条（计分 192）：PASS 185 / FAIL 7 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 第 1/29 段浏览器所见与基线码点级全等（移动档） :: 期望 80 码点 / 实际 80 码点
+FAIL RJ1 [article-classroom-screen-upgrade.html @1280px] 第 1/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） :: 期望 基线第 1 段 / 实际 桌面第 1 段 80 码点
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 整篇正文拼接后逐字符全等 :: 期望 2038 字符 / 实际 2038 字符
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 第 1/29 段浏览器所见与基线码点级全等（移动档） :: 80 码点 -> Task 15
+FAIL RJ1 [article-classroom-screen-upgrade.html @1280px] 第 1/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） :: 桌面第 1 段 80 码点 -> Task 16
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 整篇正文拼接后逐字符全等 :: 2038 字符 -> Task 15
+
+合计 231 条（计分 228）：PASS 225 / FAIL 3 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 第 1/29 段浏览器所见与基线码点级全等（移动档） :: 期望 80 码点 / 实际 80 码点
+FAIL RJ1 [article-classroom-screen-upgrade.html @1280px] 第 1/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） :: 期望 基线第 1 段 / 实际 桌面第 1 段 80 码点
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 整篇正文拼接后逐字符全等 :: 期望 2038 字符 / 实际 2038 字符
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 第 1/29 段浏览器所见与基线码点级全等（移动档） :: 80 码点 -> Task 15
+FAIL RJ1 [article-classroom-screen-upgrade.html @1280px] 第 1/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） :: 桌面第 1 段 80 码点 -> Task 16
+FAIL RJ1 [article-classroom-screen-upgrade.html @375px] 整篇正文拼接后逐字符全等 :: 2038 字符 -> Task 15
+
+合计 231 条（计分 228）：PASS 225 / FAIL 3 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0

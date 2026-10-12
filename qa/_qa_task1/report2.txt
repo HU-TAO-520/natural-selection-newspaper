@@ -1,0 +1,40 @@
+### A. 哈希复核
+  新闻消息.docx        DE10B575399E0563430F2F255C956B179C9978C087897A24910AD70D6A50F6FC  MATCH
+  新闻通讯.docx        0C5B35256B7271ACFB2F49AEC146288B404ED49C376AC2C8B3F6246B38F894A4  MATCH
+  新闻评价.docx        8E50CFC89287035163D5FE95C8B1CEE20A5AA405E9D04EC358FB5C9312C3827C  MATCH
+
+### B. 隐藏内容 / 列表 / 域 / 修订 扫描（word/document.xml）
+  新闻消息.docx: {}
+      部件清单: ["[Content_Types].xml", "_rels/.rels", "word/document.xml", "word/_rels/document.xml.rels", "word/theme/theme1.xml", "word/settings.xml", "word/styles.xml", "word/webSettings.xml", "word/fontTable.xml", "docProps/core.xml", "docProps/app.xml"]
+  新闻通讯.docx: {}
+      部件清单: ["[Content_Types].xml", "_rels/.rels", "word/document.xml", "word/_rels/document.xml.rels", "word/theme/theme1.xml", "word/settings.xml", "word/styles.xml", "word/webSettings.xml", "word/fontTable.xml", "docProps/core.xml", "docProps/app.xml"]
+  新闻评价.docx: {}
+      部件清单: ["[Content_Types].xml", "_rels/.rels", "word/document.xml", "word/_rels/document.xml.rels", "word/footnotes.xml", "word/endnotes.xml", "word/theme/theme1.xml", "word/settings.xml", "word/styles.xml", "word/webSettings.xml", "word/fontTable.xml", "docProps/core.xml", "docProps/app.xml"]
+
+### C. footnotes.xml / endnotes.xml 内容（仅默认分隔符？）
+  新闻评价.docx / word/footnotes.xml -> [{"id": "-1", "type": "separator", "text": ""}, {"id": "0", "type": "continuationSeparator", "text": ""}]
+  新闻评价.docx / word/endnotes.xml -> [{"id": "-1", "type": "separator", "text": ""}, {"id": "0", "type": "continuationSeparator", "text": ""}]
+
+### D. 段落样式与 run 拆分实况
+  新闻消息.docx: 样式分布 {"(默认 Normal)": 6}
+      第3段被拆为3个run: ["自然选择号9月18日7时电", " ", "我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。"]
+  新闻通讯.docx: 样式分布 {"(默认 Normal)": 26}
+      第3段被拆为3个run: ["自然选择号9月17日电", " ", "上午第一节课下课后的课间，我们就数学学习方法和生成式人工智能辅助学习等问题采访了数学李老师。"]
+      第7段被拆为3个run: ["在", "她", "看来，认真完成日常学习任务，及时把已经暴露出来的问题解决好，是数学学习中首先要做的事情。在此基础上，如果还希望继续提高，就需要根据自己的实际情况进行补充练习。"]
+  新闻评价.docx: 样式分布 {"(默认 Normal)": 32}
+      第8段被拆为2个run: ["这个问题并不复杂。黑板要滑动，老师要用U盘，都是每天都会发生的正常操作。既然设备安装在教室里，接口的位置就", "应该考虑黑板移动后的范围。否则，一个在设备本身看来没有问题的位置，放到实际教室里就可能变成麻烦。"]
+      第14段被拆为2个run: ["问题并不在于UOS本身“好不好”。任何操作系统都有自己的使用方式，换系统也不可能完全没有学习成本。问题是，这是一套给老师上课使用的设备。如果学校常用的软件只能在", "Windows环境下运行，那么在部署设备时，就应该提前考虑这些软件怎么使用；如果需要兼容环境，也应该尽量把它做成普通教师可以直接操作的方式，而不是把问题留到课堂上以后再解决。"]
+      第28段被拆为2个run: ["USB接口的位置可以增加防撞措施，或者在安装时避开滑动黑板的活动范围；常用的教学软件可以在设备交付前统一安", "装，对确实需要使用Windows软件的情况，也可以准备较简单的兼容方案；两套容易混淆的控制界面，则可以通过更明显的标识或者更统一的操作方式来区分。学校在换装设备以后，也有必要针对老师平时最常用的操作做一次真正实用的培训。"]
+      第31段被拆为4个run: ["设备升级了，使用门槛也该降下来。", "“", "科技不是高高在上的，而应该服务人民。", "”"]
+
+### E. Word 元数据（仅登记为禁止项，不得进入 Results/）
+  新闻消息.docx: creator=['厨一枚~ 胡桃'] lastModifiedBy=['厨一枚~ 胡桃'] created=['2026-09-18T11:01:00Z'] modified=['2026-09-18T11:09:00Z'] Pages=['1'] App=['Microsoft Office Word']
+  新闻通讯.docx: creator=['厨一枚~ 胡桃'] lastModifiedBy=['厨一枚~ 胡桃'] created=['2026-09-17T14:48:00Z'] modified=['2026-09-17T14:59:00Z'] Pages=['4'] App=['Microsoft Office Word']
+  新闻评价.docx: creator=['厨一枚~ 胡桃'] lastModifiedBy=['厨一枚~ 胡桃'] created=['2026-09-18T13:19:00Z'] modified=['2026-09-18T13:38:00Z'] Pages=['5'] App=['Microsoft Office Word']
+
+### F. 源文件修改时间未变 / Results 仍为空
+  新闻消息.docx: mtime=2026-09-18 19:09 size=14742
+  新闻通讯.docx: mtime=2026-09-17 22:59 size=17155
+  新闻评价.docx: mtime=2026-09-18 21:38 size=20014
+  Results/ 内容: ["article-classroom-screen-upgrade.html", "article-math-to-ai-learning.html", "article-school-course-volunteer.html", "index.html", "news-commentary.html", "news-feature.html", "news-message.html", "script.js", "styles.css"] (共 9 项)
+  Materials/ 内容: ["新闻消息.docx", "新闻评价.docx", "新闻通讯.docx"]

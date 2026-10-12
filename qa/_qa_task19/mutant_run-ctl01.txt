@@ -1,0 +1,84 @@
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+
+合计 444 条（计分 441）：PASS 435 / FAIL 6 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+
+合计 538 条（计分 535）：PASS 529 / FAIL 6 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+
+合计 538 条（计分 535）：PASS 529 / FAIL 6 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+
+合计 538 条（计分 535）：PASS 529 / FAIL 6 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+
+合计 542 条（计分 539）：PASS 533 / FAIL 6 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+
+合计 542 条（计分 539）：PASS 533 / FAIL 6 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0

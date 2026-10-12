@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>measure19</title>
+  <style>
+    html, body { margin: 0; padding: 0; background: #ffffff; }
+    #frame { display: block; border: 0; }
+    #log { font: 12px/1.4 monospace; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <iframe id="frame"></iframe>
+  <div id="log">booting</div>
+  <script>
+    /* Task 19 窄视口探针宿主。
+     *
+     * 本机无头 Chrome 的顶层窗口有约 500px 下限：--window-size=375 实为 500px 左裁剪，
+     * 会把裁剪伪装成"横向溢出"。因此 375／768 档的几何判据一律在**同域 iframe** 里量：
+     * iframe 的布局视口就是它自身的 CSS 宽度，媒体查询、scrollWidth/clientWidth 都按它算。
+     * 依赖启动参数 --allow-file-access-from-files 才能跨 file:// 文档树读取 contentWindow。
+     *
+     * 参数（宿主页自身可用查询串，被测页的 URL 绝不带查询串）：
+     *   t=w×h 目标文件名 / w,h iframe 尺寸 / state=closed|open|nojs|nocss / probe 任意表达式
+     */
+    var q = new URLSearchParams(location.search);
+    var target = q.get('t') || 'index.html';
+    var W = parseInt(q.get('w') || '375', 10);
+    var H = parseInt(q.get('h') || '1200', 10);
+    var state = q.get('state') || 'closed';
+    var dir = q.get('dir') || '../Results';
+    var fr = document.getElementById('frame');
+    fr.style.width = W + 'px';
+    fr.style.height = H + 'px';
+    window.__ready = false;
+    window.__error = '';
+    fr.addEventListener('load', function () {
+      try {
+        var d = fr.contentDocument;
+        /* 关键：无 src 的 iframe 会先为初始 about:blank 派发一次 load。
+         * 若把它当就绪信号，驱动就会量一个空白文档（clientWidth 正确但段落数为 0），
+         * 得到"内容消失"的假缺陷。只承认真正加载完成的被测文档。 */
+        if (!d || d.location.href === 'about:blank' || !d.querySelector('.site-navigation__link')) {
+          document.getElementById('log').textContent = 'ignoring premature load (about:blank or shell missing)';
+          return;
+        }
+        var de = d.documentElement;
+        if (state === 'nocss') {
+          for (var i = 0; i < d.styleSheets.length; i++) d.styleSheets[i].disabled = true;
+        }
+        if (state === 'open') {
+          var t = d.getElementById('nav-toggle');
+          if (t) t.click();
+        }
+        window.__ready = true;
+        document.title = 'ready:' + de.clientWidth + ':' + state;
+        document.getElementById('log').textContent =
+          'ready target=' + target + ' iframeClientWidth=' + de.clientWidth + ' state=' + state;
+      } catch (e) {
+        window.__error = String(e && e.message || e);
+        document.title = 'error:' + window.__error;
+        document.getElementById('log').textContent = 'ERROR ' + window.__error;
+      }
+    });
+    fr.addEventListener('error', function () { window.__error = 'iframe load error'; });
+    fr.src = dir + '/' + target;
+    /* 供驱动读取：宿主不干涉被测文档，只在 iframe 自己的 realm 里求值。
+     * 必须用 contentWindow.eval 而不是 eval.call(contentWindow, …)：
+     * 间接 eval 的 realm 由**被调用的那个 eval 函数**决定，不由 thisArg 决定。
+     * 用后者会在宿主页的 realm 里量，于是"第二条量具"量的其实是宿主外壳
+     * （clientWidth 恰好等于被模拟的视口宽度，看起来像成功，其实段落数永远是 0）。 */
+    window.__probe = function (expr) {
+      try { return JSON.stringify({ ok: true, value: fr.contentWindow.eval('(' + expr + ')') }); }
+      catch (e) { return JSON.stringify({ ok: false, error: String(e && e.message || e) }); }
+    };
+  </script>
+</body>
+</html>

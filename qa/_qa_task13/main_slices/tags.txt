@@ -1,0 +1,6 @@
+news-message.html	<main>	  <main class="main-content" id="main-content" tabindex="-1">
+news-message.html	</main>	  </main>
+news-feature.html	<main>	  <main class="main-content" id="main-content" tabindex="-1">
+news-feature.html	</main>	  </main>
+news-commentary.html	<main>	  <main class="main-content" id="main-content" tabindex="-1">
+news-commentary.html	</main>	  </main>

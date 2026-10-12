@@ -1,0 +1,6 @@
+检查项覆盖：公共壳 / DOM 结构 / 文本保真 / 白名单 / 禁止项 / 范围 / 渐进增强
+  [FAIL] 范围与交接 / news-message.html 未在本任务修改（mtime 早于 index.html）
+  [FAIL] 范围与交接 / news-feature.html 未在本任务修改（mtime 早于 index.html）
+  [FAIL] 范围与交接 / news-commentary.html 未在本任务修改（mtime 早于 index.html）
+
+共 184 项，通过 181，失败 3

@@ -1,0 +1,33 @@
+{
+  "article_sources": 6,
+  "counts": {
+    "pages": 13,
+    "html": 11,
+    "config": 1,
+    "articles": 6
+  },
+  "checks": {
+    "disk_set_equals_manifest": true,
+    "disk_hashes_match_manifest": true,
+    "zip_names_match_manifest_and_headers": true,
+    "zip_has_no_directory_entries": true,
+    "zip_hashes_match_manifest_and_headers": true
+  },
+  "status": "PASS",
+  "zip_entries": [
+    "404.html",
+    "_headers",
+    "article-along-the-north-small-river.html",
+    "article-classroom-screen-upgrade.html",
+    "article-math-to-ai-learning.html",
+    "article-north-of-dam-river.html",
+    "article-school-course-selection-results.html",
+    "article-school-course-volunteer.html",
+    "index.html",
+    "news-commentary.html",
+    "news-feature.html",
+    "news-message.html",
+    "script.js",
+    "styles.css"
+  ]
+}

@@ -1,0 +1,36 @@
+# Task 16 静态核验 verify_css16.py
+
+css    = _qa_task16/mutants/m03/styles.css
+before = _qa_task16/before_styles.css
+results= _qa_task16/mutants/m03
+mode   = full
+
+PASS S1/only-add      期望: before_styles.css 的每一行都在新文件中逐字节出现（无"修改行"、无"删除行"）
+PASS S1/parse         期望: 新文件花括号配对、媒体查询可解析、顶层无游离文本
+PASS S1/two-zones     期望: 恰有两处新增：@media 之前的桌面区一块 + @media 内部末尾的追加行（新文件 @media 在第 483 行）
+FAIL S2/selectors     期望: 新规则区选择器 ⊆ 12 个新类（允许 :visited/:hover/:focus-visible/:last-child）
+     实际: 越界=.feature-list -> .feature-list；新区规则块=22
+PASS S2/desktop-rules 期望: 12 个新类每个都至少被一条 @media 之前的桌面规则使用（无条件，含两个 *__date；节点缺席不豁免）
+FAIL S2/class-whitelist 期望: styles.css 的 class 集合 ⊆（Task0 注册 28 个 ∪ 归档新增 12 个）＝ R6⑥
+     实际: 集合外=feature-list
+PASS S2/dom           期望: 除两个 *__date 外的 10 个新类每个至少在某个页面 DOM 中出现一次
+PASS S2/dom-date      期望: 两个 *__date 按 H14 条件口径判定（Task12:273／R9：无 display_date 时节点整体缺席）
+PASS S2/dom-map       期望: 12 类逐页出现次数（供 report.md 与 Task 18/19 期望值）
+PASS S3/var-whitelist 期望: 新规则区引用的每个自定义属性都在表 2 白名单内
+PASS S3/novar         期望: 新规则区不新增自定义属性声明（不新增变量、不在 :root 加声明）
+PASS S3/nocolor       期望: 新规则区不含任何颜色字面值（表 2 之外的色值即违约）
+PASS S3/numeric       期望: 新规则区的字面长度值只有合同点名的 44px（触控目标），其余取值一律走表 2 变量
+PASS S3/table2-literal 期望: 表 2 的 30 条变量字面值与 styles.css 首个 :root 逐字符相等（含空格与前导零）
+PASS S4/H13           期望: 四个链接类（.site-masthead__link/.site-navigation__link/.entry-list__link/.home-latest__link）各有 :visited 伴生且 color 值逐字符相等
+N/A  S4/skip-exempt   期望: .skip-link 在 H13 辖域外（表 4 显式豁免，不判红）。事实登记：它有 color: var(--color-ink) 而无 :visited 伴生，被访问后聚焦会被全局 a:visited 重绘为暗红；修它需改写既有区，与"既有区逐字节不变"冲突，是否修由用户决定
+     实际: .skip-link 相关规则=.skip-link；.skip-link:focus
+PASS S5/banned        期望: 新规则区内 content/:root/ID/:nth-child/body./!important/transition/animation/transform/grid/阴影/渐变/圆角/url/@import/@media/100vw/overflow-x/word-break:break-all/外链/min-width 查询/fixed|sticky 定位 命中全为 0
+PASS S5/comments      期望: 新注释不含 M01/F01 形态合同编号，不含七个 front-matter 字段名整词（.entry-list__date 这类带前缀的不算命中）
+PASS S6/media         期望: 恰一个 @media (max-width: 768px)、prelude 精确、为最后一个规则块；桌面新区在 @media 之前且紧跟既有第 8 分区之后
+PASS S6/breakpoint    期望: 无 767px／min-width:768px／769px 及以上误写断点（H8/other）
+PASS S7/collection    期望: Results/ 恰为九文件（七页 + styles.css + script.js），无新增文件/子目录
+PASS S7/readonly-others 期望: 除 styles.css 外八文件与 _qa_task15/hashes_after.txt 逐项相等
+PASS S7/css-changed   期望: styles.css 已按本包授权变化（不再等于表 1 的 v1 值）
+PASS S8/mobile-44     期望: 两类链接移动规则同时声明两维 44px、堆叠、宿主 display:flex、标题 overflow-wrap: anywhere；新规则区 44px 只出现在 min-block-size/min-inline-size 上
+
+总计 24 条：PASS 21 / FAIL 2 / N/A 1 / SKIP 0

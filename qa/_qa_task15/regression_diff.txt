@@ -1,0 +1,144 @@
+# Task 15 失败集合差分回归（判定用 FAIL 集合，不用退出码）
+
+基线输入：_qa_task15/before/（v1 六文件，与切换前哈希逐项相等）
+当前输入：Results/（v2 九文件）
+历史脚本与历史报告全程只读（跑前跑后比对 msize/mtime/sha 清单）。
+
+## _qa_task2/verify.py
+  基线（v1 输入）rc=1 FAIL 47 条；当前（v2 输入）rc=1 FAIL 40 条；共同 13 条
+  新增 FAIL 27 条：
+    [登记内] FAIL: Results/ 恰好含四个 Task 2 HTML，名称与大小写准确 || 实际 ['article-classroom-screen-upgrade.html', 'article-math-to-ai-learning.html', 'article-school-course-volunteer.html', 'index.html', 'news-commentary.html', 'news-feature.html', 'news
+    [登记内] FAIL: index.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本 || ['h1', 'div', 'div']
+    [登记内] FAIL: index.html 可见文本集合精确等于 跳至正文 / 自然选择号 / 菜单 / 首页 / 新闻消息 / 新闻通讯 / 新闻评论 / 《自然选择号》报社简介 || ['跳至正文', '自然选择号', '菜单', '首页', '新闻消息', '新闻通讯', '新闻评论', '《自然选择号》报社简介', '名称由来', '我们的名字来自《三体》里的一支舰队。', '主要工作与报道方向', '我们主要记录一些自己觉得有价值的东西。', '成立时间'
+    [登记内] FAIL: index.html 无文章正文/署名/新闻日期/Word 属性的额外文本 || 21
+    [登记内] FAIL: news-commentary.html <h1> 为 class=page-title 且文字与登记表逐字符一致 || '新闻评论' != '设备升级了，使用门槛也该降下来'
+    [登记内] FAIL: news-commentary.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本 || ['h1', 'ul']
+    [登记内] FAIL: news-commentary.html <title> 与页面登记表逐字符一致 || '新闻评论｜自然选择号' != '设备升级了，使用门槛也该降下来｜自然选择号'
+    [登记内] FAIL: news-commentary.html 与 index.html 规范化后无差异行 || - <div class="home-sections"> | - <section class="home-section" aria-labelledby="origin-title"> | - <h2 class="home-section__title" id="origin-title">名称由来</h2> | - <p class="home
+    [登记内] FAIL: news-commentary.html 可见文本集合精确等于 跳至正文 / 自然选择号 / 菜单 / 首页 / 新闻消息 / 新闻通讯 / 新闻评论 / 设备升级了，使用门槛也该降下来 || ['跳至正文', '自然选择号', '菜单', '首页', '新闻消息', '新闻通讯', '新闻评论', '新闻评论', '设备升级了，使用门槛也该降下来', '9月18日']
+    [登记内] FAIL: news-commentary.html 无文章正文/署名/新闻日期/Word 属性的额外文本 || 10
+    [登记内] FAIL: news-commentary.html 等于 index.html 应用三处允许差异后的逐字节结果（无第四类差异） || 长度 3301 vs 1949
+    [登记内] FAIL: news-feature.html <h1> 为 class=page-title 且文字与登记表逐字符一致 || '新闻通讯' != '从数学题到AI时代的学习'
+    [登记内] FAIL: news-feature.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本 || ['h1', 'ul']
+    [登记内] FAIL: news-feature.html <title> 与页面登记表逐字符一致 || '新闻通讯｜自然选择号' != '从数学题到AI时代的学习｜自然选择号'
+    [登记内] FAIL: news-feature.html 与 index.html 规范化后无差异行 || - <div class="home-sections"> | - <section class="home-section" aria-labelledby="origin-title"> | - <h2 class="home-section__title" id="origin-title">名称由来</h2> | - <p class="home-se
+    [登记内] FAIL: news-feature.html 可见文本集合精确等于 跳至正文 / 自然选择号 / 菜单 / 首页 / 新闻消息 / 新闻通讯 / 新闻评论 / 从数学题到AI时代的学习 || ['跳至正文', '自然选择号', '菜单', '首页', '新闻消息', '新闻通讯', '新闻评论', '新闻通讯', '从数学题到AI时代的学习', '9月17日']
+    [登记内] FAIL: news-feature.html 无文章正文/署名/新闻日期/Word 属性的额外文本 || 10
+    [登记内] FAIL: news-feature.html 等于 index.html 应用三处允许差异后的逐字节结果（无第四类差异） || 长度 3295 vs 1941
+    [登记内] FAIL: news-message.html <h1> 为 class=page-title 且文字与登记表逐字符一致 || '新闻消息' != '我校启动校本课程志愿填报'
+    [登记内] FAIL: news-message.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本 || ['h1', 'ul']
+    [登记内] FAIL: news-message.html <title> 与页面登记表逐字符一致 || '新闻消息｜自然选择号' != '我校启动校本课程志愿填报｜自然选择号'
+    [登记内] FAIL: news-message.html 与 index.html 规范化后无差异行 || - <div class="home-sections"> | - <section class="home-section" aria-labelledby="origin-title"> | - <h2 class="home-section__title" id="origin-title">名称由来</h2> | - <p class="home-se
+    [登记内] FAIL: news-message.html 可见文本集合精确等于 跳至正文 / 自然选择号 / 菜单 / 首页 / 新闻消息 / 新闻通讯 / 新闻评论 / 我校启动校本课程志愿填报 || ['跳至正文', '自然选择号', '菜单', '首页', '新闻消息', '新闻通讯', '新闻评论', '新闻消息', '我校启动校本课程志愿填报', '9月18日']
+    [登记内] FAIL: news-message.html 无文章正文/署名/新闻日期/Word 属性的额外文本 || 10
+    [登记内] FAIL: news-message.html 等于 index.html 应用三处允许差异后的逐字节结果（无第四类差异） || 长度 3295 vs 1945
+    [登记内] FAIL: 禁止串 “9月” 在四页命中 0 || ['index.html', 'news-message.html', 'news-feature.html', 'news-commentary.html']
+    [登记内] FAIL: 禁止串 “role=” 在四页命中 0 || ['index.html']
+  基线红而当前绿 34 条：
+    - FAIL: Results/ 恰好含四个 Task 2 HTML，名称与大小写准确 || 实际 ['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+    - FAIL: index.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本 || ['h1', 'div']
+    - FAIL: index.html 可见文本集合精确等于 跳至正文 / 自然选择号 / 菜单 / 首页 / 新闻消息 / 新闻通讯 / 新闻评论 / 《自然选择号》报社简介 || ['跳至正文', '自然选择号', '菜单', '首页', '新闻消息', '新闻通讯', '新闻评论', '《自然选择号》报社简介', '名称由来', '我们的名字来自《三体》里的
+    - FAIL: index.html 无文章正文/署名/新闻日期/Word 属性的额外文本 || 14
+    - FAIL: news-commentary.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本 || ['article']
+    - FAIL: news-commentary.html 与 index.html 规范化后无差异行 || - <h1 class="page-title">@@H@@</h1> | + <article class="article"> | + <header class="article__header"> | + <p class="article__ty
+    - FAIL: news-commentary.html 可见文本集合精确等于 跳至正文 / 自然选择号 / 菜单 / 首页 / 新闻消息 / 新闻通讯 / 新闻评论 / 设备升级了，使用门槛也该降下来 || ['跳至正文', '自然选择号', '菜单', '首页', '新闻消息', '新闻通讯', '新闻评论', '新闻评论', '设备升级了，使用门槛也该降下
+    - FAIL: news-commentary.html 恰好一个跳至正文链接 / <header> / <nav> / <main> / <h1> ||
+    - FAIL: news-commentary.html 无公共壳合同外的标签（多出 ['article']） || ['article']
+    - FAIL: news-commentary.html 无文章正文/署名/新闻日期/Word 属性的额外文本 || 40
+
+## _qa_task5/verify.py
+  基线（v1 输入）rc=1 FAIL 5 条；当前（v2 输入）rc=1 FAIL 36 条；共同 4 条
+  新增 FAIL 32 条：
+    [登记内] FAIL [DOM 结构] .article 数量 :: expected=1 actual=0
+    [登记内] FAIL [DOM 结构] .article__body 数量 :: expected=1 actual=0
+    [登记内] FAIL [DOM 结构] 0 个 列表 <li> :: expected=0 actual=1
+    [登记内] FAIL [DOM 结构] 0 个 列表 <ul> :: expected=0 actual=1
+    [登记内] FAIL [DOM 结构] 0 个 正文链接 :: expected=0 actual=1
+    [登记内] FAIL [DOM 结构] article 直接子级 = header + div :: expected=[('header', ['article__header']), ('div', ['article__body'])] actual=[]
+    [登记内] FAIL [DOM 结构] article__header 直接子级顺序 :: expected=[('p', ['article__type']), ('h1', ['page-title']), ('p', ['article__byline'])] actual=[]
+    [登记内] FAIL [DOM 结构] dateline 位于第一个正文段落起始 ::
+    [登记内] FAIL [DOM 结构] main 唯一直接元素子节点是 article.article :: expected=[('article', ['article'])] actual=[('h1', ['page-title']), ('ul', ['entry-list'])]
+    [登记内] FAIL [DOM 结构] strong.dateline 数量 :: expected=1 actual=0
+    [登记内] FAIL [DOM 结构] 文章头部直接元素子节点数 == 3 :: expected=3 actual=0
+    [登记内] FAIL [DOM 结构] 正文 <strong> 总数 1 :: expected=1 actual=0
+    [登记内] FAIL [DOM 结构] 正文容器只有 4 个 <p> :: expected=['p', 'p', 'p', 'p'] actual=[]
+    [登记内] FAIL [公共壳] <title> 全角｜分隔 :: expected='我校启动校本课程志愿填报｜自然选择号' actual='新闻消息｜自然选择号'
+    [登记内] FAIL [可见内容白名单] main 内可见文本序列（忽略空白） :: expected=['新闻消息', '我校启动校本课程志愿填报', '蓝色空间', '自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分
+    [登记内] FAIL [可见内容白名单] 正文无第八项可见内容 :: expected=7 actual=2
+    [登记内] FAIL [文件级] Results/ 文件集合固定为 5 个已约定文件 :: expected=['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'styles.css'] actual=['article-classroom-screen-upgrade.html', 'article-math-to-ai-learning.html', '
+    [登记内] FAIL [电头边界] M01 写在同一源码行 ::
+    [登记内] FAIL [电头边界] 源码中 </strong> 后紧跟一个半角空格再“我” ::
+    [登记内] FAIL [逐字符文本] .article__byline :: expected='蓝色空间' actual=None
+    [登记内] FAIL [逐字符文本] .article__type :: expected='新闻消息' actual=None
+    [登记内] FAIL [逐字符文本] h1.page-title :: expected='我校启动校本课程志愿填报' actual='新闻消息'
+    [登记内] FAIL [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要求。例如，心理社团面向心理委员招生，合唱团报名者需
+    [登记内] FAIL [逐字符文本] 末段以“。”结束且无尾随空白 ::
+    [登记内] FAIL [逐字符文本] 首段以“自然选择号”开始 ::
+    [登记内] FAIL [高风险字符串] 原样存在：47个社团 ::
+    [登记内] FAIL [高风险字符串] 原样存在：今日7时 ::
+    [登记内] FAIL [高风险字符串] 原样存在：目前，校本课程志愿填报工作正在进行中。 ::
+    [登记内] FAIL [高风险字符串] 原样存在：第一志愿、第二志愿 ::
+    [登记内] FAIL [高风险字符串] 原样存在：自然选择号9月18日7时电 ::
+    [登记内] FAIL [高风险字符串] 原样存在：调剂至尚有名额的其他社团。 ::
+    [登记内] FAIL [高风险字符串] 原样存在：进行录取；部分社团 ::
+  基线红而当前绿 1 条：
+    - FAIL [文件级] Results/ 文件集合固定为 5 个已约定文件 :: expected=['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'styles.css'] actual=['index.html', 'news-commenta
+
+## _qa_task6/verify.py
+  基线（v1 输入）rc=1 FAIL 4 条；当前（v2 输入）rc=1 FAIL 0 条；共同 0 条
+    当前轮：崩溃（无 FAIL 行）:     head, abody = elems(art) /     ^^^^^^^^^^^ / ValueError: not enough values to unpack (expected 2, got 0)
+  新增 FAIL 0 条：
+  基线红而当前绿 4 条：
+    - FAIL | 文件与版本 | Results/ 仍是约定的 5 个文件 | expected=['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'styles.css'] actual=['index.html', 'news-commentary
+    - FAIL | 文件与版本 | index.html 未被本任务改动 | expected='73f49fd8d01bb578a5a1fcc76ca8967e19feb29ec8e1c64e1aed7b2006c3d901' actual='971e57a5f85bae99c389e58d7a132e96c02388432de997c4df3d4af495e6
+    - FAIL | 文件与版本 | news-commentary.html 未被本任务改动 | expected='cdc13a4023aea725c6c12e6940940b9a00253f84433d1675672b15de046f27ee' actual='a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b2
+    - FAIL | 文件与版本 | styles.css 未被本任务改动 | expected='30d746616ae9dfd0e0aa07e373874b5f442ed14fbd3b78f9efe0abdcc21d040d' actual='2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad41
+
+## _qa_task7/verify.py
+  基线（v1 输入）rc=1 FAIL 3 条；当前（v2 输入）rc=1 FAIL 0 条；共同 0 条
+    当前轮：崩溃（无 FAIL 行）:     art = art[0] /           ~~~^^^ / IndexError: list index out of range
+  新增 FAIL 0 条：
+  基线红而当前绿 3 条：
+    - FAIL | Results/ holds exactly the 5 agreed files | ['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+    - FAIL | index.html untouched by Task 7 | 971e57a5f85bae99
+    - FAIL | styles.css untouched by Task 7 | 2c23817299492ea9
+
+## _qa_task8/verify.py
+  基线（v1 输入）rc=1 FAIL 5 条；当前（v2 输入）rc=1 FAIL 0 条；共同 0 条
+    当前轮：崩溃（无 FAIL 行）:     body = re.search(r'<div class="article__body">(.*?)</div>', src, re.S).group(1) /            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ / AttributeError: 'NoneType' object has no attribute 'group'
+  新增 FAIL 0 条：
+  基线红而当前绿 5 条：
+    - FAIL HTML 未被 Task 8 改动 index.html -> 971e57a5f85bae99
+    - FAIL Results/ 恰为 5 个交付文件 -> index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css
+    - FAIL Task 8 只在文件末尾追加（桌面区段逐字节未变） -> len 7068 -> 11315
+    - FAIL Task 8 未创建 script.js（Task 9 交付物）
+    - FAIL index.html 三区块文本逐项等于 Task 4 冻结值
+
+## _qa_task10/verify_task10.mjs
+  基线（v1 输入）rc=1 FAIL 5 条；当前（v2 输入）rc=1 FAIL 0 条；共同 0 条
+    当前轮：崩溃（无 FAIL 行）:     at async node:internal/modules/esm/loader:666:26 /     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) / Node.js v26.2.0
+  新增 FAIL 0 条：
+  基线红而当前绿 5 条：
+    - [A5] FAIL — 期望: 与核验前基线一致（只读） — 实际: index.html=971E57A5F85B news-commentary.html=A2DBF4AAC574 news-feature.html=73FF75678C45 news-message.html=66AE5826BBDF script.js=ABB39E4A6D21 st
+    - [E6/P_FOUNDED] FAIL — 期望: "报社成立于“鸽子衔枝之年”。" — 实际: "报社成立于2024年。" [码点 期望 62a5 793e 6210 7acb 4e8e 201c 9e3d 5b50 8854 679d 4e4b 5e74 201d 3002 / 实际 62a5 793e 6210 7acb 4e8e 32 30 32 3
+    - [E6/all] FAIL — 期望: 三段逐字符等于 Task 4 冻结值 — 实际: 见分项 — 移交: Task 4
+    - [E6/len] FAIL — 期望: 18,19,14 — 实际: 18,19,11 — 移交: Task 4
+    - [E8] FAIL — 期望: 《自然选择号》报社简介 | 名称由来 | 我们的名字来自《三体》里的一支舰队。 | 主要工作与报道方向 | 我们主要记录一些自己觉得有价值的东西。 | 成立时间 | 报社成立于“鸽子衔枝之年”。 — 实际: 《自然选择号》报社简介 | 名称由来 | 我们的名字来自《三体》里的一支舰队。 | 主要工作与报道方向 | 我们主要记录
+
+## _qa_task4/verify_home.py（硬编码 Results 路径，无重定向环境变量）
+  当前 rc=1 FAIL 0 条（崩溃（无 FAIL 行）:   [FAIL] 范围与交接 / 冻结文本以单行字面量存在于源码（不依赖脚本注入） / 录一些自己觉得有价值的东西。', '成立时间', '报社成立于2024年。'] / 实际 ['《自然选择号》报社简介', '名称由来', '我们的名字来自《三体》里的一支舰队。', '主要工作与报道方向', '我们主要记录一些自己觉得有价值的东西。', '成立时间', '报社成立于“鸽子衔枝之年”。', '最新报道'] / 共 184 项，通过 164，失败 20）：
+
+
+## 汇总
+  _qa_task2: FAIL 47 → 40（新增 27，未登记 0）
+  _qa_task5: FAIL 5 → 36（新增 32，未登记 0）
+  _qa_task6: FAIL 4 → 0（新增 0，未登记 0）
+  _qa_task7: FAIL 3 → 0（新增 0，未登记 0）
+  _qa_task8: FAIL 5 → 0（新增 0，未登记 0）
+  _qa_task10: FAIL 5 → 0（新增 0，未登记 0）
+
+## 未登记的新增失败（应为 0）
+  无
+
+## 只读证明：跑前后历史报告清单 mtime/size 变化
+  无（全部只读）

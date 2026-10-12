@@ -1,0 +1,136 @@
+文件级 | docx SHA-256 == Task1 冻结值 | PASS
+文件级 | Results/index.html 未被本任务改动 | FAIL :: expected='73f49fd8d01bb578a5a1fcc76ca8967e19feb29ec8e1c64e1aed7b2006c3d901' actual='475e02f8bbf195ca4be23b8c71807962e1edbdaeef6ab45e1782c2d184a78f91'
+文件级 | Results/news-commentary.html 未被本任务改动 | FAIL :: expected='cdc13a4023aea725c6c12e6940940b9a00253f84433d1675672b15de046f27ee' actual='76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8'
+文件级 | Results/news-feature.html 未被本任务改动 | FAIL :: expected='5afe7d1bb37216c72d60b3fca62e0a247332014968081b12743ca1cc0fffe275' actual='485a8750d996bcba6d24877c0816dcff108d4cd8eb3cc33114e1bc7dcb20e68c'
+文件级 | Results/styles.css 未被本任务改动 | FAIL :: expected='30d746616ae9dfd0e0aa07e373874b5f442ed14fbd3b78f9efe0abdcc21d040d' actual='2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad418ba1'
+文件级 | Results/ 文件集合固定为 5 个已约定文件 | FAIL :: expected=['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'styles.css'] actual=['article-classroom-screen-upgrade.html', 'article-math-to-ai-learning.html', 'article-school-course-volunteer.html', 'index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+文件级 | news-message.html 存在且非空 | PASS
+合同一致性 | Task5 合同可解析（7 字段） | PASS :: None
+合同一致性 | Task1 合同可解析（title/byline/M01–M04） | PASS :: None keys=['M01', 'M02', 'M03', 'M04', 'byline', 'title']
+合同一致性 | Task1[title] == Task5[title] | PASS
+合同一致性 | Task1[byline] == Task5[byline] | PASS
+合同一致性 | Task1[M01] == Task5[M01] | PASS
+合同一致性 | Task1[M02] == Task5[M02] | PASS
+合同一致性 | Task1[M03] == Task5[M03] | PASS
+合同一致性 | Task1[M04] == Task5[M04] | PASS
+公共壳 | <html lang="zh-CN"> | PASS
+公共壳 | <html class="no-js"> | PASS
+公共壳 | UTF-8 meta | PASS
+公共壳 | 响应式 viewport | PASS
+公共壳 | <title> 全角｜分隔 | FAIL :: expected='我校启动校本课程志愿填报｜自然选择号' actual='新闻消息｜自然选择号'
+公共壳 | styles.css 恰好引用一次 | PASS
+公共壳 | script.js 恰好引用一次 | PASS
+公共壳 | script.js 带 defer | PASS
+公共壳 | 无内联 <script> 文本 | PASS
+公共壳 | 无内联 style 属性 | PASS
+公共壳 | 无 <style> 标签 | PASS
+公共壳 | 无内联事件 on* 属性 | PASS
+公共壳 | .skip-link 是 body 中第一个可聚焦元素且指向 #main-content | PASS :: a
+公共壳 | 跳至正文文字 | PASS
+公共壳 | 报头链接 href | PASS
+公共壳 | 报头文字 | PASS
+公共壳 | 站点报头仍是唯一 .site-header | PASS
+公共壳 | 菜单按钮 type=button | PASS
+公共壳 | aria-controls | PASS
+公共壳 | aria-expanded=false | PASS
+公共壳 | #site-navigation 存在 | PASS
+公共壳 | 导航自身属性不含 hidden/aria-hidden/is-open | PASS :: {'class': ['site-navigation'], 'id': 'site-navigation', 'aria-label': '主导航'}
+公共壳 | 导航源码不含 hidden/is-open | PASS
+公共壳 | 四项导航文字顺序 | PASS
+公共壳 | 四项导航 href 顺序 | PASS
+公共壳 | 全页恰好一个 aria-current=page | PASS
+公共壳 | 当前项位于 news-message.html | PASS
+公共壳 | 报头与其他导航项无 aria-current | PASS
+公共壳 | <main> 数量 | PASS
+公共壳 | main id/class | PASS
+公共壳 | main tabindex="-1" | PASS
+公共壳 | 无重复 ID | PASS
+DOM 结构 | <h1> 数量 | PASS
+DOM 结构 | h1.page-title 数量 | PASS
+DOM 结构 | main 唯一直接元素子节点是 article.article | FAIL :: expected=[('article', ['article'])] actual=[('h1', ['page-title']), ('ul', ['entry-list'])]
+DOM 结构 | .article 数量 | FAIL :: expected=1 actual=0
+DOM 结构 | article 直接子级 = header + div | FAIL :: expected=[('header', ['article__header']), ('div', ['article__body'])] actual=[]
+DOM 结构 | article__header 直接子级顺序 | FAIL :: expected=[('p', ['article__type']), ('h1', ['page-title']), ('p', ['article__byline'])] actual=[]
+DOM 结构 | 文章头部直接元素子节点数 == 3 | FAIL :: expected=3 actual=0
+DOM 结构 | .article__body 数量 | FAIL :: expected=1 actual=0
+DOM 结构 | 正文容器只有 4 个 <p> | FAIL :: expected=['p', 'p', 'p', 'p'] actual=[]
+DOM 结构 | 正文容器无单独 class 的段落 | PASS
+DOM 结构 | strong.dateline 数量 | FAIL :: expected=1 actual=0
+DOM 结构 | 正文 <strong> 总数 1 | FAIL :: expected=1 actual=0
+DOM 结构 | dateline 位于第一个正文段落起始 | FAIL
+DOM 结构 | 无 .article__date | PASS
+DOM 结构 | 0 个 <time> | PASS
+DOM 结构 | 0 个 <blockquote> | PASS
+DOM 结构 | 0 个 正文 <h2> | PASS
+DOM 结构 | 0 个 列表 <ul> | FAIL :: expected=0 actual=1
+DOM 结构 | 0 个 列表 <ol> | PASS
+DOM 结构 | 0 个 列表 <li> | FAIL :: expected=0 actual=1
+DOM 结构 | 0 个 图片 | PASS
+DOM 结构 | 0 个 正文链接 | FAIL :: expected=0 actual=1
+DOM 结构 | 0 个 svg | PASS
+DOM 结构 | 0 个 iframe | PASS
+DOM 结构 | 0 个 其他标题级别 | PASS
+DOM 结构 | 0 个 <section> | PASS
+DOM 结构 | 0 个 <aside> | PASS
+DOM 结构 | 0 个 <details> | PASS
+DOM 结构 | 0 个 <figure> | PASS
+DOM 结构 | 0 个 <table> | PASS
+DOM 结构 | 0 个 <br> | PASS
+DOM 结构 | 0 个 role 属性 | PASS
+DOM 结构 | 0 个 段落编号属性 | PASS
+DOM 结构 | 0 个 .article-title | PASS
+DOM 结构 | 除 .page-title 外无其他 .page-title | PASS
+DOM 结构 | 无 HTML 注释 | PASS
+逐字符文本 | .article__type | FAIL :: expected='新闻消息' actual=None
+逐字符文本 | h1.page-title | FAIL :: expected='我校启动校本课程志愿填报' actual='新闻消息'
+逐字符文本 | .article__byline | FAIL :: expected='蓝色空间' actual=None
+逐字符文本 | 四段 textContent 数组 | FAIL :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要求。例如，心理社团面向心理委员招生，合唱团报名者需要向指导老师展示一段演唱，经老师同意后方可加入。', '在此前的动员会上，老师也提醒同学们，即使最终没有进入最初希望选择的社团，也可以尝试了解调剂后的课程，在新的活动中获得不同的体验。', '目前，校本课程志愿填报工作正在进行中。'] actual=[]
+逐字符文本 | 首段以“自然选择号”开始 | FAIL
+逐字符文本 | 末段以“。”结束且无尾随空白 | FAIL
+电头边界 | 源码中 </strong> 后紧跟一个半角空格再“我” | FAIL
+电头边界 | 源码 </p> 前无换行缩进进入正文 | PASS
+电头边界 | M01 写在同一源码行 | FAIL
+高风险字符串 | 原样存在：自然选择号9月18日7时电 | FAIL
+高风险字符串 | 原样存在：今日7时 | FAIL
+高风险字符串 | 原样存在：第一志愿、第二志愿 | FAIL
+高风险字符串 | 原样存在：47个社团 | FAIL
+高风险字符串 | 原样存在：进行录取；部分社团 | FAIL
+高风险字符串 | 原样存在：目前，校本课程志愿填报工作正在进行中。 | FAIL
+高风险字符串 | 原样存在：调剂至尚有名额的其他社团。 | FAIL
+高风险字符串 | 未把“今日7时”改成具体日期 | PASS
+高风险字符串 | 未在 9月18日 前补年份 | PASS
+可见内容白名单 | main 内可见文本序列（忽略空白） | FAIL :: expected=['新闻消息', '我校启动校本课程志愿填报', '蓝色空间', '自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要求。例如，心理社团面向心理委员招生，合唱团报名者需要向指导老师展示一段演唱，经老师同意后方可加入。', '在此前的动员会上，老师也提醒同学们，即使最终没有进入最初希望选择的社团，也可以尝试了解调剂后的课程，在新的活动中获得不同的体验。', '目前，校本课程志愿填报工作正在进行中。'] actual=['新闻消息', '我校启动校本课程志愿填报9月18日']
+可见内容白名单 | 正文无第八项可见内容 | FAIL :: expected=7 actual=2
+禁止项 | Results/ 不出现 厨一枚 | PASS
+禁止项 | Results/ 不出现 胡桃 | PASS
+禁止项 | Results/ 不出现 2026 | PASS
+禁止项 | Results/ 不出现 作者： | PASS
+禁止项 | Results/ 不出现 记者： | PASS
+禁止项 | Results/ 不出现 文／ | PASS
+禁止项 | Results/ 不出现 M01 | PASS
+禁止项 | Results/ 不出现 M02 | PASS
+禁止项 | Results/ 不出现 M03 | PASS
+禁止项 | Results/ 不出现 M04 | PASS
+禁止项 | Results/ 不出现 .docx | PASS
+禁止项 | Results/ 不出现 新闻消息.docx | PASS
+禁止项 | Results/ 不出现 TODO | PASS
+禁止项 | Results/ 不出现 TBD | PASS
+禁止项 | Results/ 不出现 Lorem ipsum | PASS
+禁止项 | Results/ 不出现 sha256 | PASS
+禁止项 | Results/ 不出现 SHA-256 | PASS
+禁止项 | Results/ 不出现 DE10B575 | PASS
+禁止项 | Results/ 不出现 Materials/ | PASS
+禁止项 | Results/ 不出现 datetime | PASS
+禁止项 | Results/ 不出现 &nbsp; | PASS
+禁止项 | Results/ 无外部 URL | PASS
+禁止项 | Results/ 无 <img>/背景图 URL | PASS
+禁止项 | 消息页无“来源”“节选”“链接”字样 | PASS
+禁止项 | 正文无软连字符/零宽字符/NBSP | PASS
+禁止项 | 无 <wbr> | PASS
+禁止项 | 无 &shy;/&#173; 实体 | PASS
+禁止项 | main 内无 id 属性 | PASS
+禁止项 | main 内无 data-* 属性 | PASS
+禁止项 | main 内无 aria-label/aria-hidden | PASS
+变更边界 | 唯一改动文件是 news-message.html | PASS
+变更边界 | 无新增运行时/测试依赖文件 | PASS
+变更边界 | 文件以 LF 结尾且单个尾换行 | PASS

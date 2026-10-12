@@ -1,0 +1,48 @@
+{
+ "entry-list": {
+  "news-commentary.html": 1,
+  "news-feature.html": 1,
+  "news-message.html": 1
+ },
+ "entry-list__item": {
+  "news-commentary.html": 1,
+  "news-feature.html": 1,
+  "news-message.html": 1
+ },
+ "entry-list__link": {
+  "news-commentary.html": 1,
+  "news-feature.html": 1,
+  "news-message.html": 1
+ },
+ "entry-list__title": {
+  "news-commentary.html": 1,
+  "news-feature.html": 1,
+  "news-message.html": 1
+ },
+ "entry-list__date": {
+  "news-commentary.html": 1,
+  "news-feature.html": 1,
+  "news-message.html": 1
+ },
+ "home-latest": {
+  "index.html": 1
+ },
+ "home-latest__title": {
+  "index.html": 1
+ },
+ "home-latest__list": {
+  "index.html": 1
+ },
+ "home-latest__item": {
+  "index.html": 3
+ },
+ "home-latest__link": {
+  "index.html": 3
+ },
+ "home-latest__entry": {
+  "index.html": 3
+ },
+ "home-latest__date": {
+  "index.html": 3
+ }
+}

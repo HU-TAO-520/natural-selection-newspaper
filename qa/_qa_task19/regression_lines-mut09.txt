@@ -1,0 +1,233 @@
+[RZ0] [REC] - — - — 验收环境 — Chrome/154.0.8037.93 · headless=new · file:// 直开 · profile=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\.cdp9489-1791026794991 · 被测目录=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\mutants\m07-inject-console-log · 段=content
+[RZ1] [PASS] - — - — 19.1 遍历清单条数 == manifest.counts.html（HTML 子集，非目录扫描所得） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 styles.css／script.js 不是页（不进遍历清单） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 遍历顺序按 path 字典序 — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [REC] - — - — 本轮实跑页集合（QODER_ONLY 只影响实跑范围，不改变清单结论） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ2] [PASS] - — - — 前置闸门：Task 18 结论 FAIL 0 且 PENDING 0（未全绿则本包不开跑） — 匹配=true
+[RZ2] [PASS] - — - — 前置闸门：Task 18 变异捕获率 100% — 100
+[RZ2] [PASS] - — - — 前置闸门：Task 18 断言数 ≥340 — 1395
+[RZ2] [PASS] - — - — 前置闸门：expected_reversals.md 已读入本包前置（区分真回归与范围过期的唯一依据） — true
+[RZ3] [PASS] - — - — 19.1 Task18 facts.json 的 __meta 与目录绑定：页集合与本包遍历清单同源（复用 M1 结论，不重造） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ3] [PASS] - — - — 19.1 快照未过期：__meta 逐页哈希 == 当前 Results/ 逐页哈希 — 0 页失配
+[RZ4] [PASS] - — - — 19.1 首页哈希 == 清单登记值（合同基线表里的 2629 字节 971e57a5… 是 v1 六文件值，当前以 manifest 为准，Task18 §8.3 已登记） — 0d21fd1129563d3d…/3623B
+[RZ4] [PASS] - — - — 19.1 Results/ 文件数 == 清单 pages 数（交付文件 6+N=11） — 11
+[RZ5] [PASS] - — - — 19.1 输入前置：五处目录齐备 — 全部存在
+[RZ5] [PASS] - — - — 19.1 输入前置：清单／打包件／上传单／Task18 事实／Task13 基线／v1 母本齐备 — 全部存在
+[RJ2] [PASS] article-along-the-north-small-river.html — 375px — 段落数量 == Task13 基线 — 4
+[RJ1] [PASS] article-along-the-north-small-river.html — 375px — 第 1/4 段浏览器所见与基线码点级全等（移动档） — 72 码点
+[RJ1] [PASS] article-along-the-north-small-river.html — 1280px — 第 1/4 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 1 段 72 码点
+[RJ1] [PASS] article-along-the-north-small-river.html — 375px — 第 2/4 段浏览器所见与基线码点级全等（移动档） — 166 码点
+[RJ1] [PASS] article-along-the-north-small-river.html — 1280px — 第 2/4 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 2 段 166 码点
+[RJ1] [PASS] article-along-the-north-small-river.html — 375px — 第 3/4 段浏览器所见与基线码点级全等（移动档） — 54 码点
+[RJ1] [PASS] article-along-the-north-small-river.html — 1280px — 第 3/4 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 3 段 54 码点
+[RJ1] [PASS] article-along-the-north-small-river.html — 375px — 第 4/4 段浏览器所见与基线码点级全等（移动档） — 21 码点
+[RJ1] [PASS] article-along-the-north-small-river.html — 1280px — 第 4/4 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 4 段 21 码点
+[RJ1] [PASS] article-along-the-north-small-river.html — 375px — 整篇正文拼接后逐字符全等 — 313 字符
+[RJ1] [PASS] article-along-the-north-small-river.html — 1280 vs 375 — 跨断点所见正文文本一致 — 桌面 313 字符 / 移动 313 字符
+[RJ1] [PASS] article-along-the-north-small-river.html — 1280px — 详情页 <h1> 与基线逐字符一致 — 封路之后，沿北小河往南
+[RJ1] [PASS] article-along-the-north-small-river.html — 1280px — 署名与基线逐字符一致 — 蓝色空间
+[RJ1] [PASS] article-along-the-north-small-river.html — 1280px — 页面类型标签与基线一致 — 新闻通讯
+[RJ1] [PASS] article-along-the-north-small-river.html — 1280px — 渲染顺序：类型→标题→署名（bounding box） — 251<290<356
+[RJ1] [PASS] article-along-the-north-small-river.html — 1280px — 末尾日期与基线码点一致 — （自然选择号10月1日）
+[RJ3] [PASS] article-along-the-north-small-river.html — - — 伪元素 content 只用于画线（空串），未生成任何可见文字 — content: ""
+[RJ3] [PASS] article-along-the-north-small-river.html — 375px — 交互与降级之后主内容无脚本注入文本、无字符增删 — 457 字符
+[RJ4] [FAIL] article-along-the-north-small-river.html — - — 全站运行期无未捕获异常、无任何 console 输出（log/info/debug/warn/error/assert 全部计入；探针自身不使用 console） — 期望 0 条 / 实际 CONSOLE:log::task19-mutant-noise — 移交: Task 15
+[RJ2] [PASS] article-classroom-screen-upgrade.html — 375px — 段落数量 == Task13 基线 — 29
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 1/29 段浏览器所见与基线码点级全等（移动档） — 80 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 1/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 1 段 80 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 2/29 段浏览器所见与基线码点级全等（移动档） — 56 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 2/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 2 段 56 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 3/29 段浏览器所见与基线码点级全等（移动档） — 15 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 3/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 3 段 15 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 4/29 段浏览器所见与基线码点级全等（移动档） — 64 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 4/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 4 段 64 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 5/29 段浏览器所见与基线码点级全等（移动档） — 138 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 5/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 5 段 138 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 6/29 段浏览器所见与基线码点级全等（移动档） — 101 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 6/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 6 段 101 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 7/29 段浏览器所见与基线码点级全等（移动档） — 50 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 7/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 7 段 50 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 8/29 段浏览器所见与基线码点级全等（移动档） — 75 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 8/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 8 段 75 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 9/29 段浏览器所见与基线码点级全等（移动档） — 100 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 9/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 9 段 100 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 10/29 段浏览器所见与基线码点级全等（移动档） — 118 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 10/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 10 段 118 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 11/29 段浏览器所见与基线码点级全等（移动档） — 34 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 11/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 11 段 34 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 12/29 段浏览器所见与基线码点级全等（移动档） — 167 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 12/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 12 段 167 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 13/29 段浏览器所见与基线码点级全等（移动档） — 16 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 13/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 13 段 16 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 14/29 段浏览器所见与基线码点级全等（移动档） — 98 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 14/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 14 段 98 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 15/29 段浏览器所见与基线码点级全等（移动档） — 68 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 15/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 15 段 68 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 16/29 段浏览器所见与基线码点级全等（移动档） — 70 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 16/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 16 段 70 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 17/29 段浏览器所见与基线码点级全等（移动档） — 17 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 17/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 17 段 17 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 18/29 段浏览器所见与基线码点级全等（移动档） — 65 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 18/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 18 段 65 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 19/29 段浏览器所见与基线码点级全等（移动档） — 30 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 19/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 19 段 30 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 20/29 段浏览器所见与基线码点级全等（移动档） — 126 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 20/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 20 段 126 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 21/29 段浏览器所见与基线码点级全等（移动档） — 100 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 21/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 21 段 100 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 22/29 段浏览器所见与基线码点级全等（移动档） — 13 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 22/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 22 段 13 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 23/29 段浏览器所见与基线码点级全等（移动档） — 65 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 23/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 23 段 65 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 24/29 段浏览器所见与基线码点级全等（移动档） — 35 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 24/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 24 段 35 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 25/29 段浏览器所见与基线码点级全等（移动档） — 24 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 25/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 25 段 24 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 26/29 段浏览器所见与基线码点级全等（移动档） — 163 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 26/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 26 段 163 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 27/29 段浏览器所见与基线码点级全等（移动档） — 37 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 27/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 27 段 37 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 28/29 段浏览器所见与基线码点级全等（移动档） — 77 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 28/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 28 段 77 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 第 29/29 段浏览器所见与基线码点级全等（移动档） — 36 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 29/29 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 29 段 36 码点
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 375px — 整篇正文拼接后逐字符全等 — 2038 字符
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280 vs 375 — 跨断点所见正文文本一致 — 桌面 2038 字符 / 移动 2038 字符
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 详情页 <h1> 与基线逐字符一致 — 设备升级了，使用门槛也该降下来
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 署名与基线逐字符一致 — 蓝色空间
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 页面类型标签与基线一致 — 新闻评论
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 渲染顺序：类型→标题→署名（bounding box） — 251<290<356
+[RJ1] [PASS] article-classroom-screen-upgrade.html — 1280px — 末尾日期与基线码点一致 — （自然选择号9月18日）
+[RJ3] [PASS] article-classroom-screen-upgrade.html — - — 伪元素 content 只用于画线（空串），未生成任何可见文字 — content: ""
+[RJ3] [PASS] article-classroom-screen-upgrade.html — 375px — 交互与降级之后主内容无脚本注入文本、无字符增删 — 2411 字符
+[RJ4] [FAIL] article-classroom-screen-upgrade.html — - — 全站运行期无未捕获异常、无任何 console 输出（log/info/debug/warn/error/assert 全部计入；探针自身不使用 console） — 期望 0 条 / 实际 CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise — 移交: Task 15
+[RJ2] [PASS] article-math-to-ai-learning.html — 375px — 段落数量 == Task13 基线 — 23
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 1/23 段浏览器所见与基线码点级全等（移动档） — 58 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 1/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 1 段 58 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 2/23 段浏览器所见与基线码点级全等（移动档） — 114 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 2/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 2 段 114 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 3/23 段浏览器所见与基线码点级全等（移动档） — 36 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 3/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 3 段 36 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 4/23 段浏览器所见与基线码点级全等（移动档） — 58 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 4/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 4 段 58 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 5/23 段浏览器所见与基线码点级全等（移动档） — 81 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 5/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 5 段 81 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 6/23 段浏览器所见与基线码点级全等（移动档） — 106 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 6/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 6 段 106 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 7/23 段浏览器所见与基线码点级全等（移动档） — 85 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 7/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 7 段 85 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 8/23 段浏览器所见与基线码点级全等（移动档） — 99 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 8/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 8 段 99 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 9/23 段浏览器所见与基线码点级全等（移动档） — 78 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 9/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 9 段 78 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 10/23 段浏览器所见与基线码点级全等（移动档） — 70 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 10/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 10 段 70 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 11/23 段浏览器所见与基线码点级全等（移动档） — 83 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 11/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 11 段 83 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 12/23 段浏览器所见与基线码点级全等（移动档） — 24 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 12/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 12 段 24 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 13/23 段浏览器所见与基线码点级全等（移动档） — 83 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 13/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 13 段 83 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 14/23 段浏览器所见与基线码点级全等（移动档） — 21 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 14/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 14 段 21 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 15/23 段浏览器所见与基线码点级全等（移动档） — 49 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 15/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 15 段 49 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 16/23 段浏览器所见与基线码点级全等（移动档） — 37 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 16/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 16 段 37 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 17/23 段浏览器所见与基线码点级全等（移动档） — 43 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 17/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 17 段 43 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 18/23 段浏览器所见与基线码点级全等（移动档） — 97 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 18/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 18 段 97 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 19/23 段浏览器所见与基线码点级全等（移动档） — 43 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 19/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 19 段 43 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 20/23 段浏览器所见与基线码点级全等（移动档） — 44 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 20/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 20 段 44 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 21/23 段浏览器所见与基线码点级全等（移动档） — 79 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 21/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 21 段 79 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 22/23 段浏览器所见与基线码点级全等（移动档） — 80 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 22/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 22 段 80 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 第 23/23 段浏览器所见与基线码点级全等（移动档） — 61 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 第 23/23 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 23 段 61 码点
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — 整篇正文拼接后逐字符全等 — 1529 字符
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280 vs 375 — 跨断点所见正文文本一致 — 桌面 1529 字符 / 移动 1529 字符
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 详情页 <h1> 与基线逐字符一致 — 从数学题到AI时代的学习
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 署名与基线逐字符一致 — 蓝色空间
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 页面类型标签与基线一致 — 新闻通讯
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 渲染顺序：类型→标题→署名（bounding box） — 251<290<356
+[RJ1] [PASS] article-math-to-ai-learning.html — 1280px — 电头文本与基线一致 — 自然选择号9月17日电
+[RJ1] [PASS] article-math-to-ai-learning.html — 375px — strong.dateline 后恰好一个 U+0020（首段空格计数） — 1
+[RJ3] [PASS] article-math-to-ai-learning.html — - — 伪元素 content 只用于画线（空串），未生成任何可见文字 — content: ""
+[RJ3] [PASS] article-math-to-ai-learning.html — 375px — 交互与降级之后主内容无脚本注入文本、无字符增删 — 1825 字符
+[RJ4] [FAIL] article-math-to-ai-learning.html — - — 全站运行期无未捕获异常、无任何 console 输出（log/info/debug/warn/error/assert 全部计入；探针自身不使用 console） — 期望 0 条 / 实际 CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise — 移交: Task 15
+[RJ2] [PASS] article-north-of-dam-river.html — 375px — 段落数量 == Task13 基线 — 5
+[RJ1] [PASS] article-north-of-dam-river.html — 375px — 第 1/5 段浏览器所见与基线码点级全等（移动档） — 82 码点
+[RJ1] [PASS] article-north-of-dam-river.html — 1280px — 第 1/5 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 1 段 82 码点
+[RJ1] [PASS] article-north-of-dam-river.html — 375px — 第 2/5 段浏览器所见与基线码点级全等（移动档） — 70 码点
+[RJ1] [PASS] article-north-of-dam-river.html — 1280px — 第 2/5 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 2 段 70 码点
+[RJ1] [PASS] article-north-of-dam-river.html — 375px — 第 3/5 段浏览器所见与基线码点级全等（移动档） — 105 码点
+[RJ1] [PASS] article-north-of-dam-river.html — 1280px — 第 3/5 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 3 段 105 码点
+[RJ1] [PASS] article-north-of-dam-river.html — 375px — 第 4/5 段浏览器所见与基线码点级全等（移动档） — 73 码点
+[RJ1] [PASS] article-north-of-dam-river.html — 1280px — 第 4/5 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 4 段 73 码点
+[RJ1] [PASS] article-north-of-dam-river.html — 375px — 第 5/5 段浏览器所见与基线码点级全等（移动档） — 38 码点
+[RJ1] [PASS] article-north-of-dam-river.html — 1280px — 第 5/5 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 5 段 38 码点
+[RJ1] [PASS] article-north-of-dam-river.html — 375px — 整篇正文拼接后逐字符全等 — 368 字符
+[RJ1] [PASS] article-north-of-dam-river.html — 1280 vs 375 — 跨断点所见正文文本一致 — 桌面 368 字符 / 移动 368 字符
+[RJ1] [PASS] article-north-of-dam-river.html — 1280px — 详情页 <h1> 与基线逐字符一致 — 坝河以北，走过的东坝
+[RJ1] [PASS] article-north-of-dam-river.html — 1280px — 署名与基线逐字符一致 — 蓝色空间
+[RJ1] [PASS] article-north-of-dam-river.html — 1280px — 页面类型标签与基线一致 — 新闻通讯
+[RJ1] [PASS] article-north-of-dam-river.html — 1280px — 渲染顺序：类型→标题→署名（bounding box） — 251<290<356
+[RJ1] [PASS] article-north-of-dam-river.html — 1280px — 末尾日期与基线码点一致 — （自然选择号9月27日）
+[RJ3] [PASS] article-north-of-dam-river.html — - — 伪元素 content 只用于画线（空串），未生成任何可见文字 — content: ""
+[RJ3] [PASS] article-north-of-dam-river.html — 375px — 交互与降级之后主内容无脚本注入文本、无字符增删 — 520 字符
+[RJ4] [FAIL] article-north-of-dam-river.html — - — 全站运行期无未捕获异常、无任何 console 输出（log/info/debug/warn/error/assert 全部计入；探针自身不使用 console） — 期望 0 条 / 实际 CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise — 移交: Task 15
+[RJ2] [PASS] article-school-course-volunteer.html — 375px — 段落数量 == Task13 基线 — 4
+[RJ1] [PASS] article-school-course-volunteer.html — 375px — 第 1/4 段浏览器所见与基线码点级全等（移动档） — 96 码点
+[RJ1] [PASS] article-school-course-volunteer.html — 1280px — 第 1/4 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 1 段 96 码点
+[RJ1] [PASS] article-school-course-volunteer.html — 375px — 第 2/4 段浏览器所见与基线码点级全等（移动档） — 109 码点
+[RJ1] [PASS] article-school-course-volunteer.html — 1280px — 第 2/4 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 2 段 109 码点
+[RJ1] [PASS] article-school-course-volunteer.html — 375px — 第 3/4 段浏览器所见与基线码点级全等（移动档） — 64 码点
+[RJ1] [PASS] article-school-course-volunteer.html — 1280px — 第 3/4 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 3 段 64 码点
+[RJ1] [PASS] article-school-course-volunteer.html — 375px — 第 4/4 段浏览器所见与基线码点级全等（移动档） — 19 码点
+[RJ1] [PASS] article-school-course-volunteer.html — 1280px — 第 4/4 段桌面档码点级全等（跨断点文本不受 CSS 影响） — 桌面第 4 段 19 码点
+[RJ1] [PASS] article-school-course-volunteer.html — 375px — 整篇正文拼接后逐字符全等 — 288 字符
+[RJ1] [PASS] article-school-course-volunteer.html — 1280 vs 375 — 跨断点所见正文文本一致 — 桌面 288 字符 / 移动 288 字符
+[RJ1] [PASS] article-school-course-volunteer.html — 1280px — 详情页 <h1> 与基线逐字符一致 — 我校启动校本课程志愿填报
+[RJ1] [PASS] article-school-course-volunteer.html — 1280px — 署名与基线逐字符一致 — 蓝色空间
+[RJ1] [PASS] article-school-course-volunteer.html — 1280px — 页面类型标签与基线一致 — 新闻消息
+[RJ1] [PASS] article-school-course-volunteer.html — 1280px — 渲染顺序：类型→标题→署名（bounding box） — 251<290<356
+[RJ1] [PASS] article-school-course-volunteer.html — 1280px — 电头文本与基线一致 — 自然选择号9月18日7时电
+[RJ1] [PASS] article-school-course-volunteer.html — 375px — strong.dateline 后恰好一个 U+0020（首段空格计数） — 1
+[RJ3] [PASS] article-school-course-volunteer.html — - — 伪元素 content 只用于画线（空串），未生成任何可见文字 — content: ""
+[RJ3] [PASS] article-school-course-volunteer.html — 375px — 交互与降级之后主内容无脚本注入文本、无字符增删 — 413 字符
+[RJ4] [FAIL] article-school-course-volunteer.html — - — 全站运行期无未捕获异常、无任何 console 输出（log/info/debug/warn/error/assert 全部计入；探针自身不使用 console） — 期望 0 条 / 实际 CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise — 移交: Task 15
+[RJ2] [PASS] index.html — 1280px — 首页三段逐字符等于 Task4 冻结表 — 报社成立于“鸽子衔枝之年”。
+[RJ2] [PASS] index.html — 1280px — 首页三段码点级全等（含全角引号与书名号） — 370 码点
+[RJ2] [PASS] index.html — 1280px — 首页三区块标题逐字符一致 — 名称由来|主要工作与报道方向|成立时间
+[RJ2] [PASS] index.html — 1280px — 首页最新区标题序列 == 独立解析 md 所得全局序前 3 条标题（R11①／R12②：一栏可多稿，不再取"各栏目首条"） — 封路之后，沿北小河往南|坝河以北，走过的东坝|我校启动校本课程志愿填报
+[RJ9] [PASS] index.html — 1280px — R5②：display_date 形态为「月日」且不含年份 — 10月1日,9月27日,9月18日
+[RJ9] [PASS] index.html — 1280px — R5②：第 i 条的月日必须在它**所链那篇文章**的 DOM 文本之内（正文段落或末尾日期行 p.article__date）；页取 latestPages[i]，R12 后不再假设每栏目一条 — 10月1日,9月27日,9月18日
+[RJ3] [PASS] index.html — - — 伪元素 content 只用于画线（空串），未生成任何可见文字 — content: ""
+[RJ3] [PASS] index.html — 375px — 交互与降级之后主内容无脚本注入文本、无字符增删 — 367 字符
+[RJ4] [FAIL] index.html — - — 全站运行期无未捕获异常、无任何 console 输出（log/info/debug/warn/error/assert 全部计入；探针自身不使用 console） — 期望 0 条 / 实际 CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise — 移交: Task 15
+[RJ3] [PASS] news-commentary.html — - — 伪元素 content 只用于画线（空串），未生成任何可见文字 — content: ""
+[RJ3] [PASS] news-commentary.html — 375px — 交互与降级之后主内容无脚本注入文本、无字符增删 — 66 字符
+[RJ4] [FAIL] news-commentary.html — - — 全站运行期无未捕获异常、无任何 console 输出（log/info/debug/warn/error/assert 全部计入；探针自身不使用 console） — 期望 0 条 / 实际 CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise — 移交: Task 15
+[RJ3] [PASS] news-feature.html — - — 伪元素 content 只用于画线（空串），未生成任何可见文字 — content: ""
+[RJ3] [PASS] news-feature.html — 375px — 交互与降级之后主内容无脚本注入文本、无字符增删 — 140 字符
+[RJ4] [FAIL] news-feature.html — - — 全站运行期无未捕获异常、无任何 console 输出（log/info/debug/warn/error/assert 全部计入；探针自身不使用 console） — 期望 0 条 / 实际 CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise — 移交: Task 15
+[RJ3] [PASS] news-message.html — - — 伪元素 content 只用于画线（空串），未生成任何可见文字 — content: ""
+[RJ3] [PASS] news-message.html — 375px — 交互与降级之后主内容无脚本注入文本、无字符增删 — 63 字符
+[RJ4] [FAIL] news-message.html — - — 全站运行期无未捕获异常、无任何 console 输出（log/info/debug/warn/error/assert 全部计入；探针自身不使用 console） — 期望 0 条 / 实际 CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise | CONSOLE:log::task19-mutant-noise — 移交: Task 15
+[RJ5] [FAIL] 全部 HTML 页全程 — 全部宽度/状态/操作 — 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） — 期望 0 条 / 实际 CONSOLE:log::task19-mutant-noise — 移交: Task 15／16
+[RZ12] [REC] 全包 — - — 断言总数下限（≥1400）属全包闸门，单段模式记 REC，不参与判定 — 本段计分 219
+[RZ12] [PASS] 全包 — - — PENDING 恒为 0（等待外部动作只有 SKIPPED-BY-DESIGN 这一个名字） — 0
+[RZ10] [PASS] Results/ — - — 19.10 只读证明：Results/ 开工与完工逐项哈希相等 — 11 项 且内容一致
+[RZ10] [PASS] content/ — - — 19.10 只读证明：content/ 开工与完工逐项哈希相等 — 7 项 且内容一致
+[RZ10] [PASS] build/ — - — 19.10 只读证明：build/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] deploy/ — - — 19.10 只读证明：deploy/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] Materials/ — - — 19.10 只读证明：Materials/ 开工与完工逐项哈希相等 — 3 项 且内容一致
+[RZ10] [PASS] Results/ — - — 19.10 Results/ 无新增文件（压力样本与探针产物一律落在 _qa_task19/mutants/） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css
+[RZ11] [PASS] Results/ — - — 19.10 本包未修改任何被验对象（变异与压力跑均指向副本目录 C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\mutants\m07-inject-console-log） — ok
+[RZ11] [PASS] Results/ — - — 19.10 Results/ 内无清单外文件、无探针／截图／JSON 产物 — 0 个
+
+合计 231 条（计分 228）：PASS 218 / FAIL 10 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0

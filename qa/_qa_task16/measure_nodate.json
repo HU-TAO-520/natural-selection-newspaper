@@ -1,0 +1,4364 @@
+[
+ {
+  "page": "../_qa_task16/nodate/news-message.html",
+  "viewport": 375,
+  "frameClientWidth": 375,
+  "frameScrollWidth": 375,
+  "overflowX": 0,
+  "innerWidth": 375,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "我校启动校本课程志愿填报",
+    "h": 45.25,
+    "w": 343,
+    "x": 16,
+    "y": 295.563,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "我校启动校本课程志愿填报",
+    "lines": 1,
+    "x": 16,
+    "y": 307.563,
+    "w": 204,
+    "h": 21.25,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "41.25px",
+    "lineHeight": "51.5625px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "4.95px",
+    "x": 69.531,
+    "y": 35,
+    "w": 235.938,
+    "h": 51.563
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 163.563,
+    "w": 343,
+    "h": 242.25
+   },
+   "pageTitle": {
+    "fontSize": "28px",
+    "lineHeight": "35px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 195.563,
+    "w": 343,
+    "h": 35
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "x": 16,
+    "y": 278.563,
+    "w": 343,
+    "h": 79.25
+   },
+   "entryItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 16,
+    "y": 278.563,
+    "w": 343,
+    "h": 79.25
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-message.html",
+  "viewport": 640,
+  "frameClientWidth": 640,
+  "frameScrollWidth": 640,
+  "overflowX": 0,
+  "innerWidth": 640,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "我校启动校本课程志愿填报",
+    "h": 45.25,
+    "w": 608,
+    "x": 16,
+    "y": 324,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "我校启动校本课程志愿填报",
+    "lines": 1,
+    "x": 16,
+    "y": 336,
+    "w": 204,
+    "h": 21.25,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 159.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 608,
+    "h": 252.25
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 214,
+    "w": 608,
+    "h": 45
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "x": 16,
+    "y": 307,
+    "w": 608,
+    "h": 79.25
+   },
+   "entryItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 16,
+    "y": 307,
+    "w": 608,
+    "h": 79.25
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-message.html",
+  "viewport": 768,
+  "frameClientWidth": 768,
+  "frameScrollWidth": 768,
+  "overflowX": 0,
+  "innerWidth": 768,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "我校启动校本课程志愿填报",
+    "h": 45.25,
+    "w": 736,
+    "x": 16,
+    "y": 324,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "我校启动校本课程志愿填报",
+    "lines": 1,
+    "x": 16,
+    "y": 336,
+    "w": 204,
+    "h": 21.25,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 223.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 736,
+    "h": 252.25
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 214,
+    "w": 736,
+    "h": 45
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "x": 16,
+    "y": 307,
+    "w": 736,
+    "h": 79.25
+   },
+   "entryItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 16,
+    "y": 307,
+    "w": 736,
+    "h": 79.25
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-message.html",
+  "viewport": 769,
+  "frameClientWidth": 769,
+  "frameScrollWidth": 769,
+  "overflowX": 0,
+  "innerWidth": 769,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "我校启动校本课程志愿填报",
+    "h": 46.5,
+    "w": 705,
+    "x": 32,
+    "y": 374,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "我校启动校本课程志愿填报",
+    "lines": 1,
+    "x": 32,
+    "y": 386,
+    "w": 705,
+    "h": 22.5,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 193.781,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 203.531,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 278.094,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 705,
+    "h": 322.5
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 32,
+    "y": 251,
+    "w": 705,
+    "h": 50
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "x": 32,
+    "y": 349,
+    "w": 705,
+    "h": 96.5
+   },
+   "entryItem": {
+    "paddingTop": "24px",
+    "paddingBottom": "24px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 32,
+    "y": 349,
+    "w": 705,
+    "h": 96.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-message.html",
+  "viewport": 1024,
+  "frameClientWidth": 1024,
+  "frameScrollWidth": 1024,
+  "overflowX": 0,
+  "innerWidth": 1024,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "我校启动校本课程志愿填报",
+    "h": 46.5,
+    "w": 736,
+    "x": 144,
+    "y": 374,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "我校启动校本课程志愿填报",
+    "lines": 1,
+    "x": 144,
+    "y": 386,
+    "w": 736,
+    "h": 22.5,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 321.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 331.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 405.594,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 960,
+    "h": 322.5
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 96,
+    "y": 251,
+    "w": 832,
+    "h": 50
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "112px",
+    "paddingLeft": "0px",
+    "x": 144,
+    "y": 349,
+    "w": 736,
+    "h": 96.5
+   },
+   "entryItem": {
+    "paddingTop": "24px",
+    "paddingBottom": "24px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 144,
+    "y": 349,
+    "w": 736,
+    "h": 96.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-message.html",
+  "viewport": 1280,
+  "frameClientWidth": 1280,
+  "frameScrollWidth": 1280,
+  "overflowX": 0,
+  "innerWidth": 1280,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "我校启动校本课程志愿填报",
+    "h": 46.5,
+    "w": 736,
+    "x": 272,
+    "y": 374,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "我校启动校本课程志愿填报",
+    "lines": 1,
+    "x": 272,
+    "y": 386,
+    "w": 736,
+    "h": 22.5,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 449.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 459.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 533.594,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 80,
+    "y": 203,
+    "w": 1120,
+    "h": 322.5
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 224,
+    "y": 251,
+    "w": 832,
+    "h": 50
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "192px",
+    "paddingLeft": "0px",
+    "x": 272,
+    "y": 349,
+    "w": 736,
+    "h": 96.5
+   },
+   "entryItem": {
+    "paddingTop": "24px",
+    "paddingBottom": "24px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 272,
+    "y": 349,
+    "w": 736,
+    "h": 96.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-feature.html",
+  "viewport": 375,
+  "frameClientWidth": 375,
+  "frameScrollWidth": 375,
+  "overflowX": 0,
+  "innerWidth": 375,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "从数学题到AI时代的学习",
+    "h": 45.25,
+    "w": 343,
+    "x": 16,
+    "y": 295.563,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "从数学题到AI时代的学习",
+    "lines": 1,
+    "x": 16,
+    "y": 307.563,
+    "w": 187.531,
+    "h": 21.25,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "41.25px",
+    "lineHeight": "51.5625px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "4.95px",
+    "x": 69.531,
+    "y": 35,
+    "w": 235.938,
+    "h": 51.563
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 163.563,
+    "w": 343,
+    "h": 242.25
+   },
+   "pageTitle": {
+    "fontSize": "28px",
+    "lineHeight": "35px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 195.563,
+    "w": 343,
+    "h": 35
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "x": 16,
+    "y": 278.563,
+    "w": 343,
+    "h": 79.25
+   },
+   "entryItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 16,
+    "y": 278.563,
+    "w": 343,
+    "h": 79.25
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-feature.html",
+  "viewport": 640,
+  "frameClientWidth": 640,
+  "frameScrollWidth": 640,
+  "overflowX": 0,
+  "innerWidth": 640,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "从数学题到AI时代的学习",
+    "h": 45.25,
+    "w": 608,
+    "x": 16,
+    "y": 324,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "从数学题到AI时代的学习",
+    "lines": 1,
+    "x": 16,
+    "y": 336,
+    "w": 187.531,
+    "h": 21.25,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 159.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 608,
+    "h": 252.25
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 214,
+    "w": 608,
+    "h": 45
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "x": 16,
+    "y": 307,
+    "w": 608,
+    "h": 79.25
+   },
+   "entryItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 16,
+    "y": 307,
+    "w": 608,
+    "h": 79.25
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-feature.html",
+  "viewport": 768,
+  "frameClientWidth": 768,
+  "frameScrollWidth": 768,
+  "overflowX": 0,
+  "innerWidth": 768,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "从数学题到AI时代的学习",
+    "h": 45.25,
+    "w": 736,
+    "x": 16,
+    "y": 324,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "从数学题到AI时代的学习",
+    "lines": 1,
+    "x": 16,
+    "y": 336,
+    "w": 187.531,
+    "h": 21.25,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 223.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 736,
+    "h": 252.25
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 214,
+    "w": 736,
+    "h": 45
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "x": 16,
+    "y": 307,
+    "w": 736,
+    "h": 79.25
+   },
+   "entryItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 16,
+    "y": 307,
+    "w": 736,
+    "h": 79.25
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-feature.html",
+  "viewport": 769,
+  "frameClientWidth": 769,
+  "frameScrollWidth": 769,
+  "overflowX": 0,
+  "innerWidth": 769,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "从数学题到AI时代的学习",
+    "h": 46.5,
+    "w": 705,
+    "x": 32,
+    "y": 374,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "从数学题到AI时代的学习",
+    "lines": 1,
+    "x": 32,
+    "y": 386,
+    "w": 705,
+    "h": 22.5,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 193.781,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 203.531,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 387.219,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 705,
+    "h": 322.5
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 32,
+    "y": 251,
+    "w": 705,
+    "h": 50
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "x": 32,
+    "y": 349,
+    "w": 705,
+    "h": 96.5
+   },
+   "entryItem": {
+    "paddingTop": "24px",
+    "paddingBottom": "24px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 32,
+    "y": 349,
+    "w": 705,
+    "h": 96.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-feature.html",
+  "viewport": 1024,
+  "frameClientWidth": 1024,
+  "frameScrollWidth": 1024,
+  "overflowX": 0,
+  "innerWidth": 1024,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "从数学题到AI时代的学习",
+    "h": 46.5,
+    "w": 736,
+    "x": 144,
+    "y": 374,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "从数学题到AI时代的学习",
+    "lines": 1,
+    "x": 144,
+    "y": 386,
+    "w": 736,
+    "h": 22.5,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 321.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 331.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 514.719,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 960,
+    "h": 322.5
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 96,
+    "y": 251,
+    "w": 832,
+    "h": 50
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "112px",
+    "paddingLeft": "0px",
+    "x": 144,
+    "y": 349,
+    "w": 736,
+    "h": 96.5
+   },
+   "entryItem": {
+    "paddingTop": "24px",
+    "paddingBottom": "24px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 144,
+    "y": 349,
+    "w": 736,
+    "h": 96.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-feature.html",
+  "viewport": 1280,
+  "frameClientWidth": 1280,
+  "frameScrollWidth": 1280,
+  "overflowX": 0,
+  "innerWidth": 1280,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "从数学题到AI时代的学习",
+    "h": 46.5,
+    "w": 736,
+    "x": 272,
+    "y": 374,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "从数学题到AI时代的学习",
+    "lines": 1,
+    "x": 272,
+    "y": 386,
+    "w": 736,
+    "h": 22.5,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 449.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 459.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 642.719,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 80,
+    "y": 203,
+    "w": 1120,
+    "h": 322.5
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 224,
+    "y": 251,
+    "w": 832,
+    "h": 50
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "192px",
+    "paddingLeft": "0px",
+    "x": 272,
+    "y": 349,
+    "w": 736,
+    "h": 96.5
+   },
+   "entryItem": {
+    "paddingTop": "24px",
+    "paddingBottom": "24px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 272,
+    "y": 349,
+    "w": 736,
+    "h": 96.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-commentary.html",
+  "viewport": 375,
+  "frameClientWidth": 375,
+  "frameScrollWidth": 375,
+  "overflowX": 0,
+  "innerWidth": 375,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "设备升级了，使用门槛也该降下来",
+    "h": 45.25,
+    "w": 343,
+    "x": 16,
+    "y": 295.563,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "设备升级了，使用门槛也该降下来",
+    "lines": 1,
+    "x": 16,
+    "y": 307.563,
+    "w": 255,
+    "h": 21.25,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "41.25px",
+    "lineHeight": "51.5625px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "4.95px",
+    "x": 69.531,
+    "y": 35,
+    "w": 235.938,
+    "h": 51.563
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 163.563,
+    "w": 343,
+    "h": 242.25
+   },
+   "pageTitle": {
+    "fontSize": "28px",
+    "lineHeight": "35px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 195.563,
+    "w": 343,
+    "h": 35
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "x": 16,
+    "y": 278.563,
+    "w": 343,
+    "h": 79.25
+   },
+   "entryItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 16,
+    "y": 278.563,
+    "w": 343,
+    "h": 79.25
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-commentary.html",
+  "viewport": 640,
+  "frameClientWidth": 640,
+  "frameScrollWidth": 640,
+  "overflowX": 0,
+  "innerWidth": 640,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "设备升级了，使用门槛也该降下来",
+    "h": 45.25,
+    "w": 608,
+    "x": 16,
+    "y": 324,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "设备升级了，使用门槛也该降下来",
+    "lines": 1,
+    "x": 16,
+    "y": 336,
+    "w": 255,
+    "h": 21.25,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 159.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 608,
+    "h": 252.25
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 214,
+    "w": 608,
+    "h": 45
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "x": 16,
+    "y": 307,
+    "w": 608,
+    "h": 79.25
+   },
+   "entryItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 16,
+    "y": 307,
+    "w": 608,
+    "h": 79.25
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-commentary.html",
+  "viewport": 768,
+  "frameClientWidth": 768,
+  "frameScrollWidth": 768,
+  "overflowX": 0,
+  "innerWidth": 768,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "设备升级了，使用门槛也该降下来",
+    "h": 45.25,
+    "w": 736,
+    "x": 16,
+    "y": 324,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "设备升级了，使用门槛也该降下来",
+    "lines": 1,
+    "x": 16,
+    "y": 336,
+    "w": 255,
+    "h": 21.25,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 223.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 736,
+    "h": 252.25
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 214,
+    "w": 736,
+    "h": 45
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "x": 16,
+    "y": 307,
+    "w": 736,
+    "h": 79.25
+   },
+   "entryItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 16,
+    "y": 307,
+    "w": 736,
+    "h": 79.25
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-commentary.html",
+  "viewport": 769,
+  "frameClientWidth": 769,
+  "frameScrollWidth": 769,
+  "overflowX": 0,
+  "innerWidth": 769,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "设备升级了，使用门槛也该降下来",
+    "h": 46.5,
+    "w": 705,
+    "x": 32,
+    "y": 374,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "设备升级了，使用门槛也该降下来",
+    "lines": 1,
+    "x": 32,
+    "y": 386,
+    "w": 705,
+    "h": 22.5,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 193.781,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 203.531,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 496.344,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 705,
+    "h": 322.5
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 32,
+    "y": 251,
+    "w": 705,
+    "h": 50
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "0px",
+    "paddingLeft": "0px",
+    "x": 32,
+    "y": 349,
+    "w": 705,
+    "h": 96.5
+   },
+   "entryItem": {
+    "paddingTop": "24px",
+    "paddingBottom": "24px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 32,
+    "y": 349,
+    "w": 705,
+    "h": 96.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-commentary.html",
+  "viewport": 1024,
+  "frameClientWidth": 1024,
+  "frameScrollWidth": 1024,
+  "overflowX": 0,
+  "innerWidth": 1024,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "设备升级了，使用门槛也该降下来",
+    "h": 46.5,
+    "w": 736,
+    "x": 144,
+    "y": 374,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "设备升级了，使用门槛也该降下来",
+    "lines": 1,
+    "x": 144,
+    "y": 386,
+    "w": 736,
+    "h": 22.5,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 321.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 331.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 623.844,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 960,
+    "h": 322.5
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 96,
+    "y": 251,
+    "w": 832,
+    "h": 50
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "112px",
+    "paddingLeft": "0px",
+    "x": 144,
+    "y": 349,
+    "w": 736,
+    "h": 96.5
+   },
+   "entryItem": {
+    "paddingTop": "24px",
+    "paddingBottom": "24px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 144,
+    "y": 349,
+    "w": 736,
+    "h": 96.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/news-commentary.html",
+  "viewport": 1280,
+  "frameClientWidth": 1280,
+  "frameScrollWidth": 1280,
+  "overflowX": 0,
+  "innerWidth": 1280,
+  "links": [
+   {
+    "cls": "entry-list__link",
+    "text": "设备升级了，使用门槛也该降下来",
+    "h": 46.5,
+    "w": 736,
+    "x": 272,
+    "y": 374,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "entry-list__title",
+    "text": "设备升级了，使用门槛也该降下来",
+    "lines": 1,
+    "x": 272,
+    "y": 386,
+    "w": 736,
+    "h": 22.5,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   }
+  ],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 449.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 459.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 751.844,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 80,
+    "y": 203,
+    "w": 1120,
+    "h": 322.5
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 224,
+    "y": 251,
+    "w": 832,
+    "h": 50
+   },
+   "entryList": {
+    "maxWidth": "736px",
+    "marginTop": "48px",
+    "listStyleType": "none",
+    "marginLeft": "192px",
+    "paddingLeft": "0px",
+    "x": 272,
+    "y": 349,
+    "w": 736,
+    "h": 96.5
+   },
+   "entryItem": {
+    "paddingTop": "24px",
+    "paddingBottom": "24px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "listStyleType": "none",
+    "x": 272,
+    "y": 349,
+    "w": 736,
+    "h": 96.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": "normal|\"Songti SC\", STSong, SimSun, serif"
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/index.html",
+  "viewport": 375,
+  "frameClientWidth": 375,
+  "frameScrollWidth": 375,
+  "overflowX": 0,
+  "innerWidth": 375,
+  "links": [
+   {
+    "cls": "home-latest__link",
+    "text": "我校启动校本课程志愿填报",
+    "h": 48,
+    "w": 343,
+    "x": 16,
+    "y": 712.453,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   },
+   {
+    "cls": "home-latest__link",
+    "text": "从数学题到AI时代的学习9月17日",
+    "h": 74.5,
+    "w": 343,
+    "x": 16,
+    "y": 793.453,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   },
+   {
+    "cls": "home-latest__link",
+    "text": "设备升级了，使用门槛也该降下来9月18日",
+    "h": 74.5,
+    "w": 343,
+    "x": 16,
+    "y": 900.953,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "home-latest__entry",
+    "text": "我校启动校本课程志愿填报",
+    "lines": 1,
+    "x": 16,
+    "y": 724.453,
+    "w": 192,
+    "h": 24,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   },
+   {
+    "cls": "home-latest__entry",
+    "text": "从数学题到AI时代的学习",
+    "lines": 1,
+    "x": 16,
+    "y": 805.453,
+    "w": 176.5,
+    "h": 24,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   },
+   {
+    "cls": "home-latest__entry",
+    "text": "设备升级了，使用门槛也该降下来",
+    "lines": 1,
+    "x": 16,
+    "y": 912.953,
+    "w": 240,
+    "h": 24,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   }
+  ],
+  "dates": [
+   {
+    "cls": "home-latest__date",
+    "text": "9月17日",
+    "x": 16,
+    "y": 833.453,
+    "w": 51.109,
+    "h": 22.5,
+    "whiteSpace": "nowrap",
+    "color": "rgb(102, 93, 86)",
+    "fontSize": "15px",
+    "flex": "0 0 auto"
+   },
+   {
+    "cls": "home-latest__date",
+    "text": "9月18日",
+    "x": 16,
+    "y": 940.953,
+    "w": 51.109,
+    "h": 22.5,
+    "whiteSpace": "nowrap",
+    "color": "rgb(102, 93, 86)",
+    "fontSize": "15px",
+    "flex": "0 0 auto"
+   }
+  ],
+  "shell": {
+   "masthead": {
+    "fontSize": "41.25px",
+    "lineHeight": "51.5625px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "4.95px",
+    "x": 69.531,
+    "y": 35,
+    "w": 235.938,
+    "h": 51.563
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 163.563,
+    "w": 343,
+    "h": 876.891
+   },
+   "pageTitle": {
+    "fontSize": "28px",
+    "lineHeight": "35px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 195.563,
+    "w": 343,
+    "h": 35
+   },
+   "homeLatest": {
+    "maxWidth": "736px",
+    "marginTop": "64px",
+    "display": "block",
+    "x": 16,
+    "y": 658.453,
+    "w": 343,
+    "h": 334
+   },
+   "latestTitle": {
+    "fontSize": "20px",
+    "color": "rgb(122, 36, 36)",
+    "lineHeight": "25px",
+    "marginTop": "0px",
+    "marginBottom": "12px",
+    "textAlign": "left",
+    "x": 16,
+    "y": 658.453,
+    "w": 343,
+    "h": 25
+   },
+   "latestItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "0px none rgb(33, 31, 28)",
+    "x": 16,
+    "y": 695.453,
+    "w": 343,
+    "h": 81
+   },
+   "homeSectionTexts": [
+    {
+     "text": "我们的名字来自《三体",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 320.563,
+     "w": 343,
+     "h": 32.297
+    },
+    {
+     "text": "我们主要记录一些自己",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 430.859,
+     "w": 343,
+     "h": 32.297
+    },
+    {
+     "text": "报社成立于“鸽子衔枝",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 541.156,
+     "w": 343,
+     "h": 32.297
+    }
+   ],
+   "homeSectionTitles": [
+    {
+     "text": "名称由来",
+     "fontSize": "20px",
+     "lineHeight": "25px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 283.563,
+     "w": 343,
+     "h": 25
+    },
+    {
+     "text": "主要工作与报道方向",
+     "fontSize": "20px",
+     "lineHeight": "25px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 393.859,
+     "w": 343,
+     "h": 25
+    },
+    {
+     "text": "成立时间",
+     "fontSize": "20px",
+     "lineHeight": "25px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 504.156,
+     "w": 343,
+     "h": 25
+    }
+   ],
+   "homeSections": [
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 262.563,
+     "w": 343,
+     "h": 110.297
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 372.859,
+     "w": 343,
+     "h": 110.297
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "1px solid rgb(184, 170, 152)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 483.156,
+     "w": 343,
+     "h": 111.297
+    }
+   ],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/index.html",
+  "viewport": 640,
+  "frameClientWidth": 640,
+  "frameScrollWidth": 640,
+  "overflowX": 0,
+  "innerWidth": 640,
+  "links": [
+   {
+    "cls": "home-latest__link",
+    "text": "我校启动校本课程志愿填报",
+    "h": 48,
+    "w": 608,
+    "x": 16,
+    "y": 750.891,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   },
+   {
+    "cls": "home-latest__link",
+    "text": "从数学题到AI时代的学习9月17日",
+    "h": 74.5,
+    "w": 608,
+    "x": 16,
+    "y": 831.891,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   },
+   {
+    "cls": "home-latest__link",
+    "text": "设备升级了，使用门槛也该降下来9月18日",
+    "h": 74.5,
+    "w": 608,
+    "x": 16,
+    "y": 939.391,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "home-latest__entry",
+    "text": "我校启动校本课程志愿填报",
+    "lines": 1,
+    "x": 16,
+    "y": 762.891,
+    "w": 192,
+    "h": 24,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   },
+   {
+    "cls": "home-latest__entry",
+    "text": "从数学题到AI时代的学习",
+    "lines": 1,
+    "x": 16,
+    "y": 843.891,
+    "w": 176.5,
+    "h": 24,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   },
+   {
+    "cls": "home-latest__entry",
+    "text": "设备升级了，使用门槛也该降下来",
+    "lines": 1,
+    "x": 16,
+    "y": 951.391,
+    "w": 240,
+    "h": 24,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   }
+  ],
+  "dates": [
+   {
+    "cls": "home-latest__date",
+    "text": "9月17日",
+    "x": 16,
+    "y": 871.891,
+    "w": 51.109,
+    "h": 22.5,
+    "whiteSpace": "nowrap",
+    "color": "rgb(102, 93, 86)",
+    "fontSize": "15px",
+    "flex": "0 0 auto"
+   },
+   {
+    "cls": "home-latest__date",
+    "text": "9月18日",
+    "x": 16,
+    "y": 979.391,
+    "w": 51.109,
+    "h": 22.5,
+    "whiteSpace": "nowrap",
+    "color": "rgb(102, 93, 86)",
+    "fontSize": "15px",
+    "flex": "0 0 auto"
+   }
+  ],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 159.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 608,
+    "h": 896.891
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 214,
+    "w": 608,
+    "h": 45
+   },
+   "homeLatest": {
+    "maxWidth": "736px",
+    "marginTop": "64px",
+    "display": "block",
+    "x": 16,
+    "y": 694.391,
+    "w": 608,
+    "h": 336.5
+   },
+   "latestTitle": {
+    "fontSize": "22px",
+    "color": "rgb(122, 36, 36)",
+    "lineHeight": "27.5px",
+    "marginTop": "0px",
+    "marginBottom": "12px",
+    "textAlign": "left",
+    "x": 16,
+    "y": 694.391,
+    "w": 608,
+    "h": 27.5
+   },
+   "latestItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "0px none rgb(33, 31, 28)",
+    "x": 16,
+    "y": 733.891,
+    "w": 608,
+    "h": 81
+   },
+   "homeSectionTexts": [
+    {
+     "text": "我们的名字来自《三体",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 351.5,
+     "w": 608,
+     "h": 32.297
+    },
+    {
+     "text": "我们主要记录一些自己",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 464.297,
+     "w": 608,
+     "h": 32.297
+    },
+    {
+     "text": "报社成立于“鸽子衔枝",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 577.094,
+     "w": 608,
+     "h": 32.297
+    }
+   ],
+   "homeSectionTitles": [
+    {
+     "text": "名称由来",
+     "fontSize": "22px",
+     "lineHeight": "27.5px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 312,
+     "w": 608,
+     "h": 27.5
+    },
+    {
+     "text": "主要工作与报道方向",
+     "fontSize": "22px",
+     "lineHeight": "27.5px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 424.797,
+     "w": 608,
+     "h": 27.5
+    },
+    {
+     "text": "成立时间",
+     "fontSize": "22px",
+     "lineHeight": "27.5px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 537.594,
+     "w": 608,
+     "h": 27.5
+    }
+   ],
+   "homeSections": [
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 291,
+     "w": 608,
+     "h": 112.797
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 403.797,
+     "w": 608,
+     "h": 112.797
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "1px solid rgb(184, 170, 152)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 516.594,
+     "w": 608,
+     "h": 113.797
+    }
+   ],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/index.html",
+  "viewport": 768,
+  "frameClientWidth": 768,
+  "frameScrollWidth": 768,
+  "overflowX": 0,
+  "innerWidth": 768,
+  "links": [
+   {
+    "cls": "home-latest__link",
+    "text": "我校启动校本课程志愿填报",
+    "h": 48,
+    "w": 736,
+    "x": 16,
+    "y": 750.891,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   },
+   {
+    "cls": "home-latest__link",
+    "text": "从数学题到AI时代的学习9月17日",
+    "h": 74.5,
+    "w": 736,
+    "x": 16,
+    "y": 831.891,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   },
+   {
+    "cls": "home-latest__link",
+    "text": "设备升级了，使用门槛也该降下来9月18日",
+    "h": 74.5,
+    "w": 736,
+    "x": 16,
+    "y": 939.391,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "flex-start",
+    "justifyContent": "space-between",
+    "gap": "4px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "home-latest__entry",
+    "text": "我校启动校本课程志愿填报",
+    "lines": 1,
+    "x": 16,
+    "y": 762.891,
+    "w": 192,
+    "h": 24,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   },
+   {
+    "cls": "home-latest__entry",
+    "text": "从数学题到AI时代的学习",
+    "lines": 1,
+    "x": 16,
+    "y": 843.891,
+    "w": 176.5,
+    "h": 24,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   },
+   {
+    "cls": "home-latest__entry",
+    "text": "设备升级了，使用门槛也该降下来",
+    "lines": 1,
+    "x": 16,
+    "y": 951.391,
+    "w": 240,
+    "h": 24,
+    "overflowWrap": "anywhere",
+    "wordBreak": "normal",
+    "hyphens": "none"
+   }
+  ],
+  "dates": [
+   {
+    "cls": "home-latest__date",
+    "text": "9月17日",
+    "x": 16,
+    "y": 871.891,
+    "w": 51.109,
+    "h": 22.5,
+    "whiteSpace": "nowrap",
+    "color": "rgb(102, 93, 86)",
+    "fontSize": "15px",
+    "flex": "0 0 auto"
+   },
+   {
+    "cls": "home-latest__date",
+    "text": "9月18日",
+    "x": 16,
+    "y": 979.391,
+    "w": 51.109,
+    "h": 22.5,
+    "whiteSpace": "nowrap",
+    "color": "rgb(102, 93, 86)",
+    "fontSize": "15px",
+    "flex": "0 0 auto"
+   }
+  ],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 223.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 736,
+    "h": 896.891
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 214,
+    "w": 736,
+    "h": 45
+   },
+   "homeLatest": {
+    "maxWidth": "736px",
+    "marginTop": "64px",
+    "display": "block",
+    "x": 16,
+    "y": 694.391,
+    "w": 736,
+    "h": 336.5
+   },
+   "latestTitle": {
+    "fontSize": "22px",
+    "color": "rgb(122, 36, 36)",
+    "lineHeight": "27.5px",
+    "marginTop": "0px",
+    "marginBottom": "12px",
+    "textAlign": "left",
+    "x": 16,
+    "y": 694.391,
+    "w": 736,
+    "h": 27.5
+   },
+   "latestItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "0px none rgb(33, 31, 28)",
+    "x": 16,
+    "y": 733.891,
+    "w": 736,
+    "h": 81
+   },
+   "homeSectionTexts": [
+    {
+     "text": "我们的名字来自《三体",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 351.5,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "text": "我们主要记录一些自己",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 464.297,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "text": "报社成立于“鸽子衔枝",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 577.094,
+     "w": 736,
+     "h": 32.297
+    }
+   ],
+   "homeSectionTitles": [
+    {
+     "text": "名称由来",
+     "fontSize": "22px",
+     "lineHeight": "27.5px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 312,
+     "w": 736,
+     "h": 27.5
+    },
+    {
+     "text": "主要工作与报道方向",
+     "fontSize": "22px",
+     "lineHeight": "27.5px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 424.797,
+     "w": 736,
+     "h": 27.5
+    },
+    {
+     "text": "成立时间",
+     "fontSize": "22px",
+     "lineHeight": "27.5px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 537.594,
+     "w": 736,
+     "h": 27.5
+    }
+   ],
+   "homeSections": [
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 291,
+     "w": 736,
+     "h": 112.797
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 403.797,
+     "w": 736,
+     "h": 112.797
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "1px solid rgb(184, 170, 152)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 516.594,
+     "w": 736,
+     "h": 113.797
+    }
+   ],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/index.html",
+  "viewport": 769,
+  "frameClientWidth": 769,
+  "frameScrollWidth": 769,
+  "overflowX": 0,
+  "innerWidth": 769,
+  "links": [
+   {
+    "cls": "home-latest__link",
+    "text": "我校启动校本课程志愿填报",
+    "h": 48,
+    "w": 705,
+    "x": 32,
+    "y": 848.563,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   },
+   {
+    "cls": "home-latest__link",
+    "text": "从数学题到AI时代的学习9月17日",
+    "h": 48.5,
+    "w": 705,
+    "x": 32,
+    "y": 929.563,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   },
+   {
+    "cls": "home-latest__link",
+    "text": "设备升级了，使用门槛也该降下来9月18日",
+    "h": 48.5,
+    "w": 705,
+    "x": 32,
+    "y": 1011.063,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "home-latest__entry",
+    "text": "我校启动校本课程志愿填报",
+    "lines": 1,
+    "x": 32,
+    "y": 860.563,
+    "w": 705,
+    "h": 24,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   },
+   {
+    "cls": "home-latest__entry",
+    "text": "从数学题到AI时代的学习",
+    "lines": 1,
+    "x": 32,
+    "y": 941.563,
+    "w": 637.891,
+    "h": 24,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   },
+   {
+    "cls": "home-latest__entry",
+    "text": "设备升级了，使用门槛也该降下来",
+    "lines": 1,
+    "x": 32,
+    "y": 1023.063,
+    "w": 637.891,
+    "h": 24,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   }
+  ],
+  "dates": [
+   {
+    "cls": "home-latest__date",
+    "text": "9月17日",
+    "x": 685.891,
+    "y": 943.563,
+    "w": 51.109,
+    "h": 22.5,
+    "whiteSpace": "nowrap",
+    "color": "rgb(102, 93, 86)",
+    "fontSize": "15px",
+    "flex": "0 0 auto"
+   },
+   {
+    "cls": "home-latest__date",
+    "text": "9月18日",
+    "x": 685.891,
+    "y": 1025.063,
+    "w": 51.109,
+    "h": 22.5,
+    "whiteSpace": "nowrap",
+    "color": "rgb(102, 93, 86)",
+    "fontSize": "15px",
+    "flex": "0 0 auto"
+   }
+  ],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 193.781,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 203.531,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 203.531,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 705,
+    "h": 953.563
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 32,
+    "y": 251,
+    "w": 705,
+    "h": 50
+   },
+   "homeLatest": {
+    "maxWidth": "736px",
+    "marginTop": "64px",
+    "display": "block",
+    "x": 32,
+    "y": 789.563,
+    "w": 705,
+    "h": 287
+   },
+   "latestTitle": {
+    "fontSize": "24px",
+    "color": "rgb(122, 36, 36)",
+    "lineHeight": "30px",
+    "marginTop": "0px",
+    "marginBottom": "12px",
+    "textAlign": "left",
+    "x": 32,
+    "y": 789.563,
+    "w": 705,
+    "h": 30
+   },
+   "latestItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "0px none rgb(33, 31, 28)",
+    "x": 32,
+    "y": 831.563,
+    "w": 705,
+    "h": 81
+   },
+   "homeSectionTexts": [
+    {
+     "text": "我们的名字来自《三体",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 32,
+     "y": 416,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "text": "我们主要记录一些自己",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 32,
+     "y": 541.188,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "text": "报社成立于“鸽子衔枝",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 32,
+     "y": 666.375,
+     "w": 705,
+     "h": 34.188
+    }
+   ],
+   "homeSectionTitles": [
+    {
+     "text": "名称由来",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 32,
+     "y": 374,
+     "w": 705,
+     "h": 30
+    },
+    {
+     "text": "主要工作与报道方向",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 32,
+     "y": 499.188,
+     "w": 705,
+     "h": 30
+    },
+    {
+     "text": "成立时间",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 32,
+     "y": 624.375,
+     "w": 705,
+     "h": 30
+    }
+   ],
+   "homeSections": [
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 32,
+     "y": 349,
+     "w": 705,
+     "h": 125.188
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 32,
+     "y": 474.188,
+     "w": 705,
+     "h": 125.188
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "1px solid rgb(184, 170, 152)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 32,
+     "y": 599.375,
+     "w": 705,
+     "h": 126.188
+    }
+   ],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/index.html",
+  "viewport": 1024,
+  "frameClientWidth": 1024,
+  "frameScrollWidth": 1024,
+  "overflowX": 0,
+  "innerWidth": 1024,
+  "links": [
+   {
+    "cls": "home-latest__link",
+    "text": "我校启动校本课程志愿填报",
+    "h": 48,
+    "w": 736,
+    "x": 144,
+    "y": 848.563,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   },
+   {
+    "cls": "home-latest__link",
+    "text": "从数学题到AI时代的学习9月17日",
+    "h": 48.5,
+    "w": 736,
+    "x": 144,
+    "y": 929.563,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   },
+   {
+    "cls": "home-latest__link",
+    "text": "设备升级了，使用门槛也该降下来9月18日",
+    "h": 48.5,
+    "w": 736,
+    "x": 144,
+    "y": 1011.063,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "home-latest__entry",
+    "text": "我校启动校本课程志愿填报",
+    "lines": 1,
+    "x": 144,
+    "y": 860.563,
+    "w": 736,
+    "h": 24,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   },
+   {
+    "cls": "home-latest__entry",
+    "text": "从数学题到AI时代的学习",
+    "lines": 1,
+    "x": 144,
+    "y": 941.563,
+    "w": 668.891,
+    "h": 24,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   },
+   {
+    "cls": "home-latest__entry",
+    "text": "设备升级了，使用门槛也该降下来",
+    "lines": 1,
+    "x": 144,
+    "y": 1023.063,
+    "w": 668.891,
+    "h": 24,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   }
+  ],
+  "dates": [
+   {
+    "cls": "home-latest__date",
+    "text": "9月17日",
+    "x": 828.891,
+    "y": 943.563,
+    "w": 51.109,
+    "h": 22.5,
+    "whiteSpace": "nowrap",
+    "color": "rgb(102, 93, 86)",
+    "fontSize": "15px",
+    "flex": "0 0 auto"
+   },
+   {
+    "cls": "home-latest__date",
+    "text": "9月18日",
+    "x": 828.891,
+    "y": 1025.063,
+    "w": 51.109,
+    "h": 22.5,
+    "whiteSpace": "nowrap",
+    "color": "rgb(102, 93, 86)",
+    "fontSize": "15px",
+    "flex": "0 0 auto"
+   }
+  ],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 321.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 331.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 331.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 960,
+    "h": 953.563
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 96,
+    "y": 251,
+    "w": 832,
+    "h": 50
+   },
+   "homeLatest": {
+    "maxWidth": "736px",
+    "marginTop": "64px",
+    "display": "block",
+    "x": 144,
+    "y": 789.563,
+    "w": 736,
+    "h": 287
+   },
+   "latestTitle": {
+    "fontSize": "24px",
+    "color": "rgb(122, 36, 36)",
+    "lineHeight": "30px",
+    "marginTop": "0px",
+    "marginBottom": "12px",
+    "textAlign": "left",
+    "x": 144,
+    "y": 789.563,
+    "w": 736,
+    "h": 30
+   },
+   "latestItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "0px none rgb(33, 31, 28)",
+    "x": 144,
+    "y": 831.563,
+    "w": 736,
+    "h": 81
+   },
+   "homeSectionTexts": [
+    {
+     "text": "我们的名字来自《三体",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 144,
+     "y": 416,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "text": "我们主要记录一些自己",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 144,
+     "y": 541.188,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "text": "报社成立于“鸽子衔枝",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 144,
+     "y": 666.375,
+     "w": 736,
+     "h": 34.188
+    }
+   ],
+   "homeSectionTitles": [
+    {
+     "text": "名称由来",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 144,
+     "y": 374,
+     "w": 736,
+     "h": 30
+    },
+    {
+     "text": "主要工作与报道方向",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 144,
+     "y": 499.188,
+     "w": 736,
+     "h": 30
+    },
+    {
+     "text": "成立时间",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 144,
+     "y": 624.375,
+     "w": 736,
+     "h": 30
+    }
+   ],
+   "homeSections": [
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 144,
+     "y": 349,
+     "w": 736,
+     "h": 125.188
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 144,
+     "y": 474.188,
+     "w": 736,
+     "h": 125.188
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "1px solid rgb(184, 170, 152)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 144,
+     "y": 599.375,
+     "w": 736,
+     "h": 126.188
+    }
+   ],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task16/nodate/index.html",
+  "viewport": 1280,
+  "frameClientWidth": 1280,
+  "frameScrollWidth": 1280,
+  "overflowX": 0,
+  "innerWidth": 1280,
+  "links": [
+   {
+    "cls": "home-latest__link",
+    "text": "我校启动校本课程志愿填报",
+    "h": 48,
+    "w": 736,
+    "x": 272,
+    "y": 848.563,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   },
+   {
+    "cls": "home-latest__link",
+    "text": "从数学题到AI时代的学习9月17日",
+    "h": 48.5,
+    "w": 736,
+    "x": 272,
+    "y": 929.563,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   },
+   {
+    "cls": "home-latest__link",
+    "text": "设备升级了，使用门槛也该降下来9月18日",
+    "h": 48.5,
+    "w": 736,
+    "x": 272,
+    "y": 1011.063,
+    "color": "rgb(33, 31, 28)",
+    "textDecoration": "none",
+    "display": "flex",
+    "flexDirection": "row",
+    "alignItems": "baseline",
+    "justifyContent": "space-between",
+    "gap": "16px",
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "outline": "none 3px rgb(33, 31, 28)",
+    "outlineOffset": "0px",
+    "focusable": true
+   }
+  ],
+  "titles": [
+   {
+    "cls": "home-latest__entry",
+    "text": "我校启动校本课程志愿填报",
+    "lines": 1,
+    "x": 272,
+    "y": 860.563,
+    "w": 736,
+    "h": 24,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   },
+   {
+    "cls": "home-latest__entry",
+    "text": "从数学题到AI时代的学习",
+    "lines": 1,
+    "x": 272,
+    "y": 941.563,
+    "w": 668.891,
+    "h": 24,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   },
+   {
+    "cls": "home-latest__entry",
+    "text": "设备升级了，使用门槛也该降下来",
+    "lines": 1,
+    "x": 272,
+    "y": 1023.063,
+    "w": 668.891,
+    "h": 24,
+    "overflowWrap": "normal",
+    "wordBreak": "normal",
+    "hyphens": "manual"
+   }
+  ],
+  "dates": [
+   {
+    "cls": "home-latest__date",
+    "text": "9月17日",
+    "x": 956.891,
+    "y": 943.563,
+    "w": 51.109,
+    "h": 22.5,
+    "whiteSpace": "nowrap",
+    "color": "rgb(102, 93, 86)",
+    "fontSize": "15px",
+    "flex": "0 0 auto"
+   },
+   {
+    "cls": "home-latest__date",
+    "text": "9月18日",
+    "x": 956.891,
+    "y": 1025.063,
+    "w": 51.109,
+    "h": 22.5,
+    "whiteSpace": "nowrap",
+    "color": "rgb(102, 93, 86)",
+    "fontSize": "15px",
+    "flex": "0 0 auto"
+   }
+  ],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 449.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 459.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 459.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 80,
+    "y": 203,
+    "w": 1120,
+    "h": 953.563
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 224,
+    "y": 251,
+    "w": 832,
+    "h": 50
+   },
+   "homeLatest": {
+    "maxWidth": "736px",
+    "marginTop": "64px",
+    "display": "block",
+    "x": 272,
+    "y": 789.563,
+    "w": 736,
+    "h": 287
+   },
+   "latestTitle": {
+    "fontSize": "24px",
+    "color": "rgb(122, 36, 36)",
+    "lineHeight": "30px",
+    "marginTop": "0px",
+    "marginBottom": "12px",
+    "textAlign": "left",
+    "x": 272,
+    "y": 789.563,
+    "w": 736,
+    "h": 30
+   },
+   "latestItem": {
+    "paddingTop": "16px",
+    "paddingBottom": "16px",
+    "borderTop": "1px solid rgb(184, 170, 152)",
+    "borderBottom": "0px none rgb(33, 31, 28)",
+    "x": 272,
+    "y": 831.563,
+    "w": 736,
+    "h": 81
+   },
+   "homeSectionTexts": [
+    {
+     "text": "我们的名字来自《三体",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 272,
+     "y": 416,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "text": "我们主要记录一些自己",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 272,
+     "y": 541.188,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "text": "报社成立于“鸽子衔枝",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 272,
+     "y": 666.375,
+     "w": 736,
+     "h": 34.188
+    }
+   ],
+   "homeSectionTitles": [
+    {
+     "text": "名称由来",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 272,
+     "y": 374,
+     "w": 736,
+     "h": 30
+    },
+    {
+     "text": "主要工作与报道方向",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 272,
+     "y": 499.188,
+     "w": 736,
+     "h": 30
+    },
+    {
+     "text": "成立时间",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 272,
+     "y": 624.375,
+     "w": 736,
+     "h": 30
+    }
+   ],
+   "homeSections": [
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 272,
+     "y": 349,
+     "w": 736,
+     "h": 125.188
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 272,
+     "y": 474.188,
+     "w": 736,
+     "h": 125.188
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "1px solid rgb(184, 170, 152)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 272,
+     "y": 599.375,
+     "w": 736,
+     "h": 126.188
+    }
+   ],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ }
+]

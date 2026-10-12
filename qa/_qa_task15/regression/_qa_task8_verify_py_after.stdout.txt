@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\weibo\Documents\语文报纸\_qa_task8\verify.py", line 268, in <module>
+    body = re.search(r'<div class="article__body">(.*?)</div>', src, re.S).group(1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'group'

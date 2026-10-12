@@ -1,0 +1,204 @@
+文件与版本 | PASS | 新闻通讯.docx SHA-256 == Task1 冻结值
+文件与版本 | PASS | 素材 新闻通讯.docx 未被改动
+文件与版本 | PASS | 素材 新闻通讯.docx 最后写入早于 Task 6
+文件与版本 | PASS | 素材 新闻消息.docx 未被改动
+文件与版本 | PASS | 素材 新闻消息.docx 最后写入早于 Task 6
+文件与版本 | PASS | 素材 新闻评价.docx 未被改动
+文件与版本 | PASS | 素材 新闻评价.docx 最后写入早于 Task 6
+文件与版本 | FAIL | index.html 未被本任务改动 | expected='73f49fd8d01bb578a5a1fcc76ca8967e19feb29ec8e1c64e1aed7b2006c3d901' actual='971e57a5f85bae99c389e58d7a132e96c02388432de997c4df3d4af495e6416a'
+文件与版本 | PASS | news-message.html 未被本任务改动
+文件与版本 | FAIL | news-commentary.html 未被本任务改动 | expected='cdc13a4023aea725c6c12e6940940b9a00253f84433d1675672b15de046f27ee' actual='a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52'
+文件与版本 | FAIL | styles.css 未被本任务改动 | expected='30d746616ae9dfd0e0aa07e373874b5f442ed14fbd3b78f9efe0abdcc21d040d' actual='2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad418ba1'
+文件与版本 | FAIL | Results/ 仍是约定的 5 个文件 | expected=['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'styles.css'] actual=['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+文件与版本 | PASS | Results/ 无测试/临时/图片/数据文件
+公共壳回归 | PASS | 首行是 <!doctype html>
+公共壳回归 | PASS | html lang="zh-CN"
+公共壳回归 | PASS | html 初始 class="no-js"
+公共壳回归 | PASS | meta charset=utf-8
+公共壳回归 | PASS | 响应式 viewport
+公共壳回归 | PASS | 计划表 <title> 基线值解析成功
+公共壳回归 | PASS | 页面 <title> 符合 Task 2 基线
+公共壳回归 | PASS | <main> 标签名与属性集
+公共壳回归 | PASS | 计划表基线：唯一 <h1>
+公共壳回归 | PASS | 计划表基线：当前导航文字
+公共壳回归 | PASS | 计划表基线：当前导航目标
+公共壳回归 | PASS | 计划表基线：样式引用
+公共壳回归 | PASS | 计划表基线：脚本引用
+公共壳回归 | PASS | 计划表基线：正文入口
+公共壳回归 | PASS | 计划表基线：目标文件
+公共壳回归 | PASS | 跳至正文链接是 <body> 第一个元素
+公共壳回归 | PASS | 跳至正文链接指向 #main-content
+公共壳回归 | PASS | 跳至正文链接文字
+公共壳回归 | PASS | 跳至正文链接之前无可聚焦元素
+公共壳回归 | PASS | #main-content 全页唯一
+公共壳回归 | PASS | 站点 header.site-header 保留
+公共壳回归 | PASS | 报头文字
+公共壳回归 | PASS | 报头链接 index.html
+公共壳回归 | PASS | 菜单按钮存在
+公共壳回归 | PASS | 按钮 class
+公共壳回归 | PASS | 按钮 type
+公共壳回归 | PASS | aria-controls
+公共壳回归 | PASS | 初始 aria-expanded=false
+公共壳回归 | PASS | 按钮文字含 菜单
+公共壳回归 | PASS | 主导航存在
+公共壳回归 | PASS | 导航 aria-label
+公共壳回归 | PASS | 导航链接数量 4
+公共壳回归 | PASS | 导航顺序
+公共壳回归 | PASS | 导航目标为同目录相对路径
+公共壳回归 | PASS | 导航路径无根绝对/协议前缀
+公共壳回归 | PASS | 全页恰好一个 aria-current=page
+公共壳回归 | PASS | 当前页标记位于 新闻通讯 → news-feature.html
+公共壳回归 | PASS | styles.css 引用一次
+公共壳回归 | PASS | script.js 引用一次
+公共壳回归 | PASS | 脚本保留 defer
+公共壳回归 | PASS | 无内联 <script>
+公共壳回归 | PASS | 无 <style> 标签
+公共壳回归 | PASS | 页面页脚 <footer> 数量 0
+公共壳回归 | PASS | 无 aside
+公共壳回归 | PASS | 全页只有一个 <nav>
+公共壳回归 | PASS | 无第二套导航/搜索/推荐模块
+DOM 结构 | PASS | 恰好 1 个 <main>
+DOM 结构 | PASS | 恰好 1 个 <article>
+DOM 结构 | PASS | 恰好 1 个 <h1>
+DOM 结构 | PASS | #main-content 唯一元素子节点是 article.article
+DOM 结构 | PASS | .article 恰好两个元素子节点
+DOM 结构 | PASS | .article 子节点顺序
+DOM 结构 | PASS | .article__header 恰好三个元素子节点
+DOM 结构 | PASS | .article__header 子节点顺序与类名
+DOM 结构 | PASS | 唯一 <h1> 位于文章头部
+DOM 结构 | PASS | .article__body 恰好 23 个直接 <p>
+DOM 结构 | PASS | .article__body 全部直接子元素都是 <p>
+DOM 结构 | PASS | .article__body 无非空白直接文本节点
+DOM 结构 | PASS | 首个正文段恰好一个 strong.dateline
+DOM 结构 | PASS | 首个正文段唯一子元素即 dateline
+DOM 结构 | PASS | dateline 类名
+DOM 结构 | PASS | dateline 是内联 <strong> 而非块级
+DOM 结构 | PASS | F02–F23 均不含任何子元素
+DOM 结构 | PASS | F02–F23 无 <strong>/<em>/<a>/<span>/<br>
+DOM 结构 | PASS | 只有一个 header.article__header
+DOM 结构 | PASS | 无 .article__date
+DOM 结构 | PASS | 正文无小标题 h2/h3/h4
+DOM 结构 | PASS | 正文无列表
+DOM 结构 | PASS | 正文无 blockquote/q/figure
+DOM 结构 | PASS | 文章区无 <hr>
+DOM 结构 | PASS | 页面 ID 全部唯一
+DOM 结构 | PASS | nav-toggle/site-navigation/main-content ID 存在且唯一
+DOM 结构 | PASS | 无 .feature-* / 页面专属类
+DOM 结构 | PASS | 除 .page-title 外无 page-* 类
+DOM 结构 | PASS | 无内联 style 属性
+DOM 结构 | PASS | <body> 无页面专属 class
+文本级 | PASS | Task 1 合同提供 23 段
+文本级 | PASS | .article__type 严格等于 新闻通讯
+文本级 | PASS | h1.page-title 严格等于标题
+文本级 | PASS | .article__byline 严格等于 蓝色空间
+文本级 | PASS | 署名无 作者：/记者：/文／ 前缀
+文本级 | PASS | F01 textContent 逐字符相等
+文本级 | PASS | F02 textContent 逐字符相等
+文本级 | PASS | F03 textContent 逐字符相等
+文本级 | PASS | F04 textContent 逐字符相等
+文本级 | PASS | F05 textContent 逐字符相等
+文本级 | PASS | F06 textContent 逐字符相等
+文本级 | PASS | F07 textContent 逐字符相等
+文本级 | PASS | F08 textContent 逐字符相等
+文本级 | PASS | F09 textContent 逐字符相等
+文本级 | PASS | F10 textContent 逐字符相等
+文本级 | PASS | F11 textContent 逐字符相等
+文本级 | PASS | F12 textContent 逐字符相等
+文本级 | PASS | F13 textContent 逐字符相等
+文本级 | PASS | F14 textContent 逐字符相等
+文本级 | PASS | F15 textContent 逐字符相等
+文本级 | PASS | F16 textContent 逐字符相等
+文本级 | PASS | F17 textContent 逐字符相等
+文本级 | PASS | F18 textContent 逐字符相等
+文本级 | PASS | F19 textContent 逐字符相等
+文本级 | PASS | F20 textContent 逐字符相等
+文本级 | PASS | F21 textContent 逐字符相等
+文本级 | PASS | F22 textContent 逐字符相等
+文本级 | PASS | F23 textContent 逐字符相等
+文本级 | PASS | 正文段落数严格 23
+文本级 | PASS | 最后一项是 F23 且其后无空/纯白项
+文本级 | PASS | 无仅含空白的额外 <p>
+文本级 | PASS | .dateline 文本
+文本级 | PASS | F01 电头后恰好一个 U+0020
+文本级 | PASS | F01 电头后第二个字符不是空格
+文本级 | PASS | F01 全段 U+0020 数量 == 1
+文本级 | PASS | 23 段合并后 U+0020 总数 == 1
+文本级 | PASS | </strong> 与余文之间不是换行
+文本级 | PASS | AI 出现 19 次
+文本级 | PASS | ai/Ai/aI 出现 0 次
+文本级 | PASS | AI 连同标题共 20 次
+文本级 | PASS | 中文左双引号 8 个
+文本级 | PASS | 中文右双引号 8 个
+文本级 | PASS | 中文左单引号 2 个
+文本级 | PASS | 中文右单引号 2 个
+文本级 | PASS | U+2014 共 2 个
+文本级 | PASS | 唯一一处相邻 ——
+文本级 | PASS | 不出现三连破折号
+文本级 | PASS | 全角问号 1 个
+文本级 | PASS | 全角冒号 2 个
+文本级 | PASS | 中文分号 3 个
+文本级 | PASS | 不出现半角引号 " 或 '
+文本级 | PASS | 不出现半角 ? ; :
+文本级 | PASS | 不出现 &nbsp; / 实体
+文本级 | PASS | 不出现 <br>
+文本级 | PASS | F02 保留 他认为
+文本级 | PASS | F05 保留 在她看来
+文本级 | PASS | F10 保留 仍由他自己完成
+文本级 | PASS | F12 保留 不过，他并不赞成
+文本级 | PASS | F20 保留 他举了一个简单的例子
+文本级 | PASS | 正文中不出现 在她看来 之外的统一化
+文本级 | PASS | F04 外层双引号+内层单引号原样
+文本级 | PASS | F09 结尾 ——向AI提问。
+文本级 | PASS | F15 冒号+引号原样
+文本级 | PASS | F17 引语句号原样
+文本级 | PASS | F18 引号 会不会提问 原样
+文本级 | PASS | 9月17日 未补年份
+文本级 | PASS | 不出现 <time> 标签
+禁止项与可见内容 | PASS | 页面不出现 F01/F23 等内部编号
+禁止项与可见内容 | PASS | 无方括号模板说明/省略号占位
+禁止项与可见内容 | PASS | 无 TODO/TBD/FIXME/Lorem
+禁止项与可见内容 | PASS | 无 注释节点
+禁止项与可见内容 | PASS | 页面不出现 '厨一枚'
+禁止项与可见内容 | PASS | 页面不出现 '胡桃'
+禁止项与可见内容 | PASS | 页面不出现 '2026'
+禁止项与可见内容 | PASS | 页面不出现 '2025'
+禁止项与可见内容 | PASS | 页面不出现 '新闻评价'
+禁止项与可见内容 | PASS | 页面不出现 '.docx'
+禁止项与可见内容 | PASS | 页面不出现 'word/'
+禁止项与可见内容 | PASS | 页面不出现 '宋体'
+禁止项与可见内容 | PASS | 页面不出现 'Normal'
+禁止项与可见内容 | PASS | 文章内容无新增链接
+禁止项与可见内容 | PASS | 文章内容无年份数字
+禁止项与可见内容 | PASS | 全页 <p> 总数 26（23 正文 + 类型 + 署名 + 报头）
+禁止项与可见内容 | PASS | 文章内 <p> 恰好 25
+禁止项与可见内容 | PASS | .article__body 内直接 <p> 数
+禁止项与可见内容 | PASS | 文章头 <p> 数 2（类型+署名）
+禁止项与可见内容 | PASS | 无外部 URL
+禁止项与可见内容 | PASS | 无联网字体/@import/preconnect
+禁止项与可见内容 | PASS | 无 fetch/XHR/WebSocket
+禁止项与可见内容 | PASS | 无 type=module
+禁止项与可见内容 | PASS | 无 data-* 属性
+禁止项与可见内容 | PASS | 正文段落无 id
+禁止项与可见内容 | PASS | 无 img/figure/音视频/下载
+禁止项与可见内容 | PASS | 无 Word 分页标记文本
+无样式与无脚本 | PASS | 任务 6 内容无 hidden
+无样式与无脚本 | PASS | 任务 6 内容无 aria-hidden
+无样式与无脚本 | PASS | 任务 6 内容无 ARIA role
+无样式与无脚本 | PASS | 任务 6 内容无 aria-label/aria-labelledby
+无样式与无脚本 | PASS | 任务 6 内容无内联事件处理器
+无样式与无脚本 | PASS | 任务 6 内容无 tabindex
+无样式与无脚本 | PASS | 每段正文文本原样存在于 HTML 源码（非脚本注入）
+无样式与无脚本 | PASS | 每段完整文本原样存在于去标签源码
+无样式与无脚本 | PASS | 禁 CSS 后阅读顺序：类型→标题→署名→F01..F23
+无样式与无脚本 | PASS | 顺序长度 26
+无样式与无脚本 | PASS | 文章前保留跳至正文/报头/导航
+无样式与无脚本 | PASS | #main-content 使用 tabindex=-1
+无样式与无脚本 | PASS | UTF-8 可无损解码
+无样式与无脚本 | PASS | 文件使用 LF 换行
+无样式与无脚本 | PASS | 文件以换行结尾
+无样式与无脚本 | PASS | 无 BOM
+无样式与无脚本 | PASS | 23 个正文 <p> 各占一个源码行
+无样式与无脚本 | PASS | 无一行包含两个正文 <p>
+无样式与无脚本 | PASS | 缩进与 news-message.html 一致
+
+TOTAL 202 checks, 4 failures

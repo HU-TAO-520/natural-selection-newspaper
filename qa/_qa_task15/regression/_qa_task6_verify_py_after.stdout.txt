@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\weibo\Documents\语文报纸\_qa_task6\verify.py", line 419, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\weibo\Documents\语文报纸\_qa_task6\verify.py", line 211, in main
+    head, abody = elems(art)
+    ^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)

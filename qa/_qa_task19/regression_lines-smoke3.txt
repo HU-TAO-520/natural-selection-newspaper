@@ -1,0 +1,345 @@
+[RZ0] [REC] - — - — 验收环境 — Chrome/154.0.8037.93 · headless=new · file:// 直开 · profile=C:\Users\weibo\Documents\语文报纸\_qa_task19\.cdp9393-1790936093479 · 被测目录=C:\Users\weibo\Documents\语文报纸\Results · 段=load,nav,desktop,mobile,tap,tri,interact,cross,zoom,degrade,content,visited,visited-pixel
+[RZ1] [PASS] - — - — 19.1 遍历清单条数 == manifest.counts.html（HTML 子集，非目录扫描所得） — article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 styles.css／script.js 不是页（不进遍历清单） — article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 遍历顺序按 path 字典序 — article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [REC] - — - — 本轮实跑页集合（QODER_ONLY 只影响实跑范围，不改变清单结论） — news-message.html
+[RZ2] [PASS] - — - — 前置闸门：Task 18 结论 FAIL 0 且 PENDING 0（未全绿则本包不开跑） — 匹配=true
+[RZ2] [PASS] - — - — 前置闸门：Task 18 变异捕获率 100% — 100
+[RZ2] [PASS] - — - — 前置闸门：Task 18 断言数 ≥340 — 1149
+[RZ2] [PASS] - — - — 前置闸门：expected_reversals.md 已读入本包前置（区分真回归与范围过期的唯一依据） — true
+[RZ3] [PASS] - — - — 19.1 Task18 facts.json 的 __meta 与目录绑定：页集合与本包遍历清单同源（复用 M1 结论，不重造） — article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ3] [PASS] - — - — 19.1 快照未过期：__meta 逐页哈希 == 当前 Results/ 逐页哈希 — 0 页失配
+[RZ4] [PASS] - — - — 19.1 首页哈希 == 清单登记值（合同基线表里的 2629 字节 971e57a5… 是 v1 六文件值，当前以 manifest 为准，Task18 §8.3 已登记） — 475e02f8bbf195ca…/3635B
+[RZ4] [PASS] - — - — 19.1 Results/ 文件数 == 清单 pages 数（交付文件 6+N=9） — 9
+[RZ5] [PASS] - — - — 19.1 输入前置：五处目录齐备 — 全部存在
+[RZ5] [PASS] - — - — 19.1 输入前置：清单／打包件／上传单／Task18 事实／Task13 基线／v1 母本齐备 — 全部存在
+[RB20] [PASS] index.html — 1280px/冷历史 — 未访问过的导航链接为墨色（组件覆盖 a 基础色；冷历史基线，供 R-N 对照） — 新闻消息=rgb(33, 31, 28),新闻通讯=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB20] [PASS] index.html — 1280px/冷历史 — 当前页带实色暗红下边线（冷历史） — 2px solid rgb(122, 36, 36)
+[RB21] [PASS] index.html — 1280px/冷历史 — 报头链接冷历史下为墨色 — rgb(33, 31, 28)
+[RA1] [PASS] news-message.html — 1280px — file:// 直开：document.title 逐字符等于矩阵期望 — 新闻消息｜自然选择号
+[RA1] [PASS] news-message.html — 1280px — load 事件确实派发（不是超时兜底） — true
+[RA2] [PASS] news-message.html — 1280px — styles.css 加载并解析（非 404、规则可读） — [{"href":"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/styles.css","rules":63,"disabled":false}]
+[RA2] [PASS] news-message.html — 1280px — script.js 执行（no-js→js 已发生） — js
+[RA2] [PASS] news-message.html — 1280px — 资源树：全部本目录资源成功、无 failed、无外部 URL — [{"n":"styles.css","failed":false,"local":true},{"n":"script.js","failed":false,"local":true}]
+[RA2] [PASS] news-message.html — 1280px — DOM 属性无 http(s)/协议相对/data:/查询串 — 0 条
+[RA2] [PASS] news-message.html — 1280px — CSSOM 规则无 url()/@import/远程地址 — 0 条
+[RA5] [PASS] news-message.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — #main-content（跳至正文）
+[RA5] [PASS] news-message.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（自然选择号）
+[RA5] [PASS] news-message.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] news-message.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（首页）
+[RA5] [PASS] news-message.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] news-message.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-message.html（新闻消息）
+[RA5] [PASS] news-message.html — 1280px — 链接目标在本目录真实存在（无死链） — news-message.html
+[RA5] [PASS] news-message.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-feature.html（新闻通讯）
+[RA5] [PASS] news-message.html — 1280px — 链接目标在本目录真实存在（无死链） — news-feature.html
+[RA5] [PASS] news-message.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-commentary.html（新闻评论）
+[RA5] [PASS] news-message.html — 1280px — 链接目标在本目录真实存在（无死链） — news-commentary.html
+[RA5] [PASS] news-message.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — article-school-course-volunteer.html（我校启动校本课程志愿填报9月18日）
+[RA5] [PASS] news-message.html — 1280px — 链接目标在本目录真实存在（无死链） — article-school-course-volunteer.html
+[RA3] [PASS] news-message.html — 1280px — 加载阶段控制台 0 错误 0 警告 0 未捕获异常 — 0 条
+[RA4] [PASS] 七页汇总 — - — Network 域全程事件中外部（http/CDN/远程字体）请求数为 0 —— Task0 正向验收"全站网络请求数为 0" — 0 条
+[RA4] [PASS] 七页汇总 — - — Network 域无 404／失败资源 — 0 条
+[RA6] [REC] 七页汇总 — - — Network 事件总数 — 4
+[RA7] [PASS] news-message.html — 1280px — 主导航路径 news-message.html → index.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=index.html
+[RA7] [PASS] news-message.html — 1280px — 落地页 <title> 与矩阵期望一致 — 《自然选择号》报社简介｜自然选择号
+[RA7] [PASS] news-message.html — 1280px — 第 1 项文字与 Task0 主导航规格逐字一致 — 首页
+[RA7] [PASS] news-message.html — 1280px — 第 1 项目标文件与 Task0 主导航规格一致 — index.html
+[RA7] [PASS] news-message.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-message.html — 1280px — 主导航路径 news-message.html → news-message.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-message.html
+[RA7] [PASS] news-message.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻消息｜自然选择号
+[RA7] [PASS] news-message.html — 1280px — 第 2 项文字与 Task0 主导航规格逐字一致 — 新闻消息
+[RA7] [PASS] news-message.html — 1280px — 第 2 项目标文件与 Task0 主导航规格一致 — news-message.html
+[RA7] [PASS] news-message.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-message.html — 1280px — 主导航路径 news-message.html → news-feature.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-feature.html
+[RA7] [PASS] news-message.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻通讯｜自然选择号
+[RA7] [PASS] news-message.html — 1280px — 第 3 项文字与 Task0 主导航规格逐字一致 — 新闻通讯
+[RA7] [PASS] news-message.html — 1280px — 第 3 项目标文件与 Task0 主导航规格一致 — news-feature.html
+[RA7] [PASS] news-message.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-message.html — 1280px — 主导航路径 news-message.html → news-commentary.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-commentary.html
+[RA7] [PASS] news-message.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻评论｜自然选择号
+[RA7] [PASS] news-message.html — 1280px — 第 4 项文字与 Task0 主导航规格逐字一致 — 新闻评论
+[RA7] [PASS] news-message.html — 1280px — 第 4 项目标文件与 Task0 主导航规格一致 — news-commentary.html
+[RA7] [PASS] news-message.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA8] [PASS] 全站 — - — 主导航路径条数 == 七页 × 四链接（四页时代 16 条继续全部成立） — 28 条已逐条跑完
+[RB1] [PASS] news-message.html — 769px — 桌面无横向溢出（scrollWidth<=clientWidth） — 769<=769
+[RB1] [PASS] news-message.html — 769px — 报头版心不超出 视口−2×--page-gutter — 705.0
+[RB1] [PASS] news-message.html — 769px — 报头版心左右留白对称 — L=32.0 R=32.0
+[RB1] [PASS] news-message.html — 769px — 正文容器与报头同宽 — 705.0 vs 705.0
+[RB2] [PASS] news-message.html — 769px — <h1> 逐字符等于矩阵期望 — 新闻消息
+[RB2] [PASS] news-message.html — 769px — 每页恰好一个 <h1> — 1
+[RB2] [PASS] news-message.html — 769px — R3：每页 <nav> 数恒为 1（最新区不得引入第二个 nav） — 1
+[RB3] [PASS] news-message.html — 769px — 报头单行完整显示、不被裁切（站点名取自矩阵后缀） — 自然选择号 行=1 381/381
+[RB3] [PASS] news-message.html — 769px — 报头上下双细线（v1 RB3 语义无损迁移） — 3px double rgb(184, 170, 152) / 3px double rgb(184, 170, 152)
+[RB3] [PASS] news-message.html — 769px — 双细线不被报头文字穿越 — {"above":20,"below":20}
+[RB3] [PASS] news-message.html — 769px — 主导航 4 项同一行 — 150,150,150,150
+[RB3] [PASS] news-message.html — 769px — 桌面导航顺序按 bounding box 读屏（不读源码顺序） — 首页|新闻消息|新闻通讯|新闻评论
+[RB3] [PASS] news-message.html — 769px — 导航项互不重叠 — 204-238,278-347,387-456,496-565
+[RB4] [PASS] news-message.html — 769px — 桌面隐藏菜单按钮（三态表末行） — none
+[RB4] [PASS] news-message.html — 769px — 主导航横向常显、无 is-open 残留 — block/row/open=false
+[RB5] [PASS] news-message.html — 769px — aria-current 落在矩阵规定的链接上（自身／所属栏目页） — news-message.html（新闻消息）
+[RB5] [PASS] news-message.html — 769px — 每页恰好一个 aria-current="page" — 1
+[RB5] [PASS] news-message.html — 769px — 当前项=暗红+700+实下边线（三重区分，不单靠颜色） — rgb(122, 36, 36)/700/2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-message.html — 769px — 未访问普通导航链接为墨色 — 新闻通讯=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB5] [PASS] news-message.html — 769px — 链接无 overflow 裁切祖先（焦点轮廓不被裁） — ok,ok,ok,ok
+[RB5] [PASS] news-message.html — 769px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — rgb(33, 31, 28)→rgb(122, 36, 36)
+[RB6] [PASS] news-message.html — 769px — 暖白纸色底（--color-paper 解析值） — rgb(245, 239, 228)
+[RB6] [PASS] news-message.html — 769px — 深色文字（--color-ink 解析值） — rgb(33, 31, 28)
+[RB6] [PASS] news-message.html — 769px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-message.html — 769px — 样式表可解析（94 条规则） — 规则 94
+[RB6] [PASS] news-message.html — 769px — 无被禁视觉（渐变/阴影/圆角/分栏/滤镜/缩放过渡） — 0 类
+[RB8] [PASS] news-message.html — 769px — 条目数 == manifest 该栏目 articles 数（清单驱动） — 1
+[RB8] [PASS] news-message.html — 769px — 每条 = 一个链接包标题与日期两个节点 — true/true/true
+[RB9] [FAIL] news-message.html — 769px — 桌面列表版心恰等于 --reading-max 实测值 — 期望 736px±1.2 / 实际 705.0px — 移交: Task 16
+[RB9] [PASS] news-message.html — 769px — 列表版心不越出报头版心 — 705.0
+[RB10] [PASS] news-message.html — 769px — 条目盒互不重叠（无重叠像素错位） — 349-447
+[RB11] [PASS] news-message.html — 769px — 条目细线连续（每条有上界线） — 1px solid rgb(184, 170, 152)
+[RB11] [PASS] news-message.html — 769px — 末条有下界线（细线不半路消失） — 1px solid rgb(184, 170, 152)
+[RB12] [PASS] news-message.html — 769px — 标题左缘与版心左缘对齐 — 32.0
+[RB12] [PASS] news-message.html — 769px — 日期右缘与版心右缘对齐 — 737.0
+[RB13] [PASS] news-message.html — 769px — 标题折行数由 Range.getClientRects().length 判得 ≥1 — 1
+[RK2b] [PASS] news-message.html — 769px — 视觉次序（bounding box 排序）== DOM 次序 — 我校启动校本课程志愿填报
+[RB1] [PASS] news-message.html — 1024px — 桌面无横向溢出（scrollWidth<=clientWidth） — 1024<=1024
+[RB1] [PASS] news-message.html — 1024px — 报头版心不超出 视口−2×--page-gutter — 960.0
+[RB1] [PASS] news-message.html — 1024px — 报头版心左右留白对称 — L=32.0 R=32.0
+[RB1] [PASS] news-message.html — 1024px — 正文容器与报头同宽 — 960.0 vs 960.0
+[RB2] [PASS] news-message.html — 1024px — <h1> 逐字符等于矩阵期望 — 新闻消息
+[RB2] [PASS] news-message.html — 1024px — 每页恰好一个 <h1> — 1
+[RB2] [PASS] news-message.html — 1024px — R3：每页 <nav> 数恒为 1（最新区不得引入第二个 nav） — 1
+[RB3] [PASS] news-message.html — 1024px — 报头单行完整显示、不被裁切（站点名取自矩阵后缀） — 自然选择号 行=1 381/381
+[RB3] [PASS] news-message.html — 1024px — 报头上下双细线（v1 RB3 语义无损迁移） — 3px double rgb(184, 170, 152) / 3px double rgb(184, 170, 152)
+[RB3] [PASS] news-message.html — 1024px — 双细线不被报头文字穿越 — {"above":20,"below":20}
+[RB3] [PASS] news-message.html — 1024px — 主导航 4 项同一行 — 150,150,150,150
+[RB3] [PASS] news-message.html — 1024px — 桌面导航顺序按 bounding box 读屏（不读源码顺序） — 首页|新闻消息|新闻通讯|新闻评论
+[RB3] [PASS] news-message.html — 1024px — 导航项互不重叠 — 331-366,406-475,515-584,624-693
+[RB4] [PASS] news-message.html — 1024px — 桌面隐藏菜单按钮（三态表末行） — none
+[RB4] [PASS] news-message.html — 1024px — 主导航横向常显、无 is-open 残留 — block/row/open=false
+[RB5] [PASS] news-message.html — 1024px — aria-current 落在矩阵规定的链接上（自身／所属栏目页） — news-message.html（新闻消息）
+[RB5] [PASS] news-message.html — 1024px — 每页恰好一个 aria-current="page" — 1
+[RB5] [PASS] news-message.html — 1024px — 当前项=暗红+700+实下边线（三重区分，不单靠颜色） — rgb(122, 36, 36)/700/2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-message.html — 1024px — 未访问普通导航链接为墨色 — 新闻通讯=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB5] [PASS] news-message.html — 1024px — 链接无 overflow 裁切祖先（焦点轮廓不被裁） — ok,ok,ok,ok
+[RB5] [PASS] news-message.html — 1024px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — rgb(33, 31, 28)→rgb(122, 36, 36)
+[RB6] [PASS] news-message.html — 1024px — 暖白纸色底（--color-paper 解析值） — rgb(245, 239, 228)
+[RB6] [PASS] news-message.html — 1024px — 深色文字（--color-ink 解析值） — rgb(33, 31, 28)
+[RB6] [PASS] news-message.html — 1024px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-message.html — 1024px — 样式表可解析（94 条规则） — 规则 94
+[RB6] [PASS] news-message.html — 1024px — 无被禁视觉（渐变/阴影/圆角/分栏/滤镜/缩放过渡） — 0 类
+[RB8] [PASS] news-message.html — 1024px — 条目数 == manifest 该栏目 articles 数（清单驱动） — 1
+[RB8] [PASS] news-message.html — 1024px — 每条 = 一个链接包标题与日期两个节点 — true/true/true
+[RB9] [PASS] news-message.html — 1024px — 桌面列表版心恰等于 --reading-max 实测值 — 736.0px
+[RB9] [PASS] news-message.html — 1024px — 列表版心不越出报头版心 — 736.0
+[RB10] [PASS] news-message.html — 1024px — 条目盒互不重叠（无重叠像素错位） — 349-447
+[RB11] [PASS] news-message.html — 1024px — 条目细线连续（每条有上界线） — 1px solid rgb(184, 170, 152)
+[RB11] [PASS] news-message.html — 1024px — 末条有下界线（细线不半路消失） — 1px solid rgb(184, 170, 152)
+[RB12] [PASS] news-message.html — 1024px — 标题左缘与版心左缘对齐 — 144.0
+[RB12] [PASS] news-message.html — 1024px — 日期右缘与版心右缘对齐 — 880.0
+[RB13] [PASS] news-message.html — 1024px — 标题折行数由 Range.getClientRects().length 判得 ≥1 — 1
+[RK2b] [PASS] news-message.html — 1024px — 视觉次序（bounding box 排序）== DOM 次序 — 我校启动校本课程志愿填报
+[RB1] [PASS] news-message.html — 1280px — 桌面无横向溢出（scrollWidth<=clientWidth） — 1280<=1280
+[RB1] [PASS] news-message.html — 1280px — 报头版心不超出 视口−2×--page-gutter — 1120.0
+[RB1] [PASS] news-message.html — 1280px — 报头版心左右留白对称 — L=80.0 R=80.0
+[RB1] [PASS] news-message.html — 1280px — 正文容器与报头同宽 — 1120.0 vs 1120.0
+[RB2] [PASS] news-message.html — 1280px — <h1> 逐字符等于矩阵期望 — 新闻消息
+[RB2] [PASS] news-message.html — 1280px — 每页恰好一个 <h1> — 1
+[RB2] [PASS] news-message.html — 1280px — R3：每页 <nav> 数恒为 1（最新区不得引入第二个 nav） — 1
+[RB3] [PASS] news-message.html — 1280px — 报头单行完整显示、不被裁切（站点名取自矩阵后缀） — 自然选择号 行=1 381/381
+[RB3] [PASS] news-message.html — 1280px — 报头上下双细线（v1 RB3 语义无损迁移） — 3px double rgb(184, 170, 152) / 3px double rgb(184, 170, 152)
+[RB3] [PASS] news-message.html — 1280px — 双细线不被报头文字穿越 — {"above":20,"below":20}
+[RB3] [PASS] news-message.html — 1280px — 主导航 4 项同一行 — 150,150,150,150
+[RB3] [PASS] news-message.html — 1280px — 桌面导航顺序按 bounding box 读屏（不读源码顺序） — 首页|新闻消息|新闻通讯|新闻评论
+[RB3] [PASS] news-message.html — 1280px — 导航项互不重叠 — 459-494,534-603,643-712,752-821
+[RB4] [PASS] news-message.html — 1280px — 桌面隐藏菜单按钮（三态表末行） — none
+[RB4] [PASS] news-message.html — 1280px — 主导航横向常显、无 is-open 残留 — block/row/open=false
+[RB5] [PASS] news-message.html — 1280px — aria-current 落在矩阵规定的链接上（自身／所属栏目页） — news-message.html（新闻消息）
+[RB5] [PASS] news-message.html — 1280px — 每页恰好一个 aria-current="page" — 1
+[RB5] [PASS] news-message.html — 1280px — 当前项=暗红+700+实下边线（三重区分，不单靠颜色） — rgb(122, 36, 36)/700/2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-message.html — 1280px — 未访问普通导航链接为墨色 — 新闻通讯=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB5] [PASS] news-message.html — 1280px — 链接无 overflow 裁切祖先（焦点轮廓不被裁） — ok,ok,ok,ok
+[RB5] [PASS] news-message.html — 1280px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — rgb(33, 31, 28)→rgb(122, 36, 36)
+[RB6] [PASS] news-message.html — 1280px — 暖白纸色底（--color-paper 解析值） — rgb(245, 239, 228)
+[RB6] [PASS] news-message.html — 1280px — 深色文字（--color-ink 解析值） — rgb(33, 31, 28)
+[RB6] [PASS] news-message.html — 1280px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-message.html — 1280px — 样式表可解析（94 条规则） — 规则 94
+[RB6] [PASS] news-message.html — 1280px — 无被禁视觉（渐变/阴影/圆角/分栏/滤镜/缩放过渡） — 0 类
+[RB8] [PASS] news-message.html — 1280px — 条目数 == manifest 该栏目 articles 数（清单驱动） — 1
+[RB8] [PASS] news-message.html — 1280px — 每条 = 一个链接包标题与日期两个节点 — true/true/true
+[RB9] [PASS] news-message.html — 1280px — 桌面列表版心恰等于 --reading-max 实测值 — 736.0px
+[RB9] [PASS] news-message.html — 1280px — 列表版心不越出报头版心 — 736.0
+[RB10] [PASS] news-message.html — 1280px — 条目盒互不重叠（无重叠像素错位） — 349-447
+[RB11] [PASS] news-message.html — 1280px — 条目细线连续（每条有上界线） — 1px solid rgb(184, 170, 152)
+[RB11] [PASS] news-message.html — 1280px — 末条有下界线（细线不半路消失） — 1px solid rgb(184, 170, 152)
+[RB12] [PASS] news-message.html — 1280px — 标题左缘与版心左缘对齐 — 272.0
+[RB12] [PASS] news-message.html — 1280px — 日期右缘与版心右缘对齐 — 1008.0
+[RB13] [PASS] news-message.html — 1280px — 标题折行数由 Range.getClientRects().length 判得 ≥1 — 1
+[RK2b] [PASS] news-message.html — 1280px — 视觉次序（bounding box 排序）== DOM 次序 — 我校启动校本课程志愿填报
+[RC1] [PASS] news-message.html — 375px — 左右留白各约移动档 --page-gutter=1rem — L=16.0 R=16.0
+[RC1] [PASS] news-message.html — 375px — 版心随可用宽度收缩，无固定内容宽度 — 343.0
+[RC1] [PASS] news-message.html — 375px — 无内部滚动区（不靠 overflow:auto 掩盖溢出） — 0 个
+[RC1] [PASS] news-message.html — 375px — 无超出视口的固定像素宽元素 — 0 个
+[RC1] [PASS] news-message.html — 375px — 报头内部改为纵向流 — flex/column
+[RC1] [PASS] news-message.html — 375px — 命中移动断点且未命中桌面断点（768/769 互补） — mqM=true mqD=false
+[RC2] [PASS] news-message.html — 375px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小 — 41.25px
+[RC2] [PASS] news-message.html — 375px — 报头与页面标题不溢出 — mast 236/236 · title 343/343
+[RC6] [PASS] news-message.html — 375px — 窄视口条目堆叠（链接为纵向流） — column
+[RC6] [PASS] news-message.html — 375px — 堆叠次序：标题在上、日期在下（bounding box 判） — 308<333
+[RC6] [PASS] news-message.html — 375px — 紧急换行只用 overflow-wrap:anywhere（word-break 保持 normal） — anywhere/normal
+[RC6] [PASS] news-message.html — 375px — 日期 white-space:nowrap 未被挤断（行盒数=1） — nowrap/1
+[RC6] [PASS] news-message.html — 375px — 窄视口下日期不溢出自身盒 — 51/51
+[RC6] [PASS] news-message.html — 375px — 长标题不撑出横向滚动（标题盒内自洽） — 204/204
+[RC5] [PASS] news-message.html — 375px — 基线命中的中英混排术语在渲染文本中原样完整 — 无命中
+[RC5] [PASS] news-message.html — 375px — 未插入软连字符/零宽字符（原文字符不变） — 0
+[RC8] [PASS] news-message.html — 375px — CDP 覆盖档无横向溢出（不放宽 1px） — de=375 body=375 client=375
+[RC9] [PASS] news-message.html — 375px/iframe — 同域 iframe 布局视口确实等于目标宽度（探针自证，排除顶层窗口约 500px 下限造成的裁剪假象） — 375（宿主标题=ready:375:closed）
+[RC9] [PASS] news-message.html — 375px/iframe — iframe 档无横向溢出：documentElement.scrollWidth<=clientWidth — 375
+[RC9] [PASS] news-message.html — 375px/iframe — iframe 档 body.scrollWidth<=clientWidth — 375
+[RC9] [PASS] news-message.html — 375px/iframe — 两条视口量具读到的段落数一致（探针未读到不同状态） — 0
+[RC1] [PASS] news-message.html — 768px — 左右留白各约移动档 --page-gutter=1rem — L=16.0 R=16.0
+[RC1] [PASS] news-message.html — 768px — 版心随可用宽度收缩，无固定内容宽度 — 736.0
+[RC1] [PASS] news-message.html — 768px — 无内部滚动区（不靠 overflow:auto 掩盖溢出） — 0 个
+[RC1] [PASS] news-message.html — 768px — 无超出视口的固定像素宽元素 — 0 个
+[RC1] [PASS] news-message.html — 768px — 报头内部改为纵向流 — flex/column
+[RC1] [PASS] news-message.html — 768px — 命中移动断点且未命中桌面断点（768/769 互补） — mqM=true mqD=false
+[RC2] [PASS] news-message.html — 768px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小 — 56px
+[RC2] [PASS] news-message.html — 768px — 报头与页面标题不溢出 — mast 320/320 · title 736/736
+[RC6] [PASS] news-message.html — 768px — 窄视口条目堆叠（链接为纵向流） — column
+[RC6] [PASS] news-message.html — 768px — 堆叠次序：标题在上、日期在下（bounding box 判） — 336<361
+[RC6] [PASS] news-message.html — 768px — 紧急换行只用 overflow-wrap:anywhere（word-break 保持 normal） — anywhere/normal
+[RC6] [PASS] news-message.html — 768px — 日期 white-space:nowrap 未被挤断（行盒数=1） — nowrap/1
+[RC6] [PASS] news-message.html — 768px — 窄视口下日期不溢出自身盒 — 51/51
+[RC6] [PASS] news-message.html — 768px — 长标题不撑出横向滚动（标题盒内自洽） — 204/204
+[RC5] [PASS] news-message.html — 768px — 基线命中的中英混排术语在渲染文本中原样完整 — 无命中
+[RC5] [PASS] news-message.html — 768px — 未插入软连字符/零宽字符（原文字符不变） — 0
+[RC8] [PASS] news-message.html — 768px — CDP 覆盖档无横向溢出（不放宽 1px） — de=768 body=768 client=768
+[RC9] [PASS] news-message.html — 768px/iframe — 同域 iframe 布局视口确实等于目标宽度（探针自证，排除顶层窗口约 500px 下限造成的裁剪假象） — 768（宿主标题=ready:768:closed）
+[RC9] [PASS] news-message.html — 768px/iframe — iframe 档无横向溢出：documentElement.scrollWidth<=clientWidth — 768
+[RC9] [PASS] news-message.html — 768px/iframe — iframe 档 body.scrollWidth<=clientWidth — 768
+[RC9] [PASS] news-message.html — 768px/iframe — 两条视口量具读到的段落数一致（探针未读到不同状态） — 0
+[RD4] [PASS] news-message.html — 375px — 跳转链接是第一个 Tab 停靠点 — skip-link/A
+[RD4] [PASS] news-message.html — 375px — 首次 Tab 后出现在左上角且带暗红实线轮廓 — [0,0,52,"2px","solid","rgb(122, 36, 36)"]
+[RD4] [PASS] news-message.html — 375px — 激活跳转链接后 #main-content 获得焦点 — MAIN/main-content
+[RD4] [PASS] news-message.html — 375px — 跳转不产生横向滚动 — 0
+[RD4] [PASS] news-message.html — 375px — 正文焦点轮廓可感知 — 2px solid rgb(122, 36, 36)
+[RD1] [PASS] news-message.html — 375px — entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 343×72
+[RD1] [PASS] news-message.html — 768px — entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×72
+[RD1] [PASS] news-message.html — 1280px — entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×48
+[RD3] [PASS] news-message.html — 375px — 纯键盘到达菜单按钮：暗红实线轮廓清晰且不被裁切 — ["nav-toggle","2px","solid","rgb(122, 36, 36)",[]]
+[RD1] [PASS] news-message.html — 375px — .nav-toggle 实测渲染盒 ≥44×44 — 86×46
+[RD2] [PASS] news-message.html — 375px/展开 — 展开态每个导航链接实测点击区 ≥44×44 — 343×46,343×46,343×46,343×46
+[RD2] [PASS] news-message.html — 375px/展开 — 链接占满行宽便于触控 — 343,343,343,343
+[RD3] [PASS] news-message.html — 375px/展开 — 逐个链接键盘焦点轮廓清晰且不被容器裁切 — [["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""]]
+[RD3] [PASS] news-message.html — 375px/展开 — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RE1] [PASS] news-message.html — 375px/禁用JS — 三态表「JS 不可用」— html 类 与 Task0 合同单元格一致 — {"cls":"no-js","open":false,"aria":"false","tog":"none","nav":"block"}
+[RE1] [PASS] news-message.html — 375px/禁用JS — 三态表「JS 不可用」— is-open 与 Task0 合同单元格一致 — {"cls":"no-js","open":false,"aria":"false","tog":"none","nav":"block"}
+[RE1] [PASS] news-message.html — 375px/禁用JS — 三态表「JS 不可用」— aria-expanded 与 Task0 合同单元格一致 — {"cls":"no-js","open":false,"aria":"false","tog":"none","nav":"block"}
+[RE1] [PASS] news-message.html — 375px/禁用JS — 三态表「JS 不可用」— 按钮 与 Task0 合同单元格一致 — {"cls":"no-js","open":false,"aria":"false","tog":"none","nav":"block"}
+[RE1] [PASS] news-message.html — 375px/禁用JS — 三态表「JS 不可用」— 导航显隐 与 Task0 合同单元格一致 — {"cls":"no-js","open":false,"aria":"false","tog":"none","nav":"block"}
+[RE1] [PASS] news-message.html — 375px/禁用JS — 无脚本时导航纵向常显、可点击、可聚焦 — [[true,46],[true,46],[true,46],[true,46]]
+[RE1] [PASS] news-message.html — 375px/禁用JS — 无脚本时导航为纵向列表 — column
+[RE1] [PASS] news-message.html — 375px/禁用JS — 隐藏按钮不进入 Tab 顺序 — skip-link>site-masthead__link>site-navigation__link>site-navigation__link
+[RE1] [PASS] news-message.html — 375px/禁用JS — 无脚本态导航链接仍可 Tab 到达 — skip-link>site-masthead__link>site-navigation__link>site-navigation__link
+[RE1] [PASS] news-message.html — 375px/禁用JS — 无脚本时链接仍可点击并真实导航（Task0 正向验收） — navigated=1 落地=news-message.html
+[RE2] [PASS] news-message.html — 375px — 三态表「JS 可用、移动关闭」— html 类 与合同一致 — {"cls":"js","open":false,"aria":"false","tog":"flex","nav":"none"}
+[RE2] [PASS] news-message.html — 375px — 三态表「JS 可用、移动关闭」— is-open 与合同一致 — {"cls":"js","open":false,"aria":"false","tog":"flex","nav":"none"}
+[RE2] [PASS] news-message.html — 375px — 三态表「JS 可用、移动关闭」— aria-expanded 与合同一致 — {"cls":"js","open":false,"aria":"false","tog":"flex","nav":"none"}
+[RE2] [PASS] news-message.html — 375px — 三态表「JS 可用、移动关闭」— 按钮 与合同一致 — {"cls":"js","open":false,"aria":"false","tog":"flex","nav":"none"}
+[RE2] [PASS] news-message.html — 375px — 三态表「JS 可用、移动关闭」— 导航显隐 与合同一致 — {"cls":"js","open":false,"aria":"false","tog":"flex","nav":"none"}
+[RE2] [PASS] news-message.html — 375px — 关闭态隐藏链接 offsetParent===null 且无布局盒（真正退出 Tab 顺序） — [[false,0],[false,0],[false,0],[false,0]]
+[RE2] [PASS] news-message.html — 375px — 关闭态 Tab 序列不含导航链接 — skip-link>site-masthead__link>nav-toggle
+[RE3] [PASS] news-message.html — 375px — 三态表「JS 可用、移动打开」— html 类 与合同一致 — {"cls":"js","open":true,"aria":"true","tog":"flex","nav":"block"}
+[RE3] [PASS] news-message.html — 375px — 三态表「JS 可用、移动打开」— is-open 与合同一致 — {"cls":"js","open":true,"aria":"true","tog":"flex","nav":"block"}
+[RE3] [PASS] news-message.html — 375px — 三态表「JS 可用、移动打开」— aria-expanded 与合同一致 — {"cls":"js","open":true,"aria":"true","tog":"flex","nav":"block"}
+[RE3] [PASS] news-message.html — 375px — 三态表「JS 可用、移动打开」— 按钮 与合同一致 — {"cls":"js","open":true,"aria":"true","tog":"flex","nav":"block"}
+[RE3] [PASS] news-message.html — 375px — 三态表「JS 可用、移动打开」— 导航显隐 与合同一致 — {"cls":"js","open":true,"aria":"true","tog":"flex","nav":"block"}
+[RE3] [PASS] news-message.html — 375px — 展开菜单项纵向排列互不重叠 — 176 > 223 > 270 > 317
+[RE3] [PASS] news-message.html — 375px — 展开菜单不覆盖正文起点 — nav.bottom=363.6 main.top=363.6
+[RE3] [PASS] news-message.html — 375px — 展开不使报头位移或被截断 — 16
+[RE3] [PASS] news-message.html — 375px — 展开态仍无横向溢出 — 375<=375
+[RE2] [PASS] news-message.html — 375px — 只有展开才增高并把正文下推（隐藏导航不留异常空白） — Δ=200 Σ=184 main.top 163.5625->363.5625
+[RE3] [PASS] news-message.html — 375px — 点击打开后焦点仍在按钮（披露式，不强制移入） — nav-toggle
+[RE3] [PASS] news-message.html — 375px — Tab 顺序自然：按钮→4 个导航链接（无焦点陷阱） — site-navigation__link>site-navigation__link>site-navigation__link>site-navigation__link>entry-list__link
+[RE4] [PASS] news-message.html — 375px — is-open 与 aria-expanded 同步（打开） — open=true aria=true
+[RE4] [PASS] news-message.html — 375px — is-open 与 aria-expanded 同步（关闭） — open=false aria=false
+[RE5] [PASS] news-message.html — 769px — 三态表「宽度 ≥769px」— html 类 与合同一致 — {"cls":"js","open":false,"aria":"false","tog":"none","nav":"block"}
+[RE5] [PASS] news-message.html — 769px — 三态表「宽度 ≥769px」— is-open 与合同一致 — {"cls":"js","open":false,"aria":"false","tog":"none","nav":"block"}
+[RE5] [PASS] news-message.html — 769px — 三态表「宽度 ≥769px」— aria-expanded 与合同一致 — {"cls":"js","open":false,"aria":"false","tog":"none","nav":"block"}
+[RE5] [PASS] news-message.html — 769px — 三态表「宽度 ≥769px」— 按钮 与合同一致 — {"cls":"js","open":false,"aria":"false","tog":"none","nav":"block"}
+[RE5] [PASS] news-message.html — 769px — 三态表「宽度 ≥769px」— 导航显隐 与合同一致 — {"cls":"js","open":false,"aria":"false","tog":"none","nav":"block"}
+[RE3] [PASS] news-message.html — 375px/展开 — 展开菜单不遮挡末条目可点性（elementFromPoint 命中条目自身节点） — {"below":false,"hit":"entry-list__link"}
+[RF1] [PASS] news-message.html — 375px — 鼠标点击打开一次：状态与 ARIA 同步 — true/true
+[RF1] [PASS] news-message.html — 375px — 鼠标点击关闭一次：状态与 ARIA 同步 — false/false
+[RF2] [PASS] news-message.html — 375px — 鼠标点击：click 计数器 Δ===1（不双触发） — 1
+[RF2] [PASS] news-message.html — 375px — 点击后 is-open 与 aria-expanded 同步为 true — true/true
+[RF2] [PASS] news-message.html — 375px — 聚焦按钮按 Enter：恰好一次激活（keydown 相位） — 1
+[RF2] [PASS] news-message.html — 375px — Enter 再按恰好切回关闭 — 1
+[RF2] [PASS] news-message.html — 375px — Space：与点击等效、恰好一次激活（keyup 相位，两相位间隔 80ms） — 1
+[RF2] [PASS] news-message.html — 375px — 键位激活后 is-open 与 aria-expanded 仍同步 — false/false
+[RF2] [PASS] news-message.html — 375px — Space 再按恰好切回，无双触发 — 1
+[RF3] [FAIL] news-message.html — 375px — 前置：菜单为打开态 — 期望 true / 实际 false — 移交: Task 15
+[RF3] [FAIL] news-message.html — 375px — 打开态（焦点在 entry-list__link）按 Esc：关闭菜单且焦点归还按钮 — 期望 open=false aria=false focus=nav-toggle / 实际 [false,"false","entry-list__link"] — 移交: Task 15
+[RF3] [PASS] news-message.html — 375px — 关闭态按 Esc 无副作用（不抢焦点、不滚动） — [false,"entry-list__link",0,"entry-list__link",0]
+[RF4] [PASS] news-message.html — 375px — 打开态点击第 2 项「新闻消息」：先关闭再导航，落地无展开残留 — navigated=1 open=false aria=false
+[RF4] [PASS] news-message.html — 375px — 点击「新闻消息」到达现有页面且标题正确 — 新闻消息｜自然选择号
+[RF4] [PASS] news-message.html — 375px — 打开态点击第 4 项「新闻评论」：先关闭再导航，落地无展开残留 — navigated=1 open=false aria=false
+[RF4] [PASS] news-message.html — 375px — 点击「新闻评论」到达现有页面且标题正确 — 新闻评论｜自然选择号
+[RF7] [PASS] news-message.html — 375px — 点击菜单外正文区域：菜单保持展开（合同未要求外点关闭，此项记录不判失败） — true/true
+[RF6] [PASS] news-message.html — 375px — 折叠由 CSS display 负责：脚本未用 tabindex/aria-hidden/hidden/inert 管理可聚焦性 — [] nav=block
+[RF5] [PASS] news-message.html — 375px — 全部交互过程控制台 0 报错 0 异常失焦 — 0 条
+[RG1] [PASS] news-message.html — 768px — 前置：768px 打开菜单 — open=true mqM=true
+[RG1] [PASS] news-message.html — 768→769px — 对照监听：本渲染环境确实派发 mediaquery change 事件（判据成立的前提；--dump-dom 模式不派发，故本段一律 CDP 覆盖） — ["change:true"]
+[RG1] [PASS] news-message.html — 768→769px — 跨到桌面断点：is-open 清除且 aria-expanded 重置 false — open=false aria=false
+[RG1] [PASS] news-message.html — 769px — 按钮隐藏、导航恢复横向常显 — none/block
+[RG1] [PASS] news-message.html — 769px — 移动 display:none/纵向规则不再作用（同一行） — 150,150,150,150
+[RG1] [PASS] news-message.html — 769px — 移动字号与移动间距退出，桌面基线回来（报头 64px、版心=视口−2×2rem、gap 恢复） — mast=64px 版心=705.0 gap=40px
+[RG2] [PASS] news-message.html — 768px — 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 — open=false
+[RG2] [PASS] news-message.html — 768px — 缩回后仍可正常打开 — open=true
+[RG3] [PASS] news-message.html — 768→769→768→769→1280 往复 — 切换过程无布局跳变残留、无横向溢出 — scrollW=1280 inner=1280 open=false
+[RH1] [PASS] news-message.html — 1280px/100% — 记录缩放前 CSS 视口 — 1280
+[RH1] [PASS] news-message.html — 200%（1280÷2 布局 + dpr2 绘制） — 缩放两效同时成立：CSS 视口折半且绘制翻倍（CDP zoom 参数在本机为 no-op=true，已由 zoom_probe19.mjs 单独取证） — inner=640 dpr=2
+[RH1] [PASS] news-message.html — 200% — 以 rect.width × dpr 佐证实际绘制像素翻倍 — 641 vs 381
+[RH1] [PASS] news-message.html — 200% — 根字号未锁死为像素（缩放按 CSS px 等比生效） — 16px
+[RH2] [PASS] news-message.html — 200%→640px — 缩放后进入移动布局（预期正确结果）：按钮可见、导航折叠 — mqM=true tog=flex nav=none
+[RH2] [PASS] news-message.html — 200%→640px — 缩放下复查菜单三态与触控下限 — [[608,46],[608,46],[608,46],[608,46]]
+[RH2] [PASS] news-message.html — 200%→640px — 缩放下列表/最新区链接实测仍 ≥44×44 — 608×72
+[RH3] [PASS] news-message.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px","solid","rgb(122, 36, 36)"]
+[RH3] [PASS] news-message.html — 200%→640px — 200% 下无横向滚动 — 640<=640/640
+[RH3] [PASS] news-message.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 title 608/608
+[RH3] [PASS] news-message.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] news-message.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120.0 open=false
+[RI1] [PASS] news-message.html — 1280px/禁用JS — 禁用 JS 并重新加载：html 保持 no-js 且 CSS 仍生效（样式不依赖脚本） — no-js rules=63
+[RI1] [PASS] news-message.html — 1280px/禁用JS — 无脚本时列表页条目仍完整可见 — [[true,"我校启动校本课程"]]
+[RI1] [PASS] news-message.html — 1280px/禁用JS — 无脚本时链接属性齐备（链接可点的前提） — {"n":7,"withHref":7}
+[RI1] [PASS] news-message.html — 1280px/禁用JS — 无脚本时点击导航真的完成导航（落地页校验） — navigated=1 落地=index.html
+[RI2] [PASS] news-message.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — [true] bg=rgba(0, 0, 0, 0)
+[RI2] [PASS] news-message.html — 1280px/禁用CSS — 无内容因样式缺失而消失（main textContent 全等） — 段=0 字符=63
+[RI2] [PASS] news-message.html — 1280px/禁用CSS — 栏目页禁 CSS 后阅读顺序：栏目名→各条目（标题+月日） — [0,1,2]
+[RI2] [PASS] news-message.html — 1280px/禁用CSS — 禁 CSS 后导航仍在文档树中且链接数不变 — {"disp":"block","links":4}
+[RI2] [PASS] news-message.html — 1280px/禁用CSS — 导航链接仍在无障碍树中（role/name 不因禁 CSS 消失） — 首页|新闻消息|新闻通讯|新闻评论
+[RI3] [PASS] news-message.html — 1280px — 恢复启用并重新加载：回到基线、无残留 — js bg=rgb(245, 239, 228) 版心=1120.0
+[RJ3] [PASS] news-message.html — - — 伪元素 content 只用于画线（空串），未生成任何可见文字 — content: ""
+[RJ3] [PASS] news-message.html — 375px — 交互与降级之后主内容无脚本注入文本、无字符增删 — 63 字符
+[RJ4] [PASS] news-message.html — - — 全站运行期无未捕获异常、无 console 输出（error/warn/assert） — 0 条
+[RB5-V] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 A（计算样式与时序）：访问过全部目标页后普通导航链接仍为墨色，未被 a:visited 改写为暗红（母本 visitedPass 语义） — 刚加载=[["首页","rgb(33, 31, 28)"],["新闻通讯","rgb(33, 31, 28)"],["新闻评论","rgb(33, 31, 28)"]] 轮询 4.5s 后=[["首页","rgb(33, 31, 28)"],["新闻通讯","rgb(33, 31, 28)"],["新闻评论","rgb(33, 31, 28)"]]
+[RB5-T] [REC] news-message.html — 1280px/全部目标页均已访问 — R-N 链 A：0–4s 异步翻色窗口逐 0.5s 采样时间线（证明本段确实轮询而非单次判定） — 0.5s:rgb(33, 31, 28)/rgb(33, 31, 28)/rgb(33, 31, 28) ; 1.0s:rgb(33, 31, 28)/rgb(33, 31, 28)/rgb(33, 31, 28) ; 1.5s:rgb(33, 31, 28)/rgb(33, 31, 28)/rgb(33, 31, 28) ; 2.0s:rgb(33, 31, 28)/rgb(33, 31, 28)/rgb(33, 31, 28) ; 2.5s:rgb(33, 31, 28)/rgb(33, 31, 28)/rgb(33, 31, 28) ; 3.0s:rgb(33, 31, 28)/rgb(33, 31, 28)/rgb(33, 31, 28) ; 3.5s:rgb(33, 31, 28)/rgb(33, 31, 28)/rgb(33, 31, 28) ; 4.0s:rgb(33, 31…
+[RB6-V] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 A：报头「自然选择号」访问后仍为深色文字 — rgb(33, 31, 28)
+[RN2] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 A：列表条目链接访问后仍为墨色 — rgb(33, 31, 28)
+[RN1] [REC] - — - — R-N 链 A 已完成（计算样式＋轮询时序），像素链见 visited-pixel 段
+[RN3] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：报头链接屏幕上是深色文字，不得被 a:visited 重绘为暗红或浏览器默认紫 — rgb(33,31,28) 距ink=0 距accent=89 距默认紫=215
+[RN4] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(48,35,36) 距ink=17 距accent=74 距默认紫=210
+[RN4] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 2 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(38,31,33) 距ink=7 距accent=84 距默认紫=211
+[RN4] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 3 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(41,32,36) 距ink=11 距accent=81 距默认紫=208
+[RN5] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） — rgb(122,36,36) 距ink=89 距accent=0
+[RN6] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 条 entry-list 链接标题屏幕上是深色（取标题 span，日期节点自带 muted 色会污染聚类） — rgb(34,31,29) 距ink=1 距accent=89 距默认紫=214
+[RN8] [REC] news-message.html — 1280px/全部目标页均已访问 — R-N 链 B：异步翻色窗口逐 1.2s 轮询时间线（采样稳定即提前结束，未单次定论） — 1.2s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表=深色(ink) 最新= ; 2.4s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表=深色(ink) 最新=
+[RJ5] [PASS] 七页全程 — 全部宽度/状态/操作 — 控制台 0 错误 0 警告（含未捕获异常与浏览器日志；探针自身不使用 console） — 0 条
+[RZ12] [FAIL] 全包 — - — 断言总数达到合同下限（≥1400） — 期望 ≥1400 / 实际 327 条计分（另 REC 6 条） — 移交: Task 19 驱动自身
+[RZ12] [PASS] 全包 — - — PENDING 恒为 0（等待外部动作只有 SKIPPED-BY-DESIGN 这一个名字） — 0
+[RZ10] [PASS] Results/ — - — 19.10 只读证明：Results/ 开工与完工逐项哈希相等 — 9 项 且内容一致
+[RZ10] [PASS] content/ — - — 19.10 只读证明：content/ 开工与完工逐项哈希相等 — 5 项 且内容一致
+[RZ10] [PASS] build/ — - — 19.10 只读证明：build/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] deploy/ — - — 19.10 只读证明：deploy/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] Materials/ — - — 19.10 只读证明：Materials/ 开工与完工逐项哈希相等 — 3 项 且内容一致
+[RZ10] [PASS] Results/ — - — 19.10 Results/ 无新增文件（压力样本与探针产物一律落在 _qa_task19/mutants/） — article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css
+[RZ11] [PASS] Results/ — - — 19.10 本包未修改任何被验对象（变异与压力跑均指向副本目录 本轮未使用副本） — ok
+[RZ11] [PASS] Results/ — - — 19.10 Results/ 内无清单外文件、无探针／截图／JSON 产物 — 0 个
+
+合计 343 条（计分 337）：PASS 333 / FAIL 4 / SKIPPED-BY-DESIGN 0 / REC 6 / PENDING 0

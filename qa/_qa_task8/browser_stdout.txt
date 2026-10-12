@@ -1,0 +1,42 @@
+[index.html | nojs] 135/135 pass
+[index.html | js] 135/135 pass
+[index.html | jsopen] 148/148 pass
+[news-message.html | nojs] 153/153 pass
+[news-message.html | js] 153/153 pass
+[news-message.html | jsopen] 166/166 pass
+[news-feature.html | nojs] 153/153 pass
+[news-feature.html | js] 153/153 pass
+[news-feature.html | jsopen] 166/166 pass
+[news-commentary.html | nojs] 156/156 pass
+[news-commentary.html | js] 156/156 pass
+[news-commentary.html | jsopen] 169/169 pass
+
+--- 200% 浏览器缩放等效起点实测 ---
+  DSF=1 window-size=1280 -> 640px/js 布局视口精确命中: PASS clientWidth=640 innerWidth=640 dpr=1 topInnerWidth=1258 | 640px/js 媒体查询与 768px 断点合同一致: PASS true vs mobile=true
+  DSF=2 window-size=1280 -> 640px/js 布局视口精确命中: PASS clientWidth=640 innerWidth=640 dpr=2 topInnerWidth=1258 | 640px/js 媒体查询与 768px 断点合同一致: PASS true vs mobile=true
+  DSF=2 window-size=640 -> 640px/js 布局视口精确命中: PASS clientWidth=640 innerWidth=640 dpr=2 topInnerWidth=618 | 640px/js 媒体查询与 768px 断点合同一致: PASS true vs mobile=true
+
+--- 截图 ---
+  由 _qa_task8/shot.py 单独采集（固定宽度 iframe + 状态回读确认）。
+  本脚本不再截图：异步 resize 会让 --screenshot 抓到中间态。
+  commentary_js_500.png: 142865 bytes
+  commentary_js_768.png: 186243 bytes
+  commentary_jsopen_500.png: 129815 bytes
+  commentary_jsopen_640_zoom200.png: 157461 bytes
+  commentary_nojs_500.png: 133003 bytes
+  desktop_1280_commentary.png: 197667 bytes
+  feature_js_500.png: 142649 bytes
+  index_js_500.png: 49702 bytes
+  index_jsopen_500.png: 57502 bytes
+  index_nojs_500.png: 56278 bytes
+  message_jsopen_500.png: 95635 bytes
+
+--- 交付文件哈希（本任务只应改 styles.css） ---
+  index.html: 73f49fd8d01bb578a5a1fcc76ca8967e19feb29ec8e1c64e1aed7b2006c3d901
+  news-commentary.html: a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52
+  news-feature.html: 73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5
+  news-message.html: 66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8
+  styles.css: 14a4a204f62e5c59be9a9edbab7f8dd2a09b81d43346769645223b72a599e093
+
+BROWSER: 1843 checks, 0 failures
+

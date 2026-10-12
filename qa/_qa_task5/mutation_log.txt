@@ -1,0 +1,35 @@
+CONTROL expect=PASS got=PASS {"total": 155, "passed": 155, "failed": 0}
+m01 -> FAIL(captured) :: [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要
+m02 -> FAIL(captured) :: [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要
+m03 -> FAIL(captured) :: [DOM 结构] 正文容器只有 4 个 <p> :: expected=['p', 'p', 'p', 'p'] actual=['p', 'p', 'p', 'p', 'p']; [DOM 结构] dateline 位于第一个正文段落起始 :: ; [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。
+m04 -> FAIL(captured) :: [逐字符文本] .article__byline :: expected='蓝色空间' actual='作者：蓝色空间'; [可见内容白名单] main 内可见文本序列（忽略空白） :: expected=['新闻消息', '我校启动校本课程志愿填报', '蓝色空间', '自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供
+m05 -> FAIL(captured) :: [DOM 结构] article__header 直接子级顺序 :: expected=[('p', ['article__type']), ('h1', ['page-title']), ('p', ['article__byline'])] actual=[('h2', ['article__type']), ('h1', ['page-title']), ('p', ['article__b
+m06 -> FAIL(captured) :: [DOM 结构] <h1> 数量 :: expected=1 actual=2; [DOM 结构] article__header 直接子级顺序 :: expected=[('p', ['article__type']), ('h1', ['page-title']), ('p', ['article__byline'])] actual=[('p', ['article__type']), ('
+m07 -> FAIL(captured) :: [DOM 结构] 正文容器只有 4 个 <p> :: expected=['p', 'p', 'p', 'p'] actual=['p', 'p', 'p', 'p', 'p']; [DOM 结构] 正文容器无单独 class 的段落 :: expected=True actual=False; [DOM 结构] 无 .article__date :: expected=0 actual=1
+m08 -> FAIL(captured) :: [DOM 结构] 正文容器只有 4 个 <p> :: expected=['p', 'p', 'p', 'p'] actual=['p', 'p', 'p', 'p', 'p']; [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若
+m09 -> FAIL(captured) :: [DOM 结构] 0 个 列表 <ul> :: expected=0 actual=1; [DOM 结构] 0 个 列表 <li> :: expected=0 actual=2; [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两
+m10 -> FAIL(captured) :: [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要
+m11 -> FAIL(captured) :: [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要
+m12 -> FAIL(captured) :: [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要
+m13 -> FAIL(captured) :: [DOM 结构] article 直接子级 = header + div :: expected=[('header', ['article__header']), ('div', ['article__body'])] actual=[('header', ['article__header']), ('div', None)]; [DOM 结构] .article__body 数量 :: ex
+m14 -> FAIL(captured) :: [DOM 结构] 0 个 <br> :: expected=0 actual=1; [DOM 结构] 0 个 <br> :: expected=0 actual=1
+m15 -> FAIL(captured) :: [公共壳] 无内联 style 属性 :: ; [公共壳] 无内联 style 属性 :: 
+m16 -> FAIL(captured) :: [DOM 结构] 0 个 正文链接 :: expected=0 actual=1; [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿
+m17 -> FAIL(captured) :: [DOM 结构] 无 HTML 注释 :: expected=0 actual=1; [禁止项] Results/ 不出现 .docx :: expected=[] actual=['news-message.html']; [禁止项] Results/ 不出现 新闻消息.docx :: expected=[] actual=['news-message.html']
+m18 -> FAIL(captured) :: [DOM 结构] article__header 直接子级顺序 :: expected=[('p', ['article__type']), ('h1', ['page-title']), ('p', ['article__byline'])] actual=[('h1', ['page-title']), ('p', ['article__type']), ('p', ['article__by
+m19 -> FAIL(captured) :: [公共壳] 全页恰好一个 aria-current=page :: expected=1 actual=0; [公共壳] 当前项位于 news-message.html :: ; [公共壳] 报头与其他导航项无 aria-current :: 
+m20 -> FAIL(captured) :: [公共壳] main tabindex="-1" :: expected='-1' actual=None; [公共壳] main tabindex="-1" :: expected='-1' actual=None
+m21 -> FAIL(captured) :: [公共壳] <title> 全角｜分隔 :: expected='我校启动校本课程志愿填报｜自然选择号' actual='我校启动校本课程志愿填报|自然选择号'; [公共壳] <title> 全角｜分隔 :: expected='我校启动校本课程志愿填报｜自然选择号' actual='我校启动校本课程志愿填报|自然选择号'
+m22 -> FAIL(captured) :: [禁止项] Results/ 不出现 M01 :: expected=[] actual=['news-message.html']; [禁止项] main 内无 data-* 属性 :: expected=[] actual=['data-id']; [禁止项] Results/ 不出现 M01 :: expected=[] actual=['news-message.html']
+m23 -> FAIL(captured) :: [DOM 结构] strong.dateline 数量 :: expected=1 actual=0; [DOM 结构] 正文 <strong> 总数 1 :: expected=1 actual=0; [DOM 结构] dateline 位于第一个正文段落起始 :: 
+m24 -> FAIL(captured) :: [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要
+m25 -> FAIL(captured) :: [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要
+m26 -> FAIL(captured) :: [DOM 结构] 0 个 <time> :: expected=0 actual=1; [高风险字符串] 原样存在：自然选择号9月18日7时电 :: ; [禁止项] Results/ 不出现 2026 :: expected=[] actual=['news-message.html']
+m27 -> FAIL(captured) :: [DOM 结构] article__header 直接子级顺序 :: expected=[('p', ['article__type']), ('h1', ['page-title']), ('p', ['article__byline'])] actual=[('p', ['article__type']), ('h1', ['article-title', 'page-title']), ('
+m28 -> FAIL(captured) :: [DOM 结构] 正文容器只有 4 个 <p> :: expected=['p', 'p', 'p', 'p'] actual=['p', 'p', 'p', 'p', 'img']; [DOM 结构] 0 个 图片 :: expected=0 actual=1; [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日
+m29 -> FAIL(captured) :: [逐字符文本] 四段 textContent 数组 :: expected=['自然选择号9月18日7时电 我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要
+m30 -> FAIL(captured) :: [公共壳] 无内联 <script> 文本 :: ; [公共壳] 无内联 <script> 文本 :: 
+m31 -> FAIL(captured) :: [公共壳] 导航自身属性不含 hidden/aria-hidden/is-open :: {'class': ['site-navigation', 'is-open'], 'id': 'site-navigation', 'hidden': '', 'aria-label': '主导航'}; [公共壳] 导航源码不含 hidden/is-open :: ; [公共壳] 导航自身属性不含 hidd
+m32 -> FAIL(captured) :: [DOM 结构] main 唯一直接元素子节点是 article.article :: expected=[('article', ['article'])] actual=[('p', None), ('article', ['article'])]; [DOM 结构] article 直接子级 = header + div :: expected=[('header', ['article__
+
+missed/not-applied: none

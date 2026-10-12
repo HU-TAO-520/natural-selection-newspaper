@@ -1,0 +1,17 @@
+0a1,3
+> [A1] FAIL Results/
+> [A1] FAIL Results/ 文件名与大小写
+> [A2] FAIL Results/ 目录清单
+1a5,16
+> [C3/news-commentary.html] FAIL news-commentary.html <title> textContent（全角｜）
+> [C3/news-feature.html] FAIL news-feature.html <title> textContent（全角｜）
+> [C3/news-message.html] FAIL news-message.html <title> textContent（全角｜）
+> [E1] FAIL index.html #main-content 直接元素子节点
+> [E5] FAIL index.html 标题层级
+> [E8/noEighth] FAIL index.html 无第八项可见正文
+> [F0-host/news-commentary.html] FAIL news-commentary.html 已不含 .article／dateline（归档层结构变更）
+> [F0-host/news-feature.html] FAIL news-feature.html 已不含 .article／dateline（归档层结构变更）
+> [F0-host/news-message.html] FAIL news-message.html 已不含 .article／dateline（归档层结构变更）
+> [G0-host] FAIL G 组宿主 news-*.html
+> [H11] FAIL styles.css 页面专属 class / 第二套移动主题变量
+> [K2/mains] FAIL K2 差异仅在各页 main 内容区

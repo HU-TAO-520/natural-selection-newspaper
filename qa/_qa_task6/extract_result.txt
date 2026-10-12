@@ -1,0 +1,84 @@
+PASS | source SHA-256 equals frozen baseline | 0C5B35256B7271ACFB2F49AEC146288B404ED49C376AC2C8B3F6246B38F894A4
+PASS | Word paragraph node count == 26 | got 26
+PASS | P01 (title) non-empty
+PASS | P02 (byline) non-empty
+PASS | P26 has no visible chars | ''
+PASS | P03-P25 all non-empty
+PASS | P03-P25 contain no leading/trailing whitespace
+PASS | extracted body paragraph count == 23 | got 23
+PASS | lastRenderedPageBreak markers == 3 | got 3
+PASS | Task 1 defines title/byline/F01-F23
+PASS | Task 6 defines F01-F23 | []
+PASS | F01 docx == Task1
+PASS | F01 Task6 == Task1
+PASS | F02 docx == Task1
+PASS | F02 Task6 == Task1
+PASS | F03 docx == Task1
+PASS | F03 Task6 == Task1
+PASS | F04 docx == Task1
+PASS | F04 Task6 == Task1
+PASS | F05 docx == Task1
+PASS | F05 Task6 == Task1
+PASS | F06 docx == Task1
+PASS | F06 Task6 == Task1
+PASS | F07 docx == Task1
+PASS | F07 Task6 == Task1
+PASS | F08 docx == Task1
+PASS | F08 Task6 == Task1
+PASS | F09 docx == Task1
+PASS | F09 Task6 == Task1
+PASS | F10 docx == Task1
+PASS | F10 Task6 == Task1
+PASS | F11 docx == Task1
+PASS | F11 Task6 == Task1
+PASS | F12 docx == Task1
+PASS | F12 Task6 == Task1
+PASS | F13 docx == Task1
+PASS | F13 Task6 == Task1
+PASS | F14 docx == Task1
+PASS | F14 Task6 == Task1
+PASS | F15 docx == Task1
+PASS | F15 Task6 == Task1
+PASS | F16 docx == Task1
+PASS | F16 Task6 == Task1
+PASS | F17 docx == Task1
+PASS | F17 Task6 == Task1
+PASS | F18 docx == Task1
+PASS | F18 Task6 == Task1
+PASS | F19 docx == Task1
+PASS | F19 Task6 == Task1
+PASS | F20 docx == Task1
+PASS | F20 Task6 == Task1
+PASS | F21 docx == Task1
+PASS | F21 Task6 == Task1
+PASS | F22 docx == Task1
+PASS | F22 Task6 == Task1
+PASS | F23 docx == Task1
+PASS | F23 Task6 == Task1
+PASS | title docx == Task1 | '从数学题到AI时代的学习' vs '从数学题到AI时代的学习'
+PASS | byline docx == Task1 | '蓝色空间' vs '蓝色空间'
+PASS | count AI == 19 | got 19
+PASS | count ai == 0 | got 0
+PASS | count Ai == 0 | got 0
+PASS | count aI == 0 | got 0
+PASS | count ldquo == 8 | got 8
+PASS | count rdquo == 8 | got 8
+PASS | count lsquo == 2 | got 2
+PASS | count rsquo == 2 | got 2
+PASS | count U+2014 == 2 | got 2
+PASS | count fenshuan == 1 | got 1
+PASS | count question == 1 | got 1
+PASS | count colon == 2 | got 2
+PASS | count semicolon == 3 | got 3
+PASS | count space0020 == 1 | got 1
+PASS | AI in body+title == 20
+PASS | F02 keeps '他认为'
+PASS | F05 keeps '在她看来'
+PASS | F10 keeps '仍由他自己完成'
+PASS | F12 keeps '不过，他并不赞成'
+PASS | F20 keeps '他举了一个简单的例子'
+PASS | F01 starts 自然选择号9月17日电 + one U+0020
+PASS | F01 has exactly one U+0020 in whole body
+PASS | no <>& in any contract paragraph
+PASS | no year digits 2024/2025/2026 in body
+total: 83 checks, 0 failures

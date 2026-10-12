@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>probe</title>
+  <script src="expected.js"></script>
+</head>
+<body>
+  <div id="out">running</div>
+  <script>
+    const q = new URLSearchParams(location.search);
+    const target = q.get("t");
+    const width = parseInt(q.get("w") || "1024", 10);
+    const E = window.EXPECT;
+    const results = [];
+    const txt = (el) => (el ? el.textContent : null);
+    function check(name, pass, detail) {
+      results.push({ name, pass: !!pass, detail: detail === undefined ? "" : String(detail).slice(0, 220) });
+    }
+    const order = () => [E.type, E.title, E.byline, ...E.body, E.date];
+    const norm = (a) => a.map((s) => s.trim());
+    const cls = (n) => n.tagName + "." + (n.getAttribute("class") || "");
+
+    const frame = document.createElement("iframe");
+    frame.style.cssText = "border:0;width:100%;height:900px";
+    if (q.get("nojs") === "1") frame.setAttribute("sandbox", "allow-same-origin");
+    frame.src = target + (q.get("cache") || "");
+    const outer = document.createElement("div");
+    outer.style.cssText = "position:fixed;left:0;top:0;width:" + width + "px;height:10px;overflow:hidden";
+    const inner = document.createElement("div");
+    inner.style.cssText = "width:" + width + "px;height:10px;overflow-x:scroll";
+    outer.appendChild(inner);
+    document.body.append(outer, frame);
+    const bar = inner.offsetWidth - inner.clientWidth;
+
+    frame.onload = () => {
+      try {
+        const d = frame.contentDocument, w = frame.contentWindow;
+        const wantW = width + (w.innerWidth - d.documentElement.clientWidth) + bar;
+        frame.style.width = wantW + "px";
+        const r = () => d.documentElement.clientWidth;
+        const wait = (n, cb) => (n <= 0 || r() === width ? cb()
+          : (frame.style.width = (wantW + (width - r())) + "px", setTimeout(() => wait(n - 1, cb), 40)));
+        wait(15, () => run(d, w));
+      } catch (e) {
+        check("probe 可访问 iframe", false, e.message);
+        finish();
+      }
+    };
+
+    function run(d, w) {
+      check("布局视口 == 目标宽度", d.documentElement.clientWidth === width,
+        d.documentElement.clientWidth + " vs " + width);
+      check("文档加载完成", /^(complete|interactive)$/.test(d.readyState), d.readyState);
+      check("离线 file:// 协议", target.startsWith("file:///"), target.slice(0, 40));
+      check("documentElement.lang === zh-CN", d.documentElement.lang === "zh-CN", d.documentElement.lang);
+      check("<title> 精确", d.title === E.title + "｜自然选择号", d.title);
+
+      const paras = Array.from(d.querySelectorAll(".article__body > p"), (p) => p.textContent);
+      check("浏览器 .article__body > p 数量 29", paras.length === 29, paras.length);
+      check("浏览器 textContent 与 Task1 C01-C29 逐字符相等（未 trim）",
+        JSON.stringify(paras) === JSON.stringify(E.body),
+        "首处不匹配 index " + paras.findIndex((p, i) => p !== E.body[i]));
+      check("type 文本", txt(d.querySelector(".article__type")) === E.type, txt(d.querySelector(".article__type")));
+      check("h1 文本", txt(d.querySelector("h1.page-title")) === E.title, txt(d.querySelector("h1.page-title")));
+      check("byline 文本", txt(d.querySelector(".article__byline")) === E.byline, txt(d.querySelector(".article__byline")));
+      check("date 文本逐字符", txt(d.querySelector("p.article__date")) === E.date, txt(d.querySelector("p.article__date")));
+
+      check("唯一 main / h1 / article / aria-current",
+        d.querySelectorAll("main").length === 1 && d.querySelectorAll("h1").length === 1 &&
+        d.querySelectorAll("article").length === 1 && d.querySelectorAll('[aria-current="page"]').length === 1,
+        [d.querySelectorAll("main").length, d.querySelectorAll("h1").length,
+         d.querySelectorAll("article").length, d.querySelectorAll('[aria-current="page"]').length].join("/"));
+      check("当前导航项是 新闻评论 且自链",
+        txt(d.querySelector('[aria-current="page"]')) === "新闻评论" &&
+        d.querySelector('[aria-current="page"]').getAttribute("href") === "news-commentary.html");
+      check("main 唯一直接子元素是 article",
+        Array.from(d.querySelector("main").children).map(cls).join(",") === "ARTICLE.article",
+        Array.from(d.querySelector("main").children).map(cls).join(","));
+      check("article 子元素顺序 header → div → p.article__date",
+        Array.from(d.querySelector(".article").children).map(cls).join(",") ===
+        "HEADER.article__header,DIV.article__body,P.article__date",
+        Array.from(d.querySelector(".article").children).map(cls).join(","));
+      check("header 子元素顺序 type → h1 → byline",
+        Array.from(d.querySelector(".article__header").children).map(cls).join(",") ===
+        "P.article__type,H1.page-title,P.article__byline",
+        Array.from(d.querySelector(".article__header").children).map(cls).join(","));
+      check("正文容器只有 29 个 P 子节点",
+        Array.from(d.querySelector(".article__body").children).every((n) => n.tagName === "P") &&
+        d.querySelector(".article__body").children.length === 29);
+      check("日期不在正文容器内",
+        d.querySelector(".article__body").contains(d.querySelector("p.article__date")) === false);
+
+      const c01 = paras[0], c29 = paras[28];
+      check("C01 首字符是“不”，无前导空白", c01.charCodeAt(0) === 0x4e0d, c01.slice(0, 3));
+      check("C29 末字符是右引号 U+201D，无尾随空白", c29.charCodeAt(c29.length - 1) === 0x201d,
+        JSON.stringify(c29.slice(-3)));
+      check("日期首尾为全角括号", E.date.charCodeAt(0) === 0xff08 &&
+        d.querySelector("p.article__date").textContent.codePointAt(0) === 0xff08);
+      check("日期文本节点无前导空白",
+        /^[（]/.test(d.querySelector("p.article__date").firstChild.textContent),
+        JSON.stringify(d.querySelector("p.article__date").firstChild.textContent.slice(0, 3)));
+
+      const merged = paras.join("");
+      check("渲染文本 .exe = 3", (merged.match(/\.exe/g) || []).length === 3, (merged.match(/。exe/g) || []).length);
+      check("渲染文本 Windows 10 = 2", (merged.match(/Windows 10/g) || []).length === 2);
+      check("渲染文本无 安 装 / Windows10 / 。exe",
+        !merged.includes("安 装") && !merged.includes("Windows10") && !merged.includes("。exe"));
+      check("正文 U+0020 总数 = 2", (merged.match(/ /g) || []).length === 2, (merged.match(/ /g) || []).length);
+      check("无 U+00A0 / 零宽字符 / 软连字符",
+        !merged.includes("\u00a0") && !/[\u200b-\u200f\ufeff\u00ad]/.test(merged));
+      check("USB/UOS/OPS/Linux/4K/AI 大写原样",
+        (merged.match(/USB/g) || []).length === 4 && (merged.match(/UOS/g) || []).length === 4 &&
+        (merged.match(/OPS/g) || []).length === 1 && merged.includes("Linux") && merged.includes("4K") &&
+        merged.includes("AI") && !/usb|uos|ops|linux|4k/i.test(merged.replace(/USB|UOS|OPS|Linux|4K|AI/g, "")));
+      check("C05 限定语完整渲染",
+        ["不完全统计", "5次碰撞", "3个U盘被撞坏", "还需要进一步检查"].every((s) => paras[4].includes(s)));
+      check("C26 仍为单段 163 字且“统一安装”连续", paras[25].length === 163 && paras[25].includes("统一安装"));
+      check("C29 含标题复述与引语于同段",
+        paras[28] === E.title + "。“科技不是高高在上的，而应该服务人民。”", JSON.stringify(paras[28].slice(0, 10)));
+      check("正文段落全部无子元素",
+        Array.from(d.querySelectorAll(".article__body > p")).every((p) => p.children.length === 0));
+      check("正文无 <br>、无 <a>、无 <img>",
+        !d.querySelector(".article__body br") && !d.querySelector(".article a") && !d.querySelector(".article img"));
+      check("无 time/blockquote/q/cite/dateline/h2/列表/表格",
+        !d.querySelector(".article time") && !d.querySelector(".article blockquote") &&
+        !d.querySelector(".article q") && !d.querySelector(".article cite") &&
+        !d.querySelector(".dateline") && !d.querySelector(".article h2") &&
+        !d.querySelector(".article ul, .article ol") && !d.querySelector(".article table"));
+      check("无 datetime 属性 / 无隐藏年份",
+        !d.querySelector("[datetime]") && !d.querySelector("main").textContent.includes("2026"));
+      check("科大讯飞为纯文本",
+        !d.querySelector(".article__body a") && paras[20].includes("从科大讯飞的产品资料来看"));
+
+      const dateEl = d.querySelector("p.article__date");
+      const cs = w.getComputedStyle(dateEl);
+      check("日期由共享 CSS 右对齐（非空格模拟）", cs.textAlign === "right" || cs.textAlign === "end",
+        cs.textAlign);
+      check("日期段落几何位置在正文之后",
+        dateEl.getBoundingClientRect().top >
+        d.querySelectorAll(".article__body > p")[28].getBoundingClientRect().top,
+        "top=" + Math.round(dateEl.getBoundingClientRect().top));
+
+      const visible = d.querySelector("main").innerText.split("\n").map((s) => s.trim()).filter(Boolean);
+      check("渲染阅读顺序 = type,title,byline,C01..C29,date",
+        JSON.stringify(visible) === JSON.stringify(norm(order())), JSON.stringify(visible).slice(0, 160));
+      check("渲染可见行数 = 33", visible.length === 33, visible.length);
+      check("主导航四项文字与顺序",
+        Array.from(d.querySelectorAll("#site-navigation a"), (a) => txt(a)).join(",") ===
+        "首页,新闻消息,新闻通讯,新闻评论",
+        Array.from(d.querySelectorAll("#site-navigation a"), (a) => txt(a)).join(","));
+      check("无横向溢出", d.documentElement.scrollWidth <= d.documentElement.clientWidth + 1,
+        d.documentElement.scrollWidth + " > " + d.documentElement.clientWidth);
+      check("正文可见宽度为正", d.querySelector(".article__body").getBoundingClientRect().width > 200,
+        d.querySelector(".article__body").getBoundingClientRect().width);
+      check("样式已加载（.article__body 生效）",
+        w.getComputedStyle(d.querySelector(".article__body")).fontSize !== "16px" ||
+        w.getComputedStyle(d.querySelector(".article__body > p")).lineHeight !== "normal",
+        w.getComputedStyle(d.querySelector(".article__body > p")).fontSize);
+      const hasDataAttr = Array.from(d.querySelectorAll(".article, .article *"))
+        .some((n) => Array.from(n.attributes).some((a) => a.name.indexOf("data-") === 0));
+      check("无 footer / aside / 内联 style / data-*",
+        !d.querySelector("footer") && !d.querySelector("aside") && !d.querySelector(".article [style]") && !hasDataAttr);
+      check("跳至正文链接是首个可聚焦元素",
+        d.querySelector("body a") && d.querySelector("body a").className === "skip-link",
+        d.querySelector("body a") && d.querySelector("body a").className);
+      check("菜单按钮存在且初始 aria-expanded=false",
+        d.querySelector("button#nav-toggle") &&
+        d.querySelector("button#nav-toggle").getAttribute("aria-expanded") === "false");
+
+      if (q.get("nocss") === "1") {
+        Array.from(d.styleSheets).forEach((s) => { s.disabled = true; });
+        const v2 = d.querySelector("main").innerText.split("\n").map((s) => s.trim()).filter(Boolean);
+        check("[禁CSS] 阅读顺序不变", JSON.stringify(v2) === JSON.stringify(norm(order())),
+          JSON.stringify(v2).slice(0, 160));
+        check("[禁CSS] 33 行完整可读", v2.length === 33, v2.length);
+        check("[禁CSS] 29 段 textContent 仍逐字符相等",
+          JSON.stringify(Array.from(d.querySelectorAll(".article__body > p"), (p) => p.textContent)) ===
+          JSON.stringify(E.body));
+        check("[禁CSS] 导航仍可见且四项", d.querySelectorAll("#site-navigation a").length === 4);
+        check("[禁CSS] 样式表确已禁用", Array.from(d.styleSheets).every((s) => s.disabled));
+        check("[禁CSS] 日期文本仍无空格前缀",
+          d.querySelector("p.article__date").textContent.charCodeAt(0) === 0xff08);
+      }
+      if (q.get("nojs") === "1") {
+        check("[禁JS] 29 段正文仍完整", JSON.stringify(paras) === JSON.stringify(E.body), paras.length);
+        check("[禁JS] 正文为静态标记而非脚本注入",
+          E.body.every((t, i) => d.querySelectorAll(".article__body > p")[i].textContent === t));
+        check("[禁JS] 沙箱内无脚本执行痕迹", !w.__task7Ran && !d.querySelector("main script"));
+        check("[禁JS] 结构与有脚本一致",
+          d.querySelectorAll(".article__body > p").length === 29 && d.querySelectorAll("article").length === 1 &&
+          !!d.querySelector("p.article__date"));
+        check("[禁JS] 日期仍完整", txt(d.querySelector("p.article__date")) === E.date);
+      }
+      finish();
+    }
+    function finish() {
+      document.title = "done";
+      document.getElementById("out").textContent = "PROBE" + encodeURIComponent(JSON.stringify(results)) + "|ENDPROBE";
+    }
+    setTimeout(() => { if (document.title !== "done") { check("probe 超时", false, ""); finish(); } }, 18000);
+  </script>
+</body>
+</html>

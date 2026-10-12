@@ -1,0 +1,1 @@
+report.md 已生成：819 条断言，PASS 811，FAIL 8；截图 49 张

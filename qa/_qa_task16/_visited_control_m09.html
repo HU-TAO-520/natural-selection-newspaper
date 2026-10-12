@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>visited 阳性对照（QA 产物，不进 Results/）</title>
+  <style>
+    /* 同一环境、同一目标页、唯一变量 = 有没有同色的 :visited 伴生规则。
+       没有这条对照，"四处像素都是墨色"就分不清是配对生效还是 visited 未被触发。 */
+    html, body { margin: 0; background: #f5efe4; color: #211f1c; font-family: "Songti SC", "STSong", "SimSun", serif; }
+    a { color: #211f1c; text-decoration: none; display: block; padding: 18px 24px; font-size: 24px; font-weight: 700; }
+    a:visited { color: #7a2424; }
+    .t16-pair:visited { color: #211f1c; }
+  </style>
+</head>
+<body>
+  <a class="t16-pair" href="mutants/m09/index.html">配对伴生在场的墨色标题</a>
+  <a class="t16-nopair" href="../Results/index.html">缺伴生规则的墨色标题对照</a>
+</body>
+</html>

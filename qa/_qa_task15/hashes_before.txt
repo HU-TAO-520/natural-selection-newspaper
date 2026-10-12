@@ -1,0 +1,22 @@
+# path	sha256	bytes	mtime
+# Task 15.1 切换前基线（表 1，v1 六文件）
+# 本文件是 v1 基线记录：每行都取 _qa_task15/before/ 快照的实测值（快照在切换前建立、不得覆盖），
+# 因此重复运行本脚本不会把切换后的哈希写进基线。切换后 Results/ 的九文件哈希见 hashes_after.txt。
+Results/index.html	971e57a5f85bae99c389e58d7a132e96c02388432de997c4df3d4af495e6416a	2629	2026-09-30 22:33:24
+_qa_task15/before/index.html	971e57a5f85bae99c389e58d7a132e96c02388432de997c4df3d4af495e6416a	2629	2026-09-30 22:33:24
+# 对表 index.html: 期望 971e57a5f85bae99c389e58d7a132e96c02388432de997c4df3d4af495e6416a 2629 B -> PASS
+Results/news-message.html	66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8	3011	2026-09-19 09:53:19
+_qa_task15/before/news-message.html	66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8	3011	2026-09-19 09:53:19
+# 对表 news-message.html: 期望 66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8 3011 B -> PASS
+Results/news-feature.html	73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5	6962	2026-09-19 12:52:40
+_qa_task15/before/news-feature.html	73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5	6962	2026-09-19 12:52:40
+# 对表 news-feature.html: 期望 73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5 6962 B -> PASS
+Results/news-commentary.html	a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52	8486	2026-09-19 14:34:41
+_qa_task15/before/news-commentary.html	a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52	8486	2026-09-19 14:34:41
+# 对表 news-commentary.html: 期望 a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52 8486 B -> PASS
+Results/styles.css	2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad418ba1	12401	2026-09-19 21:20:52
+_qa_task15/before/styles.css	2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad418ba1	12401	2026-09-19 21:20:52
+# 对表 styles.css: 期望 2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad418ba1 12401 B -> PASS
+Results/script.js	abb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666	2204	2026-09-19 15:38:02
+_qa_task15/before/script.js	abb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666	2204	2026-09-19 15:38:02
+# 对表 script.js: 期望 abb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666 2204 B -> PASS

@@ -1,0 +1,2 @@
+总计 1149 条：PASS 1149 / FAIL 0 / PENDING 0
+报告：C:\Users\weibo\Documents\语文报纸\_qa_task18\verify_report.md

@@ -1,0 +1,536 @@
+# Task 2 验收报告
+
+- 核验时间: 2026-10-02 11:20:34
+- 核验脚本: `_qa_task2/verify.py`（只读；生成脚本 `_qa_task2/gen.py`）
+- 权威真值: `plan/Task2-建立共享HTML壳与导航.md` 页面登记表与导航合同（逐字符解析）+ `plan/Task0` 交叉核对
+- 断言总数 **468** ｜ 通过 **421** ｜ 失败 **47** ｜ 结论 **FAIL**
+
+## 前置条件 — 2/2 PASS
+
+- [x] Task 2 页面登记表可解析出 4 行
+- [x] Task 1 已冻结的三个文章标题与本任务 h1 一致
+
+## 文件级 — 16/20 FAIL
+
+- [ ] Results/ 恰好含四个 Task 2 HTML，名称与大小写准确
+    - 实际 ['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+- [ ] 未创建空 styles.css / script.js 占位文件
+- [x] index.html 存在且文件名大小写与登记表一致
+- [x] index.html 以 <!doctype html> 开始
+- [x] index.html 标签闭合正确、无交叉嵌套（结构有效）
+- [x] index.html UTF-8 无 BOM、可经 file:// 直接打开
+- [x] news-message.html 存在且文件名大小写与登记表一致
+- [x] news-message.html 以 <!doctype html> 开始
+- [x] news-message.html 标签闭合正确、无交叉嵌套（结构有效）
+- [x] news-message.html UTF-8 无 BOM、可经 file:// 直接打开
+- [x] news-feature.html 存在且文件名大小写与登记表一致
+- [x] news-feature.html 以 <!doctype html> 开始
+- [x] news-feature.html 标签闭合正确、无交叉嵌套（结构有效）
+- [x] news-feature.html UTF-8 无 BOM、可经 file:// 直接打开
+- [x] news-commentary.html 存在且文件名大小写与登记表一致
+- [x] news-commentary.html 以 <!doctype html> 开始
+- [x] news-commentary.html 标签闭合正确、无交叉嵌套（结构有效）
+- [x] news-commentary.html UTF-8 无 BOM、可经 file:// 直接打开
+- [ ] 本任务未修改 Materials/ 与 plan/ 任何文件（mtime 均早于交付文件）
+    - ['plan/Task0-总方案与任务索引.md', 'plan/Task10-结构与内容自动核验.md', 'plan/Task12-归档总方案与全局合同修订.md', 'plan/Task13-素材迁移与内容源基线.md', 'plan/Task14-实现构建器内核.md', 'plan/Task15-页面生成与结构切换.md', 'plan/Task16-实现归档视觉系统.md', 'plan/Task17-重建打包与发布产物.md', 'plan/Task18-核验闸门重构.md', 'plan/Task19-浏览器回归与整站验收.md', 'plan/Task4-完成首页内容.md']
+- [ ] 项目根目录未产生约定外的新条目
+    - ['build', 'content', 'd9e2b35cb26c98dfbff2d77290cf1f0a.txt', 'deploy', 'Results.zip', '_qa_task10', '_qa_task11', '_qa_task13', '_qa_task14', '_qa_task15', '_qa_task3', '_qa_task4', '_qa_task5', '_qa_task6', '_qa_task7', '_qa_task8', '_qa_task9']
+
+## head — 76/76 PASS
+
+- [x] index.html 唯一 <html> 且 lang="zh-CN"
+- [x] index.html 恰好一个 meta charset=utf-8
+- [x] index.html 恰好一个 viewport 且值为 width=device-width, initial-scale=1
+- [x] index.html <meta> 总数恰为 2（无额外元数据）
+- [x] index.html 恰好一个 <title>
+- [x] index.html <title> 与页面登记表逐字符一致
+- [x] index.html 恰好一次 styles.css 同目录相对引用
+- [x] index.html 恰好一次 script.js 引用且 src 正确
+- [x] index.html 脚本使用 defer，无 async / type=module / 内联代码
+- [x] index.html <head> 子节点顺序 = meta,meta,title,link,script
+- [x] index.html 无 <base>
+- [x] index.html 无内联 <style>
+- [x] index.html 无外部 URL / 协议相对 / 网络字体 / 预连接 / canonical / OG / 图标
+- [x] index.html 无服务器根路径 / 盘符 / 反斜杠
+- [x] index.html 资源引用无查询参数或 URL 片段
+- [x] index.html 唯一锚点型 href 只能是 #main-content
+- [x] index.html charset/viewport/title/link/script 各出现一次
+- [x] index.html <title> 分隔符为全角 ｜ U+FF5C 且恰好一次
+- [x] index.html 无内联事件处理器
+- [x] news-message.html 唯一 <html> 且 lang="zh-CN"
+- [x] news-message.html 恰好一个 meta charset=utf-8
+- [x] news-message.html 恰好一个 viewport 且值为 width=device-width, initial-scale=1
+- [x] news-message.html <meta> 总数恰为 2（无额外元数据）
+- [x] news-message.html 恰好一个 <title>
+- [x] news-message.html <title> 与页面登记表逐字符一致
+- [x] news-message.html 恰好一次 styles.css 同目录相对引用
+- [x] news-message.html 恰好一次 script.js 引用且 src 正确
+- [x] news-message.html 脚本使用 defer，无 async / type=module / 内联代码
+- [x] news-message.html <head> 子节点顺序 = meta,meta,title,link,script
+- [x] news-message.html 无 <base>
+- [x] news-message.html 无内联 <style>
+- [x] news-message.html 无外部 URL / 协议相对 / 网络字体 / 预连接 / canonical / OG / 图标
+- [x] news-message.html 无服务器根路径 / 盘符 / 反斜杠
+- [x] news-message.html 资源引用无查询参数或 URL 片段
+- [x] news-message.html 唯一锚点型 href 只能是 #main-content
+- [x] news-message.html charset/viewport/title/link/script 各出现一次
+- [x] news-message.html <title> 分隔符为全角 ｜ U+FF5C 且恰好一次
+- [x] news-message.html 无内联事件处理器
+- [x] news-feature.html 唯一 <html> 且 lang="zh-CN"
+- [x] news-feature.html 恰好一个 meta charset=utf-8
+- [x] news-feature.html 恰好一个 viewport 且值为 width=device-width, initial-scale=1
+- [x] news-feature.html <meta> 总数恰为 2（无额外元数据）
+- [x] news-feature.html 恰好一个 <title>
+- [x] news-feature.html <title> 与页面登记表逐字符一致
+- [x] news-feature.html 恰好一次 styles.css 同目录相对引用
+- [x] news-feature.html 恰好一次 script.js 引用且 src 正确
+- [x] news-feature.html 脚本使用 defer，无 async / type=module / 内联代码
+- [x] news-feature.html <head> 子节点顺序 = meta,meta,title,link,script
+- [x] news-feature.html 无 <base>
+- [x] news-feature.html 无内联 <style>
+- [x] news-feature.html 无外部 URL / 协议相对 / 网络字体 / 预连接 / canonical / OG / 图标
+- [x] news-feature.html 无服务器根路径 / 盘符 / 反斜杠
+- [x] news-feature.html 资源引用无查询参数或 URL 片段
+- [x] news-feature.html 唯一锚点型 href 只能是 #main-content
+- [x] news-feature.html charset/viewport/title/link/script 各出现一次
+- [x] news-feature.html <title> 分隔符为全角 ｜ U+FF5C 且恰好一次
+- [x] news-feature.html 无内联事件处理器
+- [x] news-commentary.html 唯一 <html> 且 lang="zh-CN"
+- [x] news-commentary.html 恰好一个 meta charset=utf-8
+- [x] news-commentary.html 恰好一个 viewport 且值为 width=device-width, initial-scale=1
+- [x] news-commentary.html <meta> 总数恰为 2（无额外元数据）
+- [x] news-commentary.html 恰好一个 <title>
+- [x] news-commentary.html <title> 与页面登记表逐字符一致
+- [x] news-commentary.html 恰好一次 styles.css 同目录相对引用
+- [x] news-commentary.html 恰好一次 script.js 引用且 src 正确
+- [x] news-commentary.html 脚本使用 defer，无 async / type=module / 内联代码
+- [x] news-commentary.html <head> 子节点顺序 = meta,meta,title,link,script
+- [x] news-commentary.html 无 <base>
+- [x] news-commentary.html 无内联 <style>
+- [x] news-commentary.html 无外部 URL / 协议相对 / 网络字体 / 预连接 / canonical / OG / 图标
+- [x] news-commentary.html 无服务器根路径 / 盘符 / 反斜杠
+- [x] news-commentary.html 资源引用无查询参数或 URL 片段
+- [x] news-commentary.html 唯一锚点型 href 只能是 #main-content
+- [x] news-commentary.html charset/viewport/title/link/script 各出现一次
+- [x] news-commentary.html <title> 分隔符为全角 ｜ U+FF5C 且恰好一次
+- [x] news-commentary.html 无内联事件处理器
+
+## 结构 — 65/76 FAIL
+
+- [x] index.html 恰好一个跳至正文链接 / <header> / <nav> / <main> / <h1>
+- [x] index.html skip-link 文字固定为“跳至正文”且 href=#main-content
+- [x] index.html skip-link 是 <body> 第一个可聚焦元素
+- [x] index.html skip-link 是 <body> 第一个元素子节点
+- [x] index.html <body> 直接子元素顺序 = a, header, main
+- [x] index.html <html> 直接子元素 = head, body
+- [x] index.html <header> 顺序为 .site-header > .site-header__inner > 报头,按钮,导航
+- [x] index.html 报头为 <p class=site-masthead>，不占用标题层级
+- [x] index.html 报头链接文字“自然选择号”且始终指向 index.html
+- [x] index.html 页面内无重复 ID
+- [x] index.html #nav-toggle / #site-navigation / #main-content 各一次
+- [x] index.html 按钮 aria-controls 精确等于导航实际 ID
+- [x] index.html 按钮位于受控导航之前（DOM 与源码顺序一致）
+- [x] index.html <main> 为 body 直接子元素且在 <header> 之后
+- [x] index.html <main> 的 ID/class/tabindex 符合合同
+- [ ] index.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本
+    - ['h1', 'div']
+- [x] index.html <h1> 为 class=page-title 且文字与登记表逐字符一致
+- [x] index.html <h1> 不含全角竖线 ｜ 与站点名后缀
+- [ ] index.html 无公共壳合同外的标签（多出 ['h2', 'section']）
+    - ['h2', 'section']
+- [ ] news-message.html 恰好一个跳至正文链接 / <header> / <nav> / <main> / <h1>
+- [x] news-message.html skip-link 文字固定为“跳至正文”且 href=#main-content
+- [x] news-message.html skip-link 是 <body> 第一个可聚焦元素
+- [x] news-message.html skip-link 是 <body> 第一个元素子节点
+- [x] news-message.html <body> 直接子元素顺序 = a, header, main
+- [x] news-message.html <html> 直接子元素 = head, body
+- [x] news-message.html <header> 顺序为 .site-header > .site-header__inner > 报头,按钮,导航
+- [x] news-message.html 报头为 <p class=site-masthead>，不占用标题层级
+- [x] news-message.html 报头链接文字“自然选择号”且始终指向 index.html
+- [x] news-message.html 页面内无重复 ID
+- [x] news-message.html #nav-toggle / #site-navigation / #main-content 各一次
+- [x] news-message.html 按钮 aria-controls 精确等于导航实际 ID
+- [x] news-message.html 按钮位于受控导航之前（DOM 与源码顺序一致）
+- [x] news-message.html <main> 为 body 直接子元素且在 <header> 之后
+- [x] news-message.html <main> 的 ID/class/tabindex 符合合同
+- [ ] news-message.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本
+    - ['article']
+- [x] news-message.html <h1> 为 class=page-title 且文字与登记表逐字符一致
+- [x] news-message.html <h1> 不含全角竖线 ｜ 与站点名后缀
+- [ ] news-message.html 无公共壳合同外的标签（多出 ['article', 'strong']）
+    - ['article', 'strong']
+- [ ] news-feature.html 恰好一个跳至正文链接 / <header> / <nav> / <main> / <h1>
+- [x] news-feature.html skip-link 文字固定为“跳至正文”且 href=#main-content
+- [x] news-feature.html skip-link 是 <body> 第一个可聚焦元素
+- [x] news-feature.html skip-link 是 <body> 第一个元素子节点
+- [x] news-feature.html <body> 直接子元素顺序 = a, header, main
+- [x] news-feature.html <html> 直接子元素 = head, body
+- [x] news-feature.html <header> 顺序为 .site-header > .site-header__inner > 报头,按钮,导航
+- [x] news-feature.html 报头为 <p class=site-masthead>，不占用标题层级
+- [x] news-feature.html 报头链接文字“自然选择号”且始终指向 index.html
+- [x] news-feature.html 页面内无重复 ID
+- [x] news-feature.html #nav-toggle / #site-navigation / #main-content 各一次
+- [x] news-feature.html 按钮 aria-controls 精确等于导航实际 ID
+- [x] news-feature.html 按钮位于受控导航之前（DOM 与源码顺序一致）
+- [x] news-feature.html <main> 为 body 直接子元素且在 <header> 之后
+- [x] news-feature.html <main> 的 ID/class/tabindex 符合合同
+- [ ] news-feature.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本
+    - ['article']
+- [x] news-feature.html <h1> 为 class=page-title 且文字与登记表逐字符一致
+- [x] news-feature.html <h1> 不含全角竖线 ｜ 与站点名后缀
+- [ ] news-feature.html 无公共壳合同外的标签（多出 ['article', 'strong']）
+    - ['article', 'strong']
+- [ ] news-commentary.html 恰好一个跳至正文链接 / <header> / <nav> / <main> / <h1>
+- [x] news-commentary.html skip-link 文字固定为“跳至正文”且 href=#main-content
+- [x] news-commentary.html skip-link 是 <body> 第一个可聚焦元素
+- [x] news-commentary.html skip-link 是 <body> 第一个元素子节点
+- [x] news-commentary.html <body> 直接子元素顺序 = a, header, main
+- [x] news-commentary.html <html> 直接子元素 = head, body
+- [x] news-commentary.html <header> 顺序为 .site-header > .site-header__inner > 报头,按钮,导航
+- [x] news-commentary.html 报头为 <p class=site-masthead>，不占用标题层级
+- [x] news-commentary.html 报头链接文字“自然选择号”且始终指向 index.html
+- [x] news-commentary.html 页面内无重复 ID
+- [x] news-commentary.html #nav-toggle / #site-navigation / #main-content 各一次
+- [x] news-commentary.html 按钮 aria-controls 精确等于导航实际 ID
+- [x] news-commentary.html 按钮位于受控导航之前（DOM 与源码顺序一致）
+- [x] news-commentary.html <main> 为 body 直接子元素且在 <header> 之后
+- [x] news-commentary.html <main> 的 ID/class/tabindex 符合合同
+- [ ] news-commentary.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本
+    - ['article']
+- [x] news-commentary.html <h1> 为 class=page-title 且文字与登记表逐字符一致
+- [x] news-commentary.html <h1> 不含全角竖线 ｜ 与站点名后缀
+- [ ] news-commentary.html 无公共壳合同外的标签（多出 ['article']）
+    - ['article']
+
+## 导航 — 59/59 PASS
+
+- [x] index.html 主导航恰好四个链接，每项恰一个链接
+- [x] index.html 导航文本与顺序 = 首页/新闻消息/新闻通讯/新闻评论
+- [x] index.html 列表为 <ul class=site-navigation__list> 且 aria-label=主导航
+- [x] index.html 全页恰好一个 aria-current，值精确为 page
+- [x] index.html aria-current 只落在 <a> 上（不在 <li>/<nav>/<span>）
+- [x] index.html aria-current 落在矩阵指定的自链接（首页 → index.html）
+- [x] index.html 其余三个导航链接不带 aria-current
+- [x] index.html 报头链接不带 aria-current（不计入 16 条）
+- [x] index.html 当前页链接仍可点击、未被替换为 <span> 或去 href
+- [x] index.html 无 aria-selected / aria-pressed 表达当前页
+- [x] index.html 导航目标 index.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] index.html 导航目标 news-message.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] index.html 导航目标 news-feature.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] index.html 导航目标 news-commentary.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] news-message.html 主导航恰好四个链接，每项恰一个链接
+- [x] news-message.html 导航文本与顺序 = 首页/新闻消息/新闻通讯/新闻评论
+- [x] news-message.html 列表为 <ul class=site-navigation__list> 且 aria-label=主导航
+- [x] news-message.html 全页恰好一个 aria-current，值精确为 page
+- [x] news-message.html aria-current 只落在 <a> 上（不在 <li>/<nav>/<span>）
+- [x] news-message.html aria-current 落在矩阵指定的自链接（新闻消息 → news-message.html）
+- [x] news-message.html 其余三个导航链接不带 aria-current
+- [x] news-message.html 报头链接不带 aria-current（不计入 16 条）
+- [x] news-message.html 当前页链接仍可点击、未被替换为 <span> 或去 href
+- [x] news-message.html 无 aria-selected / aria-pressed 表达当前页
+- [x] news-message.html 导航目标 index.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] news-message.html 导航目标 news-message.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] news-message.html 导航目标 news-feature.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] news-message.html 导航目标 news-commentary.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] news-feature.html 主导航恰好四个链接，每项恰一个链接
+- [x] news-feature.html 导航文本与顺序 = 首页/新闻消息/新闻通讯/新闻评论
+- [x] news-feature.html 列表为 <ul class=site-navigation__list> 且 aria-label=主导航
+- [x] news-feature.html 全页恰好一个 aria-current，值精确为 page
+- [x] news-feature.html aria-current 只落在 <a> 上（不在 <li>/<nav>/<span>）
+- [x] news-feature.html aria-current 落在矩阵指定的自链接（新闻通讯 → news-feature.html）
+- [x] news-feature.html 其余三个导航链接不带 aria-current
+- [x] news-feature.html 报头链接不带 aria-current（不计入 16 条）
+- [x] news-feature.html 当前页链接仍可点击、未被替换为 <span> 或去 href
+- [x] news-feature.html 无 aria-selected / aria-pressed 表达当前页
+- [x] news-feature.html 导航目标 index.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] news-feature.html 导航目标 news-message.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] news-feature.html 导航目标 news-feature.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] news-feature.html 导航目标 news-commentary.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] news-commentary.html 主导航恰好四个链接，每项恰一个链接
+- [x] news-commentary.html 导航文本与顺序 = 首页/新闻消息/新闻通讯/新闻评论
+- [x] news-commentary.html 列表为 <ul class=site-navigation__list> 且 aria-label=主导航
+- [x] news-commentary.html 全页恰好一个 aria-current，值精确为 page
+- [x] news-commentary.html aria-current 只落在 <a> 上（不在 <li>/<nav>/<span>）
+- [x] news-commentary.html aria-current 落在矩阵指定的自链接（新闻评论 → news-commentary.html）
+- [x] news-commentary.html 其余三个导航链接不带 aria-current
+- [x] news-commentary.html 报头链接不带 aria-current（不计入 16 条）
+- [x] news-commentary.html 当前页链接仍可点击、未被替换为 <span> 或去 href
+- [x] news-commentary.html 无 aria-selected / aria-pressed 表达当前页
+- [x] news-commentary.html 导航目标 index.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] news-commentary.html 导航目标 news-message.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] news-commentary.html 导航目标 news-feature.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] news-commentary.html 导航目标 news-commentary.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/新窗口/JS URL）
+- [x] 四页合计 16 条主导航路径
+- [x] 16 条链接目标全部属于四个已创建页面
+- [x] 每页导航目标集合与登记表四页文件集合一致（含自链接）
+
+## 渐进增强 — 76/76 PASS
+
+- [x] index.html <html> 源码初始类恰为 no-js
+- [x] index.html 源码无预写 js 类、无 no-js 之外的类
+- [x] index.html 菜单按钮为原生 <button> 且 type=button
+- [x] index.html 按钮 class=nav-toggle 且无 role / tabindex
+- [x] index.html 按钮初始 aria-expanded=false
+- [x] index.html 按钮含可见文字“菜单”（非纯图标）
+- [x] index.html 装饰图形 .nav-toggle__icon 保持 aria-hidden=true 且无文本
+- [x] index.html 按钮可访问名称只来自“菜单”
+- [x] index.html 导航源码无 hidden / aria-hidden / is-open / style 隐藏
+- [x] index.html 无 JS 时导航链接仍在文档树（未用 hidden/aria-hidden 隐藏）
+- [x] index.html 全页 aria-hidden 仅图标一处
+- [x] index.html 无内联事件属性（onclick/onkeydown 等）
+- [x] index.html 无 style 属性 / 内联隐藏样式
+- [x] index.html 导航未使用应用菜单专用 role=menu/menuitem/menubar
+- [x] index.html 原生 nav/ul/li/a 结构且 <nav> 有可访问名称
+- [x] index.html <main> tabindex=-1 而非 0，未成为常规 Tab 停靠点
+- [x] index.html 除 <main> 外无 tabindex，无负值使链接退出键盘顺序
+- [x] index.html 无重复屏幕阅读器当前页专用文本
+- [x] index.html 无内联初始化脚本（Task 9 不与之重复绑定）
+- [x] news-message.html <html> 源码初始类恰为 no-js
+- [x] news-message.html 源码无预写 js 类、无 no-js 之外的类
+- [x] news-message.html 菜单按钮为原生 <button> 且 type=button
+- [x] news-message.html 按钮 class=nav-toggle 且无 role / tabindex
+- [x] news-message.html 按钮初始 aria-expanded=false
+- [x] news-message.html 按钮含可见文字“菜单”（非纯图标）
+- [x] news-message.html 装饰图形 .nav-toggle__icon 保持 aria-hidden=true 且无文本
+- [x] news-message.html 按钮可访问名称只来自“菜单”
+- [x] news-message.html 导航源码无 hidden / aria-hidden / is-open / style 隐藏
+- [x] news-message.html 无 JS 时导航链接仍在文档树（未用 hidden/aria-hidden 隐藏）
+- [x] news-message.html 全页 aria-hidden 仅图标一处
+- [x] news-message.html 无内联事件属性（onclick/onkeydown 等）
+- [x] news-message.html 无 style 属性 / 内联隐藏样式
+- [x] news-message.html 导航未使用应用菜单专用 role=menu/menuitem/menubar
+- [x] news-message.html 原生 nav/ul/li/a 结构且 <nav> 有可访问名称
+- [x] news-message.html <main> tabindex=-1 而非 0，未成为常规 Tab 停靠点
+- [x] news-message.html 除 <main> 外无 tabindex，无负值使链接退出键盘顺序
+- [x] news-message.html 无重复屏幕阅读器当前页专用文本
+- [x] news-message.html 无内联初始化脚本（Task 9 不与之重复绑定）
+- [x] news-feature.html <html> 源码初始类恰为 no-js
+- [x] news-feature.html 源码无预写 js 类、无 no-js 之外的类
+- [x] news-feature.html 菜单按钮为原生 <button> 且 type=button
+- [x] news-feature.html 按钮 class=nav-toggle 且无 role / tabindex
+- [x] news-feature.html 按钮初始 aria-expanded=false
+- [x] news-feature.html 按钮含可见文字“菜单”（非纯图标）
+- [x] news-feature.html 装饰图形 .nav-toggle__icon 保持 aria-hidden=true 且无文本
+- [x] news-feature.html 按钮可访问名称只来自“菜单”
+- [x] news-feature.html 导航源码无 hidden / aria-hidden / is-open / style 隐藏
+- [x] news-feature.html 无 JS 时导航链接仍在文档树（未用 hidden/aria-hidden 隐藏）
+- [x] news-feature.html 全页 aria-hidden 仅图标一处
+- [x] news-feature.html 无内联事件属性（onclick/onkeydown 等）
+- [x] news-feature.html 无 style 属性 / 内联隐藏样式
+- [x] news-feature.html 导航未使用应用菜单专用 role=menu/menuitem/menubar
+- [x] news-feature.html 原生 nav/ul/li/a 结构且 <nav> 有可访问名称
+- [x] news-feature.html <main> tabindex=-1 而非 0，未成为常规 Tab 停靠点
+- [x] news-feature.html 除 <main> 外无 tabindex，无负值使链接退出键盘顺序
+- [x] news-feature.html 无重复屏幕阅读器当前页专用文本
+- [x] news-feature.html 无内联初始化脚本（Task 9 不与之重复绑定）
+- [x] news-commentary.html <html> 源码初始类恰为 no-js
+- [x] news-commentary.html 源码无预写 js 类、无 no-js 之外的类
+- [x] news-commentary.html 菜单按钮为原生 <button> 且 type=button
+- [x] news-commentary.html 按钮 class=nav-toggle 且无 role / tabindex
+- [x] news-commentary.html 按钮初始 aria-expanded=false
+- [x] news-commentary.html 按钮含可见文字“菜单”（非纯图标）
+- [x] news-commentary.html 装饰图形 .nav-toggle__icon 保持 aria-hidden=true 且无文本
+- [x] news-commentary.html 按钮可访问名称只来自“菜单”
+- [x] news-commentary.html 导航源码无 hidden / aria-hidden / is-open / style 隐藏
+- [x] news-commentary.html 无 JS 时导航链接仍在文档树（未用 hidden/aria-hidden 隐藏）
+- [x] news-commentary.html 全页 aria-hidden 仅图标一处
+- [x] news-commentary.html 无内联事件属性（onclick/onkeydown 等）
+- [x] news-commentary.html 无 style 属性 / 内联隐藏样式
+- [x] news-commentary.html 导航未使用应用菜单专用 role=menu/menuitem/menubar
+- [x] news-commentary.html 原生 nav/ul/li/a 结构且 <nav> 有可访问名称
+- [x] news-commentary.html <main> tabindex=-1 而非 0，未成为常规 Tab 停靠点
+- [x] news-commentary.html 除 <main> 外无 tabindex，无负值使链接退出键盘顺序
+- [x] news-commentary.html 无重复屏幕阅读器当前页专用文本
+- [x] news-commentary.html 无内联初始化脚本（Task 9 不与之重复绑定）
+
+## 一致性 — 5/16 FAIL
+
+- [ ] 规范化（title/h1/aria-current 三处）后四页 DOM 完全一致
+- [ ] 规范化后四页源码逐字节一致（严于 DOM 比较，含标签与属性顺序）
+- [ ] news-message.html 与 index.html 规范化后无差异行
+    - -    <h1 class="page-title">@@H@@</h1> | +    <article class="article"> | +      <header class="article__header"> | +        <p class="article__type">新闻消息</p> | +        <h1 class="page-title">@@H@@</h1> | +        <p class="article__byline">蓝色空间</p>
+- [ ] news-feature.html 与 index.html 规范化后无差异行
+    - -    <h1 class="page-title">@@H@@</h1> | +    <article class="article"> | +      <header class="article__header"> | +        <p class="article__type">新闻通讯</p> | +        <h1 class="page-title">@@H@@</h1> | +        <p class="article__byline">蓝色空间</p>
+- [ ] news-commentary.html 与 index.html 规范化后无差异行
+    - -    <h1 class="page-title">@@H@@</h1> | +    <article class="article"> | +      <header class="article__header"> | +        <p class="article__type">新闻评论</p> | +        <h1 class="page-title">@@H@@</h1> | +        <p class="article__byline">蓝色空间</p>
+- [ ] news-message.html 去除当前页标记后与 index.html 的行级差异只落在 title / h1
+    - ['OTHER', 'h1', 'title']
+- [ ] news-message.html 等于 index.html 应用三处允许差异后的逐字节结果（无第四类差异）
+    - 长度 2383 vs 2319
+- [ ] news-feature.html 去除当前页标记后与 index.html 的行级差异只落在 title / h1
+    - ['OTHER', 'h1', 'title']
+- [ ] news-feature.html 等于 index.html 应用三处允许差异后的逐字节结果（无第四类差异）
+    - 长度 2383 vs 3864
+- [ ] news-commentary.html 去除当前页标记后与 index.html 的行级差异只落在 title / h1
+    - ['OTHER', 'h1', 'title']
+- [ ] news-commentary.html 等于 index.html 应用三处允许差异后的逐字节结果（无第四类差异）
+    - 长度 2389 vs 4490
+- [x] 四页均无页面专属 body class / 额外 wrapper / 页脚
+- [x] 四页 <main> 属性集合一致
+- [x] 四页 <html>/<meta>/<link>/<script> 标签文本一致（除 title）
+- [x] 四页导航块（去 aria-current 后）源码完全一致
+- [x] 四页报头 + 按钮块源码完全一致
+
+## 范围与禁止项 — 99/118 FAIL
+
+- [x] 禁止串 “厨一枚” 在四页命中 0
+- [x] 禁止串 “胡桃” 在四页命中 0
+- [x] 禁止串 “2026” 在四页命中 0
+- [x] 禁止串 “2025” 在四页命中 0
+- [x] 禁止串 “2024” 在四页命中 0
+- [x] 禁止串 “{{” 在四页命中 0
+- [x] 禁止串 “}}” 在四页命中 0
+- [x] 禁止串 “TODO” 在四页命中 0
+- [x] 禁止串 “TBD” 在四页命中 0
+- [x] 禁止串 “@@” 在四页命中 0
+- [x] 禁止串 “待补充” 在四页命中 0
+- [x] 禁止串 “内容待补充” 在四页命中 0
+- [x] 禁止串 “Lorem” 在四页命中 0
+- [x] 禁止串 “ipsum” 在四页命中 0
+- [x] 禁止串 “页面登记表中的主标题” 在四页命中 0
+- [x] 禁止串 “页面登记表中的完整标题” 在四页命中 0
+- [x] 禁止串 “新闻评价” 在四页命中 0
+- [x] 禁止串 “作者” 在四页命中 0
+- [ ] 禁止串 “记者” 在四页命中 0
+    - ['news-commentary.html']
+- [x] 禁止串 “评论员” 在四页命中 0
+- [x] 禁止串 “来源” 在四页命中 0
+- [x] 禁止串 “出处” 在四页命中 0
+- [x] 禁止串 “署名” 在四页命中 0
+- [ ] 禁止串 “蓝色空间” 在四页命中 0
+    - ['news-message.html', 'news-feature.html', 'news-commentary.html']
+- [x] 禁止串 “Materials” 在四页命中 0
+- [x] 禁止串 “.docx” 在四页命中 0
+- [x] 禁止串 “DE10B575” 在四页命中 0
+- [x] 禁止串 “0C5B3525” 在四页命中 0
+- [x] 禁止串 “8E50CFC8” 在四页命中 0
+- [x] 禁止串 “M01” 在四页命中 0
+- [x] 禁止串 “M04” 在四页命中 0
+- [x] 禁止串 “F01” 在四页命中 0
+- [x] 禁止串 “F23” 在四页命中 0
+- [x] 禁止串 “C01” 在四页命中 0
+- [x] 禁止串 “C29” 在四页命中 0
+- [x] 禁止串 “closing_date” 在四页命中 0
+- [ ] 禁止串 “9月” 在四页命中 0
+    - ['news-message.html', 'news-feature.html', 'news-commentary.html']
+- [ ] 禁止串 “自然选择号9月” 在四页命中 0
+    - ['news-message.html', 'news-feature.html', 'news-commentary.html']
+- [x] 禁止串 “电头” 在四页命中 0
+- [x] 禁止串 “http://” 在四页命中 0
+- [x] 禁止串 “https://” 在四页命中 0
+- [x] 禁止串 “www.” 在四页命中 0
+- [x] 禁止串 “localhost” 在四页命中 0
+- [x] 禁止串 “127.0.0.1” 在四页命中 0
+- [x] 禁止串 “://” 在四页命中 0
+- [x] 禁止串 “cdn” 在四页命中 0
+- [x] 禁止串 “favicon” 在四页命中 0
+- [x] 禁止串 “aria-selected” 在四页命中 0
+- [x] 禁止串 “aria-pressed” 在四页命中 0
+- [x] 禁止串 “<footer” 在四页命中 0
+- [x] 禁止串 “footer” 在四页命中 0
+- [x] 禁止串 “<img” 在四页命中 0
+- [x] 禁止串 “<svg” 在四页命中 0
+- [x] 禁止串 “<picture” 在四页命中 0
+- [x] 禁止串 “background-image” 在四页命中 0
+- [x] 禁止串 “<video” 在四页命中 0
+- [x] 禁止串 “<iframe” 在四页命中 0
+- [x] 禁止串 “<form” 在四页命中 0
+- [x] 禁止串 “<input” 在四页命中 0
+- [x] 禁止串 “<search” 在四页命中 0
+- [x] 禁止串 “搜索” 在四页命中 0
+- [x] 禁止串 “推荐” 在四页命中 0
+- [x] 禁止串 “版权所有” 在四页命中 0
+- [x] 禁止串 “©” 在四页命中 0
+- [x] 禁止串 “Copyright” 在四页命中 0
+- [x] 禁止串 “breadcrumb” 在四页命中 0
+- [x] 禁止串 “面包屑” 在四页命中 0
+- [x] 禁止串 “<aside” 在四页命中 0
+- [x] 禁止串 “aside” 在四页命中 0
+- [x] 禁止串 “target=” 在四页命中 0
+- [x] 禁止串 “<base” 在四页命中 0
+- [x] 禁止串 “<style” 在四页命中 0
+- [x] 禁止串 “role=” 在四页命中 0
+- [x] 禁止串 “is-open” 在四页命中 0
+- [x] 禁止串 “display:” 在四页命中 0
+- [ ] 禁止串 “<h2” 在四页命中 0
+    - ['index.html']
+- [x] 禁止串 “<h3” 在四页命中 0
+- [x] 禁止串 “placeholder” 在四页命中 0
+- [x] 禁止串 “注释” 在四页命中 0
+- [x] 禁止串 “<!--” 在四页命中 0
+- [ ] 禁止串 “<article” 在四页命中 0
+    - ['news-message.html', 'news-feature.html', 'news-commentary.html']
+- [x] 禁止串 “datetime” 在四页命中 0
+- [x] 禁止串 “<time” 在四页命中 0
+- [x] 禁止串 “<figure” 在四页命中 0
+- [x] 禁止串 “<blockquote” 在四页命中 0
+- [x] 禁止串 “<noscript” 在四页命中 0
+- [x] 禁止串 “document.write” 在四页命中 0
+- [x] 禁止串 “addEventListener” 在四页命中 0
+- [ ] 禁止串 “<section” 在四页命中 0
+    - ['index.html']
+- [x] 禁止串 “<table” 在四页命中 0
+- [x] 禁止串 “<button type="submit” 在四页命中 0
+- [x] 禁止串 “rem” 在四页命中 0
+- [x] 禁止串 “px” 在四页命中 0
+- [x] 禁止串 “@media” 在四页命中 0
+- [x] 搜索结果 厨一枚 / 胡桃 / 2026 均为 0（合同点名项）
+- [ ] index.html 可见文本集合精确等于 跳至正文 / 自然选择号 / 菜单 / 首页 / 新闻消息 / 新闻通讯 / 新闻评论 / 《自然选择号》报社简介
+    - ['跳至正文', '自然选择号', '菜单', '首页', '新闻消息', '新闻通讯', '新闻评论', '《自然选择号》报社简介', '名称由来', '我们的名字来自《三体》里的一支舰队。', '主要工作与报道方向', '我们主要记录一些自己觉得有价值的东西。', '成立时间', '报社成立于“鸽子衔枝之年”。']
+- [ ] index.html 无文章正文/署名/新闻日期/Word 属性的额外文本
+    - 14
+- [x] index.html 无未替换模板记号
+- [x] index.html 无 HTML 注释（不写入开发注释）
+- [ ] index.html 无页脚/搜索/评论/推荐/图片/外链/宣传语
+- [ ] news-message.html 可见文本集合精确等于 跳至正文 / 自然选择号 / 菜单 / 首页 / 新闻消息 / 新闻通讯 / 新闻评论 / 我校启动校本课程志愿填报
+    - ['跳至正文', '自然选择号', '菜单', '首页', '新闻消息', '新闻通讯', '新闻评论', '新闻消息', '我校启动校本课程志愿填报', '蓝色空间', '自然选择号9月18日7时电', '我校校本课程志愿填报于今日7时正式启动。本次志愿填报采用第一志愿、第二志愿的方式，共有47个社团供学生选择。若两项志愿均未被录取，学生将被调剂至尚有名额的其他社团。', '据了解，本次校本课程录取主要分为志愿填报和定向招生两种方式。普通志愿按照学校公布的规则进行录取；部分社团则有特定的招生要求。例如，心理社团面向心理委员招生，合唱团报名者需要向指导老师展示一段演唱，经老师同意后方可加入。', '在此前的动员会上，老师也提醒同学们，即使最终没有进入最初希望选择的社团，也可以尝试了解调剂后的课程，在新的活动中获得不同的体验。', '目前，校本课程志愿填报工作正在进行中。']
+- [ ] news-message.html 无文章正文/署名/新闻日期/Word 属性的额外文本
+    - 15
+- [x] news-message.html 无未替换模板记号
+- [x] news-message.html 无 HTML 注释（不写入开发注释）
+- [ ] news-message.html 无页脚/搜索/评论/推荐/图片/外链/宣传语
+- [ ] news-feature.html 可见文本集合精确等于 跳至正文 / 自然选择号 / 菜单 / 首页 / 新闻消息 / 新闻通讯 / 新闻评论 / 从数学题到AI时代的学习
+    - ['跳至正文', '自然选择号', '菜单', '首页', '新闻消息', '新闻通讯', '新闻评论', '新闻通讯', '从数学题到AI时代的学习', '蓝色空间', '自然选择号9月17日电', '上午第一节课下课后的课间，我们就数学学习方法和生成式人工智能辅助学习等问题采访了数学李老师。', '“数学是一门基础学科，也是一种基础工具。”谈到对数学这门学科的认识时，李老师首先提到了数学广泛的应用。他认为，数学在很多学科中都有应用和渗透。要学好数学，韧性、毅力和热爱都很重要；如果要达到特别顶尖的水平，天赋也会起到一定作用。', '对于学生每天都要面对的课后学习，李老师特别谈到了作业、改错和针对性练习。', '“如果想提高自己的‘下限’，就要做好改错，认真完成作业；如果想进一步提高自己的‘上限’，还需要进行有针对性的补充。”', '在她看来，认真完成日常学习任务，及时把已经暴露出来的问题解决好，是数学学习中首先要做的事情。在此基础上，如果还希望继续提高，就需要根据自己的实际情况进行补充练习。', '相比熟悉的题型，学生在学习中往往更容易被那些“没有见过”的问题难住。对于一道过去没有遇到过类似题型、暂时找不到思路的题，李老师建议先从题目给出的条件入手，分析这些条件涉及哪些知识点，又能够运用哪些已经学过的知识。', '如果面对的是一个新的问题，还可以先从特殊情况开始研究，再由特殊到一般。与此同时，也可以回想过去研究其他问题时所使用的方法，看看不同问题之间有没有共性，再尝试从中总结规律。', '李老师以几何中的新定义问题为例。遇到这类问题时，可以先从“点”开始研究，再研究线段，然后逐步研究封闭图形、组合图形等情况。研究对象由简单变得复杂，一些原本不容易发现的规律也可能在这个过程中逐渐显现。', '这种从已有条件出发、一步一步寻找规律的过程，是解决陌生数学问题的一种方法。而随着生成式人工智能逐渐进入学习生活，学生面对问题时又多了一种选择——向AI提问。', '谈到AI，李老师首先介绍了自己目前的使用情况。备课、课堂教学、作业设计和批改等教学工作仍由他自己完成，AI主要被用于辅助处理公文一类的事务。', '李老师认为，教师有实际教学过程中积累起来的经验，而AI没有教师这样的教学经验。对于教师来说，AI可以成为提高效率的助手；而对于学生，AI能够发挥作用的场景则更加广泛。', '不过，他并不赞成让AI直接代替学生完成学习任务。', '在李老师看来，对学生而言，AI更适合作为一个能够提供指导的“学习伙伴”。遇到问题时，可以借助AI获得提示、寻找方向，但不应直接让它把答案和完整的思考过程全部告诉自己。', '怎样做到这一点？李老师提到了提示词的使用。', '例如，在询问一道不会的数学题时，可以事先告诉AI：“只给我思路，不要把完整答案和解题过程告诉我。”', '这样一来，AI提供的是进一步思考的方向，而不是直接替学生完成整个解题过程。', '“AI不能代替你做事，它应该起到引导作用。”李老师还特别提到，学生自己要有自己的主见。', '在使用AI的过程中，“会不会提问”也变得越来越重要。李老师认为，首先要学会问问题。在真正向AI求助之前，学生需要知道自己遇到了什么困难，希望得到什么样的帮助，而不是把所有问题一股脑交给AI处理。', '对于怎样判断自己是否已经过度依赖AI，李老师提出，可以从使用的范围、数量和频率来观察。', '他举了一个简单的例子：如果十件事情里面有九件事情都要去找AI，那么依赖就已经比较严重了。', '因此，AI虽然能够参与学习，但使用的方式和程度仍然需要由学生自己把握。它可以帮助整理信息，可以提供方向，也可以在遇到困难时给予提示，但不能取代学生自己的思考。', '从一道陌生的数学题，到如今越来越常见的AI工具，学生获得帮助的方法正在发生变化。但无论使用什么工具，分析条件、寻找突破口、作出判断，仍然是学习中不能省去的过程。', '对于学生来说，答案可以从很多地方得到，而真正需要在一次次学习中积累下来的，是面对下一个问题时，自己仍然知道应该从哪里开始。']
+- [ ] news-feature.html 无文章正文/署名/新闻日期/Word 属性的额外文本
+    - 34
+- [x] news-feature.html 无未替换模板记号
+- [x] news-feature.html 无 HTML 注释（不写入开发注释）
+- [ ] news-feature.html 无页脚/搜索/评论/推荐/图片/外链/宣传语
+- [ ] news-commentary.html 可见文本集合精确等于 跳至正文 / 自然选择号 / 菜单 / 首页 / 新闻消息 / 新闻通讯 / 新闻评论 / 设备升级了，使用门槛也该降下来
+    - ['跳至正文', '自然选择号', '菜单', '首页', '新闻消息', '新闻通讯', '新闻评论', '新闻评论', '设备升级了，使用门槛也该降下来', '蓝色空间', '不久前，我们班换上了一块86英寸的“同窗AI大屏”。和过去使用多年的Windows 10电脑、投影设备相比，新设备屏幕更大，可以直接触控，也集成了不少教学功能。', '设备换新，本来是为了让课堂更方便。但使用一段时间以后，我们发现，新设备带来的不只有便利，还有一些以前没有的问题。', '最明显的一个，就在屏幕左下角。', '这里设置了USB接口，而教室左侧的黑板可以向右滑动。U盘插入以后会突出在外，黑板向右滑时恰好会经过这里，接口附近又没有防撞结构。', '这已经造成了实际损失。根据记者的不完全统计，目前黑板与U盘已经发生过5次碰撞，其中3个U盘被撞坏。现在，最左侧的USB接口也已经无法正常读取、识别原本可以正常使用的U盘。这个接口的损坏是不是由此前的碰撞直接造成，还需要进一步检查，不过，黑板和U盘反复发生碰撞已经是不争的事实。', '这个问题并不复杂。黑板要滑动，老师要用U盘，都是每天都会发生的正常操作。既然设备安装在教室里，接口的位置就应该考虑黑板移动后的范围。否则，一个在设备本身看来没有问题的位置，放到实际教室里就可能变成麻烦。', '如果说USB接口还是看得见、摸得着的问题，那么换用新的操作系统以后出现的一些问题，就没有这么直观了。', '过去十多年，老师们接触最多的是Windows。打开文件、寻找软件、双击安装程序，这些操作早已成为习惯。很多软件下载下来以后也是熟悉的“.exe”文件。', '新大屏使用的是定制版UOS。它和Windows不是同一套系统，Windows下的.exe程序不能直接在UOS中原生运行。对了解电脑的人来说，这不难理解，但大多数老师没有必要专门研究操作系统之间的区别。', '实际使用中，有老师仍然会像过去一样下载.exe安装包，然后尝试安装。结果自然是装不上。理论上，一部分Windows程序可以通过兼容环境运行，但继续处理下去就可能涉及软件安装、管理员权限等问题，而普通任课教师并不知道这台设备的管理员密码。', '这样一来，以前安装一个软件可能只是几次点击，现在却可能需要找人处理。', '问题并不在于UOS本身“好不好”。任何操作系统都有自己的使用方式，换系统也不可能完全没有学习成本。问题是，这是一套给老师上课使用的设备。如果学校常用的软件只能在Windows环境下运行，那么在部署设备时，就应该提前考虑这些软件怎么使用；如果需要兼容环境，也应该尽量把它做成普通教师可以直接操作的方式，而不是把问题留到课堂上以后再解决。', '新系统的学习成本还体现在界面上。', '现在这套设备有两套侧边栏。一套和UOS中的操作有关，另一套负责整机或者OPS层面的功能。对熟悉设备的人来说，这两套菜单可能并不难区分，但对刚从Windows 10转过来的老师来说，情况就不一样了。', '课堂上，老师有时想找一个功能，打开侧边栏以后才发现进错了，又退出去重新找。有时误触进入某个页面，因为不知道退出按钮在哪里，还要摸索一阵。', '十几秒、大半分钟，单独看并不算长。但上课时，老师本来就在同时讲解、板书、操作课件、关注学生。设备如果还需要反复试错，就会打断原本的教学节奏。', '当然，新设备不可能完全不需要学习。', '从过去的电脑加投影仪，到现在直接在大屏上触控操作，老师也需要熟悉新的白板、批注等功能。技术变化以后，使用方式跟着改变，这是正常的。', '但学习新的教学功能，和为设备本身的复杂性付出时间，是两回事。', '学会在大屏上批注、书写，是为了使用新的教学工具；分辨两个容易混淆的侧边栏，则更多是界面本身带来的学习成本。学习一款新的教学软件很正常，但如果只是为了运行一个常用程序，就需要先弄懂Linux、兼容环境和管理员权限，这显然不是普通任课教师最需要掌握的东西。', '从科大讯飞的产品资料来看，这类教学设备已经拥有4K显示、红外多点触控、摄像头、音响等硬件配置；相关智慧黑板产品还提供电子白板、批注、学科工具、投票、计时等功能。今天的教学大屏，能做的事情确实越来越多。', '但教室毕竟不是产品发布会。', '老师每天真正面对的是另一套问题：课件能不能顺利打开，软件能不能正常运行，需要的功能能不能很快找到，插着U盘的时候会不会被黑板撞坏。', '这些事情放在产品参数表里也许不起眼，却会直接影响一节课能不能顺利进行。', '所以，在更新设备的同时，有些细节也值得继续改进。', 'USB接口的位置可以增加防撞措施，或者在安装时避开滑动黑板的活动范围；常用的教学软件可以在设备交付前统一安装，对确实需要使用Windows软件的情况，也可以准备较简单的兼容方案；两套容易混淆的控制界面，则可以通过更明显的标识或者更统一的操作方式来区分。学校在换装设备以后，也有必要针对老师平时最常用的操作做一次真正实用的培训。', '老师当然应该学习使用新的设备，但不能什么问题最后都变成一句“老师要适应”。', '教学设备存在的目的，是帮助老师上课。屏幕可以越来越大，功能可以越来越多，系统也可以不断更新，但对站在讲台前的人来说，操作最好越来越简单，而不是越来越复杂。', '设备升级了，使用门槛也该降下来。“科技不是高高在上的，而应该服务人民。”', '（自然选择号9月18日）']
+- [ ] news-commentary.html 无文章正文/署名/新闻日期/Word 属性的额外文本
+    - 40
+- [x] news-commentary.html 无未替换模板记号
+- [x] news-commentary.html 无 HTML 注释（不写入开发注释）
+- [ ] news-commentary.html 无页脚/搜索/评论/推荐/图片/外链/宣传语
+- [x] 素材未被改动: 新闻消息.docx SHA-256 匹配 Task 1 冻结值
+- [x] 素材未被改动: 新闻通讯.docx SHA-256 匹配 Task 1 冻结值
+- [x] 素材未被改动: 新闻评价.docx SHA-256 匹配 Task 1 冻结值
+
+## 交叉核对 — 23/25 FAIL
+
+- [x] Task 0 与 Task 2 对 index.html 的 title/h1/当前导航项一致
+- [x] Task 0 与 Task 2 对 news-message.html 的 title/h1/当前导航项一致
+- [x] Task 0 与 Task 2 对 news-feature.html 的 title/h1/当前导航项一致
+- [x] Task 0 与 Task 2 对 news-commentary.html 的 title/h1/当前导航项一致
+- [x] 代码中硬编码的 NAV 与 Task 2 导航合同逐条一致
+- [x] 公共接口 “no-js” 在四页全部就位
+- [x] 公共接口 “skip-link” 在四页全部就位
+- [x] 公共接口 “site-header” 在四页全部就位
+- [x] 公共接口 “site-header__inner” 在四页全部就位
+- [x] 公共接口 “site-masthead” 在四页全部就位
+- [x] 公共接口 “site-masthead__link” 在四页全部就位
+- [x] 公共接口 “nav-toggle” 在四页全部就位
+- [x] 公共接口 “nav-toggle__icon” 在四页全部就位
+- [x] 公共接口 “nav-toggle__text” 在四页全部就位
+- [x] 公共接口 “site-navigation” 在四页全部就位
+- [x] 公共接口 “site-navigation__list” 在四页全部就位
+- [x] 公共接口 “site-navigation__item” 在四页全部就位
+- [x] 公共接口 “site-navigation__link” 在四页全部就位
+- [x] 公共接口 “main-content” 在四页全部就位
+- [x] 公共接口 “page-title” 在四页全部就位
+- [x] ID 接口 #nav-toggle 四页各一次
+- [x] ID 接口 #site-navigation 四页各一次
+- [x] ID 接口 #main-content 四页各一次
+- [ ] Task 2 未提前实现样式/交互（Results/ 无 css/js，页面无 CSS 类定义）
+- [ ] Task 2 未提前录入正文（<main> 内无 <article>/<p>/日期）

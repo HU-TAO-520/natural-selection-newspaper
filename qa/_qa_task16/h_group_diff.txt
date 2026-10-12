@@ -1,0 +1,79 @@
+# Task 16.6.4 H 组失败集合差分
+
+基线轮 = 当前七页 HTML + before_styles.css；当前轮 = 当前七页 HTML + 本包 styles.css
+断言代码逐字取自 _qa_task10/verify_task10.mjs 的 H 组（h_group_runner.mjs 按行切片，仅 PAGES 由 H_PAGES 改写）
+
+## baseline 轮（探针 rc=0，H 组 rc=0，行数=20，标签数=19）
+  PASS H1 | 四页样式引用 / Results 样式文件数
+  PASS H2 | styles.css 外部资源
+  PASS H3 | styles.css 字体栈
+  PASS H3/noremote | styles.css 远程字体
+  PASS H4 | styles.css 关键变量
+  PASS H5/id | styles.css ID 选择器
+  PASS H5/important | styles.css !important
+  PASS H5/pagepatch | styles.css 页面识别补丁
+  PASS H6 | styles.css 当前页样式
+  PASS H7 | styles.css 被禁视觉模式
+  PASS H8 | styles.css 移动区段
+  PASS H8/other | styles.css 误写断点
+  PASS H9 | styles.css 移动区段内容
+  PASS H10 | styles.css content 注入
+  FAIL H11 | styles.css 页面专属 class / 第二套移动主题变量 | 期望: 无 .mobile-*/.message-*/.feature-*/.commentary-*/.nowrap/.technical-term；CSS 类均可在 HTML 中找到 | 实际: 禁用命中=；HTML 中不存在的 CSS 类=article,article__header,article__type,article__byline,article__body,dateline,article__date
+  PASS H11/root | styles.css 移动 :root 覆盖范围
+  PASS H12 | styles.css 花括号与语法
+  PASS H12/browser | styles.css 浏览器解析证据
+  PASS H12 | styles.css
+  H 组行数=19 标签数=18 FAIL=1
+
+## current 轮（探针 rc=0，H 组 rc=0，行数=20，标签数=19）
+  PASS H1 | 四页样式引用 / Results 样式文件数
+  PASS H2 | styles.css 外部资源
+  PASS H3 | styles.css 字体栈
+  PASS H3/noremote | styles.css 远程字体
+  PASS H4 | styles.css 关键变量
+  PASS H5/id | styles.css ID 选择器
+  PASS H5/important | styles.css !important
+  PASS H5/pagepatch | styles.css 页面识别补丁
+  PASS H6 | styles.css 当前页样式
+  PASS H7 | styles.css 被禁视觉模式
+  PASS H8 | styles.css 移动区段
+  PASS H8/other | styles.css 误写断点
+  PASS H9 | styles.css 移动区段内容
+  PASS H10 | styles.css content 注入
+  FAIL H11 | styles.css 页面专属 class / 第二套移动主题变量 | 期望: 无 .mobile-*/.message-*/.feature-*/.commentary-*/.nowrap/.technical-term；CSS 类均可在 HTML 中找到 | 实际: 禁用命中=；HTML 中不存在的 CSS 类=article,article__header,article__type,article__byline,article__body,dateline,article__date
+  PASS H11/root | styles.css 移动 :root 覆盖范围
+  PASS H12 | styles.css 花括号与语法
+  PASS H12/browser | styles.css 浏览器解析证据
+  PASS H12 | styles.css
+  H 组行数=19 标签数=18 FAIL=1
+
+## 七页口径（表 3：H1 逐页 = 首页 + 三列表页 + 三详情页）
+  PASS H1 | 四页样式引用 / Results 样式文件数
+  PASS H2 | styles.css 外部资源
+  PASS H3 | styles.css 字体栈
+  PASS H3/noremote | styles.css 远程字体
+  PASS H4 | styles.css 关键变量
+  PASS H5/id | styles.css ID 选择器
+  PASS H5/important | styles.css !important
+  PASS H5/pagepatch | styles.css 页面识别补丁
+  PASS H6 | styles.css 当前页样式
+  PASS H7 | styles.css 被禁视觉模式
+  PASS H8 | styles.css 移动区段
+  PASS H8/other | styles.css 误写断点
+  PASS H9 | styles.css 移动区段内容
+  PASS H10 | styles.css content 注入
+  PASS H11 | styles.css 页面专属 class / 第二套移动主题变量
+  PASS H11/root | styles.css 移动 :root 覆盖范围
+  PASS H12 | styles.css 花括号与语法
+  PASS H12/browser | styles.css 浏览器解析证据
+  PASS H12 | styles.css
+  H 组行数=19 标签数=18 FAIL=0
+
+## 差分
+  基线轮 FAIL 标签：H11
+  当前轮 FAIL 标签：H11
+  新增失败：无（允许集合：H11,H11/root）
+  消失失败：无
+  七页口径 FAIL 标签：无
+  19 行／18 标签对账：基线轮行数=20 标签数=19；当前轮行数=20 标签数=19
+  H13／H14 不在本脚本内（属 Task 18 重写后的闸门），本包只交付定义：确认未出现

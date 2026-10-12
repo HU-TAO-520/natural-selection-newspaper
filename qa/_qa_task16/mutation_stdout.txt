@@ -1,0 +1,173 @@
+# Task 16.9 变异对照（全部注入 _qa_task16/mutants/ 副本，真实 Results/ 只读）
+
+## m01 — 删掉 .entry-list__link:visited（H13 静态面 + 像素面）
+  自证有效：是（伴生规则已从文件中消失）
+  指定断言：S4/H13
+  静态实际红项：S4/H13
+  H 组实际红项：H11
+  未命中：无
+  判定：捕获
+  备注：像素面判据：全局 a:visited 把已访问标题重绘为 --color-accent（暗红），故红项是 accent 分类而非 UA 紫
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## m02 — 把 .entry-list__link:visited 的色值改成 --color-accent（配对值不等）
+  自证有效：是（两侧色值确实不等）
+  指定断言：S4/H13
+  静态实际红项：S4/H13
+  H 组实际红项：H11
+  未命中：无
+  判定：捕获
+  备注：—
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## m03 — 新增页面专属类 .feature-list（H11 与本包类集合禁令）
+  自证有效：是（CSS 出现 .feature-list 而任何页面 DOM 都没有它）
+  指定断言：H11,S2/class-whitelist,S2/selectors
+  静态实际红项：S2/class-whitelist,S2/selectors
+  H 组实际红项：H11
+  未命中：无
+  判定：捕获
+  备注：—
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## m04 — 在移动 :root 里新增 --font-size-list（第二套主题变量）
+  自证有效：是（移动 :root 内确实多出一条表外变量）
+  指定断言：H11,S3/novar,S3/var-whitelist
+  静态实际红项：S3/novar,S3/numeric,S3/var-whitelist
+  H 组实际红项：H11
+  未命中：无
+  判定：捕获
+  备注：—
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## m05 — 用 #latest-title 设样式（ID 选择器）
+  自证有效：是（新规则区确实含 ID 选择器）
+  指定断言：H5/id,S5/banned
+  静态实际红项：S2/selectors,S5/banned
+  H 组实际红项：H11,H5/id
+  未命中：无
+  判定：捕获
+  备注：—
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## m06 — content: "·" 注入分隔点（H10 与本包双重禁止）
+  自证有效：是（确实注入了可见字形）
+  指定断言：S2/selectors,S5/banned
+  静态实际红项：S2/selectors,S5/banned
+  H 组实际红项：H11
+  未命中：无
+  判定：捕获
+  备注：v1 的 H10 只禁中文 content，"·" 不命中；本包的 S5/banned 命中——此口径差已写入交接
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## m07 — 把桌面新规则整体移进 @media 内部（插入位置合同/H8 语义）
+  自证有效：是（新规则确实在 @media 之后）
+  指定断言：S1/two-zones,S2/desktop-rules,S6/media
+  静态实际红项：S1/two-zones,S2/desktop-rules,S6/media,S8/mobile-44
+  H 组实际红项：H11
+  未命中：无
+  判定：捕获
+  备注：—
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## m08 — 复制一份 @media (max-width: 769px)（H8/H8/other）
+  自证有效：是（确实出现第二个媒体块且断点误写）
+  指定断言：H8,H8/other,S6/breakpoint,S6/media
+  静态实际红项：S3/numeric,S5/banned,S6/breakpoint,S6/media
+  H 组实际红项：H11,H12/browser,H8,H8/other
+  未命中：无
+  判定：捕获
+  备注：—
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## m09 — min-block-size/min-inline-size 同改 28px 且 padding-block 压到 0、gap 归零
+  自证有效：是（声明与 padding 同时被压，等待渲染层自证）
+  指定断言：B/touch,S8/mobile-44
+  静态实际红项：S3/numeric,S8/mobile-44
+  H 组实际红项：H11
+  浏览器实际红项：B/touch
+    FAIL B/touch/news-message.html@375 — 链接数=1 实测高=43.75 实测宽=343
+    FAIL B/touch/news-feature.html@375 — 链接数=1 实测高=43.75 实测宽=343
+    FAIL B/touch/news-commentary.html@375 — 链接数=1 实测高=43.75 实测宽=343
+    FAIL B/touch/news-message.html@640 — 链接数=1 实测高=43.75 实测宽=608
+    FAIL B/touch/news-feature.html@640 — 链接数=1 实测高=43.75 实测宽=608
+    FAIL B/touch/news-commentary.html@640 — 链接数=1 实测高=43.75 实测宽=608
+  未命中：无
+  判定：捕获
+  备注：—
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## m09b — 只压宽度：min-inline-size 与 inline-size 同改 20px，高度维持 ≥44
+  自证有效：是（渲染宽度将被压到 20px，而 min-block-size 仍 44（等待渲染层自证））
+  指定断言：B/touch,S8/mobile-44
+  静态实际红项：S3/numeric,S8/mobile-44
+  H 组实际红项：H11
+  浏览器实际红项：B/touch
+    FAIL B/touch/index.html@375 — 链接数=3 实测高=338.5/314.5/410.5 实测宽=20/20/20
+    FAIL B/touch/news-message.html@375 — 链接数=1 实测高=305.5 实测宽=20
+    FAIL B/touch/news-feature.html@375 — 链接数=1 实测高=284.25 实测宽=20
+    FAIL B/touch/news-commentary.html@375 — 链接数=1 实测高=369.25 实测宽=20
+    FAIL B/touch/index.html@640 — 链接数=3 实测高=338.5/314.5/410.5 实测宽=20/20/20
+    FAIL B/touch/news-message.html@640 — 链接数=1 实测高=305.5 实测宽=20
+  未命中：无
+  判定：捕获
+  备注：合同设想的"只改 min-inline-size 而高度不变"若不同时钉死 inline-size 不构成有效变异（块级铺满使宽度仍 ≥44，实测已证），故按 §变异自证 规则加 inline-size 把宽度钉小
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## m10 — overflow-wrap: anywhere 保持，word-break: normal 改成 break-all（H9）
+  自证有效：是（移动块内确实出现被禁的 break-all）
+  指定断言：H9,S5/banned
+  静态实际红项：S5/banned
+  H 组实际红项：H11,H7,H9
+  未命中：无
+  判定：捕获
+  备注：—
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## m11 — 把既有 .home-section 的 padding-block 从 --space-5 改成 --space-4（改写既有区）
+  自证有效：是（既有第 7 分区被就地改写）
+  指定断言：S1/only-add
+  静态实际红项：S1/only-add
+  H 组实际红项：H11
+  未命中：无
+  判定：捕获
+  备注：—
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## m12 — 给新规则加 !important（H5/important）
+  自证有效：是（确实出现 !important）
+  指定断言：H5/important,S5/banned
+  静态实际红项：S5/banned
+  H 组实际红项：H11,H5/important
+  未命中：无
+  判定：捕获
+  备注：—
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## m13 — 给链接加 transition: color .2s（本包禁止清单）
+  自证有效：是（确实出现 transition）
+  指定断言：S5/banned
+  静态实际红项：S5/banned
+  H 组实际红项：H11
+  未命中：无
+  判定：捕获
+  备注：—
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## m14 — 删掉 .entry-list__date 的全部 CSS 规则（H14 规则在场半项，无条件红）
+  自证有效：是（CSS 规则被删光而 DOM 节点仍在输出）
+  指定断言：S2/desktop-rules
+  静态实际红项：S2/desktop-rules
+  H 组实际红项：H11
+  未命中：无
+  判定：捕获
+  备注：—
+  （verify rc=1，H 组 rc=(0, 0)）
+
+## 真实 Results/ 未被触碰
+  前后九文件哈希一致：True
+  除 styles.css 外八项等于 _qa_task15/hashes_after.txt：True（漂移：无）
+
+## 结论：15 类变异，捕获 15，未捕获 0
+  未捕获清单：无
+MUTATE_RC=0

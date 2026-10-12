@@ -1,0 +1,57 @@
+========================================================================
+OK   对照组（真实交付）  共 199 项，通过 199，失败 0
+OK   box-shadow 卡片  捕获 1 项:  禁止项：无 box-shadow  -> ['box-shadow']
+OK   text-shadow  捕获 2 项:  禁止项：无 text-shadow  -> ['text-shadow'];  hex 颜色仅在 :root
+OK   线性渐变  捕获 2 项:  禁止项：无 渐变 gradient  -> ['linear-gradient'];  hex 颜色仅在 :root
+OK   背景图片 url  捕获 2 项:  禁止资源：无 url( 资源引用  -> url(;  禁止项：无 background-image  -> ['background-image']
+OK   远程字体 @import  捕获 4 项:  禁止资源：无 @import  -> @import;  禁止资源：无 url( 资源引用  -> url(
+OK   联网字体 @font-face  捕获 1 项:  禁止资源：无 @font-face  -> @font-face
+OK   border-radius 卡片  捕获 1 项:  禁止项：无 border-radius  -> ['border-radius']
+OK   正文分栏  捕获 1 项:  禁止项：无 column-count  -> ['column-count']
+OK   隐藏横向溢出  捕获 1 项:  禁止项：无 overflow-x hidden/clip  -> ['overflow-x: hidden']
+OK   break-all  捕获 1 项:  禁止项：无 word-break: break-all  -> ['word-break: break-all']
+OK   important  捕获 1 项:  禁止项：无 !important  -> ['!important']
+OK   ID 选择器  捕获 2 项:  选择器存在 .site-navigation;  未使用 ID 选择器  -> #site-navigation
+OK   content 注入文字  捕获 1 项:  禁止项：无 content 注入  -> ['content:']
+OK   text-transform  捕获 1 项:  禁止项：无 text-transform  -> ['text-transform']
+OK   颜色变量被改  捕获 1 项:  变量 --color-paper: #f5efe4  -> 实际='#ffffff'
+OK   暗红强调色被改  捕获 1 项:  变量 --color-accent: #7a2424  -> 实际='#1a7a24'
+OK   字体栈缺 serif  捕获 1 项:  变量 --font-serif: "Songti SC", "STSong", "SimSun", serif  -> 实际='
+OK   版心改 46rem  捕获 1 项:  变量 --layout-max: 70rem  -> 实际='46rem'
+OK   正文宽改 70rem  捕获 1 项:  变量 --reading-max: 46rem  -> 实际='70rem'
+OK   重复变量声明  捕获 2 项:  变量 --layout-max: 70rem  -> 实际='60rem';  自定义属性无重复声明  -> --layout-max
+OK   报头字号写死 px  捕获 2 项:  报头字号 由 --font-size-masthead 引用  -> 0 次;  报头链接字号/行高/字重  -> display: inline-block; font-size: 64px; line-he
+OK   报头改单线  捕获 1 项:  报头上下 double 3px 分隔线  -> margin: 0; padding-block: 1.25rem; borde
+OK   汉堡按钮显示  捕获 1 项:  nav-toggle 桌面 display: none  -> display: block;
+OK   导航默认隐藏  捕获 1 项:  site-navigation 未隐藏  -> display: none; border-bottom: var(--rule
+OK   no-js 导航隐藏  捕获 1 项:  no-js 导航同样 display: block  -> ['display: none;']
+OK   导航裁切溢出  捕获 2 项:  禁止项：无 overflow 简写含 hidden/clip  -> ['overflow: hidden'];  site-navigation 无 overflow 裁切
+OK   当前页无下边框  捕获 2 项:  当前页：暗红 + 实线下边框 + 700 字重  -> color: var(--color-accent); font-wei;  当前页下边框 2px 且为暗红实线  -> color: var(--color-accent); font-weight: 7
+OK   当前页只改颜色  捕获 2 项:  当前页下边框 2px 且为暗红实线  -> color: var(--color-accent); font-weight: 7;  当前页状态不得只靠颜色（下边框不能透明/无）  -> color: var(--color-accent); font-weig
+OK   导航四等分  捕获 2 项:  导航项目间距约 2.5rem  -> list-style: none; margin: 0; padding: 0; disp;  导航未使用四等分宽度
+OK   移除焦点轮廓  捕获 1 项:  禁止项：无 outline: none/0  -> ['outline: none']
+OK   跳转链接 display none  捕获 2 项:  skip-link 默认 translateY(-150%)  -> position: fixed; top: 0; left;  skip-link 未用 display:none/visibility/opacity 隐藏  -> position: fi
+OK   跳转链接无法聚焦  捕获 1 项:  skip-link 聚焦恢复 translateY(0)
+OK   跳转链接被遮挡  捕获 1 项:  skip-link z-index 高于报头  -> position: fixed; top: 0; left: 0; z-i
+OK   版心用 100vw  捕获 2 项:  禁止项：无 width: 100vw  -> ['100vw'];  版心 width 公式  -> width: 100vw; max-width: var(--layout-max); marg
+OK   版心加左 padding  捕获 2 项:  版心块无左右 padding  -> width: calc(100% - var(--page-gutter) - var(-;  主内容未设置左右 padding  -> width: calc(100% - var(--page-gutter) - var
+OK   标题用 nowrap  捕获 1 项:  white-space: nowrap 仅用于导航链接  ->  .site-navigation__link  |  .pag
+OK   全局首行缩进  捕获 5 项:  选择器存在 .article__body > p;  接口 .article__body > p 已定义且含声明  -> 命中规则=0
+OK   段落无缩进  捕获 1 项:  段落 2em 首行缩进 + margin 清零  -> margin: 0; text-indent: 0;
+OK   nth-child 页面补丁  捕获 1 项:  无 body.index 页面识别补丁
+OK   移动端媒体查询  捕获 4 项:  禁止项：无 min-width/max-width px 版心  -> ['max-width: 768px'];  无 @media（含 768px 折叠规则）  -> @media (max-width: 768px) 
+OK   transition 动画  捕获 1 项:  禁止项：无 transition/animation  -> ['transition:']
+OK   grid 卡片布局  捕获 1 项:  禁止项：无 grid 布局  -> ['display: grid', 'grid-template']
+OK   正文斜体  捕获 2 项:  禁止项：无 font-style: italic  -> ['font-style: italic'];  byline 不自动加前缀且非斜体  -> margin: var(--space-4) 0 0; font-style: it
+OK   语义重复别名变量  捕获 1 项:  无与合同语义重复的别名变量  -> --container-width
+OK   移除首页接口  捕获 4 项:  选择器存在 .home-sections;  接口 .home-sections 已定义且含声明  -> 命中规则=0
+OK   移除文章接口  捕获 3 项:  选择器存在 .article__byline;  接口 .article__byline 已定义且含声明  -> 命中规则=0
+OK   移除 dateline  捕获 3 项:  选择器存在 .dateline;  接口 .dateline 已定义且含声明  -> 命中规则=0
+OK   电头转块级  捕获 1 项:  电头只加粗且保持内联  -> font-weight: 700; display: block; margin-top: 1re
+OK   日期左对齐  捕获 1 项:  评论日期：reading-max + 右对齐 + 无缩进  -> max-width: var(--reading-max); 
+OK   HTML 内联样式表  捕获 1 项:  index.html 无 <style> 内联样式表
+OK   HTML style 属性  捕获 1 项:  index.html 无 style= 属性
+OK   Results 多余文件  捕获 1 项:  Results/ 无 Task 3 范围外新文件  -> screenshot.png
+OK   第二套导航  捕获 1 项:  index.html 公共接口数量符合 Task 2 合同  -> {'.site-navigation': 2, '.site
+========================================================================
+变异 53 个 + 对照组 1 个；未达预期 0 个

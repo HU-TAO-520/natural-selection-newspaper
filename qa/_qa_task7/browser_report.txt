@@ -1,0 +1,21 @@
+[d1280 @1280px] 47/47 pass
+[d1024 @1024px] 47/47 pass
+[d768 @768px] 47/47 pass
+[nocss_1280 @1280px] 53/53 pass
+[nojs_1280 @1280px] 52/52 pass
+[zoom640 @640px] 47/47 pass
+screenshot shot_1280: ok 234088 bytes
+screenshot shot_1024: ok 229355 bytes
+screenshot shot_full: ok 447812 bytes
+
+--- 资源引用（页面源码枚举） ---
+全部引用: #main-content, index.html, news-commentary.html, news-feature.html, news-message.html, script.js, styles.css
+外部/绝对 URL: 无
+
+--dump-dom 纯文本 <p> 命中: 29（应为 29 段正文，另有类型/署名/日期带 class）
+--dump-dom 中 2026/厨一枚/胡桃/新闻评价 命中: 0/0/0/0
+--dump-dom 中 <time>/<blockquote>/<img>/<a href> 命中: 0/0/0/6
+渲染 DOM 大小: 8442 bytes
+交付文件大小: 8486 bytes, SHA-256 a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52
+
+BROWSER: 293 checks, 0 failures

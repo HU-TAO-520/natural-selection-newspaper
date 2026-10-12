@@ -1,0 +1,5 @@
+
+
+== Task 11 CDP 回归：819 PASS / 0 FAIL / 共 819 条 ==
+rc=0
+report.md 已生成：819 条断言，PASS 819，FAIL 0；截图 49 张

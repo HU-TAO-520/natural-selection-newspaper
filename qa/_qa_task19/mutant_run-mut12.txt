@@ -1,0 +1,30 @@
+FAIL RK5 [article-math-to-ai-learning.html @1280px] K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） :: 期望 《从数学题到AI时代的学习》｜自然选择号 / 实际 从数学题到AI时代的学习｜自然选择号
+FAIL RK5 [article-math-to-ai-learning.html @1280px] K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） :: 期望 无额外书名号 / 实际 《从数学题到AI时代的学习》
+FAIL RK5 [article-math-to-ai-learning.html @1280px] K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） :: 从数学题到AI时代的学习｜自然选择号 -> Task 15
+FAIL RK5 [article-math-to-ai-learning.html @1280px] K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） :: 《从数学题到AI时代的学习》 -> Task 15
+
+合计 94 条（计分 91）：PASS 89 / FAIL 2 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） :: 期望 《封路之后，沿北小河往南》｜自然选择号 / 实际 封路之后，沿北小河往南｜自然选择号
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） :: 期望 无额外书名号 / 实际 《封路之后，沿北小河往南》
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） :: 封路之后，沿北小河往南｜自然选择号 -> Task 15
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） :: 《封路之后，沿北小河往南》 -> Task 15
+
+合计 113 条（计分 110）：PASS 108 / FAIL 2 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） :: 期望 《封路之后，沿北小河往南》｜自然选择号 / 实际 封路之后，沿北小河往南｜自然选择号
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） :: 期望 无额外书名号 / 实际 《封路之后，沿北小河往南》
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） :: 封路之后，沿北小河往南｜自然选择号 -> Task 15
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） :: 《封路之后，沿北小河往南》 -> Task 15
+
+合计 113 条（计分 110）：PASS 108 / FAIL 2 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） :: 期望 《封路之后，沿北小河往南》｜自然选择号 / 实际 封路之后，沿北小河往南｜自然选择号
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） :: 期望 无额外书名号 / 实际 《封路之后，沿北小河往南》
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） :: 封路之后，沿北小河往南｜自然选择号 -> Task 15
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） :: 《封路之后，沿北小河往南》 -> Task 15
+
+合计 113 条（计分 110）：PASS 108 / FAIL 2 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） :: 期望 《封路之后，沿北小河往南》｜自然选择号 / 实际 封路之后，沿北小河往南｜自然选择号
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） :: 期望 无额外书名号 / 实际 《封路之后，沿北小河往南》
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） :: 封路之后，沿北小河往南｜自然选择号 -> Task 15
+FAIL RK5 [article-along-the-north-small-river.html @1280px] K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） :: 《封路之后，沿北小河往南》 -> Task 15
+
+合计 113 条（计分 110）：PASS 108 / FAIL 2 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0

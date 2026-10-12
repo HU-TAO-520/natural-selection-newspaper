@@ -1,0 +1,201 @@
+PASS  styles.css 存在
+PASS  UTF-8 无 BOM
+PASS  普通文本 CSS（无 NUL/控制字符）
+PASS  禁止资源：无 @import
+PASS  禁止资源：无 @font-face
+PASS  禁止资源：无 url( 资源引用
+PASS  禁止资源：无 http://
+PASS  禁止资源：无 https://
+PASS  禁止资源：无 // 协议相对
+PASS  禁止资源：无 本机盘符路径
+PASS  index.html 仅引用 styles.css
+PASS  index.html 无 <style> 内联样式表
+PASS  index.html 无 style= 属性
+PASS  news-message.html 仅引用 styles.css
+PASS  news-message.html 无 <style> 内联样式表
+PASS  news-message.html 无 style= 属性
+PASS  news-feature.html 仅引用 styles.css
+PASS  news-feature.html 无 <style> 内联样式表
+PASS  news-feature.html 无 style= 属性
+PASS  news-commentary.html 仅引用 styles.css
+PASS  news-commentary.html 无 <style> 内联样式表
+PASS  news-commentary.html 无 style= 属性
+PASS  Results/ 无 Task 3 范围外新文件
+PASS  index.html 公共接口数量符合 Task 2 合同
+PASS  news-message.html 公共接口数量符合 Task 2 合同
+PASS  news-feature.html 公共接口数量符合 Task 2 合同
+PASS  news-commentary.html 公共接口数量符合 Task 2 合同
+PASS  存在 :root 变量块
+PASS  变量 --color-paper: #f5efe4
+PASS  变量 --color-ink: #211f1c
+PASS  变量 --color-muted: #665d56
+PASS  变量 --color-accent: #7a2424
+PASS  变量 --color-rule: #b8aa98
+PASS  变量 --font-serif: "Songti SC", "STSong", "SimSun", serif
+PASS  变量 --layout-max: 70rem
+PASS  变量 --reading-max: 46rem
+PASS  变量 --title-max: 52rem
+PASS  变量 --page-gutter: 2rem
+PASS  变量 --font-size-small: 0.9375rem
+PASS  变量 --font-size-body: 1rem
+PASS  变量 --font-size-reading: 1.125rem
+PASS  变量 --font-size-section-title: 1.5rem
+PASS  变量 --font-size-page-title: 2.5rem
+PASS  变量 --font-size-masthead: 4rem
+PASS  变量 --line-height-tight: 1.25
+PASS  变量 --line-height-ui: 1.5
+PASS  变量 --line-height-reading: 1.9
+PASS  变量 --space-1: 0.25rem
+PASS  变量 --space-2: 0.5rem
+PASS  变量 --space-3: 0.75rem
+PASS  变量 --space-4: 1rem
+PASS  变量 --space-5: 1.5rem
+PASS  变量 --space-6: 2rem
+PASS  变量 --space-7: 3rem
+PASS  变量 --space-8: 4rem
+PASS  变量 --rule-thin: 1px
+PASS  变量 --rule-double: 3px
+PASS  变量 --focus-width: 2px
+PASS  自定义属性无重复声明
+PASS  var() 引用的变量均已定义
+PASS  无与合同语义重复的别名变量
+PASS  正文/介绍字号 由 --font-size-reading 引用
+PASS  页面主标题字号 由 --font-size-page-title 引用
+PASS  报头字号 由 --font-size-masthead 引用
+PASS  小字号 由 --font-size-small 引用
+PASS  选择器存在 .skip-link
+PASS  选择器存在 .site-header
+PASS  选择器存在 .site-header__inner
+PASS  选择器存在 .site-masthead
+PASS  选择器存在 .site-masthead__link
+PASS  选择器存在 .nav-toggle
+PASS  选择器存在 .site-navigation
+PASS  选择器存在 .no-js .site-navigation
+PASS  选择器存在 .site-navigation__list
+PASS  选择器存在 .site-navigation__link
+PASS  选择器存在 .site-navigation__link[aria-current="page"]
+PASS  选择器存在 .main-content
+PASS  选择器存在 .page-title
+PASS  选择器存在 .home-sections
+PASS  选择器存在 .home-section
+PASS  选择器存在 .home-section__title
+PASS  选择器存在 .home-section__text
+PASS  选择器存在 .article
+PASS  选择器存在 .article__header
+PASS  选择器存在 .article__type
+PASS  选择器存在 .article__byline
+PASS  选择器存在 .article__body
+PASS  选择器存在 .article__body > p
+PASS  选择器存在 .dateline
+PASS  选择器存在 .article__date
+PASS  选择器存在 :focus-visible
+PASS  接口 .home-sections 已定义且含声明
+PASS  接口 .home-section 已定义且含声明
+PASS  接口 .home-section__title 已定义且含声明
+PASS  接口 .home-section__text 已定义且含声明
+PASS  接口 .article 已定义且含声明
+PASS  接口 .article__header 已定义且含声明
+PASS  接口 .article__type 已定义且含声明
+PASS  接口 .article__byline 已定义且含声明
+PASS  接口 .article__body 已定义且含声明
+PASS  接口 .article__body > p 已定义且含声明
+PASS  接口 .dateline 已定义且含声明
+PASS  接口 .article__date 已定义且含声明
+PASS  首页接口类名齐全（4 个）
+PASS  文章接口类名齐全（7 个）
+PASS  未使用 ID 选择器
+PASS  无 body.index 页面识别补丁
+PASS  无 body.home 页面识别补丁
+PASS  无 :nth-child 页面识别补丁
+PASS  无 :root . 页面识别补丁
+PASS  首页接口只用合同 .home-* 类
+PASS  段落缩进选择器限定为 .article__body > p
+PASS  禁止项：无 box-shadow
+PASS  禁止项：无 text-shadow
+PASS  禁止项：无 渐变 gradient
+PASS  禁止项：无 background-image
+PASS  禁止项：无 border-radius
+PASS  禁止项：无 column-count
+PASS  禁止项：无 column-width
+PASS  禁止项：无 columns 简写
+PASS  禁止项：无 column-rule
+PASS  禁止项：无 overflow-x hidden/clip
+PASS  禁止项：无 overflow 简写含 hidden/clip
+PASS  禁止项：无 word-break: break-all
+PASS  禁止项：无 !important
+PASS  禁止项：无 content 注入
+PASS  禁止项：无 text-transform
+PASS  禁止项：无 font-style: italic
+PASS  禁止项：无 user-select: none
+PASS  禁止项：无 opacity 降低
+PASS  禁止项：无 outline: none/0
+PASS  禁止项：无 appearance 禁用高亮
+PASS  禁止项：无 grid 布局
+PASS  仅 .skip-link 使用 position: fixed
+PASS  禁止项：无 position: sticky
+PASS  禁止项：无 transition/animation
+PASS  禁止项：无 transform 位移缩放
+PASS  禁止项：无 width: 100vw
+PASS  禁止项：无 min-width/max-width px 版心
+PASS  禁止项：无 font-size px 固定根字号
+PASS  禁止项：无 letter-spacing 全局（html/body/*）
+PASS  white-space: nowrap 仅用于导航链接
+PASS  导航列表桌面端不换行
+PASS  无 @media（含 768px 折叠规则）
+PASS  公共版心公式块存在
+PASS  版心 width 公式
+PASS  版心 max-width: var(--layout-max)
+PASS  版心 margin-inline: auto
+PASS  版心块无左右 padding
+PASS  skip-link 默认 translateY(-150%)
+PASS  skip-link padding >= 0.75rem 1rem
+PASS  skip-link z-index 高于报头
+PASS  skip-link 聚焦恢复 translateY(0)
+PASS  skip-link 未用 display:none/visibility/opacity 隐藏
+PASS  nav-toggle 桌面 display: none
+PASS  site-navigation 未隐藏
+PASS  site-navigation 无 overflow 裁切
+PASS  导航列表 flex + 居中
+PASS  导航列表清除符号/margin/padding
+PASS  导航项目间距约 2.5rem
+PASS  导航未使用四等分宽度
+PASS  当前页：暗红 + 实线下边框 + 700 字重
+PASS  当前页下边框 2px 且为暗红实线
+PASS  当前页状态不得只靠颜色（下边框不能透明/无）
+PASS  普通导航链接预留 2px 透明下边框
+PASS  报头上下 double 3px 分隔线
+PASS  报头居中且 margin 清零
+PASS  报头链接字号/行高/字重
+PASS  报头链接不强制 nowrap
+PASS  报头链接默认无下划线
+PASS  页面标题 max-width --title-max + 居中
+PASS  页面标题字号/行高/字重
+PASS  页面标题 overflow-wrap: break-word
+PASS  正文最大宽度 --reading-max
+PASS  正文 18px / 行高 1.9 变量
+PASS  正文 justify + inter-ideograph
+PASS  正文 line-break: strict / hyphens: none
+PASS  段落 2em 首行缩进 + margin 清零
+PASS  相邻段落间距约 0.75em
+PASS  电头只加粗且保持内联
+PASS  评论日期：reading-max + 右对齐 + 无缩进
+PASS  byline 不自动加前缀且非斜体
+PASS  主内容 min-width: 0
+PASS  主内容上 3rem / 下 5rem
+PASS  主内容未设置左右 padding
+PASS  no-js 导航同样 display: block
+PASS  导航容器无固定宽高
+PASS  --color-paper 被实际使用
+PASS  --color-ink 被实际使用
+PASS  --color-muted 被实际使用
+PASS  --color-accent 被实际使用
+PASS  --color-rule 被实际使用
+PASS  正文色未用于大面积底色
+PASS  hex 颜色仅在 :root
+PASS  花括号配对
+PASS  注释成对闭合
+PASS  无空声明体
+PASS  声明均以分号结束
+PASS  无嵌套/preprocessor 语法残留
+
+共 199 项，通过 199，失败 0

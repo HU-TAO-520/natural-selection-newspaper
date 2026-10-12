@@ -1,0 +1,130 @@
+[RZ0] [REC] - — - — 验收环境 — Chrome/154.0.8037.93 · headless=new · file:// 直开 · profile=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\.cdp9381-1791034200457 · 被测目录=C:\Users\weibo\Documents\语文报纸\Results · 段=online
+[RZ1] [PASS] - — - — 19.1 遍历清单条数 == manifest.counts.html（HTML 子集，非目录扫描所得） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 styles.css／script.js 不是页（不进遍历清单） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 遍历顺序按 path 字典序 — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [REC] - — - — 本轮实跑页集合（QODER_ONLY 只影响实跑范围，不改变清单结论） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ2] [PASS] - — - — 前置闸门：Task 18 结论 FAIL 0 且 PENDING 0（未全绿则本包不开跑） — 匹配=true
+[RZ2] [PASS] - — - — 前置闸门：Task 18 变异捕获率 100% — 100
+[RZ2] [PASS] - — - — 前置闸门：Task 18 断言数 ≥340 — 1395
+[RZ2] [PASS] - — - — 前置闸门：expected_reversals.md 已读入本包前置（区分真回归与范围过期的唯一依据） — true
+[RZ3] [PASS] - — - — 19.1 Task18 facts.json 的 __meta 与目录绑定：页集合与本包遍历清单同源（复用 M1 结论，不重造） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ3] [PASS] - — - — 19.1 快照未过期：__meta 逐页哈希 == 当前 Results/ 逐页哈希 — 0 页失配
+[RZ4] [PASS] - — - — 19.1 首页哈希 == 清单登记值（合同基线表里的 2629 字节 971e57a5… 是 v1 六文件值，当前以 manifest 为准，Task18 §8.3 已登记） — 14b82801fc5c1a96…/3631B
+[RZ4] [PASS] - — - — 19.1 Results/ 文件数 == 清单 pages 数（交付文件 6+N=12） — 12
+[RZ5] [PASS] - — - — 19.1 输入前置：五处目录齐备 — 全部存在
+[RZ5] [PASS] - — - — 19.1 输入前置：清单／打包件／上传单／Task18 事实／Task13 基线／v1 母本齐备 — 全部存在
+[RO0] [REC] 线上 — - — R-O 线上复验开跑（用户已上传 deploy/site.zip；本包不代上传、不调 Cloudflare API） — preflight HTTP 200
+[RO1] [PASS] / — 线上 — O1 站点可访问：首页 HTML 含站点名 — <!doctype html> <html lang="zh-CN" class
+[RO1] [PASS] article-along-the-north-small-river.html — 线上 — O1 清单页在线上 200 且 HTML 里的 <title> 就是这一页（内容身份，不被回退页冒充） — 200 身份命中=true
+[RO1] [PASS] article-classroom-screen-upgrade.html — 线上 — O1 清单页在线上 200 且 HTML 里的 <title> 就是这一页（内容身份，不被回退页冒充） — 200 身份命中=true
+[RO1] [PASS] article-math-to-ai-learning.html — 线上 — O1 清单页在线上 200 且 HTML 里的 <title> 就是这一页（内容身份，不被回退页冒充） — 200 身份命中=true
+[RO1] [PASS] article-north-of-dam-river.html — 线上 — O1 清单页在线上 200 且 HTML 里的 <title> 就是这一页（内容身份，不被回退页冒充） — 200 身份命中=true
+[RO1] [PASS] article-school-course-selection-results.html — 线上 — O1 清单页在线上 200 且 HTML 里的 <title> 就是这一页（内容身份，不被回退页冒充） — 200 身份命中=true
+[RO1] [PASS] article-school-course-volunteer.html — 线上 — O1 清单页在线上 200 且 HTML 里的 <title> 就是这一页（内容身份，不被回退页冒充） — 200 身份命中=true
+[RO1] [PASS] index.html — 线上 — O1 清单页在线上 200 且 HTML 里的 <title> 就是这一页（内容身份，不被回退页冒充） — 200 身份命中=true
+[RO1] [PASS] news-commentary.html — 线上 — O1 清单页在线上 200 且 HTML 里的 <title> 就是这一页（内容身份，不被回退页冒充） — 200 身份命中=true
+[RO1] [PASS] news-feature.html — 线上 — O1 清单页在线上 200 且 HTML 里的 <title> 就是这一页（内容身份，不被回退页冒充） — 200 身份命中=true
+[RO1] [PASS] news-message.html — 线上 — O1 清单页在线上 200 且 HTML 里的 <title> 就是这一页（内容身份，不被回退页冒充） — 200 身份命中=true
+[RO1] [PASS] 站点 — 线上 — O1 线上可达 HTML 页面数 == manifest.counts.html（页面口径 4 + N；Pages 后台 "Pages" 计数由用户按 UPLOAD.md 核对，本包不调 Cloudflare API） — 10 页全部 200
+[RO7] [PASS] Results/ — 线上 — O7 交付文件数按 6 + N 核对（N=6，口径=Results 内要交付的文件） — 12
+[RO7] [PASS] deploy/site.zip — 线上 — O7 zip 文件条目数按 7 + N 核对（含只进包不进 Results 的 _headers） — 13
+[RO7] [PASS] 站点 — 线上 — O7 站点 HTML 页面数按 4 + N 核对 — 10
+[RO7] [PASS] 站点 — 线上 — O7 三个数字两两不等、口径不得混用（6 + N=12／7 + N=13／4 + N=9） — 12／13／10 且与 UPLOAD.md 登记值一致=false
+[RO4] [PASS] / — 线上 — O4 X-Frame-Options 生效 — DENY
+[RO4] [PASS] / — 线上 — O4 HSTS 生效 — max-age=31536000; includeSubDomains
+[RO4] [PASS] / — 线上 — O4 X-Content-Type-Options 生效 — nosniff
+[RO4] [PASS] / — 线上 — O4 CSP frame-ancestors 'none' 生效（本组因此一律真实标签页，不用 iframe） — default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 's
+[RO4] [PASS] /_headers — 线上 — O4 `_headers` 不可下载：返回的是首页 HTML 而不是配置内容 — status=200 首 40=<!doctype html> <html lang="zh-CN" class
+[RO3] [PASS] styles.css — 线上 — O3 线上样式与本地清单同版本（Auto-Minify 必须关闭，否则被改写） — de2d9022625d6c6a6c2833c09ad4cccd73dd0582689d018374ed09f68f3f5cc4
+[RO3] [PASS] script.js — 线上 — O3 线上脚本与本地清单同版本（Rocket Loader 必须关闭） — abb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666
+[RO2] [PASS] news-message.html — 线上 — O2 去后缀形态直接可达（Cloudflare Pages 的 308 行为，只在 R-O 测，不写进 R-A） — 200
+[RO2] [PASS] news-message.html — 线上/去后缀 — O2 跳转后 <title> 与合同一致（相对引用没被 308 打断） — 新闻消息｜自然选择号（落地 URL=https://old-ns-news.pages.dev//news-message）
+[RO2] [PASS] news-message.html — 线上/去后缀 — O2 跳转后 styles.css 真的生效（纸色底=本地合同值） — rgb(245, 239, 228)
+[RO2] [PASS] news-message.html — 线上/去后缀 — O2 跳转后 script.js 真的执行（no-js→js 发生） — js
+[RO2] [PASS] news-feature.html — 线上 — O2 去后缀形态直接可达（Cloudflare Pages 的 308 行为，只在 R-O 测，不写进 R-A） — 200
+[RO2] [PASS] news-feature.html — 线上/去后缀 — O2 跳转后 <title> 与合同一致（相对引用没被 308 打断） — 新闻通讯｜自然选择号（落地 URL=https://old-ns-news.pages.dev//news-feature）
+[RO2] [PASS] news-feature.html — 线上/去后缀 — O2 跳转后 styles.css 真的生效（纸色底=本地合同值） — rgb(245, 239, 228)
+[RO2] [PASS] news-feature.html — 线上/去后缀 — O2 跳转后 script.js 真的执行（no-js→js 发生） — js
+[RO2] [PASS] news-commentary.html — 线上 — O2 去后缀形态直接可达（Cloudflare Pages 的 308 行为，只在 R-O 测，不写进 R-A） — 200
+[RO2] [PASS] news-commentary.html — 线上/去后缀 — O2 跳转后 <title> 与合同一致（相对引用没被 308 打断） — 新闻评论｜自然选择号（落地 URL=https://old-ns-news.pages.dev//news-commentary）
+[RO2] [PASS] news-commentary.html — 线上/去后缀 — O2 跳转后 styles.css 真的生效（纸色底=本地合同值） — rgb(245, 239, 228)
+[RO2] [PASS] news-commentary.html — 线上/去后缀 — O2 跳转后 script.js 真的执行（no-js→js 发生） — js
+[RO3] [PASS] article-school-course-selection-results.html — 线上/带后缀 — O3 线上 <title> == 文章标题 + 后缀 — 我校校本课程选择结果公布｜自然选择号
+[RO3] [PASS] article-school-course-selection-results.html — 线上/带后缀 — O3 线上 <h1> 与文章标题逐字一致 — 我校校本课程选择结果公布
+[RO3] [PASS] article-school-course-selection-results.html — 线上/带后缀 — O3 线上渲染与本地同版本：样式生效 + 脚本执行 + 段落数等于基线 — rgb(245, 239, 228)/js/2
+[RO3] [PASS] article-school-course-selection-results.html — 线上/带后缀 — O3 线上当前项归属仍是所属栏目页 — news-message.html
+[RO3] [PASS] article-school-course-selection-results.html — 线上/去后缀 — O3 线上 <title> == 文章标题 + 后缀 — 我校校本课程选择结果公布｜自然选择号
+[RO3] [PASS] article-school-course-selection-results.html — 线上/去后缀 — O3 线上 <h1> 与文章标题逐字一致 — 我校校本课程选择结果公布
+[RO3] [PASS] article-school-course-selection-results.html — 线上/去后缀 — O3 线上渲染与本地同版本：样式生效 + 脚本执行 + 段落数等于基线 — rgb(245, 239, 228)/js/2
+[RO3] [PASS] article-school-course-selection-results.html — 线上/去后缀 — O3 线上当前项归属仍是所属栏目页 — news-message.html
+[RO3] [PASS] article-school-course-volunteer.html — 线上/带后缀 — O3 线上 <title> == 文章标题 + 后缀 — 我校启动校本课程志愿填报｜自然选择号
+[RO3] [PASS] article-school-course-volunteer.html — 线上/带后缀 — O3 线上 <h1> 与文章标题逐字一致 — 我校启动校本课程志愿填报
+[RO3] [PASS] article-school-course-volunteer.html — 线上/带后缀 — O3 线上渲染与本地同版本：样式生效 + 脚本执行 + 段落数等于基线 — rgb(245, 239, 228)/js/4
+[RO3] [PASS] article-school-course-volunteer.html — 线上/带后缀 — O3 线上当前项归属仍是所属栏目页 — news-message.html
+[RO3] [PASS] article-school-course-volunteer.html — 线上/去后缀 — O3 线上 <title> == 文章标题 + 后缀 — 我校启动校本课程志愿填报｜自然选择号
+[RO3] [PASS] article-school-course-volunteer.html — 线上/去后缀 — O3 线上 <h1> 与文章标题逐字一致 — 我校启动校本课程志愿填报
+[RO3] [PASS] article-school-course-volunteer.html — 线上/去后缀 — O3 线上渲染与本地同版本：样式生效 + 脚本执行 + 段落数等于基线 — rgb(245, 239, 228)/js/4
+[RO3] [PASS] article-school-course-volunteer.html — 线上/去后缀 — O3 线上当前项归属仍是所属栏目页 — news-message.html
+[RO3] [PASS] article-along-the-north-small-river.html — 线上/带后缀 — O3 线上 <title> == 文章标题 + 后缀 — 封路之后，沿北小河往南｜自然选择号
+[RO3] [PASS] article-along-the-north-small-river.html — 线上/带后缀 — O3 线上 <h1> 与文章标题逐字一致 — 封路之后，沿北小河往南
+[RO3] [PASS] article-along-the-north-small-river.html — 线上/带后缀 — O3 线上渲染与本地同版本：样式生效 + 脚本执行 + 段落数等于基线 — rgb(245, 239, 228)/js/4
+[RO3] [PASS] article-along-the-north-small-river.html — 线上/带后缀 — O3 线上当前项归属仍是所属栏目页 — news-feature.html
+[RO3] [PASS] article-along-the-north-small-river.html — 线上/去后缀 — O3 线上 <title> == 文章标题 + 后缀 — 封路之后，沿北小河往南｜自然选择号
+[RO3] [PASS] article-along-the-north-small-river.html — 线上/去后缀 — O3 线上 <h1> 与文章标题逐字一致 — 封路之后，沿北小河往南
+[RO3] [PASS] article-along-the-north-small-river.html — 线上/去后缀 — O3 线上渲染与本地同版本：样式生效 + 脚本执行 + 段落数等于基线 — rgb(245, 239, 228)/js/4
+[RO3] [PASS] article-along-the-north-small-river.html — 线上/去后缀 — O3 线上当前项归属仍是所属栏目页 — news-feature.html
+[RO3] [PASS] article-north-of-dam-river.html — 线上/带后缀 — O3 线上 <title> == 文章标题 + 后缀 — 坝河以北，走过的东坝｜自然选择号
+[RO3] [PASS] article-north-of-dam-river.html — 线上/带后缀 — O3 线上 <h1> 与文章标题逐字一致 — 坝河以北，走过的东坝
+[RO3] [PASS] article-north-of-dam-river.html — 线上/带后缀 — O3 线上渲染与本地同版本：样式生效 + 脚本执行 + 段落数等于基线 — rgb(245, 239, 228)/js/5
+[RO3] [PASS] article-north-of-dam-river.html — 线上/带后缀 — O3 线上当前项归属仍是所属栏目页 — news-feature.html
+[RO3] [PASS] article-north-of-dam-river.html — 线上/去后缀 — O3 线上 <title> == 文章标题 + 后缀 — 坝河以北，走过的东坝｜自然选择号
+[RO3] [PASS] article-north-of-dam-river.html — 线上/去后缀 — O3 线上 <h1> 与文章标题逐字一致 — 坝河以北，走过的东坝
+[RO3] [PASS] article-north-of-dam-river.html — 线上/去后缀 — O3 线上渲染与本地同版本：样式生效 + 脚本执行 + 段落数等于基线 — rgb(245, 239, 228)/js/5
+[RO3] [PASS] article-north-of-dam-river.html — 线上/去后缀 — O3 线上当前项归属仍是所属栏目页 — news-feature.html
+[RO3] [PASS] article-math-to-ai-learning.html — 线上/带后缀 — O3 线上 <title> == 文章标题 + 后缀 — 从数学题到AI时代的学习｜自然选择号
+[RO3] [PASS] article-math-to-ai-learning.html — 线上/带后缀 — O3 线上 <h1> 与文章标题逐字一致 — 从数学题到AI时代的学习
+[RO3] [PASS] article-math-to-ai-learning.html — 线上/带后缀 — O3 线上渲染与本地同版本：样式生效 + 脚本执行 + 段落数等于基线 — rgb(245, 239, 228)/js/23
+[RO3] [PASS] article-math-to-ai-learning.html — 线上/带后缀 — O3 线上当前项归属仍是所属栏目页 — news-feature.html
+[RO3] [PASS] article-math-to-ai-learning.html — 线上/去后缀 — O3 线上 <title> == 文章标题 + 后缀 — 从数学题到AI时代的学习｜自然选择号
+[RO3] [PASS] article-math-to-ai-learning.html — 线上/去后缀 — O3 线上 <h1> 与文章标题逐字一致 — 从数学题到AI时代的学习
+[RO3] [PASS] article-math-to-ai-learning.html — 线上/去后缀 — O3 线上渲染与本地同版本：样式生效 + 脚本执行 + 段落数等于基线 — rgb(245, 239, 228)/js/23
+[RO3] [PASS] article-math-to-ai-learning.html — 线上/去后缀 — O3 线上当前项归属仍是所属栏目页 — news-feature.html
+[RO3] [PASS] article-classroom-screen-upgrade.html — 线上/带后缀 — O3 线上 <title> == 文章标题 + 后缀 — 设备升级了，使用门槛也该降下来｜自然选择号
+[RO3] [PASS] article-classroom-screen-upgrade.html — 线上/带后缀 — O3 线上 <h1> 与文章标题逐字一致 — 设备升级了，使用门槛也该降下来
+[RO3] [PASS] article-classroom-screen-upgrade.html — 线上/带后缀 — O3 线上渲染与本地同版本：样式生效 + 脚本执行 + 段落数等于基线 — rgb(245, 239, 228)/js/29
+[RO3] [PASS] article-classroom-screen-upgrade.html — 线上/带后缀 — O3 线上当前项归属仍是所属栏目页 — news-commentary.html
+[RO3] [PASS] article-classroom-screen-upgrade.html — 线上/去后缀 — O3 线上 <title> == 文章标题 + 后缀 — 设备升级了，使用门槛也该降下来｜自然选择号
+[RO3] [PASS] article-classroom-screen-upgrade.html — 线上/去后缀 — O3 线上 <h1> 与文章标题逐字一致 — 设备升级了，使用门槛也该降下来
+[RO3] [PASS] article-classroom-screen-upgrade.html — 线上/去后缀 — O3 线上渲染与本地同版本：样式生效 + 脚本执行 + 段落数等于基线 — rgb(245, 239, 228)/js/29
+[RO3] [PASS] article-classroom-screen-upgrade.html — 线上/去后缀 — O3 线上当前项归属仍是所属栏目页 — news-commentary.html
+[RO5] [PASS] index.html — 线上 — O5 线上首页含 R7 修订文本"鸽子衔枝之年"（该条未发布的文本变更随本轮一并上线） — 命中
+[RO5] [PASS] index.html — 线上 — O5 旧文本"2024年"不在线上任何位置 — false
+[RO5] [PASS] index.html — 线上 — O5 线上首页 HTML 不含任何四位数字（R6：年份形态全站零豁免） — 命中 0 处
+[RO5] [PASS] index.html — 线上 — O5 线上首页第三条渲染文本逐字符等于 Task4 冻结值（P_FOUNDED） — 报社成立于“鸽子衔枝之年”。
+[RO6] [PASS] 全站 — 线上 — O6 清单内每一页都没有 404（0 个 404） — 0 页 404
+[RO6] [REC] /article-task19-does-not-exist.html — 线上 — 不存在路径的线上行为登记（站点设置事实，不是交付物缺陷） — HTTP 200，返回的是首页 HTML → Pages 侧存在 404/SPA 回退；正因如此 O1 才改用内容身份核对，不让"200"单独充当可达性证据
+[RO6] [PASS] 全站 — 线上 — O6 浏览器控制台 0 错误 0 未捕获异常（含真实标签页加载全部 HTML 页） — 0 条
+[RO6] [PASS] 全站 — 线上 — O6 无混合内容：浏览器实际发出的资源请求全部 https — （共 0 条，全 https）
+[RO6] [PASS] article-along-the-north-small-river.html — 线上 — 站内链接不带查询参数、不为绝对 URL（Task0 离线约束在线上同样成立；探针带的 ?cb 只是本脚本绕缓存用） — 0 条
+[RO6] [PASS] article-classroom-screen-upgrade.html — 线上 — 站内链接不带查询参数、不为绝对 URL（Task0 离线约束在线上同样成立；探针带的 ?cb 只是本脚本绕缓存用） — 0 条
+[RO6] [PASS] article-math-to-ai-learning.html — 线上 — 站内链接不带查询参数、不为绝对 URL（Task0 离线约束在线上同样成立；探针带的 ?cb 只是本脚本绕缓存用） — 0 条
+[RO6] [PASS] article-north-of-dam-river.html — 线上 — 站内链接不带查询参数、不为绝对 URL（Task0 离线约束在线上同样成立；探针带的 ?cb 只是本脚本绕缓存用） — 0 条
+[RO6] [PASS] article-school-course-selection-results.html — 线上 — 站内链接不带查询参数、不为绝对 URL（Task0 离线约束在线上同样成立；探针带的 ?cb 只是本脚本绕缓存用） — 0 条
+[RO6] [PASS] article-school-course-volunteer.html — 线上 — 站内链接不带查询参数、不为绝对 URL（Task0 离线约束在线上同样成立；探针带的 ?cb 只是本脚本绕缓存用） — 0 条
+[RO6] [PASS] index.html — 线上 — 站内链接不带查询参数、不为绝对 URL（Task0 离线约束在线上同样成立；探针带的 ?cb 只是本脚本绕缓存用） — 0 条
+[RO6] [PASS] news-commentary.html — 线上 — 站内链接不带查询参数、不为绝对 URL（Task0 离线约束在线上同样成立；探针带的 ?cb 只是本脚本绕缓存用） — 0 条
+[RO6] [PASS] news-feature.html — 线上 — 站内链接不带查询参数、不为绝对 URL（Task0 离线约束在线上同样成立；探针带的 ?cb 只是本脚本绕缓存用） — 0 条
+[RO6] [PASS] news-message.html — 线上 — 站内链接不带查询参数、不为绝对 URL（Task0 离线约束在线上同样成立；探针带的 ?cb 只是本脚本绕缓存用） — 0 条
+[RJ5] [PASS] 全部 HTML 页全程 — 全部宽度/状态/操作 — 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） — 0 条
+[RZ12] [REC] 全包 — - — 断言总数下限（≥1400）属全包闸门，单段模式记 REC，不参与判定 — 本段计分 114
+[RZ12] [PASS] 全包 — - — PENDING 恒为 0（等待外部动作只有 SKIPPED-BY-DESIGN 这一个名字） — 0
+[RZ10] [PASS] Results/ — - — 19.10 只读证明：Results/ 开工与完工逐项哈希相等 — 12 项 且内容一致
+[RZ10] [PASS] content/ — - — 19.10 只读证明：content/ 开工与完工逐项哈希相等 — 8 项 且内容一致
+[RZ10] [PASS] build/ — - — 19.10 只读证明：build/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] deploy/ — - — 19.10 只读证明：deploy/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] Materials/ — - — 19.10 只读证明：Materials/ 开工与完工逐项哈希相等 — 3 项 且内容一致
+[RZ10] [PASS] Results/ — - — 19.10 Results/ 无新增文件（压力样本与探针产物一律落在 _qa_task19/mutants/） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css
+[RZ11] [PASS] Results/ — - — 19.10 本包未修改任何被验对象（变异与压力跑均指向副本目录 本轮未使用副本） — ok
+[RZ11] [PASS] Results/ — - — 19.10 Results/ 内无清单外文件、无探针／截图／JSON 产物 — 0 个
+
+合计 128 条（计分 123）：PASS 123 / FAIL 0 / SKIPPED-BY-DESIGN 0 / REC 5 / PENDING 0

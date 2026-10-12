@@ -1,0 +1,12 @@
+file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/index.html
+RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/index.html
+file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/styles.css
+file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/script.js
+RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/styles.css
+RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/script.js
+file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/news-message.html
+RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/news-message.html
+file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/news-feature.html
+RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/news-feature.html
+file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/news-commentary.html
+RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/news-commentary.html

@@ -1,0 +1,106 @@
+
+### 新闻消息  (source: Materials\新闻消息.docx)
+SHA-256 : DE10B575399E0563430F2F255C956B179C9978C087897A24910AD70D6A50F6FC
+paragraph nodes=6  non-empty=6  contract items=6  tables=0
+  OK   title         chars=12   runs=1
+  OK   byline        chars=4    runs=1
+  OK   M01           chars=96   runs=3
+  OK   M02           chars=109  runs=1
+  OK   M03           chars=64   runs=1
+  OK   M04           chars=19   runs=1
+
+### 新闻通讯  (source: Materials\新闻通讯.docx)
+SHA-256 : 0C5B35256B7271ACFB2F49AEC146288B404ED49C376AC2C8B3F6246B38F894A4
+paragraph nodes=26  non-empty=25  contract items=25  tables=0
+  OK   title         chars=12   runs=1
+  OK   byline        chars=4    runs=1
+  OK   F01           chars=58   runs=3
+  OK   F02           chars=114  runs=1
+  OK   F03           chars=36   runs=1
+  OK   F04           chars=58   runs=1
+  OK   F05           chars=81   runs=3
+  OK   F06           chars=106  runs=1
+  OK   F07           chars=85   runs=1
+  OK   F08           chars=99   runs=1
+  OK   F09           chars=78   runs=1
+  OK   F10           chars=70   runs=1
+  OK   F11           chars=83   runs=1
+  OK   F12           chars=24   runs=1
+  OK   F13           chars=83   runs=1
+  OK   F14           chars=21   runs=1
+  OK   F15           chars=49   runs=1
+  OK   F16           chars=37   runs=1
+  OK   F17           chars=43   runs=1
+  OK   F18           chars=97   runs=1
+  OK   F19           chars=43   runs=1
+  OK   F20           chars=44   runs=1
+  OK   F21           chars=79   runs=1
+  OK   F22           chars=80   runs=1
+  OK   F23           chars=61   runs=1
+
+### 新闻评论  (source: Materials\新闻评价.docx)
+SHA-256 : 8E50CFC89287035163D5FE95C8B1CEE20A5AA405E9D04EC358FB5C9312C3827C
+paragraph nodes=32  non-empty=32  contract items=32  tables=0
+  OK   title         chars=15   runs=1
+  OK   byline        chars=4    runs=1
+  OK   C01           chars=80   runs=1
+  OK   C02           chars=56   runs=1
+  OK   C03           chars=15   runs=1
+  OK   C04           chars=64   runs=1
+  OK   C05           chars=138  runs=1
+  OK   C06           chars=101  runs=2
+  OK   C07           chars=50   runs=1
+  OK   C08           chars=75   runs=1
+  OK   C09           chars=100  runs=1
+  OK   C10           chars=118  runs=1
+  OK   C11           chars=34   runs=1
+  OK   C12           chars=167  runs=2
+  OK   C13           chars=16   runs=1
+  OK   C14           chars=98   runs=1
+  OK   C15           chars=68   runs=1
+  OK   C16           chars=70   runs=1
+  OK   C17           chars=17   runs=1
+  OK   C18           chars=65   runs=1
+  OK   C19           chars=30   runs=1
+  OK   C20           chars=126  runs=1
+  OK   C21           chars=100  runs=1
+  OK   C22           chars=13   runs=1
+  OK   C23           chars=65   runs=1
+  OK   C24           chars=35   runs=1
+  OK   C25           chars=24   runs=1
+  OK   C26           chars=163  runs=2
+  OK   C27           chars=37   runs=1
+  OK   C28           chars=77   runs=1
+  OK   C29           chars=36   runs=4
+  OK   closing_date  chars=12   runs=1
+
+### 包结构与版式痕迹检查
+  Materials\新闻消息.docx: parts=11 | {"w:sectPr": 2}
+  Materials\新闻通讯.docx: parts=11 | {"w:lastRenderedPageBreak": 3, "w:sectPr": 2}
+  Materials\新闻评价.docx: parts=13 | {"w:lastRenderedPageBreak": 4, "w:sectPr": 2}
+
+### 高风险字符专项检查
+  PASS M01 电头后恰为 1 个 U+0020
+  PASS F01 电头后恰为 1 个 U+0020
+  PASS 正文无连续两个及以上半角空格(消息)
+  PASS 正文无连续两个及以上半角空格(通讯)
+  PASS 评论无 '安 装'
+  PASS 评论保留 86英寸
+  PASS 评论保留 'Windows 10' 半角空格 (2 次)
+  PASS 评论 .exe 共 3 次
+  PASS 评论无裸 'exe' 缺前导句点
+  PASS 评论保留 USB/UOS/OPS/Linux/4K 大写
+  PASS 评论保留 5次碰撞 / 3个U盘
+  PASS closing_date 全角括号且无年份
+  PASS 通讯 AI 全大写、无 '人工智能' 之外的替换
+  PASS 通讯 '生成式人工智能' 原样出现 2 次(F01/F09)
+  PASS 通讯保留 她(F05)/他 不一致
+  PASS 通讯含双破折号 ——
+  PASS 通讯含内层单引号 ‘’
+  PASS 消息保留 47个社团 / 第一志愿、第二志愿 / 中文分号
+  PASS 三份合同均无 2026
+  PASS 三份合同均无 '作者：'/'记者：'/'来源：' 等标签
+  PASS 三处署名恰为 '蓝色空间'
+
+======================================================================
+RESULT: ALL CHECKS PASS

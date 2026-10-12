@@ -1,0 +1,8 @@
+检查项覆盖：公共壳 / DOM 结构 / 文本保真 / 白名单 / 禁止项 / 范围 / 渐进增强
+  [FAIL] 范围与交接 / Results/ 目录文件集合未因本任务扩张（无脚本/截图/JSON） —— 期望 ['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'styles.css'] / 实际 ['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+  [FAIL] 范围与交接 / news-message.html 未在本任务修改（mtime 早于 index.html）
+  [FAIL] 范围与交接 / news-feature.html 未在本任务修改（mtime 早于 index.html）
+  [FAIL] 范围与交接 / news-commentary.html 未在本任务修改（mtime 早于 index.html）
+  [FAIL] 范围与交接 / styles.css 未在本任务修改（mtime 早于 index.html）
+
+共 184 项，通过 179，失败 5

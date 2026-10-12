@@ -1,0 +1,115 @@
+[RZ0] [REC] - — - — 验收环境 — Chrome/154.0.8037.93 · headless=new · file:// 直开 · profile=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\.cdp9492-1791026889433 · 被测目录=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\mutants\m10-h1-add-booktitle-mark · 段=list
+[RZ1] [PASS] - — - — 19.1 遍历清单条数 == manifest.counts.html（HTML 子集，非目录扫描所得） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 styles.css／script.js 不是页（不进遍历清单） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 遍历顺序按 path 字典序 — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [REC] - — - — 本轮实跑页集合（QODER_ONLY 只影响实跑范围，不改变清单结论） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ2] [PASS] - — - — 前置闸门：Task 18 结论 FAIL 0 且 PENDING 0（未全绿则本包不开跑） — 匹配=true
+[RZ2] [PASS] - — - — 前置闸门：Task 18 变异捕获率 100% — 100
+[RZ2] [PASS] - — - — 前置闸门：Task 18 断言数 ≥340 — 1395
+[RZ2] [PASS] - — - — 前置闸门：expected_reversals.md 已读入本包前置（区分真回归与范围过期的唯一依据） — true
+[RZ3] [PASS] - — - — 19.1 Task18 facts.json 的 __meta 与目录绑定：页集合与本包遍历清单同源（复用 M1 结论，不重造） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ3] [PASS] - — - — 19.1 快照未过期：__meta 逐页哈希 == 当前 Results/ 逐页哈希 — 0 页失配
+[RZ4] [PASS] - — - — 19.1 首页哈希 == 清单登记值（合同基线表里的 2629 字节 971e57a5… 是 v1 六文件值，当前以 manifest 为准，Task18 §8.3 已登记） — 0d21fd1129563d3d…/3623B
+[RZ4] [PASS] - — - — 19.1 Results/ 文件数 == 清单 pages 数（交付文件 6+N=11） — 11
+[RZ5] [PASS] - — - — 19.1 输入前置：五处目录齐备 — 全部存在
+[RZ5] [PASS] - — - — 19.1 输入前置：清单／打包件／上传单／Task18 事实／Task13 基线／v1 母本齐备 — 全部存在
+[RK1] [PASS] index.html — 1280px — K1 首页最新区第 1 条 → 详情页：frameNavigated 计数 +1 — 落地=article-along-the-north-small-river.html
+[RK1] [PASS] index.html — 1280px — K1 首页最新区第 2 条 → 详情页：frameNavigated 计数 +1 — 落地=article-north-of-dam-river.html
+[RK1] [PASS] index.html — 1280px — K1 首页最新区第 3 条 → 详情页：frameNavigated 计数 +1 — 落地=article-school-course-volunteer.html
+[RK1] [PASS] news-message.html — 1280px — K1 栏目页「新闻消息」第 1 条 → 详情页真实导航 — article-school-course-volunteer.html
+[RK1] [PASS] news-feature.html — 1280px — K1 栏目页「新闻通讯」第 1 条 → 详情页真实导航 — article-along-the-north-small-river.html
+[RK1] [PASS] news-feature.html — 1280px — K1 栏目页「新闻通讯」第 2 条 → 详情页真实导航 — article-north-of-dam-river.html
+[RK1] [PASS] news-feature.html — 1280px — K1 栏目页「新闻通讯」第 3 条 → 详情页真实导航 — article-math-to-ai-learning.html
+[RK1] [PASS] news-commentary.html — 1280px — K1 栏目页「新闻评论」第 1 条 → 详情页真实导航 — article-classroom-screen-upgrade.html
+[RK1] [PASS] article-school-course-volunteer.html — 1280px — K1 详情页 → 所属栏目页（点的是带 aria-current 的那一项，路径变化即证明跳转） — news-message.html（起点自身=article-school-course-volunteer.html）
+[RK1] [PASS] article-along-the-north-small-river.html — 1280px — K1 详情页 → 所属栏目页（点的是带 aria-current 的那一项，路径变化即证明跳转） — news-feature.html（起点自身=article-along-the-north-small-river.html）
+[RK1] [PASS] article-north-of-dam-river.html — 1280px — K1 详情页 → 所属栏目页（点的是带 aria-current 的那一项，路径变化即证明跳转） — news-feature.html（起点自身=article-north-of-dam-river.html）
+[RK1] [PASS] article-math-to-ai-learning.html — 1280px — K1 详情页 → 所属栏目页（点的是带 aria-current 的那一项，路径变化即证明跳转） — news-feature.html（起点自身=article-math-to-ai-learning.html）
+[RK1] [PASS] article-classroom-screen-upgrade.html — 1280px — K1 详情页 → 所属栏目页（点的是带 aria-current 的那一项，路径变化即证明跳转） — news-commentary.html（起点自身=article-classroom-screen-upgrade.html）
+[RK2] [PASS] news-message.html — 1280px — K2 视觉次序（bounding box y 排序）== DOM 次序 — 我校启动校本课程志愿填报
+[RK2] [PASS] news-message.html — 1280px — K2 视觉次序 == manifest.columns[*].articles 次序（源码顺序正确而屏幕顺序颠倒也判 FAIL） — 我校启动校本课程志愿填报
+[RK2] [PASS] news-message.html — 1280px — K2 条目链接目标次序同样等于清单次序 — article-school-course-volunteer.html
+[RK2] [PASS] news-message.html — 1280px — K2 第 1 条在屏幕上的位置紧随上一条（无反序、无重叠） — 首条
+[RK2] [PASS] news-message.html — 375px — K2 移动档视觉次序同样等于清单次序 — 我校启动校本课程志愿填报
+[RK2] [PASS] news-feature.html — 1280px — K2 视觉次序（bounding box y 排序）== DOM 次序 — 封路之后，沿北小河往南|坝河以北，走过的东坝|从数学题到AI时代的学习
+[RK2] [PASS] news-feature.html — 1280px — K2 视觉次序 == manifest.columns[*].articles 次序（源码顺序正确而屏幕顺序颠倒也判 FAIL） — 封路之后，沿北小河往南|坝河以北，走过的东坝|从数学题到AI时代的学习
+[RK2] [PASS] news-feature.html — 1280px — K2 条目链接目标次序同样等于清单次序 — article-along-the-north-small-river.html|article-north-of-dam-river.html|article-math-to-ai-learning.html
+[RK2] [PASS] news-feature.html — 1280px — K2 第 1 条在屏幕上的位置紧随上一条（无反序、无重叠） — 首条
+[RK2] [PASS] news-feature.html — 1280px — K2 第 2 条在屏幕上的位置紧随上一条（无反序、无重叠） — 446→446
+[RK2] [PASS] news-feature.html — 1280px — K2 第 3 条在屏幕上的位置紧随上一条（无反序、无重叠） — 542→542
+[RK2] [PASS] news-feature.html — 375px — K2 移动档视觉次序同样等于清单次序 — 封路之后，沿北小河往南|坝河以北，走过的东坝|从数学题到AI时代的学习
+[RK2] [PASS] news-commentary.html — 1280px — K2 视觉次序（bounding box y 排序）== DOM 次序 — 设备升级了，使用门槛也该降下来
+[RK2] [PASS] news-commentary.html — 1280px — K2 视觉次序 == manifest.columns[*].articles 次序（源码顺序正确而屏幕顺序颠倒也判 FAIL） — 设备升级了，使用门槛也该降下来
+[RK2] [PASS] news-commentary.html — 1280px — K2 条目链接目标次序同样等于清单次序 — article-classroom-screen-upgrade.html
+[RK2] [PASS] news-commentary.html — 1280px — K2 第 1 条在屏幕上的位置紧随上一条（无反序、无重叠） — 首条
+[RK2] [PASS] news-commentary.html — 375px — K2 移动档视觉次序同样等于清单次序 — 设备升级了，使用门槛也该降下来
+[RK3] [PASS] index.html — 1280px — K3 最新区条数 == 合同 latestN（R11①全局前 N 条，与稿件总数无关） — 3
+[RK3] [PASS] index.html — 1280px — K3 第 1 条 href == 全局序第 1 篇（date 降序→order→栏目序→slug） — article-along-the-north-small-river.html
+[RK3] [PASS] index.html — 1280px — K3 第 1 条标题 == 该篇 md 的 title（标题与 href 双一致） — 封路之后，沿北小河往南
+[RK3] [PASS] news-feature.html — 1280px — K3 该篇出现在其栏目列表页内（真实比对渲染结果，非源码） — 第 1 项
+[RK3] [PASS] news-feature.html — 1280px — K3 该篇正是该栏目首条时，列表页首条与首页同条 — 封路之后，沿北小河往南
+[RK3] [PASS] index.html — 1280px — K3 第 2 条 href == 全局序第 2 篇（date 降序→order→栏目序→slug） — article-north-of-dam-river.html
+[RK3] [PASS] index.html — 1280px — K3 第 2 条标题 == 该篇 md 的 title（标题与 href 双一致） — 坝河以北，走过的东坝
+[RK3] [PASS] news-feature.html — 1280px — K3 该篇出现在其栏目列表页内（真实比对渲染结果，非源码） — 第 2 项
+[RK3] [PASS] index.html — 1280px — K3 第 3 条 href == 全局序第 3 篇（date 降序→order→栏目序→slug） — article-school-course-volunteer.html
+[RK3] [PASS] index.html — 1280px — K3 第 3 条标题 == 该篇 md 的 title（标题与 href 双一致） — 我校启动校本课程志愿填报
+[RK3] [PASS] news-message.html — 1280px — K3 该篇出现在其栏目列表页内（真实比对渲染结果，非源码） — 第 1 项
+[RK3] [PASS] news-message.html — 1280px — K3 该篇正是该栏目首条时，列表页首条与首页同条 — 我校启动校本课程志愿填报
+[RK3] [PASS] index.html — 1280px — K3 最新区视觉次序 == 全局序前 N 条（bounding box 判，CSS order/反向 flex 也拦得住） — 封路之后，沿北小河往南|坝河以北，走过的东坝|我校启动校本课程志愿填报
+[RK3/dup] [PASS] index.html — 1280px — K3 最新区 href 集合（含重复项与顺序）逐等于全局序前 N 条 — article-along-the-north-small-river.html|article-north-of-dam-river.html|article-school-course-volunteer.html
+[RK4] [PASS] article-school-course-volunteer.html — 1280px — K4 aria-current 出现在所属栏目链接上（不在详情页自身、不在首页） — news-message.html（新闻消息）
+[RK4] [PASS] article-school-course-volunteer.html — 1280px — K4 详情页恰好一个当前项高亮 — 1
+[RK4] [PASS] article-school-course-volunteer.html — 1280px — K4 当前项样式为暗红+实下边线（与冷历史基线同一配色，链 A：计算样式） — rgb(122, 36, 36) / 2px solid rgb(122, 36, 36)
+[RK4-PIX] [PASS] article-school-course-volunteer.html — 1280px — K4 当前项像素簇为暗红色系（链 B：截图采样；配色与未访问态一致，未被 visited 隐私规则改写） — rgb(122,36,36) 距ink=89 距accent=0 距默认紫=239
+[RK4] [PASS] article-along-the-north-small-river.html — 1280px — K4 aria-current 出现在所属栏目链接上（不在详情页自身、不在首页） — news-feature.html（新闻通讯）
+[RK4] [PASS] article-along-the-north-small-river.html — 1280px — K4 详情页恰好一个当前项高亮 — 1
+[RK4] [PASS] article-along-the-north-small-river.html — 1280px — K4 当前项样式为暗红+实下边线（与冷历史基线同一配色，链 A：计算样式） — rgb(122, 36, 36) / 2px solid rgb(122, 36, 36)
+[RK4-PIX] [PASS] article-along-the-north-small-river.html — 1280px — K4 当前项像素簇为暗红色系（链 B：截图采样；配色与未访问态一致，未被 visited 隐私规则改写） — rgb(122,36,36) 距ink=89 距accent=0 距默认紫=239
+[RK4] [PASS] article-north-of-dam-river.html — 1280px — K4 aria-current 出现在所属栏目链接上（不在详情页自身、不在首页） — news-feature.html（新闻通讯）
+[RK4] [PASS] article-north-of-dam-river.html — 1280px — K4 详情页恰好一个当前项高亮 — 1
+[RK4] [PASS] article-north-of-dam-river.html — 1280px — K4 当前项样式为暗红+实下边线（与冷历史基线同一配色，链 A：计算样式） — rgb(122, 36, 36) / 2px solid rgb(122, 36, 36)
+[RK4-PIX] [PASS] article-north-of-dam-river.html — 1280px — K4 当前项像素簇为暗红色系（链 B：截图采样；配色与未访问态一致，未被 visited 隐私规则改写） — rgb(122,36,36) 距ink=89 距accent=0 距默认紫=239
+[RK4] [PASS] article-math-to-ai-learning.html — 1280px — K4 aria-current 出现在所属栏目链接上（不在详情页自身、不在首页） — news-feature.html（新闻通讯）
+[RK4] [PASS] article-math-to-ai-learning.html — 1280px — K4 详情页恰好一个当前项高亮 — 1
+[RK4] [PASS] article-math-to-ai-learning.html — 1280px — K4 当前项样式为暗红+实下边线（与冷历史基线同一配色，链 A：计算样式） — rgb(122, 36, 36) / 2px solid rgb(122, 36, 36)
+[RK4-PIX] [PASS] article-math-to-ai-learning.html — 1280px — K4 当前项像素簇为暗红色系（链 B：截图采样；配色与未访问态一致，未被 visited 隐私规则改写） — rgb(122,36,36) 距ink=89 距accent=0 距默认紫=239
+[RK4] [PASS] article-classroom-screen-upgrade.html — 1280px — K4 aria-current 出现在所属栏目链接上（不在详情页自身、不在首页） — news-commentary.html（新闻评论）
+[RK4] [PASS] article-classroom-screen-upgrade.html — 1280px — K4 详情页恰好一个当前项高亮 — 1
+[RK4] [PASS] article-classroom-screen-upgrade.html — 1280px — K4 当前项样式为暗红+实下边线（与冷历史基线同一配色，链 A：计算样式） — rgb(122, 36, 36) / 2px solid rgb(122, 36, 36)
+[RK4-PIX] [PASS] article-classroom-screen-upgrade.html — 1280px — K4 当前项像素簇为暗红色系（链 B：截图采样；配色与未访问态一致，未被 visited 隐私规则改写） — rgb(122,36,36) 距ink=89 距accent=0 距默认紫=239
+[RK5] [FAIL] article-along-the-north-small-river.html — 1280px — K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） — 期望 《封路之后，沿北小河往南》｜自然选择号 / 实际 封路之后，沿北小河往南｜自然选择号 — 移交: Task 15
+[RK5] [PASS] article-along-the-north-small-river.html — 1280px — K5 后缀「｜自然选择号」只出现在标签页标题，不进入 <h1> — title 末=｜自然选择号 h1=《封路之后，沿北小河往南》
+[RK5] [FAIL] article-along-the-north-small-river.html — 1280px — K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） — 期望 无额外书名号 / 实际 《封路之后，沿北小河往南》 — 移交: Task 15
+[RK5] [PASS] article-classroom-screen-upgrade.html — 1280px — K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） — 设备升级了，使用门槛也该降下来｜自然选择号
+[RK5] [PASS] article-classroom-screen-upgrade.html — 1280px — K5 后缀「｜自然选择号」只出现在标签页标题，不进入 <h1> — title 末=｜自然选择号 h1=设备升级了，使用门槛也该降下来
+[RK5] [PASS] article-classroom-screen-upgrade.html — 1280px — K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） — 设备升级了，使用门槛也该降下来
+[RK5] [PASS] article-math-to-ai-learning.html — 1280px — K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） — 从数学题到AI时代的学习｜自然选择号
+[RK5] [PASS] article-math-to-ai-learning.html — 1280px — K5 后缀「｜自然选择号」只出现在标签页标题，不进入 <h1> — title 末=｜自然选择号 h1=从数学题到AI时代的学习
+[RK5] [PASS] article-math-to-ai-learning.html — 1280px — K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） — 从数学题到AI时代的学习
+[RK5] [PASS] article-north-of-dam-river.html — 1280px — K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） — 坝河以北，走过的东坝｜自然选择号
+[RK5] [PASS] article-north-of-dam-river.html — 1280px — K5 后缀「｜自然选择号」只出现在标签页标题，不进入 <h1> — title 末=｜自然选择号 h1=坝河以北，走过的东坝
+[RK5] [PASS] article-north-of-dam-river.html — 1280px — K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） — 坝河以北，走过的东坝
+[RK5] [PASS] article-school-course-volunteer.html — 1280px — K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） — 我校启动校本课程志愿填报｜自然选择号
+[RK5] [PASS] article-school-course-volunteer.html — 1280px — K5 后缀「｜自然选择号」只出现在标签页标题，不进入 <h1> — title 末=｜自然选择号 h1=我校启动校本课程志愿填报
+[RK5] [PASS] article-school-course-volunteer.html — 1280px — K5 详情页 <h1> 不含矩阵外的书名号（"同 <title> 主体，不含书名号"） — 我校启动校本课程志愿填报
+[RK5] [PASS] index.html — 1280px — K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） — 《自然选择号》报社简介｜自然选择号
+[RK5] [PASS] index.html — 1280px — K5 后缀「｜自然选择号」只出现在标签页标题，不进入 <h1> — title 末=｜自然选择号 h1=《自然选择号》报社简介
+[RK5] [PASS] news-commentary.html — 1280px — K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） — 新闻评论｜自然选择号
+[RK5] [PASS] news-commentary.html — 1280px — K5 后缀「｜自然选择号」只出现在标签页标题，不进入 <h1> — title 末=｜自然选择号 h1=新闻评论
+[RK5] [PASS] news-feature.html — 1280px — K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） — 新闻通讯｜自然选择号
+[RK5] [PASS] news-feature.html — 1280px — K5 后缀「｜自然选择号」只出现在标签页标题，不进入 <h1> — title 末=｜自然选择号 h1=新闻通讯
+[RK5] [PASS] news-message.html — 1280px — K5 <title> == <h1> + 全角后缀（标签页标题主体逐字符等于 h1） — 新闻消息｜自然选择号
+[RK5] [PASS] news-message.html — 1280px — K5 后缀「｜自然选择号」只出现在标签页标题，不进入 <h1> — title 末=｜自然选择号 h1=新闻消息
+[RJ5] [PASS] 全部 HTML 页全程 — 全部宽度/状态/操作 — 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） — 0 条
+[RZ12] [REC] 全包 — - — 断言总数下限（≥1400）属全包闸门，单段模式记 REC，不参与判定 — 本段计分 101
+[RZ12] [PASS] 全包 — - — PENDING 恒为 0（等待外部动作只有 SKIPPED-BY-DESIGN 这一个名字） — 0
+[RZ10] [PASS] Results/ — - — 19.10 只读证明：Results/ 开工与完工逐项哈希相等 — 11 项 且内容一致
+[RZ10] [PASS] content/ — - — 19.10 只读证明：content/ 开工与完工逐项哈希相等 — 7 项 且内容一致
+[RZ10] [PASS] build/ — - — 19.10 只读证明：build/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] deploy/ — - — 19.10 只读证明：deploy/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] Materials/ — - — 19.10 只读证明：Materials/ 开工与完工逐项哈希相等 — 3 项 且内容一致
+[RZ10] [PASS] Results/ — - — 19.10 Results/ 无新增文件（压力样本与探针产物一律落在 _qa_task19/mutants/） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css
+[RZ11] [PASS] Results/ — - — 19.10 本包未修改任何被验对象（变异与压力跑均指向副本目录 C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\mutants\m10-h1-add-booktitle-mark） — ok
+[RZ11] [PASS] Results/ — - — 19.10 Results/ 内无清单外文件、无探针／截图／JSON 产物 — 0 个
+
+合计 113 条（计分 110）：PASS 108 / FAIL 2 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0

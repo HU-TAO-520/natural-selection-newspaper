@@ -1,0 +1,55 @@
+# Task 14.8 错误路径样本与预期退出码
+
+退出码合同：0 成功｜2 输入错误｜3 自检失败｜4 环境或基线门禁失败。
+判据三件：退出码相符、`--out` 目录零落盘、报错三段命中对应条款。
+样本文件见 `samples/caseNN/`。
+
+PASS  用例 01｜期望退出码 2／实得 2｜条款 正文区规则 1｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:11｜Task13 §正文区规则 1｜段落跨行（块内出现 LF）
+PASS  用例 02｜期望退出码 2／实得 2｜条款 §4 电头高风险点｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:9｜Task1 §4 电头高风险点｜电头闭合后须恰一个 U+0020 且其后有正文
+PASS  用例 03｜期望退出码 2／实得 2｜条款 §4 电头高风险点｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:9｜Task1 §4 电头高风险点｜电头闭合后须恰一个 U+0020 且其后有正文
+PASS  用例 04｜期望退出码 2／实得 2｜条款 正文区规则 4｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:53｜Task13 §正文区规则 4｜非首段行首之外出现 *
+PASS  用例 05｜期望退出码 2／实得 2｜条款 正文区规则 5｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:25｜Task13 §正文区规则 5｜出现被禁标记 [
+PASS  用例 06｜期望退出码 2／实得 2｜条款 正文区规则 5｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:25｜Task13 §正文区规则 5｜出现被禁标记 #
+PASS  用例 07｜期望退出码 2／实得 2｜条款 正文区规则 5｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:25｜Task13 §正文区规则 5｜出现被禁标记 `
+PASS  用例 08｜期望退出码 2／实得 2｜条款 正文区规则 5｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:25｜Task13 §正文区规则 5｜出现被禁标记 <
+PASS  用例 09｜期望退出码 2／实得 2｜条款 正文区规则 5｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:25｜Task13 §正文区规则 5｜出现被禁标记 ]
+PASS  用例 10｜期望退出码 2／实得 2｜条款 正文区规则 5｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:25｜Task13 §正文区规则 5｜出现被禁标记 !
+PASS  用例 11｜期望退出码 2／实得 2｜条款 正文区规则 5｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:17｜Task13 §正文区规则 5｜行首出现被禁标记
+PASS  用例 12｜期望退出码 2／实得 2｜条款 正文区规则 5｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:17｜Task13 §正文区规则 5｜行首出现被禁标记
+PASS  用例 13｜期望退出码 2／实得 2｜条款 正文区规则 5｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:11｜Task13 §正文区规则 5｜行首出现被禁标记
+PASS  用例 14｜期望退出码 2／实得 2｜条款 正文区规则 5｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:11｜Task13 §正文区规则 5｜行首出现被禁标记
+PASS  用例 15｜期望退出码 2／实得 2｜条款 正文区规则 5｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:11｜Task13 §正文区规则 5｜出现被禁标记 >
+PASS  用例 16｜期望退出码 2／实得 2｜条款 3 规则 2｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:6｜Task13 §3 规则 2｜未知键 tags
+PASS  用例 17｜期望退出码 2／实得 2｜条款 3 规则 2｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:6｜Task13 §3 规则 2｜重复键 byline
+PASS  用例 18｜期望退出码 2／实得 2｜条款 格式合同 1｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:5｜Task13 §content/ 格式合同 1｜行尾空白
+PASS  用例 19｜期望退出码 2／实得 2｜条款 3 规则 4｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:2｜Task13 §3 规则 4｜slug 不等于文件名主干
+PASS  用例 20｜期望退出码 2／实得 2｜条款 3 规则 4｜零落盘 yes｜报错 content/articles/M01.md:2｜Task13 §3 规则 4｜slug 不匹配 ^[a-z0-9][a-z0-9-]{2,40}$
+PASS  用例 21｜期望退出码 2／实得 2｜条款 3 规则 4｜零落盘 yes｜报错 content/articles/m01.md:2｜Task13 §3 规则 4｜slug 命中合同编号形态 [MFC]xx
+PASS  用例 22｜期望退出码 2／实得 2｜条款 3 规则 4｜零落盘 yes｜报错 content/articles/2024-09-18.md:2｜Task13 §3 规则 4｜slug 嵌日期形态 \d{4}
+PASS  用例 23｜期望退出码 2／实得 2｜条款 3 规则 5｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:2｜Task13 §3 规则 5｜column 不在注册表内：review
+PASS  用例 24｜期望退出码 2／实得 2｜条款 3 规则 7｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:2｜Task13 §3 规则 7｜date 不是 YYYY-MM-DD 月日范围形态
+PASS  用例 25｜期望退出码 2／实得 2｜条款 3 规则 7｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:2｜Task13 §3 规则 7｜date 不是 YYYY-MM-DD 月日范围形态
+PASS  用例 26｜期望退出码 2／实得 2｜条款 3 规则 8｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:2｜Task13 §3 规则 8｜display_date 不匹配 ^\d{1,2}月\d{1,2}日$
+PASS  用例 27｜期望退出码 2／实得 2｜条款 3 规则 8｜零落盘 yes｜报错 content/articles/math-to-ai-learning.md:2｜Task13 §3 规则 8｜display_date 不是本文 textContent 子串
+PASS  用例 28｜期望退出码 2／实得 2｜条款 3 规则 9｜零落盘 yes｜报错 content/articles/school-course-volunteer.md:2｜Task13 §3 规则 9｜end_date 仅 commentary 允许
+PASS  用例 29｜期望退出码 2／实得 2｜条款 Task13 §content/columns.md｜零落盘 yes｜报错 content/columns.md:5｜Task13 §content/columns.md｜注册表须恰三行，实为 4 行
+PASS  用例 30｜期望退出码 2／实得 2｜条款 Task13 §content/columns.md｜零落盘 yes｜报错 content/columns.md:3｜Task13 §content/columns.md｜注册表须恰三行，实为 2 行
+PASS  用例 31｜期望退出码 2／实得 2｜条款 Task13 §content/columns.md｜零落盘 yes｜报错 content/columns.md:3｜Task13 §content/columns.md｜栏目名不合法：新闻评价
+PASS  用例 32｜期望退出码 2／实得 2｜条款 Task13 §content/columns.md｜零落盘 yes｜报错 content/columns.md:5｜Task13 §content/columns.md｜注册表须恰三行，实为 4 行
+PASS  用例 33｜期望退出码 2／实得 2｜条款 自检清单 S11｜零落盘 yes｜报错 content/columns.md:2｜Task14 §自检清单 S11｜栏目 feature 零篇文章
+PASS  用例 34｜期望退出码 3／实得 3｜条款 自检清单 S4｜零落盘 yes｜报错 build/partials/home-intro.html:1｜Task14 §自检清单 S4｜partial 与基线重切片不等
+
+## 附加用例与对照放行
+PASS  输出目录不存在 → 4 且不自建：nowhere:1｜Task14 §运行契约｜输出目录必须已存在，构建器不得自建
+PASS  输出目录含清单外文件 → 4 且不删除它：out:1｜Task14 §运行契约｜含清单外文件：stray.txt
+PASS  main_slices 哈希被改写 → 开工门禁 4：_qa_task13/main_slices/news-message.main-interior.html:1｜Task14 §结构或数据基线｜期望 1269/4b941f8e…，实得 1269/74c42691…
+PASS  渲染结果注入 <time datetime="2026-09-18"> → S6 退出 3：index.html:1｜Task14 §自检清单 S6｜含 ISO 形态日期
+PASS  属性注入 data-date → S6／S7 退出 3：index.html:1｜Task14 §自检清单 S6｜含 data-
+PASS  保留设备名整干全等拒绝 8 项、console-x 一类近似名放行 7 项：拒绝 8｜误放 无｜误拒 无
+PASS  S6／S7 为整文件扫描：注释、属性值与文本节点三处泄漏均被捕获（5 项）：漏网 无
+PASS  变异反证：渲染器改为同时转义引号 → S1 立刻变红：article-classroom-screen-upgrade.html:1｜Task14 §自检清单 S1｜详情页 <main> 内部与基线切片不等
+PASS  变异反证后 out 目录仍为 7 项且未写坏文件：7 项
+PASS  对照放行：slug 整干 console-x 必须放行：slug=console-x column=message date=None
+PASS  对照放行：slug 整干 aux-term 必须放行：slug=aux-term column=message date=None
+PASS  对照放行：slug 整干 null-set 必须放行：slug=null-set column=message date=None
+PASS  对照放行：date: 2026-09-18 是合法 ISO，必须放行：slug=school-course-volunteer column=message date=2026-09-18

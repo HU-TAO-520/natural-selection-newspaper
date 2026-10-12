@@ -1,0 +1,132 @@
+[RZ0] [REC] - — - — 验收环境 — Chrome/154.0.8037.93 · headless=new · file:// 直开 · profile=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\.cdp9381-1791034673514 · 被测目录=C:\Users\weibo\Documents\语文报纸\Results · 段=degrade
+[RZ1] [PASS] - — - — 19.1 遍历清单条数 == manifest.counts.html（HTML 子集，非目录扫描所得） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 styles.css／script.js 不是页（不进遍历清单） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 遍历顺序按 path 字典序 — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [REC] - — - — 本轮实跑页集合（QODER_ONLY 只影响实跑范围，不改变清单结论） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ2] [PASS] - — - — 前置闸门：Task 18 结论 FAIL 0 且 PENDING 0（未全绿则本包不开跑） — 匹配=true
+[RZ2] [PASS] - — - — 前置闸门：Task 18 变异捕获率 100% — 100
+[RZ2] [PASS] - — - — 前置闸门：Task 18 断言数 ≥340 — 1395
+[RZ2] [PASS] - — - — 前置闸门：expected_reversals.md 已读入本包前置（区分真回归与范围过期的唯一依据） — true
+[RZ3] [PASS] - — - — 19.1 Task18 facts.json 的 __meta 与目录绑定：页集合与本包遍历清单同源（复用 M1 结论，不重造） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ3] [PASS] - — - — 19.1 快照未过期：__meta 逐页哈希 == 当前 Results/ 逐页哈希 — 0 页失配
+[RZ4] [PASS] - — - — 19.1 首页哈希 == 清单登记值（合同基线表里的 2629 字节 971e57a5… 是 v1 六文件值，当前以 manifest 为准，Task18 §8.3 已登记） — 14b82801fc5c1a96…/3631B
+[RZ4] [PASS] - — - — 19.1 Results/ 文件数 == 清单 pages 数（交付文件 6+N=12） — 12
+[RZ5] [PASS] - — - — 19.1 输入前置：五处目录齐备 — 全部存在
+[RZ5] [PASS] - — - — 19.1 输入前置：清单／打包件／上传单／Task18 事实／Task13 基线／v1 母本齐备 — 全部存在
+[RI1] [PASS] article-along-the-north-small-river.html — 1280px/禁用JS — 禁用 JS 并重新加载：html 保持 no-js 且 CSS 仍生效（样式不依赖脚本） — no-js rules=63
+[RI1] [PASS] article-along-the-north-small-river.html — 1280px/禁用JS — 无脚本时正文完整可见且逐段等于 Task13 基线（内容不是运行时拼装） — 4 段，首段起 今天本来打算去第四使馆区转悠转悠，但是封路了，没
+[RI1] [PASS] article-along-the-north-small-river.html — 1280px/禁用JS — 无脚本时链接属性齐备（链接可点的前提） — {"n":6,"withHref":6}
+[RI1] [PASS] article-along-the-north-small-river.html — 1280px/禁用JS — 无脚本时点击导航真的完成导航（落地页校验） — navigated=1 落地=index.html
+[RI2] [PASS] article-along-the-north-small-river.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — [true] bg=rgba(0, 0, 0, 0)
+[RI2] [PASS] article-along-the-north-small-river.html — 1280px/禁用CSS — 无内容因样式缺失而消失（main textContent 全等） — 段=4 字符=457
+[RI2] [PASS] article-along-the-north-small-river.html — 1280px/禁用CSS — 详情页禁 CSS 后阅读顺序：类型→标题→署名→正文 — [0,1,2,3]/共 8
+[RI2] [PASS] article-along-the-north-small-river.html — 1280px/禁用CSS — 末尾日期位于阅读顺序最后一步 — 7
+[RI2] [PASS] article-along-the-north-small-river.html — 1280px/禁用CSS — 禁 CSS 后导航仍在文档树中且链接数不变 — {"disp":"block","links":4}
+[RI2] [PASS] article-along-the-north-small-river.html — 1280px/禁用CSS — 导航链接仍在无障碍树中（role/name 不因禁 CSS 消失） — 首页|新闻消息|新闻通讯|新闻评论
+[RI3] [PASS] article-along-the-north-small-river.html — 1280px — 恢复启用并重新加载：回到基线、无残留 — js bg=rgb(245, 239, 228) 版心=1120.0
+[RI1] [PASS] article-classroom-screen-upgrade.html — 1280px/禁用JS — 禁用 JS 并重新加载：html 保持 no-js 且 CSS 仍生效（样式不依赖脚本） — no-js rules=63
+[RI1] [PASS] article-classroom-screen-upgrade.html — 1280px/禁用JS — 无脚本时正文完整可见且逐段等于 Task13 基线（内容不是运行时拼装） — 29 段，首段起 不久前，我们班换上了一块86英寸的“同窗AI大屏
+[RI1] [PASS] article-classroom-screen-upgrade.html — 1280px/禁用JS — 无脚本时链接属性齐备（链接可点的前提） — {"n":6,"withHref":6}
+[RI1] [PASS] article-classroom-screen-upgrade.html — 1280px/禁用JS — 无脚本时点击导航真的完成导航（落地页校验） — navigated=1 落地=index.html
+[RI2] [PASS] article-classroom-screen-upgrade.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — [true] bg=rgba(0, 0, 0, 0)
+[RI2] [PASS] article-classroom-screen-upgrade.html — 1280px/禁用CSS — 无内容因样式缺失而消失（main textContent 全等） — 段=29 字符=2411
+[RI2] [PASS] article-classroom-screen-upgrade.html — 1280px/禁用CSS — 详情页禁 CSS 后阅读顺序：类型→标题→署名→正文 — [0,1,2,3]/共 33
+[RI2] [PASS] article-classroom-screen-upgrade.html — 1280px/禁用CSS — 末尾日期位于阅读顺序最后一步 — 32
+[RI2] [PASS] article-classroom-screen-upgrade.html — 1280px/禁用CSS — 禁 CSS 后导航仍在文档树中且链接数不变 — {"disp":"block","links":4}
+[RI2] [PASS] article-classroom-screen-upgrade.html — 1280px/禁用CSS — 导航链接仍在无障碍树中（role/name 不因禁 CSS 消失） — 首页|新闻消息|新闻通讯|新闻评论
+[RI3] [PASS] article-classroom-screen-upgrade.html — 1280px — 恢复启用并重新加载：回到基线、无残留 — js bg=rgb(245, 239, 228) 版心=1120.0
+[RI1] [PASS] article-math-to-ai-learning.html — 1280px/禁用JS — 禁用 JS 并重新加载：html 保持 no-js 且 CSS 仍生效（样式不依赖脚本） — no-js rules=63
+[RI1] [PASS] article-math-to-ai-learning.html — 1280px/禁用JS — 无脚本时正文完整可见且逐段等于 Task13 基线（内容不是运行时拼装） — 23 段，首段起 自然选择号9月17日电 上午第一节课下课后的课间
+[RI1] [PASS] article-math-to-ai-learning.html — 1280px/禁用JS — 无脚本时链接属性齐备（链接可点的前提） — {"n":6,"withHref":6}
+[RI1] [PASS] article-math-to-ai-learning.html — 1280px/禁用JS — 无脚本时点击导航真的完成导航（落地页校验） — navigated=1 落地=index.html
+[RI2] [PASS] article-math-to-ai-learning.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — [true] bg=rgba(0, 0, 0, 0)
+[RI2] [PASS] article-math-to-ai-learning.html — 1280px/禁用CSS — 无内容因样式缺失而消失（main textContent 全等） — 段=23 字符=1825
+[RI2] [PASS] article-math-to-ai-learning.html — 1280px/禁用CSS — 详情页禁 CSS 后阅读顺序：类型→标题→署名→正文 — [0,1,2,3]/共 27
+[RI2] [PASS] article-math-to-ai-learning.html — 1280px/禁用CSS — 禁 CSS 后导航仍在文档树中且链接数不变 — {"disp":"block","links":4}
+[RI2] [PASS] article-math-to-ai-learning.html — 1280px/禁用CSS — 导航链接仍在无障碍树中（role/name 不因禁 CSS 消失） — 首页|新闻消息|新闻通讯|新闻评论
+[RI3] [PASS] article-math-to-ai-learning.html — 1280px — 恢复启用并重新加载：回到基线、无残留 — js bg=rgb(245, 239, 228) 版心=1120.0
+[RI1] [PASS] article-north-of-dam-river.html — 1280px/禁用JS — 禁用 JS 并重新加载：html 保持 no-js 且 CSS 仍生效（样式不依赖脚本） — no-js rules=63
+[RI1] [PASS] article-north-of-dam-river.html — 1280px/禁用JS — 无脚本时正文完整可见且逐段等于 Task13 基线（内容不是运行时拼装） — 5 段，首段起 从单店中路一直往北走，走过坝河，就到了北中。北中
+[RI1] [PASS] article-north-of-dam-river.html — 1280px/禁用JS — 无脚本时链接属性齐备（链接可点的前提） — {"n":6,"withHref":6}
+[RI1] [PASS] article-north-of-dam-river.html — 1280px/禁用JS — 无脚本时点击导航真的完成导航（落地页校验） — navigated=1 落地=index.html
+[RI2] [PASS] article-north-of-dam-river.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — [true] bg=rgba(0, 0, 0, 0)
+[RI2] [PASS] article-north-of-dam-river.html — 1280px/禁用CSS — 无内容因样式缺失而消失（main textContent 全等） — 段=5 字符=520
+[RI2] [PASS] article-north-of-dam-river.html — 1280px/禁用CSS — 详情页禁 CSS 后阅读顺序：类型→标题→署名→正文 — [0,1,2,3]/共 9
+[RI2] [PASS] article-north-of-dam-river.html — 1280px/禁用CSS — 末尾日期位于阅读顺序最后一步 — 8
+[RI2] [PASS] article-north-of-dam-river.html — 1280px/禁用CSS — 禁 CSS 后导航仍在文档树中且链接数不变 — {"disp":"block","links":4}
+[RI2] [PASS] article-north-of-dam-river.html — 1280px/禁用CSS — 导航链接仍在无障碍树中（role/name 不因禁 CSS 消失） — 首页|新闻消息|新闻通讯|新闻评论
+[RI3] [PASS] article-north-of-dam-river.html — 1280px — 恢复启用并重新加载：回到基线、无残留 — js bg=rgb(245, 239, 228) 版心=1120.0
+[RI1] [PASS] article-school-course-selection-results.html — 1280px/禁用JS — 禁用 JS 并重新加载：html 保持 no-js 且 CSS 仍生效（样式不依赖脚本） — no-js rules=63
+[RI1] [PASS] article-school-course-selection-results.html — 1280px/禁用JS — 无脚本时正文完整可见且逐段等于 Task13 基线（内容不是运行时拼装） — 2 段，首段起 自然选择号9月29日7时电 我校校本课程于今日下
+[RI1] [PASS] article-school-course-selection-results.html — 1280px/禁用JS — 无脚本时链接属性齐备（链接可点的前提） — {"n":6,"withHref":6}
+[RI1] [PASS] article-school-course-selection-results.html — 1280px/禁用JS — 无脚本时点击导航真的完成导航（落地页校验） — navigated=1 落地=index.html
+[RI2] [PASS] article-school-course-selection-results.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — [true] bg=rgba(0, 0, 0, 0)
+[RI2] [PASS] article-school-course-selection-results.html — 1280px/禁用CSS — 无内容因样式缺失而消失（main textContent 全等） — 段=2 字符=236
+[RI2] [PASS] article-school-course-selection-results.html — 1280px/禁用CSS — 详情页禁 CSS 后阅读顺序：类型→标题→署名→正文 — [0,1,2,3]/共 6
+[RI2] [PASS] article-school-course-selection-results.html — 1280px/禁用CSS — 禁 CSS 后导航仍在文档树中且链接数不变 — {"disp":"block","links":4}
+[RI2] [PASS] article-school-course-selection-results.html — 1280px/禁用CSS — 导航链接仍在无障碍树中（role/name 不因禁 CSS 消失） — 首页|新闻消息|新闻通讯|新闻评论
+[RI3] [PASS] article-school-course-selection-results.html — 1280px — 恢复启用并重新加载：回到基线、无残留 — js bg=rgb(245, 239, 228) 版心=1120.0
+[RI1] [PASS] article-school-course-volunteer.html — 1280px/禁用JS — 禁用 JS 并重新加载：html 保持 no-js 且 CSS 仍生效（样式不依赖脚本） — no-js rules=63
+[RI1] [PASS] article-school-course-volunteer.html — 1280px/禁用JS — 无脚本时正文完整可见且逐段等于 Task13 基线（内容不是运行时拼装） — 4 段，首段起 自然选择号9月18日7时电 我校校本课程志愿填报
+[RI1] [PASS] article-school-course-volunteer.html — 1280px/禁用JS — 无脚本时链接属性齐备（链接可点的前提） — {"n":6,"withHref":6}
+[RI1] [PASS] article-school-course-volunteer.html — 1280px/禁用JS — 无脚本时点击导航真的完成导航（落地页校验） — navigated=1 落地=index.html
+[RI2] [PASS] article-school-course-volunteer.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — [true] bg=rgba(0, 0, 0, 0)
+[RI2] [PASS] article-school-course-volunteer.html — 1280px/禁用CSS — 无内容因样式缺失而消失（main textContent 全等） — 段=4 字符=413
+[RI2] [PASS] article-school-course-volunteer.html — 1280px/禁用CSS — 详情页禁 CSS 后阅读顺序：类型→标题→署名→正文 — [0,1,2,3]/共 8
+[RI2] [PASS] article-school-course-volunteer.html — 1280px/禁用CSS — 禁 CSS 后导航仍在文档树中且链接数不变 — {"disp":"block","links":4}
+[RI2] [PASS] article-school-course-volunteer.html — 1280px/禁用CSS — 导航链接仍在无障碍树中（role/name 不因禁 CSS 消失） — 首页|新闻消息|新闻通讯|新闻评论
+[RI3] [PASS] article-school-course-volunteer.html — 1280px — 恢复启用并重新加载：回到基线、无残留 — js bg=rgb(245, 239, 228) 版心=1120.0
+[RI1] [PASS] index.html — 1280px/禁用JS — 禁用 JS 并重新加载：html 保持 no-js 且 CSS 仍生效（样式不依赖脚本） — no-js rules=63
+[RI1] [PASS] index.html — 1280px/禁用JS — 无脚本时首页三段仍逐字符等于 Task4 冻结值 — 报社成立于“鸽子衔枝之年”。
+[RI1] [PASS] index.html — 1280px/禁用JS — 无脚本时首页最新区仍完整可读 — 3
+[RI1] [PASS] index.html — 1280px/禁用JS — 无脚本时链接属性齐备（链接可点的前提） — {"n":9,"withHref":9}
+[RI1] [PASS] index.html — 1280px/禁用JS — 无脚本时点击导航真的完成导航（落地页校验） — navigated=1 落地=index.html
+[RI2] [PASS] index.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — [true] bg=rgba(0, 0, 0, 0)
+[RI2] [PASS] index.html — 1280px/禁用CSS — 无内容因样式缺失而消失（main textContent 全等） — 段=0 字符=367
+[RI2] [PASS] index.html — 1280px/禁用CSS — 首页禁 CSS 后阅读顺序：主标题→三区块→最新区（含每条标题与月日） — [0,1,2,3,4,5,6,7,8,9,10,11,12,13]（文本节点 14 个）
+[RI2] [PASS] index.html — 1280px/禁用CSS — 禁 CSS 后导航仍在文档树中且链接数不变 — {"disp":"block","links":4}
+[RI2] [PASS] index.html — 1280px/禁用CSS — 导航链接仍在无障碍树中（role/name 不因禁 CSS 消失） — 首页|新闻消息|新闻通讯|新闻评论
+[RI3] [PASS] index.html — 1280px — 恢复启用并重新加载：回到基线、无残留 — js bg=rgb(245, 239, 228) 版心=1120.0
+[RI1] [PASS] news-commentary.html — 1280px/禁用JS — 禁用 JS 并重新加载：html 保持 no-js 且 CSS 仍生效（样式不依赖脚本） — no-js rules=63
+[RI1] [PASS] news-commentary.html — 1280px/禁用JS — 无脚本时列表页条目仍完整可见 — [[true,"设备升级了，使用"]]
+[RI1] [PASS] news-commentary.html — 1280px/禁用JS — 无脚本时链接属性齐备（链接可点的前提） — {"n":7,"withHref":7}
+[RI1] [PASS] news-commentary.html — 1280px/禁用JS — 无脚本时点击导航真的完成导航（落地页校验） — navigated=1 落地=index.html
+[RI2] [PASS] news-commentary.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — [true] bg=rgba(0, 0, 0, 0)
+[RI2] [PASS] news-commentary.html — 1280px/禁用CSS — 无内容因样式缺失而消失（main textContent 全等） — 段=0 字符=66
+[RI2] [PASS] news-commentary.html — 1280px/禁用CSS — 栏目页禁 CSS 后阅读顺序：栏目名→各条目（标题+月日） — [0,1,2]
+[RI2] [PASS] news-commentary.html — 1280px/禁用CSS — 禁 CSS 后导航仍在文档树中且链接数不变 — {"disp":"block","links":4}
+[RI2] [PASS] news-commentary.html — 1280px/禁用CSS — 导航链接仍在无障碍树中（role/name 不因禁 CSS 消失） — 首页|新闻消息|新闻通讯|新闻评论
+[RI3] [PASS] news-commentary.html — 1280px — 恢复启用并重新加载：回到基线、无残留 — js bg=rgb(245, 239, 228) 版心=1120.0
+[RI1] [PASS] news-feature.html — 1280px/禁用JS — 禁用 JS 并重新加载：html 保持 no-js 且 CSS 仍生效（样式不依赖脚本） — no-js rules=63
+[RI1] [PASS] news-feature.html — 1280px/禁用JS — 无脚本时列表页条目仍完整可见 — [[true,"封路之后，沿北小"],[true,"坝河以北，走过的"],[true,"从数学题到AI时"]]
+[RI1] [PASS] news-feature.html — 1280px/禁用JS — 无脚本时链接属性齐备（链接可点的前提） — {"n":9,"withHref":9}
+[RI1] [PASS] news-feature.html — 1280px/禁用JS — 无脚本时点击导航真的完成导航（落地页校验） — navigated=1 落地=index.html
+[RI2] [PASS] news-feature.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — [true] bg=rgba(0, 0, 0, 0)
+[RI2] [PASS] news-feature.html — 1280px/禁用CSS — 无内容因样式缺失而消失（main textContent 全等） — 段=0 字符=140
+[RI2] [PASS] news-feature.html — 1280px/禁用CSS — 栏目页禁 CSS 后阅读顺序：栏目名→各条目（标题+月日） — [0,1,2,3,4,5,6]
+[RI2] [PASS] news-feature.html — 1280px/禁用CSS — 禁 CSS 后导航仍在文档树中且链接数不变 — {"disp":"block","links":4}
+[RI2] [PASS] news-feature.html — 1280px/禁用CSS — 导航链接仍在无障碍树中（role/name 不因禁 CSS 消失） — 首页|新闻消息|新闻通讯|新闻评论
+[RI3] [PASS] news-feature.html — 1280px — 恢复启用并重新加载：回到基线、无残留 — js bg=rgb(245, 239, 228) 版心=1120.0
+[RI1] [PASS] news-message.html — 1280px/禁用JS — 禁用 JS 并重新加载：html 保持 no-js 且 CSS 仍生效（样式不依赖脚本） — no-js rules=63
+[RI1] [PASS] news-message.html — 1280px/禁用JS — 无脚本时列表页条目仍完整可见 — [[true,"我校校本课程选择"],[true,"我校启动校本课程"]]
+[RI1] [PASS] news-message.html — 1280px/禁用JS — 无脚本时链接属性齐备（链接可点的前提） — {"n":8,"withHref":8}
+[RI1] [PASS] news-message.html — 1280px/禁用JS — 无脚本时点击导航真的完成导航（落地页校验） — navigated=1 落地=index.html
+[RI2] [PASS] news-message.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — [true] bg=rgba(0, 0, 0, 0)
+[RI2] [PASS] news-message.html — 1280px/禁用CSS — 无内容因样式缺失而消失（main textContent 全等） — 段=0 字符=103
+[RI2] [PASS] news-message.html — 1280px/禁用CSS — 栏目页禁 CSS 后阅读顺序：栏目名→各条目（标题+月日） — [0,1,2,3,4]
+[RI2] [PASS] news-message.html — 1280px/禁用CSS — 禁 CSS 后导航仍在文档树中且链接数不变 — {"disp":"block","links":4}
+[RI2] [PASS] news-message.html — 1280px/禁用CSS — 导航链接仍在无障碍树中（role/name 不因禁 CSS 消失） — 首页|新闻消息|新闻通讯|新闻评论
+[RI3] [PASS] news-message.html — 1280px — 恢复启用并重新加载：回到基线、无残留 — js bg=rgb(245, 239, 228) 版心=1120.0
+[RJ5] [PASS] 全部 HTML 页全程 — 全部宽度/状态/操作 — 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） — 0 条
+[RZ12] [REC] 全包 — - — 断言总数下限（≥1400）属全包闸门，单段模式记 REC，不参与判定 — 本段计分 118
+[RZ12] [PASS] 全包 — - — PENDING 恒为 0（等待外部动作只有 SKIPPED-BY-DESIGN 这一个名字） — 0
+[RZ10] [PASS] Results/ — - — 19.10 只读证明：Results/ 开工与完工逐项哈希相等 — 12 项 且内容一致
+[RZ10] [PASS] content/ — - — 19.10 只读证明：content/ 开工与完工逐项哈希相等 — 8 项 且内容一致
+[RZ10] [PASS] build/ — - — 19.10 只读证明：build/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] deploy/ — - — 19.10 只读证明：deploy/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] Materials/ — - — 19.10 只读证明：Materials/ 开工与完工逐项哈希相等 — 3 项 且内容一致
+[RZ10] [PASS] Results/ — - — 19.10 Results/ 无新增文件（压力样本与探针产物一律落在 _qa_task19/mutants/） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css
+[RZ11] [PASS] Results/ — - — 19.10 本包未修改任何被验对象（变异与压力跑均指向副本目录 本轮未使用副本） — ok
+[RZ11] [PASS] Results/ — - — 19.10 Results/ 内无清单外文件、无探针／截图／JSON 产物 — 0 个
+
+合计 130 条（计分 127）：PASS 127 / FAIL 0 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0

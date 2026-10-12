@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>shot</title>
+  <style>html,body{margin:0;padding:0;background:#888}#f{border:0;display:block}</style>
+</head>
+<body>
+<iframe id="f" src="about:blank"></iframe>
+<script>
+/* Fixed-width screenshot target: loads the real page, performs ONE real click when
+   asked, then encodes the resulting state into <title> for readback. Synchronous
+   single-width frame so --screenshot cannot catch a resize intermediate. */
+(function () {
+  'use strict';
+  var P = new URLSearchParams(location.search);
+  var W = parseInt(P.get('w') || '375', 10);
+  var OPEN = P.get('open') === '1';
+  var NOJS = P.get('nojs') === '1';
+  var f = document.getElementById('f');
+  var delta = window.innerWidth - document.documentElement.clientWidth;
+  f.style.width = (W + delta) + 'px';
+  f.style.height = (parseInt(P.get('h') || '620', 10)) + 'px';
+  if (NOJS) { f.setAttribute('sandbox', 'allow-same-origin'); }
+  f.onload = function () {
+    setTimeout(function () {
+      var d = f.contentDocument;
+      if (OPEN && !NOJS) { d.getElementById('nav-toggle').click(); }
+      setTimeout(function () {
+        var n = d.getElementById('site-navigation'), t = d.getElementById('nav-toggle');
+        document.title = 'ready:' + d.documentElement.clientWidth + ':' + d.documentElement.className
+          + ':' + (n.classList.contains('is-open') ? 'open' : 'closed')
+          + ':' + t.getAttribute('aria-expanded')
+          + ':' + f.contentWindow.getComputedStyle(n).display;
+      }, 120);
+    }, 200);
+  };
+  f.src = P.get('t');
+})();
+</script>
+</body>
+</html>

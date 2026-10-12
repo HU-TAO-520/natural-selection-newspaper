@@ -1,0 +1,233 @@
+NEGATIVE CONTROL (unmodified copy): rc=0 TOTAL 202 checks, 0 failures
+  -> must be rc=0 OK
+01 段落数      删除 F23（正文 22 段）
+    CAUGHT | TOTAL 202 checks, 9 failures
+    first failing checks: .article__body 恰好 23 个直接 <p>, F23 textContent 逐字符相等, 正文段落数严格 23, 最后一项是 F23 且其后无空/纯白项
+02 段落数      追加 Word 空尾段 <p></p>
+    CAUGHT | TOTAL 202 checks, 9 failures
+    first failing checks: .article__body 恰好 23 个直接 <p>, 正文段落数严格 23, 最后一项是 F23 且其后无空/纯白项, 无仅含空白的额外 <p>
+03 段落数      追加仅含空白的尾段
+    CAUGHT | TOTAL 202 checks, 10 failures
+    first failing checks: .article__body 恰好 23 个直接 <p>, 正文段落数严格 23, 最后一项是 F23 且其后无空/纯白项, 无仅含空白的额外 <p>
+04 段落数      拆成两个 <p>（并段被拆开）
+    CAUGHT | TOTAL 202 checks, 9 failures
+    first failing checks: .article__body 恰好 23 个直接 <p>, F23 textContent 逐字符相等, 正文段落数严格 23, 最后一项是 F23 且其后无空/纯白项
+05 顺序       F02/F03 顺序交换
+    CAUGHT | TOTAL 202 checks, 8 failures
+    first failing checks: .article__body 恰好 23 个直接 <p>, 正文段落数严格 23, 最后一项是 F23 且其后无空/纯白项, 全页 <p> 总数 26（23 正文 + 类型 + 署名 + 报头）
+06 语义结构     F04 引语改为 blockquote
+    CAUGHT | TOTAL 202 checks, 10 failures
+    first failing checks: .article__body 全部直接子元素都是 <p>, 正文无 blockquote/q/figure, F04 textContent 逐字符相等, 中文右单引号 2 个
+07 语义结构     栏目类型误作第二个标题
+    CAUGHT | TOTAL 202 checks, 4 failures
+    first failing checks: .article__header 子节点顺序与类名, 全页 <p> 总数 26（23 正文 + 类型 + 署名 + 报头）, 文章内 <p> 恰好 25, 文章头 <p> 数 2（类型+署名）
+08 唯一元素     h1 复制一份到 article 外
+    CAUGHT | Traceback (most recent call last):
+  File "C:\Users\weibo\Documents\语文报纸\_qa_task6\verify.py", line 419, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\weibo\Documents\语文报纸\_qa_task6\verify.py", line 211, in main
+    head, abody = elems(art)
+    ^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+
+    first failing checks: -
+09 唯一元素     h1 降级为 h2
+    CAUGHT | TOTAL 202 checks, 3 failures
+    first failing checks: 恰好 1 个 <h1>, .article__header 子节点顺序与类名, 唯一 <h1> 位于文章头部
+10 共享接口     .article__body 类名改写
+    CAUGHT | TOTAL 202 checks, 2 failures
+    first failing checks: .article 子节点顺序, 无 .feature-* / 页面专属类
+11 文章头部     .article__type/.article__byline 合并进 header 外
+    CAUGHT | Traceback (most recent call last):
+  File "C:\Users\weibo\Documents\语文报纸\_qa_task6\verify.py", line 419, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\weibo\Documents\语文报纸\_qa_task6\verify.py", line 216, in main
+    ptype, h1, pby = elems(head)
+    ^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+
+    first failing checks: -
+12 语义结构     正文容器改用 <section>
+    CAUGHT | TOTAL 202 checks, 1 failures
+    first failing checks: .article 子节点顺序
+13 电头空格     </strong> 后换行+缩进代替空格
+    CAUGHT | TOTAL 202 checks, 6 failures
+    first failing checks: F01 textContent 逐字符相等, F01 电头后恰好一个 U+0020, F01 电头后第二个字符不是空格, F01 全段 U+0020 数量 == 1
+14 电头空格     </strong> 后两个空格
+    CAUGHT | TOTAL 202 checks, 4 failures
+    first failing checks: F01 textContent 逐字符相等, F01 电头后第二个字符不是空格, F01 全段 U+0020 数量 == 1, 23 段合并后 U+0020 总数 == 1
+15 电头空格     </strong> 后 &nbsp;
+    CAUGHT | TOTAL 202 checks, 8 failures
+    first failing checks: F01 textContent 逐字符相等, F01 电头后恰好一个 U+0020, F01 全段 U+0020 数量 == 1, 23 段合并后 U+0020 总数 == 1
+16 电头空格     </strong> 后全角空格
+    CAUGHT | TOTAL 202 checks, 5 failures
+    first failing checks: F01 textContent 逐字符相等, F01 电头后恰好一个 U+0020, F01 全段 U+0020 数量 == 1, 23 段合并后 U+0020 总数 == 1
+17 电头空格     dateline 去掉 strong 包裹
+    CAUGHT | le>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\weibo\Documents\语文报纸\_qa_task6\verify.py", line 228, in main
+    eq(g, "dateline 类名", classes(dl), {"dateline"})
+                           ~~~~~~~^^^^
+  File "C:\Users\weibo\Documents\语文报纸\_qa_task6\verify.py", line 66, in classes
+    c = node.get("class") or []
+        ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+
+    first failing checks: -
+18 电头空格     dateline 文本改 9月18日
+    CAUGHT | TOTAL 202 checks, 2 failures
+    first failing checks: F01 textContent 逐字符相等, .dateline 文本
+19 禁止信息     电头补年份 2026
+    CAUGHT | TOTAL 202 checks, 6 failures
+    first failing checks: F01 textContent 逐字符相等, .dateline 文本, F01 电头后恰好一个 U+0020, 9月17日 未补年份
+20 人称       “在她看来”自动改成“在他看来”
+    CAUGHT | TOTAL 202 checks, 3 failures
+    first failing checks: F05 textContent 逐字符相等, F05 保留 在她看来, 正文中不出现 在她看来 之外的统一化
+21 人称       F12 他→她
+    CAUGHT | TOTAL 202 checks, 3 failures
+    first failing checks: F12 textContent 逐字符相等, F12 保留 不过，他并不赞成, 正文中不出现 在她看来 之外的统一化
+22 标点       双破折号退化为单破折号
+    CAUGHT | TOTAL 202 checks, 4 failures
+    first failing checks: F09 textContent 逐字符相等, U+2014 共 2 个, 唯一一处相邻 ——, F09 结尾 ——向AI提问。
+23 标点       破折号改连字符
+    CAUGHT | TOTAL 202 checks, 4 failures
+    first failing checks: F09 textContent 逐字符相等, U+2014 共 2 个, 唯一一处相邻 ——, F09 结尾 ——向AI提问。
+24 AI 大小写   AI 改小写 ai
+    CAUGHT | TOTAL 202 checks, 5 failures
+    first failing checks: F09 textContent 逐字符相等, AI 出现 19 次, ai/Ai/aI 出现 0 次, AI 连同标题共 20 次
+25 AI 大小写   AI 改 Ai
+    CAUGHT | TOTAL 202 checks, 4 failures
+    first failing checks: F10 textContent 逐字符相等, AI 出现 19 次, ai/Ai/aI 出现 0 次, AI 连同标题共 20 次
+26 AI 大小写   AI 改中文全称
+    CAUGHT | TOTAL 202 checks, 4 failures
+    first failing checks: F09 textContent 逐字符相等, AI 出现 19 次, AI 连同标题共 20 次, F09 结尾 ——向AI提问。
+27 标点       中文双引号改直引号
+    CAUGHT | TOTAL 202 checks, 4 failures
+    first failing checks: F02 textContent 逐字符相等, 中文左双引号 8 个, 中文右双引号 8 个, 不出现半角引号 " 或 '
+28 标点       内层单引号改双引号
+    CAUGHT | TOTAL 202 checks, 6 failures
+    first failing checks: F04 textContent 逐字符相等, 中文左双引号 8 个, 中文右双引号 8 个, 中文左单引号 2 个
+29 标点       全角分号改半角
+    CAUGHT | TOTAL 202 checks, 3 failures
+    first failing checks: F02 textContent 逐字符相等, 中文分号 3 个, 不出现半角 ? ; :
+30 标点       全角问号改半角
+    CAUGHT | TOTAL 202 checks, 3 failures
+    first failing checks: F14 textContent 逐字符相等, 全角问号 1 个, 不出现半角 ? ; :
+31 装饰标签     段内插入 <br>
+    CAUGHT | TOTAL 202 checks, 3 failures
+    first failing checks: F05 不含子元素, F02–F23 无 <strong>/<em>/<a>/<span>/<br>, 不出现 <br>
+32 语义结构     短段改成列表项
+    CAUGHT | TOTAL 202 checks, 7 failures
+    first failing checks: .article__body 全部直接子元素都是 <p>, F19 不含子元素, 正文无列表, 全页 <p> 总数 26（23 正文 + 类型 + 署名 + 报头）
+33 电头空格     正文前全角空格缩进
+    CAUGHT | TOTAL 202 checks, 1 failures
+    first failing checks: F08 textContent 逐字符相等
+34 文字       栏目类型文字改成 新闻评论
+    CAUGHT | TOTAL 202 checks, 2 failures
+    first failing checks: .article__type 严格等于 新闻通讯, 禁 CSS 后阅读顺序：类型→标题→署名→F01..F23
+35 文字       标题改字
+    CAUGHT | TOTAL 202 checks, 3 failures
+    first failing checks: h1.page-title 严格等于标题, AI 连同标题共 20 次, 禁 CSS 后阅读顺序：类型→标题→署名→F01..F23
+36 文字       署名加“作者：”前缀
+    CAUGHT | TOTAL 202 checks, 3 failures
+    first failing checks: .article__byline 严格等于 蓝色空间, 署名无 作者：/记者：/文／ 前缀, 禁 CSS 后阅读顺序：类型→标题→署名→F01..F23
+37 禁止信息     新增日期段 .article__date
+    CAUGHT | Traceback (most recent call last):
+  File "C:\Users\weibo\Documents\语文报纸\_qa_task6\verify.py", line 419, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\weibo\Documents\语文报纸\_qa_task6\verify.py", line 211, in main
+    head, abody = elems(art)
+    ^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2, got 3)
+
+    first failing checks: -
+38 禁止信息     新增来源说明段
+    CAUGHT | TOTAL 202 checks, 10 failures
+    first failing checks: .article__body 恰好 23 个直接 <p>, 正文段落数严格 23, 最后一项是 F23 且其后无空/纯白项, 23 段合并后 U+0020 总数 == 1
+39 禁止信息     正文新增外部链接
+    CAUGHT | TOTAL 202 checks, 6 failures
+    first failing checks: F09 不含子元素, F02–F23 无 <strong>/<em>/<a>/<span>/<br>, F09 textContent 逐字符相等, F09 结尾 ——向AI提问。
+40 禁止信息     正文新增图片
+    CAUGHT | TOTAL 202 checks, 12 failures
+    first failing checks: .article__body 恰好 23 个直接 <p>, F24 不含子元素, 正文无 blockquote/q/figure, 正文段落数严格 23
+41 禁止信息     出现内部编号 F01
+    CAUGHT | TOTAL 202 checks, 5 failures
+    first failing checks: F01 textContent 逐字符相等, F01 电头后恰好一个 U+0020, F01 全段 U+0020 数量 == 1, 23 段合并后 U+0020 总数 == 1
+42 禁止信息     出现模板省略号说明
+    CAUGHT | TOTAL 202 checks, 11 failures
+    first failing checks: .article__body 恰好 23 个直接 <p>, 正文段落数严格 23, 最后一项是 F23 且其后无空/纯白项, 23 段合并后 U+0020 总数 == 1
+43 禁止信息     出现 TODO
+    CAUGHT | TOTAL 202 checks, 10 failures
+    first failing checks: .article__body 恰好 23 个直接 <p>, 正文段落数严格 23, 最后一项是 F23 且其后无空/纯白项, 23 段合并后 U+0020 总数 == 1
+44 无障碍      正文段落被 aria-hidden 隐藏
+    CAUGHT | TOTAL 202 checks, 2 failures
+    first failing checks: 任务 6 内容无 aria-hidden, 23 个正文 <p> 各占一个源码行
+45 禁止信息     正文加 data-* 编号
+    CAUGHT | TOTAL 202 checks, 3 failures
+    first failing checks: 页面不出现 F01/F23 等内部编号, 无 data-* 属性, 23 个正文 <p> 各占一个源码行
+46 共享接口     内联 style 专属样式
+    CAUGHT | TOTAL 202 checks, 2 failures
+    first failing checks: 无内联 style 属性, 23 个正文 <p> 各占一个源码行
+47 共享接口     页面内 <style>
+    CAUGHT | TOTAL 202 checks, 1 failures
+    first failing checks: 无 <style> 标签
+48 无脚本      正文改为脚本注入
+    CAUGHT | Traceback (most recent call last):
+  File "C:\Users\weibo\Documents\语文报纸\_qa_task6\verify.py", line 419, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\weibo\Documents\语文报纸\_qa_task6\verify.py", line 211, in main
+    head, abody = elems(art)
+    ^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2, got 3)
+
+    first failing checks: -
+49 公共壳      导航 aria-current 丢失
+    CAUGHT | TOTAL 202 checks, 2 failures
+    first failing checks: 全页恰好一个 aria-current=page, 当前页标记位于 新闻通讯 → news-feature.html
+50 公共壳      aria-current 移到新闻消息
+    CAUGHT | TOTAL 202 checks, 1 failures
+    first failing checks: 当前页标记位于 新闻通讯 → news-feature.html
+51 公共壳      两处 aria-current
+    CAUGHT | TOTAL 202 checks, 2 failures
+    first failing checks: 全页恰好一个 aria-current=page, 当前页标记位于 新闻通讯 → news-feature.html
+52 公共壳      脚本去掉 defer
+    CAUGHT | TOTAL 202 checks, 1 failures
+    first failing checks: 脚本保留 defer
+53 公共壳      样式引用改成子目录
+    CAUGHT | TOTAL 202 checks, 1 failures
+    first failing checks: styles.css 引用一次
+54 公共壳      导航顺序交换
+    CAUGHT | TOTAL 202 checks, 2 failures
+    first failing checks: 导航顺序, 导航目标为同目录相对路径
+55 公共壳      新增站点 footer
+    CAUGHT | TOTAL 202 checks, 1 failures
+    first failing checks: 页面页脚 <footer> 数量 0
+56 公共壳      新增 aside
+    CAUGHT | TOTAL 202 checks, 2 failures
+    first failing checks: 无 aside, #main-content 唯一元素子节点是 article.article
+57 公共壳      第二套导航
+    CAUGHT | TOTAL 202 checks, 1 failures
+    first failing checks: 全页只有一个 <nav>
+58 公共壳      lang 改成 zh
+    CAUGHT | TOTAL 202 checks, 1 failures
+    first failing checks: html lang="zh-CN"
+59 公共壳      no-js 类被移除
+    CAUGHT | TOTAL 202 checks, 1 failures
+    first failing checks: html 初始 class="no-js"
+60 公共壳      <title> 改成站点名
+    CAUGHT | TOTAL 202 checks, 1 failures
+    first failing checks: 页面 <title> 符合 Task 2 基线
+61 文字       正文文本改为 HTML 实体
+    CAUGHT | TOTAL 202 checks, 2 failures
+    first failing checks: 每段正文文本原样存在于 HTML 源码（非脚本注入）, 每段完整文本原样存在于去标签源码
+62 段落数      追加第 24 个正文段（重复 F23）
+    CAUGHT | TOTAL 202 checks, 9 failures
+    first failing checks: .article__body 恰好 23 个直接 <p>, 正文段落数严格 23, 最后一项是 F23 且其后无空/纯白项, 23 段合并后 U+0020 总数 == 1
+
+mutations: 62/62 caught; control pass = True
+coverage: 100.0%

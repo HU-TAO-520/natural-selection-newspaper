@@ -1,0 +1,175 @@
+PASS  index.html T1 首屏 · html 为 js 且无 no-js
+PASS  index.html T1 首屏 · 移动视口按钮可见
+PASS  index.html T1 首屏 · 导航折叠且 aria=false 且无 is-open
+PASS  index.html T1 首屏 · 四个链接不在 Tab 顺序中
+PASS  index.html T2 真实点击 · is-open 且 aria=true 且导航显示
+PASS  index.html T2 真实点击 · 四个链接已渲染可 Tab
+PASS  index.html T2 真实点击 · 焦点仍在按钮而非被移入菜单
+PASS  index.html T2b 打开后按 Tab · 焦点进入第一个链接
+PASS  index.html T5 打开态在链接上按 Esc · 关闭且焦点返回按钮
+PASS  index.html T2c 再次点击可重复打开
+PASS  index.html T3 第二次点击 · 关闭且状态同步
+PASS  index.html T4 前置 · 纯键盘 Tab 从文档首可到达菜单按钮
+PASS  index.html T4 Enter · 一次按键恰好一次 click 激活（无双触发）
+PASS  index.html T4 Enter · 再按恰好切换为关闭（无双触发）
+PASS  index.html T4 Space · 不双触发（click<=1）且 is-open 与 aria 同步
+PASS  index.html T4 Space · 连续按键仍不双触发且状态同步
+PASS  index.html T6 点击链接 前置状态=打开
+PASS  index.html T6 点击导航链接 · 真实发生导航且落地页无展开残留
+PASS  index.html T6c 点击菜单外 前置状态=打开
+PASS  index.html T6c 点击正文（菜单外） · 菜单保持展开（已定决策）
+PASS  index.html T5b 关闭态 Esc 前置状态=关闭
+PASS  index.html T5b 关闭态 Esc · 状态不变且无副作用
+PASS  index.html T5b 关闭态 Esc · 不移动焦点不滚动
+PASS  index.html T7 跨断点 前置状态=打开
+PASS  index.html T7 前置 · 375px 下菜单为打开
+PASS  index.html T7 对照 · 本渲染环境会派发 mediaquery change 事件
+PASS  index.html T7 进入 1000px · is-open 清除且 aria 重置 false
+PASS  index.html T7 进入 1000px · 按钮隐藏且导航常显（Task 8 集成）
+PASS  index.html T7 进入 1000px · 四个链接横向常显可 Tab
+PASS  index.html T7 缩回 375px · 关闭态且不复用旧展开状态
+PASS  index.html T7 缩回后仍可正常打开
+PASS  index.html T7b 768px 前置状态=关闭
+PASS  index.html T7b 768px · 仍为移动态且可打开
+PASS  index.html T7b 769px · 恰好触发重置
+PASS  news-message.html T1 首屏 · html 为 js 且无 no-js
+PASS  news-message.html T1 首屏 · 移动视口按钮可见
+PASS  news-message.html T1 首屏 · 导航折叠且 aria=false 且无 is-open
+PASS  news-message.html T1 首屏 · 四个链接不在 Tab 顺序中
+PASS  news-message.html T2 真实点击 · is-open 且 aria=true 且导航显示
+PASS  news-message.html T2 真实点击 · 四个链接已渲染可 Tab
+PASS  news-message.html T2 真实点击 · 焦点仍在按钮而非被移入菜单
+PASS  news-message.html T2b 打开后按 Tab · 焦点进入第一个链接
+PASS  news-message.html T5 打开态在链接上按 Esc · 关闭且焦点返回按钮
+PASS  news-message.html T2c 再次点击可重复打开
+PASS  news-message.html T3 第二次点击 · 关闭且状态同步
+PASS  news-message.html T4 前置 · 纯键盘 Tab 从文档首可到达菜单按钮
+PASS  news-message.html T4 Enter · 一次按键恰好一次 click 激活（无双触发）
+PASS  news-message.html T4 Enter · 再按恰好切换为关闭（无双触发）
+PASS  news-message.html T4 Space · 不双触发（click<=1）且 is-open 与 aria 同步
+PASS  news-message.html T4 Space · 连续按键仍不双触发且状态同步
+PASS  news-message.html T6 点击链接 前置状态=打开
+PASS  news-message.html T6 点击导航链接 · 真实发生导航且落地页无展开残留
+PASS  news-message.html T6c 点击菜单外 前置状态=打开
+PASS  news-message.html T6c 点击正文（菜单外） · 菜单保持展开（已定决策）
+PASS  news-message.html T5b 关闭态 Esc 前置状态=关闭
+PASS  news-message.html T5b 关闭态 Esc · 状态不变且无副作用
+PASS  news-message.html T5b 关闭态 Esc · 不移动焦点不滚动
+PASS  news-message.html T7 跨断点 前置状态=打开
+PASS  news-message.html T7 前置 · 375px 下菜单为打开
+PASS  news-message.html T7 对照 · 本渲染环境会派发 mediaquery change 事件
+PASS  news-message.html T7 进入 1000px · is-open 清除且 aria 重置 false
+PASS  news-message.html T7 进入 1000px · 按钮隐藏且导航常显（Task 8 集成）
+PASS  news-message.html T7 进入 1000px · 四个链接横向常显可 Tab
+PASS  news-message.html T7 缩回 375px · 关闭态且不复用旧展开状态
+PASS  news-message.html T7 缩回后仍可正常打开
+PASS  news-message.html T7b 768px 前置状态=关闭
+PASS  news-message.html T7b 768px · 仍为移动态且可打开
+PASS  news-message.html T7b 769px · 恰好触发重置
+PASS  news-feature.html T1 首屏 · html 为 js 且无 no-js
+PASS  news-feature.html T1 首屏 · 移动视口按钮可见
+PASS  news-feature.html T1 首屏 · 导航折叠且 aria=false 且无 is-open
+PASS  news-feature.html T1 首屏 · 四个链接不在 Tab 顺序中
+PASS  news-feature.html T2 真实点击 · is-open 且 aria=true 且导航显示
+PASS  news-feature.html T2 真实点击 · 四个链接已渲染可 Tab
+PASS  news-feature.html T2 真实点击 · 焦点仍在按钮而非被移入菜单
+PASS  news-feature.html T2b 打开后按 Tab · 焦点进入第一个链接
+PASS  news-feature.html T5 打开态在链接上按 Esc · 关闭且焦点返回按钮
+PASS  news-feature.html T2c 再次点击可重复打开
+PASS  news-feature.html T3 第二次点击 · 关闭且状态同步
+PASS  news-feature.html T4 前置 · 纯键盘 Tab 从文档首可到达菜单按钮
+PASS  news-feature.html T4 Enter · 一次按键恰好一次 click 激活（无双触发）
+PASS  news-feature.html T4 Enter · 再按恰好切换为关闭（无双触发）
+PASS  news-feature.html T4 Space · 不双触发（click<=1）且 is-open 与 aria 同步
+PASS  news-feature.html T4 Space · 连续按键仍不双触发且状态同步
+PASS  news-feature.html T6 点击链接 前置状态=打开
+PASS  news-feature.html T6 点击导航链接 · 真实发生导航且落地页无展开残留
+PASS  news-feature.html T6c 点击菜单外 前置状态=打开
+PASS  news-feature.html T6c 点击正文（菜单外） · 菜单保持展开（已定决策）
+PASS  news-feature.html T5b 关闭态 Esc 前置状态=关闭
+PASS  news-feature.html T5b 关闭态 Esc · 状态不变且无副作用
+PASS  news-feature.html T5b 关闭态 Esc · 不移动焦点不滚动
+PASS  news-feature.html T7 跨断点 前置状态=打开
+PASS  news-feature.html T7 前置 · 375px 下菜单为打开
+PASS  news-feature.html T7 对照 · 本渲染环境会派发 mediaquery change 事件
+PASS  news-feature.html T7 进入 1000px · is-open 清除且 aria 重置 false
+PASS  news-feature.html T7 进入 1000px · 按钮隐藏且导航常显（Task 8 集成）
+PASS  news-feature.html T7 进入 1000px · 四个链接横向常显可 Tab
+PASS  news-feature.html T7 缩回 375px · 关闭态且不复用旧展开状态
+PASS  news-feature.html T7 缩回后仍可正常打开
+PASS  news-feature.html T7b 768px 前置状态=关闭
+PASS  news-feature.html T7b 768px · 仍为移动态且可打开
+PASS  news-feature.html T7b 769px · 恰好触发重置
+PASS  news-commentary.html T1 首屏 · html 为 js 且无 no-js
+PASS  news-commentary.html T1 首屏 · 移动视口按钮可见
+PASS  news-commentary.html T1 首屏 · 导航折叠且 aria=false 且无 is-open
+PASS  news-commentary.html T1 首屏 · 四个链接不在 Tab 顺序中
+PASS  news-commentary.html T2 真实点击 · is-open 且 aria=true 且导航显示
+PASS  news-commentary.html T2 真实点击 · 四个链接已渲染可 Tab
+PASS  news-commentary.html T2 真实点击 · 焦点仍在按钮而非被移入菜单
+PASS  news-commentary.html T2b 打开后按 Tab · 焦点进入第一个链接
+PASS  news-commentary.html T5 打开态在链接上按 Esc · 关闭且焦点返回按钮
+PASS  news-commentary.html T2c 再次点击可重复打开
+PASS  news-commentary.html T3 第二次点击 · 关闭且状态同步
+PASS  news-commentary.html T4 前置 · 纯键盘 Tab 从文档首可到达菜单按钮
+PASS  news-commentary.html T4 Enter · 一次按键恰好一次 click 激活（无双触发）
+PASS  news-commentary.html T4 Enter · 再按恰好切换为关闭（无双触发）
+PASS  news-commentary.html T4 Space · 不双触发（click<=1）且 is-open 与 aria 同步
+PASS  news-commentary.html T4 Space · 连续按键仍不双触发且状态同步
+PASS  news-commentary.html T6 点击链接 前置状态=打开
+PASS  news-commentary.html T6 点击导航链接 · 真实发生导航且落地页无展开残留
+PASS  news-commentary.html T6c 点击菜单外 前置状态=打开
+PASS  news-commentary.html T6c 点击正文（菜单外） · 菜单保持展开（已定决策）
+PASS  news-commentary.html T5b 关闭态 Esc 前置状态=关闭
+PASS  news-commentary.html T5b 关闭态 Esc · 状态不变且无副作用
+PASS  news-commentary.html T5b 关闭态 Esc · 不移动焦点不滚动
+PASS  news-commentary.html T7 跨断点 前置状态=打开
+PASS  news-commentary.html T7 前置 · 375px 下菜单为打开
+PASS  news-commentary.html T7 对照 · 本渲染环境会派发 mediaquery change 事件
+PASS  news-commentary.html T7 进入 1000px · is-open 清除且 aria 重置 false
+PASS  news-commentary.html T7 进入 1000px · 按钮隐藏且导航常显（Task 8 集成）
+PASS  news-commentary.html T7 进入 1000px · 四个链接横向常显可 Tab
+PASS  news-commentary.html T7 缩回 375px · 关闭态且不复用旧展开状态
+PASS  news-commentary.html T7 缩回后仍可正常打开
+PASS  news-commentary.html T7b 768px 前置状态=关闭
+PASS  news-commentary.html T7b 768px · 仍为移动态且可打开
+PASS  news-commentary.html T7b 769px · 恰好触发重置
+PASS  index.html T8 禁用 JS · html 保持 no-js
+PASS  index.html T8 禁用 JS · 按钮不可见
+PASS  index.html T8 禁用 JS · 四项导航纵向常显
+PASS  index.html T8 禁用 JS · 四个链接渲染且可聚焦
+PASS  index.html T8 禁用 JS · aria-expanded 保持源码 false
+PASS  index.html T8 禁用 JS · 桌面宽度导航仍常显
+PASS  index.html T8 禁用 JS · 链接仍可点击并真实导航
+PASS  news-message.html T8 禁用 JS · html 保持 no-js
+PASS  news-message.html T8 禁用 JS · 按钮不可见
+PASS  news-message.html T8 禁用 JS · 四项导航纵向常显
+PASS  news-message.html T8 禁用 JS · 四个链接渲染且可聚焦
+PASS  news-message.html T8 禁用 JS · aria-expanded 保持源码 false
+PASS  news-message.html T8 禁用 JS · 桌面宽度导航仍常显
+PASS  news-message.html T8 禁用 JS · 链接仍可点击并真实导航
+PASS  news-feature.html T8 禁用 JS · html 保持 no-js
+PASS  news-feature.html T8 禁用 JS · 按钮不可见
+PASS  news-feature.html T8 禁用 JS · 四项导航纵向常显
+PASS  news-feature.html T8 禁用 JS · 四个链接渲染且可聚焦
+PASS  news-feature.html T8 禁用 JS · aria-expanded 保持源码 false
+PASS  news-feature.html T8 禁用 JS · 桌面宽度导航仍常显
+PASS  news-feature.html T8 禁用 JS · 链接仍可点击并真实导航
+PASS  news-commentary.html T8 禁用 JS · html 保持 no-js
+PASS  news-commentary.html T8 禁用 JS · 按钮不可见
+PASS  news-commentary.html T8 禁用 JS · 四项导航纵向常显
+PASS  news-commentary.html T8 禁用 JS · 四个链接渲染且可聚焦
+PASS  news-commentary.html T8 禁用 JS · aria-expanded 保持源码 false
+PASS  news-commentary.html T8 禁用 JS · 桌面宽度导航仍常显
+PASS  news-commentary.html T8 禁用 JS · 链接仍可点击并真实导航
+PASS  m_no_toggle.html T10 接口缺失 · no-js 仍切换为 js
+PASS  m_no_toggle.html T10 接口缺失 · 目标接口确实缺失
+PASS  m_no_toggle.html T10 接口缺失 · 未抛出未捕获异常
+PASS  m_no_toggle.html T10 接口缺失 · 后补接口上无任何状态写入
+PASS  m_no_nav.html T10 接口缺失 · no-js 仍切换为 js
+PASS  m_no_nav.html T10 接口缺失 · 目标接口确实缺失
+PASS  m_no_nav.html T10 接口缺失 · 未抛出未捕获异常
+PASS  m_no_nav.html T10 接口缺失 · 后补接口上无任何状态写入
+PASS  全站控制台 · 四页 + 禁用 JS + 变异体 0 未捕获异常/0 输出
+
+CDP: 173/173 pass, 0 failures

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>shot19:boot</title>
+  <style>
+    html, body { margin: 0; padding: 0; background: #ffffff; }
+    #frame { display: block; border: 0; }
+  </style>
+</head>
+<body>
+  <iframe id="frame"></iframe>
+  <script>
+    /* Task 19 同步固定宽度截图页。
+     *
+     * 无头 Chrome 顶层窗口有约 500px 下限，直接把窗口设成 375px 会得到"500px 内容左裁剪"的
+     * 假溢出截图。这里改为：顶层窗口保持宽屏，iframe 固定为目标 CSS 宽度，截图按 iframe
+     * 盒子裁剪，得到真正 375/768 布局宽的证据图。
+     * 视口真实性不靠声明：本页把 iframe 文档的 documentElement.clientWidth 回写进
+     * <title>ready:{clientWidth}:{state}</title>，驱动读标题确认截图对应的实际视口宽度。
+     */
+    var q = new URLSearchParams(location.search);
+    var target = q.get('t') || 'index.html';
+    var W = parseInt(q.get('w') || '375', 10);
+    var H = parseInt(q.get('h') || '1200', 10);
+    var state = q.get('state') || 'closed';
+    var dir = q.get('dir') || '../Results';
+    var fr = document.getElementById('frame');
+    fr.style.width = W + 'px';
+    fr.style.height = H + 'px';
+    window.__done = false;
+    fr.addEventListener('load', function () {
+      try {
+        var d = fr.contentDocument;
+        /* 同 measure19：初始 about:blank 的 load 不算就绪 */
+        if (!d || d.location.href === 'about:blank' || !d.querySelector('.site-navigation__link')) return;
+        if (state === 'nocss') { for (var i = 0; i < d.styleSheets.length; i++) d.styleSheets[i].disabled = true; }
+        if (state === 'open') { var t = d.getElementById('nav-toggle'); if (t) t.click(); }
+        if (state === 'menuout') {
+          var b = d.getElementById('nav-toggle'); if (b) b.click();
+          var l = d.querySelectorAll('.site-navigation__link'); if (l.length) l[l.length - 1].focus();
+        }
+        window.__cw = d.documentElement.clientWidth;
+        window.__done = true;
+        document.title = 'ready:' + window.__cw + ':' + state;
+      } catch (e) {
+        document.title = 'error:' + String(e && e.message || e);
+      }
+    });
+    fr.src = dir + '/' + target;
+  </script>
+</body>
+</html>

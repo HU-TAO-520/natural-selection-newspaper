@@ -1,0 +1,42 @@
+Task 16 归档列表与首页最新区 — 规则清单（选择器｜声明｜参照既有｜设计意图）
+来源：Results/styles.css 第 9 分区（桌面，@media 之前）与移动块内末尾追加区
+变量取值全部来自 plan/Task16 表 2（= Results/styles.css:10-45 既有 :root）
+
+========================================================================
+一、桌面区（插入位置：既有第 8 分区之后、@media 之前）
+========================================================================
+
+.entry-list                        | list-style: none ; max-width: var(--reading-max) ; margin: var(--space-7) auto 0                     | .home-sections            | 版心与上边距与首页引言区同构（--space-7 = 3rem）。list-style 为实测补写：第 2 分区的全局 ul 重置只有 `margin: 0; padding: 0`，不含 list-style，真实浏览器里 li.entry-list__item 以 display: list-item 绘出项目符号，故须在容器局部消除（不在子代 li 上写，避免同一声明出现两份）。
+.entry-list__item                  | padding-block: var(--space-5) ; border-top: var(--rule-thin) solid var(--color-rule)                  | .home-section             | 条目行 = 一条细线 + 上下留白，与首页区块同构，不引入卡片外观。
+.entry-list__item:last-child       | border-bottom: var(--rule-thin) solid var(--color-rule)                                              | .home-section:last-child  | 末条补下边线，使目录块以两条细线闭合。:last-child 为伪类，不触 H5/pagepatch 的 :nth-child 禁令。
+.entry-list__link                  | display: flex ; align-items: baseline ; justify-content: space-between ; gap: var(--space-4) ; padding-block: var(--space-3) ; color: var(--color-ink) ; text-decoration: none | .site-masthead__link | 标题与日期用 flex 两端对齐表达关系，不引入分隔点字符（H10）。baseline 让中文标题与月日在同一基线上。padding-block 为使链接自身渲染盒在六档视口都达到 44×44（Task12:312 / Task0 §可访问性），声明落在已 display: flex 的链接上（行内元素不生效）。标题默认墨色而非暗红，避免列表读起来像满屏链接。
+.entry-list__link:visited          | color: var(--color-ink)                                                                              | .site-masthead__link:visited | H13 配对：与 .entry-list__link 的 color 逐字符同值，压过全局 a:visited（0,1,1）的暗红。
+.entry-list__link:hover            | color: var(--color-accent) ; text-decoration: underline                                              | .site-navigation__link:hover | 悬停才转暗红并给下划线，作为"链接可点"的非颜色线索（text-decoration 不依赖颜色）。
+.entry-list__title                 | flex: 1 1 auto ; font-size: var(--font-size-reading) ; font-weight: 700 ; line-height: var(--line-height-tight) | .home-section__title + .article__body > p | 标题占满剩余宽度，日期自然被推到右端。
+.entry-list__date                  | flex: 0 0 auto ; color: var(--color-muted) ; font-size: var(--font-size-small) ; white-space: nowrap  | .article__date（取靠右次要信息口径） | 次要信息 = 灰 + 小字；nowrap 防月日被拆行。该类节点在无 display_date 时整体缺席（Task12:273／R9），规则仍必须在场。
+.home-latest                       | max-width: var(--reading-max) ; margin: var(--space-8) auto 0                                        | .home-sections            | 与引言区拉开一个层级（--space-8 = 4rem），容器为 div[role=region] 不是导航地标。
+.home-latest__title                | margin: 0 0 var(--space-3) ; color: var(--color-accent) ; font-size: var(--font-size-section-title) ; line-height: var(--line-height-tight) ; font-weight: 700 ; text-align: left | .home-section__title | 逐条同构，读起来仍是同一份报纸的区块标题；左对齐不居中。
+.home-latest__list                 | list-style: none                                                                                     | .site-navigation__list    | 同 .entry-list 的实测补写理由（全局 ul 重置不含 list-style）。
+.home-latest__item                 | padding-block: var(--space-4) ; border-top: var(--rule-thin) solid var(--color-rule)                  | .home-section             | 最新区条目比栏目列表页条目略紧（--space-4），保持层级差。
+.home-latest__item:last-child      | border-bottom: var(--rule-thin) solid var(--color-rule)                                              | .home-section:last-child  | 末条闭合下边线。
+.home-latest__link                 | display: flex ; align-items: baseline ; justify-content: space-between ; gap: var(--space-4) ; padding-block: var(--space-3) ; color: var(--color-ink) ; text-decoration: none | .entry-list__link 一族 | 与栏目列表页同一族规则，避免第二套视觉语言。
+.home-latest__link:visited         | color: var(--color-ink)                                                                              | .entry-list__link:visited | H13 配对。
+.home-latest__link:hover           | color: var(--color-accent) ; text-decoration: underline                                              | .entry-list__link:hover   | 悬停反馈。
+.home-latest__entry                | flex: 1 1 auto ; font-size: var(--font-size-body) ; font-weight: 700                                 | —（新成员，取 .article__date 的字重口径） | 首页条目用正文字号（1rem），小于列表页标题（--font-size-reading），表达"目录 > 摘要"的层级。
+.home-latest__date                 | flex: 0 0 auto ; color: var(--color-muted) ; font-size: var(--font-size-small) ; white-space: nowrap  | .entry-list__date         | 与列表页日期完全同构。
+
+焦点态说明：.entry-list__link:focus-visible 与 .home-latest__link:focus-visible 不单独声明，
+沿用第 3 分区的全局 `a:focus-visible { outline: var(--focus-width) solid var(--color-accent); outline-offset: 3px }`；
+本包未新增任何覆盖性 `outline: none`（合同 §2 第 6 行）。
+
+========================================================================
+二、移动区（追加进既有唯一 @media (max-width: 768px) 块内部末尾）
+========================================================================
+
+.entry-list__item, .home-latest__item | padding-block: var(--space-4)                                        | 合同 §3.4 | 窄屏收敛条目上下留白，避免行高 + 流式字号之后过疏。
+.entry-list__link, .home-latest__link | flex-direction: column ; align-items: flex-start ; gap: var(--space-1) ; min-block-size: 44px ; min-inline-size: 44px ; padding-block: var(--space-3) | .js .nav-toggle（styles.css:411-414 同时声明两维） | 合同 §3.1／§3.2：标题与日期上下排列而非挤成三行；44×44 两维同写（Task12:312），并配 padding-block 达成；两维声明都落在已 display: flex 的链接上（对行内元素无效）。
+.entry-list__title, .home-latest__entry | min-width: 0 ; overflow-wrap: anywhere ; word-break: normal ; hyphens: none | 紧急换行保护区（styles.css:513-522） | 合同 §3.3：长中文标题安全折行，用 overflow-wrap 而非被 H9 禁止的 word-break: break-all。
+
+未做（合同明确禁止）：不新增 :root 变量、不新建第二个媒体块、不改 prelude、不引入 100vw／
+overflow-x: hidden|clip／!important／content 注入／ID 选择器／:nth-child／body.*／grid／
+transition／animation／transform／阴影／渐变／圆角卡片／分栏／粘性定位。

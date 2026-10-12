@@ -1,0 +1,148 @@
+[RZ0] [REC] - — - — 验收环境 — Chrome/154.0.8037.93 · headless=new · file:// 直开 · profile=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\.cdp9381-1791034648018 · 被测目录=C:\Users\weibo\Documents\语文报纸\Results · 段=zoom
+[RZ1] [PASS] - — - — 19.1 遍历清单条数 == manifest.counts.html（HTML 子集，非目录扫描所得） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 styles.css／script.js 不是页（不进遍历清单） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 遍历顺序按 path 字典序 — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [REC] - — - — 本轮实跑页集合（QODER_ONLY 只影响实跑范围，不改变清单结论） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ2] [PASS] - — - — 前置闸门：Task 18 结论 FAIL 0 且 PENDING 0（未全绿则本包不开跑） — 匹配=true
+[RZ2] [PASS] - — - — 前置闸门：Task 18 变异捕获率 100% — 100
+[RZ2] [PASS] - — - — 前置闸门：Task 18 断言数 ≥340 — 1395
+[RZ2] [PASS] - — - — 前置闸门：expected_reversals.md 已读入本包前置（区分真回归与范围过期的唯一依据） — true
+[RZ3] [PASS] - — - — 19.1 Task18 facts.json 的 __meta 与目录绑定：页集合与本包遍历清单同源（复用 M1 结论，不重造） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ3] [PASS] - — - — 19.1 快照未过期：__meta 逐页哈希 == 当前 Results/ 逐页哈希 — 0 页失配
+[RZ4] [PASS] - — - — 19.1 首页哈希 == 清单登记值（合同基线表里的 2629 字节 971e57a5… 是 v1 六文件值，当前以 manifest 为准，Task18 §8.3 已登记） — 14b82801fc5c1a96…/3631B
+[RZ4] [PASS] - — - — 19.1 Results/ 文件数 == 清单 pages 数（交付文件 6+N=12） — 12
+[RZ5] [PASS] - — - — 19.1 输入前置：五处目录齐备 — 全部存在
+[RZ5] [PASS] - — - — 19.1 输入前置：清单／打包件／上传单／Task18 事实／Task13 基线／v1 母本齐备 — 全部存在
+[RH1] [PASS] article-along-the-north-small-river.html — 1280px/100% — 记录缩放前 CSS 视口 — 1280
+[RH1] [PASS] article-along-the-north-small-river.html — 200%（1280÷2 布局 + dpr2 绘制） — 缩放两效同时成立：CSS 视口折半且绘制翻倍（CDP zoom 参数在本机为 no-op=true，已由 zoom_probe19.mjs 单独取证） — inner=640 dpr=2
+[RH1] [PASS] article-along-the-north-small-river.html — 200% — 以 rect.width × dpr 佐证实际绘制像素翻倍 — 641 vs 381
+[RH1] [PASS] article-along-the-north-small-river.html — 200% — 根字号未锁死为像素（缩放按 CSS px 等比生效） — 16px
+[RH2] [PASS] article-along-the-north-small-river.html — 200%→640px — 缩放后进入移动布局（预期正确结果）：按钮可见、导航折叠 — mqM=true tog=flex nav=none
+[RH2] [PASS] article-along-the-north-small-river.html — 200%→640px — 缩放下复查菜单三态与触控下限 — [[608,46],[608,46],[608,46],[608,46]]
+[RH2] [PASS] article-along-the-north-small-river.html — 200%→640px — 缩放下列表/最新区链接实测仍 ≥44×44 — （本页无此类链接）
+[RH3] [PASS] article-along-the-north-small-river.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px","solid","rgb(122, 36, 36)"]
+[RH3] [PASS] article-along-the-north-small-river.html — 200%→640px — 200% 下无横向滚动 — 640<=640/640
+[RH3] [PASS] article-along-the-north-small-river.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 title 608/608
+[RH3] [PASS] article-along-the-north-small-river.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] article-along-the-north-small-river.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120.0 open=false
+[RH1] [PASS] article-classroom-screen-upgrade.html — 1280px/100% — 记录缩放前 CSS 视口 — 1280
+[RH1] [PASS] article-classroom-screen-upgrade.html — 200%（1280÷2 布局 + dpr2 绘制） — 缩放两效同时成立：CSS 视口折半且绘制翻倍（CDP zoom 参数在本机为 no-op=true，已由 zoom_probe19.mjs 单独取证） — inner=640 dpr=2
+[RH1] [PASS] article-classroom-screen-upgrade.html — 200% — 以 rect.width × dpr 佐证实际绘制像素翻倍 — 641 vs 381
+[RH1] [PASS] article-classroom-screen-upgrade.html — 200% — 根字号未锁死为像素（缩放按 CSS px 等比生效） — 16px
+[RH2] [PASS] article-classroom-screen-upgrade.html — 200%→640px — 缩放后进入移动布局（预期正确结果）：按钮可见、导航折叠 — mqM=true tog=flex nav=none
+[RH2] [PASS] article-classroom-screen-upgrade.html — 200%→640px — 缩放下复查菜单三态与触控下限 — [[608,46],[608,46],[608,46],[608,46]]
+[RH2] [PASS] article-classroom-screen-upgrade.html — 200%→640px — 缩放下列表/最新区链接实测仍 ≥44×44 — （本页无此类链接）
+[RH3] [PASS] article-classroom-screen-upgrade.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px","solid","rgb(122, 36, 36)"]
+[RH3] [PASS] article-classroom-screen-upgrade.html — 200%→640px — 200% 下无横向滚动 — 640<=640/640
+[RH3] [PASS] article-classroom-screen-upgrade.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 title 608/608
+[RH3] [PASS] article-classroom-screen-upgrade.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] article-classroom-screen-upgrade.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120.0 open=false
+[RH1] [PASS] article-math-to-ai-learning.html — 1280px/100% — 记录缩放前 CSS 视口 — 1280
+[RH1] [PASS] article-math-to-ai-learning.html — 200%（1280÷2 布局 + dpr2 绘制） — 缩放两效同时成立：CSS 视口折半且绘制翻倍（CDP zoom 参数在本机为 no-op=true，已由 zoom_probe19.mjs 单独取证） — inner=640 dpr=2
+[RH1] [PASS] article-math-to-ai-learning.html — 200% — 以 rect.width × dpr 佐证实际绘制像素翻倍 — 641 vs 381
+[RH1] [PASS] article-math-to-ai-learning.html — 200% — 根字号未锁死为像素（缩放按 CSS px 等比生效） — 16px
+[RH2] [PASS] article-math-to-ai-learning.html — 200%→640px — 缩放后进入移动布局（预期正确结果）：按钮可见、导航折叠 — mqM=true tog=flex nav=none
+[RH2] [PASS] article-math-to-ai-learning.html — 200%→640px — 缩放下复查菜单三态与触控下限 — [[608,46],[608,46],[608,46],[608,46]]
+[RH2] [PASS] article-math-to-ai-learning.html — 200%→640px — 缩放下列表/最新区链接实测仍 ≥44×44 — （本页无此类链接）
+[RH3] [PASS] article-math-to-ai-learning.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px","solid","rgb(122, 36, 36)"]
+[RH3] [PASS] article-math-to-ai-learning.html — 200%→640px — 200% 下无横向滚动 — 640<=640/640
+[RH3] [PASS] article-math-to-ai-learning.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 title 608/608
+[RH3] [PASS] article-math-to-ai-learning.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] article-math-to-ai-learning.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120.0 open=false
+[RH1] [PASS] article-north-of-dam-river.html — 1280px/100% — 记录缩放前 CSS 视口 — 1280
+[RH1] [PASS] article-north-of-dam-river.html — 200%（1280÷2 布局 + dpr2 绘制） — 缩放两效同时成立：CSS 视口折半且绘制翻倍（CDP zoom 参数在本机为 no-op=true，已由 zoom_probe19.mjs 单独取证） — inner=640 dpr=2
+[RH1] [PASS] article-north-of-dam-river.html — 200% — 以 rect.width × dpr 佐证实际绘制像素翻倍 — 641 vs 381
+[RH1] [PASS] article-north-of-dam-river.html — 200% — 根字号未锁死为像素（缩放按 CSS px 等比生效） — 16px
+[RH2] [PASS] article-north-of-dam-river.html — 200%→640px — 缩放后进入移动布局（预期正确结果）：按钮可见、导航折叠 — mqM=true tog=flex nav=none
+[RH2] [PASS] article-north-of-dam-river.html — 200%→640px — 缩放下复查菜单三态与触控下限 — [[608,46],[608,46],[608,46],[608,46]]
+[RH2] [PASS] article-north-of-dam-river.html — 200%→640px — 缩放下列表/最新区链接实测仍 ≥44×44 — （本页无此类链接）
+[RH3] [PASS] article-north-of-dam-river.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px","solid","rgb(122, 36, 36)"]
+[RH3] [PASS] article-north-of-dam-river.html — 200%→640px — 200% 下无横向滚动 — 640<=640/640
+[RH3] [PASS] article-north-of-dam-river.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 title 608/608
+[RH3] [PASS] article-north-of-dam-river.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] article-north-of-dam-river.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120.0 open=false
+[RH1] [PASS] article-school-course-selection-results.html — 1280px/100% — 记录缩放前 CSS 视口 — 1280
+[RH1] [PASS] article-school-course-selection-results.html — 200%（1280÷2 布局 + dpr2 绘制） — 缩放两效同时成立：CSS 视口折半且绘制翻倍（CDP zoom 参数在本机为 no-op=true，已由 zoom_probe19.mjs 单独取证） — inner=640 dpr=2
+[RH1] [PASS] article-school-course-selection-results.html — 200% — 以 rect.width × dpr 佐证实际绘制像素翻倍 — 641 vs 381
+[RH1] [PASS] article-school-course-selection-results.html — 200% — 根字号未锁死为像素（缩放按 CSS px 等比生效） — 16px
+[RH2] [PASS] article-school-course-selection-results.html — 200%→640px — 缩放后进入移动布局（预期正确结果）：按钮可见、导航折叠 — mqM=true tog=flex nav=none
+[RH2] [PASS] article-school-course-selection-results.html — 200%→640px — 缩放下复查菜单三态与触控下限 — [[608,46],[608,46],[608,46],[608,46]]
+[RH2] [PASS] article-school-course-selection-results.html — 200%→640px — 缩放下列表/最新区链接实测仍 ≥44×44 — （本页无此类链接）
+[RH3] [PASS] article-school-course-selection-results.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px","solid","rgb(122, 36, 36)"]
+[RH3] [PASS] article-school-course-selection-results.html — 200%→640px — 200% 下无横向滚动 — 640<=640/640
+[RH3] [PASS] article-school-course-selection-results.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 title 608/608
+[RH3] [PASS] article-school-course-selection-results.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] article-school-course-selection-results.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120.0 open=false
+[RH1] [PASS] article-school-course-volunteer.html — 1280px/100% — 记录缩放前 CSS 视口 — 1280
+[RH1] [PASS] article-school-course-volunteer.html — 200%（1280÷2 布局 + dpr2 绘制） — 缩放两效同时成立：CSS 视口折半且绘制翻倍（CDP zoom 参数在本机为 no-op=true，已由 zoom_probe19.mjs 单独取证） — inner=640 dpr=2
+[RH1] [PASS] article-school-course-volunteer.html — 200% — 以 rect.width × dpr 佐证实际绘制像素翻倍 — 641 vs 381
+[RH1] [PASS] article-school-course-volunteer.html — 200% — 根字号未锁死为像素（缩放按 CSS px 等比生效） — 16px
+[RH2] [PASS] article-school-course-volunteer.html — 200%→640px — 缩放后进入移动布局（预期正确结果）：按钮可见、导航折叠 — mqM=true tog=flex nav=none
+[RH2] [PASS] article-school-course-volunteer.html — 200%→640px — 缩放下复查菜单三态与触控下限 — [[608,46],[608,46],[608,46],[608,46]]
+[RH2] [PASS] article-school-course-volunteer.html — 200%→640px — 缩放下列表/最新区链接实测仍 ≥44×44 — （本页无此类链接）
+[RH3] [PASS] article-school-course-volunteer.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px","solid","rgb(122, 36, 36)"]
+[RH3] [PASS] article-school-course-volunteer.html — 200%→640px — 200% 下无横向滚动 — 640<=640/640
+[RH3] [PASS] article-school-course-volunteer.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 title 608/608
+[RH3] [PASS] article-school-course-volunteer.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] article-school-course-volunteer.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120.0 open=false
+[RH1] [PASS] index.html — 1280px/100% — 记录缩放前 CSS 视口 — 1280
+[RH1] [PASS] index.html — 200%（1280÷2 布局 + dpr2 绘制） — 缩放两效同时成立：CSS 视口折半且绘制翻倍（CDP zoom 参数在本机为 no-op=true，已由 zoom_probe19.mjs 单独取证） — inner=640 dpr=2
+[RH1] [PASS] index.html — 200% — 以 rect.width × dpr 佐证实际绘制像素翻倍 — 641 vs 381
+[RH1] [PASS] index.html — 200% — 根字号未锁死为像素（缩放按 CSS px 等比生效） — 16px
+[RH2] [PASS] index.html — 200%→640px — 缩放后进入移动布局（预期正确结果）：按钮可见、导航折叠 — mqM=true tog=flex nav=none
+[RH2] [PASS] index.html — 200%→640px — 缩放下复查菜单三态与触控下限 — [[608,46],[608,46],[608,46],[608,46]]
+[RH2] [PASS] index.html — 200%→640px — 缩放下列表/最新区链接实测仍 ≥44×44 — 608×75,608×75,608×75
+[RH3] [PASS] index.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px","solid","rgb(122, 36, 36)"]
+[RH3] [PASS] index.html — 200%→640px — 200% 下无横向滚动 — 640<=640/640
+[RH3] [PASS] index.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 title 608/608
+[RH3] [PASS] index.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] index.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120.0 open=false
+[RH1] [PASS] news-commentary.html — 1280px/100% — 记录缩放前 CSS 视口 — 1280
+[RH1] [PASS] news-commentary.html — 200%（1280÷2 布局 + dpr2 绘制） — 缩放两效同时成立：CSS 视口折半且绘制翻倍（CDP zoom 参数在本机为 no-op=true，已由 zoom_probe19.mjs 单独取证） — inner=640 dpr=2
+[RH1] [PASS] news-commentary.html — 200% — 以 rect.width × dpr 佐证实际绘制像素翻倍 — 641 vs 381
+[RH1] [PASS] news-commentary.html — 200% — 根字号未锁死为像素（缩放按 CSS px 等比生效） — 16px
+[RH2] [PASS] news-commentary.html — 200%→640px — 缩放后进入移动布局（预期正确结果）：按钮可见、导航折叠 — mqM=true tog=flex nav=none
+[RH2] [PASS] news-commentary.html — 200%→640px — 缩放下复查菜单三态与触控下限 — [[608,46],[608,46],[608,46],[608,46]]
+[RH2] [PASS] news-commentary.html — 200%→640px — 缩放下列表/最新区链接实测仍 ≥44×44 — 608×72
+[RH3] [PASS] news-commentary.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px","solid","rgb(122, 36, 36)"]
+[RH3] [PASS] news-commentary.html — 200%→640px — 200% 下无横向滚动 — 640<=640/640
+[RH3] [PASS] news-commentary.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 title 608/608
+[RH3] [PASS] news-commentary.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] news-commentary.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120.0 open=false
+[RH1] [PASS] news-feature.html — 1280px/100% — 记录缩放前 CSS 视口 — 1280
+[RH1] [PASS] news-feature.html — 200%（1280÷2 布局 + dpr2 绘制） — 缩放两效同时成立：CSS 视口折半且绘制翻倍（CDP zoom 参数在本机为 no-op=true，已由 zoom_probe19.mjs 单独取证） — inner=640 dpr=2
+[RH1] [PASS] news-feature.html — 200% — 以 rect.width × dpr 佐证实际绘制像素翻倍 — 641 vs 381
+[RH1] [PASS] news-feature.html — 200% — 根字号未锁死为像素（缩放按 CSS px 等比生效） — 16px
+[RH2] [PASS] news-feature.html — 200%→640px — 缩放后进入移动布局（预期正确结果）：按钮可见、导航折叠 — mqM=true tog=flex nav=none
+[RH2] [PASS] news-feature.html — 200%→640px — 缩放下复查菜单三态与触控下限 — [[608,46],[608,46],[608,46],[608,46]]
+[RH2] [PASS] news-feature.html — 200%→640px — 缩放下列表/最新区链接实测仍 ≥44×44 — 608×72,608×72,608×72
+[RH3] [PASS] news-feature.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px","solid","rgb(122, 36, 36)"]
+[RH3] [PASS] news-feature.html — 200%→640px — 200% 下无横向滚动 — 640<=640/640
+[RH3] [PASS] news-feature.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 title 608/608
+[RH3] [PASS] news-feature.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] news-feature.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120.0 open=false
+[RH1] [PASS] news-message.html — 1280px/100% — 记录缩放前 CSS 视口 — 1280
+[RH1] [PASS] news-message.html — 200%（1280÷2 布局 + dpr2 绘制） — 缩放两效同时成立：CSS 视口折半且绘制翻倍（CDP zoom 参数在本机为 no-op=true，已由 zoom_probe19.mjs 单独取证） — inner=640 dpr=2
+[RH1] [PASS] news-message.html — 200% — 以 rect.width × dpr 佐证实际绘制像素翻倍 — 641 vs 381
+[RH1] [PASS] news-message.html — 200% — 根字号未锁死为像素（缩放按 CSS px 等比生效） — 16px
+[RH2] [PASS] news-message.html — 200%→640px — 缩放后进入移动布局（预期正确结果）：按钮可见、导航折叠 — mqM=true tog=flex nav=none
+[RH2] [PASS] news-message.html — 200%→640px — 缩放下复查菜单三态与触控下限 — [[608,46],[608,46],[608,46],[608,46]]
+[RH2] [PASS] news-message.html — 200%→640px — 缩放下列表/最新区链接实测仍 ≥44×44 — 608×72,608×72
+[RH3] [PASS] news-message.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px","solid","rgb(122, 36, 36)"]
+[RH3] [PASS] news-message.html — 200%→640px — 200% 下无横向滚动 — 640<=640/640
+[RH3] [PASS] news-message.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 title 608/608
+[RH3] [PASS] news-message.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] news-message.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120.0 open=false
+[RJ5] [PASS] 全部 HTML 页全程 — 全部宽度/状态/操作 — 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） — 0 条
+[RZ12] [REC] 全包 — - — 断言总数下限（≥1400）属全包闸门，单段模式记 REC，不参与判定 — 本段计分 134
+[RZ12] [PASS] 全包 — - — PENDING 恒为 0（等待外部动作只有 SKIPPED-BY-DESIGN 这一个名字） — 0
+[RZ10] [PASS] Results/ — - — 19.10 只读证明：Results/ 开工与完工逐项哈希相等 — 12 项 且内容一致
+[RZ10] [PASS] content/ — - — 19.10 只读证明：content/ 开工与完工逐项哈希相等 — 8 项 且内容一致
+[RZ10] [PASS] build/ — - — 19.10 只读证明：build/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] deploy/ — - — 19.10 只读证明：deploy/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] Materials/ — - — 19.10 只读证明：Materials/ 开工与完工逐项哈希相等 — 3 项 且内容一致
+[RZ10] [PASS] Results/ — - — 19.10 Results/ 无新增文件（压力样本与探针产物一律落在 _qa_task19/mutants/） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css
+[RZ11] [PASS] Results/ — - — 19.10 本包未修改任何被验对象（变异与压力跑均指向副本目录 本轮未使用副本） — ok
+[RZ11] [PASS] Results/ — - — 19.10 Results/ 内无清单外文件、无探针／截图／JSON 产物 — 0 个
+
+合计 146 条（计分 143）：PASS 143 / FAIL 0 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0

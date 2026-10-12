@@ -1,0 +1,174 @@
+PASS  Results/ 恰为 5 个交付文件
+PASS  Task 8 未创建 script.js（Task 9 交付物）
+PASS  HTML 未被 Task 8 改动 index.html
+PASS  HTML 未被 Task 8 改动 news-message.html
+PASS  HTML 未被 Task 8 改动 news-feature.html
+PASS  HTML 未被 Task 8 改动 news-commentary.html
+PASS  styles.css 哈希确已改变（唯一变更的正式文件）
+PASS  Task 8 只在文件末尾追加（桌面区段逐字节未变）
+PASS  Word 素材哈希仍为 Task 1 冻结值 新闻消息.docx
+PASS  Word 素材哈希仍为 Task 1 冻结值 新闻通讯.docx
+PASS  Word 素材哈希仍为 Task 1 冻结值 新闻评价.docx
+PASS  CSS 为 UTF-8 无 BOM 普通文本
+PASS  CSS 可按 UTF-8 解码
+PASS  恰好一个移动端 @media
+PASS  @media 条件精确为 max-width: 768px
+PASS  @media 位于全部桌面规则之后
+PASS  桌面部分不含 @media
+PASS  断点误写不存在的查询 max-width\s*:\s*76[0-7]px
+PASS  断点误写不存在的查询 max-width\s*:\s*7[7-9]\dpx
+PASS  断点误写不存在的查询 min-width\s*:\s*76[0-9]px
+PASS  断点误写不存在的查询 48rem
+PASS  断点误写不存在的查询 min-device-width
+PASS  断点误写不存在的查询 max-device-width
+PASS  断点误写不存在的查询 \(\s*hover\s*:
+PASS  断点误写不存在的查询 pointer\s*:
+PASS  断点误写不存在的查询 orientation\s*:
+PASS  整体花括号配对
+PASS  媒体查询内花括号自洽
+PASS  移动区段无空规则体
+PASS  移动区段声明均以分号结束
+PASS  无 SCSS/嵌套/其它 at-rule 残留
+PASS  移动选择器在许可接口集合内 :root
+PASS  移动选择器在许可接口集合内 .site-header
+PASS  移动选择器在许可接口集合内 .site-header__inner
+PASS  移动选择器在许可接口集合内 .main-content
+PASS  移动选择器在许可接口集合内 .site-masthead
+PASS  移动选择器在许可接口集合内 .site-masthead__link
+PASS  移动选择器在许可接口集合内 .js .nav-toggle
+PASS  移动选择器在许可接口集合内 .no-js .nav-toggle
+PASS  移动选择器在许可接口集合内 .nav-toggle__icon
+PASS  移动选择器在许可接口集合内 .nav-toggle__icon::before
+PASS  移动选择器在许可接口集合内 .nav-toggle__icon::after
+PASS  移动选择器在许可接口集合内 .nav-toggle__icon::before
+PASS  移动选择器在许可接口集合内 .nav-toggle__icon::after
+PASS  移动选择器在许可接口集合内 .nav-toggle[aria-expanded="true"] .nav-toggle__icon
+PASS  移动选择器在许可接口集合内 .nav-toggle[aria-expanded="true"] .nav-toggle__icon::before
+PASS  移动选择器在许可接口集合内 .nav-toggle[aria-expanded="true"] .nav-toggle__icon::after
+PASS  移动选择器在许可接口集合内 .nav-toggle[aria-expanded="true"] .nav-toggle__icon::before
+PASS  移动选择器在许可接口集合内 .nav-toggle[aria-expanded="true"] .nav-toggle__icon::after
+PASS  移动选择器在许可接口集合内 .site-navigation
+PASS  移动选择器在许可接口集合内 .js .site-navigation
+PASS  移动选择器在许可接口集合内 .js .site-navigation.is-open
+PASS  移动选择器在许可接口集合内 .no-js .site-navigation
+PASS  移动选择器在许可接口集合内 .site-navigation__list
+PASS  移动选择器在许可接口集合内 .site-navigation__item + .site-navigation__item
+PASS  移动选择器在许可接口集合内 .site-navigation__link
+PASS  移动选择器在许可接口集合内 .page-title
+PASS  移动选择器在许可接口集合内 .home-section__title
+PASS  移动选择器在许可接口集合内 .home-section__text
+PASS  移动选择器在许可接口集合内 .article__body > p
+PASS  移动选择器在许可接口集合内 .article__date
+PASS  移动选择器在许可接口集合内 .home-sections
+PASS  移动选择器在许可接口集合内 .home-section
+PASS  移动选择器在许可接口集合内 .article
+PASS  移动选择器在许可接口集合内 .article__header
+PASS  移动选择器在许可接口集合内 .article__body
+PASS  移动选择器在许可接口集合内 .article__date
+PASS  移动选择器在许可接口集合内 .article__header
+PASS  移动选择器在许可接口集合内 .article__body
+PASS  未使用 ID 选择器
+PASS  无 :root 后代选择器（Task3 该条为 blob 拼接误报）
+PASS  无禁用选择器/页面专属补丁 :nth-child
+PASS  无禁用选择器/页面专属补丁 :nth-of-type
+PASS  无禁用选择器/页面专属补丁 body.index
+PASS  无禁用选择器/页面专属补丁 body.home
+PASS  无禁用选择器/页面专属补丁 .mobile-
+PASS  无禁用选择器/页面专属补丁 .message-
+PASS  无禁用选择器/页面专属补丁 .feature-
+PASS  无禁用选择器/页面专属补丁 .commentary-
+PASS  无禁用选择器/页面专属补丁 .news-commentary-
+PASS  无禁用选择器/页面专属补丁 .nowrap
+PASS  无禁用选择器/页面专属补丁 .technical-term
+PASS  无禁用选择器/页面专属补丁 index.html
+PASS  无禁用选择器/页面专属补丁 新闻评论页
+PASS  唯一展开状态类为 .site-navigation.is-open
+PASS  未用 html.js/no-js 识别页面类型
+PASS  移动区段禁止项：无 !important
+PASS  移动区段禁止项：无 100vw
+PASS  移动区段禁止项：无 word-break: break-all
+PASS  移动区段禁止项：无 overflow-x hidden/clip
+PASS  移动区段禁止项：无 overflow hidden/clip/scroll/auto
+PASS  移动区段禁止项：无 text-overflow
+PASS  移动区段禁止项：无 line-clamp
+PASS  移动区段禁止项：无 固定高度
+PASS  移动区段禁止项：无 height px
+PASS  移动区段禁止项：无 opacity
+PASS  移动区段禁止项：无 visibility
+PASS  移动区段禁止项：无 white-space: nowrap
+PASS  移动区段禁止项：无 transition/animation
+PASS  移动区段禁止项：无 position fixed/sticky
+PASS  移动区段禁止项：无 columns
+PASS  移动区段禁止项：无 transform scale/translate
+PASS  移动区段禁止项：无 zoom
+PASS  移动区段禁止项：无 box-shadow
+PASS  移动区段禁止项：无 border-radius
+PASS  移动区段禁止项：无 text-transform
+PASS  移动区段禁止项：无 url 资源
+PASS  移动区段禁止项：无 background 色值
+PASS  移动区段禁止项：无 font-family 重写
+PASS  移动区段禁止项：无 页面专属 max-width px
+PASS  block-size 类声明仅 44px 触控下限与 2px 装饰线
+PASS  内容容器无任何固定高度
+PASS  content 只用于空字符串装饰
+PASS  伪元素 content 未注入菜单/日期/正文文字
+PASS  移动区段不重新声明颜色变量
+PASS  移动 :root 只覆盖合同 5 个尺寸变量
+PASS  未隐藏任何正文/标题内容
+PASS  存在 .js .nav-toggle 显示规则
+PASS  存在 .no-js .nav-toggle 隐藏规则
+PASS  存在 .js .site-navigation 折叠规则
+PASS  展开与降级常显规则同体存在
+PASS  按钮最小点击尺寸声明 44px
+PASS  导航链接最小高度声明 44px
+PASS  列表纵向且清除桌面 gap
+PASS  移动报头内部改为纵向堆叠
+PASS  三条线由现有装饰 span 的伪元素绘制（无 SVG/图片/字体图标）
+PASS  展开态关闭符号只改 top/transform/background
+PASS  移动正文 17px / 标题与报头使用 clamp
+PASS  移动 --page-gutter 为 1rem（16px）
+PASS  安全换行三属性成组出现
+PASS  未给 .dateline 设 display:block
+PASS  .article__date 未获得首行缩进
+PASS  正文两端对齐在移动改为 start
+PASS  .main-content 移动覆盖沿用桌面物理属性名 padding-top
+PASS  .article__header 移动覆盖沿用桌面物理属性名 padding-bottom
+PASS  .site-header 移动覆盖沿用桌面物理属性名 padding-top
+PASS  同一间距不残留逻辑属性冲突
+PASS  news-message.html 段落数 4
+PASS  news-message.html 逐段文本与 Task 1 合同逐项严格相等
+PASS  news-feature.html 段落数 23
+PASS  news-feature.html 逐段文本与 Task 1 合同逐项严格相等
+PASS  news-commentary.html 段落数 29
+PASS  news-commentary.html 逐段文本与 Task 1 合同逐项严格相等
+PASS  index.html 三区块文本逐项等于 Task 4 冻结值
+PASS  通讯页无第 24 段空段
+PASS  评论页日期独立于正文容器且文本不变
+PASS  电头内联 strong 且其后仍是单个 U+0020
+PASS  评论页术语原样计数 Windows 10
+PASS  评论页术语原样计数 .exe
+PASS  评论页术语原样计数 UOS
+PASS  评论页术语原样计数 USB
+PASS  评论页术语原样计数 OPS
+PASS  评论页术语原样计数 Linux
+PASS  评论页术语原样计数 4K
+PASS  评论页术语原样计数 86英寸
+PASS  评论页术语原样计数 5次碰撞
+PASS  评论页术语原样计数 3个U盘
+PASS  评论页正文 U+0020 总数仍为 2（两处 Windows 10）
+PASS  index.html 无 wbr/br/soft-hyphen/零宽字符/nbsp
+PASS  index.html 无内联 style / 页面内 <style>
+PASS  news-message.html 无 wbr/br/soft-hyphen/零宽字符/nbsp
+PASS  news-message.html 无内联 style / 页面内 <style>
+PASS  news-feature.html 无 wbr/br/soft-hyphen/零宽字符/nbsp
+PASS  news-feature.html 无内联 style / 页面内 <style>
+PASS  news-commentary.html 无 wbr/br/soft-hyphen/零宽字符/nbsp
+PASS  news-commentary.html 无内联 style / 页面内 <style>
+PASS  禁止内容未进入 Results/：厨一枚
+PASS  禁止内容未进入 Results/：胡桃
+PASS  禁止内容未进入 Results/：2026
+PASS  禁止内容未进入 Results/：新闻评价
+PASS  禁止内容未进入 Results/：Lorem
+PASS  禁止内容未进入 Results/：TODO
+PASS  禁止内容未进入 Results/：placeholder 未替换
+PASS  CSS 未注入作者/日期/电头文本

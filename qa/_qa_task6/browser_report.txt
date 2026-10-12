@@ -1,0 +1,17 @@
+[d1280] 36/36 pass
+[d1024] 36/36 pass
+[nocss_1280] 41/41 pass
+[nojs_1280] 40/40 pass
+[zoom640] 36/36 pass
+screenshot shot_1280: ok 196501 bytes
+screenshot shot_1024: ok 192564 bytes
+screenshot shot_full: ok 342713 bytes
+
+--- 资源引用（页面源码枚举） ---
+全部引用: #main-content, index.html, news-commentary.html, news-feature.html, news-message.html, script.js, styles.css
+外部/绝对 URL: 无
+
+--dump-dom 正文 <p> 命中: 23 (需 23 纯文本段 + 类型/署名)
+--dump-dom 含 AI 次数: 21
+--dump-dom 含 2026/厨一枚/胡桃: 0/0/0
+DOM 文件大小: 6918 bytes

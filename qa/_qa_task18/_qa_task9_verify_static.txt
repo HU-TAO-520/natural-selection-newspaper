@@ -1,0 +1,88 @@
+PASS  script.js 非空且体积合理
+PASS  无 BOM
+PASS  严格 UTF-8 解码
+PASS  无 NUL/控制字符
+PASS  以换行结尾
+FAIL  Results/ 恰为六个交付文件（无第七个）  :: ['article-classroom-screen-upgrade.html', 'article-math-to-ai-learning.html', 'article-school-course-volunteer.html', 'index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+PASS  禁用项不存在：import
+PASS  禁用项不存在：export
+PASS  禁用项不存在：require
+PASS  禁用项不存在：fetch
+PASS  禁用项不存在：XMLHttpRequest
+PASS  禁用项不存在：Worker
+PASS  禁用项不存在：其它网络 API
+PASS  禁用项不存在：协议 URL
+PASS  禁用项不存在：协议相对 URL
+PASS  禁用项不存在：CSS url()
+PASS  禁用项不存在：@import
+PASS  禁用项不存在：console.
+PASS  禁用项不存在：debugger
+PASS  禁用项不存在：eval / new Function
+PASS  禁用项不存在：document.write
+PASS  注释中也不含 URL
+PASS  不含 ES6+ 模块/顶层 await
+PASS  整体包在 IIFE 中并立即调用
+PASS  严格模式声明为 IIFE 首句
+PASS  不向 window/globalThis/self 写属性
+PASS  无顶层游离声明（全部包在 IIFE 内）
+PASS  存在 classList.remove('no-js')
+PASS  存在 classList.add('js')
+PASS  no-js -> js 先于任何元素查询
+PASS  no-js -> js 先于任何其它状态写入
+PASS  用 classList 而非整体改写 class 字符串
+PASS  接口缺失时先完成 no-js->js 再安全 return
+PASS  无 try/catch 吞错
+PASS  setAttribute 仅出现在 toggle.aria-expanded
+PASS  aria-expanded 取值仅 'true'/'false' 且随 open 同步
+PASS  无 removeAttribute / toggleAttribute
+PASS  DOM 写入对象仅限 root/navigation/toggle
+PASS  classList 写入仅限合同三组（类名+对象+方法）
+PASS  is-open 与 aria-expanded 在同一函数内原子写入
+PASS  不存在只改 is-open 或只改 aria-expanded 的路径
+PASS  无内联样式/布局尺寸读写
+PASS  不用 tabindex / aria-hidden / hidden 管理可聚焦性
+PASS  不读写 dataset
+PASS  不新增/删除/克隆 DOM 节点
+PASS  元素查询仅基于三个冻结接口（ID/类名）
+PASS  按钮 click 恰好绑定一次
+PASS  切换语义为按当前状态取反
+PASS  不为按钮绑定 keydown（避免 Enter/Space 双触发）
+PASS  keydown 只挂在 document 上
+PASS  Esc 判定兼容旧值 'Esc'
+PASS  Esc 仅在打开时关闭并返回焦点
+PASS  Esc 关闭态无副作用（focus 只在该分支内）
+PASS  链接点击委托绑定在 navigation 上且按类名匹配
+PASS  链接关闭仅在打开态发生
+PASS  不对链接事件 preventDefault（保持真实导航）
+PASS  跨断点使用 matchMedia('(min-width: 769px)')
+PASS  断点不含 768 / 48rem / max-width
+PASS  change 监听进入桌面时关闭
+PASS  保留旧版 Safari addListener 回退
+PASS  DOMContentLoaded 未使用（defer 已保证解析完成）
+PASS  启动归一化为关闭态且先于监听绑定
+PASS  监听器总数为 4 且类型符合合同
+PASS  未实现“点击菜单外部关闭”
+PASS  document/window 上不绑定 click
+PASS  代码（注释外）不含任何中文
+PASS  全文不含中文链接文本判定
+PASS  无任何单页分支（不含页面名/文件名判定）
+PASS  不以位置索引选择元素
+PASS  不触碰文章/正文节点
+PASS  index.html 保留 Task 2 脚本接口
+PASS  index.html 无内联 <script>/内联事件属性
+PASS  news-message.html 保留 Task 2 脚本接口
+PASS  news-message.html 无内联 <script>/内联事件属性
+PASS  news-feature.html 保留 Task 2 脚本接口
+PASS  news-feature.html 无内联 <script>/内联事件属性
+PASS  news-commentary.html 保留 Task 2 脚本接口
+PASS  news-commentary.html 无内联 <script>/内联事件属性
+PASS  四页均以 defer 引用同一共享脚本
+FAIL  index.html 与实施前 SHA-256 一致  :: 475e02f8bbf195ca vs 73f49fd8d01bb578
+FAIL  news-message.html 与实施前 SHA-256 一致  :: 3a267591a4a976ef vs 66ae5826bbdf9829
+FAIL  news-feature.html 与实施前 SHA-256 一致  :: 485a8750d996bcba vs 73ff75678c453bad
+FAIL  news-commentary.html 与实施前 SHA-256 一致  :: 76aa950d2967b064 vs a2dbf4aac57472e8
+FAIL  styles.css 与实施前 SHA-256 一致  :: de2d9022625d6c6a vs 14a4a204f62e5c59
+PASS  Materials/ 内 Word 素材均未被修改
+
+STATIC: 79/85 pass, 6 failures
+

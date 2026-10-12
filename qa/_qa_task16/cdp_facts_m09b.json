@@ -1,0 +1,1403 @@
+{
+ "dir": "_qa_task16/mutants/m09b",
+ "pages": [
+  "index.html",
+  "news-message.html",
+  "news-feature.html",
+  "news-commentary.html",
+  "article-school-course-volunteer.html",
+  "article-math-to-ai-learning.html",
+  "article-classroom-screen-upgrade.html"
+ ],
+ "loads": [
+  {
+   "title": "《自然选择号》报社简介｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1378,
+   "clientWidth": 1378,
+   "scrollWidth": 1378,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "home-latest__link",
+     "h": 48.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 321,
+     "y": 849
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 48.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 321,
+     "y": 930
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 48.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 321,
+     "y": 1012
+    }
+   ],
+   "docHeight": 1157,
+   "page": "index.html",
+   "url": "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/index.html"
+  },
+  {
+   "title": "新闻消息｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1378,
+   "clientWidth": 1378,
+   "scrollWidth": 1378,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 47.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 321,
+     "y": 374
+    }
+   ],
+   "docHeight": 1046,
+   "page": "news-message.html",
+   "url": "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/news-message.html"
+  },
+  {
+   "title": "新闻通讯｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1378,
+   "clientWidth": 1378,
+   "scrollWidth": 1378,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 47.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 321,
+     "y": 374
+    }
+   ],
+   "docHeight": 1046,
+   "page": "news-feature.html",
+   "url": "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/news-feature.html"
+  },
+  {
+   "title": "新闻评论｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1378,
+   "clientWidth": 1378,
+   "scrollWidth": 1378,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 47.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 321,
+     "y": 374
+    }
+   ],
+   "docHeight": 1046,
+   "page": "news-commentary.html",
+   "url": "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/news-commentary.html"
+  },
+  {
+   "title": "我校启动校本课程志愿填报｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1378,
+   "clientWidth": 1378,
+   "scrollWidth": 1378,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [],
+   "docHeight": 1046,
+   "page": "article-school-course-volunteer.html",
+   "url": "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/article-school-course-volunteer.html"
+  },
+  {
+   "title": "从数学题到AI时代的学习｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1378,
+   "clientWidth": 1378,
+   "scrollWidth": 1378,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [],
+   "docHeight": 2556,
+   "page": "article-math-to-ai-learning.html",
+   "url": "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/article-math-to-ai-learning.html"
+  },
+  {
+   "title": "设备升级了，使用门槛也该降下来｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1378,
+   "clientWidth": 1378,
+   "scrollWidth": 1378,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [],
+   "docHeight": 3064,
+   "page": "article-classroom-screen-upgrade.html",
+   "url": "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/article-classroom-screen-upgrade.html"
+  }
+ ],
+ "matrix": [
+  {
+   "viewport": 375,
+   "page": "index.html",
+   "title": "《自然选择号》报社简介｜自然选择号",
+   "mqMobile": true,
+   "mqDesktop": false,
+   "dpr": 1,
+   "innerWidth": 375,
+   "clientWidth": 375,
+   "scrollWidth": 375,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "none",
+   "toggleDisplay": "flex",
+   "links": [
+    {
+     "cls": "home-latest__link",
+     "h": 338.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 712
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 314.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 1084
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 410.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 1431
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 375,
+   "page": "news-message.html",
+   "title": "新闻消息｜自然选择号",
+   "mqMobile": true,
+   "mqDesktop": false,
+   "dpr": 1,
+   "innerWidth": 375,
+   "clientWidth": 375,
+   "scrollWidth": 375,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "none",
+   "toggleDisplay": "flex",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 305.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 296
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 375,
+   "page": "news-feature.html",
+   "title": "新闻通讯｜自然选择号",
+   "mqMobile": true,
+   "mqDesktop": false,
+   "dpr": 1,
+   "innerWidth": 375,
+   "clientWidth": 375,
+   "scrollWidth": 375,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "none",
+   "toggleDisplay": "flex",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 284.25,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 296
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 375,
+   "page": "news-commentary.html",
+   "title": "新闻评论｜自然选择号",
+   "mqMobile": true,
+   "mqDesktop": false,
+   "dpr": 1,
+   "innerWidth": 375,
+   "clientWidth": 375,
+   "scrollWidth": 375,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "none",
+   "toggleDisplay": "flex",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 369.25,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 296
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 640,
+   "page": "index.html",
+   "title": "《自然选择号》报社简介｜自然选择号",
+   "mqMobile": true,
+   "mqDesktop": false,
+   "dpr": 1,
+   "innerWidth": 640,
+   "clientWidth": 640,
+   "scrollWidth": 640,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "none",
+   "toggleDisplay": "flex",
+   "links": [
+    {
+     "cls": "home-latest__link",
+     "h": 338.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 751
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 314.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 1122
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 410.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 1470
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 640,
+   "page": "news-message.html",
+   "title": "新闻消息｜自然选择号",
+   "mqMobile": true,
+   "mqDesktop": false,
+   "dpr": 1,
+   "innerWidth": 640,
+   "clientWidth": 640,
+   "scrollWidth": 640,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "none",
+   "toggleDisplay": "flex",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 305.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 324
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 640,
+   "page": "news-feature.html",
+   "title": "新闻通讯｜自然选择号",
+   "mqMobile": true,
+   "mqDesktop": false,
+   "dpr": 1,
+   "innerWidth": 640,
+   "clientWidth": 640,
+   "scrollWidth": 640,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "none",
+   "toggleDisplay": "flex",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 284.25,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 324
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 640,
+   "page": "news-commentary.html",
+   "title": "新闻评论｜自然选择号",
+   "mqMobile": true,
+   "mqDesktop": false,
+   "dpr": 1,
+   "innerWidth": 640,
+   "clientWidth": 640,
+   "scrollWidth": 640,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "none",
+   "toggleDisplay": "flex",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 369.25,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 324
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 768,
+   "page": "index.html",
+   "title": "《自然选择号》报社简介｜自然选择号",
+   "mqMobile": true,
+   "mqDesktop": false,
+   "dpr": 1,
+   "innerWidth": 768,
+   "clientWidth": 768,
+   "scrollWidth": 768,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "none",
+   "toggleDisplay": "flex",
+   "links": [
+    {
+     "cls": "home-latest__link",
+     "h": 338.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 751
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 314.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 1122
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 410.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 1470
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 768,
+   "page": "news-message.html",
+   "title": "新闻消息｜自然选择号",
+   "mqMobile": true,
+   "mqDesktop": false,
+   "dpr": 1,
+   "innerWidth": 768,
+   "clientWidth": 768,
+   "scrollWidth": 768,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "none",
+   "toggleDisplay": "flex",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 305.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 324
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 768,
+   "page": "news-feature.html",
+   "title": "新闻通讯｜自然选择号",
+   "mqMobile": true,
+   "mqDesktop": false,
+   "dpr": 1,
+   "innerWidth": 768,
+   "clientWidth": 768,
+   "scrollWidth": 768,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "none",
+   "toggleDisplay": "flex",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 284.25,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 324
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 768,
+   "page": "news-commentary.html",
+   "title": "新闻评论｜自然选择号",
+   "mqMobile": true,
+   "mqDesktop": false,
+   "dpr": 1,
+   "innerWidth": 768,
+   "clientWidth": 768,
+   "scrollWidth": 768,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "none",
+   "toggleDisplay": "flex",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 369.25,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 324
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 769,
+   "page": "index.html",
+   "title": "《自然选择号》报社简介｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 769,
+   "clientWidth": 769,
+   "scrollWidth": 769,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "home-latest__link",
+     "h": 48.5,
+     "w": 705,
+     "color": "rgb(33, 31, 28)",
+     "x": 32,
+     "y": 849
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 48.5,
+     "w": 705,
+     "color": "rgb(33, 31, 28)",
+     "x": 32,
+     "y": 930
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 48.5,
+     "w": 705,
+     "color": "rgb(33, 31, 28)",
+     "x": 32,
+     "y": 1012
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 769,
+   "page": "news-message.html",
+   "title": "新闻消息｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 769,
+   "clientWidth": 769,
+   "scrollWidth": 769,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 47.5,
+     "w": 705,
+     "color": "rgb(33, 31, 28)",
+     "x": 32,
+     "y": 374
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 769,
+   "page": "news-feature.html",
+   "title": "新闻通讯｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 769,
+   "clientWidth": 769,
+   "scrollWidth": 769,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 47.5,
+     "w": 705,
+     "color": "rgb(33, 31, 28)",
+     "x": 32,
+     "y": 374
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 769,
+   "page": "news-commentary.html",
+   "title": "新闻评论｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 769,
+   "clientWidth": 769,
+   "scrollWidth": 769,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 47.5,
+     "w": 705,
+     "color": "rgb(33, 31, 28)",
+     "x": 32,
+     "y": 374
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 1024,
+   "page": "index.html",
+   "title": "《自然选择号》报社简介｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1024,
+   "clientWidth": 1024,
+   "scrollWidth": 1024,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "home-latest__link",
+     "h": 48.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 144,
+     "y": 849
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 48.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 144,
+     "y": 930
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 48.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 144,
+     "y": 1012
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 1024,
+   "page": "news-message.html",
+   "title": "新闻消息｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1024,
+   "clientWidth": 1024,
+   "scrollWidth": 1024,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 47.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 144,
+     "y": 374
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 1024,
+   "page": "news-feature.html",
+   "title": "新闻通讯｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1024,
+   "clientWidth": 1024,
+   "scrollWidth": 1024,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 47.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 144,
+     "y": 374
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 1024,
+   "page": "news-commentary.html",
+   "title": "新闻评论｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1024,
+   "clientWidth": 1024,
+   "scrollWidth": 1024,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 47.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 144,
+     "y": 374
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 1280,
+   "page": "index.html",
+   "title": "《自然选择号》报社简介｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1280,
+   "clientWidth": 1280,
+   "scrollWidth": 1280,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "home-latest__link",
+     "h": 48.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 272,
+     "y": 849
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 48.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 272,
+     "y": 930
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 48.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 272,
+     "y": 1012
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 1280,
+   "page": "news-message.html",
+   "title": "新闻消息｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1280,
+   "clientWidth": 1280,
+   "scrollWidth": 1280,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 47.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 272,
+     "y": 374
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 1280,
+   "page": "news-feature.html",
+   "title": "新闻通讯｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1280,
+   "clientWidth": 1280,
+   "scrollWidth": 1280,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 47.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 272,
+     "y": 374
+    }
+   ],
+   "docHeight": 2400
+  },
+  {
+   "viewport": 1280,
+   "page": "news-commentary.html",
+   "title": "新闻评论｜自然选择号",
+   "mqMobile": false,
+   "mqDesktop": true,
+   "dpr": 1,
+   "innerWidth": 1280,
+   "clientWidth": 1280,
+   "scrollWidth": 1280,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "block",
+   "toggleDisplay": "none",
+   "links": [
+    {
+     "cls": "entry-list__link",
+     "h": 47.5,
+     "w": 736,
+     "color": "rgb(33, 31, 28)",
+     "x": 272,
+     "y": 374
+    }
+   ],
+   "docHeight": 2400
+  }
+ ],
+ "zoom": {
+  "dpr1": {
+   "title": "《自然选择号》报社简介｜自然选择号",
+   "mqMobile": true,
+   "mqDesktop": false,
+   "dpr": 1,
+   "innerWidth": 640,
+   "clientWidth": 640,
+   "scrollWidth": 640,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "none",
+   "toggleDisplay": "flex",
+   "links": [
+    {
+     "cls": "home-latest__link",
+     "h": 338.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 751
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 314.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 1122
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 410.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 1470
+    }
+   ],
+   "docHeight": 2400
+  },
+  "dpr2": {
+   "title": "《自然选择号》报社简介｜自然选择号",
+   "mqMobile": true,
+   "mqDesktop": false,
+   "dpr": 2,
+   "innerWidth": 640,
+   "clientWidth": 640,
+   "scrollWidth": 640,
+   "sheetCount": 1,
+   "sheetErr": [],
+   "ruleCount": 63,
+   "mediaText": "(max-width: 768px)",
+   "lastIsMedia": true,
+   "hrefs": [
+    "file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09b/styles.css"
+   ],
+   "htmlClass": "js",
+   "navDisplay": "none",
+   "toggleDisplay": "flex",
+   "links": [
+    {
+     "cls": "home-latest__link",
+     "h": 338.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 751
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 314.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 1122
+    },
+    {
+     "cls": "home-latest__link",
+     "h": 410.5,
+     "w": 20,
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 1470
+    }
+   ],
+   "docHeight": 2400
+  }
+ },
+ "visited": {
+  "__control": {
+   "pair": {
+    "png": "_qa_task16/shots/visited-control-pair-m09b.png",
+    "w": 1280,
+    "h": 67,
+    "sampled": 1715,
+    "mean": "#372c2f",
+    "distances": {
+     "ink": 32,
+     "accent": 68,
+     "muted": 78,
+     "rule": 209,
+     "uaVisited": 98
+    },
+    "nearest": "ink",
+    "nearestDistance": 32
+   },
+   "nopair": {
+    "png": "_qa_task16/shots/visited-control-nopair-m09b.png",
+    "w": 1280,
+    "h": 67,
+    "sampled": 1715,
+    "mean": "#33282c",
+    "distances": {
+     "ink": 26,
+     "accent": 72,
+     "muted": 85,
+     "rule": 215,
+     "uaVisited": 102
+    },
+    "nearest": "ink",
+    "nearestDistance": 26
+   },
+   "geo": {
+    "pair": {
+     "x": 0,
+     "y": 0,
+     "w": 1280,
+     "h": 67,
+     "visited": false,
+     "computed": "rgb(33, 31, 28)"
+    },
+    "nopair": {
+     "x": 0,
+     "y": 67,
+     "w": 1280,
+     "h": 67,
+     "visited": false,
+     "computed": "rgb(33, 31, 28)"
+    }
+   },
+   "controlLive": false
+  },
+  "报头链接": {
+   "geo": {
+    "x": 449,
+    "y": 47,
+    "w": 381,
+    "h": 80,
+    "hostVisited": false,
+    "hostComputed": "rgb(33, 31, 28)",
+    "href": "index.html"
+   },
+   "sample": {
+    "png": "_qa_task16/shots/visited-报头链接-m09b.png",
+    "w": 381,
+    "h": 80,
+    "sampled": 610,
+    "mean": "#211f1c",
+    "distances": {
+     "ink": 0,
+     "accent": 89,
+     "muted": 109,
+     "rule": 240,
+     "uaVisited": 123
+    },
+    "nearest": "ink",
+    "nearestDistance": 0
+   },
+   "controlLive": false
+  },
+  "导航链接": {
+   "geo": {
+    "x": 534,
+    "y": 150,
+    "w": 69,
+    "h": 52,
+    "hostVisited": false,
+    "hostComputed": "rgb(33, 31, 28)",
+    "href": "news-message.html"
+   },
+   "sample": {
+    "png": "_qa_task16/shots/visited-导航链接-m09b.png",
+    "w": 69,
+    "h": 52,
+    "sampled": 72,
+    "mean": "#2e2124",
+    "distances": {
+     "ink": 15,
+     "accent": 76,
+     "muted": 96,
+     "rule": 226,
+     "uaVisited": 110
+    },
+    "nearest": "ink",
+    "nearestDistance": 15
+   },
+   "controlLive": false
+  },
+  "最新区链接": {
+   "geo": {
+    "x": 272,
+    "y": 861,
+    "w": 669,
+    "h": 24,
+    "hostVisited": false,
+    "hostComputed": "rgb(33, 31, 28)",
+    "href": "article-school-course-volunteer.html"
+   },
+   "sample": {
+    "png": "_qa_task16/shots/visited-最新区链接-m09b.png",
+    "w": 669,
+    "h": 24,
+    "sampled": 321,
+    "mean": "#2a2124",
+    "distances": {
+     "ink": 12,
+     "accent": 80,
+     "muted": 98,
+     "rule": 229,
+     "uaVisited": 112
+    },
+    "nearest": "ink",
+    "nearestDistance": 12
+   },
+   "controlLive": false
+  },
+  "列表页链接": {
+   "geo": {
+    "x": 272,
+    "y": 386,
+    "w": 669,
+    "h": 23,
+    "hostVisited": false,
+    "hostComputed": "rgb(33, 31, 28)",
+    "href": "article-school-course-volunteer.html"
+   },
+   "sample": {
+    "png": "_qa_task16/shots/visited-列表页链接-m09b.png",
+    "w": 669,
+    "h": 23,
+    "sampled": 308,
+    "mean": "#221f1d",
+    "distances": {
+     "ink": 1,
+     "accent": 88,
+     "muted": 108,
+     "rule": 239,
+     "uaVisited": 121
+    },
+    "nearest": "ink",
+    "nearestDistance": 1
+   },
+   "controlLive": false
+  }
+ },
+ "degrade": {},
+ "focus": {
+  "active": true,
+  "hasFocus": false,
+  "matchesFV": false,
+  "nativeOutline": "solid 2px rgb(122, 36, 36)",
+  "nativeOffset": "3px",
+  "ruleText": "outline: var(--focus-width) solid var(--color-accent); outline-offset: 3px;",
+  "cloneOutline": "solid 2px rgb(122, 36, 36)",
+  "cloneOffset": "3px",
+  "textDecoration": "none"
+ },
+ "summary": {
+  "fail": 12,
+  "lines": 146
+ }
+}

@@ -1,0 +1,268 @@
+FAIL RG1 [article-classroom-screen-upgrade.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-math-to-ai-learning.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-school-course-volunteer.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [index.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [index.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [index.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-commentary.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-commentary.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-commentary.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-feature.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-feature.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-feature.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-message.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-message.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-message.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-classroom-screen-upgrade.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-math-to-ai-learning.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-school-course-volunteer.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [index.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [index.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [index.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-commentary.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-commentary.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-commentary.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-feature.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-feature.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-feature.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-message.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-message.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-message.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+
+合计 89 条（计分 86）：PASS 65 / FAIL 21 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RG1 [article-along-the-north-small-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-classroom-screen-upgrade.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-math-to-ai-learning.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-north-of-dam-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-school-course-volunteer.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [index.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [index.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [index.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-commentary.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-commentary.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-commentary.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-feature.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-feature.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-feature.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-message.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-message.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-message.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-along-the-north-small-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-classroom-screen-upgrade.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-math-to-ai-learning.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-north-of-dam-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-school-course-volunteer.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [index.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [index.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [index.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-commentary.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-commentary.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-commentary.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-feature.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-feature.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-feature.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-message.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-message.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-message.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+
+合计 107 条（计分 104）：PASS 77 / FAIL 27 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RG1 [article-along-the-north-small-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-classroom-screen-upgrade.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-math-to-ai-learning.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-north-of-dam-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-school-course-volunteer.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [index.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [index.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [index.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-commentary.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-commentary.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-commentary.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-feature.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-feature.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-feature.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-message.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-message.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-message.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-along-the-north-small-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-classroom-screen-upgrade.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-math-to-ai-learning.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-north-of-dam-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-school-course-volunteer.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [index.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [index.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [index.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-commentary.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-commentary.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-commentary.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-feature.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-feature.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-feature.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-message.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-message.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-message.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+
+合计 107 条（计分 104）：PASS 77 / FAIL 27 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RG1 [article-along-the-north-small-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-classroom-screen-upgrade.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-math-to-ai-learning.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-north-of-dam-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-school-course-volunteer.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [index.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [index.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [index.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-commentary.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-commentary.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-commentary.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-feature.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-feature.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-feature.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-message.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-message.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-message.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-along-the-north-small-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-classroom-screen-upgrade.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-math-to-ai-learning.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-north-of-dam-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-school-course-volunteer.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [index.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [index.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [index.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-commentary.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-commentary.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-commentary.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-feature.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-feature.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-feature.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-message.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-message.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-message.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+
+合计 107 条（计分 104）：PASS 77 / FAIL 27 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RG1 [article-along-the-north-small-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-classroom-screen-upgrade.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-math-to-ai-learning.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-north-of-dam-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-school-course-volunteer.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [index.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [index.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [index.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-commentary.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-commentary.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-commentary.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-feature.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-feature.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-feature.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [news-message.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: 期望 false/false / 实际 open=true aria=true
+FAIL RG2 [news-message.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: 期望 false/false / 实际 open=true
+FAIL RG2 [news-message.html @768px] 缩回后仍可正常打开 :: 期望 true/true / 实际 open=false
+FAIL RG1 [article-along-the-north-small-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-along-the-north-small-river.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-classroom-screen-upgrade.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-classroom-screen-upgrade.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-math-to-ai-learning.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-math-to-ai-learning.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-north-of-dam-river.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-north-of-dam-river.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [article-school-course-volunteer.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [article-school-course-volunteer.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [index.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [index.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [index.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-commentary.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-commentary.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-commentary.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-feature.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-feature.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-feature.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+FAIL RG1 [news-message.html @768→769px] 跨到桌面断点：is-open 清除且 aria-expanded 重置 false :: open=true aria=true -> Task 15
+FAIL RG2 [news-message.html @768px] 缩回 ≤768px：菜单为关闭态，不复用旧展开状态 :: open=true -> Task 15
+FAIL RG2 [news-message.html @768px] 缩回后仍可正常打开 :: open=false -> Task 15
+
+合计 107 条（计分 104）：PASS 77 / FAIL 27 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0

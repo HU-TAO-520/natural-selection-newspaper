@@ -1,0 +1,103 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>pending</title>
+<style>html,body{margin:0;background:#fff}iframe{border:0;display:block;background:#f5efe4}</style></head>
+<body><iframe id="f"></iframe><pre id="out">running</pre>
+<script>
+const P = new URLSearchParams(location.search).get('p');
+const W = JSON.parse(new URLSearchParams(location.search).get('w'));
+const f = document.getElementById('f');
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+const num = (v) => (typeof v === 'number' ? Math.round(v * 1000) / 1000 : v);
+
+function probe(doc, win, w) {
+  const de = doc.documentElement;
+  const q = (s) => Array.from(doc.querySelectorAll(s));
+  const rect = (el) => { const r = el.getBoundingClientRect(); return { x: num(r.x), y: num(r.y + win.scrollY), w: num(r.width), h: num(r.height) }; };
+  const cs = (el, pseudo) => win.getComputedStyle(el, pseudo);
+  const lines = (el) => { const r = doc.createRange(); r.selectNodeContents(el); return r.getClientRects().length; };
+  const linkInfo = (el, cls) => {
+    const c = cs(el), r = el.getBoundingClientRect();
+    return {
+      cls: cls, text: (el.textContent || '').trim().slice(0, 24),
+      h: num(r.height), w: num(r.width), x: num(r.x), y: num(r.y + win.scrollY),
+      color: c.color, bg: c.backgroundColor, textDecoration: c.textDecorationLine,
+      display: c.display, flexDirection: c.flexDirection, alignItems: c.alignItems,
+      justifyContent: c.justifyContent, gap: c.gap, fontSize: c.fontSize, lineHeight: c.lineHeight,
+      overflowWrap: c.overflowWrap, wordBreak: c.wordBreak,
+      outline: c.outlineStyle + ' ' + c.outlineWidth + ' ' + c.outlineColor, outlineOffset: c.outlineOffset,
+      tabStop: el.tabIndex >= 0 && el.offsetParent !== null
+    };
+  };
+  const o = {
+    viewport: w,
+    clientWidth: de.clientWidth, scrollWidth: de.scrollWidth,
+    bodyScrollWidth: doc.body ? doc.body.scrollWidth : null,
+    overflowX: de.scrollWidth - de.clientWidth,
+    links: [], titles: [], dates: [], shell: {}, extras: {}
+  };
+  for (const el of q('.entry-list__link')) o.links.push(linkInfo(el, 'entry-list__link'));
+  for (const el of q('.home-latest__link')) o.links.push(linkInfo(el, 'home-latest__link'));
+  for (const el of q('.entry-list__title')) o.titles.push({ cls: 'entry-list__title', text: el.textContent.trim().slice(0, 24), lines: lines(el), ...rect(el), overflowWrap: cs(el).overflowWrap });
+  for (const el of q('.home-latest__entry')) o.titles.push({ cls: 'home-latest__entry', text: el.textContent.trim().slice(0, 24), lines: lines(el), ...rect(el), overflowWrap: cs(el).overflowWrap });
+  for (const el of q('.entry-list__date, .home-latest__date')) o.dates.push({ cls: el.className, text: el.textContent.trim(), ...rect(el), whiteSpace: cs(el).whiteSpace, color: cs(el).color, fontSize: cs(el).fontSize });
+  const mast = doc.querySelector('.site-masthead__link');
+  if (mast) o.shell.masthead = { fontSize: cs(mast).fontSize, lineHeight: cs(mast).lineHeight, ...rect(mast), color: cs(mast).color };
+  const navl = doc.querySelector('.site-navigation__link');
+  if (navl) o.shell.navLink = { fontSize: cs(navl).fontSize, lineHeight: cs(navl).lineHeight, ...rect(navl), color: cs(navl).color, borderBottom: cs(navl).borderBottom };
+  const navCur = doc.querySelector('.site-navigation__link[aria-current="page"]');
+  if (navCur) o.shell.navCurrent = { fontSize: cs(navCur).fontSize, lineHeight: cs(navCur).lineHeight, color: cs(navCur).color, borderBottom: cs(navCur).borderBottom };
+  const main = doc.querySelector('.main-content');
+  if (main) o.shell.main = { maxWidth: cs(main).maxWidth, width: num(main.getBoundingClientRect().width), x: num(main.getBoundingClientRect().x), paddingTop: cs(main).paddingTop, fontSize: cs(main).fontSize };
+  const hs = q('.home-section__text').map((el) => ({ text: el.textContent.trim().slice(0, 12), ...rect(el), fontSize: cs(el).fontSize, lineHeight: cs(el).lineHeight }));
+  if (hs.length) o.shell.homeSectionTexts = hs;
+  const hst = q('.home-section__title').map((el) => ({ ...rect(el), fontSize: cs(el).fontSize, color: cs(el).color }));
+  if (hst.length) o.shell.homeSectionTitles = hst;
+  const ab = doc.querySelector('.article__body');
+  if (ab) o.shell.articleBody = { maxWidth: cs(ab).maxWidth, fontSize: cs(ab).fontSize, lineHeight: cs(ab).lineHeight, textAlign: cs(ab).textAlign, ...rect(ab) };
+  const ps = q('.article__body > p').map((el) => rect(el));
+  if (ps.length) o.shell.articleParagraphs = ps;
+  const ah = doc.querySelector('.article__header');
+  if (ah) o.shell.articleHeader = { ...rect(ah), maxWidth: cs(ah).maxWidth, paddingBottom: cs(ah).paddingBottom, borderBottom: cs(ah).borderBottom };
+  const ad = doc.querySelector('.article__date');
+  if (ad) o.shell.articleDate = { ...rect(ad), fontSize: cs(ad).fontSize, textAlign: cs(ad).textAlign };
+  const abn = doc.querySelector('.article__byline');
+  if (abn) o.shell.articleByline = { ...rect(abn), fontSize: cs(abn).fontSize };
+  const at = doc.querySelector('.article__type');
+  if (at) o.shell.articleType = { ...rect(at), fontSize: cs(at).fontSize };
+  const pt = doc.querySelector('.page-title');
+  if (pt) o.shell.pageTitle = { ...rect(pt), fontSize: cs(pt).fontSize, lineHeight: cs(pt).lineHeight };
+  const el = doc.querySelector('.entry-list');
+  if (el) o.extras.entryList = { ...rect(el), maxWidth: cs(el).maxWidth, marginTop: cs(el).marginTop, listStyleType: cs(el).listStyleType, marginLeft: cs(el).marginLeft };
+  const hl = doc.querySelector('.home-latest');
+  if (hl) o.extras.homeLatest = { ...rect(hl), maxWidth: cs(hl).maxWidth, marginTop: cs(hl).marginTop };
+  const it = doc.querySelector('.entry-list__item');
+  if (it) o.extras.entryItem = { ...rect(it), paddingTop: cs(it).paddingTop, paddingBottom: cs(it).paddingBottom, borderTop: cs(it).borderTop, borderBottom: cs(it).borderBottom, listStyleType: cs(it).listStyleType, markerOffset: cs(it, '::marker') ? cs(it, '::marker').content : null };
+  const lt = doc.querySelector('.home-latest__title');
+  if (lt) o.extras.latestTitle = { ...rect(lt), fontSize: cs(lt).fontSize, color: cs(lt).color, lineHeight: cs(lt).lineHeight };
+  const li = doc.querySelector('.home-latest__item');
+  if (li) o.extras.latestItem = { ...rect(li), paddingTop: cs(li).paddingTop, borderTop: cs(li).borderTop, borderBottom: cs(li).borderBottom };
+  o.extras.docHeight = num(de.scrollHeight);
+  o.extras.innerWidth = win.innerWidth;
+  return o;
+}
+
+(async () => {
+  const all = [];
+  for (const p of P.split(',')) {
+    for (const w of W) {
+      await new Promise((res) => {
+        f.style.width = w + 'px';
+        f.style.height = '1400px';
+        f.onload = res;
+        f.src = '../' + p;
+      });
+      const win = f.contentWindow, doc = f.contentDocument;
+      if (!doc || !doc.documentElement) { all.push({ page: p, viewport: w, error: '跨域或加载失败' }); continue; }
+      await sleep(120);
+      try { all.push({ page: p, ...probe(doc, win, w) }); }
+      catch (e) { all.push({ page: p, viewport: w, error: String(e && e.message) }); }
+    }
+  }
+  document.getElementById('out').textContent = JSON.stringify(all);
+  document.title = 'ready:' + all.length;
+})();
+</script></body></html>

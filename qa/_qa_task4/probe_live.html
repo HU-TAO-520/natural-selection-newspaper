@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>Task 4 真实 DOM 探针（非交付文件）</title>
+  <style>
+    body { font: 13px/1.5 Consolas, monospace; margin: 0; padding: 8px; }
+    .fail { color: #b00020; font-weight: 700; }
+  </style>
+</head>
+<body>
+<pre id="out">RUNNING</pre>
+<iframe id="f1" src="../Results/index.html" width="1280" height="900"></iframe>
+<iframe id="f2" src="../Results/index.html" width="1280" height="900"></iframe>
+<iframe id="f3" src="../Results/index.html" width="1280" height="900" sandbox="allow-same-origin"></iframe>
+<script>
+const P_ORIGIN = "我们的名字来自《三体》里的一支舰队。";
+const P_WORK = "我们主要记录一些自己觉得有价值的东西。";
+const P_FOUNDED = "报社成立于2024年。";
+const W = Number(new URLSearchParams(location.search).get("w")) || 1280;
+const T = new URLSearchParams(location.search).get("t") || "../Results/index.html";
+["f1", "f2", "f3"].forEach(id => { const f = document.getElementById(id); f.width = W; f.src = T; });
+const out = [];
+function chk(ok, label, detail) {
+  out.push((ok ? "PASS|" : "FAIL|") + label + (detail === undefined ? "" : "|" + detail));
+}
+function eq(actual, expected, label) {
+  chk(actual === expected, label, actual === expected ? "" : "期望 " + JSON.stringify(expected) + " 实际 " + JSON.stringify(actual));
+}
+function deep(actual, expected, label) {
+  const a = JSON.stringify(actual), b = JSON.stringify(expected);
+  chk(a === b, label, a === b ? "" : "期望 " + b + " 实际 " + a);
+}
+function waitReady(f) {
+  return new Promise(res => {
+    const d = f.contentDocument;
+    if (d && d.readyState === "complete" && d.querySelector(".home-section")) return res();
+    const t = setTimeout(res, 4000);
+    f.addEventListener("load", () => setTimeout(res, 30));
+  });
+}
+function rectOrder(doc, sel) {
+  return [...doc.querySelectorAll(sel)].map(n => Math.round(n.getBoundingClientRect().top));
+}
+function visibleText(doc) {
+  const main = doc.querySelector("#main-content");
+  return [...main.querySelectorAll("h1, h2, p")].map(n => n.textContent).filter(t => t.trim());
+}
+function checkStructure(doc, tag) {
+  eq(doc.querySelectorAll("main").length, 1, tag + " :: 恰好 1 个 <main>");
+  eq(doc.querySelectorAll("h1").length, 1, tag + " :: 恰好 1 个 <h1>");
+  eq(doc.querySelectorAll("#main-content section").length, 3, tag + " :: 恰好 3 个 section");
+  eq(doc.querySelectorAll("#main-content h2").length, 3, tag + " :: 恰好 3 个区块 h2");
+  eq(doc.querySelectorAll("#main-content .home-section__text").length, 3, tag + " :: 恰好 3 个文本段落");
+  deep([...doc.querySelector("#main-content").children].map(n => n.className),
+       ["page-title", "home-sections"], tag + " :: #main-content 直接子元素顺序");
+  deep([...doc.querySelector(".home-sections").children].map(n => n.tagName.toLowerCase() + "." + n.className),
+       ["section.home-section", "section.home-section", "section.home-section"],
+       tag + " :: .home-sections 三个直接子区块");
+  const secs = [...doc.querySelectorAll(".home-section")];
+  deep(secs.map(s => [...s.children].map(c => c.tagName.toLowerCase()).join("+")), ["h2+p", "h2+p", "h2+p"],
+       tag + " :: 每个区块内部为 h2 + p 且无其他元素");
+  deep(secs.map(s => s.querySelectorAll("*").length), [2, 2, 2], tag + " :: 区块内元素总数为 2");
+  deep([...doc.querySelectorAll("#main-content h2")].map(n => n.textContent),
+       ["名称由来", "主要工作与报道方向", "成立时间"], tag + " :: 三个 h2 文本与顺序（DOM 实时值）");
+  deep([...doc.querySelectorAll("#main-content .home-section__text")].map(n => n.textContent),
+       [P_ORIGIN, P_WORK, P_FOUNDED], tag + " :: 三个段落 textContent 逐字符等于冻结值（DOM 实时值）");
+  deep([...doc.querySelectorAll("#main-content .home-section__text")].map(n => n.innerText),
+       [P_ORIGIN, P_WORK, P_FOUNDED], tag + " :: 渲染可见文本 innerText 与冻结值一致");
+  deep([...doc.querySelectorAll("#main-content .home-section")].map(s => {
+    const h = s.querySelector("h2"), p = s.querySelector("p");
+    return [h.getAttribute("id"), s.getAttribute("aria-labelledby"), h.getAttribute("id") === s.getAttribute("aria-labelledby"),
+            doc.getElementById(h.getAttribute("id")) === h, !!p];
+  }), [["origin-title", "origin-title", true, true, true], ["work-title", "work-title", true, true, true],
+       ["founded-title", "founded-title", true, true, true]], tag + " :: aria-labelledby 与 h2 id 一一互指且本文档 getElementById 命中本区块");
+  const ids = [...doc.querySelectorAll("[id]")].map(n => n.id);
+  eq(ids.length, new Set(ids).size, tag + " :: 文档无重复 ID");
+  eq(doc.querySelectorAll("#main-content h1, #main-content h2, #main-content h3, #main-content h4, #main-content h5, #main-content h6").length,
+     4, tag + " :: 正文标题恰为 1×h1 + 3×h2");
+  const accNames = secs.map(s => (s.getAttribute("aria-labelledby") ? doc.getElementById(s.getAttribute("aria-labelledby")).textContent : ""));
+  deep(accNames, ["名称由来", "主要工作与报道方向", "成立时间"], tag + " :: 可访问名称（区块 → 标题文本）正确");
+  eq(doc.title, "《自然选择号》报社简介｜自然选择号", tag + " :: 文档标题保持");
+  eq(doc.querySelectorAll('[aria-current="page"]').length, 1, tag + " :: 唯一当前页标记");
+}
+function checkOrder(doc, tag) {
+  const tops = [...doc.querySelectorAll("#main-content h1, #main-content h2, #main-content p")].map(n => {
+    const r = n.getBoundingClientRect();
+    return [n.tagName, Math.round(r.top), Math.round(r.left), n.textContent.slice(0, 6)];
+  });
+  const mono = tops.every((t, i) => i === 0 || t[1] >= tops[i - 1][1]);
+  chk(mono, tag + " :: 所有标题与段落按文档顺序自上而下排列", JSON.stringify(tops.map(t => t[0] + "@" + t[1])));
+  const seq = tops.map(t => t[0]).join(">");
+  eq(seq, "H1>H2>P>H2>P>H2>P", tag + " :: 视觉顺序即 h1 → 区块标题 → 文本 交替");
+  const lefts = tops.map(t => t[2]);
+  chk(new Set(lefts).size <= 3, tag + " :: 无横向漂移分栏（左边缘位置种类 ≤3）", JSON.stringify(lefts));
+}
+function checkOverflow(doc, tag) {
+  const de = doc.documentElement;
+  chk(de.scrollWidth <= de.clientWidth + 1, tag + " :: 无横向溢出",
+      "scrollWidth=" + de.scrollWidth + " clientWidth=" + de.clientWidth);
+  const over = [...doc.querySelectorAll("#main-content *")].filter(n => {
+    const r = n.getBoundingClientRect();
+    return r.right > de.clientWidth + 1 || r.left < -1;
+  }).map(n => n.className || n.tagName);
+  deep(over, [], tag + " :: 正文元素均在视口宽度内");
+}
+function checkTextRendering(doc, tag) {
+  const ps = [...doc.querySelectorAll(".home-section__text")];
+  ps.forEach((p, i) => {
+    const r = p.getClientRects();
+    chk(r.length >= 1, tag + " :: 段落" + (i + 1) + " 已渲染（行数 " + r.length + "）");
+  });
+  const txt = ps.map(p => p.textContent).join("");
+  chk(!/[ \u00a0]/.test(txt), tag + " :: 三条文本渲染后仍不含半角/不换行空格", JSON.stringify(txt));
+  chk(txt.indexOf("2024 年") === -1, tag + " :: 2024 与 年 之间未被插入空格");
+  chk(txt.indexOf("《三体》") !== -1, tag + " :: 书名号在浏览器中可见");
+  chk(txt.indexOf("。") !== -1 && !/。{2,}/.test(txt), tag + " :: 末尾句号存在且不重复");
+  chk([...doc.querySelectorAll("#main-content a, #main-content button, #main-content img, #main-content iframe, #main-content input")].length === 0,
+      tag + " :: 正文无链接/按钮/图片/表单等范围外交互内容");
+}
+(async () => {
+  const f1 = document.getElementById("f1"), f2 = document.getElementById("f2"), f3 = document.getElementById("f3");
+  await waitReady(f1); await waitReady(f2); await waitReady(f3);
+  const d1 = f1.contentDocument, d2 = f2.contentDocument, d3 = f3.contentDocument;
+
+  // ---------- 场景 A：CSS + JS 正常加载 ----------
+  chk(d1.querySelectorAll(".home-section").length === 3, "A :: 页面脚本未破坏区块（3 个 section 仍在）");
+  chk(d1.documentElement.classList.contains("no-js") || f1.contentWindow.scriptExecuted === undefined,
+      "A :: no-js 类仍由脚本负责移除（Task 9 前保留）");
+  checkStructure(d1, "A");
+  checkOrder(d1, "A");
+  if (W >= 1024) checkOverflow(d1, "A");
+  checkTextRendering(d1, "A");
+  eq(getComputedStyle(d1.querySelector(".home-section__title")).display, "block", "A :: h2 为块级（各自成行）");
+  eq(getComputedStyle(d1.querySelector(".home-section__text")).display, "block", "A :: p 为块级");
+  eq(visibleText(d1).length, 7, "A :: 正文可见文本节点恰为 7 项");
+  deep(visibleText(d1), ["《自然选择号》报社简介", "名称由来", P_ORIGIN, "主要工作与报道方向", P_WORK, "成立时间", P_FOUNDED],
+       "A :: 正文可见文本白名单逐项一致");
+
+  // ---------- 场景 B：禁用 CSS（运行时停用样式表） ----------
+  const sheets = f2.contentDocument.styleSheets;
+  chk(sheets.length >= 1, "B :: 样式表已加载，可用于停用");
+  for (let i = 0; i < sheets.length; i++) sheets[i].disabled = true;
+  await new Promise(r => setTimeout(r, 60));
+  const cssOff = [...f2.contentDocument.styleSheets].every(s => s.disabled);
+  chk(cssOff, "B :: 全部样式表已禁用");
+  checkStructure(d2, "B");
+  checkOrder(d2, "B");
+  eq(visibleText(d2).length, 7, "B :: 禁用 CSS 后正文仍为 7 项可见文本");
+  deep(visibleText(d2), visibleText(d1), "B :: 禁用 CSS 不改变文本内容与顺序");
+  eq(d2.querySelector(".home-sections").getBoundingClientRect().height > 40, true, "B :: 禁用 CSS 后区块仍占据可见高度");
+  chk(d2.defaultView.getComputedStyle(d2.querySelector(".home-section__text")).display === "block",
+      "B :: 禁用 CSS 后段落仍为 UA 默认块级");
+
+  // ---------- 场景 C：禁用 JavaScript（sandbox 无 allow-scripts） ----------
+  chk(f3.contentWindow.document.querySelectorAll(".home-section").length === 3,
+      "C :: 脚本禁用时三个区块仍完整存在于 DOM（内容非脚本注入）");
+  eq(f3.contentWindow.document.documentElement.className, "no-js", "C :: 脚本禁用时 html.class 仍为 no-js");
+  checkStructure(d3, "C");
+  checkOrder(d3, "C");
+  eq(visibleText(d3).join("|"), visibleText(d1).join("|"), "C :: 禁用 JS 后正文文本完全一致");
+  const navLinks = [...d3.querySelectorAll(".site-navigation__link")];
+  eq(navLinks.length, 4, "C :: 禁用 JS 后主导航仍有 4 个链接");
+  chk(navLinks.every(a => a.getBoundingClientRect().height > 0 && a.getBoundingClientRect().width > 0),
+      "C :: 禁用 JS 后导航链接均可见可点（非隐藏）");
+  chk([...d3.querySelectorAll("#main-content *")].every(n => n.getBoundingClientRect().height > 0),
+      "C :: 禁用 JS 后正文所有元素均渲染");
+  const skip = d3.querySelector(".skip-link");
+  chk(skip && skip.getBoundingClientRect().height > 0, "C :: 禁用 JS 后跳至正文链接可见");
+
+  // ---------- 场景 D：窄视口 / 200% 缩放等效（文本不得被裁切） ----------
+  [...d1.querySelectorAll(".home-section__text")].forEach((p, i) => {
+    chk(p.scrollWidth <= p.clientWidth + 1 && p.scrollHeight <= p.clientHeight + 1,
+        "D :: 段落" + (i + 1) + " 文本随宽度换行而非裁切（scroll=" + p.scrollWidth + "/" + p.clientWidth + "）");
+    const cs = getComputedStyle(p);
+    chk(cs.textOverflow !== "ellipsis" && cs.overflow !== "hidden" && cs.overflow !== "clip",
+        "D :: 段落" + (i + 1) + " 未使用省略号或裁切（冻结文本完整可见）");
+  });
+  chk(d1.querySelectorAll(".home-section").length === 3, "D :: 结构稳定（3 个区块）");
+
+  document.getElementById("out").textContent = out.join("\n") + "\nTOTAL|" + out.length +
+    "|FAIL|" + out.filter(l => l.startsWith("FAIL|")).length;
+  document.title = out.some(l => l.startsWith("FAIL|")) ? "PROBE-FAIL" : "PROBE-OK";
+})();
+</script>
+</body>
+</html>

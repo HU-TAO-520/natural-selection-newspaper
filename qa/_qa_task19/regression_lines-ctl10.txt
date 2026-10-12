@@ -1,0 +1,221 @@
+[RZ0] [REC] - — - — 验收环境 — Chrome/154.0.8037.93 · headless=new · file:// 直开 · profile=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\.cdp9440-1791026811020 · 被测目录=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\mutants\m08-inject-external-image-control · 段=load
+[RZ1] [PASS] - — - — 19.1 遍历清单条数 == manifest.counts.html（HTML 子集，非目录扫描所得） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 styles.css／script.js 不是页（不进遍历清单） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 遍历顺序按 path 字典序 — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [REC] - — - — 本轮实跑页集合（QODER_ONLY 只影响实跑范围，不改变清单结论） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ2] [PASS] - — - — 前置闸门：Task 18 结论 FAIL 0 且 PENDING 0（未全绿则本包不开跑） — 匹配=true
+[RZ2] [PASS] - — - — 前置闸门：Task 18 变异捕获率 100% — 100
+[RZ2] [PASS] - — - — 前置闸门：Task 18 断言数 ≥340 — 1395
+[RZ2] [PASS] - — - — 前置闸门：expected_reversals.md 已读入本包前置（区分真回归与范围过期的唯一依据） — true
+[RZ3] [PASS] - — - — 19.1 Task18 facts.json 的 __meta 与目录绑定：页集合与本包遍历清单同源（复用 M1 结论，不重造） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ3] [PASS] - — - — 19.1 快照未过期：__meta 逐页哈希 == 当前 Results/ 逐页哈希 — 0 页失配
+[RZ4] [PASS] - — - — 19.1 首页哈希 == 清单登记值（合同基线表里的 2629 字节 971e57a5… 是 v1 六文件值，当前以 manifest 为准，Task18 §8.3 已登记） — 0d21fd1129563d3d…/3623B
+[RZ4] [PASS] - — - — 19.1 Results/ 文件数 == 清单 pages 数（交付文件 6+N=11） — 11
+[RZ5] [PASS] - — - — 19.1 输入前置：五处目录齐备 — 全部存在
+[RZ5] [PASS] - — - — 19.1 输入前置：清单／打包件／上传单／Task18 事实／Task13 基线／v1 母本齐备 — 全部存在
+[RB20] [PASS] index.html — 1280px/冷历史 — 未访问过的导航链接为墨色（组件覆盖 a 基础色；冷历史基线，供 R-N 对照） — 新闻消息=rgb(33, 31, 28),新闻通讯=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB20] [PASS] index.html — 1280px/冷历史 — 当前页带实色暗红下边线（冷历史） — 2px solid rgb(122, 36, 36)
+[RB21] [PASS] index.html — 1280px/冷历史 — 报头链接冷历史下为墨色 — rgb(33, 31, 28)
+[RA1] [PASS] article-along-the-north-small-river.html — 1280px — file:// 直开：document.title 逐字符等于矩阵期望 — 封路之后，沿北小河往南｜自然选择号
+[RA1] [PASS] article-along-the-north-small-river.html — 1280px — load 事件确实派发（不是超时兜底） — true
+[RA2] [PASS] article-along-the-north-small-river.html — 1280px — styles.css 加载并解析（非 404、规则可读） — [{"href":"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/qa/_qa_task19/mutants/m08-inject-external-image-control/styles.css","rules":63,"disabled":false}]
+[RA2] [PASS] article-along-the-north-small-river.html — 1280px — script.js 执行（no-js→js 已发生） — js
+[RA2] [PASS] article-along-the-north-small-river.html — 1280px — 资源树：全部本目录资源成功、无 failed、无外部 URL — [{"n":"styles.css","failed":false,"local":true},{"n":"script.js","failed":false,"local":true}]
+[RA2] [PASS] article-along-the-north-small-river.html — 1280px — DOM 属性无 http(s)/协议相对/data:/查询串 — 0 条
+[RA2] [PASS] article-along-the-north-small-river.html — 1280px — CSSOM 规则无 url()/@import/远程地址 — 0 条
+[RA5] [PASS] article-along-the-north-small-river.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — #main-content（跳至正文）
+[RA5] [PASS] article-along-the-north-small-river.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（自然选择号）
+[RA5] [PASS] article-along-the-north-small-river.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] article-along-the-north-small-river.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（首页）
+[RA5] [PASS] article-along-the-north-small-river.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] article-along-the-north-small-river.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-message.html（新闻消息）
+[RA5] [PASS] article-along-the-north-small-river.html — 1280px — 链接目标在本目录真实存在（无死链） — news-message.html
+[RA5] [PASS] article-along-the-north-small-river.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-feature.html（新闻通讯）
+[RA5] [PASS] article-along-the-north-small-river.html — 1280px — 链接目标在本目录真实存在（无死链） — news-feature.html
+[RA5] [PASS] article-along-the-north-small-river.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-commentary.html（新闻评论）
+[RA5] [PASS] article-along-the-north-small-river.html — 1280px — 链接目标在本目录真实存在（无死链） — news-commentary.html
+[RA3] [PASS] article-along-the-north-small-river.html — 1280px — 加载阶段控制台 0 错误 0 警告 0 未捕获异常 — 0 条
+[RA1] [PASS] article-classroom-screen-upgrade.html — 1280px — file:// 直开：document.title 逐字符等于矩阵期望 — 设备升级了，使用门槛也该降下来｜自然选择号
+[RA1] [PASS] article-classroom-screen-upgrade.html — 1280px — load 事件确实派发（不是超时兜底） — true
+[RA2] [PASS] article-classroom-screen-upgrade.html — 1280px — styles.css 加载并解析（非 404、规则可读） — [{"href":"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/qa/_qa_task19/mutants/m08-inject-external-image-control/styles.css","rules":63,"disabled":false}]
+[RA2] [PASS] article-classroom-screen-upgrade.html — 1280px — script.js 执行（no-js→js 已发生） — js
+[RA2] [PASS] article-classroom-screen-upgrade.html — 1280px — 资源树：全部本目录资源成功、无 failed、无外部 URL — [{"n":"styles.css","failed":false,"local":true},{"n":"script.js","failed":false,"local":true}]
+[RA2] [PASS] article-classroom-screen-upgrade.html — 1280px — DOM 属性无 http(s)/协议相对/data:/查询串 — 0 条
+[RA2] [PASS] article-classroom-screen-upgrade.html — 1280px — CSSOM 规则无 url()/@import/远程地址 — 0 条
+[RA5] [PASS] article-classroom-screen-upgrade.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — #main-content（跳至正文）
+[RA5] [PASS] article-classroom-screen-upgrade.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（自然选择号）
+[RA5] [PASS] article-classroom-screen-upgrade.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] article-classroom-screen-upgrade.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（首页）
+[RA5] [PASS] article-classroom-screen-upgrade.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] article-classroom-screen-upgrade.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-message.html（新闻消息）
+[RA5] [PASS] article-classroom-screen-upgrade.html — 1280px — 链接目标在本目录真实存在（无死链） — news-message.html
+[RA5] [PASS] article-classroom-screen-upgrade.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-feature.html（新闻通讯）
+[RA5] [PASS] article-classroom-screen-upgrade.html — 1280px — 链接目标在本目录真实存在（无死链） — news-feature.html
+[RA5] [PASS] article-classroom-screen-upgrade.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-commentary.html（新闻评论）
+[RA5] [PASS] article-classroom-screen-upgrade.html — 1280px — 链接目标在本目录真实存在（无死链） — news-commentary.html
+[RA3] [PASS] article-classroom-screen-upgrade.html — 1280px — 加载阶段控制台 0 错误 0 警告 0 未捕获异常 — 0 条
+[RA1] [PASS] article-math-to-ai-learning.html — 1280px — file:// 直开：document.title 逐字符等于矩阵期望 — 从数学题到AI时代的学习｜自然选择号
+[RA1] [PASS] article-math-to-ai-learning.html — 1280px — load 事件确实派发（不是超时兜底） — true
+[RA2] [PASS] article-math-to-ai-learning.html — 1280px — styles.css 加载并解析（非 404、规则可读） — [{"href":"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/qa/_qa_task19/mutants/m08-inject-external-image-control/styles.css","rules":63,"disabled":false}]
+[RA2] [PASS] article-math-to-ai-learning.html — 1280px — script.js 执行（no-js→js 已发生） — js
+[RA2] [PASS] article-math-to-ai-learning.html — 1280px — 资源树：全部本目录资源成功、无 failed、无外部 URL — [{"n":"styles.css","failed":false,"local":true},{"n":"script.js","failed":false,"local":true}]
+[RA2] [PASS] article-math-to-ai-learning.html — 1280px — DOM 属性无 http(s)/协议相对/data:/查询串 — 0 条
+[RA2] [PASS] article-math-to-ai-learning.html — 1280px — CSSOM 规则无 url()/@import/远程地址 — 0 条
+[RA5] [PASS] article-math-to-ai-learning.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — #main-content（跳至正文）
+[RA5] [PASS] article-math-to-ai-learning.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（自然选择号）
+[RA5] [PASS] article-math-to-ai-learning.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] article-math-to-ai-learning.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（首页）
+[RA5] [PASS] article-math-to-ai-learning.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] article-math-to-ai-learning.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-message.html（新闻消息）
+[RA5] [PASS] article-math-to-ai-learning.html — 1280px — 链接目标在本目录真实存在（无死链） — news-message.html
+[RA5] [PASS] article-math-to-ai-learning.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-feature.html（新闻通讯）
+[RA5] [PASS] article-math-to-ai-learning.html — 1280px — 链接目标在本目录真实存在（无死链） — news-feature.html
+[RA5] [PASS] article-math-to-ai-learning.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-commentary.html（新闻评论）
+[RA5] [PASS] article-math-to-ai-learning.html — 1280px — 链接目标在本目录真实存在（无死链） — news-commentary.html
+[RA3] [PASS] article-math-to-ai-learning.html — 1280px — 加载阶段控制台 0 错误 0 警告 0 未捕获异常 — 0 条
+[RA1] [PASS] article-north-of-dam-river.html — 1280px — file:// 直开：document.title 逐字符等于矩阵期望 — 坝河以北，走过的东坝｜自然选择号
+[RA1] [PASS] article-north-of-dam-river.html — 1280px — load 事件确实派发（不是超时兜底） — true
+[RA2] [PASS] article-north-of-dam-river.html — 1280px — styles.css 加载并解析（非 404、规则可读） — [{"href":"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/qa/_qa_task19/mutants/m08-inject-external-image-control/styles.css","rules":63,"disabled":false}]
+[RA2] [PASS] article-north-of-dam-river.html — 1280px — script.js 执行（no-js→js 已发生） — js
+[RA2] [PASS] article-north-of-dam-river.html — 1280px — 资源树：全部本目录资源成功、无 failed、无外部 URL — [{"n":"styles.css","failed":false,"local":true},{"n":"script.js","failed":false,"local":true}]
+[RA2] [PASS] article-north-of-dam-river.html — 1280px — DOM 属性无 http(s)/协议相对/data:/查询串 — 0 条
+[RA2] [PASS] article-north-of-dam-river.html — 1280px — CSSOM 规则无 url()/@import/远程地址 — 0 条
+[RA5] [PASS] article-north-of-dam-river.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — #main-content（跳至正文）
+[RA5] [PASS] article-north-of-dam-river.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（自然选择号）
+[RA5] [PASS] article-north-of-dam-river.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] article-north-of-dam-river.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（首页）
+[RA5] [PASS] article-north-of-dam-river.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] article-north-of-dam-river.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-message.html（新闻消息）
+[RA5] [PASS] article-north-of-dam-river.html — 1280px — 链接目标在本目录真实存在（无死链） — news-message.html
+[RA5] [PASS] article-north-of-dam-river.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-feature.html（新闻通讯）
+[RA5] [PASS] article-north-of-dam-river.html — 1280px — 链接目标在本目录真实存在（无死链） — news-feature.html
+[RA5] [PASS] article-north-of-dam-river.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-commentary.html（新闻评论）
+[RA5] [PASS] article-north-of-dam-river.html — 1280px — 链接目标在本目录真实存在（无死链） — news-commentary.html
+[RA3] [PASS] article-north-of-dam-river.html — 1280px — 加载阶段控制台 0 错误 0 警告 0 未捕获异常 — 0 条
+[RA1] [PASS] article-school-course-volunteer.html — 1280px — file:// 直开：document.title 逐字符等于矩阵期望 — 我校启动校本课程志愿填报｜自然选择号
+[RA1] [PASS] article-school-course-volunteer.html — 1280px — load 事件确实派发（不是超时兜底） — true
+[RA2] [PASS] article-school-course-volunteer.html — 1280px — styles.css 加载并解析（非 404、规则可读） — [{"href":"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/qa/_qa_task19/mutants/m08-inject-external-image-control/styles.css","rules":63,"disabled":false}]
+[RA2] [PASS] article-school-course-volunteer.html — 1280px — script.js 执行（no-js→js 已发生） — js
+[RA2] [PASS] article-school-course-volunteer.html — 1280px — 资源树：全部本目录资源成功、无 failed、无外部 URL — [{"n":"styles.css","failed":false,"local":true},{"n":"script.js","failed":false,"local":true}]
+[RA2] [PASS] article-school-course-volunteer.html — 1280px — DOM 属性无 http(s)/协议相对/data:/查询串 — 0 条
+[RA2] [PASS] article-school-course-volunteer.html — 1280px — CSSOM 规则无 url()/@import/远程地址 — 0 条
+[RA5] [PASS] article-school-course-volunteer.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — #main-content（跳至正文）
+[RA5] [PASS] article-school-course-volunteer.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（自然选择号）
+[RA5] [PASS] article-school-course-volunteer.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] article-school-course-volunteer.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（首页）
+[RA5] [PASS] article-school-course-volunteer.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] article-school-course-volunteer.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-message.html（新闻消息）
+[RA5] [PASS] article-school-course-volunteer.html — 1280px — 链接目标在本目录真实存在（无死链） — news-message.html
+[RA5] [PASS] article-school-course-volunteer.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-feature.html（新闻通讯）
+[RA5] [PASS] article-school-course-volunteer.html — 1280px — 链接目标在本目录真实存在（无死链） — news-feature.html
+[RA5] [PASS] article-school-course-volunteer.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-commentary.html（新闻评论）
+[RA5] [PASS] article-school-course-volunteer.html — 1280px — 链接目标在本目录真实存在（无死链） — news-commentary.html
+[RA3] [PASS] article-school-course-volunteer.html — 1280px — 加载阶段控制台 0 错误 0 警告 0 未捕获异常 — 0 条
+[RA1] [PASS] index.html — 1280px — file:// 直开：document.title 逐字符等于矩阵期望 — 《自然选择号》报社简介｜自然选择号
+[RA1] [PASS] index.html — 1280px — load 事件确实派发（不是超时兜底） — true
+[RA2] [PASS] index.html — 1280px — styles.css 加载并解析（非 404、规则可读） — [{"href":"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/qa/_qa_task19/mutants/m08-inject-external-image-control/styles.css","rules":63,"disabled":false}]
+[RA2] [PASS] index.html — 1280px — script.js 执行（no-js→js 已发生） — js
+[RA2] [PASS] index.html — 1280px — 资源树：全部本目录资源成功、无 failed、无外部 URL — [{"n":"styles.css","failed":false,"local":true},{"n":"script.js","failed":false,"local":true}]
+[RA2] [PASS] index.html — 1280px — DOM 属性无 http(s)/协议相对/data:/查询串 — 0 条
+[RA2] [PASS] index.html — 1280px — CSSOM 规则无 url()/@import/远程地址 — 0 条
+[RA5] [PASS] index.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — #main-content（跳至正文）
+[RA5] [PASS] index.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（自然选择号）
+[RA5] [PASS] index.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] index.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（首页）
+[RA5] [PASS] index.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] index.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-message.html（新闻消息）
+[RA5] [PASS] index.html — 1280px — 链接目标在本目录真实存在（无死链） — news-message.html
+[RA5] [PASS] index.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-feature.html（新闻通讯）
+[RA5] [PASS] index.html — 1280px — 链接目标在本目录真实存在（无死链） — news-feature.html
+[RA5] [PASS] index.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-commentary.html（新闻评论）
+[RA5] [PASS] index.html — 1280px — 链接目标在本目录真实存在（无死链） — news-commentary.html
+[RA5] [PASS] index.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — article-along-the-north-small-river.html（封路之后，沿北小河往南10月1日）
+[RA5] [PASS] index.html — 1280px — 链接目标在本目录真实存在（无死链） — article-along-the-north-small-river.html
+[RA5] [PASS] index.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — article-north-of-dam-river.html（坝河以北，走过的东坝9月27日）
+[RA5] [PASS] index.html — 1280px — 链接目标在本目录真实存在（无死链） — article-north-of-dam-river.html
+[RA5] [PASS] index.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — article-school-course-volunteer.html（我校启动校本课程志愿填报9月18日）
+[RA5] [PASS] index.html — 1280px — 链接目标在本目录真实存在（无死链） — article-school-course-volunteer.html
+[RA3] [PASS] index.html — 1280px — 加载阶段控制台 0 错误 0 警告 0 未捕获异常 — 0 条
+[RA1] [PASS] news-commentary.html — 1280px — file:// 直开：document.title 逐字符等于矩阵期望 — 新闻评论｜自然选择号
+[RA1] [PASS] news-commentary.html — 1280px — load 事件确实派发（不是超时兜底） — true
+[RA2] [PASS] news-commentary.html — 1280px — styles.css 加载并解析（非 404、规则可读） — [{"href":"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/qa/_qa_task19/mutants/m08-inject-external-image-control/styles.css","rules":63,"disabled":false}]
+[RA2] [PASS] news-commentary.html — 1280px — script.js 执行（no-js→js 已发生） — js
+[RA2] [PASS] news-commentary.html — 1280px — 资源树：全部本目录资源成功、无 failed、无外部 URL — [{"n":"styles.css","failed":false,"local":true},{"n":"script.js","failed":false,"local":true}]
+[RA2] [PASS] news-commentary.html — 1280px — DOM 属性无 http(s)/协议相对/data:/查询串 — 0 条
+[RA2] [PASS] news-commentary.html — 1280px — CSSOM 规则无 url()/@import/远程地址 — 0 条
+[RA5] [PASS] news-commentary.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — #main-content（跳至正文）
+[RA5] [PASS] news-commentary.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（自然选择号）
+[RA5] [PASS] news-commentary.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] news-commentary.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（首页）
+[RA5] [PASS] news-commentary.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] news-commentary.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-message.html（新闻消息）
+[RA5] [PASS] news-commentary.html — 1280px — 链接目标在本目录真实存在（无死链） — news-message.html
+[RA5] [PASS] news-commentary.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-feature.html（新闻通讯）
+[RA5] [PASS] news-commentary.html — 1280px — 链接目标在本目录真实存在（无死链） — news-feature.html
+[RA5] [PASS] news-commentary.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-commentary.html（新闻评论）
+[RA5] [PASS] news-commentary.html — 1280px — 链接目标在本目录真实存在（无死链） — news-commentary.html
+[RA5] [PASS] news-commentary.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — article-classroom-screen-upgrade.html（设备升级了，使用门槛也该降下来9月18日）
+[RA5] [PASS] news-commentary.html — 1280px — 链接目标在本目录真实存在（无死链） — article-classroom-screen-upgrade.html
+[RA3] [PASS] news-commentary.html — 1280px — 加载阶段控制台 0 错误 0 警告 0 未捕获异常 — 0 条
+[RA1] [PASS] news-feature.html — 1280px — file:// 直开：document.title 逐字符等于矩阵期望 — 新闻通讯｜自然选择号
+[RA1] [PASS] news-feature.html — 1280px — load 事件确实派发（不是超时兜底） — true
+[RA2] [PASS] news-feature.html — 1280px — styles.css 加载并解析（非 404、规则可读） — [{"href":"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/qa/_qa_task19/mutants/m08-inject-external-image-control/styles.css","rules":63,"disabled":false}]
+[RA2] [PASS] news-feature.html — 1280px — script.js 执行（no-js→js 已发生） — js
+[RA2] [PASS] news-feature.html — 1280px — 资源树：全部本目录资源成功、无 failed、无外部 URL — [{"n":"styles.css","failed":false,"local":true},{"n":"script.js","failed":false,"local":true}]
+[RA2] [PASS] news-feature.html — 1280px — DOM 属性无 http(s)/协议相对/data:/查询串 — 0 条
+[RA2] [PASS] news-feature.html — 1280px — CSSOM 规则无 url()/@import/远程地址 — 0 条
+[RA5] [PASS] news-feature.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — #main-content（跳至正文）
+[RA5] [PASS] news-feature.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（自然选择号）
+[RA5] [PASS] news-feature.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] news-feature.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（首页）
+[RA5] [PASS] news-feature.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] news-feature.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-message.html（新闻消息）
+[RA5] [PASS] news-feature.html — 1280px — 链接目标在本目录真实存在（无死链） — news-message.html
+[RA5] [PASS] news-feature.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-feature.html（新闻通讯）
+[RA5] [PASS] news-feature.html — 1280px — 链接目标在本目录真实存在（无死链） — news-feature.html
+[RA5] [PASS] news-feature.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-commentary.html（新闻评论）
+[RA5] [PASS] news-feature.html — 1280px — 链接目标在本目录真实存在（无死链） — news-commentary.html
+[RA5] [PASS] news-feature.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — article-along-the-north-small-river.html（封路之后，沿北小河往南10月1日）
+[RA5] [PASS] news-feature.html — 1280px — 链接目标在本目录真实存在（无死链） — article-along-the-north-small-river.html
+[RA5] [PASS] news-feature.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — article-north-of-dam-river.html（坝河以北，走过的东坝9月27日）
+[RA5] [PASS] news-feature.html — 1280px — 链接目标在本目录真实存在（无死链） — article-north-of-dam-river.html
+[RA5] [PASS] news-feature.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — article-math-to-ai-learning.html（从数学题到AI时代的学习9月17日）
+[RA5] [PASS] news-feature.html — 1280px — 链接目标在本目录真实存在（无死链） — article-math-to-ai-learning.html
+[RA3] [PASS] news-feature.html — 1280px — 加载阶段控制台 0 错误 0 警告 0 未捕获异常 — 0 条
+[RA1] [PASS] news-message.html — 1280px — file:// 直开：document.title 逐字符等于矩阵期望 — 新闻消息｜自然选择号
+[RA1] [PASS] news-message.html — 1280px — load 事件确实派发（不是超时兜底） — true
+[RA2] [PASS] news-message.html — 1280px — styles.css 加载并解析（非 404、规则可读） — [{"href":"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/qa/_qa_task19/mutants/m08-inject-external-image-control/styles.css","rules":63,"disabled":false}]
+[RA2] [PASS] news-message.html — 1280px — script.js 执行（no-js→js 已发生） — js
+[RA2] [PASS] news-message.html — 1280px — 资源树：全部本目录资源成功、无 failed、无外部 URL — [{"n":"styles.css","failed":false,"local":true},{"n":"script.js","failed":false,"local":true}]
+[RA2] [PASS] news-message.html — 1280px — DOM 属性无 http(s)/协议相对/data:/查询串 — 0 条
+[RA2] [PASS] news-message.html — 1280px — CSSOM 规则无 url()/@import/远程地址 — 0 条
+[RA5] [PASS] news-message.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — #main-content（跳至正文）
+[RA5] [PASS] news-message.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（自然选择号）
+[RA5] [PASS] news-message.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] news-message.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — index.html（首页）
+[RA5] [PASS] news-message.html — 1280px — 链接目标在本目录真实存在（无死链） — index.html
+[RA5] [PASS] news-message.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-message.html（新闻消息）
+[RA5] [PASS] news-message.html — 1280px — 链接目标在本目录真实存在（无死链） — news-message.html
+[RA5] [PASS] news-message.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-feature.html（新闻通讯）
+[RA5] [PASS] news-message.html — 1280px — 链接目标在本目录真实存在（无死链） — news-feature.html
+[RA5] [PASS] news-message.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — news-commentary.html（新闻评论）
+[RA5] [PASS] news-message.html — 1280px — 链接目标在本目录真实存在（无死链） — news-commentary.html
+[RA5] [PASS] news-message.html — 1280px — 链接形态：同目录文件名且带 .html 后缀（file:// 无目录默认页、无 URL 重写，去后缀本地必然打不开） — article-school-course-volunteer.html（我校启动校本课程志愿填报9月18日）
+[RA5] [PASS] news-message.html — 1280px — 链接目标在本目录真实存在（无死链） — article-school-course-volunteer.html
+[RA3] [PASS] news-message.html — 1280px — 加载阶段控制台 0 错误 0 警告 0 未捕获异常 — 0 条
+[RA4] [PASS] 全部 HTML 页汇总 — - — Network 域全程事件中外部（http/CDN/远程字体）请求数为 0 —— Task0 正向验收"全站网络请求数为 0" — 0 条
+[RA4] [PASS] 全部 HTML 页汇总 — - — Network 域无 404／失败资源 — 0 条
+[RA6] [REC] 七页汇总 — - — Network 事件总数 — 11
+[RJ5] [PASS] 全部 HTML 页全程 — 全部宽度/状态/操作 — 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） — 0 条
+[RZ12] [REC] 全包 — - — 断言总数下限（≥1400）属全包闸门，单段模式记 REC，不参与判定 — 本段计分 206
+[RZ12] [PASS] 全包 — - — PENDING 恒为 0（等待外部动作只有 SKIPPED-BY-DESIGN 这一个名字） — 0
+[RZ10] [PASS] Results/ — - — 19.10 只读证明：Results/ 开工与完工逐项哈希相等 — 11 项 且内容一致
+[RZ10] [PASS] content/ — - — 19.10 只读证明：content/ 开工与完工逐项哈希相等 — 7 项 且内容一致
+[RZ10] [PASS] build/ — - — 19.10 只读证明：build/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] deploy/ — - — 19.10 只读证明：deploy/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] Materials/ — - — 19.10 只读证明：Materials/ 开工与完工逐项哈希相等 — 3 项 且内容一致
+[RZ10] [PASS] Results/ — - — 19.10 Results/ 无新增文件（压力样本与探针产物一律落在 _qa_task19/mutants/） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css
+[RZ11] [PASS] Results/ — - — 19.10 本包未修改任何被验对象（变异与压力跑均指向副本目录 C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\mutants\m08-inject-external-image-control） — ok
+[RZ11] [PASS] Results/ — - — 19.10 Results/ 内无清单外文件、无探针／截图／JSON 产物 — 0 个
+
+合计 219 条（计分 215）：PASS 215 / FAIL 0 / SKIPPED-BY-DESIGN 0 / REC 4 / PENDING 0

@@ -1,0 +1,23 @@
+检查项覆盖：公共壳 / DOM 结构 / 文本保真 / 白名单 / 禁止项 / 范围 / 渐进增强
+  [FAIL] DOM 结构 / #main-content 直接元素子节点（忽略空白文本）恰为 h1 → div —— 期望 ['h1', 'div'] / 实际 ['h1', 'div', 'div']
+  [FAIL] DOM 结构 / 直接子节点 class 分别为 page-title / home-sections —— 期望 [['page-title'], ['home-sections']] / 实际 [['page-title'], ['home-sections'], ['home-latest']]
+  [FAIL] DOM 结构 / 正文恰好 3 个区块 <h2> —— 期望 3 / 实际 4
+  [FAIL] DOM 结构 / 区块3 <p> textContent 逐字符等于冻结值 —— 期望 '报社成立于2024年。' / 实际 '报社成立于“鸽子衔枝之年”。'
+  [FAIL] DOM 结构 / 全文标题序列恰为 h1 → 三个同级 h2 —— 期望 ['h1', 'h2', 'h2', 'h2'] / 实际 ['h1', 'h2', 'h2', 'h2', 'h2']
+  [FAIL] 可见内容白名单 / 正文可见文本恰为 7 项且顺序正确（无第 8 项） —— 期望 ['《自然选择号》报社简介', '名称由来', '我们的名字来自《三体》里的一支舰队。', '主要工作与报道方向', '我们主要记录一些自己觉得有价值的东西。', '成立时间', '报社成立于2024年。'] / 实际 ['《自然选择号》报社简介', '名称由来', '我们的名字来自《三体》里的一支舰队。', '主要工作与报道方向', '我们主要记录一些自己觉得有价值的东西。', '成立时间', '报社成立于“鸽子衔枝之年”。', '最新报道']
+  [FAIL] 文本保真 / 段落文本未经 trim/归一化改动 —— 期望 '报社成立于2024年。' / 实际 '报社成立于“鸽子衔枝之年”。'
+  [FAIL] 文本保真 / 段内不含引号
+  [FAIL] 文本保真 / 成立于 2024 年：数字与“年”之间无空格
+  [FAIL] 禁止项 / 正文内无 <ul> —— 期望 0 / 实际 1
+  [FAIL] 禁止项 / 正文内无 <li> —— 期望 0 / 实际 3
+  [FAIL] 禁止项 / 正文内无 <a> —— 期望 0 / 实际 3
+  [FAIL] 禁止项 / 正文内无 <span> —— 期望 0 / 实际 6
+  [FAIL] 禁止项 / 未补入新闻月日
+  [FAIL] 范围与交接 / Results/ 目录文件集合未因本任务扩张（无脚本/截图/JSON） —— 期望 ['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'styles.css'] / 实际 ['article-classroom-screen-upgrade.html', 'article-math-to-ai-learning.html', 'article-school-course-volunteer.html', 'index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+  [FAIL] 范围与交接 / news-message.html 未在本任务修改（mtime 早于 index.html）
+  [FAIL] 范围与交接 / news-feature.html 未在本任务修改（mtime 早于 index.html）
+  [FAIL] 范围与交接 / news-commentary.html 未在本任务修改（mtime 早于 index.html）
+  [FAIL] 范围与交接 / 冻结文本以单行字面量存在于源码（不依赖脚本注入）
+  [FAIL] 无样式与无脚本 / 源码顺序即阅读顺序（禁用 CSS 仍可顺序阅读） —— 期望 ['《自然选择号》报社简介', '名称由来', '我们的名字来自《三体》里的一支舰队。', '主要工作与报道方向', '我们主要记录一些自己觉得有价值的东西。', '成立时间', '报社成立于2024年。'] / 实际 ['《自然选择号》报社简介', '名称由来', '我们的名字来自《三体》里的一支舰队。', '主要工作与报道方向', '我们主要记录一些自己觉得有价值的东西。', '成立时间', '报社成立于“鸽子衔枝之年”。', '最新报道']
+
+共 184 项，通过 164，失败 20

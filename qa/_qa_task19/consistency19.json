@@ -1,0 +1,181 @@
+{
+ "segments": 17,
+ "allCounted": 3464,
+ "mergedCounted": 3464,
+ "onlyInAll": [],
+ "onlyInSegments": [],
+ "diffEmpty": true,
+ "statusDifferences": [],
+ "perSegment": [
+  {
+   "seg": "content",
+   "file": "results-seg-content.json",
+   "keys": 245,
+   "all": 245,
+   "pass": 243,
+   "fail": 0,
+   "skip": 0,
+   "rec": 2
+  },
+  {
+   "seg": "cross",
+   "file": "results-seg-cross.json",
+   "keys": 114,
+   "all": 114,
+   "pass": 112,
+   "fail": 0,
+   "skip": 0,
+   "rec": 2
+  },
+  {
+   "seg": "degrade",
+   "file": "results-seg-degrade.json",
+   "keys": 128,
+   "all": 128,
+   "pass": 126,
+   "fail": 0,
+   "skip": 0,
+   "rec": 2
+  },
+  {
+   "seg": "desktop",
+   "file": "results-seg-desktop.json",
+   "keys": 1017,
+   "all": 1017,
+   "pass": 1015,
+   "fail": 0,
+   "skip": 0,
+   "rec": 2
+  },
+  {
+   "seg": "interact",
+   "file": "results-seg-interact.json",
+   "keys": 234,
+   "all": 254,
+   "pass": 242,
+   "fail": 0,
+   "skip": 0,
+   "rec": 12
+  },
+  {
+   "seg": "list",
+   "file": "results-seg-list.json",
+   "keys": 120,
+   "all": 121,
+   "pass": 119,
+   "fail": 0,
+   "skip": 0,
+   "rec": 2
+  },
+  {
+   "seg": "load",
+   "file": "results-seg-load.json",
+   "keys": 130,
+   "all": 238,
+   "pass": 235,
+   "fail": 0,
+   "skip": 0,
+   "rec": 3
+  },
+  {
+   "seg": "mobile",
+   "file": "results-seg-mobile.json",
+   "keys": 486,
+   "all": 486,
+   "pass": 484,
+   "fail": 0,
+   "skip": 0,
+   "rec": 2
+  },
+  {
+   "seg": "nav",
+   "file": "results-seg-nav.json",
+   "keys": 165,
+   "all": 225,
+   "pass": 223,
+   "fail": 0,
+   "skip": 0,
+   "rec": 2
+  },
+  {
+   "seg": "online",
+   "file": "results-seg-online.json",
+   "keys": 126,
+   "all": 126,
+   "pass": 122,
+   "fail": 0,
+   "skip": 0,
+   "rec": 4
+  },
+  {
+   "seg": "pressure",
+   "file": "results-seg-pressure.json",
+   "keys": 200,
+   "all": 200,
+   "pass": 186,
+   "fail": 0,
+   "skip": 0,
+   "rec": 14
+  },
+  {
+   "seg": "tap",
+   "file": "results-seg-tap.json",
+   "keys": 179,
+   "all": 179,
+   "pass": 159,
+   "fail": 0,
+   "skip": 0,
+   "rec": 20
+  },
+  {
+   "seg": "tri",
+   "file": "results-seg-tri.json",
+   "keys": 387,
+   "all": 387,
+   "pass": 385,
+   "fail": 0,
+   "skip": 0,
+   "rec": 2
+  },
+  {
+   "seg": "visited-pixel",
+   "file": "results-seg-visited-pixel.json",
+   "keys": 96,
+   "all": 96,
+   "pass": 84,
+   "fail": 0,
+   "skip": 0,
+   "rec": 12
+  },
+  {
+   "seg": "visited",
+   "file": "results-seg-visited.json",
+   "keys": 62,
+   "all": 62,
+   "pass": 49,
+   "fail": 0,
+   "skip": 0,
+   "rec": 13
+  },
+  {
+   "seg": "visual",
+   "file": "results-seg-visual.json",
+   "keys": 34,
+   "all": 34,
+   "pass": 22,
+   "fail": 0,
+   "skip": 0,
+   "rec": 12
+  },
+  {
+   "seg": "zoom",
+   "file": "results-seg-zoom.json",
+   "keys": 144,
+   "all": 144,
+   "pass": 142,
+   "fail": 0,
+   "skip": 0,
+   "rec": 2
+  }
+ ]
+}

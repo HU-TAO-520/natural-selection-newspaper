@@ -1,0 +1,228 @@
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-commentary.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-commentary.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-commentary.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-commentary.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-feature.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-feature.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-feature.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-feature.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-message.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-message.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-message.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-message.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-commentary.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-commentary.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-commentary.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-commentary.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-feature.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-feature.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-feature.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-feature.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-message.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-message.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-message.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-message.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+
+合计 444 条（计分 441）：PASS 423 / FAIL 18 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-commentary.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-commentary.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-commentary.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-commentary.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB10 [news-feature.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-feature.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB10 [news-feature.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-feature.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-message.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-message.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-message.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-message.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-commentary.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-commentary.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-commentary.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-commentary.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-feature.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-feature.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-feature.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-feature.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-message.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-message.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-message.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-message.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+
+合计 538 条（计分 535）：PASS 517 / FAIL 18 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-commentary.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-commentary.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-commentary.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-commentary.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB10 [news-feature.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-feature.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB10 [news-feature.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-feature.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-message.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-message.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-message.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-message.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-commentary.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-commentary.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-commentary.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-commentary.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-feature.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-feature.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-feature.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-feature.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-message.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-message.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-message.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-message.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+
+合计 538 条（计分 535）：PASS 517 / FAIL 18 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-commentary.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-commentary.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-commentary.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-commentary.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB10 [news-feature.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-feature.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB10 [news-feature.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-feature.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-message.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-message.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-message.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-message.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-commentary.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-commentary.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-commentary.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-commentary.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-feature.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-feature.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-feature.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-feature.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-message.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-message.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-message.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-message.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+
+合计 538 条（计分 535）：PASS 517 / FAIL 18 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-commentary.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-commentary.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-commentary.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-commentary.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB10 [news-feature.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-feature.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB10 [news-feature.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-feature.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-message.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-message.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-message.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-message.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-commentary.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-commentary.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-commentary.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-commentary.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-feature.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-feature.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-feature.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-feature.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-message.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-message.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-message.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-message.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+
+合计 542 条（计分 539）：PASS 521 / FAIL 18 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-commentary.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-commentary.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-commentary.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-commentary.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB10 [news-feature.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-feature.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 3 / 实际 4
+FAIL RB10 [news-feature.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-feature.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-message.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447
+FAIL RK2b [news-message.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 期望 1 / 实际 4
+FAIL RB10 [news-message.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406
+FAIL RK2b [news-message.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 期望 新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）
+FAIL RB8 [news-commentary.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-commentary.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-commentary.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-commentary.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-commentary.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-commentary.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-feature.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-feature.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-feature.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-feature.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-feature.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-feature.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-message.html @1024px] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-message.html @1024px] 条目盒互不重叠（无重叠像素错位） :: 640-736,543-640,447-543,349-447 -> Task 16
+FAIL RK2b [news-message.html @1024px] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+FAIL RB8 [news-message.html @375px/iframe] 条目数 == manifest 该栏目 articles 数（清单驱动） :: 4 -> Task 15
+FAIL RB10 [news-message.html @375px/iframe] 条目盒互不重叠（无重叠像素错位） :: 658-784,532-658,406-532,279-406 -> Task 16
+FAIL RK2b [news-message.html @375px/iframe] 视觉次序（bounding box 排序）== DOM 次序 :: 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） -> Task 16
+
+合计 542 条（计分 539）：PASS 521 / FAIL 18 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0

@@ -1,0 +1,204 @@
+[RZ0] [REC] - — - — 验收环境 — Chrome/154.0.8037.93 · headless=new · file:// 直开 · profile=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\.cdp9381-1791034948605 · 被测目录=C:\Users\weibo\Documents\语文报纸\Results · 段=pressure
+[RZ1] [PASS] - — - — 19.1 遍历清单条数 == manifest.counts.html（HTML 子集，非目录扫描所得） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 styles.css／script.js 不是页（不进遍历清单） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 遍历顺序按 path 字典序 — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [REC] - — - — 本轮实跑页集合（QODER_ONLY 只影响实跑范围，不改变清单结论） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ2] [PASS] - — - — 前置闸门：Task 18 结论 FAIL 0 且 PENDING 0（未全绿则本包不开跑） — 匹配=true
+[RZ2] [PASS] - — - — 前置闸门：Task 18 变异捕获率 100% — 100
+[RZ2] [PASS] - — - — 前置闸门：Task 18 断言数 ≥340 — 1395
+[RZ2] [PASS] - — - — 前置闸门：expected_reversals.md 已读入本包前置（区分真回归与范围过期的唯一依据） — true
+[RZ3] [PASS] - — - — 19.1 Task18 facts.json 的 __meta 与目录绑定：页集合与本包遍历清单同源（复用 M1 结论，不重造） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ3] [PASS] - — - — 19.1 快照未过期：__meta 逐页哈希 == 当前 Results/ 逐页哈希 — 0 页失配
+[RZ4] [PASS] - — - — 19.1 首页哈希 == 清单登记值（合同基线表里的 2629 字节 971e57a5… 是 v1 六文件值，当前以 manifest 为准，Task18 §8.3 已登记） — 14b82801fc5c1a96…/3631B
+[RZ4] [PASS] - — - — 19.1 Results/ 文件数 == 清单 pages 数（交付文件 6+N=12） — 12
+[RZ5] [PASS] - — - — 19.1 输入前置：五处目录齐备 — 全部存在
+[RZ5] [PASS] - — - — 19.1 输入前置：清单／打包件／上传单／Task18 事实／Task13 基线／v1 母本齐备 — 全部存在
+[RL0] [REC] news-message.html — - — 压力副本已生成于 _qa_task19/mutants/pressure（真实 Results/ 一个字节未改，见前后哈希证明） — 条目数=30 目录=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\mutants\pressure
+[RL1] [PASS] news-message.html — 375px — 压力样本条目数 == 合同规定的假文章条数 — 30
+[RL2] [PASS] news-message.html — 375px — 30 条容量下无横向溢出（scrollWidth<=clientWidth） — 375<=375
+[RL2] [PASS] news-message.html — 375px — body.scrollWidth<=clientWidth 同样成立 — 375
+[RL2] [PASS] news-message.html — 375px — 不因容量增长产生内部滚动区 — 0 个
+[RL2] [PASS] news-message.html — 375px — 无超出视口的固定像素宽元素 — 0 个
+[RL3] [PASS] news-message.html — 375px — 窄档 30 条仍保持堆叠（标题在上、日期在下） — 308<354,434<459,538<564,643<690,769<794,874<920 …共30条
+[RL3] [PASS] news-message.html — 375px — 桌面档 30 条为同行两列（标题在左、日期在右） — 16/16,16/16,16/16,16/16
+[RL4] [PASS] news-message.html — 375px — 第 1/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 2/30 条链接实测渲染盒 ≥44×44 — 343×72
+[RL4] [PASS] news-message.html — 375px — 第 3/30 条链接实测渲染盒 ≥44×44 — 343×72
+[RL4] [PASS] news-message.html — 375px — 第 4/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 5/30 条链接实测渲染盒 ≥44×44 — 343×72
+[RL4] [PASS] news-message.html — 375px — 第 6/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 7/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 8/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 9/30 条链接实测渲染盒 ≥44×44 — 343×72
+[RL4] [PASS] news-message.html — 375px — 第 10/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 11/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 12/30 条链接实测渲染盒 ≥44×44 — 343×72
+[RL4] [PASS] news-message.html — 375px — 第 13/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 14/30 条链接实测渲染盒 ≥44×44 — 343×72
+[RL4] [PASS] news-message.html — 375px — 第 15/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 16/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 17/30 条链接实测渲染盒 ≥44×44 — 343×72
+[RL4] [PASS] news-message.html — 375px — 第 18/30 条链接实测渲染盒 ≥44×44 — 343×72
+[RL4] [PASS] news-message.html — 375px — 第 19/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 20/30 条链接实测渲染盒 ≥44×44 — 343×72
+[RL4] [PASS] news-message.html — 375px — 第 21/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 22/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 23/30 条链接实测渲染盒 ≥44×44 — 343×72
+[RL4] [PASS] news-message.html — 375px — 第 24/30 条链接实测渲染盒 ≥44×44 — 343×72
+[RL4] [PASS] news-message.html — 375px — 第 25/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 26/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 27/30 条链接实测渲染盒 ≥44×44 — 343×72
+[RL4] [PASS] news-message.html — 375px — 第 28/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 29/30 条链接实测渲染盒 ≥44×44 — 343×93
+[RL4] [PASS] news-message.html — 375px — 第 30/30 条链接实测渲染盒 ≥44×44 — 343×72
+[RL5] [PASS] news-message.html — 375px — 30 条互不重叠错位（逐条 bounding box 检查） — 405→279,509→405,614→509,740→614,845→740
+[RL5] [PASS] news-message.html — 375px — 长标题与日期在 30 条密度下仍不溢出自身盒 — 0 条溢出
+[RL5] [PASS] news-message.html — 375px — 压力页视觉次序 == DOM 次序（变异 1 就是打在这里） — 课堂观察（第 1 期）：并附长期观察记录与课堂反馈整理稿 supplementary note|社团巡礼（第 2 期）|期中学习方法访谈（第 3 期）…
+[RL1] [PASS] news-message.html — 640px — 压力样本条目数 == 合同规定的假文章条数 — 30
+[RL2] [PASS] news-message.html — 640px — 30 条容量下无横向溢出（scrollWidth<=clientWidth） — 640<=640
+[RL2] [PASS] news-message.html — 640px — body.scrollWidth<=clientWidth 同样成立 — 640
+[RL2] [PASS] news-message.html — 640px — 不因容量增长产生内部滚动区 — 0 个
+[RL2] [PASS] news-message.html — 640px — 无超出视口的固定像素宽元素 — 0 个
+[RL3] [PASS] news-message.html — 640px — 窄档 30 条仍保持堆叠（标题在上、日期在下） — 336<361,441<466,546<571,650<676,755<780,860<906 …共30条
+[RL3] [PASS] news-message.html — 640px — 桌面档 30 条为同行两列（标题在左、日期在右） — 16/16,16/16,16/16,16/16
+[RL4] [PASS] news-message.html — 640px — 第 1/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 2/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 3/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 4/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 5/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 6/30 条链接实测渲染盒 ≥44×44 — 608×93
+[RL4] [PASS] news-message.html — 640px — 第 7/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 8/30 条链接实测渲染盒 ≥44×44 — 608×93
+[RL4] [PASS] news-message.html — 640px — 第 9/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 10/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 11/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 12/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 13/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 14/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 15/30 条链接实测渲染盒 ≥44×44 — 608×93
+[RL4] [PASS] news-message.html — 640px — 第 16/30 条链接实测渲染盒 ≥44×44 — 608×93
+[RL4] [PASS] news-message.html — 640px — 第 17/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 18/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 19/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 20/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 21/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 22/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 23/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 24/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 25/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 26/30 条链接实测渲染盒 ≥44×44 — 608×93
+[RL4] [PASS] news-message.html — 640px — 第 27/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 28/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL4] [PASS] news-message.html — 640px — 第 29/30 条链接实测渲染盒 ≥44×44 — 608×93
+[RL4] [PASS] news-message.html — 640px — 第 30/30 条链接实测渲染盒 ≥44×44 — 608×72
+[RL5] [PASS] news-message.html — 640px — 30 条互不重叠错位（逐条 bounding box 检查） — 412→307,517→412,621→517,726→621,831→726
+[RL5] [PASS] news-message.html — 640px — 长标题与日期在 30 条密度下仍不溢出自身盒 — 0 条溢出
+[RL5] [PASS] news-message.html — 640px — 压力页视觉次序 == DOM 次序（变异 1 就是打在这里） — 课堂观察（第 1 期）：并附长期观察记录与课堂反馈整理稿 supplementary note|社团巡礼（第 2 期）|期中学习方法访谈（第 3 期）…
+[RL1] [PASS] news-message.html — 768px — 压力样本条目数 == 合同规定的假文章条数 — 30
+[RL2] [PASS] news-message.html — 768px — 30 条容量下无横向溢出（scrollWidth<=clientWidth） — 768<=768
+[RL2] [PASS] news-message.html — 768px — body.scrollWidth<=clientWidth 同样成立 — 768
+[RL2] [PASS] news-message.html — 768px — 不因容量增长产生内部滚动区 — 0 个
+[RL2] [PASS] news-message.html — 768px — 无超出视口的固定像素宽元素 — 0 个
+[RL3] [PASS] news-message.html — 768px — 窄档 30 条仍保持堆叠（标题在上、日期在下） — 336<361,441<466,546<571,650<676,755<780,860<885 …共30条
+[RL3] [PASS] news-message.html — 768px — 桌面档 30 条为同行两列（标题在左、日期在右） — 16/16,16/16,16/16,16/16
+[RL4] [PASS] news-message.html — 768px — 第 1/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 2/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 3/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 4/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 5/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 6/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 7/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 8/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 9/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 10/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 11/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 12/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 13/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 14/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 15/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 16/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 17/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 18/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 19/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 20/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 21/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 22/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 23/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 24/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 25/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 26/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 27/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 28/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 29/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL4] [PASS] news-message.html — 768px — 第 30/30 条链接实测渲染盒 ≥44×44 — 736×72
+[RL5] [PASS] news-message.html — 768px — 30 条互不重叠错位（逐条 bounding box 检查） — 412→307,517→412,621→517,726→621,831→726
+[RL5] [PASS] news-message.html — 768px — 长标题与日期在 30 条密度下仍不溢出自身盒 — 0 条溢出
+[RL5] [PASS] news-message.html — 768px — 压力页视觉次序 == DOM 次序（变异 1 就是打在这里） — 课堂观察（第 1 期）：并附长期观察记录与课堂反馈整理稿 supplementary note|社团巡礼（第 2 期）|期中学习方法访谈（第 3 期）…
+[RL1] [PASS] news-message.html — 1280px — 压力样本条目数 == 合同规定的假文章条数 — 30
+[RL2] [PASS] news-message.html — 1280px — 30 条容量下无横向溢出（scrollWidth<=clientWidth） — 1280<=1280
+[RL2] [PASS] news-message.html — 1280px — body.scrollWidth<=clientWidth 同样成立 — 1280
+[RL2] [PASS] news-message.html — 1280px — 不因容量增长产生内部滚动区 — 0 个
+[RL2] [PASS] news-message.html — 1280px — 无超出视口的固定像素宽元素 — 0 个
+[RL3] [PASS] news-message.html — 1280px — 窄档 30 条仍保持堆叠（标题在上、日期在下） — 386<387,483<484,579<580,676<677,772<773,869<870 …共30条
+[RL3] [PASS] news-message.html — 1280px — 桌面档 30 条为同行两列（标题在左、日期在右） — 272/964,272/964,272/964,272/964
+[RL4] [PASS] news-message.html — 1280px — 第 1/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 2/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 3/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 4/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 5/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 6/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 7/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 8/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 9/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 10/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 11/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 12/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 13/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 14/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 15/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 16/30 条链接实测渲染盒 ≥44×44 — 736×69
+[RL4] [PASS] news-message.html — 1280px — 第 17/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 18/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 19/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 20/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 21/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 22/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 23/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 24/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 25/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 26/30 条链接实测渲染盒 ≥44×44 — 736×69
+[RL4] [PASS] news-message.html — 1280px — 第 27/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 28/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 29/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL4] [PASS] news-message.html — 1280px — 第 30/30 条链接实测渲染盒 ≥44×44 — 736×48
+[RL5] [PASS] news-message.html — 1280px — 30 条互不重叠错位（逐条 bounding box 检查） — 446→349,542→446,639→542,735→639,832→735
+[RL5] [PASS] news-message.html — 1280px — 长标题与日期在 30 条密度下仍不溢出自身盒 — 0 条溢出
+[RL5] [PASS] news-message.html — 1280px — 压力页视觉次序 == DOM 次序（变异 1 就是打在这里） — 课堂观察（第 1 期）：并附长期观察记录与课堂反馈整理稿 supplementary note|社团巡礼（第 2 期）|期中学习方法访谈（第 3 期）…
+[RL6] [PASS] news-message.html — 375px/展开 — 前置：30 条页上菜单已展开 — open=true 条=30
+[RL6] [PASS] news-message.html — 375px/展开 — 末条目在菜单展开态仍可点（elementFromPoint 命中条目自身，且位于菜单下缘之外） — {"hit":"entry-list__link","navRect":[-2955,-2767],"linkTop":764}
+[RL6] [PASS] news-message.html — 375px/展开 — 30 条 + 展开菜单仍无横向溢出 — 375<=375
+[RL9] [REC] shots/ — - — 压力段结束：已清空 shots/ 并重跑真实交付页截图 — C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\shots
+[VS1] [REC] article-along-the-north-small-river.html — 375px/iframe — 窄视口截图的实际视口回读自宿主标题 — ready:375:closed | ready:375:closed | ready:375:open
+[VS1] [REC] article-classroom-screen-upgrade.html — 375px/iframe — 窄视口截图的实际视口回读自宿主标题 — ready:375:closed | ready:375:closed | ready:375:open
+[VS1] [REC] article-math-to-ai-learning.html — 375px/iframe — 窄视口截图的实际视口回读自宿主标题 — ready:375:closed | ready:375:closed | ready:375:open
+[VS1] [REC] article-north-of-dam-river.html — 375px/iframe — 窄视口截图的实际视口回读自宿主标题 — ready:375:closed | ready:375:closed | ready:375:open
+[VS1] [REC] article-school-course-selection-results.html — 375px/iframe — 窄视口截图的实际视口回读自宿主标题 — ready:375:closed | ready:375:closed | ready:375:open
+[VS1] [REC] article-school-course-volunteer.html — 375px/iframe — 窄视口截图的实际视口回读自宿主标题 — ready:375:closed | ready:375:closed | ready:375:open
+[VS1] [REC] index.html — 375px/iframe — 窄视口截图的实际视口回读自宿主标题 — ready:375:closed | ready:375:closed | ready:375:open
+[VS1] [REC] news-commentary.html — 375px/iframe — 窄视口截图的实际视口回读自宿主标题 — ready:375:closed | ready:375:closed | ready:375:open
+[VS1] [REC] news-feature.html — 375px/iframe — 窄视口截图的实际视口回读自宿主标题 — ready:375:closed | ready:375:closed | ready:375:open
+[VS1] [REC] news-message.html — 375px/iframe — 窄视口截图的实际视口回读自宿主标题 — ready:375:closed | ready:375:closed | ready:375:open
+[RL9] [PASS] Results/ — - — R-L 跑完重跑真实页之后，Results/ 哈希与压力段开始前逐项相等 — 一致
+[RJ5] [PASS] 全部 HTML 页全程 — 全部宽度/状态/操作 — 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） — 0 条
+[RZ12] [REC] 全包 — - — 断言总数下限（≥1400）属全包闸门，单段模式记 REC，不参与判定 — 本段计分 178
+[RZ12] [PASS] 全包 — - — PENDING 恒为 0（等待外部动作只有 SKIPPED-BY-DESIGN 这一个名字） — 0
+[RZ10] [PASS] Results/ — - — 19.10 只读证明：Results/ 开工与完工逐项哈希相等 — 12 项 且内容一致
+[RZ10] [PASS] content/ — - — 19.10 只读证明：content/ 开工与完工逐项哈希相等 — 8 项 且内容一致
+[RZ10] [PASS] build/ — - — 19.10 只读证明：build/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] deploy/ — - — 19.10 只读证明：deploy/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] Materials/ — - — 19.10 只读证明：Materials/ 开工与完工逐项哈希相等 — 3 项 且内容一致
+[RZ10] [PASS] Results/ — - — 19.10 Results/ 无新增文件（压力样本与探针产物一律落在 _qa_task19/mutants/） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css
+[RZ11] [PASS] Results/ — - — 19.10 本包未修改任何被验对象（变异与压力跑均指向副本目录 本轮未使用副本） — ok
+[RZ11] [PASS] Results/ — - — 19.10 Results/ 内无清单外文件、无探针／截图／JSON 产物 — 0 个
+
+合计 202 条（计分 187）：PASS 187 / FAIL 0 / SKIPPED-BY-DESIGN 0 / REC 15 / PENDING 0

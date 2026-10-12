@@ -1,0 +1,4 @@
+FAIL | Results/ holds exactly the 5 agreed files | ['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+FAIL | index.html untouched by Task 7 | 971e57a5f85bae99
+FAIL | styles.css untouched by Task 7 | 2c23817299492ea9
+108 checks, 3 failures

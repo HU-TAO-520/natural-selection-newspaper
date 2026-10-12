@@ -1,0 +1,12 @@
+FAIL [文件级] Results/index.html 未被本任务改动 :: expected='73f49fd8d01bb578a5a1fcc76ca8967e19feb29ec8e1c64e1aed7b2006c3d901' actual='475e02f8bbf195ca4be23b8c71807962e1edbdaeef6ab45e1782c2d184a78f91'
+FAIL [文件级] Results/news-commentary.html 未被本任务改动 :: expected='cdc13a4023aea725c6c12e6940940b9a00253f84433d1675672b15de046f27ee' actual='76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8'
+FAIL [文件级] Results/news-feature.html 未被本任务改动 :: expected='5afe7d1bb37216c72d60b3fca62e0a247332014968081b12743ca1cc0fffe275' actual='485a8750d996bcba6d24877c0816dcff108d4cd8eb3cc33114e1bc7dcb20e68c'
+FAIL [文件级] Results/styles.css 未被本任务改动 :: expected='30d746616ae9dfd0e0aa07e373874b5f442ed14fbd3b78f9efe0abdcc21d040d' actual='2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad418ba1'
+FAIL [文件级] Results/ 文件集合固定为 5 个已约定文件 :: expected=['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'styles.css'] actual=['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+{"total": 155, "passed": 150, "failed": 5}
+FAIL [文件级] Results/index.html 未被本任务改动 :: expected='73f49fd8d01bb578a5a1fcc76ca8967e19feb29ec8e1c64e1aed7b2006c3d901' actual='475e02f8bbf195ca4be23b8c71807962e1edbdaeef6ab45e1782c2d184a78f91'
+FAIL [文件级] Results/news-commentary.html 未被本任务改动 :: expected='cdc13a4023aea725c6c12e6940940b9a00253f84433d1675672b15de046f27ee' actual='76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8'
+FAIL [文件级] Results/news-feature.html 未被本任务改动 :: expected='5afe7d1bb37216c72d60b3fca62e0a247332014968081b12743ca1cc0fffe275' actual='485a8750d996bcba6d24877c0816dcff108d4cd8eb3cc33114e1bc7dcb20e68c'
+FAIL [文件级] Results/styles.css 未被本任务改动 :: expected='30d746616ae9dfd0e0aa07e373874b5f442ed14fbd3b78f9efe0abdcc21d040d' actual='2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad418ba1'
+FAIL [文件级] Results/ 文件集合固定为 5 个已约定文件 :: expected=['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'styles.css'] actual=['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+{"total": 155, "passed": 150, "failed": 5}

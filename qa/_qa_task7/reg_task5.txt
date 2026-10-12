@@ -1,0 +1,6 @@
+FAIL [文件级] Results/news-commentary.html 未被本任务改动 :: expected='cdc13a4023aea725c6c12e6940940b9a00253f84433d1675672b15de046f27ee' actual='a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52'
+FAIL [文件级] Results/news-feature.html 未被本任务改动 :: expected='5afe7d1bb37216c72d60b3fca62e0a247332014968081b12743ca1cc0fffe275' actual='73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5'
+{"total": 155, "passed": 153, "failed": 2}
+FAIL [文件级] Results/news-commentary.html 未被本任务改动 :: expected='cdc13a4023aea725c6c12e6940940b9a00253f84433d1675672b15de046f27ee' actual='a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52'
+FAIL [文件级] Results/news-feature.html 未被本任务改动 :: expected='5afe7d1bb37216c72d60b3fca62e0a247332014968081b12743ca1cc0fffe275' actual='73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5'
+{"total": 155, "passed": 153, "failed": 2}

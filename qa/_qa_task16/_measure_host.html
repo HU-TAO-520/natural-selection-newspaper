@@ -1,0 +1,87 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>task16 视口探针</title>
+<style>html,body{margin:0;padding:0;background:#ffffff}#f{border:0;display:block;background:#f5efe4}</style>
+</head><body><iframe id="f" width="375" height="1500"></iframe>
+<script>
+const f = document.getElementById('f');
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const num = (v) => Math.round(v * 1000) / 1000;
+
+function attach(href) {
+  return new Promise((res, rej) => {
+    f.onload = () => res();
+    f.onerror = () => rej(new Error('iframe 加载失败 ' + href));
+    f.src = href;
+  });
+}
+
+function probe(doc, win, w) {
+  const de = doc.documentElement;
+  const q = (s) => Array.from(doc.querySelectorAll(s));
+  const cs = (el, pseudo) => win.getComputedStyle(el, pseudo);
+  const rect = (el) => { const r = el.getBoundingClientRect(); return { x: num(r.x), y: num(r.y + win.scrollY), w: num(r.width), h: num(r.height) }; };
+  const lines = (el) => { const r = doc.createRange(); r.selectNodeContents(el); return r.getClientRects().length; };
+  const linkInfo = (el, cls) => {
+    const c = cs(el), r = el.getBoundingClientRect();
+    return {
+      cls, text: (el.textContent || '').trim().slice(0, 20),
+      h: num(r.height), w: num(r.width), x: num(r.x), y: num(r.y + win.scrollY),
+      color: c.color, textDecoration: c.textDecorationLine, display: c.display,
+      flexDirection: c.flexDirection, alignItems: c.alignItems, justifyContent: c.justifyContent,
+      gap: c.gap, fontSize: c.fontSize, lineHeight: c.lineHeight,
+      outline: [c.outlineStyle, c.outlineWidth, c.outlineColor].join(' '), outlineOffset: c.outlineOffset,
+      focusable: el.tabIndex >= 0 && el.getClientRects().length > 0
+    };
+  };
+  const o = {
+    viewport: w, frameClientWidth: de.clientWidth, frameScrollWidth: de.scrollWidth,
+    overflowX: de.scrollWidth - de.clientWidth, innerWidth: win.innerWidth,
+    links: [], titles: [], dates: [], shell: {}, extras: {}
+  };
+  for (const el of q('.entry-list__link')) o.links.push(linkInfo(el, 'entry-list__link'));
+  for (const el of q('.home-latest__link')) o.links.push(linkInfo(el, 'home-latest__link'));
+  for (const el of q('.entry-list__title')) o.titles.push({ cls: 'entry-list__title', text: el.textContent.trim().slice(0, 20), lines: lines(el), ...rect(el), overflowWrap: cs(el).overflowWrap, wordBreak: cs(el).wordBreak, hyphens: cs(el).hyphens });
+  for (const el of q('.home-latest__entry')) o.titles.push({ cls: 'home-latest__entry', text: el.textContent.trim().slice(0, 20), lines: lines(el), ...rect(el), overflowWrap: cs(el).overflowWrap, wordBreak: cs(el).wordBreak, hyphens: cs(el).hyphens });
+  for (const el of q('.entry-list__date, .home-latest__date')) o.dates.push({ cls: el.className, text: el.textContent.trim(), ...rect(el), whiteSpace: cs(el).whiteSpace, color: cs(el).color, fontSize: cs(el).fontSize, flex: cs(el).flex });
+  const put = (k, sel, keep) => { const el = doc.querySelector(sel); if (el) o.shell[k] = Object.assign(keep ? keep(el, cs) : {}, rect(el)); };
+  put('masthead', '.site-masthead__link', (el, c) => ({ fontSize: c(el).fontSize, lineHeight: c(el).lineHeight, color: c(el).color, letterSpacing: c(el).letterSpacing }));
+  put('navLink', '.site-navigation__link', (el, c) => ({ fontSize: c(el).fontSize, lineHeight: c(el).lineHeight, color: c(el).color, borderBottom: c(el).borderBottom }));
+  put('navCurrent', '.site-navigation__link[aria-current="page"]', (el, c) => ({ fontSize: c(el).fontSize, lineHeight: c(el).lineHeight, color: c(el).color, borderBottom: c(el).borderBottom }));
+  put('main', '.main-content', (el, c) => ({ maxWidth: c(el).maxWidth, paddingTop: c(el).paddingTop, paddingBottom: c(el).paddingBottom, fontSize: c(el).fontSize }));
+  put('pageTitle', '.page-title', (el, c) => ({ fontSize: c(el).fontSize, lineHeight: c(el).lineHeight, maxWidth: c(el).maxWidth }));
+  put('articleBody', '.article__body', (el, c) => ({ maxWidth: c(el).maxWidth, fontSize: c(el).fontSize, lineHeight: c(el).lineHeight, textAlign: c(el).textAlign, textIndent: c(el).textIndent }));
+  put('articleHeader', '.article__header', (el, c) => ({ maxWidth: c(el).maxWidth, paddingBottom: c(el).paddingBottom, borderBottom: c(el).borderBottom }));
+  put('articleType', '.article__type', (el, c) => ({ fontSize: c(el).fontSize, color: c(el).color, letterSpacing: c(el).letterSpacing }));
+  put('articleByline', '.article__byline', (el, c) => ({ fontSize: c(el).fontSize, color: c(el).color }));
+  put('articleDate', '.article__date', (el, c) => ({ fontSize: c(el).fontSize, color: c(el).color, textAlign: c(el).textAlign }));
+  put('entryList', '.entry-list', (el, c) => ({ maxWidth: c(el).maxWidth, marginTop: c(el).marginTop, listStyleType: c(el).listStyleType, marginLeft: c(el).marginLeft, paddingLeft: c(el).paddingLeft }));
+  put('homeLatest', '.home-latest', (el, c) => ({ maxWidth: c(el).maxWidth, marginTop: c(el).marginTop, display: c(el).display }));
+  put('latestTitle', '.home-latest__title', (el, c) => ({ fontSize: c(el).fontSize, color: c(el).color, lineHeight: c(el).lineHeight, marginTop: c(el).marginTop, marginBottom: c(el).marginBottom, textAlign: c(el).textAlign }));
+  put('entryItem', '.entry-list__item', (el, c) => ({ paddingTop: c(el).paddingTop, paddingBottom: c(el).paddingBottom, borderTop: c(el).borderTop, borderBottom: c(el).borderBottom, listStyleType: c(el).listStyleType }));
+  put('latestItem', '.home-latest__item', (el, c) => ({ paddingTop: c(el).paddingTop, paddingBottom: c(el).paddingBottom, borderTop: c(el).borderTop, borderBottom: c(el).borderBottom }));
+  o.shell.homeSectionTexts = q('.home-section__text').map((el) => Object.assign({ text: el.textContent.trim().slice(0, 10), fontSize: cs(el).fontSize, lineHeight: cs(el).lineHeight, color: cs(el).color }, rect(el)));
+  o.shell.homeSectionTitles = q('.home-section__title').map((el) => Object.assign({ text: el.textContent.trim().slice(0, 10), fontSize: cs(el).fontSize, lineHeight: cs(el).lineHeight, color: cs(el).color }, rect(el)));
+  o.shell.homeSections = q('.home-section').map((el) => Object.assign({ borderTop: cs(el).borderTop, borderBottom: cs(el).borderBottom, paddingTop: cs(el).paddingTop, paddingBottom: cs(el).paddingBottom }, rect(el)));
+  o.shell.articleParagraphs = q('.article__body > p').map((el) => rect(el));
+  o.shell.skipLink = (() => { const el = doc.querySelector('.skip-link'); if (!el) return null; const c = cs(el); return Object.assign({ color: c.color, position: c.position }, rect(el)); })();
+  o.extras.docHeight = num(de.scrollHeight);
+  o.extras.markerText = (() => { const el = doc.querySelector('.entry-list__item'); if (!el) return null; const c = cs(el, '::marker'); return c ? c.content + '|' + c.fontFamily : null; })();
+  return o;
+}
+
+window.runOne = async function (href, ws) {
+  const out = [];
+  await attach(href);
+  for (const w of ws) {
+    f.style.width = w + 'px';
+    f.style.height = '1500px';
+    f.getBoundingClientRect();
+    void f.contentDocument.documentElement.offsetHeight;
+    await sleep(90);
+    const doc = f.contentDocument;
+    if (!doc || !doc.documentElement) { out.push({ viewport: w, error: '读不到 contentDocument' }); continue; }
+    try { out.push(Object.assign({ page: href }, probe(doc, f.contentWindow, w))); }
+    catch (e) { out.push({ page: href, viewport: w, error: String(e && e.message) }); }
+  }
+  return out;
+};
+</script></body></html>

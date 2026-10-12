@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-Hant" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>自然选择号：最后的回波</title>
+  <link rel="stylesheet" href="/easteregg.css">
+  <script src="/easteregg.js" defer></script>
+</head>
+<body>
+  <a class="egg-skip-link" href="#main-content">跳至正文</a>
+  <div class="egg-frame">
+    <header class="egg-header">
+      <p class="egg-kicker">自然选择号｜舰桥档案终端</p>
+      <a class="egg-return" id="egg-return" href="https://old-ns-news.pages.dev/">返回报社</a>
+    </header>
+    <main class="egg-main" id="main-content" tabindex="-1">
+      <h1 class="egg-title">自然选择号：最后的回波</h1>
+      <p class="egg-disclaimer">基于刘慈欣《三体II·黑暗森林》的同人互动档案。</p>
+      <p class="egg-spoiler">含章北海与黑暗战役相关剧透。</p>
+      <p class="egg-static-note" id="egg-static-note">可直接阅读完整复原档案。</p>
+      <p class="egg-status" id="egg-status">档案回放待命。</p>
+
+      <div class="egg-layout">
+        <section class="egg-console" aria-labelledby="egg-console-title">
+          <h2 class="egg-section-title" id="egg-console-title">档案终端</h2>
+          <p id="egg-p00" class="egg-prose" tabindex="-1">舰桥的灯仍然亮着。通信栏却没有新的来电。</p>
+          <p id="egg-p01" class="egg-prose">你面前是一份损坏的航行档案。三段记录各自保留了一部分，复原它们，才能把这艘舰放回它经过的时间里。</p>
+          <p id="egg-p02" class="egg-prose">这是一次回放。你能找回已经发生的事。</p>
+          <div class="egg-controls" id="egg-start-controls" hidden>
+            <button id="egg-start" type="button">开始复原</button>
+          </div>
+
+          <section class="egg-stage" id="egg-stage-one" aria-labelledby="egg-stage-one-title">
+            <h2 class="egg-stage-title" id="egg-stage-one-title" tabindex="-1">第一幕：脱离</h2>
+            <p id="egg-p10" class="egg-prose">舰名仍然清晰，推进指令却经过了字母位移。用舰名校准这份电文，再还原那道指令。</p>
+            <div class="egg-controls" id="egg-departure-controls" hidden>
+              <p class="egg-clue">自然选择／固定呼号：自然选择拼音 ZIRANXUANZE，对应电文 CLUDQAXDQCH。呼号与指令均用无声调大写拼音。</p>
+              <form id="egg-departure-form">
+                <label for="egg-shift">载波校准值：<output id="egg-shift-value" for="egg-shift">0</output></label>
+                <input id="egg-shift" type="range" min="0" max="25" step="1" value="0">
+                <p class="egg-readout">固定呼号译文：<output id="egg-code">待校准</output></p>
+                <p class="egg-readout">推进指令译文：<output id="egg-command">待校准</output></p>
+                <label for="egg-answer">恢复出的推进指令</label>
+                <input id="egg-answer" type="text" maxlength="64" autocomplete="off">
+                <button id="egg-departure-check" type="submit">校验指令</button>
+              </form>
+              <div class="egg-hints">
+                <button id="egg-hint-one" type="button">请求提示</button>
+                <p id="egg-hint-text-one" class="egg-hint-text"></p>
+                <button id="egg-apply-hint-one" type="button" hidden>直接复原本段</button>
+              </div>
+            </div>
+            <button id="egg-continue-one" type="button" hidden>继续复原</button>
+          </section>
+
+          <section class="egg-stage" id="egg-stage-two" aria-labelledby="egg-stage-two-title">
+            <h2 class="egg-stage-title" id="egg-stage-two-title" tabindex="-1">第二幕：远航</h2>
+            <p id="egg-p20" class="egg-prose">七艘战舰留下了两组远航记录。它们经过不同的起点，驶向太阳系的两端。将每份通信归回所属的航迹。</p>
+            <div class="egg-controls" id="egg-routes-controls" hidden>
+              <div class="egg-route-fields">
+                <label for="egg-route-quantum">量子号</label><select id="egg-route-quantum"><option value="">尚未归档</option><option value="A">航迹 A</option><option value="B">航迹 B</option></select>
+                <label for="egg-route-natural">自然选择号</label><select id="egg-route-natural"><option value="">尚未归档</option><option value="A">航迹 A</option><option value="B">航迹 B</option></select>
+                <label for="egg-route-ultimate">终极规律号</label><select id="egg-route-ultimate"><option value="">尚未归档</option><option value="A">航迹 A</option><option value="B">航迹 B</option></select>
+                <label for="egg-route-bronze">青铜时代号</label><select id="egg-route-bronze"><option value="">尚未归档</option><option value="A">航迹 A</option><option value="B">航迹 B</option></select>
+                <label for="egg-route-enterprise">企业号</label><select id="egg-route-enterprise"><option value="">尚未归档</option><option value="A">航迹 A</option><option value="B">航迹 B</option></select>
+                <label for="egg-route-blue">蓝色空间号</label><select id="egg-route-blue"><option value="">尚未归档</option><option value="A">航迹 A</option><option value="B">航迹 B</option></select>
+                <label for="egg-route-deep">深空号</label><select id="egg-route-deep"><option value="">尚未归档</option><option value="A">航迹 A</option><option value="B">航迹 B</option></select>
+              </div>
+              <div class="egg-orbits" aria-label="航迹归档示意">
+                <section class="egg-orbit" aria-labelledby="egg-orbit-a-title"><h3 id="egg-orbit-a-title">航迹 A</h3><p>脱离／追击航迹 · <output id="egg-route-a-count">0</output> 艘</p><ul id="egg-route-a-list"></ul></section>
+                <section class="egg-orbit" aria-labelledby="egg-orbit-b-title"><h3 id="egg-orbit-b-title">航迹 B</h3><p>末日战役幸存航迹 · <output id="egg-route-b-count">0</output> 艘</p><ul id="egg-route-b-list"></ul></section>
+              </div>
+              <button id="egg-routes-check" type="button">校验航迹</button>
+              <div class="egg-hints">
+                <button id="egg-hint-two" type="button">请求提示</button>
+                <p id="egg-hint-text-two" class="egg-hint-text"></p>
+                <button id="egg-apply-hint-two" type="button" hidden>直接复原本段</button>
+              </div>
+            </div>
+            <button id="egg-continue-two" type="button" hidden>继续复原</button>
+          </section>
+
+          <section class="egg-stage" id="egg-stage-three" aria-labelledby="egg-stage-three-title">
+            <h2 class="egg-stage-title" id="egg-stage-three-title" tabindex="-1">第三幕：沉默</h2>
+            <p id="egg-p30" class="egg-prose">最后留下的遥测、武器记录与通信录音发生了时间错位。找出相同的同步脉冲，将三路记录对齐。</p>
+            <div class="egg-controls" id="egg-signals-controls" hidden>
+              <p class="egg-clue">三连峰是相同的同步标记。请把它们移到第 5 格的同步线上。偏移使用整数，画面之外的标记会被裁切。</p>
+              <div class="egg-signal-row" aria-labelledby="egg-signal-telemetry-title">
+                <h3 id="egg-signal-telemetry-title">舰体遥测</h3>
+                <ol class="egg-samples" id="egg-samples-telemetry" aria-label="舰体遥测九格采样"></ol>
+                <label for="egg-offset-telemetry">舰体遥测偏移：<output id="egg-offset-telemetry-value" for="egg-offset-telemetry">0</output></label>
+                <input id="egg-offset-telemetry" type="range" min="-3" max="3" step="1" value="0">
+                <p class="egg-signal-state" id="egg-signal-telemetry-state">同步标记位置待校验。</p>
+              </div>
+              <div class="egg-signal-row" aria-labelledby="egg-signal-weapons-title">
+                <h3 id="egg-signal-weapons-title">武器记录</h3>
+                <ol class="egg-samples" id="egg-samples-weapons" aria-label="武器记录九格采样"></ol>
+                <label for="egg-offset-weapons">武器记录偏移：<output id="egg-offset-weapons-value" for="egg-offset-weapons">0</output></label>
+                <input id="egg-offset-weapons" type="range" min="-3" max="3" step="1" value="0">
+                <p class="egg-signal-state" id="egg-signal-weapons-state">同步标记位置待校验。</p>
+              </div>
+              <div class="egg-signal-row" aria-labelledby="egg-signal-voice-title">
+                <h3 id="egg-signal-voice-title">末尾录音</h3>
+                <ol class="egg-samples" id="egg-samples-voice" aria-label="末尾录音九格采样"></ol>
+                <label for="egg-offset-voice">末尾录音偏移：<output id="egg-offset-voice-value" for="egg-offset-voice">0</output></label>
+                <input id="egg-offset-voice" type="range" min="-3" max="3" step="1" value="0">
+                <p class="egg-signal-state" id="egg-signal-voice-state">同步标记位置待校验。</p>
+              </div>
+              <p class="egg-sync-line">共同同步线：第 5 格</p>
+              <button id="egg-signals-check" type="button">对齐记录</button>
+              <div class="egg-hints">
+                <button id="egg-hint-three" type="button">请求提示</button>
+                <p id="egg-hint-text-three" class="egg-hint-text"></p>
+                <button id="egg-apply-hint-three" type="button" hidden>直接复原本段</button>
+              </div>
+            </div>
+          </section>
+
+          <div class="egg-feedback" id="egg-feedback" role="status" aria-live="polite" tabindex="-1"></div>
+        </section>
+
+        <aside class="egg-side-rail" aria-labelledby="egg-archive-title">
+          <h2 class="egg-section-title" id="egg-archive-title">恢复中的档案</h2>
+          <p>记录按复原顺序展开。未启用终端时，下方保留完整档案供阅读。</p>
+          <div class="egg-recovered" id="egg-recovered-one">
+            <h3 class="egg-recovered-title" id="egg-recovered-one-title" tabindex="-1">已恢复的第一段记录</h3>
+            <p id="egg-p11" class="egg-prose">深海状态已经就绪。航向离开太阳系，推进记录越过了原来的编队。</p>
+            <p id="egg-p12" class="egg-prose">章北海作出了选择。随后，四艘战舰开始追击“自然选择”号。</p>
+            <p id="egg-p13" class="egg-prose">在下一段记录里，人类的联合舰队遭到了毁灭。同一条向外延伸的航迹，开始有了另一种含义。</p>
+          </div>
+          <div class="egg-recovered" id="egg-recovered-two">
+            <h3 class="egg-recovered-title" id="egg-recovered-two-title" tabindex="-1">已恢复的第二段记录</h3>
+            <p id="egg-p21" class="egg-prose">“自然选择”号与四艘追击舰，组成了星舰地球。另一端，“量子”号和“青铜时代”号也在离开太阳系。</p>
+            <p id="egg-p22" class="egg-prose">航行可以继续，五艘舰共同抵达的未来却无法由现有资源维持。燃料、配件和生存的计算，进入了每一艘舰的记录。</p>
+            <p id="egg-p23" class="egg-prose">五个光点仍在同一张图上。关于彼此的判断，却开始一层一层地向内收紧。</p>
+          </div>
+          <div class="egg-recovered" id="egg-recovered-three">
+            <h3 class="egg-recovered-title" id="egg-recovered-three-title" tabindex="-1">已恢复的第三段记录</h3>
+            <p id="egg-p31" class="egg-prose">第一轮攻击来自“终极规律”号。“自然选择”号留下的最后影像，停在章北海转向东方延绪的那一刻。</p>
+            <p id="egg-p32" class="egg-quote">没关系的，都一样。</p>
+            <p class="egg-attribution">章北海，《三体II·黑暗森林》</p>
+            <p id="egg-p33" class="egg-prose">自然选择号：生命信号消失。</p>
+            <p id="egg-p34" class="egg-prose">后续记录：“蓝色空间”号继续向深空航行。</p>
+            <p id="egg-p35" class="egg-prose">这段航行结束了。被它带离太阳系的那条道路，还没有。</p>
+          </div>
+          <section class="egg-ending" id="egg-ending" aria-labelledby="egg-ending-title">
+            <h2 class="egg-stage-title" id="egg-ending-title" tabindex="-1">终幕：失联</h2>
+            <p class="egg-quiet">自然选择号：舰桥失联。</p>
+            <p class="egg-quiet">航迹记录仍在继续。</p>
+            <div class="egg-ending-actions">
+              <button id="egg-archive" type="button">阅读已恢复档案</button>
+              <button id="egg-replay" type="button">重新回放</button>
+              <a id="egg-return-ending" href="https://old-ns-news.pages.dev/">返回报社</a>
+            </div>
+          </section>
+        </aside>
+      </div>
+    </main>
+    <footer class="egg-footer"><a href="https://old-ns-news.pages.dev/">返回报社</a></footer>
+  </div>
+</body>
+</html>

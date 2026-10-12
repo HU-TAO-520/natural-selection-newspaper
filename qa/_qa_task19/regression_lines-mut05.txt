@@ -1,0 +1,93 @@
+[RZ0] [REC] - — - — 验收环境 — Chrome/154.0.8037.93 · headless=new · file:// 直开 · profile=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\.cdp9485-1791026411042 · 被测目录=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\mutants\m04b-drop-site-navigation-visited · 段=visited-pixel
+[RZ1] [PASS] - — - — 19.1 遍历清单条数 == manifest.counts.html（HTML 子集，非目录扫描所得） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 styles.css／script.js 不是页（不进遍历清单） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 遍历顺序按 path 字典序 — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [REC] - — - — 本轮实跑页集合（QODER_ONLY 只影响实跑范围，不改变清单结论） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ2] [PASS] - — - — 前置闸门：Task 18 结论 FAIL 0 且 PENDING 0（未全绿则本包不开跑） — 匹配=true
+[RZ2] [PASS] - — - — 前置闸门：Task 18 变异捕获率 100% — 100
+[RZ2] [PASS] - — - — 前置闸门：Task 18 断言数 ≥340 — 1395
+[RZ2] [PASS] - — - — 前置闸门：expected_reversals.md 已读入本包前置（区分真回归与范围过期的唯一依据） — true
+[RZ3] [PASS] - — - — 19.1 Task18 facts.json 的 __meta 与目录绑定：页集合与本包遍历清单同源（复用 M1 结论，不重造） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ3] [PASS] - — - — 19.1 快照未过期：__meta 逐页哈希 == 当前 Results/ 逐页哈希 — 0 页失配
+[RZ4] [PASS] - — - — 19.1 首页哈希 == 清单登记值（合同基线表里的 2629 字节 971e57a5… 是 v1 六文件值，当前以 manifest 为准，Task18 §8.3 已登记） — 0d21fd1129563d3d…/3623B
+[RZ4] [PASS] - — - — 19.1 Results/ 文件数 == 清单 pages 数（交付文件 6+N=11） — 11
+[RZ5] [PASS] - — - — 19.1 输入前置：五处目录齐备 — 全部存在
+[RZ5] [PASS] - — - — 19.1 输入前置：清单／打包件／上传单／Task18 事实／Task13 基线／v1 母本齐备 — 全部存在
+[RB20] [PASS] index.html — 1280px/冷历史 — 未访问过的导航链接为墨色（组件覆盖 a 基础色；冷历史基线，供 R-N 对照） — 新闻消息=rgb(33, 31, 28),新闻通讯=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB20] [PASS] index.html — 1280px/冷历史 — 当前页带实色暗红下边线（冷历史） — 2px solid rgb(122, 36, 36)
+[RB21] [PASS] index.html — 1280px/冷历史 — 报头链接冷历史下为墨色 — rgb(33, 31, 28)
+[RN3] [PASS] article-along-the-north-small-river.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：报头链接屏幕上是深色文字，不得被 a:visited 重绘为暗红或浏览器默认紫 — rgb(33,31,28) 距ink=0 距accent=89 距默认紫=215
+[RN4] [PASS] article-along-the-north-small-river.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(48,35,36) 距ink=17 距accent=74 距默认紫=210
+[RN4] [PASS] article-along-the-north-small-river.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 2 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(46,33,36) 距ink=15 距accent=76 距默认紫=210
+[RN4] [PASS] article-along-the-north-small-river.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 3 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(41,32,36) 距ink=11 距accent=81 距默认紫=208
+[RN5] [PASS] article-along-the-north-small-river.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） — rgb(122,36,36) 距ink=89 距accent=0
+[RN8] [REC] article-along-the-north-small-river.html — 1280px/全部目标页均已访问 — R-N 链 B：异步翻色窗口逐 1.2s 轮询时间线（采样稳定即提前结束，未单次定论） — 1.2s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表= 最新= ; 2.4s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表= 最新=
+[RN3] [PASS] article-classroom-screen-upgrade.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：报头链接屏幕上是深色文字，不得被 a:visited 重绘为暗红或浏览器默认紫 — rgb(33,31,28) 距ink=0 距accent=89 距默认紫=215
+[RN4] [PASS] article-classroom-screen-upgrade.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(48,35,36) 距ink=17 距accent=74 距默认紫=210
+[RN4] [PASS] article-classroom-screen-upgrade.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 2 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(46,33,36) 距ink=15 距accent=76 距默认紫=210
+[RN4] [PASS] article-classroom-screen-upgrade.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 3 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(38,31,33) 距ink=7 距accent=84 距默认紫=211
+[RN5] [PASS] article-classroom-screen-upgrade.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） — rgb(122,36,36) 距ink=89 距accent=0
+[RN8] [REC] article-classroom-screen-upgrade.html — 1280px/全部目标页均已访问 — R-N 链 B：异步翻色窗口逐 1.2s 轮询时间线（采样稳定即提前结束，未单次定论） — 1.2s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表= 最新= ; 2.4s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表= 最新=
+[RN3] [PASS] article-math-to-ai-learning.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：报头链接屏幕上是深色文字，不得被 a:visited 重绘为暗红或浏览器默认紫 — rgb(33,31,28) 距ink=0 距accent=89 距默认紫=215
+[RN4] [PASS] article-math-to-ai-learning.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(48,35,36) 距ink=17 距accent=74 距默认紫=210
+[RN4] [PASS] article-math-to-ai-learning.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 2 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(46,33,36) 距ink=15 距accent=76 距默认紫=210
+[RN4] [PASS] article-math-to-ai-learning.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 3 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(41,32,36) 距ink=11 距accent=81 距默认紫=208
+[RN5] [PASS] article-math-to-ai-learning.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） — rgb(122,36,36) 距ink=89 距accent=0
+[RN8] [REC] article-math-to-ai-learning.html — 1280px/全部目标页均已访问 — R-N 链 B：异步翻色窗口逐 1.2s 轮询时间线（采样稳定即提前结束，未单次定论） — 1.2s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表= 最新= ; 2.4s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表= 最新=
+[RN3] [PASS] article-north-of-dam-river.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：报头链接屏幕上是深色文字，不得被 a:visited 重绘为暗红或浏览器默认紫 — rgb(33,31,28) 距ink=0 距accent=89 距默认紫=215
+[RN4] [PASS] article-north-of-dam-river.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(48,35,36) 距ink=17 距accent=74 距默认紫=210
+[RN4] [PASS] article-north-of-dam-river.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 2 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(46,33,36) 距ink=15 距accent=76 距默认紫=210
+[RN4] [PASS] article-north-of-dam-river.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 3 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(41,32,36) 距ink=11 距accent=81 距默认紫=208
+[RN5] [PASS] article-north-of-dam-river.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） — rgb(122,36,36) 距ink=89 距accent=0
+[RN8] [REC] article-north-of-dam-river.html — 1280px/全部目标页均已访问 — R-N 链 B：异步翻色窗口逐 1.2s 轮询时间线（采样稳定即提前结束，未单次定论） — 1.2s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表= 最新= ; 2.4s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表= 最新=
+[RN3] [PASS] article-school-course-volunteer.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：报头链接屏幕上是深色文字，不得被 a:visited 重绘为暗红或浏览器默认紫 — rgb(33,31,28) 距ink=0 距accent=89 距默认紫=215
+[RN4] [PASS] article-school-course-volunteer.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(48,35,36) 距ink=17 距accent=74 距默认紫=210
+[RN4] [PASS] article-school-course-volunteer.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 2 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(38,31,33) 距ink=7 距accent=84 距默认紫=211
+[RN4] [PASS] article-school-course-volunteer.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 3 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(41,32,36) 距ink=11 距accent=81 距默认紫=208
+[RN5] [PASS] article-school-course-volunteer.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） — rgb(122,36,36) 距ink=89 距accent=0
+[RN8] [REC] article-school-course-volunteer.html — 1280px/全部目标页均已访问 — R-N 链 B：异步翻色窗口逐 1.2s 轮询时间线（采样稳定即提前结束，未单次定论） — 1.2s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表= 最新= ; 2.4s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表= 最新=
+[RN3] [PASS] index.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：报头链接屏幕上是深色文字，不得被 a:visited 重绘为暗红或浏览器默认紫 — rgb(33,31,28) 距ink=0 距accent=89 距默认紫=215
+[RN4] [PASS] index.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(46,33,36) 距ink=15 距accent=76 距默认紫=210
+[RN4] [PASS] index.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 2 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(38,31,33) 距ink=7 距accent=84 距默认紫=211
+[RN4] [PASS] index.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 3 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(41,32,36) 距ink=11 距accent=81 距默认紫=208
+[RN5] [PASS] index.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） — rgb(122,36,36) 距ink=89 距accent=0
+[RN7] [PASS] index.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 条 home-latest 链接屏幕上是深色 —— 同样取链接自身盒裁掉日期节点（变异 4 就是打在这条上） — rgb(74,61,67) 距ink=64 距accent=63 距默认紫=196 非纸像素=1436/33565 取样盒=[272,592,685,49] 已裁日期=true
+[RN7] [PASS] index.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 2 条 home-latest 链接屏幕上是深色 —— 同样取链接自身盒裁掉日期节点（变异 4 就是打在这条上） — rgb(81,65,69) 距ink=72 距accent=61 距默认紫=198 非纸像素=1335/33565 取样盒=[272,673,685,49] 已裁日期=true
+[RN7] [PASS] index.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 3 条 home-latest 链接屏幕上是深色 —— 同样取链接自身盒裁掉日期节点（变异 4 就是打在这条上） — rgb(58,46,52) 距ink=38 距accent=67 距默认紫=200 非纸像素=1978/33565 取样盒=[272,755,685,49] 已裁日期=true
+[RN8] [REC] index.html — 1280px/全部目标页均已访问 — R-N 链 B：异步翻色窗口逐 1.2s 轮询时间线（采样稳定即提前结束，未单次定论） — 1.2s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表= 最新=深色(ink)/深色(ink)/深色(ink) ; 2.4s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表= 最新=深色(ink)/深色(ink)/深色(ink)
+[RN3] [PASS] news-commentary.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：报头链接屏幕上是深色文字，不得被 a:visited 重绘为暗红或浏览器默认紫 — rgb(33,31,28) 距ink=0 距accent=89 距默认紫=215
+[RN4] [PASS] news-commentary.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(48,35,36) 距ink=17 距accent=74 距默认紫=210
+[RN4] [PASS] news-commentary.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 2 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(46,33,36) 距ink=15 距accent=76 距默认紫=210
+[RN4] [PASS] news-commentary.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 3 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(38,31,33) 距ink=7 距accent=84 距默认紫=211
+[RN5] [PASS] news-commentary.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） — rgb(122,36,36) 距ink=89 距accent=0
+[RN6] [PASS] news-commentary.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 条 entry-list 链接屏幕上是深色 —— 取**链接自身盒裁掉日期节点**（:visited 只作用在链接元素上，内层 span 继承的是未访问值；日期自带 muted 色会污染聚类） — rgb(49,36,42) 距ink=22 距accent=73 距默认紫=205 非纸像素=2430/32880 取样盒=[272,374,685,48] 已裁日期=true
+[RN8] [REC] news-commentary.html — 1280px/全部目标页均已访问 — R-N 链 B：异步翻色窗口逐 1.2s 轮询时间线（采样稳定即提前结束，未单次定论） — 1.2s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表=深色(ink) 最新= ; 2.4s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表=深色(ink) 最新=
+[RN3] [PASS] news-feature.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：报头链接屏幕上是深色文字，不得被 a:visited 重绘为暗红或浏览器默认紫 — rgb(33,31,28) 距ink=0 距accent=89 距默认紫=215
+[RN4] [PASS] news-feature.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(48,35,36) 距ink=17 距accent=74 距默认紫=210
+[RN4] [PASS] news-feature.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 2 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(46,33,36) 距ink=15 距accent=76 距默认紫=210
+[RN4] [PASS] news-feature.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 3 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(41,32,36) 距ink=11 距accent=81 距默认紫=208
+[RN5] [PASS] news-feature.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） — rgb(122,36,36) 距ink=89 距accent=0
+[RN6] [PASS] news-feature.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 条 entry-list 链接屏幕上是深色 —— 取**链接自身盒裁掉日期节点**（:visited 只作用在链接元素上，内层 span 继承的是未访问值；日期自带 muted 色会污染聚类） — rgb(61,45,49) 距ink=38 距accent=63 距默认紫=203 非纸像素=1754/32880 取样盒=[272,374,685,48] 已裁日期=true
+[RN6] [PASS] news-feature.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 2 条 entry-list 链接屏幕上是深色 —— 取**链接自身盒裁掉日期节点**（:visited 只作用在链接元素上，内层 span 继承的是未访问值；日期自带 muted 色会污染聚类） — rgb(62,49,57) 距ink=44 距accent=65 距默认紫=198 非纸像素=1624/32880 取样盒=[272,471,685,48] 已裁日期=true
+[RN6] [PASS] news-feature.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 3 条 entry-list 链接屏幕上是深色 —— 取**链接自身盒裁掉日期节点**（:visited 只作用在链接元素上，内层 span 继承的是未访问值；日期自带 muted 色会污染聚类） — rgb(56,40,44) 距ink=29 距accent=67 距默认紫=205 非纸像素=1938/32880 取样盒=[272,567,685,48] 已裁日期=true
+[RN8] [REC] news-feature.html — 1280px/全部目标页均已访问 — R-N 链 B：异步翻色窗口逐 1.2s 轮询时间线（采样稳定即提前结束，未单次定论） — 1.2s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表=深色(ink)/深色(ink)/深色(ink) 最新= ; 2.4s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表=深色(ink)/深色(ink)/深色(ink) 最新=
+[RN3] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：报头链接屏幕上是深色文字，不得被 a:visited 重绘为暗红或浏览器默认紫 — rgb(33,31,28) 距ink=0 距accent=89 距默认紫=215
+[RN4] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(48,35,36) 距ink=17 距accent=74 距默认紫=210
+[RN4] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 2 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(38,31,33) 距ink=7 距accent=84 距默认紫=211
+[RN4] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 3 个非当前页导航链接屏幕上是深色（合同：普通链接深色、当前链接暗红） — rgb(41,32,36) 距ink=11 距accent=81 距默认紫=208
+[RN5] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：当前项屏幕上是暗红色系（配色与未访问态一致） — rgb(122,36,36) 距ink=89 距accent=0
+[RN6] [PASS] news-message.html — 1280px/全部目标页均已访问 — R-N 链 B（像素）：第 1 条 entry-list 链接屏幕上是深色 —— 取**链接自身盒裁掉日期节点**（:visited 只作用在链接元素上，内层 span 继承的是未访问值；日期自带 muted 色会污染聚类） — rgb(45,34,38) 距ink=16 距accent=77 距默认紫=208 非纸像素=2352/32880 取样盒=[272,374,685,48] 已裁日期=true
+[RN8] [REC] news-message.html — 1280px/全部目标页均已访问 — R-N 链 B：异步翻色窗口逐 1.2s 轮询时间线（采样稳定即提前结束，未单次定论） — 1.2s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表=深色(ink) 最新= ; 2.4s: 报头=深色(ink) 非当前=深色(ink)/深色(ink)/深色(ink) 当前=暗红(accent) 列表=深色(ink) 最新=
+[RJ5] [PASS] 全部 HTML 页全程 — 全部宽度/状态/操作 — 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） — 0 条
+[RZ12] [REC] 全包 — - — 断言总数下限（≥1400）属全包闸门，单段模式记 REC，不参与判定 — 本段计分 70
+[RZ12] [PASS] 全包 — - — PENDING 恒为 0（等待外部动作只有 SKIPPED-BY-DESIGN 这一个名字） — 0
+[RZ10] [PASS] Results/ — - — 19.10 只读证明：Results/ 开工与完工逐项哈希相等 — 11 项 且内容一致
+[RZ10] [PASS] content/ — - — 19.10 只读证明：content/ 开工与完工逐项哈希相等 — 7 项 且内容一致
+[RZ10] [PASS] build/ — - — 19.10 只读证明：build/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] deploy/ — - — 19.10 只读证明：deploy/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] Materials/ — - — 19.10 只读证明：Materials/ 开工与完工逐项哈希相等 — 3 项 且内容一致
+[RZ10] [PASS] Results/ — - — 19.10 Results/ 无新增文件（压力样本与探针产物一律落在 _qa_task19/mutants/） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css
+[RZ11] [PASS] Results/ — - — 19.10 本包未修改任何被验对象（变异与压力跑均指向副本目录 C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\mutants\m04b-drop-site-navigation-visited） — ok
+[RZ11] [PASS] Results/ — - — 19.10 Results/ 内无清单外文件、无探针／截图／JSON 产物 — 0 个
+
+合计 91 条（计分 79）：PASS 79 / FAIL 0 / SKIPPED-BY-DESIGN 0 / REC 12 / PENDING 0

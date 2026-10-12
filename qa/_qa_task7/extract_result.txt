@@ -1,0 +1,162 @@
+PASS | source SHA-256 equals frozen baseline | 8E50CFC89287035163D5FE95C8B1CEE20A5AA405E9D04EC358FB5C9312C3827C
+PASS | docx size == 20014 bytes | 20014
+PASS | no footnotes/endnotes references in document.xml
+PASS | no hyperlinks in document.xml
+PASS | no tables / images in document.xml
+PASS | no revisions (w:ins/w:del) in document.xml
+PASS | no w:br / w:tab anywhere
+PASS | paragraph node count == 32 | got 32
+PASS | visible non-empty paragraph count == 32 | got 32
+PASS | every paragraph has no leading/trailing whitespace
+PASS | no paragraph contains two consecutive U+0020
+PASS | Word 3rd..31st nodes map to C01-C29 | 29
+PASS | Word 32nd node is closing_date
+PASS | lastRenderedPageBreak markers == 4 | 4
+PASS | page-break cache nodes are 8/14/21/28 | [8, 14, 21, 28]
+PASS | node 8 splits into 2 runs >= 2 with seam '接口的位置就'|'应该考虑' | runs=2
+PASS | node 14 splits into 2 runs >= 2 with seam '只能在'|'Windows环境下运行' | runs=2
+PASS | node 28 splits into 2 runs >= 2 with seam '统一安'|'装，对确实需要' | runs=2
+PASS | Task 1 defines title/byline/C01-C29/closing_date | []
+PASS | Task 7 defines type/title/byline/C01-C29/closing_date | []
+PASS | Task 7 type is 新闻评论 | 新闻评论
+PASS | title Task7 == Task1
+PASS | byline Task7 == Task1
+PASS | C01 Task7 == Task1
+PASS | C02 Task7 == Task1
+PASS | C03 Task7 == Task1
+PASS | C04 Task7 == Task1
+PASS | C05 Task7 == Task1
+PASS | C06 Task7 == Task1
+PASS | C07 Task7 == Task1
+PASS | C08 Task7 == Task1
+PASS | C09 Task7 == Task1
+PASS | C10 Task7 == Task1
+PASS | C11 Task7 == Task1
+PASS | C12 Task7 == Task1
+PASS | C13 Task7 == Task1
+PASS | C14 Task7 == Task1
+PASS | C15 Task7 == Task1
+PASS | C16 Task7 == Task1
+PASS | C17 Task7 == Task1
+PASS | C18 Task7 == Task1
+PASS | C19 Task7 == Task1
+PASS | C20 Task7 == Task1
+PASS | C21 Task7 == Task1
+PASS | C22 Task7 == Task1
+PASS | C23 Task7 == Task1
+PASS | C24 Task7 == Task1
+PASS | C25 Task7 == Task1
+PASS | C26 Task7 == Task1
+PASS | C27 Task7 == Task1
+PASS | C28 Task7 == Task1
+PASS | C29 Task7 == Task1
+PASS | closing_date Task7 == Task1
+PASS | title docx == Task1 | '设备升级了，使用门槛也该降下来' vs '设备升级了，使用门槛也该降下来'
+PASS | byline docx == Task1 | '蓝色空间' vs '蓝色空间'
+PASS | C01 docx == Task1
+PASS | C02 docx == Task1
+PASS | C03 docx == Task1
+PASS | C04 docx == Task1
+PASS | C05 docx == Task1
+PASS | C06 docx == Task1
+PASS | C07 docx == Task1
+PASS | C08 docx == Task1
+PASS | C09 docx == Task1
+PASS | C10 docx == Task1
+PASS | C11 docx == Task1
+PASS | C12 docx == Task1
+PASS | C13 docx == Task1
+PASS | C14 docx == Task1
+PASS | C15 docx == Task1
+PASS | C16 docx == Task1
+PASS | C17 docx == Task1
+PASS | C18 docx == Task1
+PASS | C19 docx == Task1
+PASS | C20 docx == Task1
+PASS | C21 docx == Task1
+PASS | C22 docx == Task1
+PASS | C23 docx == Task1
+PASS | C24 docx == Task1
+PASS | C25 docx == Task1
+PASS | C26 docx == Task1
+PASS | C27 docx == Task1
+PASS | C28 docx == Task1
+PASS | C29 docx == Task1
+PASS | closing_date docx == Task1 | '（自然选择号9月18日）' vs '（自然选择号9月18日）'
+PASS | len title == 15 | got 15
+PASS | len byline == 4 | got 4
+PASS | len C01 == 80 | got 80
+PASS | len C02 == 56 | got 56
+PASS | len C03 == 15 | got 15
+PASS | len C04 == 64 | got 64
+PASS | len C05 == 138 | got 138
+PASS | len C06 == 101 | got 101
+PASS | len C07 == 50 | got 50
+PASS | len C08 == 75 | got 75
+PASS | len C09 == 100 | got 100
+PASS | len C10 == 118 | got 118
+PASS | len C11 == 34 | got 34
+PASS | len C12 == 167 | got 167
+PASS | len C13 == 16 | got 16
+PASS | len C14 == 98 | got 98
+PASS | len C15 == 68 | got 68
+PASS | len C16 == 70 | got 70
+PASS | len C17 == 17 | got 17
+PASS | len C18 == 65 | got 65
+PASS | len C19 == 30 | got 30
+PASS | len C20 == 126 | got 126
+PASS | len C21 == 100 | got 100
+PASS | len C22 == 13 | got 13
+PASS | len C23 == 65 | got 65
+PASS | len C24 == 35 | got 35
+PASS | len C25 == 24 | got 24
+PASS | len C26 == 163 | got 163
+PASS | len C27 == 37 | got 37
+PASS | len C28 == 77 | got 77
+PASS | len C29 == 36 | got 36
+PASS | len closing_date == 12 | got 12
+PASS | 32 items total == 2069 chars | 2069
+PASS | count .exe == 3 | got 3
+PASS | count exe_without_dot == 0 | got 0
+PASS | count 。exe == 0 | got 0
+PASS | count Windows10 == 0 | got 0
+PASS | count Windows 10 == 2 | got 2
+PASS | count Windows == 8 | got 8
+PASS | count 安 装 == 0 | got 0
+PASS | count 86英寸 == 1 | got 1
+PASS | count 86 英寸 == 0 | got 0
+PASS | count 同窗AI大屏 == 1 | got 1
+PASS | count AI == 1 | got 1
+PASS | count ai == 0 | got 0
+PASS | count UOS == 4 | got 4
+PASS | count uos == 0 | got 0
+PASS | count U盘 == 7 | got 7
+PASS | count USB == 4 | got 4
+PASS | count usb == 0 | got 0
+PASS | count OPS == 1 | got 1
+PASS | count Linux == 1 | got 1
+PASS | count linux == 0 | got 0
+PASS | count 4K == 1 | got 1
+PASS | count 4k == 0 | got 0
+PASS | count 5次碰撞 == 1 | got 1
+PASS | count 3个U盘被撞坏 == 1 | got 1
+PASS | count 不完全统计 == 1 | got 1
+PASS | count 还需要进一步检查 == 1 | got 1
+PASS | count 科大讯飞 == 1 | got 1
+PASS | count U+0020 == 2 | got 2
+PASS | count ldquo == 5 | got 5
+PASS | count rdquo == 5 | got 5
+PASS | count 全角分号； == 5 | got 5
+PASS | count 全角冒号： == 1 | got 1
+PASS | count 顿号、 == 20 | got 20
+PASS | count halfwidth; == 0 | got 0
+PASS | count halfwidth: == 0 | got 0
+PASS | count halfwidth, == 0 | got 0
+PASS | count nbsp == 0 | got 0
+PASS | count zero_width == 0 | got 0
+PASS | 安装 appears at least once (seam joined) | 8
+PASS | closing_date has no year and full-width brackets
+PASS | no 2024/2025/2026 anywhere in the 33 units
+PASS | no & < > needing entity escaping
+PASS | C29 keeps title echo + quote in one unit
+PASS | public name is 新闻评论 and 新闻评价 only in source path

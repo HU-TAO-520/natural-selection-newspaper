@@ -1,0 +1,11 @@
+file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task10/verify_task10.mjs:351
+  chk('F1/' + f + '/order', (A.childOrder || []).join(',') === wantOrder, f + ' .article 子节点顺序', wantOrder, (A.childOrder || []).join(','), 'Task 5/6/7');
+                               ^
+
+TypeError: Cannot read properties of null (reading 'childOrder')
+    at file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task10/verify_task10.mjs:351:32
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:666:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v26.2.0

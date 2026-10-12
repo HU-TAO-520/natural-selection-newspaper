@@ -1,0 +1,138 @@
+Task 15.6 全站链接图（切换后 Results/ 七页）
+生成方式：_qa_task15/s06_links.py，解析每页全部 href/src 属性
+
+== 一、来源页 → 目标 → 出现次数 ==
+index.html:
+    #main-content                              × 1
+    article-classroom-screen-upgrade.html      × 1
+    article-math-to-ai-learning.html           × 1
+    article-school-course-volunteer.html       × 1
+    index.html                                 × 2
+    news-commentary.html                       × 1
+    news-feature.html                          × 1
+    news-message.html                          × 1
+    script.js                                  × 1
+    styles.css                                 × 1
+news-message.html:
+    #main-content                              × 1
+    article-school-course-volunteer.html       × 1
+    index.html                                 × 2
+    news-commentary.html                       × 1
+    news-feature.html                          × 1
+    news-message.html                          × 1
+    script.js                                  × 1
+    styles.css                                 × 1
+news-feature.html:
+    #main-content                              × 1
+    article-math-to-ai-learning.html           × 1
+    index.html                                 × 2
+    news-commentary.html                       × 1
+    news-feature.html                          × 1
+    news-message.html                          × 1
+    script.js                                  × 1
+    styles.css                                 × 1
+news-commentary.html:
+    #main-content                              × 1
+    article-classroom-screen-upgrade.html      × 1
+    index.html                                 × 2
+    news-commentary.html                       × 1
+    news-feature.html                          × 1
+    news-message.html                          × 1
+    script.js                                  × 1
+    styles.css                                 × 1
+article-school-course-volunteer.html:
+    #main-content                              × 1
+    index.html                                 × 2
+    news-commentary.html                       × 1
+    news-feature.html                          × 1
+    news-message.html                          × 1
+    script.js                                  × 1
+    styles.css                                 × 1
+article-math-to-ai-learning.html:
+    #main-content                              × 1
+    index.html                                 × 2
+    news-commentary.html                       × 1
+    news-feature.html                          × 1
+    news-message.html                          × 1
+    script.js                                  × 1
+    styles.css                                 × 1
+article-classroom-screen-upgrade.html:
+    #main-content                              × 1
+    index.html                                 × 2
+    news-commentary.html                       × 1
+    news-feature.html                          × 1
+    news-message.html                          × 1
+    script.js                                  × 1
+    styles.css                                 × 1
+
+== 二、死链检测（目标文件名必须存在于切换后 Results/ 集合，大小写逐字符一致）==
+Results/ 集合: article-classroom-screen-upgrade.html, article-math-to-ai-learning.html, article-school-course-volunteer.html, index.html, news-commentary.html, news-feature.html, news-message.html, script.js, styles.css
+    死链 0（全部 10 种目标名 ∈ 集合）
+
+== 三、孤儿页面检测 ==
+    article-school-course-volunteer.html
+        被所属列表页 news-message.html 引用: 是（次数 1）
+        被首页最新区引用: 是（次数 1）
+    article-math-to-ai-learning.html
+        被所属列表页 news-feature.html 引用: 是（次数 1）
+        被首页最新区引用: 是（次数 1）
+    article-classroom-screen-upgrade.html
+        被所属列表页 news-commentary.html 引用: 是（次数 1）
+        被首页最新区引用: 是（次数 1）
+    孤儿 0
+    反向（列表页/首页引用的详情页必须真实存在）: 0 例外
+
+== 四、相对引用形式检测 ==
+    规则：不以 / 开头、无盘符、无反斜杠、无查询串、无片段（#main-content 除外）
+    非法形式 0
+
+== 五、主导航路径 ==
+口径 A：切换后七页 × 4 链接 = 28 条
+     1  index.html                                 → index.html             文案 首页  目标存在 是
+     2  index.html                                 → news-message.html      文案 新闻消息  目标存在 是
+     3  index.html                                 → news-feature.html      文案 新闻通讯  目标存在 是
+     4  index.html                                 → news-commentary.html   文案 新闻评论  目标存在 是
+     5  news-message.html                          → index.html             文案 首页  目标存在 是
+     6  news-message.html                          → news-message.html      文案 新闻消息  目标存在 是
+     7  news-message.html                          → news-feature.html      文案 新闻通讯  目标存在 是
+     8  news-message.html                          → news-commentary.html   文案 新闻评论  目标存在 是
+     9  news-feature.html                          → index.html             文案 首页  目标存在 是
+    10  news-feature.html                          → news-message.html      文案 新闻消息  目标存在 是
+    11  news-feature.html                          → news-feature.html      文案 新闻通讯  目标存在 是
+    12  news-feature.html                          → news-commentary.html   文案 新闻评论  目标存在 是
+    13  news-commentary.html                       → index.html             文案 首页  目标存在 是
+    14  news-commentary.html                       → news-message.html      文案 新闻消息  目标存在 是
+    15  news-commentary.html                       → news-feature.html      文案 新闻通讯  目标存在 是
+    16  news-commentary.html                       → news-commentary.html   文案 新闻评论  目标存在 是
+    17  article-school-course-volunteer.html       → index.html             文案 首页  目标存在 是
+    18  article-school-course-volunteer.html       → news-message.html      文案 新闻消息  目标存在 是
+    19  article-school-course-volunteer.html       → news-feature.html      文案 新闻通讯  目标存在 是
+    20  article-school-course-volunteer.html       → news-commentary.html   文案 新闻评论  目标存在 是
+    21  article-math-to-ai-learning.html           → index.html             文案 首页  目标存在 是
+    22  article-math-to-ai-learning.html           → news-message.html      文案 新闻消息  目标存在 是
+    23  article-math-to-ai-learning.html           → news-feature.html      文案 新闻通讯  目标存在 是
+    24  article-math-to-ai-learning.html           → news-commentary.html   文案 新闻评论  目标存在 是
+    25  article-classroom-screen-upgrade.html      → index.html             文案 首页  目标存在 是
+    26  article-classroom-screen-upgrade.html      → news-message.html      文案 新闻消息  目标存在 是
+    27  article-classroom-screen-upgrade.html      → news-feature.html      文案 新闻通讯  目标存在 是
+    28  article-classroom-screen-upgrade.html      → news-commentary.html   文案 新闻评论  目标存在 是
+口径 B：v1 四页 × 4 链接 = 16 条（单列，为口径 A 的子集，两个口径同时成立）
+     1  index.html                                 → index.html             文案 首页  目标存在 是
+     2  index.html                                 → news-message.html      文案 新闻消息  目标存在 是
+     3  index.html                                 → news-feature.html      文案 新闻通讯  目标存在 是
+     4  index.html                                 → news-commentary.html   文案 新闻评论  目标存在 是
+     5  news-message.html                          → index.html             文案 首页  目标存在 是
+     6  news-message.html                          → news-message.html      文案 新闻消息  目标存在 是
+     7  news-message.html                          → news-feature.html      文案 新闻通讯  目标存在 是
+     8  news-message.html                          → news-commentary.html   文案 新闻评论  目标存在 是
+     9  news-feature.html                          → index.html             文案 首页  目标存在 是
+    10  news-feature.html                          → news-message.html      文案 新闻消息  目标存在 是
+    11  news-feature.html                          → news-feature.html      文案 新闻通讯  目标存在 是
+    12  news-feature.html                          → news-commentary.html   文案 新闻评论  目标存在 是
+    13  news-commentary.html                       → index.html             文案 首页  目标存在 是
+    14  news-commentary.html                       → news-message.html      文案 新闻消息  目标存在 是
+    15  news-commentary.html                       → news-feature.html      文案 新闻通讯  目标存在 是
+    16  news-commentary.html                       → news-commentary.html   文案 新闻评论  目标存在 是
+    16 ⊂ 28: 成立
+    主导航四链接文字与顺序全站一致: 是
+    四目标文件在切换后集合中全部存在: 是

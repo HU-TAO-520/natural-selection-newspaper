@@ -1,0 +1,51 @@
+CONTROL 未变异副本 rc=0（应为 0） FAIL=0 
+M01 断点下界错成 767px: 捕获 2 项 -> @media 条件精确为 max-width: 768px  -> @media (max-width: 767px)
+M02 断点错成 rem: 捕获 2 项 -> @media 条件精确为 max-width: 768px  -> @media (max-width: 48rem)
+M03 断点上界含 769px: 捕获 1 项 -> @media 条件精确为 max-width: 768px  -> @media (max-width: 769px)
+M04 出现第二个同断点区段: 捕获 20 项 -> 恰好一个移动端 @media  -> @media (max-width: 768px) | @media (max-width: 768px)
+M05 移动区段整体前移到桌面规则之前: 捕获 3 项 -> Task 8 只在文件末尾追加（桌面区段逐字节未变）  -> len 7068 -> 11101
+M06 !important 提高特异性: 捕获 1 项 -> 移动区段禁止项：无 !important  -> ['!important']
+M07 使用 ID 选择器: 捕获 1 项 -> 移动选择器在许可接口集合内 #nav-toggle.js-toggle
+M08 用 100vw 定宽: 捕获 1 项 -> 移动区段禁止项：无 100vw  -> ['100vw']
+M09 掩盖横向溢出: 捕获 2 项 -> 移动选择器在许可接口集合内 body
+M10 break-all 破坏术语: 捕获 2 项 -> 移动区段禁止项：无 word-break: break-all  -> ['word-break: break-all']
+M11 折叠菜单改为透明度隐藏: 捕获 2 项 -> 移动区段禁止项：无 opacity  -> ['opacity:']
+M12 缺失 .js 折叠规则: 捕获 1 项 -> 存在 .js .site-navigation 折叠规则
+M13 缺失 no-js 常显兜底: 捕获 1 项 -> 展开与降级常显规则同体存在
+M14 缺失 no-js 按钮隐藏: 捕获 1 项 -> 存在 .no-js .nav-toggle 隐藏规则
+M15 按钮点击区小于 44px: 捕获 1 项 -> block-size 类声明仅 44px 触控下限与 2px 装饰线  -> [('min-block-size', '30px'), ('block-size', '2px'), ('block-size', '2px'), ('min-block-size', '44px')]
+M16 导航链接点击区不足: 捕获 2 项 -> block-size 类声明仅 44px 触控下限与 2px 装饰线  -> [('min-block-size', '44px'), ('block-size', '2px'), ('block-size', '2px'), ('min-block-size', '24px')]
+M17 桌面 gap 未清除: 捕获 1 项 -> 列表纵向且清除桌面 gap  -> ['column']['2.5rem']
+M18 列表仍为横向: 捕获 1 项 -> 列表纵向且清除桌面 gap  -> ['row']['0']
+M19 新增 is-open 别名: 捕获 2 项 -> 移动选择器在许可接口集合内 .js .site-navigation.menu-visible
+M20 页面专属 class 补丁: 捕获 2 项 -> 移动选择器在许可接口集合内 .home-section.commentary-only
+M21 :nth-child 打补丁: 捕获 2 项 -> 移动选择器在许可接口集合内 .home-section:nth-child(2)
+M22 移动端重定义颜色变量: 捕获 3 项 -> 移动区段禁止项：无 background 色值  -> ['#000000']
+M23 留白小于 16px: 捕获 1 项 -> 移动 --page-gutter 为 1rem（16px）
+M24 正文退回两端对齐: 捕获 1 项 -> 正文两端对齐在移动改为 start  -> ['justify']
+M25 电头被改为块级: 捕获 1 项 -> 未给 .dateline 设 display:block
+M26 日期获得首行缩进: 捕获 1 项 -> .article__date 未获得首行缩进
+M27 content 注入文字: 捕获 2 项 -> content 只用于空字符串装饰  -> ['"已展开"']
+M28 菜单动画/固定高度: 捕获 4 项 -> 移动选择器在许可接口集合内 .zz-site-navigation
+M29 标题强制不换行: 捕获 2 项 -> 移动选择器在许可接口集合内 .page-titleX
+M30 改动桌面基线（重写 Task 3）: 捕获 1 项 -> Task 8 只在文件末尾追加（桌面区段逐字节未变）  -> len 7068 -> 11087
+M31 删除移动区段结尾花括号: 捕获 23 项 -> 恰好一个移动端 @media
+M32 HTML 注入 <wbr> 断行: 捕获 2 项 -> HTML 未被 Task 8 改动 news-commentary.html  -> 57f41af393ae649b
+M33 HTML 注入内联样式: 捕获 2 项 -> HTML 未被 Task 8 改动 index.html  -> cb97d4014d19bfb5
+M34 HTML 改动正文一个字符: 捕获 2 项 -> HTML 未被 Task 8 改动 news-message.html  -> 667eaffdc60f3175
+
+--- 浏览器探针变异（真实渲染断言） ---
+B01 断点错成 769px（768 应仍为移动）: 浏览器捕获 1/70 -> 跨断点 769px：移动 display:none 不再生效，导航横向可见
+B02 断点错成 767px（768 会退回桌面）: 浏览器捕获 13/70 -> 768px/js 主内容版心 = min(视口-2留白, 1120px)
+B03 按钮实际点击矩形缩到 <44px: 浏览器捕获 2/70 -> 375px/js 按钮点击矩形 ≥44×44
+B04 缺失 .js 折叠规则（关闭态仍展开）: 浏览器捕获 8/70 -> 375px/js 导航可见性（no-js 常显 / js 折叠 / is-open 展开）
+B05 用透明度折叠（链接仍可聚焦）: 浏览器捕获 8/70 -> 375px/js 导航可见性（no-js 常显 / js 折叠 / is-open 展开）
+B06 无脚本降级失效（按钮错误地仍然出现）: 浏览器捕获 3/140 -> 375px/nojs 菜单按钮可见性（仅 js 显示；button 的 inline-flex 计算为 flex）
+B07 列表保持横向（未改纵向）: 浏览器捕获 8/140 -> 375px/nojs 每个导航链接点击矩形 ≥44×44
+B08 留白缩到 8px: 浏览器捕获 8/70 -> 375px/js --page-gutter 覆盖为 16px
+B09 页面标题放弃流式字号（窄屏过大）: 浏览器捕获 4/70 -> 375px/js 流式字号：报头 > 页面标题 > 正文，且未被压到难读
+B10 首页区块固定高度并隐藏溢出截断: 浏览器捕获 2/70 -> 375px/js 无祖先 overflow 裁切内容
+
+浏览器对照（未变异 index/js）: 70 项，失败 0 OK
+
+MUTATION: 44/44 捕获，对照组必须 rc=0

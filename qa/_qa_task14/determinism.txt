@@ -1,0 +1,23 @@
+# Task 14 确定性对照（两次独立构建的逐文件 SHA-256）
+
+第一次构建与第二次构建均写入临时目录后计算；root=工作区根，golden 取自 `_qa_task14/out/index.html`。
+命令行：python build/build.py --out _qa_task14/out
+
+文件                                                   字节  第一次构建 SHA-256                                                     第二次构建 SHA-256                                                     相等
+article-classroom-screen-upgrade.html              8486  a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52  a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52  yes
+article-math-to-ai-learning.html                   6962  73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5  73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5  yes
+article-school-course-volunteer.html               3011  66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8  66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8  yes
+index.html                                         3635  475e02f8bbf195ca4be23b8c71807962e1edbdaeef6ab45e1782c2d184a78f91  475e02f8bbf195ca4be23b8c71807962e1edbdaeef6ab45e1782c2d184a78f91  yes
+news-commentary.html                               2067  76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8  76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8  yes
+news-feature.html                                  2049  485a8750d996bcba6d24877c0816dcff108d4cd8eb3cc33114e1bc7dcb20e68c  485a8750d996bcba6d24877c0816dcff108d4cd8eb3cc33114e1bc7dcb20e68c  yes
+news-message.html                                  2057  3a267591a4a976ef3848a415e16848cbcb577b327ff4c61e77ed484727b48637  3a267591a4a976ef3848a415e16848cbcb577b327ff4c61e77ed484727b48637  yes
+
+首页 mainInner golden（S3 后半，_qa_task14/out/index.html）
+字节 1896
+SHA-256 264b8951e839403f56e59dc537b7dd52f6e85d02a568fbba37da6e13d3ee84c9
+
+公共壳 build/shell.html：字节 1704，SHA-256 86e47c3be239da08ea06d4132b35f23b236991155d5cee7dbd13c7b1c27ea5e6
+首页引言 build/partials/home-intro.html：字节 823，SHA-256 622d8cce02633b64f5fe35034c24764f90727a28416213e798bfeb6bf0a13646
+
+壳回切证明：index／news-message／news-feature／news-commentary 四页逐字节相等。
+打乱 content/articles 创建次序后重建：产物哈希不变。

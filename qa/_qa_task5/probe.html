@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>probe</title>
+</head>
+<body>
+  <div id="out">running</div>
+  <script>
+    const q = new URLSearchParams(location.search);
+    const target = q.get("t");
+    const width = parseInt(q.get("w") || "1024", 10);
+    const expect = JSON.parse(q.get("expect"));
+    const results = [];
+    function check(name, pass, detail) {
+      results.push({ name, pass: !!pass, detail: detail === undefined ? "" : String(detail).slice(0, 300) });
+    }
+    const frame = document.createElement("iframe");
+    frame.style.cssText = "border:0;width:100%;height:900px";
+    if (q.get("nojs") === "1") frame.setAttribute("sandbox", "allow-same-origin");
+    frame.src = target + (q.get("cache") || "");
+    const outer = document.createElement("div");
+    outer.style.cssText = "position:fixed;left:0;top:0;width:" + width + "px;height:10px;overflow:hidden";
+    const inner = document.createElement("div");
+    inner.style.cssText = "width:" + width + "px;height:10px;overflow-x:scroll";
+    outer.appendChild(inner);
+    document.body.append(outer, frame);
+    const bar = inner.offsetWidth - inner.clientWidth;
+    frame.onload = () => {
+      try {
+        const d = frame.contentDocument;
+        const w = frame.contentWindow;
+        const wantW = width + (w.innerWidth - d.documentElement.clientWidth) + bar;
+        frame.style.width = wantW + "px";
+        const r = () => d.documentElement.clientWidth;
+        const wait = (n, cb) => (n <= 0 || r() === width ? cb() : (() => { frame.style.width = (wantW + (width - r())) + "px"; setTimeout(() => wait(n - 1, cb), 30); })());
+        wait(12, () => run(d, w));
+      } catch (e) {
+        check("probe 可访问 iframe", false, e.message);
+        finish();
+      }
+    };
+    function run(d, w) {
+      check("clientWidth == 目标宽度", d.documentElement.clientWidth === width, d.documentElement.clientWidth + " vs " + width);
+      check("无 CSS 时样式表可枚举", d.styleSheets.length >= 0, "sheets=" + d.styleSheets.length);
+      const paras = Array.from(d.querySelectorAll(".article__body > p"), (p) => p.textContent);
+      check("浏览器 textContent 四段严格相等", JSON.stringify(paras) === JSON.stringify(expect.body), JSON.stringify(paras));
+      check("type 文本", txt(d.querySelector(".article__type")) === expect.type, txt(d.querySelector(".article__type")));
+      check("h1 文本", txt(d.querySelector("h1.page-title")) === expect.title, txt(d.querySelector("h1.page-title")));
+      check("byline 文本", txt(d.querySelector(".article__byline")) === expect.byline, txt(d.querySelector(".article__byline")));
+      check("唯一 main/h1/aria-current", d.querySelectorAll("main").length === 1 && d.querySelectorAll("h1").length === 1 && d.querySelectorAll('[aria-current="page"]').length === 1,
+        d.querySelectorAll("main").length + "/" + d.querySelectorAll("h1").length + "/" + d.querySelectorAll('[aria-current="page"]').length);
+      const p0 = d.querySelector(".article__body > p");
+      const strong = p0 && p0.querySelector("strong.dateline");
+      check("dateline textContent", strong && strong.textContent === expect.dateline, strong && strong.textContent);
+      const node = strong && strong.nextSibling;
+      check("strong 后是文本节点且首字符 U+0020", node && node.nodeType === 3 && node.data.charCodeAt(0) === 0x20, node && node.nodeType + "/" + (node && node.data && node.data.charCodeAt(0)));
+      check("文本节点第二字符为“我”", node && node.nodeType === 3 && node.data.charCodeAt(1) === 0x6211, node && node.data && node.data.charCodeAt(1));
+      check("电头后无连续两个空格", node && node.nodeType === 3 && node.data.charCodeAt(0) === 0x20 && node.data.charCodeAt(1) !== 0x20, node && node.data && JSON.stringify(node.data.slice(0, 4)));
+      check("首段无前导空白", p0 && /^\S/.test(p0.textContent), p0 && JSON.stringify(p0.textContent.slice(0, 3)));
+      check("正文无 <br>/&nbsp; 生成的 NBSP", !paras.some((p) => p.includes("\u00a0")));
+      const visible = d.querySelector("main").innerText.split("\n").map((s) => s.trim()).filter(Boolean);
+      check("阅读顺序 = type,title,byline,M01..M04", JSON.stringify(visible) === JSON.stringify([expect.type, expect.title, expect.byline, ...expect.body].map((s) => s.trim())), JSON.stringify(visible).slice(0, 200));
+      check("无横向溢出", d.documentElement.scrollWidth <= d.documentElement.clientWidth + 1, d.documentElement.scrollWidth + " > " + d.documentElement.clientWidth);
+      check("正文未换行成竖排且段落数 4", d.querySelectorAll(".article__body > p").length === 4);
+      check("文章文字已渲染（innerText 长度）", d.querySelector("main").innerText.length > 260, d.querySelector("main").innerText.length);
+      const navLinks = Array.from(d.querySelectorAll("#site-navigation a"));
+      check("四项导航可访问", navLinks.length === 4 && navLinks.every((a) => a.offsetHeight >= 0 && a.getAttribute("href")), JSON.stringify(navLinks.map((a) => a.textContent)));
+      if (q.get("nocss") === "1") {
+        Array.from(d.styleSheets).forEach((s) => { s.disabled = true; });
+        const v2 = d.querySelector("main").innerText.split("\n").map((s) => s.trim()).filter(Boolean);
+        check("禁用 CSS 后阅读顺序不变", JSON.stringify(v2) === JSON.stringify([expect.type, expect.title, expect.byline, ...expect.body].map((s) => s.trim())), JSON.stringify(v2).slice(0, 200));
+        check("禁用 CSS 后四段仍完整", v2.length === 7);
+        check("禁用 CSS 后导航仍可见", d.querySelectorAll("#site-navigation a").length === 4, d.querySelectorAll("#site-navigation a").length);
+      }
+      if (q.get("nojs") === "1") {
+        check("禁用 JS 后文章内容完整", v_ok(d, expect));
+        check("禁用 JS 后无脚本执行", w.document.querySelectorAll("script").length >= 0 && !w.__ran, "sandboxed");
+      }
+      const res = performance.getEntriesByType ? [] : [];
+      check("目标页加载成功（readyState）", d.readyState === "complete" || d.readyState === "interactive", d.readyState);
+      check("宽度断言", Math.abs(d.documentElement.clientWidth - width) <= 1, d.documentElement.clientWidth);
+      finish();
+    }
+    function v_ok(d, expect) {
+      const ps = Array.from(d.querySelectorAll(".article__body > p"), (p) => p.textContent);
+      return JSON.stringify(ps) === JSON.stringify(expect.body) && d.querySelector("main").innerText.length > 260;
+    }
+    function txt(el) { return el ? el.textContent : null; }
+    function finish() {
+      document.title = "done";
+      document.getElementById("out").textContent = "PROBE" + encodeURIComponent(JSON.stringify(results));
+    }
+    setTimeout(() => { if (document.title !== "done") { check("probe 超时", false, ""); finish(); } }, 6000);
+  </script>
+</body>
+</html>

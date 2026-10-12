@@ -1,0 +1,77 @@
+CONTROL | rc=0 (must be 0) | 108 checks, 0 failures
+CAUGHT | drop char in C01 | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 0
+CAUGHT | full-width comma to half-width | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 1
+CAUGHT | period to full-width in .exe | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 7
+CAUGHT | strip dot from .exe | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 8
+CAUGHT | Windows 10 without space | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 0
+CAUGHT | Windows 10 with double space | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 13
+CAUGHT | word-run seam space 安装 | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 25
+CAUGHT | UOS lowercased | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 8
+CAUGHT | USB lowercased | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 25
+CAUGHT | OPS lowercased | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 13
+CAUGHT | Linux lowercased | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 19
+CAUGHT | 4K lowercased | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 20
+CAUGHT | AI lowercased | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 0
+CAUGHT | drop qualifier 不完全统计 | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 4
+CAUGHT | drop qualifier 还需要进一步检查 | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 4
+CAUGHT | 5次 to 五次 | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 4
+CAUGHT | 3个U盘 to 三个U盘 | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 4
+CAUGHT | curly quote to straight | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 26
+CAUGHT | semicolon to comma in C12 | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 11
+CAUGHT | trailing space inside a paragraph | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 2
+CAUGHT | leading space inside a paragraph | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 21
+CAUGHT | nbsp inside paragraph | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 12
+CAUGHT | zero-width space inside paragraph | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 5
+CAUGHT | title text drift | rc=1 | FAIL | h1 textContent === title | '设备升级了，使用门槛应该降下来'
+CAUGHT | byline swapped to Word author | rc=1 | FAIL | byline textContent === 蓝色空间 | '厨一枚'
+CAUGHT | byline prefix 作者： | rc=1 | FAIL | byline textContent === 蓝色空间 | '作者：蓝色空间'
+CAUGHT | type shows internal source name | rc=1 | FAIL | type textContent === 新闻评论 | '新闻评价'
+CAUGHT | type text swapped | rc=1 | FAIL | type textContent === 新闻评论 | '新闻通讯'
+CAUGHT | merge C02 into C01 | rc=1 | 
+CAUGHT | split C26 into two paragraphs | rc=1 | FAIL | body has exactly 29 direct <p> and nothing else | 30 / 30
+CAUGHT | C03 promoted to h2 | rc=1 | 
+CAUGHT | C29 quote moved to blockquote | rc=1 | FAIL | body has exactly 29 direct <p> and nothing else | 29 / 30
+CAUGHT | C26 turned into a list | rc=1 | FAIL | each body <p> carries no class and no element children
+CAUGHT | insert <br> mid paragraph | rc=1 | FAIL | each body <p> carries no class and no element children
+CAUGHT | drop C28 entirely | rc=1 | 
+CAUGHT | duplicate C07 | rc=1 | FAIL | body has exactly 29 direct <p> and nothing else | 30 / 30
+CAUGHT | body paragraph gains a class | rc=1 | FAIL | each body <p> carries no class and no element children
+CAUGHT | wrap body in extra section | rc=1 | 
+CAUGHT | date moved into body | rc=1 | FAIL | article children order = header, div, p.article__date | ['header.article__header', 'div.article__body']
+CAUGHT | date becomes <time datetime> | rc=1 | FAIL | no .dateline / time / blockquote / q / cite / h2 / lists / img / a in the article
+CAUGHT | date gains inferred year | rc=1 | FAIL | date textContent === （自然选择号9月18日） | '（自然选择号2026年9月18日）'
+CAUGHT | date pushed right with nbsp | rc=1 | FAIL | date textContent === （自然选择号9月18日） | '\xa0\xa0（自然选择号9月18日）'
+CAUGHT | date text drift | rc=1 | FAIL | date textContent === （自然选择号9月18日） | '（自然选择号9月18日讯）'
+CAUGHT | dateline markup added | rc=1 | FAIL | article children order = header, div, p.article__date | ['header.article__header', 'div.article__body', 'p.dateline.article__date']
+CAUGHT | second h1 added | rc=1 | FAIL | header children order = type, h1.page-title, byline | ['p.article__type', 'h1.article-title', 'h1.page-title', 'p.article__byline']
+CAUGHT | h1 renamed to article-title | rc=1 | 
+CAUGHT | nav item text swapped | rc=1 | FAIL | four nav links, text and order | [('首页', 'index.html'), ('新闻消息', 'news-message.html'), ('新闻评论', 'news-feature.html'), ('新闻评论', 'news-commentary
+CAUGHT | nav href reordered | rc=1 | FAIL | four nav links, text and order | [('首页', 'index.html'), ('新闻消息', 'news-feature.html'), ('新闻通讯', 'news-feature.html'), ('新闻评论', 'news-commentary
+CAUGHT | aria-current removed | rc=1 | FAIL | exactly one aria-current, on the commentary self-link | []
+CAUGHT | aria-current duplicated onto 首页 | rc=1 | FAIL | exactly one aria-current, on the commentary self-link | [('index.html', '首页'), ('news-commentary.html', '新闻评论')]
+CAUGHT | masthead carries aria-current | rc=1 | FAIL | exactly one aria-current, on the commentary self-link | [('index.html', '自然选择号'), ('news-commentary.html', '新闻评论')]
+CAUGHT | nav-toggle aria-expanded true | rc=1 | FAIL | nav button id/class/type/aria intact
+CAUGHT | nav-toggle aria-controls dropped | rc=1 | 
+CAUGHT | nav marked hidden | rc=1 | FAIL | nav source has no hidden/aria-hidden/is-open
+CAUGHT | <title> uses half-width bar | rc=1 | FAIL | <title> exact with full-width bar | '设备升级了，使用门槛也该降下来|自然选择号'
+CAUGHT | script loses defer | rc=1 | FAIL | script.js referenced once with defer and no inline handler
+CAUGHT | no-js class removed | rc=1 | FAIL | <html lang=zh-CN class=no-js>
+CAUGHT | skip-link removed | rc=1 | FAIL | skip-link is first focusable and targets #main-content
+CAUGHT | main id renamed | rc=1 | FAIL | single main with id/class/tabindex
+CAUGHT | tabindex removed from main | rc=1 | 
+CAUGHT | second main added | rc=1 | FAIL | single main with id/class/tabindex
+CAUGHT | source filename leaked in comment | rc=1 | FAIL | no paragraph numbering / internal ids visible
+CAUGHT | sha fragment leaked as data attr | rc=1 | FAIL | no inline style / <style> / data-* / id outside the shell contract
+CAUGHT | contract id visible in body | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 2
+CAUGHT | external stylesheet added | rc=1 | FAIL | styles.css referenced exactly once
+CAUGHT | image added to article | rc=1 | FAIL | body has exactly 29 direct <p> and nothing else | 29 / 30
+CAUGHT | link added on 科大讯飞 | rc=1 | FAIL | each body <p> carries no class and no element children
+CAUGHT | inline style on date | rc=1 | FAIL | date on a single source line
+CAUGHT | page-scoped style block | rc=1 | FAIL | no inline style / <style> / data-* / id outside the shell contract
+CAUGHT | role=article added | rc=1 | FAIL | article and its subtree carry no role / aria-label overrides | {'class': ['article'], 'role': 'article'}
+CAUGHT | TODO marker added | rc=1 | FAIL | 29 paragraphs identical to Task 1 C01-C29 (no trim, no normalisation) | first index diff at 21
+CAUGHT | footer with copyright year | rc=1 | FAIL | main has exactly one element child: article.article | ['article', 'footer']
+CAUGHT | author bio block added | rc=1 | FAIL | main has exactly one element child: article.article | ['article', 'p']
+CAUGHT | read-also list added | rc=1 | FAIL | main has exactly one element child: article.article | ['article', 'ul']
+CAUGHT | shell text outside main edited | rc=1 | FAIL | masthead links to index.html
+CAUGHT | paragraph text injected into nav | rc=1 | FAIL | four nav links, text and order | [('首页', 'index.html'), ('新闻消息', 'news-message.html'), ('新闻通讯', 'news-feature.html'), ('新闻评论（自然选择号9月18日）', 'new

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>pending</title>
+  <style>
+    /* 同步建固定宽度 iframe：--screenshot 会抓异步 resize 的中间态，
+       所以这里不用 setTimeout/rAF 改宽度，宽度由 ?w= 一次性定死，
+       并在 <title> 里回读真实 clientWidth 作为视口证据。 */
+    html, body { margin: 0; padding: 0; background: #ffffff; }
+    iframe { border: 0; display: block; }
+  </style>
+</head>
+<body>
+  <iframe id="f"></iframe>
+  <script>
+    const q = new URLSearchParams(location.search);
+    const w = Number(q.get('w') || 1280);
+    const p = q.get('p') || '../Results/index.html';
+    const f = document.getElementById('f');
+    f.style.width = w + 'px';
+    f.style.height = (Number(q.get('h') || 2000)) + 'px';
+    f.onload = function () {
+      const de = f.contentDocument.documentElement;
+      const state = f.contentWindow.matchMedia('(max-width: 768px)').matches ? 'mobile' : 'desktop';
+      document.title = 'ready:' + de.clientWidth + ':' + state + ':' + (de.scrollWidth - de.clientWidth);
+      document.body.setAttribute('data-clientwidth', de.clientWidth);
+      document.body.setAttribute('data-state', state);
+    };
+    f.src = p;
+  </script>
+</body>
+</html>

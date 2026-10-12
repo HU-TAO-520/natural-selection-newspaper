@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "columns": [],
+  "pages": [
+    {
+      "path": "404.html",
+      "bytes": 716,
+      "sha256": "527feda89e8a9cba855986679c3825080b78529bccaea3a1a3c0c0fd8acc5af0"
+    },
+    {
+      "path": "easteregg.css",
+      "bytes": 8402,
+      "sha256": "510ae50df442199d93944e2bf00f113a672fbc03544c9a56e4a26d7910b4cea6"
+    },
+    {
+      "path": "easteregg.js",
+      "bytes": 23211,
+      "sha256": "7d1e107fe649caa9334a304fbdf27da2a544bf701ca9206f63ee743cf70e122d"
+    },
+    {
+      "path": "index.html",
+      "bytes": 13294,
+      "sha256": "48bfde92db590d05c48753be621d5616c3eb094d6be15158e768062540cee3eb"
+    }
+  ],
+  "config": [
+    {
+      "path": "_headers",
+      "bytes": 518,
+      "sha256": "b0273f2ff60c2c95d24899b8bd8a72ae050d233bc38e8b9903a28421d6f9ba7a"
+    }
+  ],
+  "counts": {
+    "pages": 4,
+    "html": 2,
+    "config": 1,
+    "articles": 0
+  }
+}

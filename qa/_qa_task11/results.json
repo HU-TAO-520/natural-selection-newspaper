@@ -1,0 +1,7380 @@
+{
+ "env": "Chrome/153.0.8010.52",
+ "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+ "rows": [
+  {
+   "id": "环境",
+   "status": "REC",
+   "page": "Results/",
+   "width": "-",
+   "step": "验收环境：Chrome/153.0.8010.52 · headless=new · file:// 直开 · profile=C:\\Users\\weibo\\Documents\\语文报纸\\_qa_task11\\.cdp9351-1789824207362",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/冷历史",
+   "step": "未访问过的导航链接为墨色（组件覆盖 a 基础色）",
+   "detail": "[[\"新闻消息\",\"rgb(33, 31, 28)\"],[\"新闻通讯\",\"rgb(33, 31, 28)\"],[\"新闻评论\",\"rgb(33, 31, 28)\"]]",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/冷历史",
+   "step": "当前页带 2px 暗红实下边线",
+   "detail": "[[\"首页\",\"page\",\"2px solid rgb(122, 36, 36)\"],[\"新闻消息\",null,\"2px solid rgba(0, 0, 0, 0)\"],[\"新闻通讯\",null,\"2px solid rgba(0, 0, 0, 0)\"],[\"新闻评论\",null,\"2px solid rgba(0, 0, 0, 0)\"]]",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/冷历史",
+   "step": "报头链接冷历史下为墨色（深色文字基线）",
+   "detail": "rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RA1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "从 file:// 直接打开并完成 load 事件",
+   "detail": "load=true title=《自然选择号》报社简介｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "styles.css 成功加载并解析（非 404，规则可读）",
+   "detail": "[{\"href\":\"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/styles.css\",\"rules\":45,\"disabled\":false}]",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "script.js 成功加载并执行（no-js→js 已发生）",
+   "detail": "js",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL",
+   "detail": "[{\"n\":\"styles.css\",\"t\":\"Stylesheet\",\"failed\":false,\"local\":true},{\"n\":\"script.js\",\"t\":\"Script\",\"failed\":false,\"local\":true}]",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "DOM 属性与 CSSOM 规则中无 http(s)/协议相对/data/@import/url() 外链（远程字体、CDN 均无）",
+   "detail": "{\"bad\":[],\"rules\":[]}",
+   "handoff": ""
+  },
+  {
+   "id": "RA3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "加载阶段控制台 0 错误 0 警告",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RA1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "从 file:// 直接打开并完成 load 事件",
+   "detail": "load=true title=我校启动校本课程志愿填报｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "styles.css 成功加载并解析（非 404，规则可读）",
+   "detail": "[{\"href\":\"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/styles.css\",\"rules\":45,\"disabled\":false}]",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "script.js 成功加载并执行（no-js→js 已发生）",
+   "detail": "js",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL",
+   "detail": "[{\"n\":\"styles.css\",\"t\":\"Stylesheet\",\"failed\":false,\"local\":true},{\"n\":\"script.js\",\"t\":\"Script\",\"failed\":false,\"local\":true}]",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "DOM 属性与 CSSOM 规则中无 http(s)/协议相对/data/@import/url() 外链（远程字体、CDN 均无）",
+   "detail": "{\"bad\":[],\"rules\":[]}",
+   "handoff": ""
+  },
+  {
+   "id": "RA3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "加载阶段控制台 0 错误 0 警告",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RA1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "从 file:// 直接打开并完成 load 事件",
+   "detail": "load=true title=从数学题到AI时代的学习｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "styles.css 成功加载并解析（非 404，规则可读）",
+   "detail": "[{\"href\":\"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/styles.css\",\"rules\":45,\"disabled\":false}]",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "script.js 成功加载并执行（no-js→js 已发生）",
+   "detail": "js",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL",
+   "detail": "[{\"n\":\"styles.css\",\"t\":\"Stylesheet\",\"failed\":false,\"local\":true},{\"n\":\"script.js\",\"t\":\"Script\",\"failed\":false,\"local\":true}]",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "DOM 属性与 CSSOM 规则中无 http(s)/协议相对/data/@import/url() 外链（远程字体、CDN 均无）",
+   "detail": "{\"bad\":[],\"rules\":[]}",
+   "handoff": ""
+  },
+  {
+   "id": "RA3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "加载阶段控制台 0 错误 0 警告",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RA1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "从 file:// 直接打开并完成 load 事件",
+   "detail": "load=true title=设备升级了，使用门槛也该降下来｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "styles.css 成功加载并解析（非 404，规则可读）",
+   "detail": "[{\"href\":\"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/styles.css\",\"rules\":45,\"disabled\":false}]",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "script.js 成功加载并执行（no-js→js 已发生）",
+   "detail": "js",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL",
+   "detail": "[{\"n\":\"styles.css\",\"t\":\"Stylesheet\",\"failed\":false,\"local\":true},{\"n\":\"script.js\",\"t\":\"Script\",\"failed\":false,\"local\":true}]",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "DOM 属性与 CSSOM 规则中无 http(s)/协议相对/data/@import/url() 外链（远程字体、CDN 均无）",
+   "detail": "{\"bad\":[],\"rules\":[]}",
+   "handoff": ""
+  },
+  {
+   "id": "RA3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "加载阶段控制台 0 错误 0 警告",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "四页汇总",
+   "width": "-",
+   "step": "Network 域全程 12 条事件中无 http(s)/CDN/远程字体请求",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RA2",
+   "status": "PASS",
+   "page": "四页汇总",
+   "width": "-",
+   "step": "Network 域无 404/失败资源",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB5-V",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/热历史",
+   "step": "访问过目标页后，普通导航链接仍为深色（Task 3 完成定义：普通链接为深色，当前链接为暗红）",
+   "detail": "翻转 0 条 ::  || 现在色值=[[\"首页\",\"rgb(122, 36, 36)\",\"current\"],[\"新闻消息\",\"rgb(33, 31, 28)\",\"\"],[\"新闻通讯\",\"rgb(33, 31, 28)\",\"\"],[\"新闻评论\",\"rgb(33, 31, 28)\",\"\"]]",
+   "handoff": ""
+  },
+  {
+   "id": "RB5-V2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/热历史",
+   "step": "退化后的残余区分能力：当前页仍有暗红实下边线，其余为透明线",
+   "detail": "current=[\"2px solid rgb(122, 36, 36)\"] others=[\"2px solid rgba(0, 0, 0, 0)\",\"2px solid rgba(0, 0, 0, 0)\",\"2px solid rgba(0, 0, 0, 0)\"]",
+   "handoff": ""
+  },
+  {
+   "id": "RB6-V",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/热历史",
+   "step": "报头\"自然选择号\"访问后仍为深色文字",
+   "detail": "实测=rgb(33, 31, 28)（冷历史={\"text\":\"首页\",\"href\":\"index.html\",\"color\":\"rgb(122, 36, 36)\",\"bb\":\"2px solid rgb(122, 36, 36)\",\"fw\":\"700\"}）",
+   "handoff": ""
+  },
+  {
+   "id": "RB5-V",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/四页均已访问",
+   "step": "用户已访问全部目标页后，普通导航链接仍为深色（未被 a:visited 覆盖为暗红）",
+   "detail": "刚加载=[[\"新闻消息\",\"rgb(33, 31, 28)\"],[\"新闻通讯\",\"rgb(33, 31, 28)\"],[\"新闻评论\",\"rgb(33, 31, 28)\"]] → 轮询 4s 后=[[\"新闻消息\",\"rgb(33, 31, 28)\"],[\"新闻通讯\",\"rgb(33, 31, 28)\"],[\"新闻评论\",\"rgb(33, 31, 28)\"]]；当前页=[[\"首页\",\"rgb(122, 36, 36)\"]]",
+   "handoff": ""
+  },
+  {
+   "id": "RB6-V",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/四页均已访问",
+   "step": "报头\"自然选择号\"在访问后仍为深色文字",
+   "detail": "rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5-V",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px/四页均已访问",
+   "step": "用户已访问全部目标页后，普通导航链接仍为深色（未被 a:visited 覆盖为暗红）",
+   "detail": "刚加载=[[\"首页\",\"rgb(33, 31, 28)\"],[\"新闻通讯\",\"rgb(33, 31, 28)\"],[\"新闻评论\",\"rgb(33, 31, 28)\"]] → 轮询 4s 后=[[\"首页\",\"rgb(33, 31, 28)\"],[\"新闻通讯\",\"rgb(33, 31, 28)\"],[\"新闻评论\",\"rgb(33, 31, 28)\"]]；当前页=[[\"新闻消息\",\"rgb(122, 36, 36)\"]]",
+   "handoff": ""
+  },
+  {
+   "id": "RB6-V",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px/四页均已访问",
+   "step": "报头\"自然选择号\"在访问后仍为深色文字",
+   "detail": "rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5-V",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px/四页均已访问",
+   "step": "用户已访问全部目标页后，普通导航链接仍为深色（未被 a:visited 覆盖为暗红）",
+   "detail": "刚加载=[[\"首页\",\"rgb(33, 31, 28)\"],[\"新闻消息\",\"rgb(33, 31, 28)\"],[\"新闻评论\",\"rgb(33, 31, 28)\"]] → 轮询 4s 后=[[\"首页\",\"rgb(33, 31, 28)\"],[\"新闻消息\",\"rgb(33, 31, 28)\"],[\"新闻评论\",\"rgb(33, 31, 28)\"]]；当前页=[[\"新闻通讯\",\"rgb(122, 36, 36)\"]]",
+   "handoff": ""
+  },
+  {
+   "id": "RB6-V",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px/四页均已访问",
+   "step": "报头\"自然选择号\"在访问后仍为深色文字",
+   "detail": "rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5-V",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/四页均已访问",
+   "step": "用户已访问全部目标页后，普通导航链接仍为深色（未被 a:visited 覆盖为暗红）",
+   "detail": "刚加载=[[\"首页\",\"rgb(33, 31, 28)\"],[\"新闻消息\",\"rgb(33, 31, 28)\"],[\"新闻通讯\",\"rgb(33, 31, 28)\"]] → 轮询 4s 后=[[\"首页\",\"rgb(33, 31, 28)\"],[\"新闻消息\",\"rgb(33, 31, 28)\"],[\"新闻通讯\",\"rgb(33, 31, 28)\"]]；当前页=[[\"新闻评论\",\"rgb(122, 36, 36)\"]]",
+   "handoff": ""
+  },
+  {
+   "id": "RB6-V",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/四页均已访问",
+   "step": "报头\"自然选择号\"在访问后仍为深色文字",
+   "detail": "rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "点击第 1 项「首页」→ index.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=index.html 标题=《自然选择号》报社简介｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "点击第 2 项「新闻消息」→ news-message.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=news-message.html 标题=我校启动校本课程志愿填报｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "点击第 3 项「新闻通讯」→ news-feature.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=news-feature.html 标题=从数学题到AI时代的学习｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "点击第 4 项「新闻评论」→ news-commentary.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=news-commentary.html 标题=设备升级了，使用门槛也该降下来｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "点击第 1 项「首页」→ index.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=index.html 标题=《自然选择号》报社简介｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "点击第 2 项「新闻消息」→ news-message.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=news-message.html 标题=我校启动校本课程志愿填报｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "点击第 3 项「新闻通讯」→ news-feature.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=news-feature.html 标题=从数学题到AI时代的学习｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "点击第 4 项「新闻评论」→ news-commentary.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=news-commentary.html 标题=设备升级了，使用门槛也该降下来｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "点击第 1 项「首页」→ index.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=index.html 标题=《自然选择号》报社简介｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "点击第 2 项「新闻消息」→ news-message.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=news-message.html 标题=我校启动校本课程志愿填报｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "点击第 3 项「新闻通讯」→ news-feature.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=news-feature.html 标题=从数学题到AI时代的学习｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "点击第 4 项「新闻评论」→ news-commentary.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=news-commentary.html 标题=设备升级了，使用门槛也该降下来｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "点击第 1 项「首页」→ index.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=index.html 标题=《自然选择号》报社简介｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "点击第 2 项「新闻消息」→ news-message.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=news-message.html 标题=我校启动校本课程志愿填报｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "点击第 3 项「新闻通讯」→ news-feature.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=news-feature.html 标题=从数学题到AI时代的学习｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "点击第 4 项「新闻评论」→ news-commentary.html（16 条路径逐条）",
+   "detail": "目标文件存在=true navigated=1 落地=news-commentary.html 标题=设备升级了，使用门槛也该降下来｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "量公共版心 .site-header__inner ≤1120 且左右留白对称",
+   "detail": "版心=705px 留白 L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "正文容器 .main-content 与报头同宽同边距",
+   "detail": "main=705px L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "正文／首页文字区宽度 ≤736",
+   "detail": "文字块=705px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "报头单行完整显示、不被裁切",
+   "detail": "scrollW=381 clientW=381 行=1 文本=自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "报头上下双细线",
+   "detail": "上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=705",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "双细线不被报头文字穿越（文字盒完全位于两条线之间）",
+   "detail": "文字距上线 20px、距下线 20px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "四项导航同一行",
+   "detail": "tops=[150,150,150,150]",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "导航顺序正确、无重叠",
+   "detail": "首页|新闻消息|新闻通讯|新闻评论",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "桌面隐藏汉堡按钮",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "主导航横向常显",
+   "detail": "nav=block dir=row shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "当前页=暗红+700+2px 暗红实下边线",
+   "detail": "color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "链接默认无 transform（不缩放不位移）",
+   "detail": "none,none,none,none",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "强制 hover 第 2 项：仅变暗红，不位移不缩放",
+   "detail": "色 rgb(33, 31, 28) → rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "暖白纸色底 + 深色文字（Task 3 变量）",
+   "detail": "bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "宋体字体栈且保留 serif 回退",
+   "detail": "\"Songti SC\", STSong, SimSun, serif",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "样式表可解析（73 条规则）",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "桌面正文两端对齐",
+   "detail": "n/a",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "横向溢出严格判定 scrollWidth<=innerWidth（769<=769）",
+   "detail": "scrollW=769 inner=769 client=769 scrollX=0",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "769px",
+   "step": "更严格：scrollWidth<=clientWidth",
+   "detail": "769<=769",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "量公共版心 .site-header__inner ≤1120 且左右留白对称",
+   "detail": "版心=960px 留白 L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "正文容器 .main-content 与报头同宽同边距",
+   "detail": "main=960px L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1b",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px(无滚动条占位)",
+   "step": "1024 版心≈960（100% − 2×2rem）",
+   "detail": "版心=960px inner=1024 client=1024（桌面测量含滚动条占位 0px）",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "正文／首页文字区宽度 ≤736",
+   "detail": "文字块=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "报头单行完整显示、不被裁切",
+   "detail": "scrollW=381 clientW=381 行=1 文本=自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "报头上下双细线",
+   "detail": "上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=960",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "双细线不被报头文字穿越（文字盒完全位于两条线之间）",
+   "detail": "文字距上线 20px、距下线 20px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "四项导航同一行",
+   "detail": "tops=[150,150,150,150]",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "导航顺序正确、无重叠",
+   "detail": "首页|新闻消息|新闻通讯|新闻评论",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "桌面隐藏汉堡按钮",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "主导航横向常显",
+   "detail": "nav=block dir=row shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "当前页=暗红+700+2px 暗红实下边线",
+   "detail": "color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "链接默认无 transform（不缩放不位移）",
+   "detail": "none,none,none,none",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "强制 hover 第 2 项：仅变暗红，不位移不缩放",
+   "detail": "色 rgb(33, 31, 28) → rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "暖白纸色底 + 深色文字（Task 3 变量）",
+   "detail": "bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "宋体字体栈且保留 serif 回退",
+   "detail": "\"Songti SC\", STSong, SimSun, serif",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "样式表可解析（73 条规则）",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "桌面正文两端对齐",
+   "detail": "n/a",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "横向溢出严格判定 scrollWidth<=innerWidth（1024<=1024）",
+   "detail": "scrollW=1024 inner=1024 client=1024 scrollX=0",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1024px",
+   "step": "更严格：scrollWidth<=clientWidth",
+   "detail": "1024<=1024",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "量公共版心 .site-header__inner ≤1120 且左右留白对称",
+   "detail": "版心=1120px 留白 L80/R80.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "正文容器 .main-content 与报头同宽同边距",
+   "detail": "main=1120px L80/R80.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "正文／首页文字区宽度 ≤736",
+   "detail": "文字块=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "报头单行完整显示、不被裁切",
+   "detail": "scrollW=381 clientW=381 行=1 文本=自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "报头上下双细线",
+   "detail": "上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=1120",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "双细线不被报头文字穿越（文字盒完全位于两条线之间）",
+   "detail": "文字距上线 20px、距下线 20px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "四项导航同一行",
+   "detail": "tops=[150,150,150,150]",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "导航顺序正确、无重叠",
+   "detail": "首页|新闻消息|新闻通讯|新闻评论",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "桌面隐藏汉堡按钮",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "主导航横向常显",
+   "detail": "nav=block dir=row shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "当前页=暗红+700+2px 暗红实下边线",
+   "detail": "color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "链接默认无 transform（不缩放不位移）",
+   "detail": "none,none,none,none",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "强制 hover 第 2 项：仅变暗红，不位移不缩放",
+   "detail": "色 rgb(33, 31, 28) → rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "暖白纸色底 + 深色文字（Task 3 变量）",
+   "detail": "bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "宋体字体栈且保留 serif 回退",
+   "detail": "\"Songti SC\", STSong, SimSun, serif",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "样式表可解析（73 条规则）",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "桌面正文两端对齐",
+   "detail": "n/a",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "横向溢出严格判定 scrollWidth<=innerWidth（1280<=1280）",
+   "detail": "scrollW=1280 inner=1280 client=1280 scrollX=0",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "更严格：scrollWidth<=clientWidth",
+   "detail": "1280<=1280",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "左右留白各约 16px（--page-gutter:1rem）",
+   "detail": "L16 R16.0",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "版心随可用宽度收缩（=视口−2×16px），无固定内容宽度",
+   "detail": "报头版心=343 main=343 client=375",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "无内部滚动区、无超出视口的固定像素宽元素、无裁切",
+   "detail": "内部滚动元素=[] 过宽元素=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "报头内部改为纵向流",
+   "detail": "flex/column",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px）",
+   "detail": "实测=41.25px",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "页面标题流式缩小但仍比正文醒目",
+   "detail": "title=28px 参照正文=16px（1280 基线 40px）",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "报头与页面标题不溢出",
+   "detail": "mast 236/236 · title 343/343",
+   "handoff": ""
+  },
+  {
+   "id": "RC3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "首页三区块保持单列、顺序不变",
+   "detail": "[[16,343,263,373],[16,343,373,483],[16,343,483,594]]",
+   "handoff": ""
+  },
+  {
+   "id": "RC3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "未变成卡片/轮播/折叠面板，分隔线仍在",
+   "detail": "[[\"0px\",\"none\",\"static\",\"1px solid\"],[\"0px\",\"none\",\"static\",\"1px solid\"],[\"0px\",\"none\",\"static\",\"1px solid\"]]",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "基线命中的 0 个中英文混排术语（）在渲染文本中原样完整",
+   "detail": "全部命中",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语",
+   "detail": "word-break=normal hyphens=none overflow-wrap=anywhere",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "未插入 <wbr>／软连字符／零宽字符，原文字符不变",
+   "detail": "不可见断行字符 0 个",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "scrollWidth<=innerWidth 严格判定（不放宽 1px）",
+   "detail": "375<=375",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "更严格：documentElement/body scrollWidth<=clientWidth",
+   "detail": "de=375 body=375 client=375",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": ".js 关闭态：按钮可见、导航折叠、aria-expanded=false",
+   "detail": "tog=flex nav=none open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "命中移动断点且未命中桌面断点",
+   "detail": "mqM=true mqD=false",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "左右留白各约 16px（--page-gutter:1rem）",
+   "detail": "L16 R16.0",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "版心随可用宽度收缩（=视口−2×16px），无固定内容宽度",
+   "detail": "报头版心=736 main=736 client=768",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "无内部滚动区、无超出视口的固定像素宽元素、无裁切",
+   "detail": "内部滚动元素=[] 过宽元素=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "报头内部改为纵向流",
+   "detail": "flex/column",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px）",
+   "detail": "实测=56px",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "页面标题流式缩小但仍比正文醒目",
+   "detail": "title=36px 参照正文=16px（1280 基线 40px）",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "报头与页面标题不溢出",
+   "detail": "mast 320/320 · title 736/736",
+   "handoff": ""
+  },
+  {
+   "id": "RC3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "首页三区块保持单列、顺序不变",
+   "detail": "[[16,736,291,404],[16,736,404,517],[16,736,517,630]]",
+   "handoff": ""
+  },
+  {
+   "id": "RC3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "未变成卡片/轮播/折叠面板，分隔线仍在",
+   "detail": "[[\"0px\",\"none\",\"static\",\"1px solid\"],[\"0px\",\"none\",\"static\",\"1px solid\"],[\"0px\",\"none\",\"static\",\"1px solid\"]]",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "基线命中的 0 个中英文混排术语（）在渲染文本中原样完整",
+   "detail": "全部命中",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语",
+   "detail": "word-break=normal hyphens=none overflow-wrap=anywhere",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "未插入 <wbr>／软连字符／零宽字符，原文字符不变",
+   "detail": "不可见断行字符 0 个",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "scrollWidth<=innerWidth 严格判定（不放宽 1px）",
+   "detail": "768<=768",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "更严格：documentElement/body scrollWidth<=clientWidth",
+   "detail": "de=768 body=768 client=768",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": ".js 关闭态：按钮可见、导航折叠、aria-expanded=false",
+   "detail": "tog=flex nav=none open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "命中移动断点且未命中桌面断点",
+   "detail": "mqM=true mqD=false",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "跳转链接是第一个 Tab 停靠点",
+   "detail": "active=skip-link/A",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "首次 Tab 后出现在左上角、文字与背景清晰、带轮廓",
+   "detail": "top=0 left=0 h=52 outline=2px solid rgb(122, 36, 36) bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "激活跳转链接后跳到 #main-content 且正文获得焦点",
+   "detail": "active=main-content/MAIN",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "报头未被推动（文档坐标不变，只有到达目标的纵向滚动）、无横向滚动、正文焦点轮廓可感知",
+   "detail": "scrollX=0 header 文档坐标 0->0（视口 0->0，scrollY 0->0） outline=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RD3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "纯键盘到达菜单按钮，暗红实线轮廓清晰且不被裁切",
+   "detail": "active=nav-toggle outline=2px solid rgb(122, 36, 36) offset=3px 裁切祖先=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RD1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": ".nav-toggle 实际 getBoundingClientRect ≥44×44 CSS px",
+   "detail": "86×46",
+   "handoff": ""
+  },
+  {
+   "id": "RD2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "每个可见 .site-navigation__link 实际点击区 ≥44×44",
+   "detail": "[[343,46],[343,46],[343,46],[343,46]]",
+   "handoff": ""
+  },
+  {
+   "id": "RD2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "链接占满行宽便于触控",
+   "detail": "导航宽=343 链接宽=343,343,343,343",
+   "handoff": ""
+  },
+  {
+   "id": "RD3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "逐个链接键盘焦点轮廓清晰且不被边框/展开菜单/容器裁切",
+   "detail": "[[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"],[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"],[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"],[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"]]",
+   "handoff": ""
+  },
+  {
+   "id": "RD3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "焦点环不被视口边界切掉",
+   "detail": "[[16,176],[16,223],[16,270],[16,317]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px/禁用JS",
+   "step": "先禁用 JS 再硬刷新：html 仍为 no-js",
+   "detail": "no-js",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px/禁用JS",
+   "step": "按钮不可见",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px/禁用JS",
+   "step": "四项导航纵向常显、可点击、可聚焦",
+   "detail": "nav=block [[343,46,true],[343,46,true],[343,46,true],[343,46,true]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px/禁用JS",
+   "step": "无脚本时导航为纵向列表",
+   "detail": "column",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px/禁用JS",
+   "step": "当前页仍以颜色与线条区分",
+   "detail": "color=rgb(122, 36, 36) bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px/禁用JS",
+   "step": "隐藏按钮不进入 Tab 顺序",
+   "detail": "skip-link>site-masthead__link>site-navigation__link",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px/禁用JS",
+   "step": "跳转链接与导航链接均可 Tab 到达",
+   "detail": "skip-link>site-masthead__link>site-navigation__link",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px/禁用JS",
+   "step": "无脚本态焦点轮廓不被裁切",
+   "detail": "2px solid rgb(122, 36, 36) 祖先=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px/禁用JS",
+   "step": "无脚本时链接仍可点击并真实导航",
+   "detail": "frameNavigated=1 落地=news-message.html",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "JS 可用硬刷新后 html 为 js 且不含 no-js",
+   "detail": "js",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "关闭态隐藏链接不生成布局盒（因而不在 Tab 顺序）",
+   "detail": "[[false,0],[false,0],[false,0],[false,0]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "关闭态 Tab 序列不含导航链接",
+   "detail": "skip-link>site-masthead__link",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "激活按钮后：.is-open + aria-expanded=true + 导航显示",
+   "detail": "open=true aria=true disp=block",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "四项纵向完整显示且点击区达标",
+   "detail": "[[343,46],[343,46],[343,46],[343,46]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "展开菜单项纵向排列互不重叠",
+   "detail": "176 > 223 > 270 > 317",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "展开菜单不覆盖正文、不横向推挤报头",
+   "detail": "nav.bottom=364 main.top=364 inner.right=359.0 client=375",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "展开不使报头位移或被截断",
+   "detail": "masthead.top 16 -> 16",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "展开态仍无横向溢出",
+   "detail": "375<=375",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "页面不因隐藏导航留下异常固定高度或空白（只有展开才增高、把正文下推）",
+   "detail": "header 高 闭=164 开=364 Δ=200 四链接合计=184; main.top 164->364",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "点击打开后焦点仍在按钮（披露式，不强制移入）",
+   "detail": "nav-toggle",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "Tab 顺序自然：按钮→四个导航链接（第 5 次离开导航）",
+   "detail": "nav-toggle > site-navigation__link > site-navigation__link > site-navigation__link > site-navigation__link > BODY",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "按钮之后不重复回到按钮/焦点陷阱",
+   "detail": "site-navigation__link>site-navigation__link>site-navigation__link>site-navigation__link>BODY",
+   "handoff": ""
+  },
+  {
+   "id": "RE4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "is-open 与 aria-expanded 同步（打开）",
+   "detail": "open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RE4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "is-open 与 aria-expanded 同步（关闭）",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "点击按钮打开一次，状态与 ARIA 同步",
+   "detail": "open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "再次点击关闭一次，状态与 ARIA 同步",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF5",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "披露式焦点策略：焦点保持在按钮，未强制移入菜单",
+   "detail": "nav-toggle",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "聚焦按钮按 Enter：恰好一次激活（keydown 激活）",
+   "detail": "Δclick=1 open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "Enter 再按：恰好切回关闭",
+   "detail": "Δclick=1 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "Space：与点击等效、恰好一次激活（keyup 激活）",
+   "detail": "Δclick=1 open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "Space 再按恰好切回，无双触发",
+   "detail": "Δclick=1 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "前置：菜单为打开态",
+   "detail": "open=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "打开态（焦点在 site-navigation__link）按 Esc：关闭菜单且焦点返回 #nav-toggle",
+   "detail": "open=false aria=false active=nav-toggle",
+   "handoff": ""
+  },
+  {
+   "id": "RF3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "关闭态按 Esc 无副作用（不抢焦点、不滚动）",
+   "detail": "active nav-toggle->nav-toggle scrollY 0->0",
+   "handoff": ""
+  },
+  {
+   "id": "RF4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "打开态点击第 3 项「新闻通讯」：先关闭再导航，落地无展开残留",
+   "detail": "navigated=1 落地=news-feature.html open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "点击「新闻通讯」到达现有页面",
+   "detail": "news-feature.html :: 从数学题到AI时代的学习｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RF4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "打开态点击第 1 项「首页」：先关闭再导航，落地无展开残留",
+   "detail": "navigated=1 落地=index.html open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "点击「首页」到达现有页面",
+   "detail": "index.html :: 《自然选择号》报社简介｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RF7",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "点击菜单外正文区域：菜单保持展开（合同已定，不实现外点关闭，不判失败）",
+   "detail": "open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF7",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "外点过程无报错、无异常失焦",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RF6",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "折叠由 CSS display 负责：脚本未用 tabindex/aria-hidden/hidden/inert 管理链接可聚焦性",
+   "detail": "导航子树被标记属性=[] main.tabindex=-1",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768px",
+   "step": "前置：768px 打开菜单",
+   "detail": "open=true mqM=true mqD=false",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768→769px",
+   "step": "对照监听：本渲染环境确实派发 mediaquery change 事件",
+   "detail": "[\"change:true\"]",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768→769px",
+   "step": "跨到 769px：.is-open 清除且 aria-expanded 重置 false",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768→769px",
+   "step": "按钮隐藏、导航立即恢复横向常显",
+   "detail": "tog=none nav=block shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768→769px",
+   "step": "移动 display:none/纵向规则不再作用（同一行）",
+   "detail": "150,150,150,150",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "768→769px",
+   "step": "移动字号与移动间距退出，桌面基线回来（报头 64px、版心=视口−2×2rem、导航 gap 恢复）",
+   "detail": "mast=64px 版心=705 client=769 期望=705 gap=40px",
+   "handoff": ""
+  },
+  {
+   "id": "RG2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "再缩回 ≤768px：菜单为关闭态，不复用旧展开状态",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RG2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "缩回后仍可正常打开",
+   "detail": "open=true",
+   "handoff": ""
+  },
+  {
+   "id": "RG3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "断点连续切换",
+   "step": "切换过程无布局跳变残留、无横向溢出",
+   "detail": "scrollW=1280 inner=1280 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/100%",
+   "step": "记录缩放前 innerWidth=1280",
+   "detail": "client=1280 根字号=16px 报头=64px 版心=1120",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "200%",
+   "step": "缩放的两个效果同时成立：CSS 视口折半（1280→640）且文字实际像素翻倍",
+   "detail": "inner=640 dpr=2 报头 CSS=56px 实际=641 设备像素（100% 时 381px）",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "200%",
+   "step": "记录缩放后 innerWidth=640（100% 时为 1280）",
+   "detail": "机制=CDP zoom=2 在本 Chrome 为 no-op（zoom_probe.mjs 已证实）→ 用 640px 布局视口 + deviceScaleFactor=2 复现 200% 的布局与绘制两个效果；dpr=2 client=640",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "200%",
+   "step": "根字号由 html{font-size:100%} 派生、未锁死为像素（缩放按 CSS px 等比生效）",
+   "detail": "100%=16px → 200%=16px",
+   "handoff": ""
+  },
+  {
+   "id": "RH2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "200%→640px",
+   "step": "缩放后 innerWidth≤768：进入移动布局（属预期正确结果），按钮可见、导航折叠",
+   "detail": "inner=640 tog=flex nav=none",
+   "handoff": ""
+  },
+  {
+   "id": "RH2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "200%→640px",
+   "step": "复查菜单三态与 44px 点击区",
+   "detail": "open=true [[608,46],[608,46],[608,46],[608,46]]",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "200%→640px",
+   "step": "缩放下焦点未丢失：Tab 后仍有暗红实线轮廓",
+   "detail": "[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\"]",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "200%→640px",
+   "step": "200% 下无横向滚动",
+   "detail": "scrollW=640 inner=640 client=640",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "200%→640px",
+   "step": "无文字裁切、元素不越界",
+   "detail": "mast 320/320 · title 608/608 · nav.right=624",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "200%→640px",
+   "step": "元素不重叠（折叠时导航不占位，展开时不压正文）",
+   "detail": "{\"hidden\":true,\"overlap\":false}",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/回到100%",
+   "step": "恢复 100% 后布局与状态无残留",
+   "detail": "inner=1280 版心=1120 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/禁用JS",
+   "step": "禁用 JS 并硬刷新：html 保持 no-js，CSS 仍生效（样式不依赖脚本）",
+   "detail": "class=no-js rules=45",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/禁用JS",
+   "step": "无脚本时正文完整可见、与 Task 10 基线逐段全等（0 段）",
+   "detail": "实测=0 段",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/禁用JS",
+   "step": "逐段字符数与基线一致（内容不依赖脚本注入）",
+   "detail": "本页无正文段落",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/禁用JS",
+   "step": "主内容节点与字符量在非脚本状态下保持",
+   "detail": "{\"n\":7,\"len\":76}",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/禁用CSS",
+   "step": "CSS 已真实停用（纸色底回退为浏览器默认）",
+   "detail": "disabled=[true] body背景=rgba(0, 0, 0, 0) 版心=1264",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/禁用CSS",
+   "step": "无内容因样式缺失而消失（主内容 textContent 全等）",
+   "detail": "段=0 字符=193",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/禁用CSS",
+   "step": "首页阅读顺序：主标题→三区块标题及其文本",
+   "detail": "序=[0,1,2,3,4,5,6]（文本节点 7 个）",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/禁用CSS",
+   "step": "导航链接仍在文档树与无障碍树中（role=link + 可访问名）",
+   "detail": "[{\"role\":\"link\",\"name\":\"首页\"},{\"role\":\"link\",\"name\":\"新闻消息\"},{\"role\":\"link\",\"name\":\"新闻通讯\"},{\"role\":\"link\",\"name\":\"新闻评论\"}]",
+   "handoff": ""
+  },
+  {
+   "id": "RI3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "恢复启用并硬刷新：回到正常基线、无残留",
+   "detail": "class=js bg=rgb(245, 239, 228) 版心=1120",
+   "handoff": ""
+  },
+  {
+   "id": "RJ2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280 与 375px",
+   "step": "段落数量=0（与 Task 10 基线一致）",
+   "detail": "桌面=0 移动=0",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "移动渲染正文与 Task 10 逐段基线全等（CSS 换行/clamp/安全换行未增删字符）",
+   "detail": "渲染字符=0 基线=0",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280 vs 375",
+   "step": "跨断点所见正文文本一致",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px",
+   "step": "页面标题与报头文本与基线一致",
+   "detail": "《自然选择号》报社简介",
+   "handoff": ""
+  },
+  {
+   "id": "RJ2",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "首页三区块标题与文本按基线顺序逐字符一致",
+   "detail": "[\"名称由来\",\"主要工作与报道方向\",\"成立时间\"][18,19,11]",
+   "handoff": ""
+  },
+  {
+   "id": "RJ3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "-",
+   "step": "伪元素 content 只用于画线（空串），未生成任何可见文字",
+   "detail": "content 声明 2 处：[\"content: \\\"\\\"\",\"content: \\\"\\\"\"]；可疑：[]",
+   "handoff": ""
+  },
+  {
+   "id": "RJ3",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "375px",
+   "step": "全部交互与降级之后主内容无脚本注入文本、无字符增删",
+   "detail": "字符 193 -> 193",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "量公共版心 .site-header__inner ≤1120 且左右留白对称",
+   "detail": "版心=705px 留白 L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "正文容器 .main-content 与报头同宽同边距",
+   "detail": "main=705px L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "正文／首页文字区宽度 ≤736",
+   "detail": "文字块=705px",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": ".article__body max-width ≤736",
+   "detail": "max-width=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "报头单行完整显示、不被裁切",
+   "detail": "scrollW=381 clientW=381 行=1 文本=自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "报头上下双细线",
+   "detail": "上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=705",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "双细线不被报头文字穿越（文字盒完全位于两条线之间）",
+   "detail": "文字距上线 20px、距下线 20px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "四项导航同一行",
+   "detail": "tops=[150,150,150,150]",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "导航顺序正确、无重叠",
+   "detail": "首页|新闻消息|新闻通讯|新闻评论",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "桌面隐藏汉堡按钮",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "主导航横向常显",
+   "detail": "nav=block dir=row shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "当前页=暗红+700+2px 暗红实下边线",
+   "detail": "color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "链接默认无 transform（不缩放不位移）",
+   "detail": "none,none,none,none",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "强制 hover 第 1 项：仅变暗红，不位移不缩放",
+   "detail": "色 rgb(33, 31, 28) → rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "暖白纸色底 + 深色文字（Task 3 变量）",
+   "detail": "bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "宋体字体栈且保留 serif 回退",
+   "detail": "\"Songti SC\", STSong, SimSun, serif",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "样式表可解析（73 条规则）",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "桌面正文两端对齐",
+   "detail": "justify",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "横向溢出严格判定 scrollWidth<=innerWidth（769<=769）",
+   "detail": "scrollW=769 inner=769 client=769 scrollX=0",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "769px",
+   "step": "更严格：scrollWidth<=clientWidth",
+   "detail": "769<=769",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "量公共版心 .site-header__inner ≤1120 且左右留白对称",
+   "detail": "版心=960px 留白 L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "正文容器 .main-content 与报头同宽同边距",
+   "detail": "main=960px L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1b",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px(无滚动条占位)",
+   "step": "1024 版心≈960（100% − 2×2rem）",
+   "detail": "版心=960px inner=1024 client=1024（桌面测量含滚动条占位 0px）",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "正文／首页文字区宽度 ≤736",
+   "detail": "文字块=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": ".article__body max-width ≤736",
+   "detail": "max-width=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "报头单行完整显示、不被裁切",
+   "detail": "scrollW=381 clientW=381 行=1 文本=自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "报头上下双细线",
+   "detail": "上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=960",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "双细线不被报头文字穿越（文字盒完全位于两条线之间）",
+   "detail": "文字距上线 20px、距下线 20px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "四项导航同一行",
+   "detail": "tops=[150,150,150,150]",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "导航顺序正确、无重叠",
+   "detail": "首页|新闻消息|新闻通讯|新闻评论",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "桌面隐藏汉堡按钮",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "主导航横向常显",
+   "detail": "nav=block dir=row shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "当前页=暗红+700+2px 暗红实下边线",
+   "detail": "color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "链接默认无 transform（不缩放不位移）",
+   "detail": "none,none,none,none",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "强制 hover 第 1 项：仅变暗红，不位移不缩放",
+   "detail": "色 rgb(33, 31, 28) → rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "暖白纸色底 + 深色文字（Task 3 变量）",
+   "detail": "bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "宋体字体栈且保留 serif 回退",
+   "detail": "\"Songti SC\", STSong, SimSun, serif",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "样式表可解析（73 条规则）",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "桌面正文两端对齐",
+   "detail": "justify",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "横向溢出严格判定 scrollWidth<=innerWidth（1024<=1024）",
+   "detail": "scrollW=1024 inner=1024 client=1024 scrollX=0",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1024px",
+   "step": "更严格：scrollWidth<=clientWidth",
+   "detail": "1024<=1024",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "量公共版心 .site-header__inner ≤1120 且左右留白对称",
+   "detail": "版心=1120px 留白 L80/R80.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "正文容器 .main-content 与报头同宽同边距",
+   "detail": "main=1120px L80/R80.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "正文／首页文字区宽度 ≤736",
+   "detail": "文字块=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": ".article__body max-width ≤736",
+   "detail": "max-width=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "报头单行完整显示、不被裁切",
+   "detail": "scrollW=381 clientW=381 行=1 文本=自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "报头上下双细线",
+   "detail": "上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=1120",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "双细线不被报头文字穿越（文字盒完全位于两条线之间）",
+   "detail": "文字距上线 20px、距下线 20px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "四项导航同一行",
+   "detail": "tops=[150,150,150,150]",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "导航顺序正确、无重叠",
+   "detail": "首页|新闻消息|新闻通讯|新闻评论",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "桌面隐藏汉堡按钮",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "主导航横向常显",
+   "detail": "nav=block dir=row shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "当前页=暗红+700+2px 暗红实下边线",
+   "detail": "color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "链接默认无 transform（不缩放不位移）",
+   "detail": "none,none,none,none",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "强制 hover 第 1 项：仅变暗红，不位移不缩放",
+   "detail": "色 rgb(33, 31, 28) → rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "暖白纸色底 + 深色文字（Task 3 变量）",
+   "detail": "bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "宋体字体栈且保留 serif 回退",
+   "detail": "\"Songti SC\", STSong, SimSun, serif",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "样式表可解析（73 条规则）",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "桌面正文两端对齐",
+   "detail": "justify",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "横向溢出严格判定 scrollWidth<=innerWidth（1280<=1280）",
+   "detail": "scrollW=1280 inner=1280 client=1280 scrollX=0",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "更严格：scrollWidth<=clientWidth",
+   "detail": "1280<=1280",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "左右留白各约 16px（--page-gutter:1rem）",
+   "detail": "L16 R16.0",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "版心随可用宽度收缩（=视口−2×16px），无固定内容宽度",
+   "detail": "报头版心=343 main=343 client=375",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "无内部滚动区、无超出视口的固定像素宽元素、无裁切",
+   "detail": "内部滚动元素=[] 过宽元素=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "报头内部改为纵向流",
+   "detail": "flex/column",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px）",
+   "detail": "实测=41.25px",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "页面标题流式缩小但仍比正文醒目",
+   "detail": "title=28px 参照正文=17px（1280 基线 40px）",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "报头与页面标题不溢出",
+   "detail": "mast 236/236 · title 343/343",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "文章保持单栏、段落数=4",
+   "detail": "段=4 column-count=auto 宽=343",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "正文段落首行缩进 2em",
+   "detail": "text-indent=34px 正文字号=17px",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": ".dateline 仍内联于首段首行",
+   "detail": "{\"present\":true,\"text\":\"自然选择号9月18日7时电\",\"disp\":\"inline\",\"fw\":\"700\",\"top\":358.5625,\"pTop\":352.5625,\"isFirstP\":true} 行高=32.3（内联盒与行盒 top 允许相差 <1 行）",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "基线命中的 0 个中英文混排术语（）在渲染文本中原样完整",
+   "detail": "全部命中",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语",
+   "detail": "word-break=normal hyphens=none overflow-wrap=normal",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "未插入 <wbr>／软连字符／零宽字符，原文字符不变",
+   "detail": "不可见断行字符 0 个",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "scrollWidth<=innerWidth 严格判定（不放宽 1px）",
+   "detail": "375<=375",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "更严格：documentElement/body scrollWidth<=clientWidth",
+   "detail": "de=375 body=375 client=375",
+   "handoff": ""
+  },
+  {
+   "id": "RC7",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "移动端正文改为 text-align: start（窄行不留大空隙）",
+   "detail": "text-align=start",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": ".js 关闭态：按钮可见、导航折叠、aria-expanded=false",
+   "detail": "tog=flex nav=none open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "命中移动断点且未命中桌面断点",
+   "detail": "mqM=true mqD=false",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "左右留白各约 16px（--page-gutter:1rem）",
+   "detail": "L16 R16.0",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "版心随可用宽度收缩（=视口−2×16px），无固定内容宽度",
+   "detail": "报头版心=736 main=736 client=768",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "无内部滚动区、无超出视口的固定像素宽元素、无裁切",
+   "detail": "内部滚动元素=[] 过宽元素=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "报头内部改为纵向流",
+   "detail": "flex/column",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px）",
+   "detail": "实测=56px",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "页面标题流式缩小但仍比正文醒目",
+   "detail": "title=36px 参照正文=17px（1280 基线 40px）",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "报头与页面标题不溢出",
+   "detail": "mast 320/320 · title 736/736",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "文章保持单栏、段落数=4",
+   "detail": "段=4 column-count=auto 宽=736",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "正文段落首行缩进 2em",
+   "detail": "text-indent=34px 正文字号=17px",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": ".dateline 仍内联于首段首行",
+   "detail": "{\"present\":true,\"text\":\"自然选择号9月18日7时电\",\"disp\":\"inline\",\"fw\":\"700\",\"top\":387,\"pTop\":381,\"isFirstP\":true} 行高=32.3（内联盒与行盒 top 允许相差 <1 行）",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "基线命中的 0 个中英文混排术语（）在渲染文本中原样完整",
+   "detail": "全部命中",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语",
+   "detail": "word-break=normal hyphens=none overflow-wrap=normal",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "未插入 <wbr>／软连字符／零宽字符，原文字符不变",
+   "detail": "不可见断行字符 0 个",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "scrollWidth<=innerWidth 严格判定（不放宽 1px）",
+   "detail": "768<=768",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "更严格：documentElement/body scrollWidth<=clientWidth",
+   "detail": "de=768 body=768 client=768",
+   "handoff": ""
+  },
+  {
+   "id": "RC7",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "移动端正文改为 text-align: start（窄行不留大空隙）",
+   "detail": "text-align=start",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": ".js 关闭态：按钮可见、导航折叠、aria-expanded=false",
+   "detail": "tog=flex nav=none open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "命中移动断点且未命中桌面断点",
+   "detail": "mqM=true mqD=false",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "跳转链接是第一个 Tab 停靠点",
+   "detail": "active=skip-link/A",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "首次 Tab 后出现在左上角、文字与背景清晰、带轮廓",
+   "detail": "top=0 left=0 h=52 outline=2px solid rgb(122, 36, 36) bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "激活跳转链接后跳到 #main-content 且正文获得焦点",
+   "detail": "active=main-content/MAIN",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "报头未被推动（文档坐标不变，只有到达目标的纵向滚动）、无横向滚动、正文焦点轮廓可感知",
+   "detail": "scrollX=0 header 文档坐标 0->0（视口 0->-88，scrollY 0->88） outline=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RD3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "纯键盘到达菜单按钮，暗红实线轮廓清晰且不被裁切",
+   "detail": "active=nav-toggle outline=2px solid rgb(122, 36, 36) offset=3px 裁切祖先=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RD1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": ".nav-toggle 实际 getBoundingClientRect ≥44×44 CSS px",
+   "detail": "86×46",
+   "handoff": ""
+  },
+  {
+   "id": "RD2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "每个可见 .site-navigation__link 实际点击区 ≥44×44",
+   "detail": "[[343,46],[343,46],[343,46],[343,46]]",
+   "handoff": ""
+  },
+  {
+   "id": "RD2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "链接占满行宽便于触控",
+   "detail": "导航宽=343 链接宽=343,343,343,343",
+   "handoff": ""
+  },
+  {
+   "id": "RD3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "逐个链接键盘焦点轮廓清晰且不被边框/展开菜单/容器裁切",
+   "detail": "[[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"],[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"],[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"],[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"]]",
+   "handoff": ""
+  },
+  {
+   "id": "RD3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "焦点环不被视口边界切掉",
+   "detail": "[[16,176],[16,223],[16,270],[16,317]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px/禁用JS",
+   "step": "先禁用 JS 再硬刷新：html 仍为 no-js",
+   "detail": "no-js",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px/禁用JS",
+   "step": "按钮不可见",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px/禁用JS",
+   "step": "四项导航纵向常显、可点击、可聚焦",
+   "detail": "nav=block [[343,46,true],[343,46,true],[343,46,true],[343,46,true]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px/禁用JS",
+   "step": "无脚本时导航为纵向列表",
+   "detail": "column",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px/禁用JS",
+   "step": "当前页仍以颜色与线条区分",
+   "detail": "color=rgb(122, 36, 36) bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px/禁用JS",
+   "step": "隐藏按钮不进入 Tab 顺序",
+   "detail": "skip-link>site-masthead__link>site-navigation__link",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px/禁用JS",
+   "step": "跳转链接与导航链接均可 Tab 到达",
+   "detail": "skip-link>site-masthead__link>site-navigation__link",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px/禁用JS",
+   "step": "无脚本态焦点轮廓不被裁切",
+   "detail": "2px solid rgb(122, 36, 36) 祖先=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px/禁用JS",
+   "step": "无脚本时链接仍可点击并真实导航",
+   "detail": "frameNavigated=1 落地=news-message.html",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "JS 可用硬刷新后 html 为 js 且不含 no-js",
+   "detail": "js",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "关闭态隐藏链接不生成布局盒（因而不在 Tab 顺序）",
+   "detail": "[[false,0],[false,0],[false,0],[false,0]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "关闭态 Tab 序列不含导航链接",
+   "detail": "skip-link>site-masthead__link",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "激活按钮后：.is-open + aria-expanded=true + 导航显示",
+   "detail": "open=true aria=true disp=block",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "四项纵向完整显示且点击区达标",
+   "detail": "[[343,46],[343,46],[343,46],[343,46]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "展开菜单项纵向排列互不重叠",
+   "detail": "176 > 223 > 270 > 317",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "展开菜单不覆盖正文、不横向推挤报头",
+   "detail": "nav.bottom=364 main.top=364 inner.right=359.0 client=375",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "展开不使报头位移或被截断",
+   "detail": "masthead.top 16 -> 16",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "展开态仍无横向溢出",
+   "detail": "375<=375",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "页面不因隐藏导航留下异常固定高度或空白（只有展开才增高、把正文下推）",
+   "detail": "header 高 闭=164 开=364 Δ=200 四链接合计=184; main.top 164->364",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "点击打开后焦点仍在按钮（披露式，不强制移入）",
+   "detail": "nav-toggle",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "Tab 顺序自然：按钮→四个导航链接（第 5 次离开导航）",
+   "detail": "nav-toggle > site-navigation__link > site-navigation__link > site-navigation__link > site-navigation__link > BODY",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "按钮之后不重复回到按钮/焦点陷阱",
+   "detail": "site-navigation__link>site-navigation__link>site-navigation__link>site-navigation__link>BODY",
+   "handoff": ""
+  },
+  {
+   "id": "RE4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "is-open 与 aria-expanded 同步（打开）",
+   "detail": "open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RE4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "is-open 与 aria-expanded 同步（关闭）",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "点击按钮打开一次，状态与 ARIA 同步",
+   "detail": "open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "再次点击关闭一次，状态与 ARIA 同步",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF5",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "披露式焦点策略：焦点保持在按钮，未强制移入菜单",
+   "detail": "nav-toggle",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "聚焦按钮按 Enter：恰好一次激活（keydown 激活）",
+   "detail": "Δclick=1 open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "Enter 再按：恰好切回关闭",
+   "detail": "Δclick=1 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "Space：与点击等效、恰好一次激活（keyup 激活）",
+   "detail": "Δclick=1 open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "Space 再按恰好切回，无双触发",
+   "detail": "Δclick=1 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "前置：菜单为打开态",
+   "detail": "open=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "打开态（焦点在 site-navigation__link）按 Esc：关闭菜单且焦点返回 #nav-toggle",
+   "detail": "open=false aria=false active=nav-toggle",
+   "handoff": ""
+  },
+  {
+   "id": "RF3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "关闭态按 Esc 无副作用（不抢焦点、不滚动）",
+   "detail": "active nav-toggle->nav-toggle scrollY 0->0",
+   "handoff": ""
+  },
+  {
+   "id": "RF4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "打开态点击第 3 项「新闻通讯」：先关闭再导航，落地无展开残留",
+   "detail": "navigated=1 落地=news-feature.html open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "点击「新闻通讯」到达现有页面",
+   "detail": "news-feature.html :: 从数学题到AI时代的学习｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RF4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "打开态点击第 1 项「首页」：先关闭再导航，落地无展开残留",
+   "detail": "navigated=1 落地=index.html open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "点击「首页」到达现有页面",
+   "detail": "index.html :: 《自然选择号》报社简介｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RF7",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "点击菜单外正文区域：菜单保持展开（合同已定，不实现外点关闭，不判失败）",
+   "detail": "open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF7",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "外点过程无报错、无异常失焦",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RF6",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "折叠由 CSS display 负责：脚本未用 tabindex/aria-hidden/hidden/inert 管理链接可聚焦性",
+   "detail": "导航子树被标记属性=[] main.tabindex=-1",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768px",
+   "step": "前置：768px 打开菜单",
+   "detail": "open=true mqM=true mqD=false",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768→769px",
+   "step": "对照监听：本渲染环境确实派发 mediaquery change 事件",
+   "detail": "[\"change:true\"]",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768→769px",
+   "step": "跨到 769px：.is-open 清除且 aria-expanded 重置 false",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768→769px",
+   "step": "按钮隐藏、导航立即恢复横向常显",
+   "detail": "tog=none nav=block shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768→769px",
+   "step": "移动 display:none/纵向规则不再作用（同一行）",
+   "detail": "150,150,150,150",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "768→769px",
+   "step": "移动字号与移动间距退出，桌面基线回来（报头 64px、版心=视口−2×2rem、导航 gap 恢复）",
+   "detail": "mast=64px 版心=705 client=769 期望=705 gap=40px",
+   "handoff": ""
+  },
+  {
+   "id": "RG2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "再缩回 ≤768px：菜单为关闭态，不复用旧展开状态",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RG2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "缩回后仍可正常打开",
+   "detail": "open=true",
+   "handoff": ""
+  },
+  {
+   "id": "RG3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "断点连续切换",
+   "step": "切换过程无布局跳变残留、无横向溢出",
+   "detail": "scrollW=1280 inner=1280 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px/100%",
+   "step": "记录缩放前 innerWidth=1280",
+   "detail": "client=1280 根字号=16px 报头=64px 版心=1120",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "200%",
+   "step": "缩放的两个效果同时成立：CSS 视口折半（1280→640）且文字实际像素翻倍",
+   "detail": "inner=640 dpr=2 报头 CSS=56px 实际=641 设备像素（100% 时 381px）",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "200%",
+   "step": "记录缩放后 innerWidth=640（100% 时为 1280）",
+   "detail": "机制=CDP zoom=2 在本 Chrome 为 no-op（zoom_probe.mjs 已证实）→ 用 640px 布局视口 + deviceScaleFactor=2 复现 200% 的布局与绘制两个效果；dpr=2 client=640",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "200%",
+   "step": "根字号由 html{font-size:100%} 派生、未锁死为像素（缩放按 CSS px 等比生效）",
+   "detail": "100%=16px → 200%=16px",
+   "handoff": ""
+  },
+  {
+   "id": "RH2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "200%→640px",
+   "step": "缩放后 innerWidth≤768：进入移动布局（属预期正确结果），按钮可见、导航折叠",
+   "detail": "inner=640 tog=flex nav=none",
+   "handoff": ""
+  },
+  {
+   "id": "RH2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "200%→640px",
+   "step": "复查菜单三态与 44px 点击区",
+   "detail": "open=true [[608,46],[608,46],[608,46],[608,46]]",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "200%→640px",
+   "step": "缩放下焦点未丢失：Tab 后仍有暗红实线轮廓",
+   "detail": "[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\"]",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "200%→640px",
+   "step": "200% 下无横向滚动",
+   "detail": "scrollW=640 inner=640 client=640",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "200%→640px",
+   "step": "无文字裁切、元素不越界",
+   "detail": "mast 320/320 · title 608/608 · nav.right=624",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "200%→640px",
+   "step": "元素不重叠（折叠时导航不占位，展开时不压正文）",
+   "detail": "{\"hidden\":true,\"overlap\":false}",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px/回到100%",
+   "step": "恢复 100% 后布局与状态无残留",
+   "detail": "inner=1280 版心=1120 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px/禁用JS",
+   "step": "禁用 JS 并硬刷新：html 保持 no-js，CSS 仍生效（样式不依赖脚本）",
+   "detail": "class=no-js rules=45",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px/禁用JS",
+   "step": "无脚本时正文完整可见、与 Task 10 基线逐段全等（4 段）",
+   "detail": "实测=4 段",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px/禁用JS",
+   "step": "逐段字符数与基线一致（内容不依赖脚本注入）",
+   "detail": "基线=96,109,64,19 实测=96,109,64,19",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px/禁用JS",
+   "step": "主内容节点与字符量在非脚本状态下保持",
+   "detail": "{\"n\":7,\"len\":307}",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px/禁用CSS",
+   "step": "CSS 已真实停用（纸色底回退为浏览器默认）",
+   "detail": "disabled=[true] body背景=rgba(0, 0, 0, 0) 版心=1264",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px/禁用CSS",
+   "step": "无内容因样式缺失而消失（主内容 textContent 全等）",
+   "detail": "段=4 字符=413",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px/禁用CSS",
+   "step": "文章页阅读顺序：页面类型→标题→署名→正文",
+   "detail": "类型=0 标题=1 署名=2 正文首段=3 / 共 8 个文本节点",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px/禁用CSS",
+   "step": "导航链接仍在文档树与无障碍树中（role=link + 可访问名）",
+   "detail": "[{\"role\":\"link\",\"name\":\"首页\"},{\"role\":\"link\",\"name\":\"新闻消息\"},{\"role\":\"link\",\"name\":\"新闻通讯\"},{\"role\":\"link\",\"name\":\"新闻评论\"}]",
+   "handoff": ""
+  },
+  {
+   "id": "RI3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "恢复启用并硬刷新：回到正常基线、无残留",
+   "detail": "class=js bg=rgb(245, 239, 228) 版心=1120",
+   "handoff": ""
+  },
+  {
+   "id": "RJ2",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280 与 375px",
+   "step": "段落数量=4（与 Task 10 基线一致）",
+   "detail": "桌面=4 移动=4",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "移动渲染正文与 Task 10 逐段基线全等（CSS 换行/clamp/安全换行未增删字符）",
+   "detail": "渲染字符=288 基线=288",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280 vs 375",
+   "step": "跨断点所见正文文本一致",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "页面标题与报头文本与基线一致",
+   "detail": "我校启动校本课程志愿填报",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "页面类型／标题／署名与基线逐字符一致",
+   "detail": "[新闻消息][我校启动校本课程志愿填报][蓝色空间]",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px",
+   "step": "渲染顺序：类型→标题→署名",
+   "detail": "251 < 290 < 356",
+   "handoff": ""
+  },
+  {
+   "id": "RJ3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "-",
+   "step": "伪元素 content 只用于画线（空串），未生成任何可见文字",
+   "detail": "content 声明 2 处：[\"content: \\\"\\\"\",\"content: \\\"\\\"\"]；可疑：[]",
+   "handoff": ""
+  },
+  {
+   "id": "RJ3",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "375px",
+   "step": "全部交互与降级之后主内容无脚本注入文本、无字符增删",
+   "detail": "字符 413 -> 413",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "量公共版心 .site-header__inner ≤1120 且左右留白对称",
+   "detail": "版心=705px 留白 L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "正文容器 .main-content 与报头同宽同边距",
+   "detail": "main=705px L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "正文／首页文字区宽度 ≤736",
+   "detail": "文字块=705px",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": ".article__body max-width ≤736",
+   "detail": "max-width=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "报头单行完整显示、不被裁切",
+   "detail": "scrollW=381 clientW=381 行=1 文本=自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "报头上下双细线",
+   "detail": "上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=705",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "双细线不被报头文字穿越（文字盒完全位于两条线之间）",
+   "detail": "文字距上线 20px、距下线 20px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "四项导航同一行",
+   "detail": "tops=[150,150,150,150]",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "导航顺序正确、无重叠",
+   "detail": "首页|新闻消息|新闻通讯|新闻评论",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "桌面隐藏汉堡按钮",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "主导航横向常显",
+   "detail": "nav=block dir=row shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "当前页=暗红+700+2px 暗红实下边线",
+   "detail": "color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "链接默认无 transform（不缩放不位移）",
+   "detail": "none,none,none,none",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "强制 hover 第 1 项：仅变暗红，不位移不缩放",
+   "detail": "色 rgb(33, 31, 28) → rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "暖白纸色底 + 深色文字（Task 3 变量）",
+   "detail": "bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "宋体字体栈且保留 serif 回退",
+   "detail": "\"Songti SC\", STSong, SimSun, serif",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "样式表可解析（73 条规则）",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "桌面正文两端对齐",
+   "detail": "justify",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "横向溢出严格判定 scrollWidth<=innerWidth（769<=769）",
+   "detail": "scrollW=769 inner=769 client=769 scrollX=0",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "769px",
+   "step": "更严格：scrollWidth<=clientWidth",
+   "detail": "769<=769",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "量公共版心 .site-header__inner ≤1120 且左右留白对称",
+   "detail": "版心=960px 留白 L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "正文容器 .main-content 与报头同宽同边距",
+   "detail": "main=960px L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1b",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px(无滚动条占位)",
+   "step": "1024 版心≈960（100% − 2×2rem）",
+   "detail": "版心=960px inner=1024 client=1024（桌面测量含滚动条占位 0px）",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "正文／首页文字区宽度 ≤736",
+   "detail": "文字块=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": ".article__body max-width ≤736",
+   "detail": "max-width=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "报头单行完整显示、不被裁切",
+   "detail": "scrollW=381 clientW=381 行=1 文本=自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "报头上下双细线",
+   "detail": "上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=960",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "双细线不被报头文字穿越（文字盒完全位于两条线之间）",
+   "detail": "文字距上线 20px、距下线 20px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "四项导航同一行",
+   "detail": "tops=[150,150,150,150]",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "导航顺序正确、无重叠",
+   "detail": "首页|新闻消息|新闻通讯|新闻评论",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "桌面隐藏汉堡按钮",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "主导航横向常显",
+   "detail": "nav=block dir=row shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "当前页=暗红+700+2px 暗红实下边线",
+   "detail": "color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "链接默认无 transform（不缩放不位移）",
+   "detail": "none,none,none,none",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "强制 hover 第 1 项：仅变暗红，不位移不缩放",
+   "detail": "色 rgb(33, 31, 28) → rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "暖白纸色底 + 深色文字（Task 3 变量）",
+   "detail": "bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "宋体字体栈且保留 serif 回退",
+   "detail": "\"Songti SC\", STSong, SimSun, serif",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "样式表可解析（73 条规则）",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "桌面正文两端对齐",
+   "detail": "justify",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "横向溢出严格判定 scrollWidth<=innerWidth（1024<=1024）",
+   "detail": "scrollW=1024 inner=1024 client=1024 scrollX=0",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1024px",
+   "step": "更严格：scrollWidth<=clientWidth",
+   "detail": "1024<=1024",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "量公共版心 .site-header__inner ≤1120 且左右留白对称",
+   "detail": "版心=1120px 留白 L80/R80.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "正文容器 .main-content 与报头同宽同边距",
+   "detail": "main=1120px L80/R80.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "正文／首页文字区宽度 ≤736",
+   "detail": "文字块=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": ".article__body max-width ≤736",
+   "detail": "max-width=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "报头单行完整显示、不被裁切",
+   "detail": "scrollW=381 clientW=381 行=1 文本=自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "报头上下双细线",
+   "detail": "上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=1120",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "双细线不被报头文字穿越（文字盒完全位于两条线之间）",
+   "detail": "文字距上线 20px、距下线 20px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "四项导航同一行",
+   "detail": "tops=[150,150,150,150]",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "导航顺序正确、无重叠",
+   "detail": "首页|新闻消息|新闻通讯|新闻评论",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "桌面隐藏汉堡按钮",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "主导航横向常显",
+   "detail": "nav=block dir=row shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "当前页=暗红+700+2px 暗红实下边线",
+   "detail": "color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "链接默认无 transform（不缩放不位移）",
+   "detail": "none,none,none,none",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "强制 hover 第 1 项：仅变暗红，不位移不缩放",
+   "detail": "色 rgb(33, 31, 28) → rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "暖白纸色底 + 深色文字（Task 3 变量）",
+   "detail": "bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "宋体字体栈且保留 serif 回退",
+   "detail": "\"Songti SC\", STSong, SimSun, serif",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "样式表可解析（73 条规则）",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "桌面正文两端对齐",
+   "detail": "justify",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "横向溢出严格判定 scrollWidth<=innerWidth（1280<=1280）",
+   "detail": "scrollW=1280 inner=1280 client=1280 scrollX=0",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "更严格：scrollWidth<=clientWidth",
+   "detail": "1280<=1280",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "左右留白各约 16px（--page-gutter:1rem）",
+   "detail": "L16 R16.0",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "版心随可用宽度收缩（=视口−2×16px），无固定内容宽度",
+   "detail": "报头版心=343 main=343 client=375",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "无内部滚动区、无超出视口的固定像素宽元素、无裁切",
+   "detail": "内部滚动元素=[] 过宽元素=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "报头内部改为纵向流",
+   "detail": "flex/column",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px）",
+   "detail": "实测=41.25px",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "页面标题流式缩小但仍比正文醒目",
+   "detail": "title=28px 参照正文=17px（1280 基线 40px）",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "报头与页面标题不溢出",
+   "detail": "mast 236/236 · title 343/343",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "文章保持单栏、段落数=23",
+   "detail": "段=23 column-count=auto 宽=343",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "正文段落首行缩进 2em",
+   "detail": "text-indent=34px 正文字号=17px",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": ".dateline 仍内联于首段首行",
+   "detail": "{\"present\":true,\"text\":\"自然选择号9月17日电\",\"disp\":\"inline\",\"fw\":\"700\",\"top\":358.5625,\"pTop\":352.5625,\"isFirstP\":true} 行高=32.3（内联盒与行盒 top 允许相差 <1 行）",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "基线命中的 1 个中英文混排术语（AI）在渲染文本中原样完整",
+   "detail": "全部命中",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语",
+   "detail": "word-break=normal hyphens=none overflow-wrap=normal",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "未插入 <wbr>／软连字符／零宽字符，原文字符不变",
+   "detail": "不可见断行字符 0 个",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "scrollWidth<=innerWidth 严格判定（不放宽 1px）",
+   "detail": "375<=375",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "更严格：documentElement/body scrollWidth<=clientWidth",
+   "detail": "de=375 body=375 client=375",
+   "handoff": ""
+  },
+  {
+   "id": "RC7",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "移动端正文改为 text-align: start（窄行不留大空隙）",
+   "detail": "text-align=start",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": ".js 关闭态：按钮可见、导航折叠、aria-expanded=false",
+   "detail": "tog=flex nav=none open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "命中移动断点且未命中桌面断点",
+   "detail": "mqM=true mqD=false",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "左右留白各约 16px（--page-gutter:1rem）",
+   "detail": "L16 R16.0",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "版心随可用宽度收缩（=视口−2×16px），无固定内容宽度",
+   "detail": "报头版心=736 main=736 client=768",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "无内部滚动区、无超出视口的固定像素宽元素、无裁切",
+   "detail": "内部滚动元素=[] 过宽元素=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "报头内部改为纵向流",
+   "detail": "flex/column",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px）",
+   "detail": "实测=56px",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "页面标题流式缩小但仍比正文醒目",
+   "detail": "title=36px 参照正文=17px（1280 基线 40px）",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "报头与页面标题不溢出",
+   "detail": "mast 320/320 · title 736/736",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "文章保持单栏、段落数=23",
+   "detail": "段=23 column-count=auto 宽=736",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "正文段落首行缩进 2em",
+   "detail": "text-indent=34px 正文字号=17px",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": ".dateline 仍内联于首段首行",
+   "detail": "{\"present\":true,\"text\":\"自然选择号9月17日电\",\"disp\":\"inline\",\"fw\":\"700\",\"top\":387,\"pTop\":381,\"isFirstP\":true} 行高=32.3（内联盒与行盒 top 允许相差 <1 行）",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "基线命中的 1 个中英文混排术语（AI）在渲染文本中原样完整",
+   "detail": "全部命中",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语",
+   "detail": "word-break=normal hyphens=none overflow-wrap=normal",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "未插入 <wbr>／软连字符／零宽字符，原文字符不变",
+   "detail": "不可见断行字符 0 个",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "scrollWidth<=innerWidth 严格判定（不放宽 1px）",
+   "detail": "768<=768",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "更严格：documentElement/body scrollWidth<=clientWidth",
+   "detail": "de=768 body=768 client=768",
+   "handoff": ""
+  },
+  {
+   "id": "RC7",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "移动端正文改为 text-align: start（窄行不留大空隙）",
+   "detail": "text-align=start",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": ".js 关闭态：按钮可见、导航折叠、aria-expanded=false",
+   "detail": "tog=flex nav=none open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "命中移动断点且未命中桌面断点",
+   "detail": "mqM=true mqD=false",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "跳转链接是第一个 Tab 停靠点",
+   "detail": "active=skip-link/A",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "首次 Tab 后出现在左上角、文字与背景清晰、带轮廓",
+   "detail": "top=0 left=0 h=52 outline=2px solid rgb(122, 36, 36) bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "激活跳转链接后跳到 #main-content 且正文获得焦点",
+   "detail": "active=main-content/MAIN",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "报头未被推动（文档坐标不变，只有到达目标的纵向滚动）、无横向滚动、正文焦点轮廓可感知",
+   "detail": "scrollX=0 header 文档坐标 0->0（视口 0->-164，scrollY 0->164） outline=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RD3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "纯键盘到达菜单按钮，暗红实线轮廓清晰且不被裁切",
+   "detail": "active=nav-toggle outline=2px solid rgb(122, 36, 36) offset=3px 裁切祖先=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RD1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": ".nav-toggle 实际 getBoundingClientRect ≥44×44 CSS px",
+   "detail": "86×46",
+   "handoff": ""
+  },
+  {
+   "id": "RD2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "每个可见 .site-navigation__link 实际点击区 ≥44×44",
+   "detail": "[[343,46],[343,46],[343,46],[343,46]]",
+   "handoff": ""
+  },
+  {
+   "id": "RD2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "链接占满行宽便于触控",
+   "detail": "导航宽=343 链接宽=343,343,343,343",
+   "handoff": ""
+  },
+  {
+   "id": "RD3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "逐个链接键盘焦点轮廓清晰且不被边框/展开菜单/容器裁切",
+   "detail": "[[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"],[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"],[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"],[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"]]",
+   "handoff": ""
+  },
+  {
+   "id": "RD3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "焦点环不被视口边界切掉",
+   "detail": "[[16,176],[16,223],[16,270],[16,317]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px/禁用JS",
+   "step": "先禁用 JS 再硬刷新：html 仍为 no-js",
+   "detail": "no-js",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px/禁用JS",
+   "step": "按钮不可见",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px/禁用JS",
+   "step": "四项导航纵向常显、可点击、可聚焦",
+   "detail": "nav=block [[343,46,true],[343,46,true],[343,46,true],[343,46,true]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px/禁用JS",
+   "step": "无脚本时导航为纵向列表",
+   "detail": "column",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px/禁用JS",
+   "step": "当前页仍以颜色与线条区分",
+   "detail": "color=rgb(122, 36, 36) bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px/禁用JS",
+   "step": "隐藏按钮不进入 Tab 顺序",
+   "detail": "skip-link>site-masthead__link>site-navigation__link",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px/禁用JS",
+   "step": "跳转链接与导航链接均可 Tab 到达",
+   "detail": "skip-link>site-masthead__link>site-navigation__link",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px/禁用JS",
+   "step": "无脚本态焦点轮廓不被裁切",
+   "detail": "2px solid rgb(122, 36, 36) 祖先=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px/禁用JS",
+   "step": "无脚本时链接仍可点击并真实导航",
+   "detail": "frameNavigated=1 落地=news-message.html",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "JS 可用硬刷新后 html 为 js 且不含 no-js",
+   "detail": "js",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "关闭态隐藏链接不生成布局盒（因而不在 Tab 顺序）",
+   "detail": "[[false,0],[false,0],[false,0],[false,0]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "关闭态 Tab 序列不含导航链接",
+   "detail": "skip-link>site-masthead__link",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "激活按钮后：.is-open + aria-expanded=true + 导航显示",
+   "detail": "open=true aria=true disp=block",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "四项纵向完整显示且点击区达标",
+   "detail": "[[343,46],[343,46],[343,46],[343,46]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "展开菜单项纵向排列互不重叠",
+   "detail": "176 > 223 > 270 > 317",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "展开菜单不覆盖正文、不横向推挤报头",
+   "detail": "nav.bottom=364 main.top=364 inner.right=359.0 client=375",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "展开不使报头位移或被截断",
+   "detail": "masthead.top 16 -> 16",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "展开态仍无横向溢出",
+   "detail": "375<=375",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "页面不因隐藏导航留下异常固定高度或空白（只有展开才增高、把正文下推）",
+   "detail": "header 高 闭=164 开=364 Δ=200 四链接合计=184; main.top 164->364",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "点击打开后焦点仍在按钮（披露式，不强制移入）",
+   "detail": "nav-toggle",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "Tab 顺序自然：按钮→四个导航链接（第 5 次离开导航）",
+   "detail": "nav-toggle > site-navigation__link > site-navigation__link > site-navigation__link > site-navigation__link > skip-link",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "按钮之后不重复回到按钮/焦点陷阱",
+   "detail": "site-navigation__link>site-navigation__link>site-navigation__link>site-navigation__link>skip-link",
+   "handoff": ""
+  },
+  {
+   "id": "RE4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "is-open 与 aria-expanded 同步（打开）",
+   "detail": "open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RE4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "is-open 与 aria-expanded 同步（关闭）",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "点击按钮打开一次，状态与 ARIA 同步",
+   "detail": "open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "再次点击关闭一次，状态与 ARIA 同步",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF5",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "披露式焦点策略：焦点保持在按钮，未强制移入菜单",
+   "detail": "nav-toggle",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "聚焦按钮按 Enter：恰好一次激活（keydown 激活）",
+   "detail": "Δclick=1 open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "Enter 再按：恰好切回关闭",
+   "detail": "Δclick=1 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "Space：与点击等效、恰好一次激活（keyup 激活）",
+   "detail": "Δclick=1 open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "Space 再按恰好切回，无双触发",
+   "detail": "Δclick=1 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "前置：菜单为打开态",
+   "detail": "open=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "打开态（焦点在 site-navigation__link）按 Esc：关闭菜单且焦点返回 #nav-toggle",
+   "detail": "open=false aria=false active=nav-toggle",
+   "handoff": ""
+  },
+  {
+   "id": "RF3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "关闭态按 Esc 无副作用（不抢焦点、不滚动）",
+   "detail": "active nav-toggle->nav-toggle scrollY 0->0",
+   "handoff": ""
+  },
+  {
+   "id": "RF4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "打开态点击第 3 项「新闻通讯」：先关闭再导航，落地无展开残留",
+   "detail": "navigated=1 落地=news-feature.html open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "点击「新闻通讯」到达现有页面",
+   "detail": "news-feature.html :: 从数学题到AI时代的学习｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RF4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "打开态点击第 1 项「首页」：先关闭再导航，落地无展开残留",
+   "detail": "navigated=1 落地=index.html open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "点击「首页」到达现有页面",
+   "detail": "index.html :: 《自然选择号》报社简介｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RF7",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "点击菜单外正文区域：菜单保持展开（合同已定，不实现外点关闭，不判失败）",
+   "detail": "open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF7",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "外点过程无报错、无异常失焦",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RF6",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "折叠由 CSS display 负责：脚本未用 tabindex/aria-hidden/hidden/inert 管理链接可聚焦性",
+   "detail": "导航子树被标记属性=[] main.tabindex=-1",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768px",
+   "step": "前置：768px 打开菜单",
+   "detail": "open=true mqM=true mqD=false",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768→769px",
+   "step": "对照监听：本渲染环境确实派发 mediaquery change 事件",
+   "detail": "[\"change:true\"]",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768→769px",
+   "step": "跨到 769px：.is-open 清除且 aria-expanded 重置 false",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768→769px",
+   "step": "按钮隐藏、导航立即恢复横向常显",
+   "detail": "tog=none nav=block shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768→769px",
+   "step": "移动 display:none/纵向规则不再作用（同一行）",
+   "detail": "150,150,150,150",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "768→769px",
+   "step": "移动字号与移动间距退出，桌面基线回来（报头 64px、版心=视口−2×2rem、导航 gap 恢复）",
+   "detail": "mast=64px 版心=705 client=769 期望=705 gap=40px",
+   "handoff": ""
+  },
+  {
+   "id": "RG2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "再缩回 ≤768px：菜单为关闭态，不复用旧展开状态",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RG2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "缩回后仍可正常打开",
+   "detail": "open=true",
+   "handoff": ""
+  },
+  {
+   "id": "RG3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "断点连续切换",
+   "step": "切换过程无布局跳变残留、无横向溢出",
+   "detail": "scrollW=1280 inner=1280 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px/100%",
+   "step": "记录缩放前 innerWidth=1280",
+   "detail": "client=1280 根字号=16px 报头=64px 版心=1120",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "200%",
+   "step": "缩放的两个效果同时成立：CSS 视口折半（1280→640）且文字实际像素翻倍",
+   "detail": "inner=640 dpr=2 报头 CSS=56px 实际=641 设备像素（100% 时 381px）",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "200%",
+   "step": "记录缩放后 innerWidth=640（100% 时为 1280）",
+   "detail": "机制=CDP zoom=2 在本 Chrome 为 no-op（zoom_probe.mjs 已证实）→ 用 640px 布局视口 + deviceScaleFactor=2 复现 200% 的布局与绘制两个效果；dpr=2 client=640",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "200%",
+   "step": "根字号由 html{font-size:100%} 派生、未锁死为像素（缩放按 CSS px 等比生效）",
+   "detail": "100%=16px → 200%=16px",
+   "handoff": ""
+  },
+  {
+   "id": "RH2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "200%→640px",
+   "step": "缩放后 innerWidth≤768：进入移动布局（属预期正确结果），按钮可见、导航折叠",
+   "detail": "inner=640 tog=flex nav=none",
+   "handoff": ""
+  },
+  {
+   "id": "RH2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "200%→640px",
+   "step": "复查菜单三态与 44px 点击区",
+   "detail": "open=true [[608,46],[608,46],[608,46],[608,46]]",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "200%→640px",
+   "step": "缩放下焦点未丢失：Tab 后仍有暗红实线轮廓",
+   "detail": "[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\"]",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "200%→640px",
+   "step": "200% 下无横向滚动",
+   "detail": "scrollW=640 inner=640 client=640",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "200%→640px",
+   "step": "无文字裁切、元素不越界",
+   "detail": "mast 320/320 · title 608/608 · nav.right=624",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "200%→640px",
+   "step": "元素不重叠（折叠时导航不占位，展开时不压正文）",
+   "detail": "{\"hidden\":true,\"overlap\":false}",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px/回到100%",
+   "step": "恢复 100% 后布局与状态无残留",
+   "detail": "inner=1280 版心=1120 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px/禁用JS",
+   "step": "禁用 JS 并硬刷新：html 保持 no-js，CSS 仍生效（样式不依赖脚本）",
+   "detail": "class=no-js rules=45",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px/禁用JS",
+   "step": "无脚本时正文完整可见、与 Task 10 基线逐段全等（23 段）",
+   "detail": "实测=23 段",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px/禁用JS",
+   "step": "逐段字符数与基线一致（内容不依赖脚本注入）",
+   "detail": "基线=58,114,36,58,81,106,85,99,78,70,83,24,83,21,49,37,43,97,43,44,79,80,61 实测=58,114,36,58,81,106,85,99,78,70,83,24,83,21,49,37,43,97,43,44,79,80,61",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px/禁用JS",
+   "step": "主内容节点与字符量在非脚本状态下保持",
+   "detail": "{\"n\":26,\"len\":1548}",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px/禁用CSS",
+   "step": "CSS 已真实停用（纸色底回退为浏览器默认）",
+   "detail": "disabled=[true] body背景=rgba(0, 0, 0, 0) 版心=1264",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px/禁用CSS",
+   "step": "无内容因样式缺失而消失（主内容 textContent 全等）",
+   "detail": "段=23 字符=1825",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px/禁用CSS",
+   "step": "文章页阅读顺序：页面类型→标题→署名→正文",
+   "detail": "类型=0 标题=1 署名=2 正文首段=3 / 共 27 个文本节点",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px/禁用CSS",
+   "step": "导航链接仍在文档树与无障碍树中（role=link + 可访问名）",
+   "detail": "[{\"role\":\"link\",\"name\":\"首页\"},{\"role\":\"link\",\"name\":\"新闻消息\"},{\"role\":\"link\",\"name\":\"新闻通讯\"},{\"role\":\"link\",\"name\":\"新闻评论\"}]",
+   "handoff": ""
+  },
+  {
+   "id": "RI3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "恢复启用并硬刷新：回到正常基线、无残留",
+   "detail": "class=js bg=rgb(245, 239, 228) 版心=1120",
+   "handoff": ""
+  },
+  {
+   "id": "RJ2",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280 与 375px",
+   "step": "段落数量=23（与 Task 10 基线一致）",
+   "detail": "桌面=23 移动=23",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "移动渲染正文与 Task 10 逐段基线全等（CSS 换行/clamp/安全换行未增删字符）",
+   "detail": "渲染字符=1529 基线=1529",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280 vs 375",
+   "step": "跨断点所见正文文本一致",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "页面标题与报头文本与基线一致",
+   "detail": "从数学题到AI时代的学习",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "页面类型／标题／署名与基线逐字符一致",
+   "detail": "[新闻通讯][从数学题到AI时代的学习][蓝色空间]",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px",
+   "step": "渲染顺序：类型→标题→署名",
+   "detail": "251 < 290 < 356",
+   "handoff": ""
+  },
+  {
+   "id": "RJ3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "-",
+   "step": "伪元素 content 只用于画线（空串），未生成任何可见文字",
+   "detail": "content 声明 2 处：[\"content: \\\"\\\"\",\"content: \\\"\\\"\"]；可疑：[]",
+   "handoff": ""
+  },
+  {
+   "id": "RJ3",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "375px",
+   "step": "全部交互与降级之后主内容无脚本注入文本、无字符增删",
+   "detail": "字符 1825 -> 1825",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "量公共版心 .site-header__inner ≤1120 且左右留白对称",
+   "detail": "版心=705px 留白 L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "正文容器 .main-content 与报头同宽同边距",
+   "detail": "main=705px L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "正文／首页文字区宽度 ≤736",
+   "detail": "文字块=705px",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": ".article__body max-width ≤736",
+   "detail": "max-width=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "报头单行完整显示、不被裁切",
+   "detail": "scrollW=381 clientW=381 行=1 文本=自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "报头上下双细线",
+   "detail": "上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=705",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "双细线不被报头文字穿越（文字盒完全位于两条线之间）",
+   "detail": "文字距上线 20px、距下线 20px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "四项导航同一行",
+   "detail": "tops=[150,150,150,150]",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "导航顺序正确、无重叠",
+   "detail": "首页|新闻消息|新闻通讯|新闻评论",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "桌面隐藏汉堡按钮",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "主导航横向常显",
+   "detail": "nav=block dir=row shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "当前页=暗红+700+2px 暗红实下边线",
+   "detail": "color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "链接默认无 transform（不缩放不位移）",
+   "detail": "none,none,none,none",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "强制 hover 第 1 项：仅变暗红，不位移不缩放",
+   "detail": "色 rgb(33, 31, 28) → rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "暖白纸色底 + 深色文字（Task 3 变量）",
+   "detail": "bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "宋体字体栈且保留 serif 回退",
+   "detail": "\"Songti SC\", STSong, SimSun, serif",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "样式表可解析（73 条规则）",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "桌面正文两端对齐",
+   "detail": "justify",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "横向溢出严格判定 scrollWidth<=innerWidth（769<=769）",
+   "detail": "scrollW=769 inner=769 client=769 scrollX=0",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "769px",
+   "step": "更严格：scrollWidth<=clientWidth",
+   "detail": "769<=769",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "量公共版心 .site-header__inner ≤1120 且左右留白对称",
+   "detail": "版心=960px 留白 L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "正文容器 .main-content 与报头同宽同边距",
+   "detail": "main=960px L32/R32.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1b",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px(无滚动条占位)",
+   "step": "1024 版心≈960（100% − 2×2rem）",
+   "detail": "版心=960px inner=1024 client=1024（桌面测量含滚动条占位 0px）",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "正文／首页文字区宽度 ≤736",
+   "detail": "文字块=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": ".article__body max-width ≤736",
+   "detail": "max-width=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "报头单行完整显示、不被裁切",
+   "detail": "scrollW=381 clientW=381 行=1 文本=自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "报头上下双细线",
+   "detail": "上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=960",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "双细线不被报头文字穿越（文字盒完全位于两条线之间）",
+   "detail": "文字距上线 20px、距下线 20px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "四项导航同一行",
+   "detail": "tops=[150,150,150,150]",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "导航顺序正确、无重叠",
+   "detail": "首页|新闻消息|新闻通讯|新闻评论",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "桌面隐藏汉堡按钮",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "主导航横向常显",
+   "detail": "nav=block dir=row shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "当前页=暗红+700+2px 暗红实下边线",
+   "detail": "color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "链接默认无 transform（不缩放不位移）",
+   "detail": "none,none,none,none",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "强制 hover 第 1 项：仅变暗红，不位移不缩放",
+   "detail": "色 rgb(33, 31, 28) → rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "暖白纸色底 + 深色文字（Task 3 变量）",
+   "detail": "bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "宋体字体栈且保留 serif 回退",
+   "detail": "\"Songti SC\", STSong, SimSun, serif",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "样式表可解析（73 条规则）",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "桌面正文两端对齐",
+   "detail": "justify",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "横向溢出严格判定 scrollWidth<=innerWidth（1024<=1024）",
+   "detail": "scrollW=1024 inner=1024 client=1024 scrollX=0",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1024px",
+   "step": "更严格：scrollWidth<=clientWidth",
+   "detail": "1024<=1024",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "量公共版心 .site-header__inner ≤1120 且左右留白对称",
+   "detail": "版心=1120px 留白 L80/R80.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "正文容器 .main-content 与报头同宽同边距",
+   "detail": "main=1120px L80/R80.0",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "正文／首页文字区宽度 ≤736",
+   "detail": "文字块=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": ".article__body max-width ≤736",
+   "detail": "max-width=736px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "报头单行完整显示、不被裁切",
+   "detail": "scrollW=381 clientW=381 行=1 文本=自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "报头上下双细线",
+   "detail": "上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=1120",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "双细线不被报头文字穿越（文字盒完全位于两条线之间）",
+   "detail": "文字距上线 20px、距下线 20px",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "四项导航同一行",
+   "detail": "tops=[150,150,150,150]",
+   "handoff": ""
+  },
+  {
+   "id": "RB3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "导航顺序正确、无重叠",
+   "detail": "首页|新闻消息|新闻通讯|新闻评论",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "桌面隐藏汉堡按钮",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RB4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "主导航横向常显",
+   "detail": "nav=block dir=row shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "当前页=暗红+700+2px 暗红实下边线",
+   "detail": "color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "链接默认无 transform（不缩放不位移）",
+   "detail": "none,none,none,none",
+   "handoff": ""
+  },
+  {
+   "id": "RB5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "强制 hover 第 1 项：仅变暗红，不位移不缩放",
+   "detail": "色 rgb(33, 31, 28) → rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "暖白纸色底 + 深色文字（Task 3 变量）",
+   "detail": "bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "宋体字体栈且保留 serif 回退",
+   "detail": "\"Songti SC\", STSong, SimSun, serif",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "样式表可解析（73 条规则）",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RB6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "桌面正文两端对齐",
+   "detail": "justify",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "横向溢出严格判定 scrollWidth<=innerWidth（1280<=1280）",
+   "detail": "scrollW=1280 inner=1280 client=1280 scrollX=0",
+   "handoff": ""
+  },
+  {
+   "id": "RB7",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "更严格：scrollWidth<=clientWidth",
+   "detail": "1280<=1280",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "左右留白各约 16px（--page-gutter:1rem）",
+   "detail": "L16 R16.0",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "版心随可用宽度收缩（=视口−2×16px），无固定内容宽度",
+   "detail": "报头版心=343 main=343 client=375",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "无内部滚动区、无超出视口的固定像素宽元素、无裁切",
+   "detail": "内部滚动元素=[] 过宽元素=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "报头内部改为纵向流",
+   "detail": "flex/column",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px）",
+   "detail": "实测=41.25px",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "页面标题流式缩小但仍比正文醒目",
+   "detail": "title=28px 参照正文=17px（1280 基线 40px）",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "报头与页面标题不溢出",
+   "detail": "mast 236/236 · title 343/343",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "长评论标题在窄宽度自然折成多行、任一移动宽度都不溢出（768px 下单行即为正确结果）",
+   "detail": "行数=2 343<=343 盒宽=343 client=375",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "末行不残留单字孤悬",
+   "detail": "末行宽=196px ≈ 7.0 字（字号 28px，共 2 行片段）",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "文章保持单栏、段落数=29",
+   "detail": "段=29 column-count=auto 宽=343",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "正文段落首行缩进 2em",
+   "detail": "text-indent=34px 正文字号=17px",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": ".dateline 仍内联于首段首行",
+   "detail": "{\"present\":false} 行高=32.3（内联盒与行盒 top 允许相差 <1 行）",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "末尾日期右对齐、无首行缩进、极窄宽度下不溢出",
+   "detail": "align=right indent=0px 343<=343 折行=1",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "基线命中的 8 个中英文混排术语（AI, .exe, Windows 10, UOS, USB, OPS, Linux, 4K）在渲染文本中原样完整",
+   "detail": "全部命中",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语",
+   "detail": "word-break=normal hyphens=none overflow-wrap=normal",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "未插入 <wbr>／软连字符／零宽字符，原文字符不变",
+   "detail": "不可见断行字符 0 个",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "scrollWidth<=innerWidth 严格判定（不放宽 1px）",
+   "detail": "375<=375",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "更严格：documentElement/body scrollWidth<=clientWidth",
+   "detail": "de=375 body=375 client=375",
+   "handoff": ""
+  },
+  {
+   "id": "RC7",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "移动端正文改为 text-align: start（窄行不留大空隙）",
+   "detail": "text-align=start",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": ".js 关闭态：按钮可见、导航折叠、aria-expanded=false",
+   "detail": "tog=flex nav=none open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "命中移动断点且未命中桌面断点",
+   "detail": "mqM=true mqD=false",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "左右留白各约 16px（--page-gutter:1rem）",
+   "detail": "L16 R16.0",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "版心随可用宽度收缩（=视口−2×16px），无固定内容宽度",
+   "detail": "报头版心=736 main=736 client=768",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "无内部滚动区、无超出视口的固定像素宽元素、无裁切",
+   "detail": "内部滚动元素=[] 过宽元素=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "报头内部改为纵向流",
+   "detail": "flex/column",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px）",
+   "detail": "实测=56px",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "页面标题流式缩小但仍比正文醒目",
+   "detail": "title=36px 参照正文=17px（1280 基线 40px）",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "报头与页面标题不溢出",
+   "detail": "mast 320/320 · title 736/736",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "长评论标题在窄宽度自然折成多行、任一移动宽度都不溢出（768px 下单行即为正确结果）",
+   "detail": "行数=1 736<=736 盒宽=736 client=768",
+   "handoff": ""
+  },
+  {
+   "id": "RC2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "末行不残留单字孤悬",
+   "detail": "末行宽=540px ≈ 15.0 字（字号 36px，共 1 行片段）",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "文章保持单栏、段落数=29",
+   "detail": "段=29 column-count=auto 宽=736",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "正文段落首行缩进 2em",
+   "detail": "text-indent=34px 正文字号=17px",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": ".dateline 仍内联于首段首行",
+   "detail": "{\"present\":false} 行高=32.3（内联盒与行盒 top 允许相差 <1 行）",
+   "handoff": ""
+  },
+  {
+   "id": "RC4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "末尾日期右对齐、无首行缩进、极窄宽度下不溢出",
+   "detail": "align=right indent=0px 736<=736 折行=1",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "基线命中的 8 个中英文混排术语（AI, .exe, Windows 10, UOS, USB, OPS, Linux, 4K）在渲染文本中原样完整",
+   "detail": "全部命中",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语",
+   "detail": "word-break=normal hyphens=none overflow-wrap=normal",
+   "handoff": ""
+  },
+  {
+   "id": "RC5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "未插入 <wbr>／软连字符／零宽字符，原文字符不变",
+   "detail": "不可见断行字符 0 个",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "scrollWidth<=innerWidth 严格判定（不放宽 1px）",
+   "detail": "768<=768",
+   "handoff": ""
+  },
+  {
+   "id": "RC6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "更严格：documentElement/body scrollWidth<=clientWidth",
+   "detail": "de=768 body=768 client=768",
+   "handoff": ""
+  },
+  {
+   "id": "RC7",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "移动端正文改为 text-align: start（窄行不留大空隙）",
+   "detail": "text-align=start",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": ".js 关闭态：按钮可见、导航折叠、aria-expanded=false",
+   "detail": "tog=flex nav=none open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RC1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "命中移动断点且未命中桌面断点",
+   "detail": "mqM=true mqD=false",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "跳转链接是第一个 Tab 停靠点",
+   "detail": "active=skip-link/A",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "首次 Tab 后出现在左上角、文字与背景清晰、带轮廓",
+   "detail": "top=0 left=0 h=52 outline=2px solid rgb(122, 36, 36) bg=rgb(245, 239, 228) color=rgb(33, 31, 28)",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "激活跳转链接后跳到 #main-content 且正文获得焦点",
+   "detail": "active=main-content/MAIN",
+   "handoff": ""
+  },
+  {
+   "id": "RD4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "报头未被推动（文档坐标不变，只有到达目标的纵向滚动）、无横向滚动、正文焦点轮廓可感知",
+   "detail": "scrollX=0 header 文档坐标 0->0（视口 0->-164，scrollY 0->164） outline=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RD3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "纯键盘到达菜单按钮，暗红实线轮廓清晰且不被裁切",
+   "detail": "active=nav-toggle outline=2px solid rgb(122, 36, 36) offset=3px 裁切祖先=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RD1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": ".nav-toggle 实际 getBoundingClientRect ≥44×44 CSS px",
+   "detail": "86×46",
+   "handoff": ""
+  },
+  {
+   "id": "RD2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "每个可见 .site-navigation__link 实际点击区 ≥44×44",
+   "detail": "[[343,46],[343,46],[343,46],[343,46]]",
+   "handoff": ""
+  },
+  {
+   "id": "RD2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "链接占满行宽便于触控",
+   "detail": "导航宽=343 链接宽=343,343,343,343",
+   "handoff": ""
+  },
+  {
+   "id": "RD3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "逐个链接键盘焦点轮廓清晰且不被边框/展开菜单/容器裁切",
+   "detail": "[[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"],[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"],[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"],[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\",\"\"]]",
+   "handoff": ""
+  },
+  {
+   "id": "RD3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "焦点环不被视口边界切掉",
+   "detail": "[[16,176],[16,223],[16,270],[16,317]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px/禁用JS",
+   "step": "先禁用 JS 再硬刷新：html 仍为 no-js",
+   "detail": "no-js",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px/禁用JS",
+   "step": "按钮不可见",
+   "detail": "display=none",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px/禁用JS",
+   "step": "四项导航纵向常显、可点击、可聚焦",
+   "detail": "nav=block [[343,46,true],[343,46,true],[343,46,true],[343,46,true]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px/禁用JS",
+   "step": "无脚本时导航为纵向列表",
+   "detail": "column",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px/禁用JS",
+   "step": "当前页仍以颜色与线条区分",
+   "detail": "color=rgb(122, 36, 36) bb=2px solid rgb(122, 36, 36)",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px/禁用JS",
+   "step": "隐藏按钮不进入 Tab 顺序",
+   "detail": "skip-link>site-masthead__link>site-navigation__link",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px/禁用JS",
+   "step": "跳转链接与导航链接均可 Tab 到达",
+   "detail": "skip-link>site-masthead__link>site-navigation__link",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px/禁用JS",
+   "step": "无脚本态焦点轮廓不被裁切",
+   "detail": "2px solid rgb(122, 36, 36) 祖先=[]",
+   "handoff": ""
+  },
+  {
+   "id": "RE1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px/禁用JS",
+   "step": "无脚本时链接仍可点击并真实导航",
+   "detail": "frameNavigated=1 落地=news-message.html",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "JS 可用硬刷新后 html 为 js 且不含 no-js",
+   "detail": "js",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "关闭态隐藏链接不生成布局盒（因而不在 Tab 顺序）",
+   "detail": "[[false,0],[false,0],[false,0],[false,0]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "关闭态 Tab 序列不含导航链接",
+   "detail": "skip-link>site-masthead__link",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "激活按钮后：.is-open + aria-expanded=true + 导航显示",
+   "detail": "open=true aria=true disp=block",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "四项纵向完整显示且点击区达标",
+   "detail": "[[343,46],[343,46],[343,46],[343,46]]",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "展开菜单项纵向排列互不重叠",
+   "detail": "176 > 223 > 270 > 317",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "展开菜单不覆盖正文、不横向推挤报头",
+   "detail": "nav.bottom=364 main.top=364 inner.right=359.0 client=375",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "展开不使报头位移或被截断",
+   "detail": "masthead.top 16 -> 16",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "展开态仍无横向溢出",
+   "detail": "375<=375",
+   "handoff": ""
+  },
+  {
+   "id": "RE2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "页面不因隐藏导航留下异常固定高度或空白（只有展开才增高、把正文下推）",
+   "detail": "header 高 闭=164 开=364 Δ=200 四链接合计=184; main.top 164->364",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "点击打开后焦点仍在按钮（披露式，不强制移入）",
+   "detail": "nav-toggle",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "Tab 顺序自然：按钮→四个导航链接（第 5 次离开导航）",
+   "detail": "nav-toggle > site-navigation__link > site-navigation__link > site-navigation__link > site-navigation__link > BODY",
+   "handoff": ""
+  },
+  {
+   "id": "RE3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "按钮之后不重复回到按钮/焦点陷阱",
+   "detail": "site-navigation__link>site-navigation__link>site-navigation__link>site-navigation__link>BODY",
+   "handoff": ""
+  },
+  {
+   "id": "RE4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "is-open 与 aria-expanded 同步（打开）",
+   "detail": "open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RE4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "is-open 与 aria-expanded 同步（关闭）",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "点击按钮打开一次，状态与 ARIA 同步",
+   "detail": "open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "再次点击关闭一次，状态与 ARIA 同步",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF5",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "披露式焦点策略：焦点保持在按钮，未强制移入菜单",
+   "detail": "nav-toggle",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "聚焦按钮按 Enter：恰好一次激活（keydown 激活）",
+   "detail": "Δclick=1 open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "Enter 再按：恰好切回关闭",
+   "detail": "Δclick=1 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "Space：与点击等效、恰好一次激活（keyup 激活）",
+   "detail": "Δclick=1 open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "Space 再按恰好切回，无双触发",
+   "detail": "Δclick=1 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RF3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "前置：菜单为打开态",
+   "detail": "open=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "打开态（焦点在 site-navigation__link）按 Esc：关闭菜单且焦点返回 #nav-toggle",
+   "detail": "open=false aria=false active=nav-toggle",
+   "handoff": ""
+  },
+  {
+   "id": "RF3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "关闭态按 Esc 无副作用（不抢焦点、不滚动）",
+   "detail": "active nav-toggle->nav-toggle scrollY 0->0",
+   "handoff": ""
+  },
+  {
+   "id": "RF4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "打开态点击第 3 项「新闻通讯」：先关闭再导航，落地无展开残留",
+   "detail": "navigated=1 落地=news-feature.html open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "点击「新闻通讯」到达现有页面",
+   "detail": "news-feature.html :: 从数学题到AI时代的学习｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RF4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "打开态点击第 1 项「首页」：先关闭再导航，落地无展开残留",
+   "detail": "navigated=1 落地=index.html open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RA4",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "点击「首页」到达现有页面",
+   "detail": "index.html :: 《自然选择号》报社简介｜自然选择号",
+   "handoff": ""
+  },
+  {
+   "id": "RF7",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "点击菜单外正文区域：菜单保持展开（合同已定，不实现外点关闭，不判失败）",
+   "detail": "open=true aria=true",
+   "handoff": ""
+  },
+  {
+   "id": "RF7",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "外点过程无报错、无异常失焦",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RF6",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "折叠由 CSS display 负责：脚本未用 tabindex/aria-hidden/hidden/inert 管理链接可聚焦性",
+   "detail": "导航子树被标记属性=[] main.tabindex=-1",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768px",
+   "step": "前置：768px 打开菜单",
+   "detail": "open=true mqM=true mqD=false",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768→769px",
+   "step": "对照监听：本渲染环境确实派发 mediaquery change 事件",
+   "detail": "[\"change:true\"]",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768→769px",
+   "step": "跨到 769px：.is-open 清除且 aria-expanded 重置 false",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768→769px",
+   "step": "按钮隐藏、导航立即恢复横向常显",
+   "detail": "tog=none nav=block shown=true,true,true,true",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768→769px",
+   "step": "移动 display:none/纵向规则不再作用（同一行）",
+   "detail": "150,150,150,150",
+   "handoff": ""
+  },
+  {
+   "id": "RG1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "768→769px",
+   "step": "移动字号与移动间距退出，桌面基线回来（报头 64px、版心=视口−2×2rem、导航 gap 恢复）",
+   "detail": "mast=64px 版心=705 client=769 期望=705 gap=40px",
+   "handoff": ""
+  },
+  {
+   "id": "RG2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "再缩回 ≤768px：菜单为关闭态，不复用旧展开状态",
+   "detail": "open=false aria=false",
+   "handoff": ""
+  },
+  {
+   "id": "RG2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "缩回后仍可正常打开",
+   "detail": "open=true",
+   "handoff": ""
+  },
+  {
+   "id": "RG3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "断点连续切换",
+   "step": "切换过程无布局跳变残留、无横向溢出",
+   "detail": "scrollW=1280 inner=1280 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/100%",
+   "step": "记录缩放前 innerWidth=1280",
+   "detail": "client=1280 根字号=16px 报头=64px 版心=1120",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "200%",
+   "step": "缩放的两个效果同时成立：CSS 视口折半（1280→640）且文字实际像素翻倍",
+   "detail": "inner=640 dpr=2 报头 CSS=56px 实际=641 设备像素（100% 时 381px）",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "200%",
+   "step": "记录缩放后 innerWidth=640（100% 时为 1280）",
+   "detail": "机制=CDP zoom=2 在本 Chrome 为 no-op（zoom_probe.mjs 已证实）→ 用 640px 布局视口 + deviceScaleFactor=2 复现 200% 的布局与绘制两个效果；dpr=2 client=640",
+   "handoff": ""
+  },
+  {
+   "id": "RH1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "200%",
+   "step": "根字号由 html{font-size:100%} 派生、未锁死为像素（缩放按 CSS px 等比生效）",
+   "detail": "100%=16px → 200%=16px",
+   "handoff": ""
+  },
+  {
+   "id": "RH2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "200%→640px",
+   "step": "缩放后 innerWidth≤768：进入移动布局（属预期正确结果），按钮可见、导航折叠",
+   "detail": "inner=640 tog=flex nav=none",
+   "handoff": ""
+  },
+  {
+   "id": "RH2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "200%→640px",
+   "step": "复查菜单三态与 44px 点击区",
+   "detail": "open=true [[608,46],[608,46],[608,46],[608,46]]",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "200%→640px",
+   "step": "缩放下焦点未丢失：Tab 后仍有暗红实线轮廓",
+   "detail": "[\"site-navigation__link\",\"2px solid rgb(122, 36, 36)\"]",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "200%→640px",
+   "step": "200% 下无横向滚动",
+   "detail": "scrollW=640 inner=640 client=640",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "200%→640px",
+   "step": "无文字裁切、元素不越界",
+   "detail": "mast 320/320 · title 608/608 · nav.right=624",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "200%→640px",
+   "step": "元素不重叠（折叠时导航不占位，展开时不压正文）",
+   "detail": "{\"hidden\":true,\"overlap\":false}",
+   "handoff": ""
+  },
+  {
+   "id": "RH3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/回到100%",
+   "step": "恢复 100% 后布局与状态无残留",
+   "detail": "inner=1280 版心=1120 open=false",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/禁用JS",
+   "step": "禁用 JS 并硬刷新：html 保持 no-js，CSS 仍生效（样式不依赖脚本）",
+   "detail": "class=no-js rules=45",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/禁用JS",
+   "step": "无脚本时正文完整可见、与 Task 10 基线逐段全等（29 段）",
+   "detail": "实测=29 段",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/禁用JS",
+   "step": "逐段字符数与基线一致（内容不依赖脚本注入）",
+   "detail": "基线=80,56,15,64,138,101,50,75,100,118,34,167,16,98,68,70,17,65,30,126,100,13,65,35,24,163,37,77,36 实测=80,56,15,64,138,101,50,75,100,118,34,167,16,98,68,70,17,65,30,126,100,13,65,35,24,163,37,77,36",
+   "handoff": ""
+  },
+  {
+   "id": "RI1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/禁用JS",
+   "step": "主内容节点与字符量在非脚本状态下保持",
+   "detail": "{\"n\":33,\"len\":2071}",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/禁用CSS",
+   "step": "CSS 已真实停用（纸色底回退为浏览器默认）",
+   "detail": "disabled=[true] body背景=rgba(0, 0, 0, 0) 版心=1264",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/禁用CSS",
+   "step": "无内容因样式缺失而消失（主内容 textContent 全等）",
+   "detail": "段=29 字符=2411",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/禁用CSS",
+   "step": "文章页阅读顺序：页面类型→标题→署名→正文",
+   "detail": "类型=0 标题=1 署名=2 正文首段=3 / 共 33 个文本节点",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/禁用CSS",
+   "step": "末尾日期位于正文之后（阅读顺序最后一步）",
+   "detail": "日期位置=32 文本节点=33 值=（自然选择号9月18日）",
+   "handoff": ""
+  },
+  {
+   "id": "RI2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/禁用CSS",
+   "step": "导航链接仍在文档树与无障碍树中（role=link + 可访问名）",
+   "detail": "[{\"role\":\"link\",\"name\":\"首页\"},{\"role\":\"link\",\"name\":\"新闻消息\"},{\"role\":\"link\",\"name\":\"新闻通讯\"},{\"role\":\"link\",\"name\":\"新闻评论\"}]",
+   "handoff": ""
+  },
+  {
+   "id": "RI3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "恢复启用并硬刷新：回到正常基线、无残留",
+   "detail": "class=js bg=rgb(245, 239, 228) 版心=1120",
+   "handoff": ""
+  },
+  {
+   "id": "RJ2",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280 与 375px",
+   "step": "段落数量=29（与 Task 10 基线一致）",
+   "detail": "桌面=29 移动=29",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "移动渲染正文与 Task 10 逐段基线全等（CSS 换行/clamp/安全换行未增删字符）",
+   "detail": "渲染字符=2038 基线=2038",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280 vs 375",
+   "step": "跨断点所见正文文本一致",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "页面标题与报头文本与基线一致",
+   "detail": "设备升级了，使用门槛也该降下来",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "页面类型／标题／署名与基线逐字符一致",
+   "detail": "[新闻评论][设备升级了，使用门槛也该降下来][蓝色空间]",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "渲染顺序：类型→标题→署名",
+   "detail": "251 < 290 < 356",
+   "handoff": ""
+  },
+  {
+   "id": "RJ1",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px",
+   "step": "末尾日期与基线一致且可见",
+   "detail": "基线[（自然选择号9月18日）] 实测[（自然选择号9月18日）]",
+   "handoff": ""
+  },
+  {
+   "id": "RJ3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "-",
+   "step": "伪元素 content 只用于画线（空串），未生成任何可见文字",
+   "detail": "content 声明 2 处：[\"content: \\\"\\\"\",\"content: \\\"\\\"\"]；可疑：[]",
+   "handoff": ""
+  },
+  {
+   "id": "RJ3",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "375px",
+   "step": "全部交互与降级之后主内容无脚本注入文本、无字符增删",
+   "detail": "字符 2411 -> 2411",
+   "handoff": ""
+  },
+  {
+   "id": "RB6-PIX",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/四页均已访问",
+   "step": "屏幕像素：报头\"自然选择号\"必须是深色文字（Task 3 纸媒基线），不得被 a:visited 重绘为暗红",
+   "detail": "实测 rgb(33,31,28) 距ink=0 距accent=89 → 深色(ink)；时间线 1.8s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 3.6s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5-PIX",
+   "status": "PASS",
+   "page": "index.html",
+   "width": "1280px/四页均已访问",
+   "step": "屏幕像素：三个非当前页导航链接必须是深色（合同：普通链接为深色、当前链接为暗红）",
+   "detail": "[[\"新闻消息\",\"rgb(46,33,36)\",\"深色(ink)\"],[\"新闻通讯\",\"rgb(38,31,33)\",\"深色(ink)\"],[\"新闻评论\",\"rgb(41,32,36)\",\"深色(ink)\"]]；时间线 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6-PIX",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px/四页均已访问",
+   "step": "屏幕像素：报头\"自然选择号\"必须是深色文字（Task 3 纸媒基线），不得被 a:visited 重绘为暗红",
+   "detail": "实测 rgb(33,31,28) 距ink=0 距accent=89 → 深色(ink)；时间线 1.8s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 3.6s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5-PIX",
+   "status": "PASS",
+   "page": "news-message.html",
+   "width": "1280px/四页均已访问",
+   "step": "屏幕像素：三个非当前页导航链接必须是深色（合同：普通链接为深色、当前链接为暗红）",
+   "detail": "[[\"首页\",\"rgb(48,35,36)\",\"深色(ink)\"],[\"新闻通讯\",\"rgb(38,31,33)\",\"深色(ink)\"],[\"新闻评论\",\"rgb(41,32,36)\",\"深色(ink)\"]]；时间线 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6-PIX",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px/四页均已访问",
+   "step": "屏幕像素：报头\"自然选择号\"必须是深色文字（Task 3 纸媒基线），不得被 a:visited 重绘为暗红",
+   "detail": "实测 rgb(33,31,28) 距ink=0 距accent=89 → 深色(ink)；时间线 1.8s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 3.6s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5-PIX",
+   "status": "PASS",
+   "page": "news-feature.html",
+   "width": "1280px/四页均已访问",
+   "step": "屏幕像素：三个非当前页导航链接必须是深色（合同：普通链接为深色、当前链接为暗红）",
+   "detail": "[[\"首页\",\"rgb(48,35,36)\",\"深色(ink)\"],[\"新闻消息\",\"rgb(46,33,36)\",\"深色(ink)\"],[\"新闻评论\",\"rgb(41,32,36)\",\"深色(ink)\"]]；时间线 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)",
+   "handoff": ""
+  },
+  {
+   "id": "RB6-PIX",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/四页均已访问",
+   "step": "屏幕像素：报头\"自然选择号\"必须是深色文字（Task 3 纸媒基线），不得被 a:visited 重绘为暗红",
+   "detail": "实测 rgb(33,31,28) 距ink=0 距accent=89 → 深色(ink)；时间线 1.8s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 3.6s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)",
+   "handoff": ""
+  },
+  {
+   "id": "RB5-PIX",
+   "status": "PASS",
+   "page": "news-commentary.html",
+   "width": "1280px/四页均已访问",
+   "step": "屏幕像素：三个非当前页导航链接必须是深色（合同：普通链接为深色、当前链接为暗红）",
+   "detail": "[[\"首页\",\"rgb(48,35,36)\",\"深色(ink)\"],[\"新闻消息\",\"rgb(46,33,36)\",\"深色(ink)\"],[\"新闻通讯\",\"rgb(38,31,33)\",\"深色(ink)\"]]；时间线 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)",
+   "handoff": ""
+  },
+  {
+   "id": "RA3",
+   "status": "PASS",
+   "page": "四页全程",
+   "width": "全部宽度/状态/操作",
+   "step": "控制台 0 错误 0 警告（含未捕获异常与浏览器日志，探针自身不使用 console）",
+   "detail": "",
+   "handoff": ""
+  },
+  {
+   "id": "RO",
+   "status": "PASS",
+   "page": "Results/ + Materials/",
+   "width": "-",
+   "step": "回归前后六个交付文件与三份素材的 SHA-256/字节数/清单逐项一致，Results/ 仍恰为六个文件",
+   "detail": "前=[index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css] 后=[index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css] 哈希表=一致",
+   "handoff": ""
+  }
+ ],
+ "noise": [],
+ "hashBefore": "73f49fd8d01bb578a5a1fcc76ca8967e19feb29ec8e1c64e1aed7b2006c3d901  index.html  2612\na2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52  news-commentary.html  8486\n73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5  news-feature.html  6962\n66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8  news-message.html  3011\nabb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666  script.js  2204\n2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad418ba1  styles.css  12401\nde10b575399e0563430f2f255c956b179c9978c087897a24910ad70d6a50f6fc  Materials/新闻消息.docx  14742\n8e50cfc89287035163d5fe95c8b1cee20a5aa405e9d04ec358fb5c9312c3827c  Materials/新闻评价.docx  20014\n0c5b35256b7271acfb2f49aec146288b404ed49c376ac2c8b3f6246b38f894a4  Materials/新闻通讯.docx  17155",
+ "hashAfter": "73f49fd8d01bb578a5a1fcc76ca8967e19feb29ec8e1c64e1aed7b2006c3d901  index.html  2612\na2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52  news-commentary.html  8486\n73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5  news-feature.html  6962\n66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8  news-message.html  3011\nabb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666  script.js  2204\n2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad418ba1  styles.css  12401\nde10b575399e0563430f2f255c956b179c9978c087897a24910ad70d6a50f6fc  Materials/新闻消息.docx  14742\n8e50cfc89287035163d5fe95c8b1cee20a5aa405e9d04ec358fb5c9312c3827c  Materials/新闻评价.docx  20014\n0c5b35256b7271acfb2f49aec146288b404ed49c376ac2c8b3f6246b38f894a4  Materials/新闻通讯.docx  17155"
+}

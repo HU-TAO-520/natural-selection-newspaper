@@ -1,0 +1,821 @@
+[环境] [REC] Results/ — - — 验收环境：Chrome/153.0.8010.52 · headless=new · file:// 直开 · profile=C:\Users\weibo\Documents\语文报纸\_qa_task11\.cdp9351-1789824207362
+[RB5] [PASS] index.html — 1280px/冷历史 — 未访问过的导航链接为墨色（组件覆盖 a 基础色） — [["新闻消息","rgb(33, 31, 28)"],["新闻通讯","rgb(33, 31, 28)"],["新闻评论","rgb(33, 31, 28)"]]
+[RB5] [PASS] index.html — 1280px/冷历史 — 当前页带 2px 暗红实下边线 — [["首页","page","2px solid rgb(122, 36, 36)"],["新闻消息",null,"2px solid rgba(0, 0, 0, 0)"],["新闻通讯",null,"2px solid rgba(0, 0, 0, 0)"],["新闻评论",null,"2px solid rgba(0, 0, 0, 0)"]]
+[RB6] [PASS] index.html — 1280px/冷历史 — 报头链接冷历史下为墨色（深色文字基线） — rgb(33, 31, 28)
+[RA1] [PASS] index.html — 1280px — 从 file:// 直接打开并完成 load 事件 — load=true title=《自然选择号》报社简介｜自然选择号
+[RA2] [PASS] index.html — 1280px — styles.css 成功加载并解析（非 404，规则可读） — [{"href":"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/styles.css","rules":45,"disabled":false}]
+[RA2] [PASS] index.html — 1280px — script.js 成功加载并执行（no-js→js 已发生） — js
+[RA2] [PASS] index.html — 1280px — DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL — [{"n":"styles.css","t":"Stylesheet","failed":false,"local":true},{"n":"script.js","t":"Script","failed":false,"local":true}]
+[RA2] [PASS] index.html — 1280px — DOM 属性与 CSSOM 规则中无 http(s)/协议相对/data/@import/url() 外链（远程字体、CDN 均无） — {"bad":[],"rules":[]}
+[RA3] [PASS] index.html — 1280px — 加载阶段控制台 0 错误 0 警告
+[RA1] [PASS] news-message.html — 1280px — 从 file:// 直接打开并完成 load 事件 — load=true title=我校启动校本课程志愿填报｜自然选择号
+[RA2] [PASS] news-message.html — 1280px — styles.css 成功加载并解析（非 404，规则可读） — [{"href":"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/styles.css","rules":45,"disabled":false}]
+[RA2] [PASS] news-message.html — 1280px — script.js 成功加载并执行（no-js→js 已发生） — js
+[RA2] [PASS] news-message.html — 1280px — DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL — [{"n":"styles.css","t":"Stylesheet","failed":false,"local":true},{"n":"script.js","t":"Script","failed":false,"local":true}]
+[RA2] [PASS] news-message.html — 1280px — DOM 属性与 CSSOM 规则中无 http(s)/协议相对/data/@import/url() 外链（远程字体、CDN 均无） — {"bad":[],"rules":[]}
+[RA3] [PASS] news-message.html — 1280px — 加载阶段控制台 0 错误 0 警告
+[RA1] [PASS] news-feature.html — 1280px — 从 file:// 直接打开并完成 load 事件 — load=true title=从数学题到AI时代的学习｜自然选择号
+[RA2] [PASS] news-feature.html — 1280px — styles.css 成功加载并解析（非 404，规则可读） — [{"href":"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/styles.css","rules":45,"disabled":false}]
+[RA2] [PASS] news-feature.html — 1280px — script.js 成功加载并执行（no-js→js 已发生） — js
+[RA2] [PASS] news-feature.html — 1280px — DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL — [{"n":"styles.css","t":"Stylesheet","failed":false,"local":true},{"n":"script.js","t":"Script","failed":false,"local":true}]
+[RA2] [PASS] news-feature.html — 1280px — DOM 属性与 CSSOM 规则中无 http(s)/协议相对/data/@import/url() 外链（远程字体、CDN 均无） — {"bad":[],"rules":[]}
+[RA3] [PASS] news-feature.html — 1280px — 加载阶段控制台 0 错误 0 警告
+[RA1] [PASS] news-commentary.html — 1280px — 从 file:// 直接打开并完成 load 事件 — load=true title=设备升级了，使用门槛也该降下来｜自然选择号
+[RA2] [PASS] news-commentary.html — 1280px — styles.css 成功加载并解析（非 404，规则可读） — [{"href":"file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/styles.css","rules":45,"disabled":false}]
+[RA2] [PASS] news-commentary.html — 1280px — script.js 成功加载并执行（no-js→js 已发生） — js
+[RA2] [PASS] news-commentary.html — 1280px — DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL — [{"n":"styles.css","t":"Stylesheet","failed":false,"local":true},{"n":"script.js","t":"Script","failed":false,"local":true}]
+[RA2] [PASS] news-commentary.html — 1280px — DOM 属性与 CSSOM 规则中无 http(s)/协议相对/data/@import/url() 外链（远程字体、CDN 均无） — {"bad":[],"rules":[]}
+[RA3] [PASS] news-commentary.html — 1280px — 加载阶段控制台 0 错误 0 警告
+[RA2] [PASS] 四页汇总 — - — Network 域全程 12 条事件中无 http(s)/CDN/远程字体请求
+[RA2] [PASS] 四页汇总 — - — Network 域无 404/失败资源
+[RB5-V] [PASS] index.html — 1280px/热历史 — 访问过目标页后，普通导航链接仍为深色（Task 3 完成定义：普通链接为深色，当前链接为暗红） — 翻转 0 条 ::  || 现在色值=[["首页","rgb(122, 36, 36)","current"],["新闻消息","rgb(33, 31, 28)",""],["新闻通讯","rgb(33, 31, 28)",""],["新闻评论","rgb(33, 31, 28)",""]]
+[RB5-V2] [PASS] index.html — 1280px/热历史 — 退化后的残余区分能力：当前页仍有暗红实下边线，其余为透明线 — current=["2px solid rgb(122, 36, 36)"] others=["2px solid rgba(0, 0, 0, 0)","2px solid rgba(0, 0, 0, 0)","2px solid rgba(0, 0, 0, 0)"]
+[RB6-V] [PASS] index.html — 1280px/热历史 — 报头"自然选择号"访问后仍为深色文字 — 实测=rgb(33, 31, 28)（冷历史={"text":"首页","href":"index.html","color":"rgb(122, 36, 36)","bb":"2px solid rgb(122, 36, 36)","fw":"700"}）
+[RB5-V] [PASS] index.html — 1280px/四页均已访问 — 用户已访问全部目标页后，普通导航链接仍为深色（未被 a:visited 覆盖为暗红） — 刚加载=[["新闻消息","rgb(33, 31, 28)"],["新闻通讯","rgb(33, 31, 28)"],["新闻评论","rgb(33, 31, 28)"]] → 轮询 4s 后=[["新闻消息","rgb(33, 31, 28)"],["新闻通讯","rgb(33, 31, 28)"],["新闻评论","rgb(33, 31, 28)"]]；当前页=[["首页","rgb(122, 36, 36)"]]
+[RB6-V] [PASS] index.html — 1280px/四页均已访问 — 报头"自然选择号"在访问后仍为深色文字 — rgb(33, 31, 28)
+[RB5-V] [PASS] news-message.html — 1280px/四页均已访问 — 用户已访问全部目标页后，普通导航链接仍为深色（未被 a:visited 覆盖为暗红） — 刚加载=[["首页","rgb(33, 31, 28)"],["新闻通讯","rgb(33, 31, 28)"],["新闻评论","rgb(33, 31, 28)"]] → 轮询 4s 后=[["首页","rgb(33, 31, 28)"],["新闻通讯","rgb(33, 31, 28)"],["新闻评论","rgb(33, 31, 28)"]]；当前页=[["新闻消息","rgb(122, 36, 36)"]]
+[RB6-V] [PASS] news-message.html — 1280px/四页均已访问 — 报头"自然选择号"在访问后仍为深色文字 — rgb(33, 31, 28)
+[RB5-V] [PASS] news-feature.html — 1280px/四页均已访问 — 用户已访问全部目标页后，普通导航链接仍为深色（未被 a:visited 覆盖为暗红） — 刚加载=[["首页","rgb(33, 31, 28)"],["新闻消息","rgb(33, 31, 28)"],["新闻评论","rgb(33, 31, 28)"]] → 轮询 4s 后=[["首页","rgb(33, 31, 28)"],["新闻消息","rgb(33, 31, 28)"],["新闻评论","rgb(33, 31, 28)"]]；当前页=[["新闻通讯","rgb(122, 36, 36)"]]
+[RB6-V] [PASS] news-feature.html — 1280px/四页均已访问 — 报头"自然选择号"在访问后仍为深色文字 — rgb(33, 31, 28)
+[RB5-V] [PASS] news-commentary.html — 1280px/四页均已访问 — 用户已访问全部目标页后，普通导航链接仍为深色（未被 a:visited 覆盖为暗红） — 刚加载=[["首页","rgb(33, 31, 28)"],["新闻消息","rgb(33, 31, 28)"],["新闻通讯","rgb(33, 31, 28)"]] → 轮询 4s 后=[["首页","rgb(33, 31, 28)"],["新闻消息","rgb(33, 31, 28)"],["新闻通讯","rgb(33, 31, 28)"]]；当前页=[["新闻评论","rgb(122, 36, 36)"]]
+[RB6-V] [PASS] news-commentary.html — 1280px/四页均已访问 — 报头"自然选择号"在访问后仍为深色文字 — rgb(33, 31, 28)
+[RA4] [PASS] index.html — 1280px — 点击第 1 项「首页」→ index.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=index.html 标题=《自然选择号》报社简介｜自然选择号
+[RA4] [PASS] index.html — 1280px — 点击第 2 项「新闻消息」→ news-message.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=news-message.html 标题=我校启动校本课程志愿填报｜自然选择号
+[RA4] [PASS] index.html — 1280px — 点击第 3 项「新闻通讯」→ news-feature.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=news-feature.html 标题=从数学题到AI时代的学习｜自然选择号
+[RA4] [PASS] index.html — 1280px — 点击第 4 项「新闻评论」→ news-commentary.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=news-commentary.html 标题=设备升级了，使用门槛也该降下来｜自然选择号
+[RA4] [PASS] news-message.html — 1280px — 点击第 1 项「首页」→ index.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=index.html 标题=《自然选择号》报社简介｜自然选择号
+[RA4] [PASS] news-message.html — 1280px — 点击第 2 项「新闻消息」→ news-message.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=news-message.html 标题=我校启动校本课程志愿填报｜自然选择号
+[RA4] [PASS] news-message.html — 1280px — 点击第 3 项「新闻通讯」→ news-feature.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=news-feature.html 标题=从数学题到AI时代的学习｜自然选择号
+[RA4] [PASS] news-message.html — 1280px — 点击第 4 项「新闻评论」→ news-commentary.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=news-commentary.html 标题=设备升级了，使用门槛也该降下来｜自然选择号
+[RA4] [PASS] news-feature.html — 1280px — 点击第 1 项「首页」→ index.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=index.html 标题=《自然选择号》报社简介｜自然选择号
+[RA4] [PASS] news-feature.html — 1280px — 点击第 2 项「新闻消息」→ news-message.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=news-message.html 标题=我校启动校本课程志愿填报｜自然选择号
+[RA4] [PASS] news-feature.html — 1280px — 点击第 3 项「新闻通讯」→ news-feature.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=news-feature.html 标题=从数学题到AI时代的学习｜自然选择号
+[RA4] [PASS] news-feature.html — 1280px — 点击第 4 项「新闻评论」→ news-commentary.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=news-commentary.html 标题=设备升级了，使用门槛也该降下来｜自然选择号
+[RA4] [PASS] news-commentary.html — 1280px — 点击第 1 项「首页」→ index.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=index.html 标题=《自然选择号》报社简介｜自然选择号
+[RA4] [PASS] news-commentary.html — 1280px — 点击第 2 项「新闻消息」→ news-message.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=news-message.html 标题=我校启动校本课程志愿填报｜自然选择号
+[RA4] [PASS] news-commentary.html — 1280px — 点击第 3 项「新闻通讯」→ news-feature.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=news-feature.html 标题=从数学题到AI时代的学习｜自然选择号
+[RA4] [PASS] news-commentary.html — 1280px — 点击第 4 项「新闻评论」→ news-commentary.html（16 条路径逐条） — 目标文件存在=true navigated=1 落地=news-commentary.html 标题=设备升级了，使用门槛也该降下来｜自然选择号
+[RB1] [PASS] index.html — 769px — 量公共版心 .site-header__inner ≤1120 且左右留白对称 — 版心=705px 留白 L32/R32.0
+[RB1] [PASS] index.html — 769px — 正文容器 .main-content 与报头同宽同边距 — main=705px L32/R32.0
+[RB2] [PASS] index.html — 769px — 正文／首页文字区宽度 ≤736 — 文字块=705px
+[RB3] [PASS] index.html — 769px — 报头单行完整显示、不被裁切 — scrollW=381 clientW=381 行=1 文本=自然选择号
+[RB3] [PASS] index.html — 769px — 报头上下双细线 — 上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=705
+[RB3] [PASS] index.html — 769px — 双细线不被报头文字穿越（文字盒完全位于两条线之间） — 文字距上线 20px、距下线 20px
+[RB3] [PASS] index.html — 769px — 四项导航同一行 — tops=[150,150,150,150]
+[RB3] [PASS] index.html — 769px — 导航顺序正确、无重叠 — 首页|新闻消息|新闻通讯|新闻评论
+[RB4] [PASS] index.html — 769px — 桌面隐藏汉堡按钮 — display=none
+[RB4] [PASS] index.html — 769px — 主导航横向常显 — nav=block dir=row shown=true,true,true,true
+[RB5] [PASS] index.html — 769px — 当前页=暗红+700+2px 暗红实下边线 — color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)
+[RB5] [PASS] index.html — 769px — 链接默认无 transform（不缩放不位移） — none,none,none,none
+[RB5] [PASS] index.html — 769px — 强制 hover 第 2 项：仅变暗红，不位移不缩放 — 色 rgb(33, 31, 28) → rgb(122, 36, 36)
+[RB6] [PASS] index.html — 769px — 暖白纸色底 + 深色文字（Task 3 变量） — bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RB6] [PASS] index.html — 769px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] index.html — 769px — 样式表可解析（73 条规则）
+[RB6] [PASS] index.html — 769px — 无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉
+[RB6] [PASS] index.html — 769px — 桌面正文两端对齐 — n/a
+[RB7] [PASS] index.html — 769px — 横向溢出严格判定 scrollWidth<=innerWidth（769<=769） — scrollW=769 inner=769 client=769 scrollX=0
+[RB7] [PASS] index.html — 769px — 更严格：scrollWidth<=clientWidth — 769<=769
+[RB1] [PASS] index.html — 1024px — 量公共版心 .site-header__inner ≤1120 且左右留白对称 — 版心=960px 留白 L32/R32.0
+[RB1] [PASS] index.html — 1024px — 正文容器 .main-content 与报头同宽同边距 — main=960px L32/R32.0
+[RB1b] [PASS] index.html — 1024px(无滚动条占位) — 1024 版心≈960（100% − 2×2rem） — 版心=960px inner=1024 client=1024（桌面测量含滚动条占位 0px）
+[RB2] [PASS] index.html — 1024px — 正文／首页文字区宽度 ≤736 — 文字块=736px
+[RB3] [PASS] index.html — 1024px — 报头单行完整显示、不被裁切 — scrollW=381 clientW=381 行=1 文本=自然选择号
+[RB3] [PASS] index.html — 1024px — 报头上下双细线 — 上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=960
+[RB3] [PASS] index.html — 1024px — 双细线不被报头文字穿越（文字盒完全位于两条线之间） — 文字距上线 20px、距下线 20px
+[RB3] [PASS] index.html — 1024px — 四项导航同一行 — tops=[150,150,150,150]
+[RB3] [PASS] index.html — 1024px — 导航顺序正确、无重叠 — 首页|新闻消息|新闻通讯|新闻评论
+[RB4] [PASS] index.html — 1024px — 桌面隐藏汉堡按钮 — display=none
+[RB4] [PASS] index.html — 1024px — 主导航横向常显 — nav=block dir=row shown=true,true,true,true
+[RB5] [PASS] index.html — 1024px — 当前页=暗红+700+2px 暗红实下边线 — color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)
+[RB5] [PASS] index.html — 1024px — 链接默认无 transform（不缩放不位移） — none,none,none,none
+[RB5] [PASS] index.html — 1024px — 强制 hover 第 2 项：仅变暗红，不位移不缩放 — 色 rgb(33, 31, 28) → rgb(122, 36, 36)
+[RB6] [PASS] index.html — 1024px — 暖白纸色底 + 深色文字（Task 3 变量） — bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RB6] [PASS] index.html — 1024px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] index.html — 1024px — 样式表可解析（73 条规则）
+[RB6] [PASS] index.html — 1024px — 无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉
+[RB6] [PASS] index.html — 1024px — 桌面正文两端对齐 — n/a
+[RB7] [PASS] index.html — 1024px — 横向溢出严格判定 scrollWidth<=innerWidth（1024<=1024） — scrollW=1024 inner=1024 client=1024 scrollX=0
+[RB7] [PASS] index.html — 1024px — 更严格：scrollWidth<=clientWidth — 1024<=1024
+[RB1] [PASS] index.html — 1280px — 量公共版心 .site-header__inner ≤1120 且左右留白对称 — 版心=1120px 留白 L80/R80.0
+[RB1] [PASS] index.html — 1280px — 正文容器 .main-content 与报头同宽同边距 — main=1120px L80/R80.0
+[RB2] [PASS] index.html — 1280px — 正文／首页文字区宽度 ≤736 — 文字块=736px
+[RB3] [PASS] index.html — 1280px — 报头单行完整显示、不被裁切 — scrollW=381 clientW=381 行=1 文本=自然选择号
+[RB3] [PASS] index.html — 1280px — 报头上下双细线 — 上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=1120
+[RB3] [PASS] index.html — 1280px — 双细线不被报头文字穿越（文字盒完全位于两条线之间） — 文字距上线 20px、距下线 20px
+[RB3] [PASS] index.html — 1280px — 四项导航同一行 — tops=[150,150,150,150]
+[RB3] [PASS] index.html — 1280px — 导航顺序正确、无重叠 — 首页|新闻消息|新闻通讯|新闻评论
+[RB4] [PASS] index.html — 1280px — 桌面隐藏汉堡按钮 — display=none
+[RB4] [PASS] index.html — 1280px — 主导航横向常显 — nav=block dir=row shown=true,true,true,true
+[RB5] [PASS] index.html — 1280px — 当前页=暗红+700+2px 暗红实下边线 — color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)
+[RB5] [PASS] index.html — 1280px — 链接默认无 transform（不缩放不位移） — none,none,none,none
+[RB5] [PASS] index.html — 1280px — 强制 hover 第 2 项：仅变暗红，不位移不缩放 — 色 rgb(33, 31, 28) → rgb(122, 36, 36)
+[RB6] [PASS] index.html — 1280px — 暖白纸色底 + 深色文字（Task 3 变量） — bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RB6] [PASS] index.html — 1280px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] index.html — 1280px — 样式表可解析（73 条规则）
+[RB6] [PASS] index.html — 1280px — 无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉
+[RB6] [PASS] index.html — 1280px — 桌面正文两端对齐 — n/a
+[RB7] [PASS] index.html — 1280px — 横向溢出严格判定 scrollWidth<=innerWidth（1280<=1280） — scrollW=1280 inner=1280 client=1280 scrollX=0
+[RB7] [PASS] index.html — 1280px — 更严格：scrollWidth<=clientWidth — 1280<=1280
+[RC1] [PASS] index.html — 375px — 左右留白各约 16px（--page-gutter:1rem） — L16 R16.0
+[RC1] [PASS] index.html — 375px — 版心随可用宽度收缩（=视口−2×16px），无固定内容宽度 — 报头版心=343 main=343 client=375
+[RC1] [PASS] index.html — 375px — 无内部滚动区、无超出视口的固定像素宽元素、无裁切 — 内部滚动元素=[] 过宽元素=[]
+[RC1] [PASS] index.html — 375px — 报头内部改为纵向流 — flex/column
+[RC2] [PASS] index.html — 375px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px） — 实测=41.25px
+[RC2] [PASS] index.html — 375px — 页面标题流式缩小但仍比正文醒目 — title=28px 参照正文=16px（1280 基线 40px）
+[RC2] [PASS] index.html — 375px — 报头与页面标题不溢出 — mast 236/236 · title 343/343
+[RC3] [PASS] index.html — 375px — 首页三区块保持单列、顺序不变 — [[16,343,263,373],[16,343,373,483],[16,343,483,594]]
+[RC3] [PASS] index.html — 375px — 未变成卡片/轮播/折叠面板，分隔线仍在 — [["0px","none","static","1px solid"],["0px","none","static","1px solid"],["0px","none","static","1px solid"]]
+[RC5] [PASS] index.html — 375px — 基线命中的 0 个中英文混排术语（）在渲染文本中原样完整 — 全部命中
+[RC5] [PASS] index.html — 375px — 安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语 — word-break=normal hyphens=none overflow-wrap=anywhere
+[RC5] [PASS] index.html — 375px — 未插入 <wbr>／软连字符／零宽字符，原文字符不变 — 不可见断行字符 0 个
+[RC6] [PASS] index.html — 375px — scrollWidth<=innerWidth 严格判定（不放宽 1px） — 375<=375
+[RC6] [PASS] index.html — 375px — 更严格：documentElement/body scrollWidth<=clientWidth — de=375 body=375 client=375
+[RE2] [PASS] index.html — 375px — .js 关闭态：按钮可见、导航折叠、aria-expanded=false — tog=flex nav=none open=false aria=false
+[RC1] [PASS] index.html — 375px — 命中移动断点且未命中桌面断点 — mqM=true mqD=false
+[RC1] [PASS] index.html — 768px — 左右留白各约 16px（--page-gutter:1rem） — L16 R16.0
+[RC1] [PASS] index.html — 768px — 版心随可用宽度收缩（=视口−2×16px），无固定内容宽度 — 报头版心=736 main=736 client=768
+[RC1] [PASS] index.html — 768px — 无内部滚动区、无超出视口的固定像素宽元素、无裁切 — 内部滚动元素=[] 过宽元素=[]
+[RC1] [PASS] index.html — 768px — 报头内部改为纵向流 — flex/column
+[RC2] [PASS] index.html — 768px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px） — 实测=56px
+[RC2] [PASS] index.html — 768px — 页面标题流式缩小但仍比正文醒目 — title=36px 参照正文=16px（1280 基线 40px）
+[RC2] [PASS] index.html — 768px — 报头与页面标题不溢出 — mast 320/320 · title 736/736
+[RC3] [PASS] index.html — 768px — 首页三区块保持单列、顺序不变 — [[16,736,291,404],[16,736,404,517],[16,736,517,630]]
+[RC3] [PASS] index.html — 768px — 未变成卡片/轮播/折叠面板，分隔线仍在 — [["0px","none","static","1px solid"],["0px","none","static","1px solid"],["0px","none","static","1px solid"]]
+[RC5] [PASS] index.html — 768px — 基线命中的 0 个中英文混排术语（）在渲染文本中原样完整 — 全部命中
+[RC5] [PASS] index.html — 768px — 安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语 — word-break=normal hyphens=none overflow-wrap=anywhere
+[RC5] [PASS] index.html — 768px — 未插入 <wbr>／软连字符／零宽字符，原文字符不变 — 不可见断行字符 0 个
+[RC6] [PASS] index.html — 768px — scrollWidth<=innerWidth 严格判定（不放宽 1px） — 768<=768
+[RC6] [PASS] index.html — 768px — 更严格：documentElement/body scrollWidth<=clientWidth — de=768 body=768 client=768
+[RE2] [PASS] index.html — 768px — .js 关闭态：按钮可见、导航折叠、aria-expanded=false — tog=flex nav=none open=false aria=false
+[RC1] [PASS] index.html — 768px — 命中移动断点且未命中桌面断点 — mqM=true mqD=false
+[RD4] [PASS] index.html — 375px — 跳转链接是第一个 Tab 停靠点 — active=skip-link/A
+[RD4] [PASS] index.html — 375px — 首次 Tab 后出现在左上角、文字与背景清晰、带轮廓 — top=0 left=0 h=52 outline=2px solid rgb(122, 36, 36) bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RD4] [PASS] index.html — 375px — 激活跳转链接后跳到 #main-content 且正文获得焦点 — active=main-content/MAIN
+[RD4] [PASS] index.html — 375px — 报头未被推动（文档坐标不变，只有到达目标的纵向滚动）、无横向滚动、正文焦点轮廓可感知 — scrollX=0 header 文档坐标 0->0（视口 0->0，scrollY 0->0） outline=2px solid rgb(122, 36, 36)
+[RD3] [PASS] index.html — 375px — 纯键盘到达菜单按钮，暗红实线轮廓清晰且不被裁切 — active=nav-toggle outline=2px solid rgb(122, 36, 36) offset=3px 裁切祖先=[]
+[RD1] [PASS] index.html — 375px — .nav-toggle 实际 getBoundingClientRect ≥44×44 CSS px — 86×46
+[RD2] [PASS] index.html — 375px — 每个可见 .site-navigation__link 实际点击区 ≥44×44 — [[343,46],[343,46],[343,46],[343,46]]
+[RD2] [PASS] index.html — 375px — 链接占满行宽便于触控 — 导航宽=343 链接宽=343,343,343,343
+[RD3] [PASS] index.html — 375px — 逐个链接键盘焦点轮廓清晰且不被边框/展开菜单/容器裁切 — [["site-navigation__link","2px solid rgb(122, 36, 36)",""],["site-navigation__link","2px solid rgb(122, 36, 36)",""],["site-navigation__link","2px solid rgb(122, 36, 36)",""],["site-navigation__link","2px solid rgb(122, 36, 36)",""]]
+[RD3] [PASS] index.html — 375px — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RE1] [PASS] index.html — 375px/禁用JS — 先禁用 JS 再硬刷新：html 仍为 no-js — no-js
+[RE1] [PASS] index.html — 375px/禁用JS — 按钮不可见 — display=none
+[RE1] [PASS] index.html — 375px/禁用JS — 四项导航纵向常显、可点击、可聚焦 — nav=block [[343,46,true],[343,46,true],[343,46,true],[343,46,true]]
+[RE1] [PASS] index.html — 375px/禁用JS — 无脚本时导航为纵向列表 — column
+[RE1] [PASS] index.html — 375px/禁用JS — 当前页仍以颜色与线条区分 — color=rgb(122, 36, 36) bb=2px solid rgb(122, 36, 36)
+[RE1] [PASS] index.html — 375px/禁用JS — 隐藏按钮不进入 Tab 顺序 — skip-link>site-masthead__link>site-navigation__link
+[RE1] [PASS] index.html — 375px/禁用JS — 跳转链接与导航链接均可 Tab 到达 — skip-link>site-masthead__link>site-navigation__link
+[RE1] [PASS] index.html — 375px/禁用JS — 无脚本态焦点轮廓不被裁切 — 2px solid rgb(122, 36, 36) 祖先=[]
+[RE1] [PASS] index.html — 375px/禁用JS — 无脚本时链接仍可点击并真实导航 — frameNavigated=1 落地=news-message.html
+[RE2] [PASS] index.html — 375px — JS 可用硬刷新后 html 为 js 且不含 no-js — js
+[RE2] [PASS] index.html — 375px — 关闭态隐藏链接不生成布局盒（因而不在 Tab 顺序） — [[false,0],[false,0],[false,0],[false,0]]
+[RE2] [PASS] index.html — 375px — 关闭态 Tab 序列不含导航链接 — skip-link>site-masthead__link
+[RE3] [PASS] index.html — 375px — 激活按钮后：.is-open + aria-expanded=true + 导航显示 — open=true aria=true disp=block
+[RE3] [PASS] index.html — 375px — 四项纵向完整显示且点击区达标 — [[343,46],[343,46],[343,46],[343,46]]
+[RE3] [PASS] index.html — 375px — 展开菜单项纵向排列互不重叠 — 176 > 223 > 270 > 317
+[RE3] [PASS] index.html — 375px — 展开菜单不覆盖正文、不横向推挤报头 — nav.bottom=364 main.top=364 inner.right=359.0 client=375
+[RE3] [PASS] index.html — 375px — 展开不使报头位移或被截断 — masthead.top 16 -> 16
+[RE3] [PASS] index.html — 375px — 展开态仍无横向溢出 — 375<=375
+[RE2] [PASS] index.html — 375px — 页面不因隐藏导航留下异常固定高度或空白（只有展开才增高、把正文下推） — header 高 闭=164 开=364 Δ=200 四链接合计=184; main.top 164->364
+[RE3] [PASS] index.html — 375px — 点击打开后焦点仍在按钮（披露式，不强制移入） — nav-toggle
+[RE3] [PASS] index.html — 375px — Tab 顺序自然：按钮→四个导航链接（第 5 次离开导航） — nav-toggle > site-navigation__link > site-navigation__link > site-navigation__link > site-navigation__link > BODY
+[RE3] [PASS] index.html — 375px — 按钮之后不重复回到按钮/焦点陷阱 — site-navigation__link>site-navigation__link>site-navigation__link>site-navigation__link>BODY
+[RE4] [PASS] index.html — 375px — is-open 与 aria-expanded 同步（打开） — open=true aria=true
+[RE4] [PASS] index.html — 375px — is-open 与 aria-expanded 同步（关闭） — open=false aria=false
+[RF1] [PASS] index.html — 375px — 点击按钮打开一次，状态与 ARIA 同步 — open=true aria=true
+[RF1] [PASS] index.html — 375px — 再次点击关闭一次，状态与 ARIA 同步 — open=false aria=false
+[RF5] [PASS] index.html — 375px — 披露式焦点策略：焦点保持在按钮，未强制移入菜单 — nav-toggle
+[RF2] [PASS] index.html — 375px — 聚焦按钮按 Enter：恰好一次激活（keydown 激活） — Δclick=1 open=true aria=true
+[RF2] [PASS] index.html — 375px — Enter 再按：恰好切回关闭 — Δclick=1 open=false
+[RF2] [PASS] index.html — 375px — Space：与点击等效、恰好一次激活（keyup 激活） — Δclick=1 open=true aria=true
+[RF2] [PASS] index.html — 375px — Space 再按恰好切回，无双触发 — Δclick=1 open=false
+[RF3] [PASS] index.html — 375px — 前置：菜单为打开态 — open=true
+[RF3] [PASS] index.html — 375px — 打开态（焦点在 site-navigation__link）按 Esc：关闭菜单且焦点返回 #nav-toggle — open=false aria=false active=nav-toggle
+[RF3] [PASS] index.html — 375px — 关闭态按 Esc 无副作用（不抢焦点、不滚动） — active nav-toggle->nav-toggle scrollY 0->0
+[RF4] [PASS] index.html — 375px — 打开态点击第 3 项「新闻通讯」：先关闭再导航，落地无展开残留 — navigated=1 落地=news-feature.html open=false aria=false
+[RA4] [PASS] index.html — 375px — 点击「新闻通讯」到达现有页面 — news-feature.html :: 从数学题到AI时代的学习｜自然选择号
+[RF4] [PASS] index.html — 375px — 打开态点击第 1 项「首页」：先关闭再导航，落地无展开残留 — navigated=1 落地=index.html open=false aria=false
+[RA4] [PASS] index.html — 375px — 点击「首页」到达现有页面 — index.html :: 《自然选择号》报社简介｜自然选择号
+[RF7] [PASS] index.html — 375px — 点击菜单外正文区域：菜单保持展开（合同已定，不实现外点关闭，不判失败） — open=true aria=true
+[RF7] [PASS] index.html — 375px — 外点过程无报错、无异常失焦
+[RF6] [PASS] index.html — 375px — 折叠由 CSS display 负责：脚本未用 tabindex/aria-hidden/hidden/inert 管理链接可聚焦性 — 导航子树被标记属性=[] main.tabindex=-1
+[RG1] [PASS] index.html — 768px — 前置：768px 打开菜单 — open=true mqM=true mqD=false
+[RG1] [PASS] index.html — 768→769px — 对照监听：本渲染环境确实派发 mediaquery change 事件 — ["change:true"]
+[RG1] [PASS] index.html — 768→769px — 跨到 769px：.is-open 清除且 aria-expanded 重置 false — open=false aria=false
+[RG1] [PASS] index.html — 768→769px — 按钮隐藏、导航立即恢复横向常显 — tog=none nav=block shown=true,true,true,true
+[RG1] [PASS] index.html — 768→769px — 移动 display:none/纵向规则不再作用（同一行） — 150,150,150,150
+[RG1] [PASS] index.html — 768→769px — 移动字号与移动间距退出，桌面基线回来（报头 64px、版心=视口−2×2rem、导航 gap 恢复） — mast=64px 版心=705 client=769 期望=705 gap=40px
+[RG2] [PASS] index.html — 375px — 再缩回 ≤768px：菜单为关闭态，不复用旧展开状态 — open=false aria=false
+[RG2] [PASS] index.html — 375px — 缩回后仍可正常打开 — open=true
+[RG3] [PASS] index.html — 断点连续切换 — 切换过程无布局跳变残留、无横向溢出 — scrollW=1280 inner=1280 open=false
+[RH1] [PASS] index.html — 1280px/100% — 记录缩放前 innerWidth=1280 — client=1280 根字号=16px 报头=64px 版心=1120
+[RH1] [PASS] index.html — 200% — 缩放的两个效果同时成立：CSS 视口折半（1280→640）且文字实际像素翻倍 — inner=640 dpr=2 报头 CSS=56px 实际=641 设备像素（100% 时 381px）
+[RH1] [PASS] index.html — 200% — 记录缩放后 innerWidth=640（100% 时为 1280） — 机制=CDP zoom=2 在本 Chrome 为 no-op（zoom_probe.mjs 已证实）→ 用 640px 布局视口 + deviceScaleFactor=2 复现 200% 的布局与绘制两个效果；dpr=2 client=640
+[RH1] [PASS] index.html — 200% — 根字号由 html{font-size:100%} 派生、未锁死为像素（缩放按 CSS px 等比生效） — 100%=16px → 200%=16px
+[RH2] [PASS] index.html — 200%→640px — 缩放后 innerWidth≤768：进入移动布局（属预期正确结果），按钮可见、导航折叠 — inner=640 tog=flex nav=none
+[RH2] [PASS] index.html — 200%→640px — 复查菜单三态与 44px 点击区 — open=true [[608,46],[608,46],[608,46],[608,46]]
+[RH3] [PASS] index.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px solid rgb(122, 36, 36)"]
+[RH3] [PASS] index.html — 200%→640px — 200% 下无横向滚动 — scrollW=640 inner=640 client=640
+[RH3] [PASS] index.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 · title 608/608 · nav.right=624
+[RH3] [PASS] index.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] index.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120 open=false
+[RI1] [PASS] index.html — 1280px/禁用JS — 禁用 JS 并硬刷新：html 保持 no-js，CSS 仍生效（样式不依赖脚本） — class=no-js rules=45
+[RI1] [PASS] index.html — 1280px/禁用JS — 无脚本时正文完整可见、与 Task 10 基线逐段全等（0 段） — 实测=0 段
+[RI1] [PASS] index.html — 1280px/禁用JS — 逐段字符数与基线一致（内容不依赖脚本注入） — 本页无正文段落
+[RI1] [PASS] index.html — 1280px/禁用JS — 主内容节点与字符量在非脚本状态下保持 — {"n":7,"len":76}
+[RI2] [PASS] index.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — disabled=[true] body背景=rgba(0, 0, 0, 0) 版心=1264
+[RI2] [PASS] index.html — 1280px/禁用CSS — 无内容因样式缺失而消失（主内容 textContent 全等） — 段=0 字符=193
+[RI2] [PASS] index.html — 1280px/禁用CSS — 首页阅读顺序：主标题→三区块标题及其文本 — 序=[0,1,2,3,4,5,6]（文本节点 7 个）
+[RI2] [PASS] index.html — 1280px/禁用CSS — 导航链接仍在文档树与无障碍树中（role=link + 可访问名） — [{"role":"link","name":"首页"},{"role":"link","name":"新闻消息"},{"role":"link","name":"新闻通讯"},{"role":"link","name":"新闻评论"}]
+[RI3] [PASS] index.html — 1280px — 恢复启用并硬刷新：回到正常基线、无残留 — class=js bg=rgb(245, 239, 228) 版心=1120
+[RJ2] [PASS] index.html — 1280 与 375px — 段落数量=0（与 Task 10 基线一致） — 桌面=0 移动=0
+[RJ1] [PASS] index.html — 375px — 移动渲染正文与 Task 10 逐段基线全等（CSS 换行/clamp/安全换行未增删字符） — 渲染字符=0 基线=0
+[RJ1] [PASS] index.html — 1280 vs 375 — 跨断点所见正文文本一致
+[RJ1] [PASS] index.html — 1280px — 页面标题与报头文本与基线一致 — 《自然选择号》报社简介
+[RJ2] [PASS] index.html — 375px — 首页三区块标题与文本按基线顺序逐字符一致 — ["名称由来","主要工作与报道方向","成立时间"][18,19,11]
+[RJ3] [PASS] index.html — - — 伪元素 content 只用于画线（空串），未生成任何可见文字 — content 声明 2 处：["content: \"\"","content: \"\""]；可疑：[]
+[RJ3] [PASS] index.html — 375px — 全部交互与降级之后主内容无脚本注入文本、无字符增删 — 字符 193 -> 193
+[RB1] [PASS] news-message.html — 769px — 量公共版心 .site-header__inner ≤1120 且左右留白对称 — 版心=705px 留白 L32/R32.0
+[RB1] [PASS] news-message.html — 769px — 正文容器 .main-content 与报头同宽同边距 — main=705px L32/R32.0
+[RB2] [PASS] news-message.html — 769px — 正文／首页文字区宽度 ≤736 — 文字块=705px
+[RB2] [PASS] news-message.html — 769px — .article__body max-width ≤736 — max-width=736px
+[RB3] [PASS] news-message.html — 769px — 报头单行完整显示、不被裁切 — scrollW=381 clientW=381 行=1 文本=自然选择号
+[RB3] [PASS] news-message.html — 769px — 报头上下双细线 — 上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=705
+[RB3] [PASS] news-message.html — 769px — 双细线不被报头文字穿越（文字盒完全位于两条线之间） — 文字距上线 20px、距下线 20px
+[RB3] [PASS] news-message.html — 769px — 四项导航同一行 — tops=[150,150,150,150]
+[RB3] [PASS] news-message.html — 769px — 导航顺序正确、无重叠 — 首页|新闻消息|新闻通讯|新闻评论
+[RB4] [PASS] news-message.html — 769px — 桌面隐藏汉堡按钮 — display=none
+[RB4] [PASS] news-message.html — 769px — 主导航横向常显 — nav=block dir=row shown=true,true,true,true
+[RB5] [PASS] news-message.html — 769px — 当前页=暗红+700+2px 暗红实下边线 — color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-message.html — 769px — 链接默认无 transform（不缩放不位移） — none,none,none,none
+[RB5] [PASS] news-message.html — 769px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — 色 rgb(33, 31, 28) → rgb(122, 36, 36)
+[RB6] [PASS] news-message.html — 769px — 暖白纸色底 + 深色文字（Task 3 变量） — bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RB6] [PASS] news-message.html — 769px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-message.html — 769px — 样式表可解析（73 条规则）
+[RB6] [PASS] news-message.html — 769px — 无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉
+[RB6] [PASS] news-message.html — 769px — 桌面正文两端对齐 — justify
+[RB7] [PASS] news-message.html — 769px — 横向溢出严格判定 scrollWidth<=innerWidth（769<=769） — scrollW=769 inner=769 client=769 scrollX=0
+[RB7] [PASS] news-message.html — 769px — 更严格：scrollWidth<=clientWidth — 769<=769
+[RB1] [PASS] news-message.html — 1024px — 量公共版心 .site-header__inner ≤1120 且左右留白对称 — 版心=960px 留白 L32/R32.0
+[RB1] [PASS] news-message.html — 1024px — 正文容器 .main-content 与报头同宽同边距 — main=960px L32/R32.0
+[RB1b] [PASS] news-message.html — 1024px(无滚动条占位) — 1024 版心≈960（100% − 2×2rem） — 版心=960px inner=1024 client=1024（桌面测量含滚动条占位 0px）
+[RB2] [PASS] news-message.html — 1024px — 正文／首页文字区宽度 ≤736 — 文字块=736px
+[RB2] [PASS] news-message.html — 1024px — .article__body max-width ≤736 — max-width=736px
+[RB3] [PASS] news-message.html — 1024px — 报头单行完整显示、不被裁切 — scrollW=381 clientW=381 行=1 文本=自然选择号
+[RB3] [PASS] news-message.html — 1024px — 报头上下双细线 — 上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=960
+[RB3] [PASS] news-message.html — 1024px — 双细线不被报头文字穿越（文字盒完全位于两条线之间） — 文字距上线 20px、距下线 20px
+[RB3] [PASS] news-message.html — 1024px — 四项导航同一行 — tops=[150,150,150,150]
+[RB3] [PASS] news-message.html — 1024px — 导航顺序正确、无重叠 — 首页|新闻消息|新闻通讯|新闻评论
+[RB4] [PASS] news-message.html — 1024px — 桌面隐藏汉堡按钮 — display=none
+[RB4] [PASS] news-message.html — 1024px — 主导航横向常显 — nav=block dir=row shown=true,true,true,true
+[RB5] [PASS] news-message.html — 1024px — 当前页=暗红+700+2px 暗红实下边线 — color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-message.html — 1024px — 链接默认无 transform（不缩放不位移） — none,none,none,none
+[RB5] [PASS] news-message.html — 1024px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — 色 rgb(33, 31, 28) → rgb(122, 36, 36)
+[RB6] [PASS] news-message.html — 1024px — 暖白纸色底 + 深色文字（Task 3 变量） — bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RB6] [PASS] news-message.html — 1024px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-message.html — 1024px — 样式表可解析（73 条规则）
+[RB6] [PASS] news-message.html — 1024px — 无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉
+[RB6] [PASS] news-message.html — 1024px — 桌面正文两端对齐 — justify
+[RB7] [PASS] news-message.html — 1024px — 横向溢出严格判定 scrollWidth<=innerWidth（1024<=1024） — scrollW=1024 inner=1024 client=1024 scrollX=0
+[RB7] [PASS] news-message.html — 1024px — 更严格：scrollWidth<=clientWidth — 1024<=1024
+[RB1] [PASS] news-message.html — 1280px — 量公共版心 .site-header__inner ≤1120 且左右留白对称 — 版心=1120px 留白 L80/R80.0
+[RB1] [PASS] news-message.html — 1280px — 正文容器 .main-content 与报头同宽同边距 — main=1120px L80/R80.0
+[RB2] [PASS] news-message.html — 1280px — 正文／首页文字区宽度 ≤736 — 文字块=736px
+[RB2] [PASS] news-message.html — 1280px — .article__body max-width ≤736 — max-width=736px
+[RB3] [PASS] news-message.html — 1280px — 报头单行完整显示、不被裁切 — scrollW=381 clientW=381 行=1 文本=自然选择号
+[RB3] [PASS] news-message.html — 1280px — 报头上下双细线 — 上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=1120
+[RB3] [PASS] news-message.html — 1280px — 双细线不被报头文字穿越（文字盒完全位于两条线之间） — 文字距上线 20px、距下线 20px
+[RB3] [PASS] news-message.html — 1280px — 四项导航同一行 — tops=[150,150,150,150]
+[RB3] [PASS] news-message.html — 1280px — 导航顺序正确、无重叠 — 首页|新闻消息|新闻通讯|新闻评论
+[RB4] [PASS] news-message.html — 1280px — 桌面隐藏汉堡按钮 — display=none
+[RB4] [PASS] news-message.html — 1280px — 主导航横向常显 — nav=block dir=row shown=true,true,true,true
+[RB5] [PASS] news-message.html — 1280px — 当前页=暗红+700+2px 暗红实下边线 — color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-message.html — 1280px — 链接默认无 transform（不缩放不位移） — none,none,none,none
+[RB5] [PASS] news-message.html — 1280px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — 色 rgb(33, 31, 28) → rgb(122, 36, 36)
+[RB6] [PASS] news-message.html — 1280px — 暖白纸色底 + 深色文字（Task 3 变量） — bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RB6] [PASS] news-message.html — 1280px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-message.html — 1280px — 样式表可解析（73 条规则）
+[RB6] [PASS] news-message.html — 1280px — 无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉
+[RB6] [PASS] news-message.html — 1280px — 桌面正文两端对齐 — justify
+[RB7] [PASS] news-message.html — 1280px — 横向溢出严格判定 scrollWidth<=innerWidth（1280<=1280） — scrollW=1280 inner=1280 client=1280 scrollX=0
+[RB7] [PASS] news-message.html — 1280px — 更严格：scrollWidth<=clientWidth — 1280<=1280
+[RC1] [PASS] news-message.html — 375px — 左右留白各约 16px（--page-gutter:1rem） — L16 R16.0
+[RC1] [PASS] news-message.html — 375px — 版心随可用宽度收缩（=视口−2×16px），无固定内容宽度 — 报头版心=343 main=343 client=375
+[RC1] [PASS] news-message.html — 375px — 无内部滚动区、无超出视口的固定像素宽元素、无裁切 — 内部滚动元素=[] 过宽元素=[]
+[RC1] [PASS] news-message.html — 375px — 报头内部改为纵向流 — flex/column
+[RC2] [PASS] news-message.html — 375px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px） — 实测=41.25px
+[RC2] [PASS] news-message.html — 375px — 页面标题流式缩小但仍比正文醒目 — title=28px 参照正文=17px（1280 基线 40px）
+[RC2] [PASS] news-message.html — 375px — 报头与页面标题不溢出 — mast 236/236 · title 343/343
+[RC4] [PASS] news-message.html — 375px — 文章保持单栏、段落数=4 — 段=4 column-count=auto 宽=343
+[RC4] [PASS] news-message.html — 375px — 正文段落首行缩进 2em — text-indent=34px 正文字号=17px
+[RC4] [PASS] news-message.html — 375px — .dateline 仍内联于首段首行 — {"present":true,"text":"自然选择号9月18日7时电","disp":"inline","fw":"700","top":358.5625,"pTop":352.5625,"isFirstP":true} 行高=32.3（内联盒与行盒 top 允许相差 <1 行）
+[RC5] [PASS] news-message.html — 375px — 基线命中的 0 个中英文混排术语（）在渲染文本中原样完整 — 全部命中
+[RC5] [PASS] news-message.html — 375px — 安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语 — word-break=normal hyphens=none overflow-wrap=normal
+[RC5] [PASS] news-message.html — 375px — 未插入 <wbr>／软连字符／零宽字符，原文字符不变 — 不可见断行字符 0 个
+[RC6] [PASS] news-message.html — 375px — scrollWidth<=innerWidth 严格判定（不放宽 1px） — 375<=375
+[RC6] [PASS] news-message.html — 375px — 更严格：documentElement/body scrollWidth<=clientWidth — de=375 body=375 client=375
+[RC7] [PASS] news-message.html — 375px — 移动端正文改为 text-align: start（窄行不留大空隙） — text-align=start
+[RE2] [PASS] news-message.html — 375px — .js 关闭态：按钮可见、导航折叠、aria-expanded=false — tog=flex nav=none open=false aria=false
+[RC1] [PASS] news-message.html — 375px — 命中移动断点且未命中桌面断点 — mqM=true mqD=false
+[RC1] [PASS] news-message.html — 768px — 左右留白各约 16px（--page-gutter:1rem） — L16 R16.0
+[RC1] [PASS] news-message.html — 768px — 版心随可用宽度收缩（=视口−2×16px），无固定内容宽度 — 报头版心=736 main=736 client=768
+[RC1] [PASS] news-message.html — 768px — 无内部滚动区、无超出视口的固定像素宽元素、无裁切 — 内部滚动元素=[] 过宽元素=[]
+[RC1] [PASS] news-message.html — 768px — 报头内部改为纵向流 — flex/column
+[RC2] [PASS] news-message.html — 768px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px） — 实测=56px
+[RC2] [PASS] news-message.html — 768px — 页面标题流式缩小但仍比正文醒目 — title=36px 参照正文=17px（1280 基线 40px）
+[RC2] [PASS] news-message.html — 768px — 报头与页面标题不溢出 — mast 320/320 · title 736/736
+[RC4] [PASS] news-message.html — 768px — 文章保持单栏、段落数=4 — 段=4 column-count=auto 宽=736
+[RC4] [PASS] news-message.html — 768px — 正文段落首行缩进 2em — text-indent=34px 正文字号=17px
+[RC4] [PASS] news-message.html — 768px — .dateline 仍内联于首段首行 — {"present":true,"text":"自然选择号9月18日7时电","disp":"inline","fw":"700","top":387,"pTop":381,"isFirstP":true} 行高=32.3（内联盒与行盒 top 允许相差 <1 行）
+[RC5] [PASS] news-message.html — 768px — 基线命中的 0 个中英文混排术语（）在渲染文本中原样完整 — 全部命中
+[RC5] [PASS] news-message.html — 768px — 安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语 — word-break=normal hyphens=none overflow-wrap=normal
+[RC5] [PASS] news-message.html — 768px — 未插入 <wbr>／软连字符／零宽字符，原文字符不变 — 不可见断行字符 0 个
+[RC6] [PASS] news-message.html — 768px — scrollWidth<=innerWidth 严格判定（不放宽 1px） — 768<=768
+[RC6] [PASS] news-message.html — 768px — 更严格：documentElement/body scrollWidth<=clientWidth — de=768 body=768 client=768
+[RC7] [PASS] news-message.html — 768px — 移动端正文改为 text-align: start（窄行不留大空隙） — text-align=start
+[RE2] [PASS] news-message.html — 768px — .js 关闭态：按钮可见、导航折叠、aria-expanded=false — tog=flex nav=none open=false aria=false
+[RC1] [PASS] news-message.html — 768px — 命中移动断点且未命中桌面断点 — mqM=true mqD=false
+[RD4] [PASS] news-message.html — 375px — 跳转链接是第一个 Tab 停靠点 — active=skip-link/A
+[RD4] [PASS] news-message.html — 375px — 首次 Tab 后出现在左上角、文字与背景清晰、带轮廓 — top=0 left=0 h=52 outline=2px solid rgb(122, 36, 36) bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RD4] [PASS] news-message.html — 375px — 激活跳转链接后跳到 #main-content 且正文获得焦点 — active=main-content/MAIN
+[RD4] [PASS] news-message.html — 375px — 报头未被推动（文档坐标不变，只有到达目标的纵向滚动）、无横向滚动、正文焦点轮廓可感知 — scrollX=0 header 文档坐标 0->0（视口 0->-88，scrollY 0->88） outline=2px solid rgb(122, 36, 36)
+[RD3] [PASS] news-message.html — 375px — 纯键盘到达菜单按钮，暗红实线轮廓清晰且不被裁切 — active=nav-toggle outline=2px solid rgb(122, 36, 36) offset=3px 裁切祖先=[]
+[RD1] [PASS] news-message.html — 375px — .nav-toggle 实际 getBoundingClientRect ≥44×44 CSS px — 86×46
+[RD2] [PASS] news-message.html — 375px — 每个可见 .site-navigation__link 实际点击区 ≥44×44 — [[343,46],[343,46],[343,46],[343,46]]
+[RD2] [PASS] news-message.html — 375px — 链接占满行宽便于触控 — 导航宽=343 链接宽=343,343,343,343
+[RD3] [PASS] news-message.html — 375px — 逐个链接键盘焦点轮廓清晰且不被边框/展开菜单/容器裁切 — [["site-navigation__link","2px solid rgb(122, 36, 36)",""],["site-navigation__link","2px solid rgb(122, 36, 36)",""],["site-navigation__link","2px solid rgb(122, 36, 36)",""],["site-navigation__link","2px solid rgb(122, 36, 36)",""]]
+[RD3] [PASS] news-message.html — 375px — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RE1] [PASS] news-message.html — 375px/禁用JS — 先禁用 JS 再硬刷新：html 仍为 no-js — no-js
+[RE1] [PASS] news-message.html — 375px/禁用JS — 按钮不可见 — display=none
+[RE1] [PASS] news-message.html — 375px/禁用JS — 四项导航纵向常显、可点击、可聚焦 — nav=block [[343,46,true],[343,46,true],[343,46,true],[343,46,true]]
+[RE1] [PASS] news-message.html — 375px/禁用JS — 无脚本时导航为纵向列表 — column
+[RE1] [PASS] news-message.html — 375px/禁用JS — 当前页仍以颜色与线条区分 — color=rgb(122, 36, 36) bb=2px solid rgb(122, 36, 36)
+[RE1] [PASS] news-message.html — 375px/禁用JS — 隐藏按钮不进入 Tab 顺序 — skip-link>site-masthead__link>site-navigation__link
+[RE1] [PASS] news-message.html — 375px/禁用JS — 跳转链接与导航链接均可 Tab 到达 — skip-link>site-masthead__link>site-navigation__link
+[RE1] [PASS] news-message.html — 375px/禁用JS — 无脚本态焦点轮廓不被裁切 — 2px solid rgb(122, 36, 36) 祖先=[]
+[RE1] [PASS] news-message.html — 375px/禁用JS — 无脚本时链接仍可点击并真实导航 — frameNavigated=1 落地=news-message.html
+[RE2] [PASS] news-message.html — 375px — JS 可用硬刷新后 html 为 js 且不含 no-js — js
+[RE2] [PASS] news-message.html — 375px — 关闭态隐藏链接不生成布局盒（因而不在 Tab 顺序） — [[false,0],[false,0],[false,0],[false,0]]
+[RE2] [PASS] news-message.html — 375px — 关闭态 Tab 序列不含导航链接 — skip-link>site-masthead__link
+[RE3] [PASS] news-message.html — 375px — 激活按钮后：.is-open + aria-expanded=true + 导航显示 — open=true aria=true disp=block
+[RE3] [PASS] news-message.html — 375px — 四项纵向完整显示且点击区达标 — [[343,46],[343,46],[343,46],[343,46]]
+[RE3] [PASS] news-message.html — 375px — 展开菜单项纵向排列互不重叠 — 176 > 223 > 270 > 317
+[RE3] [PASS] news-message.html — 375px — 展开菜单不覆盖正文、不横向推挤报头 — nav.bottom=364 main.top=364 inner.right=359.0 client=375
+[RE3] [PASS] news-message.html — 375px — 展开不使报头位移或被截断 — masthead.top 16 -> 16
+[RE3] [PASS] news-message.html — 375px — 展开态仍无横向溢出 — 375<=375
+[RE2] [PASS] news-message.html — 375px — 页面不因隐藏导航留下异常固定高度或空白（只有展开才增高、把正文下推） — header 高 闭=164 开=364 Δ=200 四链接合计=184; main.top 164->364
+[RE3] [PASS] news-message.html — 375px — 点击打开后焦点仍在按钮（披露式，不强制移入） — nav-toggle
+[RE3] [PASS] news-message.html — 375px — Tab 顺序自然：按钮→四个导航链接（第 5 次离开导航） — nav-toggle > site-navigation__link > site-navigation__link > site-navigation__link > site-navigation__link > BODY
+[RE3] [PASS] news-message.html — 375px — 按钮之后不重复回到按钮/焦点陷阱 — site-navigation__link>site-navigation__link>site-navigation__link>site-navigation__link>BODY
+[RE4] [PASS] news-message.html — 375px — is-open 与 aria-expanded 同步（打开） — open=true aria=true
+[RE4] [PASS] news-message.html — 375px — is-open 与 aria-expanded 同步（关闭） — open=false aria=false
+[RF1] [PASS] news-message.html — 375px — 点击按钮打开一次，状态与 ARIA 同步 — open=true aria=true
+[RF1] [PASS] news-message.html — 375px — 再次点击关闭一次，状态与 ARIA 同步 — open=false aria=false
+[RF5] [PASS] news-message.html — 375px — 披露式焦点策略：焦点保持在按钮，未强制移入菜单 — nav-toggle
+[RF2] [PASS] news-message.html — 375px — 聚焦按钮按 Enter：恰好一次激活（keydown 激活） — Δclick=1 open=true aria=true
+[RF2] [PASS] news-message.html — 375px — Enter 再按：恰好切回关闭 — Δclick=1 open=false
+[RF2] [PASS] news-message.html — 375px — Space：与点击等效、恰好一次激活（keyup 激活） — Δclick=1 open=true aria=true
+[RF2] [PASS] news-message.html — 375px — Space 再按恰好切回，无双触发 — Δclick=1 open=false
+[RF3] [PASS] news-message.html — 375px — 前置：菜单为打开态 — open=true
+[RF3] [PASS] news-message.html — 375px — 打开态（焦点在 site-navigation__link）按 Esc：关闭菜单且焦点返回 #nav-toggle — open=false aria=false active=nav-toggle
+[RF3] [PASS] news-message.html — 375px — 关闭态按 Esc 无副作用（不抢焦点、不滚动） — active nav-toggle->nav-toggle scrollY 0->0
+[RF4] [PASS] news-message.html — 375px — 打开态点击第 3 项「新闻通讯」：先关闭再导航，落地无展开残留 — navigated=1 落地=news-feature.html open=false aria=false
+[RA4] [PASS] news-message.html — 375px — 点击「新闻通讯」到达现有页面 — news-feature.html :: 从数学题到AI时代的学习｜自然选择号
+[RF4] [PASS] news-message.html — 375px — 打开态点击第 1 项「首页」：先关闭再导航，落地无展开残留 — navigated=1 落地=index.html open=false aria=false
+[RA4] [PASS] news-message.html — 375px — 点击「首页」到达现有页面 — index.html :: 《自然选择号》报社简介｜自然选择号
+[RF7] [PASS] news-message.html — 375px — 点击菜单外正文区域：菜单保持展开（合同已定，不实现外点关闭，不判失败） — open=true aria=true
+[RF7] [PASS] news-message.html — 375px — 外点过程无报错、无异常失焦
+[RF6] [PASS] news-message.html — 375px — 折叠由 CSS display 负责：脚本未用 tabindex/aria-hidden/hidden/inert 管理链接可聚焦性 — 导航子树被标记属性=[] main.tabindex=-1
+[RG1] [PASS] news-message.html — 768px — 前置：768px 打开菜单 — open=true mqM=true mqD=false
+[RG1] [PASS] news-message.html — 768→769px — 对照监听：本渲染环境确实派发 mediaquery change 事件 — ["change:true"]
+[RG1] [PASS] news-message.html — 768→769px — 跨到 769px：.is-open 清除且 aria-expanded 重置 false — open=false aria=false
+[RG1] [PASS] news-message.html — 768→769px — 按钮隐藏、导航立即恢复横向常显 — tog=none nav=block shown=true,true,true,true
+[RG1] [PASS] news-message.html — 768→769px — 移动 display:none/纵向规则不再作用（同一行） — 150,150,150,150
+[RG1] [PASS] news-message.html — 768→769px — 移动字号与移动间距退出，桌面基线回来（报头 64px、版心=视口−2×2rem、导航 gap 恢复） — mast=64px 版心=705 client=769 期望=705 gap=40px
+[RG2] [PASS] news-message.html — 375px — 再缩回 ≤768px：菜单为关闭态，不复用旧展开状态 — open=false aria=false
+[RG2] [PASS] news-message.html — 375px — 缩回后仍可正常打开 — open=true
+[RG3] [PASS] news-message.html — 断点连续切换 — 切换过程无布局跳变残留、无横向溢出 — scrollW=1280 inner=1280 open=false
+[RH1] [PASS] news-message.html — 1280px/100% — 记录缩放前 innerWidth=1280 — client=1280 根字号=16px 报头=64px 版心=1120
+[RH1] [PASS] news-message.html — 200% — 缩放的两个效果同时成立：CSS 视口折半（1280→640）且文字实际像素翻倍 — inner=640 dpr=2 报头 CSS=56px 实际=641 设备像素（100% 时 381px）
+[RH1] [PASS] news-message.html — 200% — 记录缩放后 innerWidth=640（100% 时为 1280） — 机制=CDP zoom=2 在本 Chrome 为 no-op（zoom_probe.mjs 已证实）→ 用 640px 布局视口 + deviceScaleFactor=2 复现 200% 的布局与绘制两个效果；dpr=2 client=640
+[RH1] [PASS] news-message.html — 200% — 根字号由 html{font-size:100%} 派生、未锁死为像素（缩放按 CSS px 等比生效） — 100%=16px → 200%=16px
+[RH2] [PASS] news-message.html — 200%→640px — 缩放后 innerWidth≤768：进入移动布局（属预期正确结果），按钮可见、导航折叠 — inner=640 tog=flex nav=none
+[RH2] [PASS] news-message.html — 200%→640px — 复查菜单三态与 44px 点击区 — open=true [[608,46],[608,46],[608,46],[608,46]]
+[RH3] [PASS] news-message.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px solid rgb(122, 36, 36)"]
+[RH3] [PASS] news-message.html — 200%→640px — 200% 下无横向滚动 — scrollW=640 inner=640 client=640
+[RH3] [PASS] news-message.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 · title 608/608 · nav.right=624
+[RH3] [PASS] news-message.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] news-message.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120 open=false
+[RI1] [PASS] news-message.html — 1280px/禁用JS — 禁用 JS 并硬刷新：html 保持 no-js，CSS 仍生效（样式不依赖脚本） — class=no-js rules=45
+[RI1] [PASS] news-message.html — 1280px/禁用JS — 无脚本时正文完整可见、与 Task 10 基线逐段全等（4 段） — 实测=4 段
+[RI1] [PASS] news-message.html — 1280px/禁用JS — 逐段字符数与基线一致（内容不依赖脚本注入） — 基线=96,109,64,19 实测=96,109,64,19
+[RI1] [PASS] news-message.html — 1280px/禁用JS — 主内容节点与字符量在非脚本状态下保持 — {"n":7,"len":307}
+[RI2] [PASS] news-message.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — disabled=[true] body背景=rgba(0, 0, 0, 0) 版心=1264
+[RI2] [PASS] news-message.html — 1280px/禁用CSS — 无内容因样式缺失而消失（主内容 textContent 全等） — 段=4 字符=413
+[RI2] [PASS] news-message.html — 1280px/禁用CSS — 文章页阅读顺序：页面类型→标题→署名→正文 — 类型=0 标题=1 署名=2 正文首段=3 / 共 8 个文本节点
+[RI2] [PASS] news-message.html — 1280px/禁用CSS — 导航链接仍在文档树与无障碍树中（role=link + 可访问名） — [{"role":"link","name":"首页"},{"role":"link","name":"新闻消息"},{"role":"link","name":"新闻通讯"},{"role":"link","name":"新闻评论"}]
+[RI3] [PASS] news-message.html — 1280px — 恢复启用并硬刷新：回到正常基线、无残留 — class=js bg=rgb(245, 239, 228) 版心=1120
+[RJ2] [PASS] news-message.html — 1280 与 375px — 段落数量=4（与 Task 10 基线一致） — 桌面=4 移动=4
+[RJ1] [PASS] news-message.html — 375px — 移动渲染正文与 Task 10 逐段基线全等（CSS 换行/clamp/安全换行未增删字符） — 渲染字符=288 基线=288
+[RJ1] [PASS] news-message.html — 1280 vs 375 — 跨断点所见正文文本一致
+[RJ1] [PASS] news-message.html — 1280px — 页面标题与报头文本与基线一致 — 我校启动校本课程志愿填报
+[RJ1] [PASS] news-message.html — 1280px — 页面类型／标题／署名与基线逐字符一致 — [新闻消息][我校启动校本课程志愿填报][蓝色空间]
+[RJ1] [PASS] news-message.html — 1280px — 渲染顺序：类型→标题→署名 — 251 < 290 < 356
+[RJ3] [PASS] news-message.html — - — 伪元素 content 只用于画线（空串），未生成任何可见文字 — content 声明 2 处：["content: \"\"","content: \"\""]；可疑：[]
+[RJ3] [PASS] news-message.html — 375px — 全部交互与降级之后主内容无脚本注入文本、无字符增删 — 字符 413 -> 413
+[RB1] [PASS] news-feature.html — 769px — 量公共版心 .site-header__inner ≤1120 且左右留白对称 — 版心=705px 留白 L32/R32.0
+[RB1] [PASS] news-feature.html — 769px — 正文容器 .main-content 与报头同宽同边距 — main=705px L32/R32.0
+[RB2] [PASS] news-feature.html — 769px — 正文／首页文字区宽度 ≤736 — 文字块=705px
+[RB2] [PASS] news-feature.html — 769px — .article__body max-width ≤736 — max-width=736px
+[RB3] [PASS] news-feature.html — 769px — 报头单行完整显示、不被裁切 — scrollW=381 clientW=381 行=1 文本=自然选择号
+[RB3] [PASS] news-feature.html — 769px — 报头上下双细线 — 上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=705
+[RB3] [PASS] news-feature.html — 769px — 双细线不被报头文字穿越（文字盒完全位于两条线之间） — 文字距上线 20px、距下线 20px
+[RB3] [PASS] news-feature.html — 769px — 四项导航同一行 — tops=[150,150,150,150]
+[RB3] [PASS] news-feature.html — 769px — 导航顺序正确、无重叠 — 首页|新闻消息|新闻通讯|新闻评论
+[RB4] [PASS] news-feature.html — 769px — 桌面隐藏汉堡按钮 — display=none
+[RB4] [PASS] news-feature.html — 769px — 主导航横向常显 — nav=block dir=row shown=true,true,true,true
+[RB5] [PASS] news-feature.html — 769px — 当前页=暗红+700+2px 暗红实下边线 — color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-feature.html — 769px — 链接默认无 transform（不缩放不位移） — none,none,none,none
+[RB5] [PASS] news-feature.html — 769px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — 色 rgb(33, 31, 28) → rgb(122, 36, 36)
+[RB6] [PASS] news-feature.html — 769px — 暖白纸色底 + 深色文字（Task 3 变量） — bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RB6] [PASS] news-feature.html — 769px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-feature.html — 769px — 样式表可解析（73 条规则）
+[RB6] [PASS] news-feature.html — 769px — 无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉
+[RB6] [PASS] news-feature.html — 769px — 桌面正文两端对齐 — justify
+[RB7] [PASS] news-feature.html — 769px — 横向溢出严格判定 scrollWidth<=innerWidth（769<=769） — scrollW=769 inner=769 client=769 scrollX=0
+[RB7] [PASS] news-feature.html — 769px — 更严格：scrollWidth<=clientWidth — 769<=769
+[RB1] [PASS] news-feature.html — 1024px — 量公共版心 .site-header__inner ≤1120 且左右留白对称 — 版心=960px 留白 L32/R32.0
+[RB1] [PASS] news-feature.html — 1024px — 正文容器 .main-content 与报头同宽同边距 — main=960px L32/R32.0
+[RB1b] [PASS] news-feature.html — 1024px(无滚动条占位) — 1024 版心≈960（100% − 2×2rem） — 版心=960px inner=1024 client=1024（桌面测量含滚动条占位 0px）
+[RB2] [PASS] news-feature.html — 1024px — 正文／首页文字区宽度 ≤736 — 文字块=736px
+[RB2] [PASS] news-feature.html — 1024px — .article__body max-width ≤736 — max-width=736px
+[RB3] [PASS] news-feature.html — 1024px — 报头单行完整显示、不被裁切 — scrollW=381 clientW=381 行=1 文本=自然选择号
+[RB3] [PASS] news-feature.html — 1024px — 报头上下双细线 — 上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=960
+[RB3] [PASS] news-feature.html — 1024px — 双细线不被报头文字穿越（文字盒完全位于两条线之间） — 文字距上线 20px、距下线 20px
+[RB3] [PASS] news-feature.html — 1024px — 四项导航同一行 — tops=[150,150,150,150]
+[RB3] [PASS] news-feature.html — 1024px — 导航顺序正确、无重叠 — 首页|新闻消息|新闻通讯|新闻评论
+[RB4] [PASS] news-feature.html — 1024px — 桌面隐藏汉堡按钮 — display=none
+[RB4] [PASS] news-feature.html — 1024px — 主导航横向常显 — nav=block dir=row shown=true,true,true,true
+[RB5] [PASS] news-feature.html — 1024px — 当前页=暗红+700+2px 暗红实下边线 — color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-feature.html — 1024px — 链接默认无 transform（不缩放不位移） — none,none,none,none
+[RB5] [PASS] news-feature.html — 1024px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — 色 rgb(33, 31, 28) → rgb(122, 36, 36)
+[RB6] [PASS] news-feature.html — 1024px — 暖白纸色底 + 深色文字（Task 3 变量） — bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RB6] [PASS] news-feature.html — 1024px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-feature.html — 1024px — 样式表可解析（73 条规则）
+[RB6] [PASS] news-feature.html — 1024px — 无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉
+[RB6] [PASS] news-feature.html — 1024px — 桌面正文两端对齐 — justify
+[RB7] [PASS] news-feature.html — 1024px — 横向溢出严格判定 scrollWidth<=innerWidth（1024<=1024） — scrollW=1024 inner=1024 client=1024 scrollX=0
+[RB7] [PASS] news-feature.html — 1024px — 更严格：scrollWidth<=clientWidth — 1024<=1024
+[RB1] [PASS] news-feature.html — 1280px — 量公共版心 .site-header__inner ≤1120 且左右留白对称 — 版心=1120px 留白 L80/R80.0
+[RB1] [PASS] news-feature.html — 1280px — 正文容器 .main-content 与报头同宽同边距 — main=1120px L80/R80.0
+[RB2] [PASS] news-feature.html — 1280px — 正文／首页文字区宽度 ≤736 — 文字块=736px
+[RB2] [PASS] news-feature.html — 1280px — .article__body max-width ≤736 — max-width=736px
+[RB3] [PASS] news-feature.html — 1280px — 报头单行完整显示、不被裁切 — scrollW=381 clientW=381 行=1 文本=自然选择号
+[RB3] [PASS] news-feature.html — 1280px — 报头上下双细线 — 上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=1120
+[RB3] [PASS] news-feature.html — 1280px — 双细线不被报头文字穿越（文字盒完全位于两条线之间） — 文字距上线 20px、距下线 20px
+[RB3] [PASS] news-feature.html — 1280px — 四项导航同一行 — tops=[150,150,150,150]
+[RB3] [PASS] news-feature.html — 1280px — 导航顺序正确、无重叠 — 首页|新闻消息|新闻通讯|新闻评论
+[RB4] [PASS] news-feature.html — 1280px — 桌面隐藏汉堡按钮 — display=none
+[RB4] [PASS] news-feature.html — 1280px — 主导航横向常显 — nav=block dir=row shown=true,true,true,true
+[RB5] [PASS] news-feature.html — 1280px — 当前页=暗红+700+2px 暗红实下边线 — color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-feature.html — 1280px — 链接默认无 transform（不缩放不位移） — none,none,none,none
+[RB5] [PASS] news-feature.html — 1280px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — 色 rgb(33, 31, 28) → rgb(122, 36, 36)
+[RB6] [PASS] news-feature.html — 1280px — 暖白纸色底 + 深色文字（Task 3 变量） — bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RB6] [PASS] news-feature.html — 1280px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-feature.html — 1280px — 样式表可解析（73 条规则）
+[RB6] [PASS] news-feature.html — 1280px — 无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉
+[RB6] [PASS] news-feature.html — 1280px — 桌面正文两端对齐 — justify
+[RB7] [PASS] news-feature.html — 1280px — 横向溢出严格判定 scrollWidth<=innerWidth（1280<=1280） — scrollW=1280 inner=1280 client=1280 scrollX=0
+[RB7] [PASS] news-feature.html — 1280px — 更严格：scrollWidth<=clientWidth — 1280<=1280
+[RC1] [PASS] news-feature.html — 375px — 左右留白各约 16px（--page-gutter:1rem） — L16 R16.0
+[RC1] [PASS] news-feature.html — 375px — 版心随可用宽度收缩（=视口−2×16px），无固定内容宽度 — 报头版心=343 main=343 client=375
+[RC1] [PASS] news-feature.html — 375px — 无内部滚动区、无超出视口的固定像素宽元素、无裁切 — 内部滚动元素=[] 过宽元素=[]
+[RC1] [PASS] news-feature.html — 375px — 报头内部改为纵向流 — flex/column
+[RC2] [PASS] news-feature.html — 375px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px） — 实测=41.25px
+[RC2] [PASS] news-feature.html — 375px — 页面标题流式缩小但仍比正文醒目 — title=28px 参照正文=17px（1280 基线 40px）
+[RC2] [PASS] news-feature.html — 375px — 报头与页面标题不溢出 — mast 236/236 · title 343/343
+[RC4] [PASS] news-feature.html — 375px — 文章保持单栏、段落数=23 — 段=23 column-count=auto 宽=343
+[RC4] [PASS] news-feature.html — 375px — 正文段落首行缩进 2em — text-indent=34px 正文字号=17px
+[RC4] [PASS] news-feature.html — 375px — .dateline 仍内联于首段首行 — {"present":true,"text":"自然选择号9月17日电","disp":"inline","fw":"700","top":358.5625,"pTop":352.5625,"isFirstP":true} 行高=32.3（内联盒与行盒 top 允许相差 <1 行）
+[RC5] [PASS] news-feature.html — 375px — 基线命中的 1 个中英文混排术语（AI）在渲染文本中原样完整 — 全部命中
+[RC5] [PASS] news-feature.html — 375px — 安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语 — word-break=normal hyphens=none overflow-wrap=normal
+[RC5] [PASS] news-feature.html — 375px — 未插入 <wbr>／软连字符／零宽字符，原文字符不变 — 不可见断行字符 0 个
+[RC6] [PASS] news-feature.html — 375px — scrollWidth<=innerWidth 严格判定（不放宽 1px） — 375<=375
+[RC6] [PASS] news-feature.html — 375px — 更严格：documentElement/body scrollWidth<=clientWidth — de=375 body=375 client=375
+[RC7] [PASS] news-feature.html — 375px — 移动端正文改为 text-align: start（窄行不留大空隙） — text-align=start
+[RE2] [PASS] news-feature.html — 375px — .js 关闭态：按钮可见、导航折叠、aria-expanded=false — tog=flex nav=none open=false aria=false
+[RC1] [PASS] news-feature.html — 375px — 命中移动断点且未命中桌面断点 — mqM=true mqD=false
+[RC1] [PASS] news-feature.html — 768px — 左右留白各约 16px（--page-gutter:1rem） — L16 R16.0
+[RC1] [PASS] news-feature.html — 768px — 版心随可用宽度收缩（=视口−2×16px），无固定内容宽度 — 报头版心=736 main=736 client=768
+[RC1] [PASS] news-feature.html — 768px — 无内部滚动区、无超出视口的固定像素宽元素、无裁切 — 内部滚动元素=[] 过宽元素=[]
+[RC1] [PASS] news-feature.html — 768px — 报头内部改为纵向流 — flex/column
+[RC2] [PASS] news-feature.html — 768px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px） — 实测=56px
+[RC2] [PASS] news-feature.html — 768px — 页面标题流式缩小但仍比正文醒目 — title=36px 参照正文=17px（1280 基线 40px）
+[RC2] [PASS] news-feature.html — 768px — 报头与页面标题不溢出 — mast 320/320 · title 736/736
+[RC4] [PASS] news-feature.html — 768px — 文章保持单栏、段落数=23 — 段=23 column-count=auto 宽=736
+[RC4] [PASS] news-feature.html — 768px — 正文段落首行缩进 2em — text-indent=34px 正文字号=17px
+[RC4] [PASS] news-feature.html — 768px — .dateline 仍内联于首段首行 — {"present":true,"text":"自然选择号9月17日电","disp":"inline","fw":"700","top":387,"pTop":381,"isFirstP":true} 行高=32.3（内联盒与行盒 top 允许相差 <1 行）
+[RC5] [PASS] news-feature.html — 768px — 基线命中的 1 个中英文混排术语（AI）在渲染文本中原样完整 — 全部命中
+[RC5] [PASS] news-feature.html — 768px — 安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语 — word-break=normal hyphens=none overflow-wrap=normal
+[RC5] [PASS] news-feature.html — 768px — 未插入 <wbr>／软连字符／零宽字符，原文字符不变 — 不可见断行字符 0 个
+[RC6] [PASS] news-feature.html — 768px — scrollWidth<=innerWidth 严格判定（不放宽 1px） — 768<=768
+[RC6] [PASS] news-feature.html — 768px — 更严格：documentElement/body scrollWidth<=clientWidth — de=768 body=768 client=768
+[RC7] [PASS] news-feature.html — 768px — 移动端正文改为 text-align: start（窄行不留大空隙） — text-align=start
+[RE2] [PASS] news-feature.html — 768px — .js 关闭态：按钮可见、导航折叠、aria-expanded=false — tog=flex nav=none open=false aria=false
+[RC1] [PASS] news-feature.html — 768px — 命中移动断点且未命中桌面断点 — mqM=true mqD=false
+[RD4] [PASS] news-feature.html — 375px — 跳转链接是第一个 Tab 停靠点 — active=skip-link/A
+[RD4] [PASS] news-feature.html — 375px — 首次 Tab 后出现在左上角、文字与背景清晰、带轮廓 — top=0 left=0 h=52 outline=2px solid rgb(122, 36, 36) bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RD4] [PASS] news-feature.html — 375px — 激活跳转链接后跳到 #main-content 且正文获得焦点 — active=main-content/MAIN
+[RD4] [PASS] news-feature.html — 375px — 报头未被推动（文档坐标不变，只有到达目标的纵向滚动）、无横向滚动、正文焦点轮廓可感知 — scrollX=0 header 文档坐标 0->0（视口 0->-164，scrollY 0->164） outline=2px solid rgb(122, 36, 36)
+[RD3] [PASS] news-feature.html — 375px — 纯键盘到达菜单按钮，暗红实线轮廓清晰且不被裁切 — active=nav-toggle outline=2px solid rgb(122, 36, 36) offset=3px 裁切祖先=[]
+[RD1] [PASS] news-feature.html — 375px — .nav-toggle 实际 getBoundingClientRect ≥44×44 CSS px — 86×46
+[RD2] [PASS] news-feature.html — 375px — 每个可见 .site-navigation__link 实际点击区 ≥44×44 — [[343,46],[343,46],[343,46],[343,46]]
+[RD2] [PASS] news-feature.html — 375px — 链接占满行宽便于触控 — 导航宽=343 链接宽=343,343,343,343
+[RD3] [PASS] news-feature.html — 375px — 逐个链接键盘焦点轮廓清晰且不被边框/展开菜单/容器裁切 — [["site-navigation__link","2px solid rgb(122, 36, 36)",""],["site-navigation__link","2px solid rgb(122, 36, 36)",""],["site-navigation__link","2px solid rgb(122, 36, 36)",""],["site-navigation__link","2px solid rgb(122, 36, 36)",""]]
+[RD3] [PASS] news-feature.html — 375px — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RE1] [PASS] news-feature.html — 375px/禁用JS — 先禁用 JS 再硬刷新：html 仍为 no-js — no-js
+[RE1] [PASS] news-feature.html — 375px/禁用JS — 按钮不可见 — display=none
+[RE1] [PASS] news-feature.html — 375px/禁用JS — 四项导航纵向常显、可点击、可聚焦 — nav=block [[343,46,true],[343,46,true],[343,46,true],[343,46,true]]
+[RE1] [PASS] news-feature.html — 375px/禁用JS — 无脚本时导航为纵向列表 — column
+[RE1] [PASS] news-feature.html — 375px/禁用JS — 当前页仍以颜色与线条区分 — color=rgb(122, 36, 36) bb=2px solid rgb(122, 36, 36)
+[RE1] [PASS] news-feature.html — 375px/禁用JS — 隐藏按钮不进入 Tab 顺序 — skip-link>site-masthead__link>site-navigation__link
+[RE1] [PASS] news-feature.html — 375px/禁用JS — 跳转链接与导航链接均可 Tab 到达 — skip-link>site-masthead__link>site-navigation__link
+[RE1] [PASS] news-feature.html — 375px/禁用JS — 无脚本态焦点轮廓不被裁切 — 2px solid rgb(122, 36, 36) 祖先=[]
+[RE1] [PASS] news-feature.html — 375px/禁用JS — 无脚本时链接仍可点击并真实导航 — frameNavigated=1 落地=news-message.html
+[RE2] [PASS] news-feature.html — 375px — JS 可用硬刷新后 html 为 js 且不含 no-js — js
+[RE2] [PASS] news-feature.html — 375px — 关闭态隐藏链接不生成布局盒（因而不在 Tab 顺序） — [[false,0],[false,0],[false,0],[false,0]]
+[RE2] [PASS] news-feature.html — 375px — 关闭态 Tab 序列不含导航链接 — skip-link>site-masthead__link
+[RE3] [PASS] news-feature.html — 375px — 激活按钮后：.is-open + aria-expanded=true + 导航显示 — open=true aria=true disp=block
+[RE3] [PASS] news-feature.html — 375px — 四项纵向完整显示且点击区达标 — [[343,46],[343,46],[343,46],[343,46]]
+[RE3] [PASS] news-feature.html — 375px — 展开菜单项纵向排列互不重叠 — 176 > 223 > 270 > 317
+[RE3] [PASS] news-feature.html — 375px — 展开菜单不覆盖正文、不横向推挤报头 — nav.bottom=364 main.top=364 inner.right=359.0 client=375
+[RE3] [PASS] news-feature.html — 375px — 展开不使报头位移或被截断 — masthead.top 16 -> 16
+[RE3] [PASS] news-feature.html — 375px — 展开态仍无横向溢出 — 375<=375
+[RE2] [PASS] news-feature.html — 375px — 页面不因隐藏导航留下异常固定高度或空白（只有展开才增高、把正文下推） — header 高 闭=164 开=364 Δ=200 四链接合计=184; main.top 164->364
+[RE3] [PASS] news-feature.html — 375px — 点击打开后焦点仍在按钮（披露式，不强制移入） — nav-toggle
+[RE3] [PASS] news-feature.html — 375px — Tab 顺序自然：按钮→四个导航链接（第 5 次离开导航） — nav-toggle > site-navigation__link > site-navigation__link > site-navigation__link > site-navigation__link > skip-link
+[RE3] [PASS] news-feature.html — 375px — 按钮之后不重复回到按钮/焦点陷阱 — site-navigation__link>site-navigation__link>site-navigation__link>site-navigation__link>skip-link
+[RE4] [PASS] news-feature.html — 375px — is-open 与 aria-expanded 同步（打开） — open=true aria=true
+[RE4] [PASS] news-feature.html — 375px — is-open 与 aria-expanded 同步（关闭） — open=false aria=false
+[RF1] [PASS] news-feature.html — 375px — 点击按钮打开一次，状态与 ARIA 同步 — open=true aria=true
+[RF1] [PASS] news-feature.html — 375px — 再次点击关闭一次，状态与 ARIA 同步 — open=false aria=false
+[RF5] [PASS] news-feature.html — 375px — 披露式焦点策略：焦点保持在按钮，未强制移入菜单 — nav-toggle
+[RF2] [PASS] news-feature.html — 375px — 聚焦按钮按 Enter：恰好一次激活（keydown 激活） — Δclick=1 open=true aria=true
+[RF2] [PASS] news-feature.html — 375px — Enter 再按：恰好切回关闭 — Δclick=1 open=false
+[RF2] [PASS] news-feature.html — 375px — Space：与点击等效、恰好一次激活（keyup 激活） — Δclick=1 open=true aria=true
+[RF2] [PASS] news-feature.html — 375px — Space 再按恰好切回，无双触发 — Δclick=1 open=false
+[RF3] [PASS] news-feature.html — 375px — 前置：菜单为打开态 — open=true
+[RF3] [PASS] news-feature.html — 375px — 打开态（焦点在 site-navigation__link）按 Esc：关闭菜单且焦点返回 #nav-toggle — open=false aria=false active=nav-toggle
+[RF3] [PASS] news-feature.html — 375px — 关闭态按 Esc 无副作用（不抢焦点、不滚动） — active nav-toggle->nav-toggle scrollY 0->0
+[RF4] [PASS] news-feature.html — 375px — 打开态点击第 3 项「新闻通讯」：先关闭再导航，落地无展开残留 — navigated=1 落地=news-feature.html open=false aria=false
+[RA4] [PASS] news-feature.html — 375px — 点击「新闻通讯」到达现有页面 — news-feature.html :: 从数学题到AI时代的学习｜自然选择号
+[RF4] [PASS] news-feature.html — 375px — 打开态点击第 1 项「首页」：先关闭再导航，落地无展开残留 — navigated=1 落地=index.html open=false aria=false
+[RA4] [PASS] news-feature.html — 375px — 点击「首页」到达现有页面 — index.html :: 《自然选择号》报社简介｜自然选择号
+[RF7] [PASS] news-feature.html — 375px — 点击菜单外正文区域：菜单保持展开（合同已定，不实现外点关闭，不判失败） — open=true aria=true
+[RF7] [PASS] news-feature.html — 375px — 外点过程无报错、无异常失焦
+[RF6] [PASS] news-feature.html — 375px — 折叠由 CSS display 负责：脚本未用 tabindex/aria-hidden/hidden/inert 管理链接可聚焦性 — 导航子树被标记属性=[] main.tabindex=-1
+[RG1] [PASS] news-feature.html — 768px — 前置：768px 打开菜单 — open=true mqM=true mqD=false
+[RG1] [PASS] news-feature.html — 768→769px — 对照监听：本渲染环境确实派发 mediaquery change 事件 — ["change:true"]
+[RG1] [PASS] news-feature.html — 768→769px — 跨到 769px：.is-open 清除且 aria-expanded 重置 false — open=false aria=false
+[RG1] [PASS] news-feature.html — 768→769px — 按钮隐藏、导航立即恢复横向常显 — tog=none nav=block shown=true,true,true,true
+[RG1] [PASS] news-feature.html — 768→769px — 移动 display:none/纵向规则不再作用（同一行） — 150,150,150,150
+[RG1] [PASS] news-feature.html — 768→769px — 移动字号与移动间距退出，桌面基线回来（报头 64px、版心=视口−2×2rem、导航 gap 恢复） — mast=64px 版心=705 client=769 期望=705 gap=40px
+[RG2] [PASS] news-feature.html — 375px — 再缩回 ≤768px：菜单为关闭态，不复用旧展开状态 — open=false aria=false
+[RG2] [PASS] news-feature.html — 375px — 缩回后仍可正常打开 — open=true
+[RG3] [PASS] news-feature.html — 断点连续切换 — 切换过程无布局跳变残留、无横向溢出 — scrollW=1280 inner=1280 open=false
+[RH1] [PASS] news-feature.html — 1280px/100% — 记录缩放前 innerWidth=1280 — client=1280 根字号=16px 报头=64px 版心=1120
+[RH1] [PASS] news-feature.html — 200% — 缩放的两个效果同时成立：CSS 视口折半（1280→640）且文字实际像素翻倍 — inner=640 dpr=2 报头 CSS=56px 实际=641 设备像素（100% 时 381px）
+[RH1] [PASS] news-feature.html — 200% — 记录缩放后 innerWidth=640（100% 时为 1280） — 机制=CDP zoom=2 在本 Chrome 为 no-op（zoom_probe.mjs 已证实）→ 用 640px 布局视口 + deviceScaleFactor=2 复现 200% 的布局与绘制两个效果；dpr=2 client=640
+[RH1] [PASS] news-feature.html — 200% — 根字号由 html{font-size:100%} 派生、未锁死为像素（缩放按 CSS px 等比生效） — 100%=16px → 200%=16px
+[RH2] [PASS] news-feature.html — 200%→640px — 缩放后 innerWidth≤768：进入移动布局（属预期正确结果），按钮可见、导航折叠 — inner=640 tog=flex nav=none
+[RH2] [PASS] news-feature.html — 200%→640px — 复查菜单三态与 44px 点击区 — open=true [[608,46],[608,46],[608,46],[608,46]]
+[RH3] [PASS] news-feature.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px solid rgb(122, 36, 36)"]
+[RH3] [PASS] news-feature.html — 200%→640px — 200% 下无横向滚动 — scrollW=640 inner=640 client=640
+[RH3] [PASS] news-feature.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 · title 608/608 · nav.right=624
+[RH3] [PASS] news-feature.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] news-feature.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120 open=false
+[RI1] [PASS] news-feature.html — 1280px/禁用JS — 禁用 JS 并硬刷新：html 保持 no-js，CSS 仍生效（样式不依赖脚本） — class=no-js rules=45
+[RI1] [PASS] news-feature.html — 1280px/禁用JS — 无脚本时正文完整可见、与 Task 10 基线逐段全等（23 段） — 实测=23 段
+[RI1] [PASS] news-feature.html — 1280px/禁用JS — 逐段字符数与基线一致（内容不依赖脚本注入） — 基线=58,114,36,58,81,106,85,99,78,70,83,24,83,21,49,37,43,97,43,44,79,80,61 实测=58,114,36,58,81,106,85,99,78,70,83,24,83,21,49,37,43,97,43,44,79,80,61
+[RI1] [PASS] news-feature.html — 1280px/禁用JS — 主内容节点与字符量在非脚本状态下保持 — {"n":26,"len":1548}
+[RI2] [PASS] news-feature.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — disabled=[true] body背景=rgba(0, 0, 0, 0) 版心=1264
+[RI2] [PASS] news-feature.html — 1280px/禁用CSS — 无内容因样式缺失而消失（主内容 textContent 全等） — 段=23 字符=1825
+[RI2] [PASS] news-feature.html — 1280px/禁用CSS — 文章页阅读顺序：页面类型→标题→署名→正文 — 类型=0 标题=1 署名=2 正文首段=3 / 共 27 个文本节点
+[RI2] [PASS] news-feature.html — 1280px/禁用CSS — 导航链接仍在文档树与无障碍树中（role=link + 可访问名） — [{"role":"link","name":"首页"},{"role":"link","name":"新闻消息"},{"role":"link","name":"新闻通讯"},{"role":"link","name":"新闻评论"}]
+[RI3] [PASS] news-feature.html — 1280px — 恢复启用并硬刷新：回到正常基线、无残留 — class=js bg=rgb(245, 239, 228) 版心=1120
+[RJ2] [PASS] news-feature.html — 1280 与 375px — 段落数量=23（与 Task 10 基线一致） — 桌面=23 移动=23
+[RJ1] [PASS] news-feature.html — 375px — 移动渲染正文与 Task 10 逐段基线全等（CSS 换行/clamp/安全换行未增删字符） — 渲染字符=1529 基线=1529
+[RJ1] [PASS] news-feature.html — 1280 vs 375 — 跨断点所见正文文本一致
+[RJ1] [PASS] news-feature.html — 1280px — 页面标题与报头文本与基线一致 — 从数学题到AI时代的学习
+[RJ1] [PASS] news-feature.html — 1280px — 页面类型／标题／署名与基线逐字符一致 — [新闻通讯][从数学题到AI时代的学习][蓝色空间]
+[RJ1] [PASS] news-feature.html — 1280px — 渲染顺序：类型→标题→署名 — 251 < 290 < 356
+[RJ3] [PASS] news-feature.html — - — 伪元素 content 只用于画线（空串），未生成任何可见文字 — content 声明 2 处：["content: \"\"","content: \"\""]；可疑：[]
+[RJ3] [PASS] news-feature.html — 375px — 全部交互与降级之后主内容无脚本注入文本、无字符增删 — 字符 1825 -> 1825
+[RB1] [PASS] news-commentary.html — 769px — 量公共版心 .site-header__inner ≤1120 且左右留白对称 — 版心=705px 留白 L32/R32.0
+[RB1] [PASS] news-commentary.html — 769px — 正文容器 .main-content 与报头同宽同边距 — main=705px L32/R32.0
+[RB2] [PASS] news-commentary.html — 769px — 正文／首页文字区宽度 ≤736 — 文字块=705px
+[RB2] [PASS] news-commentary.html — 769px — .article__body max-width ≤736 — max-width=736px
+[RB3] [PASS] news-commentary.html — 769px — 报头单行完整显示、不被裁切 — scrollW=381 clientW=381 行=1 文本=自然选择号
+[RB3] [PASS] news-commentary.html — 769px — 报头上下双细线 — 上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=705
+[RB3] [PASS] news-commentary.html — 769px — 双细线不被报头文字穿越（文字盒完全位于两条线之间） — 文字距上线 20px、距下线 20px
+[RB3] [PASS] news-commentary.html — 769px — 四项导航同一行 — tops=[150,150,150,150]
+[RB3] [PASS] news-commentary.html — 769px — 导航顺序正确、无重叠 — 首页|新闻消息|新闻通讯|新闻评论
+[RB4] [PASS] news-commentary.html — 769px — 桌面隐藏汉堡按钮 — display=none
+[RB4] [PASS] news-commentary.html — 769px — 主导航横向常显 — nav=block dir=row shown=true,true,true,true
+[RB5] [PASS] news-commentary.html — 769px — 当前页=暗红+700+2px 暗红实下边线 — color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-commentary.html — 769px — 链接默认无 transform（不缩放不位移） — none,none,none,none
+[RB5] [PASS] news-commentary.html — 769px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — 色 rgb(33, 31, 28) → rgb(122, 36, 36)
+[RB6] [PASS] news-commentary.html — 769px — 暖白纸色底 + 深色文字（Task 3 变量） — bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RB6] [PASS] news-commentary.html — 769px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-commentary.html — 769px — 样式表可解析（73 条规则）
+[RB6] [PASS] news-commentary.html — 769px — 无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉
+[RB6] [PASS] news-commentary.html — 769px — 桌面正文两端对齐 — justify
+[RB7] [PASS] news-commentary.html — 769px — 横向溢出严格判定 scrollWidth<=innerWidth（769<=769） — scrollW=769 inner=769 client=769 scrollX=0
+[RB7] [PASS] news-commentary.html — 769px — 更严格：scrollWidth<=clientWidth — 769<=769
+[RB1] [PASS] news-commentary.html — 1024px — 量公共版心 .site-header__inner ≤1120 且左右留白对称 — 版心=960px 留白 L32/R32.0
+[RB1] [PASS] news-commentary.html — 1024px — 正文容器 .main-content 与报头同宽同边距 — main=960px L32/R32.0
+[RB1b] [PASS] news-commentary.html — 1024px(无滚动条占位) — 1024 版心≈960（100% − 2×2rem） — 版心=960px inner=1024 client=1024（桌面测量含滚动条占位 0px）
+[RB2] [PASS] news-commentary.html — 1024px — 正文／首页文字区宽度 ≤736 — 文字块=736px
+[RB2] [PASS] news-commentary.html — 1024px — .article__body max-width ≤736 — max-width=736px
+[RB3] [PASS] news-commentary.html — 1024px — 报头单行完整显示、不被裁切 — scrollW=381 clientW=381 行=1 文本=自然选择号
+[RB3] [PASS] news-commentary.html — 1024px — 报头上下双细线 — 上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=960
+[RB3] [PASS] news-commentary.html — 1024px — 双细线不被报头文字穿越（文字盒完全位于两条线之间） — 文字距上线 20px、距下线 20px
+[RB3] [PASS] news-commentary.html — 1024px — 四项导航同一行 — tops=[150,150,150,150]
+[RB3] [PASS] news-commentary.html — 1024px — 导航顺序正确、无重叠 — 首页|新闻消息|新闻通讯|新闻评论
+[RB4] [PASS] news-commentary.html — 1024px — 桌面隐藏汉堡按钮 — display=none
+[RB4] [PASS] news-commentary.html — 1024px — 主导航横向常显 — nav=block dir=row shown=true,true,true,true
+[RB5] [PASS] news-commentary.html — 1024px — 当前页=暗红+700+2px 暗红实下边线 — color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-commentary.html — 1024px — 链接默认无 transform（不缩放不位移） — none,none,none,none
+[RB5] [PASS] news-commentary.html — 1024px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — 色 rgb(33, 31, 28) → rgb(122, 36, 36)
+[RB6] [PASS] news-commentary.html — 1024px — 暖白纸色底 + 深色文字（Task 3 变量） — bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RB6] [PASS] news-commentary.html — 1024px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-commentary.html — 1024px — 样式表可解析（73 条规则）
+[RB6] [PASS] news-commentary.html — 1024px — 无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉
+[RB6] [PASS] news-commentary.html — 1024px — 桌面正文两端对齐 — justify
+[RB7] [PASS] news-commentary.html — 1024px — 横向溢出严格判定 scrollWidth<=innerWidth（1024<=1024） — scrollW=1024 inner=1024 client=1024 scrollX=0
+[RB7] [PASS] news-commentary.html — 1024px — 更严格：scrollWidth<=clientWidth — 1024<=1024
+[RB1] [PASS] news-commentary.html — 1280px — 量公共版心 .site-header__inner ≤1120 且左右留白对称 — 版心=1120px 留白 L80/R80.0
+[RB1] [PASS] news-commentary.html — 1280px — 正文容器 .main-content 与报头同宽同边距 — main=1120px L80/R80.0
+[RB2] [PASS] news-commentary.html — 1280px — 正文／首页文字区宽度 ≤736 — 文字块=736px
+[RB2] [PASS] news-commentary.html — 1280px — .article__body max-width ≤736 — max-width=736px
+[RB3] [PASS] news-commentary.html — 1280px — 报头单行完整显示、不被裁切 — scrollW=381 clientW=381 行=1 文本=自然选择号
+[RB3] [PASS] news-commentary.html — 1280px — 报头上下双细线 — 上=3px double rgb(184, 170, 152) 下=3px double rgb(184, 170, 152) 宽=1120
+[RB3] [PASS] news-commentary.html — 1280px — 双细线不被报头文字穿越（文字盒完全位于两条线之间） — 文字距上线 20px、距下线 20px
+[RB3] [PASS] news-commentary.html — 1280px — 四项导航同一行 — tops=[150,150,150,150]
+[RB3] [PASS] news-commentary.html — 1280px — 导航顺序正确、无重叠 — 首页|新闻消息|新闻通讯|新闻评论
+[RB4] [PASS] news-commentary.html — 1280px — 桌面隐藏汉堡按钮 — display=none
+[RB4] [PASS] news-commentary.html — 1280px — 主导航横向常显 — nav=block dir=row shown=true,true,true,true
+[RB5] [PASS] news-commentary.html — 1280px — 当前页=暗红+700+2px 暗红实下边线 — color=rgb(122, 36, 36) fw=700 bb=2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-commentary.html — 1280px — 链接默认无 transform（不缩放不位移） — none,none,none,none
+[RB5] [PASS] news-commentary.html — 1280px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — 色 rgb(33, 31, 28) → rgb(122, 36, 36)
+[RB6] [PASS] news-commentary.html — 1280px — 暖白纸色底 + 深色文字（Task 3 变量） — bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RB6] [PASS] news-commentary.html — 1280px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-commentary.html — 1280px — 样式表可解析（73 条规则）
+[RB6] [PASS] news-commentary.html — 1280px — 无渐变/阴影/圆角/分栏/滤镜/缩放过渡等被禁视觉
+[RB6] [PASS] news-commentary.html — 1280px — 桌面正文两端对齐 — justify
+[RB7] [PASS] news-commentary.html — 1280px — 横向溢出严格判定 scrollWidth<=innerWidth（1280<=1280） — scrollW=1280 inner=1280 client=1280 scrollX=0
+[RB7] [PASS] news-commentary.html — 1280px — 更严格：scrollWidth<=clientWidth — 1280<=1280
+[RC1] [PASS] news-commentary.html — 375px — 左右留白各约 16px（--page-gutter:1rem） — L16 R16.0
+[RC1] [PASS] news-commentary.html — 375px — 版心随可用宽度收缩（=视口−2×16px），无固定内容宽度 — 报头版心=343 main=343 client=375
+[RC1] [PASS] news-commentary.html — 375px — 无内部滚动区、无超出视口的固定像素宽元素、无裁切 — 内部滚动元素=[] 过宽元素=[]
+[RC1] [PASS] news-commentary.html — 375px — 报头内部改为纵向流 — flex/column
+[RC2] [PASS] news-commentary.html — 375px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px） — 实测=41.25px
+[RC2] [PASS] news-commentary.html — 375px — 页面标题流式缩小但仍比正文醒目 — title=28px 参照正文=17px（1280 基线 40px）
+[RC2] [PASS] news-commentary.html — 375px — 报头与页面标题不溢出 — mast 236/236 · title 343/343
+[RC2] [PASS] news-commentary.html — 375px — 长评论标题在窄宽度自然折成多行、任一移动宽度都不溢出（768px 下单行即为正确结果） — 行数=2 343<=343 盒宽=343 client=375
+[RC2] [PASS] news-commentary.html — 375px — 末行不残留单字孤悬 — 末行宽=196px ≈ 7.0 字（字号 28px，共 2 行片段）
+[RC4] [PASS] news-commentary.html — 375px — 文章保持单栏、段落数=29 — 段=29 column-count=auto 宽=343
+[RC4] [PASS] news-commentary.html — 375px — 正文段落首行缩进 2em — text-indent=34px 正文字号=17px
+[RC4] [PASS] news-commentary.html — 375px — .dateline 仍内联于首段首行 — {"present":false} 行高=32.3（内联盒与行盒 top 允许相差 <1 行）
+[RC4] [PASS] news-commentary.html — 375px — 末尾日期右对齐、无首行缩进、极窄宽度下不溢出 — align=right indent=0px 343<=343 折行=1
+[RC5] [PASS] news-commentary.html — 375px — 基线命中的 8 个中英文混排术语（AI, .exe, Windows 10, UOS, USB, OPS, Linux, 4K）在渲染文本中原样完整 — 全部命中
+[RC5] [PASS] news-commentary.html — 375px — 安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语 — word-break=normal hyphens=none overflow-wrap=normal
+[RC5] [PASS] news-commentary.html — 375px — 未插入 <wbr>／软连字符／零宽字符，原文字符不变 — 不可见断行字符 0 个
+[RC6] [PASS] news-commentary.html — 375px — scrollWidth<=innerWidth 严格判定（不放宽 1px） — 375<=375
+[RC6] [PASS] news-commentary.html — 375px — 更严格：documentElement/body scrollWidth<=clientWidth — de=375 body=375 client=375
+[RC7] [PASS] news-commentary.html — 375px — 移动端正文改为 text-align: start（窄行不留大空隙） — text-align=start
+[RE2] [PASS] news-commentary.html — 375px — .js 关闭态：按钮可见、导航折叠、aria-expanded=false — tog=flex nav=none open=false aria=false
+[RC1] [PASS] news-commentary.html — 375px — 命中移动断点且未命中桌面断点 — mqM=true mqD=false
+[RC1] [PASS] news-commentary.html — 768px — 左右留白各约 16px（--page-gutter:1rem） — L16 R16.0
+[RC1] [PASS] news-commentary.html — 768px — 版心随可用宽度收缩（=视口−2×16px），无固定内容宽度 — 报头版心=736 main=736 client=768
+[RC1] [PASS] news-commentary.html — 768px — 无内部滚动区、无超出视口的固定像素宽元素、无裁切 — 内部滚动元素=[] 过宽元素=[]
+[RC1] [PASS] news-commentary.html — 768px — 报头内部改为纵向流 — flex/column
+[RC2] [PASS] news-commentary.html — 768px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小（1280 基线 64px） — 实测=56px
+[RC2] [PASS] news-commentary.html — 768px — 页面标题流式缩小但仍比正文醒目 — title=36px 参照正文=17px（1280 基线 40px）
+[RC2] [PASS] news-commentary.html — 768px — 报头与页面标题不溢出 — mast 320/320 · title 736/736
+[RC2] [PASS] news-commentary.html — 768px — 长评论标题在窄宽度自然折成多行、任一移动宽度都不溢出（768px 下单行即为正确结果） — 行数=1 736<=736 盒宽=736 client=768
+[RC2] [PASS] news-commentary.html — 768px — 末行不残留单字孤悬 — 末行宽=540px ≈ 15.0 字（字号 36px，共 1 行片段）
+[RC4] [PASS] news-commentary.html — 768px — 文章保持单栏、段落数=29 — 段=29 column-count=auto 宽=736
+[RC4] [PASS] news-commentary.html — 768px — 正文段落首行缩进 2em — text-indent=34px 正文字号=17px
+[RC4] [PASS] news-commentary.html — 768px — .dateline 仍内联于首段首行 — {"present":false} 行高=32.3（内联盒与行盒 top 允许相差 <1 行）
+[RC4] [PASS] news-commentary.html — 768px — 末尾日期右对齐、无首行缩进、极窄宽度下不溢出 — align=right indent=0px 736<=736 折行=1
+[RC5] [PASS] news-commentary.html — 768px — 基线命中的 8 个中英文混排术语（AI, .exe, Windows 10, UOS, USB, OPS, Linux, 4K）在渲染文本中原样完整 — 全部命中
+[RC5] [PASS] news-commentary.html — 768px — 安全换行只用 overflow-wrap，未用 break-all/hyphens 打断术语 — word-break=normal hyphens=none overflow-wrap=normal
+[RC5] [PASS] news-commentary.html — 768px — 未插入 <wbr>／软连字符／零宽字符，原文字符不变 — 不可见断行字符 0 个
+[RC6] [PASS] news-commentary.html — 768px — scrollWidth<=innerWidth 严格判定（不放宽 1px） — 768<=768
+[RC6] [PASS] news-commentary.html — 768px — 更严格：documentElement/body scrollWidth<=clientWidth — de=768 body=768 client=768
+[RC7] [PASS] news-commentary.html — 768px — 移动端正文改为 text-align: start（窄行不留大空隙） — text-align=start
+[RE2] [PASS] news-commentary.html — 768px — .js 关闭态：按钮可见、导航折叠、aria-expanded=false — tog=flex nav=none open=false aria=false
+[RC1] [PASS] news-commentary.html — 768px — 命中移动断点且未命中桌面断点 — mqM=true mqD=false
+[RD4] [PASS] news-commentary.html — 375px — 跳转链接是第一个 Tab 停靠点 — active=skip-link/A
+[RD4] [PASS] news-commentary.html — 375px — 首次 Tab 后出现在左上角、文字与背景清晰、带轮廓 — top=0 left=0 h=52 outline=2px solid rgb(122, 36, 36) bg=rgb(245, 239, 228) color=rgb(33, 31, 28)
+[RD4] [PASS] news-commentary.html — 375px — 激活跳转链接后跳到 #main-content 且正文获得焦点 — active=main-content/MAIN
+[RD4] [PASS] news-commentary.html — 375px — 报头未被推动（文档坐标不变，只有到达目标的纵向滚动）、无横向滚动、正文焦点轮廓可感知 — scrollX=0 header 文档坐标 0->0（视口 0->-164，scrollY 0->164） outline=2px solid rgb(122, 36, 36)
+[RD3] [PASS] news-commentary.html — 375px — 纯键盘到达菜单按钮，暗红实线轮廓清晰且不被裁切 — active=nav-toggle outline=2px solid rgb(122, 36, 36) offset=3px 裁切祖先=[]
+[RD1] [PASS] news-commentary.html — 375px — .nav-toggle 实际 getBoundingClientRect ≥44×44 CSS px — 86×46
+[RD2] [PASS] news-commentary.html — 375px — 每个可见 .site-navigation__link 实际点击区 ≥44×44 — [[343,46],[343,46],[343,46],[343,46]]
+[RD2] [PASS] news-commentary.html — 375px — 链接占满行宽便于触控 — 导航宽=343 链接宽=343,343,343,343
+[RD3] [PASS] news-commentary.html — 375px — 逐个链接键盘焦点轮廓清晰且不被边框/展开菜单/容器裁切 — [["site-navigation__link","2px solid rgb(122, 36, 36)",""],["site-navigation__link","2px solid rgb(122, 36, 36)",""],["site-navigation__link","2px solid rgb(122, 36, 36)",""],["site-navigation__link","2px solid rgb(122, 36, 36)",""]]
+[RD3] [PASS] news-commentary.html — 375px — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RE1] [PASS] news-commentary.html — 375px/禁用JS — 先禁用 JS 再硬刷新：html 仍为 no-js — no-js
+[RE1] [PASS] news-commentary.html — 375px/禁用JS — 按钮不可见 — display=none
+[RE1] [PASS] news-commentary.html — 375px/禁用JS — 四项导航纵向常显、可点击、可聚焦 — nav=block [[343,46,true],[343,46,true],[343,46,true],[343,46,true]]
+[RE1] [PASS] news-commentary.html — 375px/禁用JS — 无脚本时导航为纵向列表 — column
+[RE1] [PASS] news-commentary.html — 375px/禁用JS — 当前页仍以颜色与线条区分 — color=rgb(122, 36, 36) bb=2px solid rgb(122, 36, 36)
+[RE1] [PASS] news-commentary.html — 375px/禁用JS — 隐藏按钮不进入 Tab 顺序 — skip-link>site-masthead__link>site-navigation__link
+[RE1] [PASS] news-commentary.html — 375px/禁用JS — 跳转链接与导航链接均可 Tab 到达 — skip-link>site-masthead__link>site-navigation__link
+[RE1] [PASS] news-commentary.html — 375px/禁用JS — 无脚本态焦点轮廓不被裁切 — 2px solid rgb(122, 36, 36) 祖先=[]
+[RE1] [PASS] news-commentary.html — 375px/禁用JS — 无脚本时链接仍可点击并真实导航 — frameNavigated=1 落地=news-message.html
+[RE2] [PASS] news-commentary.html — 375px — JS 可用硬刷新后 html 为 js 且不含 no-js — js
+[RE2] [PASS] news-commentary.html — 375px — 关闭态隐藏链接不生成布局盒（因而不在 Tab 顺序） — [[false,0],[false,0],[false,0],[false,0]]
+[RE2] [PASS] news-commentary.html — 375px — 关闭态 Tab 序列不含导航链接 — skip-link>site-masthead__link
+[RE3] [PASS] news-commentary.html — 375px — 激活按钮后：.is-open + aria-expanded=true + 导航显示 — open=true aria=true disp=block
+[RE3] [PASS] news-commentary.html — 375px — 四项纵向完整显示且点击区达标 — [[343,46],[343,46],[343,46],[343,46]]
+[RE3] [PASS] news-commentary.html — 375px — 展开菜单项纵向排列互不重叠 — 176 > 223 > 270 > 317
+[RE3] [PASS] news-commentary.html — 375px — 展开菜单不覆盖正文、不横向推挤报头 — nav.bottom=364 main.top=364 inner.right=359.0 client=375
+[RE3] [PASS] news-commentary.html — 375px — 展开不使报头位移或被截断 — masthead.top 16 -> 16
+[RE3] [PASS] news-commentary.html — 375px — 展开态仍无横向溢出 — 375<=375
+[RE2] [PASS] news-commentary.html — 375px — 页面不因隐藏导航留下异常固定高度或空白（只有展开才增高、把正文下推） — header 高 闭=164 开=364 Δ=200 四链接合计=184; main.top 164->364
+[RE3] [PASS] news-commentary.html — 375px — 点击打开后焦点仍在按钮（披露式，不强制移入） — nav-toggle
+[RE3] [PASS] news-commentary.html — 375px — Tab 顺序自然：按钮→四个导航链接（第 5 次离开导航） — nav-toggle > site-navigation__link > site-navigation__link > site-navigation__link > site-navigation__link > BODY
+[RE3] [PASS] news-commentary.html — 375px — 按钮之后不重复回到按钮/焦点陷阱 — site-navigation__link>site-navigation__link>site-navigation__link>site-navigation__link>BODY
+[RE4] [PASS] news-commentary.html — 375px — is-open 与 aria-expanded 同步（打开） — open=true aria=true
+[RE4] [PASS] news-commentary.html — 375px — is-open 与 aria-expanded 同步（关闭） — open=false aria=false
+[RF1] [PASS] news-commentary.html — 375px — 点击按钮打开一次，状态与 ARIA 同步 — open=true aria=true
+[RF1] [PASS] news-commentary.html — 375px — 再次点击关闭一次，状态与 ARIA 同步 — open=false aria=false
+[RF5] [PASS] news-commentary.html — 375px — 披露式焦点策略：焦点保持在按钮，未强制移入菜单 — nav-toggle
+[RF2] [PASS] news-commentary.html — 375px — 聚焦按钮按 Enter：恰好一次激活（keydown 激活） — Δclick=1 open=true aria=true
+[RF2] [PASS] news-commentary.html — 375px — Enter 再按：恰好切回关闭 — Δclick=1 open=false
+[RF2] [PASS] news-commentary.html — 375px — Space：与点击等效、恰好一次激活（keyup 激活） — Δclick=1 open=true aria=true
+[RF2] [PASS] news-commentary.html — 375px — Space 再按恰好切回，无双触发 — Δclick=1 open=false
+[RF3] [PASS] news-commentary.html — 375px — 前置：菜单为打开态 — open=true
+[RF3] [PASS] news-commentary.html — 375px — 打开态（焦点在 site-navigation__link）按 Esc：关闭菜单且焦点返回 #nav-toggle — open=false aria=false active=nav-toggle
+[RF3] [PASS] news-commentary.html — 375px — 关闭态按 Esc 无副作用（不抢焦点、不滚动） — active nav-toggle->nav-toggle scrollY 0->0
+[RF4] [PASS] news-commentary.html — 375px — 打开态点击第 3 项「新闻通讯」：先关闭再导航，落地无展开残留 — navigated=1 落地=news-feature.html open=false aria=false
+[RA4] [PASS] news-commentary.html — 375px — 点击「新闻通讯」到达现有页面 — news-feature.html :: 从数学题到AI时代的学习｜自然选择号
+[RF4] [PASS] news-commentary.html — 375px — 打开态点击第 1 项「首页」：先关闭再导航，落地无展开残留 — navigated=1 落地=index.html open=false aria=false
+[RA4] [PASS] news-commentary.html — 375px — 点击「首页」到达现有页面 — index.html :: 《自然选择号》报社简介｜自然选择号
+[RF7] [PASS] news-commentary.html — 375px — 点击菜单外正文区域：菜单保持展开（合同已定，不实现外点关闭，不判失败） — open=true aria=true
+[RF7] [PASS] news-commentary.html — 375px — 外点过程无报错、无异常失焦
+[RF6] [PASS] news-commentary.html — 375px — 折叠由 CSS display 负责：脚本未用 tabindex/aria-hidden/hidden/inert 管理链接可聚焦性 — 导航子树被标记属性=[] main.tabindex=-1
+[RG1] [PASS] news-commentary.html — 768px — 前置：768px 打开菜单 — open=true mqM=true mqD=false
+[RG1] [PASS] news-commentary.html — 768→769px — 对照监听：本渲染环境确实派发 mediaquery change 事件 — ["change:true"]
+[RG1] [PASS] news-commentary.html — 768→769px — 跨到 769px：.is-open 清除且 aria-expanded 重置 false — open=false aria=false
+[RG1] [PASS] news-commentary.html — 768→769px — 按钮隐藏、导航立即恢复横向常显 — tog=none nav=block shown=true,true,true,true
+[RG1] [PASS] news-commentary.html — 768→769px — 移动 display:none/纵向规则不再作用（同一行） — 150,150,150,150
+[RG1] [PASS] news-commentary.html — 768→769px — 移动字号与移动间距退出，桌面基线回来（报头 64px、版心=视口−2×2rem、导航 gap 恢复） — mast=64px 版心=705 client=769 期望=705 gap=40px
+[RG2] [PASS] news-commentary.html — 375px — 再缩回 ≤768px：菜单为关闭态，不复用旧展开状态 — open=false aria=false
+[RG2] [PASS] news-commentary.html — 375px — 缩回后仍可正常打开 — open=true
+[RG3] [PASS] news-commentary.html — 断点连续切换 — 切换过程无布局跳变残留、无横向溢出 — scrollW=1280 inner=1280 open=false
+[RH1] [PASS] news-commentary.html — 1280px/100% — 记录缩放前 innerWidth=1280 — client=1280 根字号=16px 报头=64px 版心=1120
+[RH1] [PASS] news-commentary.html — 200% — 缩放的两个效果同时成立：CSS 视口折半（1280→640）且文字实际像素翻倍 — inner=640 dpr=2 报头 CSS=56px 实际=641 设备像素（100% 时 381px）
+[RH1] [PASS] news-commentary.html — 200% — 记录缩放后 innerWidth=640（100% 时为 1280） — 机制=CDP zoom=2 在本 Chrome 为 no-op（zoom_probe.mjs 已证实）→ 用 640px 布局视口 + deviceScaleFactor=2 复现 200% 的布局与绘制两个效果；dpr=2 client=640
+[RH1] [PASS] news-commentary.html — 200% — 根字号由 html{font-size:100%} 派生、未锁死为像素（缩放按 CSS px 等比生效） — 100%=16px → 200%=16px
+[RH2] [PASS] news-commentary.html — 200%→640px — 缩放后 innerWidth≤768：进入移动布局（属预期正确结果），按钮可见、导航折叠 — inner=640 tog=flex nav=none
+[RH2] [PASS] news-commentary.html — 200%→640px — 复查菜单三态与 44px 点击区 — open=true [[608,46],[608,46],[608,46],[608,46]]
+[RH3] [PASS] news-commentary.html — 200%→640px — 缩放下焦点未丢失：Tab 后仍有暗红实线轮廓 — ["site-navigation__link","2px solid rgb(122, 36, 36)"]
+[RH3] [PASS] news-commentary.html — 200%→640px — 200% 下无横向滚动 — scrollW=640 inner=640 client=640
+[RH3] [PASS] news-commentary.html — 200%→640px — 无文字裁切、元素不越界 — mast 320/320 · title 608/608 · nav.right=624
+[RH3] [PASS] news-commentary.html — 200%→640px — 元素不重叠（折叠时导航不占位，展开时不压正文） — {"hidden":true,"overlap":false}
+[RH3] [PASS] news-commentary.html — 1280px/回到100% — 恢复 100% 后布局与状态无残留 — inner=1280 版心=1120 open=false
+[RI1] [PASS] news-commentary.html — 1280px/禁用JS — 禁用 JS 并硬刷新：html 保持 no-js，CSS 仍生效（样式不依赖脚本） — class=no-js rules=45
+[RI1] [PASS] news-commentary.html — 1280px/禁用JS — 无脚本时正文完整可见、与 Task 10 基线逐段全等（29 段） — 实测=29 段
+[RI1] [PASS] news-commentary.html — 1280px/禁用JS — 逐段字符数与基线一致（内容不依赖脚本注入） — 基线=80,56,15,64,138,101,50,75,100,118,34,167,16,98,68,70,17,65,30,126,100,13,65,35,24,163,37,77,36 实测=80,56,15,64,138,101,50,75,100,118,34,167,16,98,68,70,17,65,30,126,100,13,65,35,24,163,37,77,36
+[RI1] [PASS] news-commentary.html — 1280px/禁用JS — 主内容节点与字符量在非脚本状态下保持 — {"n":33,"len":2071}
+[RI2] [PASS] news-commentary.html — 1280px/禁用CSS — CSS 已真实停用（纸色底回退为浏览器默认） — disabled=[true] body背景=rgba(0, 0, 0, 0) 版心=1264
+[RI2] [PASS] news-commentary.html — 1280px/禁用CSS — 无内容因样式缺失而消失（主内容 textContent 全等） — 段=29 字符=2411
+[RI2] [PASS] news-commentary.html — 1280px/禁用CSS — 文章页阅读顺序：页面类型→标题→署名→正文 — 类型=0 标题=1 署名=2 正文首段=3 / 共 33 个文本节点
+[RI2] [PASS] news-commentary.html — 1280px/禁用CSS — 末尾日期位于正文之后（阅读顺序最后一步） — 日期位置=32 文本节点=33 值=（自然选择号9月18日）
+[RI2] [PASS] news-commentary.html — 1280px/禁用CSS — 导航链接仍在文档树与无障碍树中（role=link + 可访问名） — [{"role":"link","name":"首页"},{"role":"link","name":"新闻消息"},{"role":"link","name":"新闻通讯"},{"role":"link","name":"新闻评论"}]
+[RI3] [PASS] news-commentary.html — 1280px — 恢复启用并硬刷新：回到正常基线、无残留 — class=js bg=rgb(245, 239, 228) 版心=1120
+[RJ2] [PASS] news-commentary.html — 1280 与 375px — 段落数量=29（与 Task 10 基线一致） — 桌面=29 移动=29
+[RJ1] [PASS] news-commentary.html — 375px — 移动渲染正文与 Task 10 逐段基线全等（CSS 换行/clamp/安全换行未增删字符） — 渲染字符=2038 基线=2038
+[RJ1] [PASS] news-commentary.html — 1280 vs 375 — 跨断点所见正文文本一致
+[RJ1] [PASS] news-commentary.html — 1280px — 页面标题与报头文本与基线一致 — 设备升级了，使用门槛也该降下来
+[RJ1] [PASS] news-commentary.html — 1280px — 页面类型／标题／署名与基线逐字符一致 — [新闻评论][设备升级了，使用门槛也该降下来][蓝色空间]
+[RJ1] [PASS] news-commentary.html — 1280px — 渲染顺序：类型→标题→署名 — 251 < 290 < 356
+[RJ1] [PASS] news-commentary.html — 1280px — 末尾日期与基线一致且可见 — 基线[（自然选择号9月18日）] 实测[（自然选择号9月18日）]
+[RJ3] [PASS] news-commentary.html — - — 伪元素 content 只用于画线（空串），未生成任何可见文字 — content 声明 2 处：["content: \"\"","content: \"\""]；可疑：[]
+[RJ3] [PASS] news-commentary.html — 375px — 全部交互与降级之后主内容无脚本注入文本、无字符增删 — 字符 2411 -> 2411
+[RB6-PIX] [PASS] index.html — 1280px/四页均已访问 — 屏幕像素：报头"自然选择号"必须是深色文字（Task 3 纸媒基线），不得被 a:visited 重绘为暗红 — 实测 rgb(33,31,28) 距ink=0 距accent=89 → 深色(ink)；时间线 1.8s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 3.6s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)
+[RB5-PIX] [PASS] index.html — 1280px/四页均已访问 — 屏幕像素：三个非当前页导航链接必须是深色（合同：普通链接为深色、当前链接为暗红） — [["新闻消息","rgb(46,33,36)","深色(ink)"],["新闻通讯","rgb(38,31,33)","深色(ink)"],["新闻评论","rgb(41,32,36)","深色(ink)"]]；时间线 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)
+[RB6-PIX] [PASS] news-message.html — 1280px/四页均已访问 — 屏幕像素：报头"自然选择号"必须是深色文字（Task 3 纸媒基线），不得被 a:visited 重绘为暗红 — 实测 rgb(33,31,28) 距ink=0 距accent=89 → 深色(ink)；时间线 1.8s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 3.6s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)
+[RB5-PIX] [PASS] news-message.html — 1280px/四页均已访问 — 屏幕像素：三个非当前页导航链接必须是深色（合同：普通链接为深色、当前链接为暗红） — [["首页","rgb(48,35,36)","深色(ink)"],["新闻通讯","rgb(38,31,33)","深色(ink)"],["新闻评论","rgb(41,32,36)","深色(ink)"]]；时间线 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)
+[RB6-PIX] [PASS] news-feature.html — 1280px/四页均已访问 — 屏幕像素：报头"自然选择号"必须是深色文字（Task 3 纸媒基线），不得被 a:visited 重绘为暗红 — 实测 rgb(33,31,28) 距ink=0 距accent=89 → 深色(ink)；时间线 1.8s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 3.6s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)
+[RB5-PIX] [PASS] news-feature.html — 1280px/四页均已访问 — 屏幕像素：三个非当前页导航链接必须是深色（合同：普通链接为深色、当前链接为暗红） — [["首页","rgb(48,35,36)","深色(ink)"],["新闻消息","rgb(46,33,36)","深色(ink)"],["新闻评论","rgb(41,32,36)","深色(ink)"]]；时间线 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)
+[RB6-PIX] [PASS] news-commentary.html — 1280px/四页均已访问 — 屏幕像素：报头"自然选择号"必须是深色文字（Task 3 纸媒基线），不得被 a:visited 重绘为暗红 — 实测 rgb(33,31,28) 距ink=0 距accent=89 → 深色(ink)；时间线 1.8s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 3.6s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink) ; 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)
+[RB5-PIX] [PASS] news-commentary.html — 1280px/四页均已访问 — 屏幕像素：三个非当前页导航链接必须是深色（合同：普通链接为深色、当前链接为暗红） — [["首页","rgb(48,35,36)","深色(ink)"],["新闻消息","rgb(46,33,36)","深色(ink)"],["新闻通讯","rgb(38,31,33)","深色(ink)"]]；时间线 5.4s: 报头=深色(ink) 非当前链接=深色(ink),深色(ink),深色(ink)
+[RA3] [PASS] 四页全程 — 全部宽度/状态/操作 — 控制台 0 错误 0 警告（含未捕获异常与浏览器日志，探针自身不使用 console）
+[RO] [PASS] Results/ + Materials/ — - — 回归前后六个交付文件与三份素材的 SHA-256/字节数/清单逐项一致，Results/ 仍恰为六个文件 — 前=[index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css] 后=[index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css] 哈希表=一致
+
+合计 819 条：PASS 819 / FAIL 0

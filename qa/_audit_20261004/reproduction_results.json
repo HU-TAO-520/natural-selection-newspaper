@@ -1,0 +1,53 @@
+{
+  "production_files_unchanged": true,
+  "observations": [
+    {
+      "case": "invalid-calendar-date",
+      "exit_code": 0,
+      "detail": "build succeeded"
+    },
+    {
+      "case": "invalid-visible-date",
+      "exit_code": 0,
+      "detail": "build succeeded"
+    },
+    {
+      "case": "title-with-space",
+      "exit_code": 3,
+      "detail": "index.html:1｜Task12 R4④｜首页可见文本与 14 项白名单不逐字相等"
+    },
+    {
+      "case": "ampersand-in-body",
+      "exit_code": 3,
+      "detail": "content/articles/school-course-selection-results.md:2｜Task14 §解析与渲染合同 2｜转义改动了内容源字符"
+    },
+    {
+      "case": "optional-display-date",
+      "exit_code": 3,
+      "detail": "index.html:1｜Task14 §自检清单 S9｜首页标签计数 {'main': 1, 'h1': 1, 'div': 2, 's"
+    },
+    {
+      "case": "pack-failed-verification",
+      "detail": "回验失败：injected verification failure",
+      "old_zip_sha256": "cbb41a508e27025eab9ba55265f77ad895af478aa0ea91b82963f27574ed57f3",
+      "zip_exists_after_failure": false,
+      "manifest_exists_after_failure": true,
+      "upload_exists_after_failure": true
+    },
+    {
+      "case": "build-write-failure",
+      "exception": "OSError",
+      "detail": "injected disk write failure",
+      "changed_pages_after_failure": [
+        "article-school-course-selection-results.html"
+      ],
+      "index_preserved": true
+    },
+    {
+      "case": "online-title-check-blind-spot",
+      "changed_html_passes_current_title_identity_check": true,
+      "body_actually_changed": true,
+      "paragraph_count_unchanged": true
+    }
+  ]
+}

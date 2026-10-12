@@ -1,0 +1,540 @@
+{
+  "base": "https://old-ns-news.pages.dev",
+  "request_count": 28,
+  "asset_count": 12,
+  "assets_matching_local": 12,
+  "rows": [
+    {
+      "path": "article-along-the-north-small-river.html",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/article-along-the-north-small-river",
+      "sha256": "28a18f3a37e0577d1527aa19d925b3a0b6cd2d959d4166a7d01b0bbe583e2617",
+      "bytes": 3129,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "article-classroom-screen-upgrade.html",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/article-classroom-screen-upgrade",
+      "sha256": "a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52",
+      "bytes": 8486,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "article-math-to-ai-learning.html",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/article-math-to-ai-learning",
+      "sha256": "73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5",
+      "bytes": 6962,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "article-north-of-dam-river.html",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/article-north-of-dam-river",
+      "sha256": "2b6d2d5d51f8247a087906c2ea6c180fd052268db75379c5bed97e09e90acbb6",
+      "bytes": 3292,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "article-school-course-selection-results.html",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/article-school-course-selection-results",
+      "sha256": "58da6cff5b2411403b6b03317a1061b391647b0768459a015f0000d1afa4de2f",
+      "bytes": 2508,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "article-school-course-volunteer.html",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/article-school-course-volunteer",
+      "sha256": "66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8",
+      "bytes": 3011,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/",
+      "sha256": "14b82801fc5c1a965e94fd3d9956bd54ae41ac61f996441b5f0a68f66973dd40",
+      "bytes": 3631,
+      "matches_local": true,
+      "is_homepage": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "news-commentary.html",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/news-commentary",
+      "sha256": "76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8",
+      "bytes": 2067,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "news-feature.html",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/news-feature",
+      "sha256": "203a111b51988e1f91ef9dbeefab2a1a54f1aaf26efc192cfbe6aa5965373f4c",
+      "bytes": 2549,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "news-message.html",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/news-message",
+      "sha256": "2e84e8001fa4bb1a95aeaa3a10d14ae0c6df6e8f98e54f2fa0a25ac0a2399bf3",
+      "bytes": 2320,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "script.js",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/script.js",
+      "sha256": "abb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666",
+      "bytes": 2204,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/javascript; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/styles.css",
+      "sha256": "de2d9022625d6c6a6c2833c09ad4cccd73dd0582689d018374ed09f68f3f5cc4",
+      "bytes": 15340,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/css; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "article-along-the-north-small-river",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/article-along-the-north-small-river",
+      "sha256": "28a18f3a37e0577d1527aa19d925b3a0b6cd2d959d4166a7d01b0bbe583e2617",
+      "bytes": 3129,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "article-classroom-screen-upgrade",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/article-classroom-screen-upgrade",
+      "sha256": "a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52",
+      "bytes": 8486,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "article-math-to-ai-learning",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/article-math-to-ai-learning",
+      "sha256": "73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5",
+      "bytes": 6962,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "article-north-of-dam-river",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/article-north-of-dam-river",
+      "sha256": "2b6d2d5d51f8247a087906c2ea6c180fd052268db75379c5bed97e09e90acbb6",
+      "bytes": 3292,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "article-school-course-selection-results",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/article-school-course-selection-results",
+      "sha256": "58da6cff5b2411403b6b03317a1061b391647b0768459a015f0000d1afa4de2f",
+      "bytes": 2508,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "article-school-course-volunteer",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/article-school-course-volunteer",
+      "sha256": "66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8",
+      "bytes": 3011,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "news-commentary",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/news-commentary",
+      "sha256": "76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8",
+      "bytes": 2067,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "news-feature",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/news-feature",
+      "sha256": "203a111b51988e1f91ef9dbeefab2a1a54f1aaf26efc192cfbe6aa5965373f4c",
+      "bytes": 2549,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "news-message",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/news-message",
+      "sha256": "2e84e8001fa4bb1a95aeaa3a10d14ae0c6df6e8f98e54f2fa0a25ac0a2399bf3",
+      "bytes": 2320,
+      "matches_local": true,
+      "is_homepage": false,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/",
+      "sha256": "14b82801fc5c1a965e94fd3d9956bd54ae41ac61f996441b5f0a68f66973dd40",
+      "bytes": 3631,
+      "matches_local": null,
+      "is_homepage": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "audit-missing-page-20261004",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/audit-missing-page-20261004",
+      "sha256": "14b82801fc5c1a965e94fd3d9956bd54ae41ac61f996441b5f0a68f66973dd40",
+      "bytes": 3631,
+      "matches_local": null,
+      "is_homepage": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "audit-missing-directory-20261004/child",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/audit-missing-directory-20261004/child",
+      "sha256": "14b82801fc5c1a965e94fd3d9956bd54ae41ac61f996441b5f0a68f66973dd40",
+      "bytes": 3631,
+      "matches_local": null,
+      "is_homepage": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "_headers",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/_headers",
+      "sha256": "14b82801fc5c1a965e94fd3d9956bd54ae41ac61f996441b5f0a68f66973dd40",
+      "bytes": 3631,
+      "matches_local": null,
+      "is_homepage": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "manifest.json",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/manifest.json",
+      "sha256": "14b82801fc5c1a965e94fd3d9956bd54ae41ac61f996441b5f0a68f66973dd40",
+      "bytes": 3631,
+      "matches_local": null,
+      "is_homepage": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "content/articles/school-course-selection-results.md",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/content/articles/school-course-selection-results.md",
+      "sha256": "14b82801fc5c1a965e94fd3d9956bd54ae41ac61f996441b5f0a68f66973dd40",
+      "bytes": 3631,
+      "matches_local": null,
+      "is_homepage": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    },
+    {
+      "path": "deploy/site.zip",
+      "status": 200,
+      "final_url": "https://old-ns-news.pages.dev/deploy/site.zip",
+      "sha256": "14b82801fc5c1a965e94fd3d9956bd54ae41ac61f996441b5f0a68f66973dd40",
+      "bytes": 3631,
+      "matches_local": null,
+      "is_homepage": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      }
+    }
+  ]
+}

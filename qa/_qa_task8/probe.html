@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>probe</title>
+  <script src="expected.js"></script>
+  <style>
+    body { margin: 0; font: 12px/1.4 monospace; }
+    body.shot { overflow: hidden; }
+    body.shot #out { display: none; }
+    iframe { display: block; border: 0; }
+  </style>
+</head>
+<body>
+  <div id="out">running</div>
+  <script>
+    const q = new URLSearchParams(location.search);
+    const target = q.get("t");
+    const state = q.get("s") || "nojs";
+    const kind = q.get("k");
+    const E = window.EXPECT[kind];
+    const WIDTHS = (q.get("widths") || "375,768,769,1280,640").split(",").map(Number);
+    const results = [];
+    const shot = q.get("shot") === "1";
+    if (shot) document.body.classList.add("shot");
+
+    function check(name, pass, detail) {
+      results.push({ name, pass: !!pass, detail: detail === undefined ? "" : String(detail).slice(0, 200) });
+    }
+    const num = (v) => Math.round(parseFloat(v) * 100) / 100;
+    const cs = (d, el, pseudo) => d.defaultView.getComputedStyle(el, pseudo || null);
+    const rect = (el) => el.getBoundingClientRect();
+    const shown = (el) => el.getClientRects().length > 0;
+    const txt = (el) => (el ? el.textContent : null);
+    const NAV_TEXT = ["首页", "新闻消息", "新闻通讯", "新闻评论"];
+    const NAV_HREF = ["index.html", "news-message.html", "news-feature.html", "news-commentary.html"];
+
+    const frame = document.createElement("iframe");
+    frame.style.cssText = "width:640px;height:" + (shot ? "1500" : "900") + "px";
+    if (state === "nojs") frame.setAttribute("sandbox", "allow-same-origin");
+    frame.src = target + (q.get("cache") || "");
+    const probeBox = document.createElement("div");
+    probeBox.style.cssText = "position:fixed;left:0;top:0;width:400px;height:10px;overflow:hidden";
+    const probeInner = document.createElement("div");
+    probeInner.style.cssText = "width:400px;height:10px;overflow-x:scroll";
+    probeBox.appendChild(probeInner);
+    document.body.append(probeBox, frame);
+    const bar = probeInner.offsetWidth - probeInner.clientWidth;
+
+    const waitFrames = (n) => new Promise((r) => setTimeout(r, 40 * n));
+    const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+    async function setWidth(d, w) {
+      const iw = frame.contentWindow;
+      frame.style.width = (w + (iw.innerWidth - d.documentElement.clientWidth) + bar) + "px";
+      for (let i = 0; i < 12 && d.documentElement.clientWidth !== w; i++) {
+        frame.style.width = (parseFloat(frame.style.width) + (w - d.documentElement.clientWidth)) + "px";
+        await sleep(30);
+      }
+      await waitFrames(4);
+      return d.documentElement.clientWidth;
+    }
+
+    function widestOffender(d, w) {
+      const limit = d.documentElement.clientWidth;
+      let worst = null;
+      for (const el of d.querySelectorAll("body *")) {
+        const r = rect(el);
+        if (r.width && r.right > limit + 0.5 && (!worst || r.right > worst.right)) {
+          worst = { right: Math.round(r.right), sel: el.tagName + "." + (el.getAttribute("class") || "") };
+        }
+      }
+      return worst ? JSON.stringify(worst) + " vs " + limit : "none (limit " + limit + ")";
+    }
+
+    function checkCommonShell(d, w, tag) {
+      check(tag + " 唯一 nav/一个四项列表",
+        d.querySelectorAll("nav").length === 1 && d.querySelectorAll(".site-navigation__list").length === 1,
+        d.querySelectorAll("nav").length + "/" + d.querySelectorAll(".site-navigation__list").length);
+      const links = Array.from(d.querySelectorAll(".site-navigation__link"));
+      check(tag + " 导航四项文字与顺序", JSON.stringify(links.map((a) => a.textContent)) === JSON.stringify(NAV_TEXT),
+        JSON.stringify(links.map((a) => a.textContent)));
+      check(tag + " 导航四项链接目标",
+        JSON.stringify(links.map((a) => a.getAttribute("href"))) === JSON.stringify(NAV_HREF));
+      check(tag + " 未复制第二套导航/复制正文",
+        d.querySelectorAll(".site-navigation a").length === 4 && d.querySelectorAll("main a").length === 0);
+      const cur = Array.from(d.querySelectorAll('.site-navigation__link[aria-current="page"]'));
+      check(tag + " 当前页标记唯一且指向本页",
+        cur.length === 1 && cur[0].getAttribute("href").indexOf(kind + ".html") >= 0,
+        cur.length + " " + (cur[0] ? cur[0].getAttribute("href") : ""));
+      check(tag + " 无内联 style 属性/无 style 元素",
+        d.querySelectorAll("[style]").length === 0 && d.querySelectorAll("style").length === 0,
+        d.querySelectorAll("[style]").length + "/" + d.querySelectorAll("style").length);
+      check(tag + " 菜单按钮保留可见文字“菜单”",
+        d.querySelector(".nav-toggle__text") && d.querySelector(".nav-toggle__text").textContent === "菜单");
+      check(tag + " 导航祖先无 overflow 裁切",
+        (() => {
+          let n = d.querySelector(".site-navigation");
+          while (n) { if (cs(d, n).overflow !== "visible") return false; n = n.parentElement; }
+          return true;
+        })());
+      const skip = d.querySelector(".skip-link");
+      check(tag + " skip-link 位于报头之上且层级更高",
+        Number(cs(d, skip).zIndex) >= 10 && cs(d, skip).position === "fixed");
+    }
+
+    function checkContent(d, tag) {
+      const body = Array.from(d.querySelectorAll(".article__body > p"), (p) => p.textContent);
+      check(tag + " 正文段落数 " + E.body.length, body.length === E.body.length, body.length);
+      check(tag + " 正文 textContent 与 Task1 合同逐字符相等（未 trim）",
+        JSON.stringify(body) === JSON.stringify(E.body),
+        "首个不匹配 index=" + body.findIndex((t, i) => t !== E.body[i]));
+      check(tag + " 标题/署名逐字符",
+        txt(d.querySelector("h1.page-title")) === E.title && txt(d.querySelector(".article__byline")) === E.byline,
+        txt(d.querySelector("h1.page-title")));
+      check(tag + " 唯一 h1/main/article",
+        d.querySelectorAll("h1").length === 1 && d.querySelectorAll("main").length === 1 &&
+        d.querySelectorAll("article").length === 1);
+      check(tag + " 无 wbr/br/零宽字符/nbsp 注入",
+        d.querySelectorAll("wbr, br").length === 0 &&
+        !/[º­​-‏﻿]/.test(d.body.textContent));
+      if (E.dateline) {
+        const first = d.querySelector(".article__body > p");
+        const dl = first && first.querySelector(".dateline");
+        check(tag + " 电头保持内联且为首段子节点",
+          !!dl && cs(d, dl).display === "inline" && dl.parentElement === first,
+          dl ? cs(d, dl).display : "missing");
+        check(tag + " 电头文字与电头后一个 U+0020 未变",
+          first.textContent === E.body[0] &&
+          first.textContent.slice(E.dateline.length, E.dateline.length + 1) === " ",
+          JSON.stringify(first.textContent.slice(0, E.dateline.length + 2)));
+      }
+      if (E.date) {
+        const dp = d.querySelector("p.article__date");
+        const bodyBox = d.querySelector(".article__body");
+        check(tag + " 日期为正文容器之后的独立 p",
+          !!dp && dp.parentElement === d.querySelector(".article") &&
+          rect(dp).top >= rect(bodyBox).bottom - 1, dp ? Math.round(rect(dp).top) + "/" + Math.round(rect(bodyBox).bottom) : "missing");
+        check(tag + " 日期文本逐字符", txt(dp) === E.date, txt(dp));
+        check(tag + " 日期右对齐且无首行缩进",
+          cs(d, dp).textAlign === "right" && cs(d, dp).textIndent === "0px",
+          cs(d, dp).textAlign + "/" + cs(d, dp).textIndent);
+      }
+      if (E.terms) {
+        const all = d.body.textContent;
+        check(tag + " 技术术语原样存在（.exe/Windows 10/UOS/USB/OPS/Linux/4K 等）",
+          E.terms.every((t) => all.indexOf(t) >= 0),
+          E.terms.filter((t) => all.indexOf(t) < 0).join(","));
+      }
+    }
+
+    function checkHome(d, tag) {
+      const secs = Array.from(d.querySelectorAll(".home-section"));
+      check(tag + " 首页三个区块顺序",
+        secs.length === 3 && JSON.stringify(secs.map((s) => txt(s.querySelector(".home-section__title")))) ===
+        JSON.stringify(["名称由来", "主要工作与报道方向", "成立时间"]), JSON.stringify(secs.map((s) => txt(s.querySelector(".home-section__title")))));
+      check(tag + " 首页三段文本逐字符",
+        JSON.stringify(secs.map((s) => txt(s.querySelector(".home-section__text")))) === JSON.stringify(E.body),
+        "首个不匹配 index=" + secs.findIndex((s, i) => txt(s.querySelector(".home-section__text")) !== E.body[i]));
+      const tops = secs.map((s) => rect(s).top);
+      check(tag + " 首页区块单列纵向排列", tops.every((t, i) => i === 0 || t > tops[i - 1] + 1), JSON.stringify(tops.map(Math.round)));
+      check(tag + " 首页区块均不越出版心",
+        secs.every((s) => rect(s).left >= rect(d.querySelector(".main-content")).left - 0.5 &&
+                           rect(s).right <= rect(d.querySelector(".main-content")).right + 0.5));
+    }
+
+    function checkGeom(d, w, W, mobile, st) {
+      const html = d.documentElement, cw = html.clientWidth;
+      check(W + "px/" + st + " 布局视口精确命中", cw === W,
+            "clientWidth=" + cw + " innerWidth=" + w.innerWidth + " dpr=" + w.devicePixelRatio +
+            " topInnerWidth=" + window.innerWidth);
+      check(W + "px/" + st + " 媒体查询与 768px 断点合同一致",
+        w.matchMedia("(max-width: 768px)").matches === mobile,
+        w.matchMedia("(max-width: 768px)").matches + " vs mobile=" + mobile);
+      const g = mobile ? 16 : 32;
+      check(W + "px/" + st + " --page-gutter 覆盖为 " + g + "px",
+        num(cs(d, html.querySelector(".main-content")).width) <= cw - 2 * g + 0.5 ||
+        num(cs(d, html).getPropertyValue("--page-gutter")) * 16 === g,
+        cs(d, html).getPropertyValue("--page-gutter"));
+      const mc = rect(d.querySelector(".main-content"));
+      const hi = rect(d.querySelector(".site-header__inner"));
+      const expectW = Math.min(cw - 2 * g, 1120);
+      check(W + "px/" + st + " 主内容版心 = min(视口-2留白, 1120px)",
+        Math.abs(mc.width - expectW) <= 0.6, mc.width + " vs " + expectW);
+      check(W + "px/" + st + " 报头内部与主内容同宽且水平居中",
+        Math.abs(hi.width - mc.width) <= 0.6 && Math.abs(mc.left - (cw - expectW) / 2) <= 0.6,
+        hi.width + "/" + mc.width + "/" + mc.left);
+      check(W + "px/" + st + " 左右留白不小于 " + g + "px",
+        mc.left >= g - 0.6 && cw - mc.right >= g - 0.6, mc.left + "/" + (cw - mc.right));
+
+      const link = d.querySelector(".site-navigation__link");
+      const list = d.querySelector(".site-navigation__list");
+      const btn = d.querySelector(".nav-toggle");
+      const nav = d.querySelector(".site-navigation");
+      const items = Array.from(d.querySelectorAll(".site-navigation__item"));
+      if (mobile) {
+        const wantBtn = st === "js" || st === "jsopen";
+        const btnShown = shown(btn) && cs(d, btn).display !== "none";
+        check(W + "px/" + st + " 菜单按钮可见性（仅 js 显示；button 的 inline-flex 计算为 flex）",
+          btnShown === wantBtn && (wantBtn ? cs(d, btn).display === "flex" : cs(d, btn).display === "none"),
+          cs(d, btn).display + "/" + shown(btn));
+        check(W + "px/" + st + " 导航可见性（no-js 常显 / js 折叠 / is-open 展开）",
+          shown(nav) === (st !== "js") && cs(d, nav).display === (st === "js" ? "none" : "block"),
+          cs(d, nav).display + "/" + shown(nav));
+        const br = rect(btn);
+        if (wantBtn) {
+          check(W + "px/" + st + " 按钮点击矩形 ≥44×44",
+            br.width >= 44 && br.height >= 44, Math.round(br.width) + "×" + Math.round(br.height));
+          const hiBox = rect(d.querySelector(".site-header__inner"));
+          check(W + "px/" + st + " 按钮紧凑右对齐不撑满整行",
+            br.width < hiBox.width - 40 && Math.abs(br.right - hiBox.right) <= 1 && br.width < 200,
+            Math.round(br.width) + " right=" + Math.round(br.right) + " innerRight=" + Math.round(hiBox.right));
+          check(W + "px/" + st + " 按钮含三条装饰线（::before/::after 2px）",
+            num(cs(d, btn.querySelector(".nav-toggle__icon"), "::before").height) === 2 &&
+            num(cs(d, btn.querySelector(".nav-toggle__icon"), "::after").height) === 2,
+            cs(d, btn.querySelector(".nav-toggle__icon"), "::before").height);
+          const openMark = st === "jsopen";
+          check(W + "px/" + st + " 展开态三条线变为关闭符号",
+            (cs(d, btn.querySelector(".nav-toggle__icon")).backgroundColor === "rgba(0, 0, 0, 0)") === openMark,
+            cs(d, btn.querySelector(".nav-toggle__icon")).backgroundColor);
+        }
+        check(W + "px/" + st + " 按钮 aria-expanded 与状态一致",
+          btn.getAttribute("aria-expanded") === String(st === "jsopen"));
+        const visibleLinks = Array.from(d.querySelectorAll(".site-navigation__link")).filter((a) => shown(a));
+        check(W + "px/" + st + " 可见链接数量正确",
+          visibleLinks.length === (st === "js" ? 0 : 4), visibleLinks.length);
+        if (st === "js") {
+          const first = d.querySelector(".site-navigation__link");
+          first.focus();
+          check(W + "px/" + st + " 折叠链接不进入 Tab 顺序（focus 无效）",
+            d.activeElement !== first, String(d.activeElement && d.activeElement.textContent));
+        } else {
+          const bad = visibleLinks.filter((a) => { const r = rect(a); return !(r.width >= 44 && r.height >= 44); });
+          check(W + "px/" + st + " 每个导航链接点击矩形 ≥44×44",
+            bad.length === 0 && visibleLinks.length === 4,
+            JSON.stringify(visibleLinks.map((a) => [Math.round(rect(a).width), Math.round(rect(a).height)])));
+          check(W + "px/" + st + " 列表纵向排列且 gap 归零",
+            cs(d, list).flexDirection === "column" && cs(d, list).gap === "0px",
+            cs(d, list).flexDirection + "/" + cs(d, list).gap);
+          const tops = items.map((li) => rect(li).top);
+          check(W + "px/" + st + " 四项按纵向顺序堆叠不重叠",
+            tops.every((t, i) => i === 0 || t >= tops[i - 1] + 40), JSON.stringify(tops.map(Math.round)));
+          check(W + "px/" + st + " 链接占满整行宽度",
+            visibleLinks.every((a) => Math.abs(rect(a).width - rect(list).width) <= 0.6),
+            JSON.stringify(visibleLinks.map((a) => Math.round(rect(a).width)) + " list=" + Math.round(rect(list).width)));
+          const cur = d.querySelector('.site-navigation__link[aria-current="page"]');
+          check(W + "px/" + st + " 当前页仍有暗红文字 + 实线下边线",
+            cs(d, cur).color === "rgb(122, 36, 36)" &&
+            cs(d, cur).borderBottomWidth === "2px" && cs(d, cur).borderBottomStyle === "solid",
+            cs(d, cur).color + "/" + cs(d, cur).borderBottomWidth + cs(d, cur).borderBottomStyle);
+        }
+      } else {
+        check(W + "px/" + st + " 桌面恢复：按钮隐藏",
+          !shown(btn) && cs(d, btn).display === "none", cs(d, btn).display);
+        check(W + "px/" + st + " 桌面恢复：四项导航始终可见",
+          shown(nav) && Array.from(d.querySelectorAll(".site-navigation__link")).every((a) => shown(a)) &&
+          cs(d, nav).display === "block", cs(d, nav).display);
+        check(W + "px/" + st + " 桌面恢复：列表横向且 gap 2.5rem",
+          cs(d, list).flexDirection === "row" && cs(d, list).gap === "40px",
+          cs(d, list).flexDirection + "/" + cs(d, list).gap);
+        const tops = items.map((li) => Math.round(rect(li).top));
+        check(W + "px/" + st + " 桌面恢复：四项同一行",
+          tops.every((t) => t === tops[0]), JSON.stringify(tops));
+      }
+
+      const skip = d.querySelector(".skip-link");
+      const sr = rect(skip);
+      check(W + "px/" + st + " skip-link 未聚焦时移出可视区", sr.bottom <= 0.5, Math.round(sr.top) + "/" + Math.round(sr.bottom));
+      skip.focus();
+      const sr2 = rect(skip);
+      check(W + "px/" + st + " skip-link 聚焦后完整显示在左上方",
+        sr2.top >= -0.5 && sr2.left >= -0.5 && sr2.right <= cw + 0.5 && sr2.width > 60,
+        JSON.stringify([Math.round(sr2.top), Math.round(sr2.left), Math.round(sr2.right), Math.round(sr2.width)]));
+      check(W + "px/" + st + " skip-link 聚焦轮廓为 2px 实线",
+        cs(d, skip).outlineWidth === "2px" && cs(d, skip).outlineStyle === "solid",
+        cs(d, skip).outlineWidth);
+      d.querySelector("#main-content").focus();
+      check(W + "px/" + st + " 正文锚点聚焦轮廓未被裁切",
+        cs(d, d.querySelector("#main-content")).outlineWidth === "2px" &&
+        d.activeElement === d.querySelector("#main-content"),
+        cs(d, d.querySelector("#main-content")).outlineStyle);
+      skip.blur();
+
+      const mh = num(cs(d, d.querySelector(".site-masthead__link")).fontSize);
+      const pt = num(cs(d, d.querySelector(".page-title")).fontSize);
+      const rd = num(cs(d, d.querySelector(".article__body, .home-section__text")).fontSize);
+      check(W + "px/" + st + " 流式字号：报头 > 页面标题 > 正文，且未被压到难读",
+        mh > pt && pt >= (mobile ? 28 : 40) && mh >= (mobile ? 40 : 64) && rd >= 17,
+        "masthead=" + mh + " page-title=" + pt + " body=" + rd);
+      if (mobile) {
+        check(W + "px/" + st + " 移动正文 17px / 标题与报头使用 clamp",
+          rd === 17 && mh < 64 && pt < 40, rd + "/" + mh + "/" + pt);
+      } else {
+        check(W + "px/" + st + " 桌面字号未被移动规则污染（64/40/18）",
+          mh === 64 && pt === 40 && (rd === 18 || rd === 0 || isNaN(rd)), mh + "/" + pt + "/" + rd);
+      }
+      const body = d.querySelector(".article__body");
+      if (body) {
+        check(W + "px/" + st + " 正文单栏且不超过阅读宽度",
+          cs(d, body).columnCount === "auto" && rect(body).width <= Math.min(cw, 736) + 0.6,
+          cs(d, body).columnCount + "/" + Math.round(rect(body).width));
+        check(W + "px/" + st + " 正文两端对齐按断点切换",
+          cs(d, body).textAlign === (mobile ? "start" : "justify"), cs(d, body).textAlign);
+        const p = body.querySelector("p");
+        check(W + "px/" + st + " 段落 2em 首行缩进保持",
+          Math.abs(num(cs(d, p).textIndent) - 2 * num(cs(d, body).fontSize)) <= 0.5,
+          cs(d, p).textIndent + " vs " + cs(d, body).fontSize);
+      }
+      const title = d.querySelector(".page-title");
+      const tr = d.createRange();
+      tr.selectNodeContents(title);
+      const trects = tr.getClientRects().length;
+      const titleBox = rect(title);
+      check(W + "px/" + st + " 标题正常换行不裁切（行数 " + trects + "）",
+        trects >= 1 && rect(title).right <= rect(d.querySelector(".main-content")).right + 0.5 &&
+        rect(title).left >= rect(d.querySelector(".main-content")).left - 0.5,
+        trects + " lines, " + Math.round(titleBox.left) + "-" + Math.round(titleBox.right) +
+        " h=" + Math.round(titleBox.height));
+      if (mobile && W <= 500 && E.longTitle) {
+        check(W + "px/" + st + " 长标题在 375px 自然折行为多行", trects >= 2, trects);
+      }
+      const pw = Math.max(d.body.scrollWidth, html.scrollWidth);
+      check(W + "px/" + st + " 无祖先 overflow 裁切内容",
+        !Array.from(d.querySelectorAll(".home-section > *, .home-section, .article__body, .article__body > p, " +
+                                       ".article__header, .page-title, .site-navigation__item, .site-navigation__link"))
+          .some((el) => {
+            let n = el.parentElement;
+            while (n && n !== d.body) {
+              const o = cs(d, n).overflow;
+              if (o !== "visible" && (rect(el).bottom > rect(n).bottom + 1 || rect(el).right > rect(n).right + 1)) return true;
+              n = n.parentElement;
+            }
+            return false;
+          }),
+        Array.from(d.querySelectorAll(".home-section, .article__body, .article__header, .site-navigation__item"))
+          .map((el) => el.className).join(","));
+      check(W + "px/" + st + " 无横向溢出 scrollWidth <= clientWidth",
+        pw <= cw, "pageWidth=" + pw + " viewport=" + cw + " innerWidth=" + w.innerWidth +
+        " offender=" + widestOffender(d, cw));
+      check(W + "px/" + st + " 无元素被 viewport 右侧裁切",
+        Array.from(d.querySelectorAll("main *, .site-header *")).every((el) => {
+          const r = rect(el);
+          return !r.width || (r.left >= -0.5 && r.right <= cw + 0.5);
+        }), widestOffender(d, cw));
+    }
+
+    function checkCrossBoundary(d, w, st) {
+      const btn = d.querySelector(".nav-toggle"), nav = d.querySelector(".site-navigation");
+      return (async () => {
+        await setWidth(d, 768);
+        check("跨断点 768px 起始为移动布局", w.matchMedia("(max-width: 768px)").matches && shown(nav) === (st !== "js"));
+        await setWidth(d, 769);
+        check("跨断点 769px：移动 display:none 不再生效，导航横向可见",
+          cs(d, nav).display === "block" && !shown(btn) &&
+          cs(d, d.querySelector(".site-navigation__list")).flexDirection === "row",
+          cs(d, nav).display);
+        await setWidth(d, 768);
+        check("跨断点回到 768px：CSS 侧显隐规则再次生效",
+          (cs(d, btn).display === "none") === (st === "nojs") &&
+          cs(d, nav).display === (st === "js" ? "none" : "block"),
+          cs(d, nav).display + "/" + cs(d, btn).display);
+        check("跨断点回到 768px：Task 8 不改 DOM 状态类，.is-open 仍为注入值（状态重置待 Task 9 集成）",
+          nav.classList.contains("is-open") === (st === "jsopen"),
+          "is-open=" + nav.classList.contains("is-open") + " aria-expanded=" + btn.getAttribute("aria-expanded"));
+        await setWidth(d, 1280);
+      })();
+    }
+
+    async function main() {
+      const d = frame.contentDocument, w = frame.contentWindow;
+      check("iframe 同源可测", !!d && !!w);
+      if (!d || !w) return finish();
+      check("离线 file:// 协议", target.startsWith("file:///"), target.slice(0, 60));
+      if (state === "nojs") {
+        check("源码 no-js 在无脚本环境保持", d.documentElement.className === "no-js", d.documentElement.className);
+      } else {
+        d.documentElement.classList.remove("no-js");
+        d.documentElement.classList.add("js");
+        if (state === "jsopen") {
+          d.querySelector(".site-navigation").classList.add("is-open");
+          d.querySelector(".nav-toggle").setAttribute("aria-expanded", "true");
+        }
+        check("运行时 js 状态已注入（不写回 HTML）",
+          d.documentElement.className === "js" && !d.querySelector("script[src='styles.css']"));
+      }
+      const mobileFlag = (W) => W <= 768;
+      if (kind === "index") checkHome(d, "内容"); else checkContent(d, "内容");
+      checkCommonShell(d, w, "壳");
+      for (const W of WIDTHS) {
+        const cw = await setWidth(d, W);
+        if (cw !== W) { check(W + " 视口无法精确设置", false, cw); continue; }
+        checkGeom(d, w, W, mobileFlag(W), state);
+      }
+      await checkCrossBoundary(d, w, state);
+      if (shot) {
+        const f = d.querySelector("#main-content");
+        if (f.blur) f.blur();
+        w.scrollTo(0, 0);
+      }
+      if (state === "jsopen" && mobileFlag(WIDTHS[0])) {
+        await setWidth(d, 375);
+        const links = Array.from(d.querySelectorAll(".site-navigation__link"));
+        let prev = d.querySelector(".nav-toggle");
+        let order = true;
+        for (const el of [prev, ...links]) { if (!shown(el)) order = false; }
+        check("375px 展开态：按钮与四项导航均可聚焦且顺序为按钮→导航",
+          order && (() => { const r = rect(d.querySelector(".nav-toggle")); return r.top < rect(links[0]).top; })(),
+          JSON.stringify([Math.round(rect(prev).top)].concat(links.map((a) => Math.round(rect(a).top)))));
+      }
+    }
+
+    function finish() {
+      document.title = "done";
+      document.getElementById("out").textContent =
+        "PROBE" + encodeURIComponent(JSON.stringify(results)) + "|ENDPROBE";
+    }
+
+    frame.onload = () => {
+      const t = setTimeout(() => { if (document.title !== "done") { check("probe 超时", false, ""); finish(); } }, 40000);
+      main().then(() => { clearTimeout(t); finish(); }).catch((e) => {
+        check("probe 异常", false, (e && e.message) + " @ " + (e && e.stack || "").split("\n")[1]);
+        finish();
+      });
+    };
+  </script>
+</body>
+</html>

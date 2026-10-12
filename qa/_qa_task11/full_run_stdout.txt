@@ -1,0 +1,42 @@
+FAIL RA2 [index.html @1280px] DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL :: [{"n":"styles.css","t":"Stylesheet","failed":false,"local":true},{"n":"script.js","t":"Script","failed":false,"local":true}] -> Task 2
+FAIL RA2 [news-message.html @1280px] DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL :: [{"n":"styles.css","t":"Stylesheet","failed":false,"local":true},{"n":"script.js","t":"Script","failed":false,"local":true}] -> Task 2
+FAIL RA2 [news-feature.html @1280px] DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL :: [{"n":"styles.css","t":"Stylesheet","failed":false,"local":true},{"n":"script.js","t":"Script","failed":false,"local":true}] -> Task 2
+FAIL RA2 [news-commentary.html @1280px] DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL :: [{"n":"styles.css","t":"Stylesheet","failed":false,"local":true},{"n":"script.js","t":"Script","failed":false,"local":true}] -> Task 2
+FAIL RA2 [四页汇总 @-] Network 域全程 12 条事件中无 http(s)/CDN/远程字体请求 :: RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/index.html , RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/styles.css , RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/script.js , RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/news-message.html , RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/news-feature.html -> Task 2
+FAIL RB5-V2 [index.html @1280px/热历史] 退化后的残余区分能力：当前页仍有暗红实下边线，其余为透明线 :: current=["2px solid rgb(122, 36, 36)"] others=["2px solid rgba(0, 0, 0, 0)","2px solid rgba(0, 0, 0, 0)","2px solid rgba(0, 0, 0, 0)"] -> Task 3
+FAIL RG1 [index.html @768→769px] 移动字号与移动版心退出，桌面基线回来 :: mast=64px（桌面 64px） 版心=705 -> Task 8
+FAIL RC4 [news-message.html @375px] .dateline 仍内联于首段首行 :: {"present":true,"text":"自然选择号9月18日7时电","disp":"inline","fw":"700","top":358.5625,"pTop":352.5625} -> Task 5/6/7
+FAIL RC4 [news-message.html @768px] .dateline 仍内联于首段首行 :: {"present":true,"text":"自然选择号9月18日7时电","disp":"inline","fw":"700","top":387,"pTop":381} -> Task 5/6/7
+FAIL RD4 [news-message.html @375px] 不推动报头、无横向滚动、正文焦点轮廓可感知 :: scrollX=0 header.top 0->-88 outline=2px solid rgb(122, 36, 36) -> Task 3
+FAIL RG1 [news-message.html @768→769px] 移动字号与移动版心退出，桌面基线回来 :: mast=64px（桌面 64px） 版心=705 -> Task 8
+FAIL RI2 [news-message.html @1280px/禁用CSS] 文章页阅读顺序：页面类型→标题→署名→正文 :: 类型=0 标题=1 署名=2 正文首段=-1 / 共 8 个文本节点 -> Task 5/6/7
+FAIL RC4 [news-feature.html @375px] .dateline 仍内联于首段首行 :: {"present":true,"text":"自然选择号9月17日电","disp":"inline","fw":"700","top":358.5625,"pTop":352.5625} -> Task 5/6/7
+FAIL RC4 [news-feature.html @768px] .dateline 仍内联于首段首行 :: {"present":true,"text":"自然选择号9月17日电","disp":"inline","fw":"700","top":387,"pTop":381} -> Task 5/6/7
+FAIL RD4 [news-feature.html @375px] 不推动报头、无横向滚动、正文焦点轮廓可感知 :: scrollX=0 header.top 0->-164 outline=2px solid rgb(122, 36, 36) -> Task 3
+FAIL RG1 [news-feature.html @768→769px] 移动字号与移动版心退出，桌面基线回来 :: mast=64px（桌面 64px） 版心=705 -> Task 8
+FAIL RI2 [news-feature.html @1280px/禁用CSS] 文章页阅读顺序：页面类型→标题→署名→正文 :: 类型=0 标题=1 署名=2 正文首段=-1 / 共 27 个文本节点 -> Task 5/6/7
+FAIL RC2 [news-commentary.html @768px] 长评论标题自然折成多行且不溢出 :: 行数=1 736<=736 -> Task 8
+FAIL RD4 [news-commentary.html @375px] 不推动报头、无横向滚动、正文焦点轮廓可感知 :: scrollX=0 header.top 0->-164 outline=2px solid rgb(122, 36, 36) -> Task 3
+FAIL RG1 [news-commentary.html @768→769px] 移动字号与移动版心退出，桌面基线回来 :: mast=64px（桌面 64px） 版心=705 -> Task 8
+FAIL RA2 [index.html @1280px] DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL :: [{"n":"styles.css","t":"Stylesheet","failed":false,"local":true},{"n":"script.js","t":"Script","failed":false,"local":true}] -> Task 2
+FAIL RA2 [news-message.html @1280px] DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL :: [{"n":"styles.css","t":"Stylesheet","failed":false,"local":true},{"n":"script.js","t":"Script","failed":false,"local":true}] -> Task 2
+FAIL RA2 [news-feature.html @1280px] DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL :: [{"n":"styles.css","t":"Stylesheet","failed":false,"local":true},{"n":"script.js","t":"Script","failed":false,"local":true}] -> Task 2
+FAIL RA2 [news-commentary.html @1280px] DevTools 资源树：本目录资源全部成功、无 failed、无外部 URL :: [{"n":"styles.css","t":"Stylesheet","failed":false,"local":true},{"n":"script.js","t":"Script","failed":false,"local":true}] -> Task 2
+FAIL RA2 [四页汇总 @-] Network 域全程 12 条事件中无 http(s)/CDN/远程字体请求 :: RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/index.html , RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/styles.css , RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/script.js , RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/news-message.html , RESP 200 file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/Results/news-feature.html -> Task 2
+FAIL RB5-V2 [index.html @1280px/热历史] 退化后的残余区分能力：当前页仍有暗红实下边线，其余为透明线 :: current=["2px solid rgb(122, 36, 36)"] others=["2px solid rgba(0, 0, 0, 0)","2px solid rgba(0, 0, 0, 0)","2px solid rgba(0, 0, 0, 0)"] -> Task 3
+FAIL RG1 [index.html @768→769px] 移动字号与移动版心退出，桌面基线回来 :: mast=64px（桌面 64px） 版心=705 -> Task 8
+FAIL RC4 [news-message.html @375px] .dateline 仍内联于首段首行 :: {"present":true,"text":"自然选择号9月18日7时电","disp":"inline","fw":"700","top":358.5625,"pTop":352.5625} -> Task 5/6/7
+FAIL RC4 [news-message.html @768px] .dateline 仍内联于首段首行 :: {"present":true,"text":"自然选择号9月18日7时电","disp":"inline","fw":"700","top":387,"pTop":381} -> Task 5/6/7
+FAIL RD4 [news-message.html @375px] 不推动报头、无横向滚动、正文焦点轮廓可感知 :: scrollX=0 header.top 0->-88 outline=2px solid rgb(122, 36, 36) -> Task 3
+FAIL RG1 [news-message.html @768→769px] 移动字号与移动版心退出，桌面基线回来 :: mast=64px（桌面 64px） 版心=705 -> Task 8
+FAIL RI2 [news-message.html @1280px/禁用CSS] 文章页阅读顺序：页面类型→标题→署名→正文 :: 类型=0 标题=1 署名=2 正文首段=-1 / 共 8 个文本节点 -> Task 5/6/7
+FAIL RC4 [news-feature.html @375px] .dateline 仍内联于首段首行 :: {"present":true,"text":"自然选择号9月17日电","disp":"inline","fw":"700","top":358.5625,"pTop":352.5625} -> Task 5/6/7
+FAIL RC4 [news-feature.html @768px] .dateline 仍内联于首段首行 :: {"present":true,"text":"自然选择号9月17日电","disp":"inline","fw":"700","top":387,"pTop":381} -> Task 5/6/7
+FAIL RD4 [news-feature.html @375px] 不推动报头、无横向滚动、正文焦点轮廓可感知 :: scrollX=0 header.top 0->-164 outline=2px solid rgb(122, 36, 36) -> Task 3
+FAIL RG1 [news-feature.html @768→769px] 移动字号与移动版心退出，桌面基线回来 :: mast=64px（桌面 64px） 版心=705 -> Task 8
+FAIL RI2 [news-feature.html @1280px/禁用CSS] 文章页阅读顺序：页面类型→标题→署名→正文 :: 类型=0 标题=1 署名=2 正文首段=-1 / 共 27 个文本节点 -> Task 5/6/7
+FAIL RC2 [news-commentary.html @768px] 长评论标题自然折成多行且不溢出 :: 行数=1 736<=736 -> Task 8
+FAIL RD4 [news-commentary.html @375px] 不推动报头、无横向滚动、正文焦点轮廓可感知 :: scrollX=0 header.top 0->-164 outline=2px solid rgb(122, 36, 36) -> Task 3
+FAIL RG1 [news-commentary.html @768→769px] 移动字号与移动版心退出，桌面基线回来 :: mast=64px（桌面 64px） 版心=705 -> Task 8
+
+== Task 11 CDP 回归：779 PASS / 20 FAIL / 共 799 条 ==

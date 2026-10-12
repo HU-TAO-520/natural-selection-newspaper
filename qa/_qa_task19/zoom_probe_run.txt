@@ -1,0 +1,15 @@
+index.html 100% 基线            → {"innerWidth":1280,"clientWidth":1280,"dpr":1,"mast":381,"rootFont":"16px"}
+index.html zoom=2（CDP 参数）    → {"innerWidth":1280,"clientWidth":1280,"dpr":1,"mast":381,"rootFont":"16px"}
+index.html 640 布局 + dpr2       → {"innerWidth":640,"clientWidth":640,"dpr":2,"mast":641,"rootFont":"16px"}
+index.html 恢复                 → {"innerWidth":1280,"clientWidth":1280,"dpr":1,"mast":381,"rootFont":"16px"}
+article-math-to-ai-learning.html 100% 基线            → {"innerWidth":1280,"clientWidth":1280,"dpr":1,"mast":381,"rootFont":"16px"}
+article-math-to-ai-learning.html zoom=2（CDP 参数）    → {"innerWidth":1280,"clientWidth":1280,"dpr":1,"mast":381,"rootFont":"16px"}
+article-math-to-ai-learning.html 640 布局 + dpr2       → {"innerWidth":640,"clientWidth":640,"dpr":2,"mast":641,"rootFont":"16px"}
+article-math-to-ai-learning.html 恢复                 → {"innerWidth":1280,"clientWidth":1280,"dpr":1,"mast":381,"rootFont":"16px"}
+
+结论：
+zoom 参数是否改变布局视口：否（innerWidth 仍是 1280，dpr 仍是 1）→ CDP zoom 在本机 Chrome 为 NO-OP
+布局效果复现：innerWidth 1280 → 640（1280÷2 成立）
+绘制效果复现：报头实际绘制像素 381 → 641（rect.width×dpr 翻倍成立）
+根字号未被写死：16px → 16px
+ZOOM_EXIT=0 20:27:28

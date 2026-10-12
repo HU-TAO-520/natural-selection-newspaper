@@ -1,0 +1,146 @@
+PASS A/styleSheets/index.html — 样式表数=1 错误条目=[] href=file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09/styles.css
+PASS A/parse/index.html — 浏览器解析顶层规则=63，@media 条件文本="(max-width: 768px)"，位于末尾=true
+PASS A/overflow/index.html — 视口 1378（clientWidth=1378，scrollWidth=1378，超出 0px）
+PASS A/styleSheets/news-message.html — 样式表数=1 错误条目=[] href=file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09/styles.css
+PASS A/parse/news-message.html — 浏览器解析顶层规则=63，@media 条件文本="(max-width: 768px)"，位于末尾=true
+PASS A/overflow/news-message.html — 视口 1378（clientWidth=1378，scrollWidth=1378，超出 0px）
+PASS A/styleSheets/news-feature.html — 样式表数=1 错误条目=[] href=file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09/styles.css
+PASS A/parse/news-feature.html — 浏览器解析顶层规则=63，@media 条件文本="(max-width: 768px)"，位于末尾=true
+PASS A/overflow/news-feature.html — 视口 1378（clientWidth=1378，scrollWidth=1378，超出 0px）
+PASS A/styleSheets/news-commentary.html — 样式表数=1 错误条目=[] href=file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09/styles.css
+PASS A/parse/news-commentary.html — 浏览器解析顶层规则=63，@media 条件文本="(max-width: 768px)"，位于末尾=true
+PASS A/overflow/news-commentary.html — 视口 1378（clientWidth=1378，scrollWidth=1378，超出 0px）
+PASS A/styleSheets/article-school-course-volunteer.html — 样式表数=1 错误条目=[] href=file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09/styles.css
+PASS A/parse/article-school-course-volunteer.html — 浏览器解析顶层规则=63，@media 条件文本="(max-width: 768px)"，位于末尾=true
+PASS A/overflow/article-school-course-volunteer.html — 视口 1378（clientWidth=1378，scrollWidth=1378，超出 0px）
+PASS A/styleSheets/article-math-to-ai-learning.html — 样式表数=1 错误条目=[] href=file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09/styles.css
+PASS A/parse/article-math-to-ai-learning.html — 浏览器解析顶层规则=63，@media 条件文本="(max-width: 768px)"，位于末尾=true
+PASS A/overflow/article-math-to-ai-learning.html — 视口 1378（clientWidth=1378，scrollWidth=1378，超出 0px）
+PASS A/styleSheets/article-classroom-screen-upgrade.html — 样式表数=1 错误条目=[] href=file:///C:/Users/weibo/Documents/%E8%AF%AD%E6%96%87%E6%8A%A5%E7%BA%B8/_qa_task16/mutants/m09/styles.css
+PASS A/parse/article-classroom-screen-upgrade.html — 浏览器解析顶层规则=63，@media 条件文本="(max-width: 768px)"，位于末尾=true
+PASS A/overflow/article-classroom-screen-upgrade.html — 视口 1378（clientWidth=1378，scrollWidth=1378，超出 0px）
+PASS A/console — 控制台 error/warning=0 全部消息=[]
+PASS A/exceptions — 未捕获异常=[]
+PASS A/requests — 请求总数=21，非 file:// 请求=0，加载失败=[]
+PASS B/viewport/index.html@375 — innerWidth=375 clientWidth=375（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/index.html@375 — scrollWidth=375 clientWidth=375 超出=0
+PASS B/touch/index.html@375 — 链接数=3 实测高=46.5/46.5/46.5 实测宽=343/343/343
+PASS B/mobile-state/index.html@375 — mqMobile=true mqDesktop=false html=js nav=none toggle=flex
+PASS B/viewport/news-message.html@375 — innerWidth=375 clientWidth=375（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-message.html@375 — scrollWidth=375 clientWidth=375 超出=0
+FAIL B/touch/news-message.html@375 — 链接数=1 实测高=43.75 实测宽=343
+PASS B/mobile-state/news-message.html@375 — mqMobile=true mqDesktop=false html=js nav=none toggle=flex
+PASS B/viewport/news-feature.html@375 — innerWidth=375 clientWidth=375（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-feature.html@375 — scrollWidth=375 clientWidth=375 超出=0
+FAIL B/touch/news-feature.html@375 — 链接数=1 实测高=43.75 实测宽=343
+PASS B/mobile-state/news-feature.html@375 — mqMobile=true mqDesktop=false html=js nav=none toggle=flex
+PASS B/viewport/news-commentary.html@375 — innerWidth=375 clientWidth=375（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-commentary.html@375 — scrollWidth=375 clientWidth=375 超出=0
+FAIL B/touch/news-commentary.html@375 — 链接数=1 实测高=43.75 实测宽=343
+PASS B/mobile-state/news-commentary.html@375 — mqMobile=true mqDesktop=false html=js nav=none toggle=flex
+PASS B/viewport/index.html@640 — innerWidth=640 clientWidth=640（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/index.html@640 — scrollWidth=640 clientWidth=640 超出=0
+PASS B/touch/index.html@640 — 链接数=3 实测高=46.5/46.5/46.5 实测宽=608/608/608
+PASS B/mobile-state/index.html@640 — mqMobile=true mqDesktop=false html=js nav=none toggle=flex
+PASS B/viewport/news-message.html@640 — innerWidth=640 clientWidth=640（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-message.html@640 — scrollWidth=640 clientWidth=640 超出=0
+FAIL B/touch/news-message.html@640 — 链接数=1 实测高=43.75 实测宽=608
+PASS B/mobile-state/news-message.html@640 — mqMobile=true mqDesktop=false html=js nav=none toggle=flex
+PASS B/viewport/news-feature.html@640 — innerWidth=640 clientWidth=640（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-feature.html@640 — scrollWidth=640 clientWidth=640 超出=0
+FAIL B/touch/news-feature.html@640 — 链接数=1 实测高=43.75 实测宽=608
+PASS B/mobile-state/news-feature.html@640 — mqMobile=true mqDesktop=false html=js nav=none toggle=flex
+PASS B/viewport/news-commentary.html@640 — innerWidth=640 clientWidth=640（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-commentary.html@640 — scrollWidth=640 clientWidth=640 超出=0
+FAIL B/touch/news-commentary.html@640 — 链接数=1 实测高=43.75 实测宽=608
+PASS B/mobile-state/news-commentary.html@640 — mqMobile=true mqDesktop=false html=js nav=none toggle=flex
+PASS B/viewport/index.html@768 — innerWidth=768 clientWidth=768（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/index.html@768 — scrollWidth=768 clientWidth=768 超出=0
+PASS B/touch/index.html@768 — 链接数=3 实测高=46.5/46.5/46.5 实测宽=736/736/736
+PASS B/mobile-state/index.html@768 — mqMobile=true mqDesktop=false html=js nav=none toggle=flex
+PASS B/viewport/news-message.html@768 — innerWidth=768 clientWidth=768（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-message.html@768 — scrollWidth=768 clientWidth=768 超出=0
+FAIL B/touch/news-message.html@768 — 链接数=1 实测高=43.75 实测宽=736
+PASS B/mobile-state/news-message.html@768 — mqMobile=true mqDesktop=false html=js nav=none toggle=flex
+PASS B/viewport/news-feature.html@768 — innerWidth=768 clientWidth=768（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-feature.html@768 — scrollWidth=768 clientWidth=768 超出=0
+FAIL B/touch/news-feature.html@768 — 链接数=1 实测高=43.75 实测宽=736
+PASS B/mobile-state/news-feature.html@768 — mqMobile=true mqDesktop=false html=js nav=none toggle=flex
+PASS B/viewport/news-commentary.html@768 — innerWidth=768 clientWidth=768（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-commentary.html@768 — scrollWidth=768 clientWidth=768 超出=0
+FAIL B/touch/news-commentary.html@768 — 链接数=1 实测高=43.75 实测宽=736
+PASS B/mobile-state/news-commentary.html@768 — mqMobile=true mqDesktop=false html=js nav=none toggle=flex
+PASS B/viewport/index.html@769 — innerWidth=769 clientWidth=769（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/index.html@769 — scrollWidth=769 clientWidth=769 超出=0
+PASS B/touch/index.html@769 — 链接数=3 实测高=48.5/48.5/48.5 实测宽=705/705/705
+PASS B/desktop-state/index.html@769 — mqMobile=false mqDesktop=true nav=block toggle=none（≥769px 桌面基线，按钮隐藏）
+PASS B/viewport/news-message.html@769 — innerWidth=769 clientWidth=769（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-message.html@769 — scrollWidth=769 clientWidth=769 超出=0
+PASS B/touch/news-message.html@769 — 链接数=1 实测高=47.5 实测宽=705
+PASS B/desktop-state/news-message.html@769 — mqMobile=false mqDesktop=true nav=block toggle=none（≥769px 桌面基线，按钮隐藏）
+PASS B/viewport/news-feature.html@769 — innerWidth=769 clientWidth=769（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-feature.html@769 — scrollWidth=769 clientWidth=769 超出=0
+PASS B/touch/news-feature.html@769 — 链接数=1 实测高=47.5 实测宽=705
+PASS B/desktop-state/news-feature.html@769 — mqMobile=false mqDesktop=true nav=block toggle=none（≥769px 桌面基线，按钮隐藏）
+PASS B/viewport/news-commentary.html@769 — innerWidth=769 clientWidth=769（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-commentary.html@769 — scrollWidth=769 clientWidth=769 超出=0
+PASS B/touch/news-commentary.html@769 — 链接数=1 实测高=47.5 实测宽=705
+PASS B/desktop-state/news-commentary.html@769 — mqMobile=false mqDesktop=true nav=block toggle=none（≥769px 桌面基线，按钮隐藏）
+PASS B/viewport/index.html@1024 — innerWidth=1024 clientWidth=1024（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/index.html@1024 — scrollWidth=1024 clientWidth=1024 超出=0
+PASS B/touch/index.html@1024 — 链接数=3 实测高=48.5/48.5/48.5 实测宽=736/736/736
+PASS B/desktop-state/index.html@1024 — mqMobile=false mqDesktop=true nav=block toggle=none（≥769px 桌面基线，按钮隐藏）
+PASS B/viewport/news-message.html@1024 — innerWidth=1024 clientWidth=1024（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-message.html@1024 — scrollWidth=1024 clientWidth=1024 超出=0
+PASS B/touch/news-message.html@1024 — 链接数=1 实测高=47.5 实测宽=736
+PASS B/desktop-state/news-message.html@1024 — mqMobile=false mqDesktop=true nav=block toggle=none（≥769px 桌面基线，按钮隐藏）
+PASS B/viewport/news-feature.html@1024 — innerWidth=1024 clientWidth=1024（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-feature.html@1024 — scrollWidth=1024 clientWidth=1024 超出=0
+PASS B/touch/news-feature.html@1024 — 链接数=1 实测高=47.5 实测宽=736
+PASS B/desktop-state/news-feature.html@1024 — mqMobile=false mqDesktop=true nav=block toggle=none（≥769px 桌面基线，按钮隐藏）
+PASS B/viewport/news-commentary.html@1024 — innerWidth=1024 clientWidth=1024（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-commentary.html@1024 — scrollWidth=1024 clientWidth=1024 超出=0
+PASS B/touch/news-commentary.html@1024 — 链接数=1 实测高=47.5 实测宽=736
+PASS B/desktop-state/news-commentary.html@1024 — mqMobile=false mqDesktop=true nav=block toggle=none（≥769px 桌面基线，按钮隐藏）
+PASS B/viewport/index.html@1280 — innerWidth=1280 clientWidth=1280（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/index.html@1280 — scrollWidth=1280 clientWidth=1280 超出=0
+PASS B/touch/index.html@1280 — 链接数=3 实测高=48.5/48.5/48.5 实测宽=736/736/736
+PASS B/desktop-state/index.html@1280 — mqMobile=false mqDesktop=true nav=block toggle=none（≥769px 桌面基线，按钮隐藏）
+PASS B/viewport/news-message.html@1280 — innerWidth=1280 clientWidth=1280（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-message.html@1280 — scrollWidth=1280 clientWidth=1280 超出=0
+PASS B/touch/news-message.html@1280 — 链接数=1 实测高=47.5 实测宽=736
+PASS B/desktop-state/news-message.html@1280 — mqMobile=false mqDesktop=true nav=block toggle=none（≥769px 桌面基线，按钮隐藏）
+PASS B/viewport/news-feature.html@1280 — innerWidth=1280 clientWidth=1280（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-feature.html@1280 — scrollWidth=1280 clientWidth=1280 超出=0
+PASS B/touch/news-feature.html@1280 — 链接数=1 实测高=47.5 实测宽=736
+PASS B/desktop-state/news-feature.html@1280 — mqMobile=false mqDesktop=true nav=block toggle=none（≥769px 桌面基线，按钮隐藏）
+PASS B/viewport/news-commentary.html@1280 — innerWidth=1280 clientWidth=1280（CDP setDeviceMetricsOverride 真实视口）
+PASS B/overflow/news-commentary.html@1280 — scrollWidth=1280 clientWidth=1280 超出=0
+PASS B/touch/news-commentary.html@1280 — 链接数=1 实测高=47.5 实测宽=736
+PASS B/desktop-state/news-commentary.html@1280 — mqMobile=false mqDesktop=true nav=block toggle=none（≥769px 桌面基线，按钮隐藏）
+PASS C/往复一致 — 移动三次=["[true,false,\"none\",\"flex\",768,768]"] 桌面两次=["[false,true,\"block\",\"none\",769,769]"]
+PASS D/layout640 — 100%@1280 的布局在 200% 下等效为 CSS 视口 640：innerWidth=640/640，dpr=1/2
+PASS D/dpr2 — deviceScaleFactor=2 生效：dpr=2（CDP zoom 参数在本 Chrome 是 no-op，故拆两效复现）
+PASS D/devicePx翻倍 — 首条链接设备像素宽 608 → 1216（rect.width × dpr 佐证文字实际像素翻倍）
+PASS D/200%无溢出 — 200% 下 scrollWidth=640 clientWidth=640
+PASS E0/control — A/B（目标页已在上一会话访问过）：有伴生像素=#372c2f（ink Δ32，:visited=false）；无伴生像素=#33282c（ink Δ26，:visited=false）；两者 getComputedStyle 同为 rgb(33, 31, 28)（隐私规则假绿）。对照不成立：本环境（含跨会话 profile）对 file:// 链接不施加 visited 重绘，像素面对 visited 无鉴别力。因此"配对"的判据以 S4/H13 的逐字符比较为准；E 段像素结果只证明四处默认渲染同为墨色（非浏览器紫、非暗红），已如实登记并交 Task 19。
+PASS E/visited/报头链接 — index.html 取样=.site-masthead__link（宿主 .site-masthead__link href=index.html，:visited=false，getComputedStyle=rgb(33, 31, 28)——按隐私规则不可信，不作为判据；像素面对 visited无鉴别力）；像素均值=#211f1c 最近色=ink(Δ0) 距离表={"ink":0,"accent":89,"muted":109,"rule":240,"uaVisited":123} 样本=_qa_task16/shots/visited-报头链接-m09.png
+PASS E/visited/导航链接 — index.html 取样=.site-navigation__link:not([aria-current="page"])（宿主 .site-navigation__link:not([aria-current="page"]) href=news-message.html，:visited=false，getComputedStyle=rgb(33, 31, 28)——按隐私规则不可信，不作为判据；像素面对 visited无鉴别力）；像素均值=#2e2124 最近色=ink(Δ15) 距离表={"ink":15,"accent":76,"muted":96,"rule":226,"uaVisited":110} 样本=_qa_task16/shots/visited-导航链接-m09.png
+PASS E/visited/最新区链接 — index.html 取样=.home-latest__entry（宿主 .home-latest__link href=article-school-course-volunteer.html，:visited=false，getComputedStyle=rgb(33, 31, 28)——按隐私规则不可信，不作为判据；像素面对 visited无鉴别力）；像素均值=#2a2124 最近色=ink(Δ12) 距离表={"ink":12,"accent":80,"muted":98,"rule":229,"uaVisited":112} 样本=_qa_task16/shots/visited-最新区链接-m09.png
+PASS E/visited/列表页链接 — news-message.html 取样=.entry-list__title（宿主 .entry-list__link href=article-school-course-volunteer.html，:visited=false，getComputedStyle=rgb(33, 31, 28)——按隐私规则不可信，不作为判据；像素面对 visited无鉴别力）；像素均值=#221f1d 最近色=ink(Δ1) 距离表={"ink":1,"accent":88,"muted":108,"rule":239,"uaVisited":121} 样本=_qa_task16/shots/visited-列表页链接-m09.png
+PASS F/focus-outline — 全局 :focus-visible 规则="outline: var(--focus-width) solid var(--color-accent); outline-offset: 3px;"；克隆到链接后实测 outline=solid 2px rgb(122, 36, 36) offset=3px（暗红 2px 轮廓 + 3px 外扩未被任何新规则裁切或覆盖）；原生聚焦态 outline=solid 2px rgb(122, 36, 36) offset=3px，:focus-visible 匹配=false，hasFocus=false（无头窗口无系统焦点，属环境限制，故以克隆法定论）
+PASS F/no-outline-none — 新链接上不存在 outline: none 覆盖（native=solid 2px rgb(122, 36, 36)）
+PASS G/nocss/index.html — 禁 CSS 后 textContent 长度=654（带样式 654）、校验和一致=true，DOM 顺序一致=true，链接非零可点盒=true（24×32 24×64 24×64 24×64 24×251 24×233 24×299）
+PASS G/nocss/news-message.html — 禁 CSS 后 textContent 长度=344（带样式 344）、校验和一致=true，DOM 顺序一致=true，链接非零可点盒=true（24×32 24×64 24×64 24×64 24×251）
+PASS G/nocss/news-feature.html — 禁 CSS 后 textContent 长度=344（带样式 344）、校验和一致=true，DOM 顺序一致=true，链接非零可点盒=true（24×32 24×64 24×64 24×64 24×233）
+PASS G/nocss/news-commentary.html — 禁 CSS 后 textContent 长度=347（带样式 347）、校验和一致=true，DOM 顺序一致=true，链接非零可点盒=true（24×32 24×64 24×64 24×64 24×299）
+PASS G/nocss/article-school-course-volunteer.html — 禁 CSS 后 textContent 长度=694（带样式 694）、校验和一致=true，DOM 顺序一致=true，链接非零可点盒=true（24×32 24×64 24×64 24×64）
+PASS G/nocss/article-math-to-ai-learning.html — 禁 CSS 后 textContent 长度=2106（带样式 2106）、校验和一致=true，DOM 顺序一致=true，链接非零可点盒=true（24×32 24×64 24×64 24×64）
+PASS G/nocss/article-classroom-screen-upgrade.html — 禁 CSS 后 textContent 长度=2692（带样式 2692）、校验和一致=true，DOM 顺序一致=true，链接非零可点盒=true（24×32 24×64 24×64 24×64）
+PASS G/nojs/index.html — 禁 JS（setScriptExecutionDisabled）后 html=no-js，导航 display=block 可见=true，按钮 display=none，正文长度=156
+PASS G/nojs/news-message.html — 禁 JS（setScriptExecutionDisabled）后 html=no-js，导航 display=block 可见=true，按钮 display=none，正文长度=23
+PASS G/nojs/news-feature.html — 禁 JS（setScriptExecutionDisabled）后 html=no-js，导航 display=block 可见=true，按钮 display=none，正文长度=23
+PASS G/nojs/news-commentary.html — 禁 JS（setScriptExecutionDisabled）后 html=no-js，导航 display=block 可见=true，按钮 display=none，正文长度=26
+PASS G/nojs/article-school-course-volunteer.html — 禁 JS（setScriptExecutionDisabled）后 html=no-js，导航 display=block 可见=true，按钮 display=none，正文长度=320
+PASS G/nojs/article-math-to-ai-learning.html — 禁 JS（setScriptExecutionDisabled）后 html=no-js，导航 display=block 可见=true，按钮 display=none，正文长度=1599
+PASS G/nojs/article-classroom-screen-upgrade.html — 禁 JS（setScriptExecutionDisabled）后 html=no-js，导航 display=block 可见=true，按钮 display=none，正文长度=2137

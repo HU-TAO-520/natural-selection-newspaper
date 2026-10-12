@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>Task 4 无 CSS 渲染视图（非交付文件）</title>
+</head>
+<body style="margin:0">
+  <!-- 用真实交付页 + 运行时停用样式表，产出「禁用 CSS」下的实际渲染效果 -->
+  <iframe id="f" src="../Results/index.html" width="1280" height="1000" style="border:0"></iframe>
+  <script>
+    const f = document.getElementById("f");
+    f.addEventListener("load", () => {
+      const d = f.contentDocument;
+      [...d.styleSheets].forEach(s => { s.disabled = true; });
+      d.documentElement.classList.add("css-disabled-proof");
+    });
+  </script>
+</body>
+</html>

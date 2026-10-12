@@ -1,0 +1,183 @@
+[RZ0] [REC] - — - — 验收环境 — Chrome/154.0.8037.93 · headless=new · file:// 直开 · profile=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\.cdp9381-1791034422363 · 被测目录=C:\Users\weibo\Documents\语文报纸\Results · 段=tap
+[RZ1] [PASS] - — - — 19.1 遍历清单条数 == manifest.counts.html（HTML 子集，非目录扫描所得） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 styles.css／script.js 不是页（不进遍历清单） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 遍历顺序按 path 字典序 — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [REC] - — - — 本轮实跑页集合（QODER_ONLY 只影响实跑范围，不改变清单结论） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ2] [PASS] - — - — 前置闸门：Task 18 结论 FAIL 0 且 PENDING 0（未全绿则本包不开跑） — 匹配=true
+[RZ2] [PASS] - — - — 前置闸门：Task 18 变异捕获率 100% — 100
+[RZ2] [PASS] - — - — 前置闸门：Task 18 断言数 ≥340 — 1395
+[RZ2] [PASS] - — - — 前置闸门：expected_reversals.md 已读入本包前置（区分真回归与范围过期的唯一依据） — true
+[RZ3] [PASS] - — - — 19.1 Task18 facts.json 的 __meta 与目录绑定：页集合与本包遍历清单同源（复用 M1 结论，不重造） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ3] [PASS] - — - — 19.1 快照未过期：__meta 逐页哈希 == 当前 Results/ 逐页哈希 — 0 页失配
+[RZ4] [PASS] - — - — 19.1 首页哈希 == 清单登记值（合同基线表里的 2629 字节 971e57a5… 是 v1 六文件值，当前以 manifest 为准，Task18 §8.3 已登记） — 14b82801fc5c1a96…/3631B
+[RZ4] [PASS] - — - — 19.1 Results/ 文件数 == 清单 pages 数（交付文件 6+N=12） — 12
+[RZ5] [PASS] - — - — 19.1 输入前置：五处目录齐备 — 全部存在
+[RZ5] [PASS] - — - — 19.1 输入前置：清单／打包件／上传单／Task18 事实／Task13 基线／v1 母本齐备 — 全部存在
+[RD4] [PASS] article-along-the-north-small-river.html — 375px — 跳转链接是第一个 Tab 停靠点 — skip-link/A
+[RD4] [PASS] article-along-the-north-small-river.html — 375px — 首次 Tab 后出现在左上角且带暗红实线轮廓 — [0,0,52,"2px","solid","rgb(122, 36, 36)"]
+[RD4] [PASS] article-along-the-north-small-river.html — 375px — 激活跳转链接后 #main-content 获得焦点 — MAIN/main-content
+[RD4] [PASS] article-along-the-north-small-river.html — 375px — 跳转不产生横向滚动 — 0
+[RD4] [PASS] article-along-the-north-small-river.html — 375px — 正文焦点轮廓可感知 — 2px solid rgb(122, 36, 36)
+[RD1] [REC] article-along-the-north-small-river.html — 375px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD1] [REC] article-along-the-north-small-river.html — 768px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD1] [REC] article-along-the-north-small-river.html — 1280px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD3] [PASS] article-along-the-north-small-river.html — 375px — 纯键盘到达菜单按钮：暗红实线轮廓清晰且不被裁切 — ["nav-toggle","2px","solid","rgb(122, 36, 36)",[]]
+[RD1] [PASS] article-along-the-north-small-river.html — 375px — .nav-toggle 实测渲染盒 ≥44×44 — 86×46
+[RD2] [PASS] article-along-the-north-small-river.html — 375px/展开 — 展开态每个导航链接实测点击区 ≥44×44 — 343×46,343×46,343×46,343×46
+[RD2] [PASS] article-along-the-north-small-river.html — 375px/展开 — 链接占满行宽便于触控 — 343,343,343,343
+[RD3] [PASS] article-along-the-north-small-river.html — 375px/展开 — 逐个链接键盘焦点轮廓清晰且不被容器裁切 — [["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""]]
+[RD3] [PASS] article-along-the-north-small-river.html — 375px/展开 — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RD4] [PASS] article-classroom-screen-upgrade.html — 375px — 跳转链接是第一个 Tab 停靠点 — skip-link/A
+[RD4] [PASS] article-classroom-screen-upgrade.html — 375px — 首次 Tab 后出现在左上角且带暗红实线轮廓 — [0,0,52,"2px","solid","rgb(122, 36, 36)"]
+[RD4] [PASS] article-classroom-screen-upgrade.html — 375px — 激活跳转链接后 #main-content 获得焦点 — MAIN/main-content
+[RD4] [PASS] article-classroom-screen-upgrade.html — 375px — 跳转不产生横向滚动 — 0
+[RD4] [PASS] article-classroom-screen-upgrade.html — 375px — 正文焦点轮廓可感知 — 2px solid rgb(122, 36, 36)
+[RD1] [REC] article-classroom-screen-upgrade.html — 375px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD1] [REC] article-classroom-screen-upgrade.html — 768px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD1] [REC] article-classroom-screen-upgrade.html — 1280px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD3] [PASS] article-classroom-screen-upgrade.html — 375px — 纯键盘到达菜单按钮：暗红实线轮廓清晰且不被裁切 — ["nav-toggle","2px","solid","rgb(122, 36, 36)",[]]
+[RD1] [PASS] article-classroom-screen-upgrade.html — 375px — .nav-toggle 实测渲染盒 ≥44×44 — 86×46
+[RD2] [PASS] article-classroom-screen-upgrade.html — 375px/展开 — 展开态每个导航链接实测点击区 ≥44×44 — 343×46,343×46,343×46,343×46
+[RD2] [PASS] article-classroom-screen-upgrade.html — 375px/展开 — 链接占满行宽便于触控 — 343,343,343,343
+[RD3] [PASS] article-classroom-screen-upgrade.html — 375px/展开 — 逐个链接键盘焦点轮廓清晰且不被容器裁切 — [["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""]]
+[RD3] [PASS] article-classroom-screen-upgrade.html — 375px/展开 — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RD4] [PASS] article-math-to-ai-learning.html — 375px — 跳转链接是第一个 Tab 停靠点 — skip-link/A
+[RD4] [PASS] article-math-to-ai-learning.html — 375px — 首次 Tab 后出现在左上角且带暗红实线轮廓 — [0,0,52,"2px","solid","rgb(122, 36, 36)"]
+[RD4] [PASS] article-math-to-ai-learning.html — 375px — 激活跳转链接后 #main-content 获得焦点 — MAIN/main-content
+[RD4] [PASS] article-math-to-ai-learning.html — 375px — 跳转不产生横向滚动 — 0
+[RD4] [PASS] article-math-to-ai-learning.html — 375px — 正文焦点轮廓可感知 — 2px solid rgb(122, 36, 36)
+[RD1] [REC] article-math-to-ai-learning.html — 375px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD1] [REC] article-math-to-ai-learning.html — 768px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD1] [REC] article-math-to-ai-learning.html — 1280px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD3] [PASS] article-math-to-ai-learning.html — 375px — 纯键盘到达菜单按钮：暗红实线轮廓清晰且不被裁切 — ["nav-toggle","2px","solid","rgb(122, 36, 36)",[]]
+[RD1] [PASS] article-math-to-ai-learning.html — 375px — .nav-toggle 实测渲染盒 ≥44×44 — 86×46
+[RD2] [PASS] article-math-to-ai-learning.html — 375px/展开 — 展开态每个导航链接实测点击区 ≥44×44 — 343×46,343×46,343×46,343×46
+[RD2] [PASS] article-math-to-ai-learning.html — 375px/展开 — 链接占满行宽便于触控 — 343,343,343,343
+[RD3] [PASS] article-math-to-ai-learning.html — 375px/展开 — 逐个链接键盘焦点轮廓清晰且不被容器裁切 — [["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""]]
+[RD3] [PASS] article-math-to-ai-learning.html — 375px/展开 — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RD4] [PASS] article-north-of-dam-river.html — 375px — 跳转链接是第一个 Tab 停靠点 — skip-link/A
+[RD4] [PASS] article-north-of-dam-river.html — 375px — 首次 Tab 后出现在左上角且带暗红实线轮廓 — [0,0,52,"2px","solid","rgb(122, 36, 36)"]
+[RD4] [PASS] article-north-of-dam-river.html — 375px — 激活跳转链接后 #main-content 获得焦点 — MAIN/main-content
+[RD4] [PASS] article-north-of-dam-river.html — 375px — 跳转不产生横向滚动 — 0
+[RD4] [PASS] article-north-of-dam-river.html — 375px — 正文焦点轮廓可感知 — 2px solid rgb(122, 36, 36)
+[RD1] [REC] article-north-of-dam-river.html — 375px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD1] [REC] article-north-of-dam-river.html — 768px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD1] [REC] article-north-of-dam-river.html — 1280px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD3] [PASS] article-north-of-dam-river.html — 375px — 纯键盘到达菜单按钮：暗红实线轮廓清晰且不被裁切 — ["nav-toggle","2px","solid","rgb(122, 36, 36)",[]]
+[RD1] [PASS] article-north-of-dam-river.html — 375px — .nav-toggle 实测渲染盒 ≥44×44 — 86×46
+[RD2] [PASS] article-north-of-dam-river.html — 375px/展开 — 展开态每个导航链接实测点击区 ≥44×44 — 343×46,343×46,343×46,343×46
+[RD2] [PASS] article-north-of-dam-river.html — 375px/展开 — 链接占满行宽便于触控 — 343,343,343,343
+[RD3] [PASS] article-north-of-dam-river.html — 375px/展开 — 逐个链接键盘焦点轮廓清晰且不被容器裁切 — [["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""]]
+[RD3] [PASS] article-north-of-dam-river.html — 375px/展开 — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RD4] [PASS] article-school-course-selection-results.html — 375px — 跳转链接是第一个 Tab 停靠点 — skip-link/A
+[RD4] [PASS] article-school-course-selection-results.html — 375px — 首次 Tab 后出现在左上角且带暗红实线轮廓 — [0,0,52,"2px","solid","rgb(122, 36, 36)"]
+[RD4] [PASS] article-school-course-selection-results.html — 375px — 激活跳转链接后 #main-content 获得焦点 — MAIN/main-content
+[RD4] [PASS] article-school-course-selection-results.html — 375px — 跳转不产生横向滚动 — 0
+[RD4] [PASS] article-school-course-selection-results.html — 375px — 正文焦点轮廓可感知 — 2px solid rgb(122, 36, 36)
+[RD1] [REC] article-school-course-selection-results.html — 375px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD1] [REC] article-school-course-selection-results.html — 768px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD1] [REC] article-school-course-selection-results.html — 1280px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD3] [PASS] article-school-course-selection-results.html — 375px — 纯键盘到达菜单按钮：暗红实线轮廓清晰且不被裁切 — ["nav-toggle","2px","solid","rgb(122, 36, 36)",[]]
+[RD1] [PASS] article-school-course-selection-results.html — 375px — .nav-toggle 实测渲染盒 ≥44×44 — 86×46
+[RD2] [PASS] article-school-course-selection-results.html — 375px/展开 — 展开态每个导航链接实测点击区 ≥44×44 — 343×46,343×46,343×46,343×46
+[RD2] [PASS] article-school-course-selection-results.html — 375px/展开 — 链接占满行宽便于触控 — 343,343,343,343
+[RD3] [PASS] article-school-course-selection-results.html — 375px/展开 — 逐个链接键盘焦点轮廓清晰且不被容器裁切 — [["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""]]
+[RD3] [PASS] article-school-course-selection-results.html — 375px/展开 — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RD4] [PASS] article-school-course-volunteer.html — 375px — 跳转链接是第一个 Tab 停靠点 — skip-link/A
+[RD4] [PASS] article-school-course-volunteer.html — 375px — 首次 Tab 后出现在左上角且带暗红实线轮廓 — [0,0,52,"2px","solid","rgb(122, 36, 36)"]
+[RD4] [PASS] article-school-course-volunteer.html — 375px — 激活跳转链接后 #main-content 获得焦点 — MAIN/main-content
+[RD4] [PASS] article-school-course-volunteer.html — 375px — 跳转不产生横向滚动 — 0
+[RD4] [PASS] article-school-course-volunteer.html — 375px — 正文焦点轮廓可感知 — 2px solid rgb(122, 36, 36)
+[RD1] [REC] article-school-course-volunteer.html — 375px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD1] [REC] article-school-course-volunteer.html — 768px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD1] [REC] article-school-course-volunteer.html — 1280px — 本页无列表/最新区链接（适用面为空，不判通过也不判失败） — targets=0
+[RD3] [PASS] article-school-course-volunteer.html — 375px — 纯键盘到达菜单按钮：暗红实线轮廓清晰且不被裁切 — ["nav-toggle","2px","solid","rgb(122, 36, 36)",[]]
+[RD1] [PASS] article-school-course-volunteer.html — 375px — .nav-toggle 实测渲染盒 ≥44×44 — 86×46
+[RD2] [PASS] article-school-course-volunteer.html — 375px/展开 — 展开态每个导航链接实测点击区 ≥44×44 — 343×46,343×46,343×46,343×46
+[RD2] [PASS] article-school-course-volunteer.html — 375px/展开 — 链接占满行宽便于触控 — 343,343,343,343
+[RD3] [PASS] article-school-course-volunteer.html — 375px/展开 — 逐个链接键盘焦点轮廓清晰且不被容器裁切 — [["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""]]
+[RD3] [PASS] article-school-course-volunteer.html — 375px/展开 — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RD4] [PASS] index.html — 375px — 跳转链接是第一个 Tab 停靠点 — skip-link/A
+[RD4] [PASS] index.html — 375px — 首次 Tab 后出现在左上角且带暗红实线轮廓 — [0,0,52,"2px","solid","rgb(122, 36, 36)"]
+[RD4] [PASS] index.html — 375px — 激活跳转链接后 #main-content 获得焦点 — MAIN/main-content
+[RD4] [PASS] index.html — 375px — 跳转不产生横向滚动 — 0
+[RD4] [PASS] index.html — 375px — 正文焦点轮廓可感知 — 2px solid rgb(122, 36, 36)
+[RD1] [PASS] index.html — 375px — home-latest#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 343×75
+[RD1] [PASS] index.html — 375px — home-latest#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 343×75
+[RD1] [PASS] index.html — 375px — home-latest#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 343×75
+[RD1] [PASS] index.html — 768px — home-latest#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×75
+[RD1] [PASS] index.html — 768px — home-latest#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×75
+[RD1] [PASS] index.html — 768px — home-latest#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×75
+[RD1] [PASS] index.html — 1280px — home-latest#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×49
+[RD1] [PASS] index.html — 1280px — home-latest#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×49
+[RD1] [PASS] index.html — 1280px — home-latest#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×49
+[RD3] [PASS] index.html — 375px — 纯键盘到达菜单按钮：暗红实线轮廓清晰且不被裁切 — ["nav-toggle","2px","solid","rgb(122, 36, 36)",[]]
+[RD1] [PASS] index.html — 375px — .nav-toggle 实测渲染盒 ≥44×44 — 86×46
+[RD2] [PASS] index.html — 375px/展开 — 展开态每个导航链接实测点击区 ≥44×44 — 343×46,343×46,343×46,343×46
+[RD2] [PASS] index.html — 375px/展开 — 链接占满行宽便于触控 — 343,343,343,343
+[RD3] [PASS] index.html — 375px/展开 — 逐个链接键盘焦点轮廓清晰且不被容器裁切 — [["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""]]
+[RD3] [PASS] index.html — 375px/展开 — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RD4] [PASS] news-commentary.html — 375px — 跳转链接是第一个 Tab 停靠点 — skip-link/A
+[RD4] [PASS] news-commentary.html — 375px — 首次 Tab 后出现在左上角且带暗红实线轮廓 — [0,0,52,"2px","solid","rgb(122, 36, 36)"]
+[RD4] [PASS] news-commentary.html — 375px — 激活跳转链接后 #main-content 获得焦点 — MAIN/main-content
+[RD4] [PASS] news-commentary.html — 375px — 跳转不产生横向滚动 — 0
+[RD4] [PASS] news-commentary.html — 375px — 正文焦点轮廓可感知 — 2px solid rgb(122, 36, 36)
+[RD1] [PASS] news-commentary.html — 375px — entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 343×72
+[RD1] [PASS] news-commentary.html — 768px — entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×72
+[RD1] [PASS] news-commentary.html — 1280px — entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×48
+[RD3] [PASS] news-commentary.html — 375px — 纯键盘到达菜单按钮：暗红实线轮廓清晰且不被裁切 — ["nav-toggle","2px","solid","rgb(122, 36, 36)",[]]
+[RD1] [PASS] news-commentary.html — 375px — .nav-toggle 实测渲染盒 ≥44×44 — 86×46
+[RD2] [PASS] news-commentary.html — 375px/展开 — 展开态每个导航链接实测点击区 ≥44×44 — 343×46,343×46,343×46,343×46
+[RD2] [PASS] news-commentary.html — 375px/展开 — 链接占满行宽便于触控 — 343,343,343,343
+[RD3] [PASS] news-commentary.html — 375px/展开 — 逐个链接键盘焦点轮廓清晰且不被容器裁切 — [["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""]]
+[RD3] [PASS] news-commentary.html — 375px/展开 — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RD4] [PASS] news-feature.html — 375px — 跳转链接是第一个 Tab 停靠点 — skip-link/A
+[RD4] [PASS] news-feature.html — 375px — 首次 Tab 后出现在左上角且带暗红实线轮廓 — [0,0,52,"2px","solid","rgb(122, 36, 36)"]
+[RD4] [PASS] news-feature.html — 375px — 激活跳转链接后 #main-content 获得焦点 — MAIN/main-content
+[RD4] [PASS] news-feature.html — 375px — 跳转不产生横向滚动 — 0
+[RD4] [PASS] news-feature.html — 375px — 正文焦点轮廓可感知 — 2px solid rgb(122, 36, 36)
+[RD1] [PASS] news-feature.html — 375px — entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 343×72
+[RD1] [PASS] news-feature.html — 375px — entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 343×72
+[RD1] [PASS] news-feature.html — 375px — entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 343×72
+[RD1] [PASS] news-feature.html — 768px — entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×72
+[RD1] [PASS] news-feature.html — 768px — entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×72
+[RD1] [PASS] news-feature.html — 768px — entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×72
+[RD1] [PASS] news-feature.html — 1280px — entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×48
+[RD1] [PASS] news-feature.html — 1280px — entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×48
+[RD1] [PASS] news-feature.html — 1280px — entry-list#3 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×48
+[RD3] [PASS] news-feature.html — 375px — 纯键盘到达菜单按钮：暗红实线轮廓清晰且不被裁切 — ["nav-toggle","2px","solid","rgb(122, 36, 36)",[]]
+[RD1] [PASS] news-feature.html — 375px — .nav-toggle 实测渲染盒 ≥44×44 — 86×46
+[RD2] [PASS] news-feature.html — 375px/展开 — 展开态每个导航链接实测点击区 ≥44×44 — 343×46,343×46,343×46,343×46
+[RD2] [PASS] news-feature.html — 375px/展开 — 链接占满行宽便于触控 — 343,343,343,343
+[RD3] [PASS] news-feature.html — 375px/展开 — 逐个链接键盘焦点轮廓清晰且不被容器裁切 — [["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""]]
+[RD3] [PASS] news-feature.html — 375px/展开 — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RD4] [PASS] news-message.html — 375px — 跳转链接是第一个 Tab 停靠点 — skip-link/A
+[RD4] [PASS] news-message.html — 375px — 首次 Tab 后出现在左上角且带暗红实线轮廓 — [0,0,52,"2px","solid","rgb(122, 36, 36)"]
+[RD4] [PASS] news-message.html — 375px — 激活跳转链接后 #main-content 获得焦点 — MAIN/main-content
+[RD4] [PASS] news-message.html — 375px — 跳转不产生横向滚动 — 0
+[RD4] [PASS] news-message.html — 375px — 正文焦点轮廓可感知 — 2px solid rgb(122, 36, 36)
+[RD1] [PASS] news-message.html — 375px — entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 343×72
+[RD1] [PASS] news-message.html — 375px — entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 343×72
+[RD1] [PASS] news-message.html — 768px — entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×72
+[RD1] [PASS] news-message.html — 768px — entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×72
+[RD1] [PASS] news-message.html — 1280px — entry-list#1 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×48
+[RD1] [PASS] news-message.html — 1280px — entry-list#2 实测渲染盒 ≥44×44 CSS px（量 getBoundingClientRect，不读 CSS 声明） — 736×48
+[RD3] [PASS] news-message.html — 375px — 纯键盘到达菜单按钮：暗红实线轮廓清晰且不被裁切 — ["nav-toggle","2px","solid","rgb(122, 36, 36)",[]]
+[RD1] [PASS] news-message.html — 375px — .nav-toggle 实测渲染盒 ≥44×44 — 86×46
+[RD2] [PASS] news-message.html — 375px/展开 — 展开态每个导航链接实测点击区 ≥44×44 — 343×46,343×46,343×46,343×46
+[RD2] [PASS] news-message.html — 375px/展开 — 链接占满行宽便于触控 — 343,343,343,343
+[RD3] [PASS] news-message.html — 375px/展开 — 逐个链接键盘焦点轮廓清晰且不被容器裁切 — [["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""],["site-navigation__link","2pxsolid",""]]
+[RD3] [PASS] news-message.html — 375px/展开 — 焦点环不被视口边界切掉 — [[16,176],[16,223],[16,270],[16,317]]
+[RJ5] [PASS] 全部 HTML 页全程 — 全部宽度/状态/操作 — 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） — 0 条
+[RZ12] [REC] 全包 — - — 断言总数下限（≥1400）属全包闸门，单段模式记 REC，不参与判定 — 本段计分 151
+[RZ12] [PASS] 全包 — - — PENDING 恒为 0（等待外部动作只有 SKIPPED-BY-DESIGN 这一个名字） — 0
+[RZ10] [PASS] Results/ — - — 19.10 只读证明：Results/ 开工与完工逐项哈希相等 — 12 项 且内容一致
+[RZ10] [PASS] content/ — - — 19.10 只读证明：content/ 开工与完工逐项哈希相等 — 8 项 且内容一致
+[RZ10] [PASS] build/ — - — 19.10 只读证明：build/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] deploy/ — - — 19.10 只读证明：deploy/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] Materials/ — - — 19.10 只读证明：Materials/ 开工与完工逐项哈希相等 — 3 项 且内容一致
+[RZ10] [PASS] Results/ — - — 19.10 Results/ 无新增文件（压力样本与探针产物一律落在 _qa_task19/mutants/） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css
+[RZ11] [PASS] Results/ — - — 19.10 本包未修改任何被验对象（变异与压力跑均指向副本目录 本轮未使用副本） — ok
+[RZ11] [PASS] Results/ — - — 19.10 Results/ 内无清单外文件、无探针／截图／JSON 产物 — 0 个
+
+合计 181 条（计分 160）：PASS 160 / FAIL 0 / SKIPPED-BY-DESIGN 0 / REC 21 / PENDING 0

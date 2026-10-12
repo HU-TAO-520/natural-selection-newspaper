@@ -1,0 +1,62 @@
+变异                                 退出码    首个命中断言
+----------------------------------------------------------------------------------------------------
+m01-去掉 no-js 类                     1      index.html <html> 源码初始类恰为 no-js
+m02-预写 js 类                        1      index.html <html> 源码初始类恰为 no-js
+m03-出现第二个 h1                       1      index.html 恰好一个跳至正文链接 / <header> / <nav> / <main> / <h1>
+m04-报头改用 h1                        1      index.html 恰好一个跳至正文链接 / <header> / <nav> / <main> / <h1>
+m05-current 放错链接                   1      index.html 导航文本与顺序 = 首页/新闻消息/新闻通讯/新闻评论
+m06-两个 current                     1      index.html 全页恰好一个 aria-current，值精确为 page
+m07-current 值为 true                1      index.html 全页恰好一个 aria-current，值精确为 page
+m08-current 放在 li 上                1      index.html aria-current 只落在 <a> 上（不在 <li>/<nav>/<span>）
+m09-title 半角竖线                     1      news-message.html <title> 与页面登记表逐字符一致
+m10-title 少一个字                     1      news-message.html <title> 与页面登记表逐字符一致
+m11-h1 带站点名后缀                      1      news-feature.html <h1> 为 class=page-title 且文字与登记表逐字符一致
+m12-缺少 defer                       1      index.html 脚本使用 defer，无 async / type=module / 内联代码
+m13-type=module                    1      index.html 脚本使用 defer，无 async / type=module / 内联代码
+m14-内联脚本                           1      index.html 恰好一次 script.js 引用且 src 正确
+m15-内联事件                           1      index.html 无内联事件处理器
+m16-根相对路径                          1      index.html 无服务器根路径 / 盘符 / 反斜杠
+m17-外链                             1      index.html 恰好一次 styles.css 同目录相对引用
+m18-favicon 与网络字体                  1      index.html 恰好一次 styles.css 同目录相对引用
+m19-加 base                         1      index.html <head> 子节点顺序 = meta,meta,title,link,script
+m20-nav 加 hidden                   1      index.html 导航源码无 hidden / aria-hidden / is-open / style 隐藏
+m21-nav 预置 is-open                 1      index.html 导航源码无 hidden / aria-hidden / is-open / style 隐藏
+m22-aria-controls 不匹配              1      index.html 按钮 aria-controls 精确等于导航实际 ID
+m23-aria-expanded 预写 true          1      index.html 按钮初始 aria-expanded=false
+m24-按钮缺少可见文字                       1      index.html 按钮含可见文字“菜单”（非纯图标）
+m25-图标带文本                          1      index.html 装饰图形 .nav-toggle__icon 保持 aria-hidden=true 且无文本
+m26-按钮加 role                       1      index.html 按钮 class=nav-toggle 且无 role / tabindex
+m27-nav 使用 role=menu               1      index.html 导航未使用应用菜单专用 role=menu/menuitem/menubar
+m28-缺少跳至正文                         1      index.html 恰好一个跳至正文链接 / <header> / <nav> / <main> / <h1>
+m29-skip-link 目标错误                 1      index.html 唯一锚点型 href 只能是 #main-content
+m30-main 缺 tabindex                1      index.html <main> 的 ID/class/tabindex 符合合同
+m31-main tabindex=0                1      index.html <main> 的 ID/class/tabindex 符合合同
+m32-main ID 改名                     1      index.html #nav-toggle / #site-navigation / #main-content 各一
+m33-重复 ID                          1      index.html <body> 直接子元素顺序 = a, header, main
+m34-出现页脚                           1      index.html <body> 直接子元素顺序 = a, header, main
+m35-main 内提前写入正文                   1      news-message.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本
+m36-导航顺序互换                         1      index.html 导航文本与顺序 = 首页/新闻消息/新闻通讯/新闻评论
+m37-导航只有三项                         1      index.html 主导航恰好四个链接，每项恰一个链接
+m38-报头链接指向别处                       1      index.html 报头链接文字“自然选择号”且始终指向 index.html
+m39-报头文字错误                         1      index.html 报头链接文字“自然选择号”且始终指向 index.html
+m40-页面专属 body class                1      规范化（title/h1/aria-current 三处）后四页 DOM 完全一致
+m41-未替换模板记号                        1      index.html <h1> 为 class=page-title 且文字与登记表逐字符一致
+m42-开发注释与 TODO                     1      规范化（title/h1/aria-current 三处）后四页 DOM 完全一致
+m43-链接新开窗口                         1      index.html 导航目标 news-feature.html 合规（同目录文件名、已存在、无绝对路径/片段/查询/
+m44-导航容器 aria-hidden               1      index.html 导航源码无 hidden / aria-hidden / is-open / style 隐藏
+m45-图片与内联样式                        1      index.html <body> 直接子元素顺序 = a, header, main
+m46-第二个 stylesheet 引用              1      index.html 恰好一次 styles.css 同目录相对引用
+m47-标题层级用 aria-selected            1      index.html 全页恰好一个 aria-current，值精确为 page
+m48-缺少 charset                     1      index.html 恰好一个 meta charset=utf-8
+m49-viewport 错误                    1      index.html 恰好一个 viewport 且值为 width=device-width, initial-sca
+m50-html 缺 lang                    1      index.html 唯一 <html> 且 lang="zh-CN"
+m51-多创建空 styles.css                1      Results/ 恰好含四个 Task 2 HTML，名称与大小写准确
+m52-出现 Word 元数据作者                  1      news-commentary.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本
+m53-新闻评价字样                         1      news-commentary.html <title> 与页面登记表逐字符一致
+m54-推断年份进入页面                       1      news-commentary.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本
+m55-导航链接文本改动                       1      index.html 导航文本与顺序 = 首页/新闻消息/新闻通讯/新闻评论
+## 变异测试（负面控制）
+
+- 变异总数 55 ｜ 被发现 55 ｜ 漏检 0 ｜ 无法施加 0
+
+结论: PASS — 核验脚本对每类违约均能失败

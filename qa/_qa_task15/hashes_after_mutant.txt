@@ -1,0 +1,21 @@
+# path	sha256	bytes	mtime
+# Task 15.3 切换后基线（v2 九文件），登记 2026-10-02 11:28:09
+# 期望来源：七份 HTML == _qa_task14/out/，styles.css 与 script.js == 表 1 原值
+Results/article-classroom-screen-upgrade.html	a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52	8486	2026-10-02 11:28:08
+# 期望 a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52 <- _qa_task14/out/article-classroom-screen-upgrade.html
+Results/article-math-to-ai-learning.html	73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5	6962	2026-10-02 11:28:08
+# 期望 73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5 <- _qa_task14/out/article-math-to-ai-learning.html
+Results/article-school-course-volunteer.html	66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8	3011	2026-10-02 11:28:08
+# 期望 66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8 <- _qa_task14/out/article-school-course-volunteer.html
+Results/index.html	475e02f8bbf195ca4be23b8c71807962e1edbdaeef6ab45e1782c2d184a78f91	3635	2026-10-02 11:28:08
+# 期望 475e02f8bbf195ca4be23b8c71807962e1edbdaeef6ab45e1782c2d184a78f91 <- _qa_task14/out/index.html
+Results/news-commentary.html	76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8	2067	2026-10-02 11:28:08
+# 期望 76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8 <- _qa_task14/out/news-commentary.html
+Results/news-feature.html	485a8750d996bcba6d24877c0816dcff108d4cd8eb3cc33114e1bc7dcb20e68c	2049	2026-10-02 11:28:08
+# 期望 485a8750d996bcba6d24877c0816dcff108d4cd8eb3cc33114e1bc7dcb20e68c <- _qa_task14/out/news-feature.html
+Results/news-message.html	3a267591a4a976ef3848a415e16848cbcb577b327ff4c61e77ed484727b48637	2057	2026-10-02 11:28:08
+# 期望 3a267591a4a976ef3848a415e16848cbcb577b327ff4c61e77ed484727b48637 <- _qa_task14/out/news-message.html
+Results/script.js	abb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666	2204	2026-10-02 11:28:08
+# 期望 abb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666 <- 表 1（本包不得改动）
+Results/styles.css	c9a8c5b671c10e314c6561adad44c0c7ae80d67881e8624872fe84fb28291b93	12401	2026-10-02 11:28:08
+# 期望 2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad418ba1 <- 表 1（本包不得改动）

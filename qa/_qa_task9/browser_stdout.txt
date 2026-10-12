@@ -1,0 +1,40 @@
+mutants/script.js 与 Results/script.js 哈希一致: True
+
+[index.html | kind=full] 49/49 pass
+
+[index.html | kind=nojs] 6/6 pass
+
+[news-message.html | kind=full] 49/49 pass
+
+[news-message.html | kind=nojs] 6/6 pass
+
+[news-feature.html | kind=full] 49/49 pass
+
+[news-feature.html | kind=nojs] 6/6 pass
+
+[news-commentary.html | kind=full] 49/49 pass
+
+[news-commentary.html | kind=nojs] 6/6 pass
+
+[m_no_toggle.html | kind=robust] 5/5 pass
+
+[m_no_nav.html | kind=robust] 5/5 pass
+
+--- 控制台（真实页面 + 变异体，直接加载，--enable-logging=stderr） ---
+  index: CLEAN 
+  news-message: CLEAN 
+  news-feature: CLEAN 
+  news-commentary: CLEAN 
+  mutant_no_toggle: CLEAN 
+  mutant_no_nav: CLEAN 
+  控制台错误合计: 0
+
+--- 截图回读（title = clientWidth:htmlClass:state:aria:navDisplay） ---
+  index_mobile_closed: 38959 bytes readback=375:js:closed:false:none OK
+  index_mobile_open: 39046 bytes readback=375:js:open:true:block OK
+  index_desktop: 58876 bytes readback=1000:js:closed:false:block OK
+  index_nojs_mobile: 41357 bytes readback=375:no-js:closed:false:block OK
+  commentary_mobile_open: 39863 bytes readback=375:js:open:true:block OK
+
+BROWSER: 241 checks, 0 failures
+

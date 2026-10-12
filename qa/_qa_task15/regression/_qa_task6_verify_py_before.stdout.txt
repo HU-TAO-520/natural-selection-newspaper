@@ -1,0 +1,5 @@
+FAIL | 文件与版本 | index.html 未被本任务改动 | expected='73f49fd8d01bb578a5a1fcc76ca8967e19feb29ec8e1c64e1aed7b2006c3d901' actual='971e57a5f85bae99c389e58d7a132e96c02388432de997c4df3d4af495e6416a'
+FAIL | 文件与版本 | news-commentary.html 未被本任务改动 | expected='cdc13a4023aea725c6c12e6940940b9a00253f84433d1675672b15de046f27ee' actual='a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52'
+FAIL | 文件与版本 | styles.css 未被本任务改动 | expected='30d746616ae9dfd0e0aa07e373874b5f442ed14fbd3b78f9efe0abdcc21d040d' actual='2c23817299492ea9a3fd7ad23237cfabd6723d166bd99194febbed09ad418ba1'
+FAIL | 文件与版本 | Results/ 仍是约定的 5 个文件 | expected=['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'styles.css'] actual=['index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+TOTAL 202 checks, 4 failures

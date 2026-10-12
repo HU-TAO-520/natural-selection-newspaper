@@ -1,0 +1,122 @@
+{
+ "index.html": {
+  "links": [
+   {
+    "rel": "stylesheet",
+    "href": "styles.css",
+    "media": null
+   }
+  ],
+  "scripts": [
+   {
+    "attrs": {
+     "src": "script.js",
+     "defer": ""
+    }
+   }
+  ],
+  "cssParse": {
+   "ok": true,
+   "top": 63,
+   "mediaCount": 1,
+   "mediaIdx": 62,
+   "lastIsMedia": true,
+   "href": "styles.css",
+   "mediaText": "(max-width: 768px)"
+  },
+  "sheetCount": 1
+ },
+ "news-message.html": {
+  "links": [
+   {
+    "rel": "stylesheet",
+    "href": "styles.css",
+    "media": null
+   }
+  ],
+  "scripts": [
+   {
+    "attrs": {
+     "src": "script.js",
+     "defer": ""
+    }
+   }
+  ],
+  "cssParse": {
+   "ok": true,
+   "top": 63,
+   "mediaCount": 1,
+   "mediaIdx": 62,
+   "lastIsMedia": true,
+   "href": "styles.css",
+   "mediaText": "(max-width: 768px)"
+  },
+  "sheetCount": 1
+ },
+ "news-feature.html": {
+  "links": [
+   {
+    "rel": "stylesheet",
+    "href": "styles.css",
+    "media": null
+   }
+  ],
+  "scripts": [
+   {
+    "attrs": {
+     "src": "script.js",
+     "defer": ""
+    }
+   }
+  ],
+  "cssParse": {
+   "ok": true,
+   "top": 63,
+   "mediaCount": 1,
+   "mediaIdx": 62,
+   "lastIsMedia": true,
+   "href": "styles.css",
+   "mediaText": "(max-width: 768px)"
+  },
+  "sheetCount": 1
+ },
+ "news-commentary.html": {
+  "links": [
+   {
+    "rel": "stylesheet",
+    "href": "styles.css",
+    "media": null
+   }
+  ],
+  "scripts": [
+   {
+    "attrs": {
+     "src": "script.js",
+     "defer": ""
+    }
+   }
+  ],
+  "cssParse": {
+   "ok": true,
+   "top": 63,
+   "mediaCount": 1,
+   "mediaIdx": 62,
+   "lastIsMedia": true,
+   "href": "styles.css",
+   "mediaText": "(max-width: 768px)"
+  },
+  "sheetCount": 1
+ },
+ "__meta": {
+  "results": "_qa_task16/mutants/m02",
+  "pages": [
+   "index.html",
+   "news-message.html",
+   "news-feature.html",
+   "news-commentary.html"
+  ],
+  "exceptions": 0,
+  "consoleErrors": 0,
+  "nonFileRequests": 0
+ }
+}

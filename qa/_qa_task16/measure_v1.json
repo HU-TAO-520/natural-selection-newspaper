@@ -1,0 +1,5186 @@
+[
+ {
+  "page": "../_qa_task15/before/index.html",
+  "viewport": 375,
+  "frameClientWidth": 375,
+  "frameScrollWidth": 375,
+  "overflowX": 0,
+  "innerWidth": 375,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "41.25px",
+    "lineHeight": "51.5625px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "4.95px",
+    "x": 69.531,
+    "y": 35,
+    "w": 235.938,
+    "h": 51.563
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 163.563,
+    "w": 343,
+    "h": 478.891
+   },
+   "pageTitle": {
+    "fontSize": "28px",
+    "lineHeight": "35px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 195.563,
+    "w": 343,
+    "h": 35
+   },
+   "homeSectionTexts": [
+    {
+     "text": "我们的名字来自《三体",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 320.563,
+     "w": 343,
+     "h": 32.297
+    },
+    {
+     "text": "我们主要记录一些自己",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 430.859,
+     "w": 343,
+     "h": 32.297
+    },
+    {
+     "text": "报社成立于“鸽子衔枝",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 541.156,
+     "w": 343,
+     "h": 32.297
+    }
+   ],
+   "homeSectionTitles": [
+    {
+     "text": "名称由来",
+     "fontSize": "20px",
+     "lineHeight": "25px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 283.563,
+     "w": 343,
+     "h": 25
+    },
+    {
+     "text": "主要工作与报道方向",
+     "fontSize": "20px",
+     "lineHeight": "25px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 393.859,
+     "w": 343,
+     "h": 25
+    },
+    {
+     "text": "成立时间",
+     "fontSize": "20px",
+     "lineHeight": "25px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 504.156,
+     "w": 343,
+     "h": 25
+    }
+   ],
+   "homeSections": [
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 262.563,
+     "w": 343,
+     "h": 110.297
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 372.859,
+     "w": 343,
+     "h": 110.297
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "1px solid rgb(184, 170, 152)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 483.156,
+     "w": 343,
+     "h": 111.297
+    }
+   ],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/index.html",
+  "viewport": 640,
+  "frameClientWidth": 640,
+  "frameScrollWidth": 640,
+  "overflowX": 0,
+  "innerWidth": 640,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 159.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 608,
+    "h": 496.391
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 214,
+    "w": 608,
+    "h": 45
+   },
+   "homeSectionTexts": [
+    {
+     "text": "我们的名字来自《三体",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 351.5,
+     "w": 608,
+     "h": 32.297
+    },
+    {
+     "text": "我们主要记录一些自己",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 464.297,
+     "w": 608,
+     "h": 32.297
+    },
+    {
+     "text": "报社成立于“鸽子衔枝",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 577.094,
+     "w": 608,
+     "h": 32.297
+    }
+   ],
+   "homeSectionTitles": [
+    {
+     "text": "名称由来",
+     "fontSize": "22px",
+     "lineHeight": "27.5px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 312,
+     "w": 608,
+     "h": 27.5
+    },
+    {
+     "text": "主要工作与报道方向",
+     "fontSize": "22px",
+     "lineHeight": "27.5px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 424.797,
+     "w": 608,
+     "h": 27.5
+    },
+    {
+     "text": "成立时间",
+     "fontSize": "22px",
+     "lineHeight": "27.5px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 537.594,
+     "w": 608,
+     "h": 27.5
+    }
+   ],
+   "homeSections": [
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 291,
+     "w": 608,
+     "h": 112.797
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 403.797,
+     "w": 608,
+     "h": 112.797
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "1px solid rgb(184, 170, 152)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 516.594,
+     "w": 608,
+     "h": 113.797
+    }
+   ],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/index.html",
+  "viewport": 768,
+  "frameClientWidth": 768,
+  "frameScrollWidth": 768,
+  "overflowX": 0,
+  "innerWidth": 768,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 223.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 736,
+    "h": 496.391
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 214,
+    "w": 736,
+    "h": 45
+   },
+   "homeSectionTexts": [
+    {
+     "text": "我们的名字来自《三体",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 351.5,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "text": "我们主要记录一些自己",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 464.297,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "text": "报社成立于“鸽子衔枝",
+     "fontSize": "17px",
+     "lineHeight": "32.3px",
+     "color": "rgb(33, 31, 28)",
+     "x": 16,
+     "y": 577.094,
+     "w": 736,
+     "h": 32.297
+    }
+   ],
+   "homeSectionTitles": [
+    {
+     "text": "名称由来",
+     "fontSize": "22px",
+     "lineHeight": "27.5px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 312,
+     "w": 736,
+     "h": 27.5
+    },
+    {
+     "text": "主要工作与报道方向",
+     "fontSize": "22px",
+     "lineHeight": "27.5px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 424.797,
+     "w": 736,
+     "h": 27.5
+    },
+    {
+     "text": "成立时间",
+     "fontSize": "22px",
+     "lineHeight": "27.5px",
+     "color": "rgb(122, 36, 36)",
+     "x": 16,
+     "y": 537.594,
+     "w": 736,
+     "h": 27.5
+    }
+   ],
+   "homeSections": [
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 291,
+     "w": 736,
+     "h": 112.797
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 403.797,
+     "w": 736,
+     "h": 112.797
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "1px solid rgb(184, 170, 152)",
+     "paddingTop": "20px",
+     "paddingBottom": "20px",
+     "x": 16,
+     "y": 516.594,
+     "w": 736,
+     "h": 113.797
+    }
+   ],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/index.html",
+  "viewport": 769,
+  "frameClientWidth": 769,
+  "frameScrollWidth": 769,
+  "overflowX": 0,
+  "innerWidth": 769,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 193.781,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 203.531,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 203.531,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 705,
+    "h": 602.563
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 32,
+    "y": 251,
+    "w": 705,
+    "h": 50
+   },
+   "homeSectionTexts": [
+    {
+     "text": "我们的名字来自《三体",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 32,
+     "y": 416,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "text": "我们主要记录一些自己",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 32,
+     "y": 541.188,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "text": "报社成立于“鸽子衔枝",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 32,
+     "y": 666.375,
+     "w": 705,
+     "h": 34.188
+    }
+   ],
+   "homeSectionTitles": [
+    {
+     "text": "名称由来",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 32,
+     "y": 374,
+     "w": 705,
+     "h": 30
+    },
+    {
+     "text": "主要工作与报道方向",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 32,
+     "y": 499.188,
+     "w": 705,
+     "h": 30
+    },
+    {
+     "text": "成立时间",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 32,
+     "y": 624.375,
+     "w": 705,
+     "h": 30
+    }
+   ],
+   "homeSections": [
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 32,
+     "y": 349,
+     "w": 705,
+     "h": 125.188
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 32,
+     "y": 474.188,
+     "w": 705,
+     "h": 125.188
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "1px solid rgb(184, 170, 152)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 32,
+     "y": 599.375,
+     "w": 705,
+     "h": 126.188
+    }
+   ],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/index.html",
+  "viewport": 1024,
+  "frameClientWidth": 1024,
+  "frameScrollWidth": 1024,
+  "overflowX": 0,
+  "innerWidth": 1024,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 321.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 331.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 331.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 960,
+    "h": 602.563
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 96,
+    "y": 251,
+    "w": 832,
+    "h": 50
+   },
+   "homeSectionTexts": [
+    {
+     "text": "我们的名字来自《三体",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 144,
+     "y": 416,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "text": "我们主要记录一些自己",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 144,
+     "y": 541.188,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "text": "报社成立于“鸽子衔枝",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 144,
+     "y": 666.375,
+     "w": 736,
+     "h": 34.188
+    }
+   ],
+   "homeSectionTitles": [
+    {
+     "text": "名称由来",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 144,
+     "y": 374,
+     "w": 736,
+     "h": 30
+    },
+    {
+     "text": "主要工作与报道方向",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 144,
+     "y": 499.188,
+     "w": 736,
+     "h": 30
+    },
+    {
+     "text": "成立时间",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 144,
+     "y": 624.375,
+     "w": 736,
+     "h": 30
+    }
+   ],
+   "homeSections": [
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 144,
+     "y": 349,
+     "w": 736,
+     "h": 125.188
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 144,
+     "y": 474.188,
+     "w": 736,
+     "h": 125.188
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "1px solid rgb(184, 170, 152)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 144,
+     "y": 599.375,
+     "w": 736,
+     "h": 126.188
+    }
+   ],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/index.html",
+  "viewport": 1280,
+  "frameClientWidth": 1280,
+  "frameScrollWidth": 1280,
+  "overflowX": 0,
+  "innerWidth": 1280,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 449.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 459.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 459.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 80,
+    "y": 203,
+    "w": 1120,
+    "h": 602.563
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 224,
+    "y": 251,
+    "w": 832,
+    "h": 50
+   },
+   "homeSectionTexts": [
+    {
+     "text": "我们的名字来自《三体",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 272,
+     "y": 416,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "text": "我们主要记录一些自己",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 272,
+     "y": 541.188,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "text": "报社成立于“鸽子衔枝",
+     "fontSize": "18px",
+     "lineHeight": "34.2px",
+     "color": "rgb(33, 31, 28)",
+     "x": 272,
+     "y": 666.375,
+     "w": 736,
+     "h": 34.188
+    }
+   ],
+   "homeSectionTitles": [
+    {
+     "text": "名称由来",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 272,
+     "y": 374,
+     "w": 736,
+     "h": 30
+    },
+    {
+     "text": "主要工作与报道方向",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 272,
+     "y": 499.188,
+     "w": 736,
+     "h": 30
+    },
+    {
+     "text": "成立时间",
+     "fontSize": "24px",
+     "lineHeight": "30px",
+     "color": "rgb(122, 36, 36)",
+     "x": 272,
+     "y": 624.375,
+     "w": 736,
+     "h": 30
+    }
+   ],
+   "homeSections": [
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 272,
+     "y": 349,
+     "w": 736,
+     "h": 125.188
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "0px none rgb(33, 31, 28)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 272,
+     "y": 474.188,
+     "w": 736,
+     "h": 125.188
+    },
+    {
+     "borderTop": "1px solid rgb(184, 170, 152)",
+     "borderBottom": "1px solid rgb(184, 170, 152)",
+     "paddingTop": "24px",
+     "paddingBottom": "24px",
+     "x": 272,
+     "y": 599.375,
+     "w": 736,
+     "h": 126.188
+    }
+   ],
+   "articleParagraphs": [],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-message.html",
+  "viewport": 375,
+  "frameClientWidth": 375,
+  "frameScrollWidth": 375,
+  "overflowX": 0,
+  "innerWidth": 375,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "41.25px",
+    "lineHeight": "51.5625px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "4.95px",
+    "x": 69.531,
+    "y": 35,
+    "w": 235.938,
+    "h": 51.563
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 163.563,
+    "w": 343,
+    "h": 824.297
+   },
+   "pageTitle": {
+    "fontSize": "28px",
+    "lineHeight": "35px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 234.063,
+    "w": 343,
+    "h": 35
+   },
+   "articleBody": {
+    "maxWidth": "100%",
+    "fontSize": "17px",
+    "lineHeight": "32.3px",
+    "textAlign": "start",
+    "textIndent": "0px",
+    "x": 16,
+    "y": 352.563,
+    "w": 343,
+    "h": 587.297
+   },
+   "articleHeader": {
+    "maxWidth": "100%",
+    "paddingBottom": "20px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 16,
+    "y": 195.563,
+    "w": 343,
+    "h": 133
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 16,
+    "y": 195.563,
+    "w": 343,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 16,
+    "y": 285.063,
+    "w": 343,
+    "h": 22.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 16,
+     "y": 352.563,
+     "w": 343,
+     "h": 161.484
+    },
+    {
+     "x": 16,
+     "y": 526.797,
+     "w": 343,
+     "h": 193.781
+    },
+    {
+     "x": 16,
+     "y": 733.328,
+     "w": 343,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 875.266,
+     "w": 343,
+     "h": 64.594
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-message.html",
+  "viewport": 640,
+  "frameClientWidth": 640,
+  "frameScrollWidth": 640,
+  "overflowX": 0,
+  "innerWidth": 640,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 159.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 608,
+    "h": 608.219
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 252.5,
+    "w": 608,
+    "h": 45
+   },
+   "articleBody": {
+    "maxWidth": "100%",
+    "fontSize": "17px",
+    "lineHeight": "32.3px",
+    "textAlign": "start",
+    "textIndent": "0px",
+    "x": 16,
+    "y": 381,
+    "w": 608,
+    "h": 361.219
+   },
+   "articleHeader": {
+    "maxWidth": "100%",
+    "paddingBottom": "20px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 16,
+    "y": 214,
+    "w": 608,
+    "h": 143
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 16,
+    "y": 214,
+    "w": 608,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 16,
+    "y": 313.5,
+    "w": 608,
+    "h": 22.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 16,
+     "y": 381,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 490.641,
+     "w": 608,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 632.578,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 709.922,
+     "w": 608,
+     "h": 32.297
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-message.html",
+  "viewport": 768,
+  "frameClientWidth": 768,
+  "frameScrollWidth": 768,
+  "overflowX": 0,
+  "innerWidth": 768,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 223.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 736,
+    "h": 575.922
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 252.5,
+    "w": 736,
+    "h": 45
+   },
+   "articleBody": {
+    "maxWidth": "100%",
+    "fontSize": "17px",
+    "lineHeight": "32.3px",
+    "textAlign": "start",
+    "textIndent": "0px",
+    "x": 16,
+    "y": 381,
+    "w": 736,
+    "h": 328.922
+   },
+   "articleHeader": {
+    "maxWidth": "100%",
+    "paddingBottom": "20px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 16,
+    "y": 214,
+    "w": 736,
+    "h": 143
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 16,
+    "y": 214,
+    "w": 736,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 16,
+    "y": 313.5,
+    "w": 736,
+    "h": 22.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 16,
+     "y": 381,
+     "w": 736,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 490.641,
+     "w": 736,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 600.281,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 677.625,
+     "w": 736,
+     "h": 32.297
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-message.html",
+  "viewport": 769,
+  "frameClientWidth": 769,
+  "frameScrollWidth": 769,
+  "overflowX": 0,
+  "innerWidth": 769,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 193.781,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 203.531,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 278.094,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 705,
+    "h": 660.188
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 32,
+    "y": 289.5,
+    "w": 705,
+    "h": 50
+   },
+   "articleBody": {
+    "maxWidth": "736px",
+    "fontSize": "18px",
+    "lineHeight": "34.2px",
+    "textAlign": "justify",
+    "textIndent": "0px",
+    "x": 32,
+    "y": 435,
+    "w": 705,
+    "h": 348.188
+   },
+   "articleHeader": {
+    "maxWidth": "832px",
+    "paddingBottom": "24px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 32,
+    "y": 251,
+    "w": 705,
+    "h": 152
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 32,
+    "y": 251,
+    "w": 705,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 32,
+    "y": 355.5,
+    "w": 705,
+    "h": 22.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 32,
+     "y": 435,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 551.063,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 667.125,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 749,
+     "w": 705,
+     "h": 34.188
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-message.html",
+  "viewport": 1024,
+  "frameClientWidth": 1024,
+  "frameScrollWidth": 1024,
+  "overflowX": 0,
+  "innerWidth": 1024,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 321.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 331.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 405.594,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 960,
+    "h": 660.188
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 96,
+    "y": 289.5,
+    "w": 832,
+    "h": 50
+   },
+   "articleBody": {
+    "maxWidth": "736px",
+    "fontSize": "18px",
+    "lineHeight": "34.2px",
+    "textAlign": "justify",
+    "textIndent": "0px",
+    "x": 144,
+    "y": 435,
+    "w": 736,
+    "h": 348.188
+   },
+   "articleHeader": {
+    "maxWidth": "832px",
+    "paddingBottom": "24px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 96,
+    "y": 251,
+    "w": 832,
+    "h": 152
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 96,
+    "y": 251,
+    "w": 832,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 96,
+    "y": 355.5,
+    "w": 832,
+    "h": 22.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 144,
+     "y": 435,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 551.063,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 667.125,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 749,
+     "w": 736,
+     "h": 34.188
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-message.html",
+  "viewport": 1280,
+  "frameClientWidth": 1280,
+  "frameScrollWidth": 1280,
+  "overflowX": 0,
+  "innerWidth": 1280,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 449.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 459.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 533.594,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 80,
+    "y": 203,
+    "w": 1120,
+    "h": 660.188
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 224,
+    "y": 289.5,
+    "w": 832,
+    "h": 50
+   },
+   "articleBody": {
+    "maxWidth": "736px",
+    "fontSize": "18px",
+    "lineHeight": "34.2px",
+    "textAlign": "justify",
+    "textIndent": "0px",
+    "x": 272,
+    "y": 435,
+    "w": 736,
+    "h": 348.188
+   },
+   "articleHeader": {
+    "maxWidth": "832px",
+    "paddingBottom": "24px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 224,
+    "y": 251,
+    "w": 832,
+    "h": 152
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 224,
+    "y": 251,
+    "w": 832,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 224,
+    "y": 355.5,
+    "w": 832,
+    "h": 22.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 272,
+     "y": 435,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 551.063,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 667.125,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 749,
+     "w": 736,
+     "h": 34.188
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 1500,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-feature.html",
+  "viewport": 375,
+  "frameClientWidth": 375,
+  "frameScrollWidth": 375,
+  "overflowX": 0,
+  "innerWidth": 375,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "41.25px",
+    "lineHeight": "51.5625px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "4.95px",
+    "x": 69.531,
+    "y": 35,
+    "w": 235.938,
+    "h": 51.563
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 163.563,
+    "w": 343,
+    "h": 3424.219
+   },
+   "pageTitle": {
+    "fontSize": "28px",
+    "lineHeight": "35px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 234.063,
+    "w": 343,
+    "h": 35
+   },
+   "articleBody": {
+    "maxWidth": "100%",
+    "fontSize": "17px",
+    "lineHeight": "32.3px",
+    "textAlign": "start",
+    "textIndent": "0px",
+    "x": 16,
+    "y": 352.563,
+    "w": 343,
+    "h": 3187.219
+   },
+   "articleHeader": {
+    "maxWidth": "100%",
+    "paddingBottom": "20px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 16,
+    "y": 195.563,
+    "w": 343,
+    "h": 133
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 16,
+    "y": 195.563,
+    "w": 343,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 16,
+    "y": 285.063,
+    "w": 343,
+    "h": 22.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 16,
+     "y": 352.563,
+     "w": 343,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 462.203,
+     "w": 343,
+     "h": 193.781
+    },
+    {
+     "x": 16,
+     "y": 668.734,
+     "w": 343,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 746.078,
+     "w": 343,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 855.719,
+     "w": 343,
+     "h": 161.484
+    },
+    {
+     "x": 16,
+     "y": 1029.953,
+     "w": 343,
+     "h": 193.781
+    },
+    {
+     "x": 16,
+     "y": 1236.484,
+     "w": 343,
+     "h": 161.484
+    },
+    {
+     "x": 16,
+     "y": 1410.719,
+     "w": 343,
+     "h": 193.781
+    },
+    {
+     "x": 16,
+     "y": 1617.25,
+     "w": 343,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 1759.188,
+     "w": 343,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 1901.125,
+     "w": 343,
+     "h": 161.484
+    },
+    {
+     "x": 16,
+     "y": 2075.359,
+     "w": 343,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 2152.703,
+     "w": 343,
+     "h": 161.484
+    },
+    {
+     "x": 16,
+     "y": 2326.938,
+     "w": 343,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 2404.281,
+     "w": 343,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 2513.922,
+     "w": 343,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 2591.266,
+     "w": 343,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 2700.906,
+     "w": 343,
+     "h": 161.484
+    },
+    {
+     "x": 16,
+     "y": 2875.141,
+     "w": 343,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 2984.781,
+     "w": 343,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 3094.422,
+     "w": 343,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 3236.359,
+     "w": 343,
+     "h": 161.484
+    },
+    {
+     "x": 16,
+     "y": 3410.594,
+     "w": 343,
+     "h": 129.188
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 3588,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-feature.html",
+  "viewport": 640,
+  "frameClientWidth": 640,
+  "frameScrollWidth": 640,
+  "overflowX": 0,
+  "innerWidth": 640,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 159.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 608,
+    "h": 2368.422
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 252.5,
+    "w": 608,
+    "h": 45
+   },
+   "articleBody": {
+    "maxWidth": "100%",
+    "fontSize": "17px",
+    "lineHeight": "32.3px",
+    "textAlign": "start",
+    "textIndent": "0px",
+    "x": 16,
+    "y": 381,
+    "w": 608,
+    "h": 2121.422
+   },
+   "articleHeader": {
+    "maxWidth": "100%",
+    "paddingBottom": "20px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 16,
+    "y": 214,
+    "w": 608,
+    "h": 143
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 16,
+    "y": 214,
+    "w": 608,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 16,
+    "y": 313.5,
+    "w": 608,
+    "h": 22.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 16,
+     "y": 381,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 458.344,
+     "w": 608,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 600.281,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 677.625,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 754.969,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 864.609,
+     "w": 608,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 1006.547,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 1116.188,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 1225.828,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 1335.469,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1412.813,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 1522.453,
+     "w": 608,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 1567.5,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 1677.141,
+     "w": 608,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 1722.188,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1799.531,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1876.875,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1954.219,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 2063.859,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 2141.203,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 2218.547,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 2328.188,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 2437.828,
+     "w": 608,
+     "h": 64.594
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 2550,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-feature.html",
+  "viewport": 768,
+  "frameClientWidth": 768,
+  "frameScrollWidth": 768,
+  "overflowX": 0,
+  "innerWidth": 768,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 223.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 736,
+    "h": 2045.453
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 252.5,
+    "w": 736,
+    "h": 45
+   },
+   "articleBody": {
+    "maxWidth": "100%",
+    "fontSize": "17px",
+    "lineHeight": "32.3px",
+    "textAlign": "start",
+    "textIndent": "0px",
+    "x": 16,
+    "y": 381,
+    "w": 736,
+    "h": 1798.453
+   },
+   "articleHeader": {
+    "maxWidth": "100%",
+    "paddingBottom": "20px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 16,
+    "y": 214,
+    "w": 736,
+    "h": 143
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 16,
+    "y": 214,
+    "w": 736,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 16,
+    "y": 313.5,
+    "w": 736,
+    "h": 22.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 16,
+     "y": 381,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 458.344,
+     "w": 736,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 567.984,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 613.031,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 690.375,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 767.719,
+     "w": 736,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 877.359,
+     "w": 736,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 987,
+     "w": 736,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 1096.641,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1173.984,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1251.328,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1328.672,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 1373.719,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1451.063,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 1496.109,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1573.453,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 1618.5,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1695.844,
+     "w": 736,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 1805.484,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1882.828,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1960.172,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 2037.516,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 2114.859,
+     "w": 736,
+     "h": 64.594
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 2227,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-feature.html",
+  "viewport": 769,
+  "frameClientWidth": 769,
+  "frameScrollWidth": 769,
+  "overflowX": 0,
+  "innerWidth": 769,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 193.781,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 203.531,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 387.219,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 705,
+    "h": 2420.938
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 32,
+    "y": 289.5,
+    "w": 705,
+    "h": 50
+   },
+   "articleBody": {
+    "maxWidth": "736px",
+    "fontSize": "18px",
+    "lineHeight": "34.2px",
+    "textAlign": "justify",
+    "textIndent": "0px",
+    "x": 32,
+    "y": 435,
+    "w": 705,
+    "h": 2108.938
+   },
+   "articleHeader": {
+    "maxWidth": "832px",
+    "paddingBottom": "24px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 32,
+    "y": 251,
+    "w": 705,
+    "h": 152
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 32,
+    "y": 251,
+    "w": 705,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 32,
+    "y": 355.5,
+    "w": 705,
+    "h": 22.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 32,
+     "y": 435,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 516.875,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 632.938,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "x": 32,
+     "y": 680.625,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 762.5,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 878.563,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 994.625,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 1110.688,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 1226.75,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 1342.813,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 1424.688,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 1540.75,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "x": 32,
+     "y": 1588.438,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 1704.5,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "x": 32,
+     "y": 1752.188,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 1834.063,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "x": 32,
+     "y": 1881.75,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 1963.625,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 2079.688,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 2161.563,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 2243.438,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 2359.5,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 2475.563,
+     "w": 705,
+     "h": 68.375
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 2624,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-feature.html",
+  "viewport": 1024,
+  "frameClientWidth": 1024,
+  "frameScrollWidth": 1024,
+  "overflowX": 0,
+  "innerWidth": 1024,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 321.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 331.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 514.719,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 960,
+    "h": 2352.563
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 96,
+    "y": 289.5,
+    "w": 832,
+    "h": 50
+   },
+   "articleBody": {
+    "maxWidth": "736px",
+    "fontSize": "18px",
+    "lineHeight": "34.2px",
+    "textAlign": "justify",
+    "textIndent": "0px",
+    "x": 144,
+    "y": 435,
+    "w": 736,
+    "h": 2040.563
+   },
+   "articleHeader": {
+    "maxWidth": "832px",
+    "paddingBottom": "24px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 96,
+    "y": 251,
+    "w": 832,
+    "h": 152
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 96,
+    "y": 251,
+    "w": 832,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 96,
+    "y": 355.5,
+    "w": 832,
+    "h": 22.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 144,
+     "y": 435,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 516.875,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 632.938,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 144,
+     "y": 680.625,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 762.5,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 878.563,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 994.625,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 1110.688,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 1226.75,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 1308.625,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 1390.5,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 1506.563,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 144,
+     "y": 1554.25,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 1670.313,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 144,
+     "y": 1718,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 1799.875,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 144,
+     "y": 1847.563,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 1929.438,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 2045.5,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 2127.375,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 2209.25,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 2291.125,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 2407.188,
+     "w": 736,
+     "h": 68.375
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 2556,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-feature.html",
+  "viewport": 1280,
+  "frameClientWidth": 1280,
+  "frameScrollWidth": 1280,
+  "overflowX": 0,
+  "innerWidth": 1280,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 449.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 459.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 642.719,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 80,
+    "y": 203,
+    "w": 1120,
+    "h": 2352.563
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 224,
+    "y": 289.5,
+    "w": 832,
+    "h": 50
+   },
+   "articleBody": {
+    "maxWidth": "736px",
+    "fontSize": "18px",
+    "lineHeight": "34.2px",
+    "textAlign": "justify",
+    "textIndent": "0px",
+    "x": 272,
+    "y": 435,
+    "w": 736,
+    "h": 2040.563
+   },
+   "articleHeader": {
+    "maxWidth": "832px",
+    "paddingBottom": "24px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 224,
+    "y": 251,
+    "w": 832,
+    "h": 152
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 224,
+    "y": 251,
+    "w": 832,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 224,
+    "y": 355.5,
+    "w": 832,
+    "h": 22.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 272,
+     "y": 435,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 516.875,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 632.938,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 272,
+     "y": 680.625,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 762.5,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 878.563,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 994.625,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 1110.688,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 1226.75,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 1308.625,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 1390.5,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 1506.563,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 272,
+     "y": 1554.25,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 1670.313,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 272,
+     "y": 1718,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 1799.875,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 272,
+     "y": 1847.563,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 1929.438,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 2045.5,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 2127.375,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 2209.25,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 2291.125,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 2407.188,
+     "w": 736,
+     "h": 68.375
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 2556,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-commentary.html",
+  "viewport": 375,
+  "frameClientWidth": 375,
+  "frameScrollWidth": 375,
+  "overflowX": 0,
+  "innerWidth": 375,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "41.25px",
+    "lineHeight": "51.5625px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "4.95px",
+    "x": 69.531,
+    "y": 35,
+    "w": 235.938,
+    "h": 51.563
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 163.563,
+    "w": 343,
+    "h": 4360.344
+   },
+   "pageTitle": {
+    "fontSize": "28px",
+    "lineHeight": "35px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 234.063,
+    "w": 343,
+    "h": 70
+   },
+   "articleBody": {
+    "maxWidth": "100%",
+    "fontSize": "17px",
+    "lineHeight": "32.3px",
+    "textAlign": "start",
+    "textIndent": "0px",
+    "x": 16,
+    "y": 387.563,
+    "w": 343,
+    "h": 4038.844
+   },
+   "articleHeader": {
+    "maxWidth": "100%",
+    "paddingBottom": "20px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 16,
+    "y": 195.563,
+    "w": 343,
+    "h": 168
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 16,
+    "y": 195.563,
+    "w": 343,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 16,
+    "y": 320.063,
+    "w": 343,
+    "h": 22.5
+   },
+   "articleDate": {
+    "fontSize": "17px",
+    "color": "rgb(33, 31, 28)",
+    "textAlign": "right",
+    "x": 16,
+    "y": 4450.406,
+    "w": 343,
+    "h": 25.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 16,
+     "y": 387.563,
+     "w": 343,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 529.5,
+     "w": 343,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 639.141,
+     "w": 343,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 684.188,
+     "w": 343,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 826.125,
+     "w": 343,
+     "h": 226.078
+    },
+    {
+     "x": 16,
+     "y": 1064.953,
+     "w": 343,
+     "h": 193.781
+    },
+    {
+     "x": 16,
+     "y": 1271.484,
+     "w": 343,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 1381.125,
+     "w": 343,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 1523.063,
+     "w": 343,
+     "h": 161.484
+    },
+    {
+     "x": 16,
+     "y": 1697.297,
+     "w": 343,
+     "h": 193.781
+    },
+    {
+     "x": 16,
+     "y": 1903.828,
+     "w": 343,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1981.172,
+     "w": 343,
+     "h": 290.672
+    },
+    {
+     "x": 16,
+     "y": 2284.594,
+     "w": 343,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 2329.641,
+     "w": 343,
+     "h": 161.484
+    },
+    {
+     "x": 16,
+     "y": 2503.875,
+     "w": 343,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 2645.813,
+     "w": 343,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 2787.75,
+     "w": 343,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 2832.797,
+     "w": 343,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 2974.734,
+     "w": 343,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 3052.078,
+     "w": 343,
+     "h": 226.078
+    },
+    {
+     "x": 16,
+     "y": 3290.906,
+     "w": 343,
+     "h": 193.781
+    },
+    {
+     "x": 16,
+     "y": 3497.438,
+     "w": 343,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 3542.484,
+     "w": 343,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 3684.422,
+     "w": 343,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 3761.766,
+     "w": 343,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 3839.109,
+     "w": 343,
+     "h": 290.672
+    },
+    {
+     "x": 16,
+     "y": 4142.531,
+     "w": 343,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 4219.875,
+     "w": 343,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 4361.813,
+     "w": 343,
+     "h": 64.594
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 4524,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-commentary.html",
+  "viewport": 640,
+  "frameClientWidth": 640,
+  "frameScrollWidth": 640,
+  "overflowX": 0,
+  "innerWidth": 640,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 159.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 608,
+    "h": 2946.578
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 252.5,
+    "w": 608,
+    "h": 45
+   },
+   "articleBody": {
+    "maxWidth": "100%",
+    "fontSize": "17px",
+    "lineHeight": "32.3px",
+    "textAlign": "start",
+    "textIndent": "0px",
+    "x": 16,
+    "y": 381,
+    "w": 608,
+    "h": 2650.078
+   },
+   "articleHeader": {
+    "maxWidth": "100%",
+    "paddingBottom": "20px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 16,
+    "y": 214,
+    "w": 608,
+    "h": 143
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 16,
+    "y": 214,
+    "w": 608,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 16,
+    "y": 313.5,
+    "w": 608,
+    "h": 22.5
+   },
+   "articleDate": {
+    "fontSize": "17px",
+    "color": "rgb(33, 31, 28)",
+    "textAlign": "right",
+    "x": 16,
+    "y": 3055.078,
+    "w": 608,
+    "h": 25.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 16,
+     "y": 381,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 490.641,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 567.984,
+     "w": 608,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 613.031,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 690.375,
+     "w": 608,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 832.313,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 941.953,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1019.297,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1096.641,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 1206.281,
+     "w": 608,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 1348.219,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1425.563,
+     "w": 608,
+     "h": 161.484
+    },
+    {
+     "x": 16,
+     "y": 1599.797,
+     "w": 608,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 1644.844,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 1754.484,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1831.828,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 1941.469,
+     "w": 608,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 1986.516,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 2063.859,
+     "w": 608,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 2108.906,
+     "w": 608,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 2250.844,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 2360.484,
+     "w": 608,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 2405.531,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 2482.875,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 2560.219,
+     "w": 608,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 2605.266,
+     "w": 608,
+     "h": 161.484
+    },
+    {
+     "x": 16,
+     "y": 2779.5,
+     "w": 608,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 2856.844,
+     "w": 608,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 2966.484,
+     "w": 608,
+     "h": 64.594
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 3129,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-commentary.html",
+  "viewport": 768,
+  "frameClientWidth": 768,
+  "frameScrollWidth": 768,
+  "overflowX": 0,
+  "innerWidth": 768,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "56px",
+    "lineHeight": "70px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "6.72px",
+    "x": 223.828,
+    "y": 35,
+    "w": 320.328,
+    "h": 70
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "32px",
+    "paddingBottom": "48px",
+    "fontSize": "16px",
+    "x": 16,
+    "y": 182,
+    "w": 736,
+    "h": 2591.313
+   },
+   "pageTitle": {
+    "fontSize": "36px",
+    "lineHeight": "45px",
+    "maxWidth": "832px",
+    "x": 16,
+    "y": 252.5,
+    "w": 736,
+    "h": 45
+   },
+   "articleBody": {
+    "maxWidth": "100%",
+    "fontSize": "17px",
+    "lineHeight": "32.3px",
+    "textAlign": "start",
+    "textIndent": "0px",
+    "x": 16,
+    "y": 381,
+    "w": 736,
+    "h": 2294.813
+   },
+   "articleHeader": {
+    "maxWidth": "100%",
+    "paddingBottom": "20px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 16,
+    "y": 214,
+    "w": 736,
+    "h": 143
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 16,
+    "y": 214,
+    "w": 736,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 16,
+    "y": 313.5,
+    "w": 736,
+    "h": 22.5
+   },
+   "articleDate": {
+    "fontSize": "17px",
+    "color": "rgb(33, 31, 28)",
+    "textAlign": "right",
+    "x": 16,
+    "y": 2699.813,
+    "w": 736,
+    "h": 25.5
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 16,
+     "y": 381,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 458.344,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 535.688,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 580.734,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 658.078,
+     "w": 736,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 800.016,
+     "w": 736,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 909.656,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 987,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1064.344,
+     "w": 736,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 1173.984,
+     "w": 736,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 1283.625,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 1328.672,
+     "w": 736,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 1470.609,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 1515.656,
+     "w": 736,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 1625.297,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1702.641,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1779.984,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 1825.031,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 1902.375,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 1947.422,
+     "w": 736,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 2057.063,
+     "w": 736,
+     "h": 96.891
+    },
+    {
+     "x": 16,
+     "y": 2166.703,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 2211.75,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 2289.094,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 2334.141,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 2379.188,
+     "w": 736,
+     "h": 129.188
+    },
+    {
+     "x": 16,
+     "y": 2521.125,
+     "w": 736,
+     "h": 32.297
+    },
+    {
+     "x": 16,
+     "y": 2566.172,
+     "w": 736,
+     "h": 64.594
+    },
+    {
+     "x": 16,
+     "y": 2643.516,
+     "w": 736,
+     "h": 32.297
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 2773,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-commentary.html",
+  "viewport": 769,
+  "frameClientWidth": 769,
+  "frameScrollWidth": 769,
+  "overflowX": 0,
+  "innerWidth": 769,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 193.781,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 203.531,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 496.344,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 705,
+    "h": 2929
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 32,
+    "y": 289.5,
+    "w": 705,
+    "h": 50
+   },
+   "articleBody": {
+    "maxWidth": "736px",
+    "fontSize": "18px",
+    "lineHeight": "34.2px",
+    "textAlign": "justify",
+    "textIndent": "0px",
+    "x": 32,
+    "y": 435,
+    "w": 705,
+    "h": 2566
+   },
+   "articleHeader": {
+    "maxWidth": "832px",
+    "paddingBottom": "24px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 32,
+    "y": 251,
+    "w": 705,
+    "h": 152
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 32,
+    "y": 251,
+    "w": 705,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 32,
+    "y": 355.5,
+    "w": 705,
+    "h": 22.5
+   },
+   "articleDate": {
+    "fontSize": "18px",
+    "color": "rgb(33, 31, 28)",
+    "textAlign": "right",
+    "x": 32,
+    "y": 3025,
+    "w": 705,
+    "h": 27
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 32,
+     "y": 435,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 516.875,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 598.75,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "x": 32,
+     "y": 646.438,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 728.313,
+     "w": 705,
+     "h": 136.75
+    },
+    {
+     "x": 32,
+     "y": 878.563,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 994.625,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 1076.5,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 1158.375,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 1274.438,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 1390.5,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "x": 32,
+     "y": 1438.188,
+     "w": 705,
+     "h": 170.938
+    },
+    {
+     "x": 32,
+     "y": 1622.625,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "x": 32,
+     "y": 1670.313,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 1786.375,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 1868.25,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 1950.125,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "x": 32,
+     "y": 1997.813,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 2079.688,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "x": 32,
+     "y": 2127.375,
+     "w": 705,
+     "h": 136.75
+    },
+    {
+     "x": 32,
+     "y": 2277.625,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 2393.688,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "x": 32,
+     "y": 2441.375,
+     "w": 705,
+     "h": 68.375
+    },
+    {
+     "x": 32,
+     "y": 2523.25,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "x": 32,
+     "y": 2570.938,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "x": 32,
+     "y": 2618.625,
+     "w": 705,
+     "h": 170.938
+    },
+    {
+     "x": 32,
+     "y": 2803.063,
+     "w": 705,
+     "h": 34.188
+    },
+    {
+     "x": 32,
+     "y": 2850.75,
+     "w": 705,
+     "h": 102.563
+    },
+    {
+     "x": 32,
+     "y": 2966.813,
+     "w": 705,
+     "h": 34.188
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 3132,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-commentary.html",
+  "viewport": 1024,
+  "frameClientWidth": 1024,
+  "frameScrollWidth": 1024,
+  "overflowX": 0,
+  "innerWidth": 1024,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 321.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 331.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 623.844,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 32,
+    "y": 203,
+    "w": 960,
+    "h": 2860.625
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 96,
+    "y": 289.5,
+    "w": 832,
+    "h": 50
+   },
+   "articleBody": {
+    "maxWidth": "736px",
+    "fontSize": "18px",
+    "lineHeight": "34.2px",
+    "textAlign": "justify",
+    "textIndent": "0px",
+    "x": 144,
+    "y": 435,
+    "w": 736,
+    "h": 2497.625
+   },
+   "articleHeader": {
+    "maxWidth": "832px",
+    "paddingBottom": "24px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 96,
+    "y": 251,
+    "w": 832,
+    "h": 152
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 96,
+    "y": 251,
+    "w": 832,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 96,
+    "y": 355.5,
+    "w": 832,
+    "h": 22.5
+   },
+   "articleDate": {
+    "fontSize": "18px",
+    "color": "rgb(33, 31, 28)",
+    "textAlign": "right",
+    "x": 144,
+    "y": 2956.625,
+    "w": 736,
+    "h": 27
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 144,
+     "y": 435,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 516.875,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 598.75,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 144,
+     "y": 646.438,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 728.313,
+     "w": 736,
+     "h": 136.75
+    },
+    {
+     "x": 144,
+     "y": 878.563,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 994.625,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 1076.5,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 1158.375,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 1274.438,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 1390.5,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 144,
+     "y": 1438.188,
+     "w": 736,
+     "h": 170.938
+    },
+    {
+     "x": 144,
+     "y": 1622.625,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 144,
+     "y": 1670.313,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 1786.375,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 1868.25,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 1950.125,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 144,
+     "y": 1997.813,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 2079.688,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 144,
+     "y": 2127.375,
+     "w": 736,
+     "h": 136.75
+    },
+    {
+     "x": 144,
+     "y": 2277.625,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 144,
+     "y": 2393.688,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 144,
+     "y": 2441.375,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 2523.25,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 144,
+     "y": 2570.938,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 144,
+     "y": 2618.625,
+     "w": 736,
+     "h": 136.75
+    },
+    {
+     "x": 144,
+     "y": 2768.875,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 144,
+     "y": 2816.563,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 144,
+     "y": 2898.438,
+     "w": 736,
+     "h": 34.188
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 3064,
+   "markerText": null
+  }
+ },
+ {
+  "page": "../_qa_task15/before/news-commentary.html",
+  "viewport": 1280,
+  "frameClientWidth": 1280,
+  "frameScrollWidth": 1280,
+  "overflowX": 0,
+  "innerWidth": 1280,
+  "links": [],
+  "titles": [],
+  "dates": [],
+  "shell": {
+   "masthead": {
+    "fontSize": "64px",
+    "lineHeight": "80px",
+    "color": "rgb(33, 31, 28)",
+    "letterSpacing": "10.24px",
+    "x": 449.281,
+    "y": 47,
+    "w": 381.438,
+    "h": 80
+   },
+   "navLink": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(33, 31, 28)",
+    "borderBottom": "2px solid rgba(0, 0, 0, 0)",
+    "x": 459.031,
+    "y": 150,
+    "w": 34.563,
+    "h": 52
+   },
+   "navCurrent": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "color": "rgb(122, 36, 36)",
+    "borderBottom": "2px solid rgb(122, 36, 36)",
+    "x": 751.844,
+    "y": 150,
+    "w": 69.125,
+    "h": 52
+   },
+   "main": {
+    "maxWidth": "1120px",
+    "paddingTop": "48px",
+    "paddingBottom": "80px",
+    "fontSize": "16px",
+    "x": 80,
+    "y": 203,
+    "w": 1120,
+    "h": 2860.625
+   },
+   "pageTitle": {
+    "fontSize": "40px",
+    "lineHeight": "50px",
+    "maxWidth": "832px",
+    "x": 224,
+    "y": 289.5,
+    "w": 832,
+    "h": 50
+   },
+   "articleBody": {
+    "maxWidth": "736px",
+    "fontSize": "18px",
+    "lineHeight": "34.2px",
+    "textAlign": "justify",
+    "textIndent": "0px",
+    "x": 272,
+    "y": 435,
+    "w": 736,
+    "h": 2497.625
+   },
+   "articleHeader": {
+    "maxWidth": "832px",
+    "paddingBottom": "24px",
+    "borderBottom": "1px solid rgb(184, 170, 152)",
+    "x": 224,
+    "y": 251,
+    "w": 832,
+    "h": 152
+   },
+   "articleType": {
+    "fontSize": "15px",
+    "color": "rgb(122, 36, 36)",
+    "letterSpacing": "2.7px",
+    "x": 224,
+    "y": 251,
+    "w": 832,
+    "h": 22.5
+   },
+   "articleByline": {
+    "fontSize": "15px",
+    "color": "rgb(102, 93, 86)",
+    "x": 224,
+    "y": 355.5,
+    "w": 832,
+    "h": 22.5
+   },
+   "articleDate": {
+    "fontSize": "18px",
+    "color": "rgb(33, 31, 28)",
+    "textAlign": "right",
+    "x": 272,
+    "y": 2956.625,
+    "w": 736,
+    "h": 27
+   },
+   "homeSectionTexts": [],
+   "homeSectionTitles": [],
+   "homeSections": [],
+   "articleParagraphs": [
+    {
+     "x": 272,
+     "y": 435,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 516.875,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 598.75,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 272,
+     "y": 646.438,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 728.313,
+     "w": 736,
+     "h": 136.75
+    },
+    {
+     "x": 272,
+     "y": 878.563,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 994.625,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 1076.5,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 1158.375,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 1274.438,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 1390.5,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 272,
+     "y": 1438.188,
+     "w": 736,
+     "h": 170.938
+    },
+    {
+     "x": 272,
+     "y": 1622.625,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 272,
+     "y": 1670.313,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 1786.375,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 1868.25,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 1950.125,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 272,
+     "y": 1997.813,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 2079.688,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 272,
+     "y": 2127.375,
+     "w": 736,
+     "h": 136.75
+    },
+    {
+     "x": 272,
+     "y": 2277.625,
+     "w": 736,
+     "h": 102.563
+    },
+    {
+     "x": 272,
+     "y": 2393.688,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 272,
+     "y": 2441.375,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 2523.25,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 272,
+     "y": 2570.938,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 272,
+     "y": 2618.625,
+     "w": 736,
+     "h": 136.75
+    },
+    {
+     "x": 272,
+     "y": 2768.875,
+     "w": 736,
+     "h": 34.188
+    },
+    {
+     "x": 272,
+     "y": 2816.563,
+     "w": 736,
+     "h": 68.375
+    },
+    {
+     "x": 272,
+     "y": 2898.438,
+     "w": 736,
+     "h": 34.188
+    }
+   ],
+   "skipLink": {
+    "color": "rgb(33, 31, 28)",
+    "position": "fixed",
+    "x": 0,
+    "y": -78,
+    "w": 100,
+    "h": 52
+   }
+  },
+  "extras": {
+   "docHeight": 3064,
+   "markerText": null
+  }
+ }
+]

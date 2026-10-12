@@ -1,0 +1,229 @@
+[RZ0] [REC] - — - — 验收环境 — Chrome/154.0.8037.93 · headless=new · file:// 直开 · profile=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\.cdp9381-1791034281677 · 被测目录=C:\Users\weibo\Documents\语文报纸\Results · 段=nav
+[RZ1] [PASS] - — - — 19.1 遍历清单条数 == manifest.counts.html（HTML 子集，非目录扫描所得） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 styles.css／script.js 不是页（不进遍历清单） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 遍历顺序按 path 字典序 — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [REC] - — - — 本轮实跑页集合（QODER_ONLY 只影响实跑范围，不改变清单结论） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ2] [PASS] - — - — 前置闸门：Task 18 结论 FAIL 0 且 PENDING 0（未全绿则本包不开跑） — 匹配=true
+[RZ2] [PASS] - — - — 前置闸门：Task 18 变异捕获率 100% — 100
+[RZ2] [PASS] - — - — 前置闸门：Task 18 断言数 ≥340 — 1395
+[RZ2] [PASS] - — - — 前置闸门：expected_reversals.md 已读入本包前置（区分真回归与范围过期的唯一依据） — true
+[RZ3] [PASS] - — - — 19.1 Task18 facts.json 的 __meta 与目录绑定：页集合与本包遍历清单同源（复用 M1 结论，不重造） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ3] [PASS] - — - — 19.1 快照未过期：__meta 逐页哈希 == 当前 Results/ 逐页哈希 — 0 页失配
+[RZ4] [PASS] - — - — 19.1 首页哈希 == 清单登记值（合同基线表里的 2629 字节 971e57a5… 是 v1 六文件值，当前以 manifest 为准，Task18 §8.3 已登记） — 14b82801fc5c1a96…/3631B
+[RZ4] [PASS] - — - — 19.1 Results/ 文件数 == 清单 pages 数（交付文件 6+N=12） — 12
+[RZ5] [PASS] - — - — 19.1 输入前置：五处目录齐备 — 全部存在
+[RZ5] [PASS] - — - — 19.1 输入前置：清单／打包件／上传单／Task18 事实／Task13 基线／v1 母本齐备 — 全部存在
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 主导航路径 article-along-the-north-small-river.html → index.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=index.html
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 落地页 <title> 与矩阵期望一致 — 《自然选择号》报社简介｜自然选择号
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 第 1 项文字与 Task0 主导航规格逐字一致 — 首页
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 第 1 项目标文件与 Task0 主导航规格一致 — index.html
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 主导航路径 article-along-the-north-small-river.html → news-message.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-message.html
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻消息｜自然选择号
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 第 2 项文字与 Task0 主导航规格逐字一致 — 新闻消息
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 第 2 项目标文件与 Task0 主导航规格一致 — news-message.html
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 主导航路径 article-along-the-north-small-river.html → news-feature.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-feature.html
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻通讯｜自然选择号
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 第 3 项文字与 Task0 主导航规格逐字一致 — 新闻通讯
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 第 3 项目标文件与 Task0 主导航规格一致 — news-feature.html
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 主导航路径 article-along-the-north-small-river.html → news-commentary.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-commentary.html
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻评论｜自然选择号
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 第 4 项文字与 Task0 主导航规格逐字一致 — 新闻评论
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 第 4 项目标文件与 Task0 主导航规格一致 — news-commentary.html
+[RA7] [PASS] article-along-the-north-small-river.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 主导航路径 article-classroom-screen-upgrade.html → index.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=index.html
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 落地页 <title> 与矩阵期望一致 — 《自然选择号》报社简介｜自然选择号
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 1 项文字与 Task0 主导航规格逐字一致 — 首页
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 1 项目标文件与 Task0 主导航规格一致 — index.html
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 主导航路径 article-classroom-screen-upgrade.html → news-message.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-message.html
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻消息｜自然选择号
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 2 项文字与 Task0 主导航规格逐字一致 — 新闻消息
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 2 项目标文件与 Task0 主导航规格一致 — news-message.html
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 主导航路径 article-classroom-screen-upgrade.html → news-feature.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-feature.html
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻通讯｜自然选择号
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 3 项文字与 Task0 主导航规格逐字一致 — 新闻通讯
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 3 项目标文件与 Task0 主导航规格一致 — news-feature.html
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 主导航路径 article-classroom-screen-upgrade.html → news-commentary.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-commentary.html
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻评论｜自然选择号
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 4 项文字与 Task0 主导航规格逐字一致 — 新闻评论
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 第 4 项目标文件与 Task0 主导航规格一致 — news-commentary.html
+[RA7] [PASS] article-classroom-screen-upgrade.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 主导航路径 article-math-to-ai-learning.html → index.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=index.html
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 落地页 <title> 与矩阵期望一致 — 《自然选择号》报社简介｜自然选择号
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 第 1 项文字与 Task0 主导航规格逐字一致 — 首页
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 第 1 项目标文件与 Task0 主导航规格一致 — index.html
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 主导航路径 article-math-to-ai-learning.html → news-message.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-message.html
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻消息｜自然选择号
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 第 2 项文字与 Task0 主导航规格逐字一致 — 新闻消息
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 第 2 项目标文件与 Task0 主导航规格一致 — news-message.html
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 主导航路径 article-math-to-ai-learning.html → news-feature.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-feature.html
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻通讯｜自然选择号
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 第 3 项文字与 Task0 主导航规格逐字一致 — 新闻通讯
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 第 3 项目标文件与 Task0 主导航规格一致 — news-feature.html
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 主导航路径 article-math-to-ai-learning.html → news-commentary.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-commentary.html
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻评论｜自然选择号
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 第 4 项文字与 Task0 主导航规格逐字一致 — 新闻评论
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 第 4 项目标文件与 Task0 主导航规格一致 — news-commentary.html
+[RA7] [PASS] article-math-to-ai-learning.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 主导航路径 article-north-of-dam-river.html → index.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=index.html
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 落地页 <title> 与矩阵期望一致 — 《自然选择号》报社简介｜自然选择号
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 第 1 项文字与 Task0 主导航规格逐字一致 — 首页
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 第 1 项目标文件与 Task0 主导航规格一致 — index.html
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 主导航路径 article-north-of-dam-river.html → news-message.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-message.html
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻消息｜自然选择号
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 第 2 项文字与 Task0 主导航规格逐字一致 — 新闻消息
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 第 2 项目标文件与 Task0 主导航规格一致 — news-message.html
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 主导航路径 article-north-of-dam-river.html → news-feature.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-feature.html
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻通讯｜自然选择号
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 第 3 项文字与 Task0 主导航规格逐字一致 — 新闻通讯
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 第 3 项目标文件与 Task0 主导航规格一致 — news-feature.html
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 主导航路径 article-north-of-dam-river.html → news-commentary.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-commentary.html
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻评论｜自然选择号
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 第 4 项文字与 Task0 主导航规格逐字一致 — 新闻评论
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 第 4 项目标文件与 Task0 主导航规格一致 — news-commentary.html
+[RA7] [PASS] article-north-of-dam-river.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 主导航路径 article-school-course-selection-results.html → index.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=index.html
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 落地页 <title> 与矩阵期望一致 — 《自然选择号》报社简介｜自然选择号
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 第 1 项文字与 Task0 主导航规格逐字一致 — 首页
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 第 1 项目标文件与 Task0 主导航规格一致 — index.html
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 主导航路径 article-school-course-selection-results.html → news-message.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-message.html
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻消息｜自然选择号
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 第 2 项文字与 Task0 主导航规格逐字一致 — 新闻消息
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 第 2 项目标文件与 Task0 主导航规格一致 — news-message.html
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 主导航路径 article-school-course-selection-results.html → news-feature.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-feature.html
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻通讯｜自然选择号
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 第 3 项文字与 Task0 主导航规格逐字一致 — 新闻通讯
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 第 3 项目标文件与 Task0 主导航规格一致 — news-feature.html
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 主导航路径 article-school-course-selection-results.html → news-commentary.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-commentary.html
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻评论｜自然选择号
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 第 4 项文字与 Task0 主导航规格逐字一致 — 新闻评论
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 第 4 项目标文件与 Task0 主导航规格一致 — news-commentary.html
+[RA7] [PASS] article-school-course-selection-results.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 主导航路径 article-school-course-volunteer.html → index.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=index.html
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 落地页 <title> 与矩阵期望一致 — 《自然选择号》报社简介｜自然选择号
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 第 1 项文字与 Task0 主导航规格逐字一致 — 首页
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 第 1 项目标文件与 Task0 主导航规格一致 — index.html
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 主导航路径 article-school-course-volunteer.html → news-message.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-message.html
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻消息｜自然选择号
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 第 2 项文字与 Task0 主导航规格逐字一致 — 新闻消息
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 第 2 项目标文件与 Task0 主导航规格一致 — news-message.html
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 主导航路径 article-school-course-volunteer.html → news-feature.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-feature.html
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻通讯｜自然选择号
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 第 3 项文字与 Task0 主导航规格逐字一致 — 新闻通讯
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 第 3 项目标文件与 Task0 主导航规格一致 — news-feature.html
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 主导航路径 article-school-course-volunteer.html → news-commentary.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-commentary.html
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻评论｜自然选择号
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 第 4 项文字与 Task0 主导航规格逐字一致 — 新闻评论
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 第 4 项目标文件与 Task0 主导航规格一致 — news-commentary.html
+[RA7] [PASS] article-school-course-volunteer.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] index.html — 1280px — 主导航路径 index.html → index.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=index.html
+[RA7] [PASS] index.html — 1280px — 落地页 <title> 与矩阵期望一致 — 《自然选择号》报社简介｜自然选择号
+[RA7] [PASS] index.html — 1280px — 第 1 项文字与 Task0 主导航规格逐字一致 — 首页
+[RA7] [PASS] index.html — 1280px — 第 1 项目标文件与 Task0 主导航规格一致 — index.html
+[RA7] [PASS] index.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] index.html — 1280px — 主导航路径 index.html → news-message.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-message.html
+[RA7] [PASS] index.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻消息｜自然选择号
+[RA7] [PASS] index.html — 1280px — 第 2 项文字与 Task0 主导航规格逐字一致 — 新闻消息
+[RA7] [PASS] index.html — 1280px — 第 2 项目标文件与 Task0 主导航规格一致 — news-message.html
+[RA7] [PASS] index.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] index.html — 1280px — 主导航路径 index.html → news-feature.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-feature.html
+[RA7] [PASS] index.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻通讯｜自然选择号
+[RA7] [PASS] index.html — 1280px — 第 3 项文字与 Task0 主导航规格逐字一致 — 新闻通讯
+[RA7] [PASS] index.html — 1280px — 第 3 项目标文件与 Task0 主导航规格一致 — news-feature.html
+[RA7] [PASS] index.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] index.html — 1280px — 主导航路径 index.html → news-commentary.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-commentary.html
+[RA7] [PASS] index.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻评论｜自然选择号
+[RA7] [PASS] index.html — 1280px — 第 4 项文字与 Task0 主导航规格逐字一致 — 新闻评论
+[RA7] [PASS] index.html — 1280px — 第 4 项目标文件与 Task0 主导航规格一致 — news-commentary.html
+[RA7] [PASS] index.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-commentary.html — 1280px — 主导航路径 news-commentary.html → index.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=index.html
+[RA7] [PASS] news-commentary.html — 1280px — 落地页 <title> 与矩阵期望一致 — 《自然选择号》报社简介｜自然选择号
+[RA7] [PASS] news-commentary.html — 1280px — 第 1 项文字与 Task0 主导航规格逐字一致 — 首页
+[RA7] [PASS] news-commentary.html — 1280px — 第 1 项目标文件与 Task0 主导航规格一致 — index.html
+[RA7] [PASS] news-commentary.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-commentary.html — 1280px — 主导航路径 news-commentary.html → news-message.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-message.html
+[RA7] [PASS] news-commentary.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻消息｜自然选择号
+[RA7] [PASS] news-commentary.html — 1280px — 第 2 项文字与 Task0 主导航规格逐字一致 — 新闻消息
+[RA7] [PASS] news-commentary.html — 1280px — 第 2 项目标文件与 Task0 主导航规格一致 — news-message.html
+[RA7] [PASS] news-commentary.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-commentary.html — 1280px — 主导航路径 news-commentary.html → news-feature.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-feature.html
+[RA7] [PASS] news-commentary.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻通讯｜自然选择号
+[RA7] [PASS] news-commentary.html — 1280px — 第 3 项文字与 Task0 主导航规格逐字一致 — 新闻通讯
+[RA7] [PASS] news-commentary.html — 1280px — 第 3 项目标文件与 Task0 主导航规格一致 — news-feature.html
+[RA7] [PASS] news-commentary.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-commentary.html — 1280px — 主导航路径 news-commentary.html → news-commentary.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-commentary.html
+[RA7] [PASS] news-commentary.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻评论｜自然选择号
+[RA7] [PASS] news-commentary.html — 1280px — 第 4 项文字与 Task0 主导航规格逐字一致 — 新闻评论
+[RA7] [PASS] news-commentary.html — 1280px — 第 4 项目标文件与 Task0 主导航规格一致 — news-commentary.html
+[RA7] [PASS] news-commentary.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-feature.html — 1280px — 主导航路径 news-feature.html → index.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=index.html
+[RA7] [PASS] news-feature.html — 1280px — 落地页 <title> 与矩阵期望一致 — 《自然选择号》报社简介｜自然选择号
+[RA7] [PASS] news-feature.html — 1280px — 第 1 项文字与 Task0 主导航规格逐字一致 — 首页
+[RA7] [PASS] news-feature.html — 1280px — 第 1 项目标文件与 Task0 主导航规格一致 — index.html
+[RA7] [PASS] news-feature.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-feature.html — 1280px — 主导航路径 news-feature.html → news-message.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-message.html
+[RA7] [PASS] news-feature.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻消息｜自然选择号
+[RA7] [PASS] news-feature.html — 1280px — 第 2 项文字与 Task0 主导航规格逐字一致 — 新闻消息
+[RA7] [PASS] news-feature.html — 1280px — 第 2 项目标文件与 Task0 主导航规格一致 — news-message.html
+[RA7] [PASS] news-feature.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-feature.html — 1280px — 主导航路径 news-feature.html → news-feature.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-feature.html
+[RA7] [PASS] news-feature.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻通讯｜自然选择号
+[RA7] [PASS] news-feature.html — 1280px — 第 3 项文字与 Task0 主导航规格逐字一致 — 新闻通讯
+[RA7] [PASS] news-feature.html — 1280px — 第 3 项目标文件与 Task0 主导航规格一致 — news-feature.html
+[RA7] [PASS] news-feature.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-feature.html — 1280px — 主导航路径 news-feature.html → news-commentary.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-commentary.html
+[RA7] [PASS] news-feature.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻评论｜自然选择号
+[RA7] [PASS] news-feature.html — 1280px — 第 4 项文字与 Task0 主导航规格逐字一致 — 新闻评论
+[RA7] [PASS] news-feature.html — 1280px — 第 4 项目标文件与 Task0 主导航规格一致 — news-commentary.html
+[RA7] [PASS] news-feature.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-message.html — 1280px — 主导航路径 news-message.html → index.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=index.html
+[RA7] [PASS] news-message.html — 1280px — 落地页 <title> 与矩阵期望一致 — 《自然选择号》报社简介｜自然选择号
+[RA7] [PASS] news-message.html — 1280px — 第 1 项文字与 Task0 主导航规格逐字一致 — 首页
+[RA7] [PASS] news-message.html — 1280px — 第 1 项目标文件与 Task0 主导航规格一致 — index.html
+[RA7] [PASS] news-message.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-message.html — 1280px — 主导航路径 news-message.html → news-message.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-message.html
+[RA7] [PASS] news-message.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻消息｜自然选择号
+[RA7] [PASS] news-message.html — 1280px — 第 2 项文字与 Task0 主导航规格逐字一致 — 新闻消息
+[RA7] [PASS] news-message.html — 1280px — 第 2 项目标文件与 Task0 主导航规格一致 — news-message.html
+[RA7] [PASS] news-message.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-message.html — 1280px — 主导航路径 news-message.html → news-feature.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-feature.html
+[RA7] [PASS] news-message.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻通讯｜自然选择号
+[RA7] [PASS] news-message.html — 1280px — 第 3 项文字与 Task0 主导航规格逐字一致 — 新闻通讯
+[RA7] [PASS] news-message.html — 1280px — 第 3 项目标文件与 Task0 主导航规格一致 — news-feature.html
+[RA7] [PASS] news-message.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA7] [PASS] news-message.html — 1280px — 主导航路径 news-message.html → news-commentary.html：真实导航由 Page.frameNavigated 计数证明（点当前页链接时路径不变，故不用 path 差异判） — navigated=+1 落地=news-commentary.html
+[RA7] [PASS] news-message.html — 1280px — 落地页 <title> 与矩阵期望一致 — 新闻评论｜自然选择号
+[RA7] [PASS] news-message.html — 1280px — 第 4 项文字与 Task0 主导航规格逐字一致 — 新闻评论
+[RA7] [PASS] news-message.html — 1280px — 第 4 项目标文件与 Task0 主导航规格一致 — news-commentary.html
+[RA7] [PASS] news-message.html — 1280px — 该路径导航过程 0 控制台噪声 — 0 条
+[RA8] [PASS] 全站 — - — 主导航路径条数 == 全部 HTML 页 × 四链接（页集合由 manifest 推导；四页时代 16 条、七页时代 28 条继续都是子集） — 40 条已逐条跑完
+[RJ5] [PASS] 全部 HTML 页全程 — 全部宽度/状态/操作 — 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） — 0 条
+[RZ12] [REC] 全包 — - — 断言总数下限（≥1400）属全包闸门，单段模式记 REC，不参与判定 — 本段计分 215
+[RZ12] [PASS] 全包 — - — PENDING 恒为 0（等待外部动作只有 SKIPPED-BY-DESIGN 这一个名字） — 0
+[RZ10] [PASS] Results/ — - — 19.10 只读证明：Results/ 开工与完工逐项哈希相等 — 12 项 且内容一致
+[RZ10] [PASS] content/ — - — 19.10 只读证明：content/ 开工与完工逐项哈希相等 — 8 项 且内容一致
+[RZ10] [PASS] build/ — - — 19.10 只读证明：build/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] deploy/ — - — 19.10 只读证明：deploy/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] Materials/ — - — 19.10 只读证明：Materials/ 开工与完工逐项哈希相等 — 3 项 且内容一致
+[RZ10] [PASS] Results/ — - — 19.10 Results/ 无新增文件（压力样本与探针产物一律落在 _qa_task19/mutants/） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-selection-results.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css
+[RZ11] [PASS] Results/ — - — 19.10 本包未修改任何被验对象（变异与压力跑均指向副本目录 本轮未使用副本） — ok
+[RZ11] [PASS] Results/ — - — 19.10 Results/ 内无清单外文件、无探针／截图／JSON 产物 — 0 个
+
+合计 227 条（计分 224）：PASS 224 / FAIL 0 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0

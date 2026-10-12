@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>shot</title>
+  <style>
+    html, body { margin: 0; padding: 0; background: #6b6b6b; }
+    iframe { display: block; border: 0; }
+  </style>
+</head>
+<body>
+  <script>
+    // 同步建立固定宽度 iframe：不做任何异步 resize，截图状态确定。
+    const q = new URLSearchParams(location.search);
+    const w = parseInt(q.get("w") || "500", 10);
+    const h = parseInt(q.get("h") || "1400", 10);
+    const st = q.get("s") || "nojs";
+    const f = document.createElement("iframe");
+    f.style.cssText = "width:" + w + "px;height:" + h + "px;background:#fff";
+    if (st === "nojs") f.setAttribute("sandbox", "allow-same-origin");
+    f.src = q.get("t");
+    f.onload = () => {
+      const d = f.contentDocument;
+      if (!d) return;
+      if (st !== "nojs") {
+        d.documentElement.classList.remove("no-js");
+        d.documentElement.classList.add("js");
+        if (st === "jsopen") {
+          d.querySelector(".site-navigation").classList.add("is-open");
+          d.querySelector(".nav-toggle").setAttribute("aria-expanded", "true");
+        }
+      }
+      d.documentElement.style.background = "";
+      f.contentWindow.scrollTo(0, 0);
+      document.title = "ready:" + d.documentElement.clientWidth + ":" + st;
+    };
+    document.body.appendChild(f);
+  </script>
+</body>
+</html>

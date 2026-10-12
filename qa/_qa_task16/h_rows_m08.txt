@@ -1,0 +1,20 @@
+PASS H1 | 四页样式引用 / Results 样式文件数
+PASS H2 | styles.css 外部资源
+PASS H3 | styles.css 字体栈
+PASS H3/noremote | styles.css 远程字体
+PASS H4 | styles.css 关键变量
+PASS H5/id | styles.css ID 选择器
+PASS H5/important | styles.css !important
+PASS H5/pagepatch | styles.css 页面识别补丁
+PASS H6 | styles.css 当前页样式
+PASS H7 | styles.css 被禁视觉模式
+FAIL H8 | styles.css 移动区段 | 期望: 恰一个 @media (max-width: 768px) 且位于样式表末尾、桌面规则之后 | 实际: "@media (max-width: 768px)","@media (max-width: 769px)" 末尾=false 顶层块数=64
+FAIL H8/other | styles.css 误写断点 | 期望: 无 767px、min-width:768px 或 769px 仍命中移动的查询 | 实际: max-width: 768px,max-width: 769px
+PASS H9 | styles.css 移动区段内容
+PASS H10 | styles.css content 注入
+FAIL H11 | styles.css 页面专属 class / 第二套移动主题变量 | 期望: 无 .mobile-*/.message-*/.feature-*/.commentary-*/.nowrap/.technical-term；CSS 类均可在 HTML 中找到 | 实际: 禁用命中=；HTML 中不存在的 CSS 类=article,article__header,article__type,article__byline,article__body,dateline,article__date
+PASS H11/root | styles.css 移动 :root 覆盖范围
+PASS H12 | styles.css 花括号与语法
+FAIL H12/browser | styles.css 浏览器解析证据 | 期望: 四页 styleSheets[0] 顶层规则数 = 源码扫描的 64；恰一个 @media 且为最后一条规则，条件文本 (max-width: 768px) | 实际: index.html:{"ok":true,"top":64,"mediaCount":2,"mediaIdx":62,"lastIsMedia":false,"href":"styles.css","mediaText":"(max-width: 768px)"} news-message.html:{"ok":true,"top":64,"mediaCount":2,"mediaIdx":62,"lastIsMedia":false,"href":"styles.css","mediaText":"(max-width: 768px)"} news-feature.html:{"ok":true,"top":64,"mediaCount":2,"mediaIdx":62,"lastIsMedia":false,"href":"styles.css","mediaText":"(max-width: 768px)"} news-commentary.html:{"ok":true,"top":64,"mediaCount":2,"mediaIdx":62,"lastIsMedia":false,"href":"styles.css","mediaText":"(max-width: 768px)"}
+PASS H12 | styles.css
+H 组行数=19 标签数=18 FAIL=4

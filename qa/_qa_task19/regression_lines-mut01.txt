@@ -1,0 +1,544 @@
+[RZ0] [REC] - — - — 验收环境 — Chrome/154.0.8037.93 · headless=new · file:// 直开 · profile=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\.cdp9481-1791026004217 · 被测目录=C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\mutants\m01-column-reverse · 段=desktop,mobile
+[RZ1] [PASS] - — - — 19.1 遍历清单条数 == manifest.counts.html（HTML 子集，非目录扫描所得） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 styles.css／script.js 不是页（不进遍历清单） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [PASS] - — - — 19.1 遍历顺序按 path 字典序 — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ1] [REC] - — - — 本轮实跑页集合（QODER_ONLY 只影响实跑范围，不改变清单结论） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ2] [PASS] - — - — 前置闸门：Task 18 结论 FAIL 0 且 PENDING 0（未全绿则本包不开跑） — 匹配=true
+[RZ2] [PASS] - — - — 前置闸门：Task 18 变异捕获率 100% — 100
+[RZ2] [PASS] - — - — 前置闸门：Task 18 断言数 ≥340 — 1395
+[RZ2] [PASS] - — - — 前置闸门：expected_reversals.md 已读入本包前置（区分真回归与范围过期的唯一依据） — true
+[RZ3] [PASS] - — - — 19.1 Task18 facts.json 的 __meta 与目录绑定：页集合与本包遍历清单同源（复用 M1 结论，不重造） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html
+[RZ3] [PASS] - — - — 19.1 快照未过期：__meta 逐页哈希 == 当前 Results/ 逐页哈希 — 0 页失配
+[RZ4] [PASS] - — - — 19.1 首页哈希 == 清单登记值（合同基线表里的 2629 字节 971e57a5… 是 v1 六文件值，当前以 manifest 为准，Task18 §8.3 已登记） — 0d21fd1129563d3d…/3623B
+[RZ4] [PASS] - — - — 19.1 Results/ 文件数 == 清单 pages 数（交付文件 6+N=11） — 11
+[RZ5] [PASS] - — - — 19.1 输入前置：五处目录齐备 — 全部存在
+[RZ5] [PASS] - — - — 19.1 输入前置：清单／打包件／上传单／Task18 事实／Task13 基线／v1 母本齐备 — 全部存在
+[RB20] [PASS] index.html — 1280px/冷历史 — 未访问过的导航链接为墨色（组件覆盖 a 基础色；冷历史基线，供 R-N 对照） — 新闻消息=rgb(33, 31, 28),新闻通讯=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB20] [PASS] index.html — 1280px/冷历史 — 当前页带实色暗红下边线（冷历史） — 2px solid rgb(122, 36, 36)
+[RB21] [PASS] index.html — 1280px/冷历史 — 报头链接冷历史下为墨色 — rgb(33, 31, 28)
+[RB1] [PASS] article-along-the-north-small-river.html — 1024px — 桌面无横向溢出（scrollWidth<=clientWidth） — 1024<=1024
+[RB1] [PASS] article-along-the-north-small-river.html — 1024px — 报头版心不超出 视口−2×--page-gutter — 960.0
+[RB1] [PASS] article-along-the-north-small-river.html — 1024px — 报头版心左右留白对称 — L=32.0 R=32.0
+[RB1] [PASS] article-along-the-north-small-river.html — 1024px — 正文容器与报头同宽 — 960.0 vs 960.0
+[RB2] [PASS] article-along-the-north-small-river.html — 1024px — <h1> 逐字符等于矩阵期望 — 封路之后，沿北小河往南
+[RB2] [PASS] article-along-the-north-small-river.html — 1024px — 每页恰好一个 <h1> — 1
+[RB2] [PASS] article-along-the-north-small-river.html — 1024px — R3：每页 <nav> 数恒为 1（最新区不得引入第二个 nav） — 1
+[RB3] [PASS] article-along-the-north-small-river.html — 1024px — 报头单行完整显示、不被裁切（站点名取自矩阵后缀） — 自然选择号 行=1 381/381
+[RB3] [PASS] article-along-the-north-small-river.html — 1024px — 报头上下双细线（v1 RB3 语义无损迁移） — 3px double rgb(184, 170, 152) / 3px double rgb(184, 170, 152)
+[RB3] [PASS] article-along-the-north-small-river.html — 1024px — 双细线不被报头文字穿越 — {"above":20,"below":20}
+[RB3] [PASS] article-along-the-north-small-river.html — 1024px — 主导航 4 项同一行 — 150,150,150,150
+[RB3] [PASS] article-along-the-north-small-river.html — 1024px — 桌面导航顺序按 bounding box 读屏（不读源码顺序） — 首页|新闻消息|新闻通讯|新闻评论
+[RB3] [PASS] article-along-the-north-small-river.html — 1024px — 导航项互不重叠 — 331-366,406-475,515-584,624-693
+[RB4] [PASS] article-along-the-north-small-river.html — 1024px — 桌面隐藏菜单按钮（三态表末行） — none
+[RB4] [PASS] article-along-the-north-small-river.html — 1024px — 主导航横向常显、无 is-open 残留 — block/row/open=false
+[RB5] [PASS] article-along-the-north-small-river.html — 1024px — aria-current 落在矩阵规定的链接上（自身／所属栏目页） — news-feature.html（新闻通讯）
+[RB5] [PASS] article-along-the-north-small-river.html — 1024px — 每页恰好一个 aria-current="page" — 1
+[RB5] [PASS] article-along-the-north-small-river.html — 1024px — 当前项=暗红+700+实下边线（三重区分，不单靠颜色） — rgb(122, 36, 36)/700/2px solid rgb(122, 36, 36)
+[RB5] [PASS] article-along-the-north-small-river.html — 1024px — 非当前项导航链接为墨色（组件覆盖 a 基础色；已访问态另有 R-N 两条链，不在此放宽） — 首页=rgb(33, 31, 28),新闻消息=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB5] [PASS] article-along-the-north-small-river.html — 1024px — 链接无 overflow 裁切祖先（焦点轮廓不被裁） — ok,ok,ok,ok
+[RB5] [PASS] article-along-the-north-small-river.html — 1024px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — rgb(33, 31, 28)→rgb(122, 36, 36)
+[RB6] [PASS] article-along-the-north-small-river.html — 1024px — 暖白纸色底（--color-paper 解析值） — rgb(245, 239, 228)
+[RB6] [PASS] article-along-the-north-small-river.html — 1024px — 深色文字（--color-ink 解析值） — rgb(33, 31, 28)
+[RB6] [PASS] article-along-the-north-small-river.html — 1024px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] article-along-the-north-small-river.html — 1024px — 样式表可解析（95 条规则） — 规则 95
+[RB6] [PASS] article-along-the-north-small-river.html — 1024px — 无被禁视觉（渐变/阴影/圆角/分栏/滤镜/缩放过渡） — 0 类
+[RB7] [PASS] article-along-the-north-small-river.html — 1024px — 详情页正文宽度 ≤ --reading-max 实测值 — 736.0
+[RB7] [PASS] article-along-the-north-small-river.html — 1024px — 桌面正文两端对齐 — justify
+[RB7] [PASS] article-along-the-north-small-river.html — 1024px — 段落数 == Task13 基线 — 4
+[RB7] [PASS] article-along-the-north-small-river.html — 1024px — 末尾日期与 Task13 基线逐字符一致 — （自然选择号10月1日）
+[RB7] [PASS] article-along-the-north-small-river.html — 1024px — 末尾日期右对齐、无首行缩进 — right/0px
+[RC1] [PASS] article-along-the-north-small-river.html — 375px — 左右留白各约移动档 --page-gutter=1rem — L=16.0 R=16.0
+[RC1] [PASS] article-along-the-north-small-river.html — 375px — 版心随可用宽度收缩，无固定内容宽度 — 343.0
+[RC1] [PASS] article-along-the-north-small-river.html — 375px — 无内部滚动区（不靠 overflow:auto 掩盖溢出） — 0 个
+[RC1] [PASS] article-along-the-north-small-river.html — 375px — 无超出视口的固定像素宽元素 — 0 个
+[RC1] [PASS] article-along-the-north-small-river.html — 375px — 报头内部改为纵向流 — flex/column
+[RC1] [PASS] article-along-the-north-small-river.html — 375px — 命中移动断点且未命中桌面断点（768/769 互补） — mqM=true mqD=false
+[RC2] [PASS] article-along-the-north-small-river.html — 375px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小 — 41.25px
+[RC2] [PASS] article-along-the-north-small-river.html — 375px — 报头与页面标题不溢出 — mast 236/236 · title 343/343
+[RC4] [PASS] article-along-the-north-small-river.html — 375px — 移动保持单栏且段落数=基线 — 4
+[RC7] [PASS] article-along-the-north-small-river.html — 375px — 移动端正文改为 text-align:start — start
+[RC4] [PASS] article-along-the-north-small-river.html — 375px — 正文段落首行缩进 2em — 34px vs 17px
+[RC5] [PASS] article-along-the-north-small-river.html — 375px — 基线命中的中英混排术语在渲染文本中原样完整 — 无命中
+[RC5] [PASS] article-along-the-north-small-river.html — 375px — 未插入软连字符/零宽字符（原文字符不变） — 0
+[RC8] [PASS] article-along-the-north-small-river.html — 375px — CDP 覆盖档无横向溢出（不放宽 1px） — de=375 body=375 client=375
+[RC9] [PASS] article-along-the-north-small-river.html — 375px/iframe — 同域 iframe 布局视口确实等于目标宽度（探针自证，排除顶层窗口约 500px 下限造成的裁剪假象） — 375（宿主标题=ready:375:closed）
+[RC9] [PASS] article-along-the-north-small-river.html — 375px/iframe — iframe 档无横向溢出：documentElement.scrollWidth<=clientWidth — 375
+[RC9] [PASS] article-along-the-north-small-river.html — 375px/iframe — iframe 档 body.scrollWidth<=clientWidth — 375
+[RC9] [PASS] article-along-the-north-small-river.html — 375px/iframe — 两条视口量具读到的段落数一致（探针未读到不同状态） — 4
+[RB1] [PASS] article-classroom-screen-upgrade.html — 1024px — 桌面无横向溢出（scrollWidth<=clientWidth） — 1024<=1024
+[RB1] [PASS] article-classroom-screen-upgrade.html — 1024px — 报头版心不超出 视口−2×--page-gutter — 960.0
+[RB1] [PASS] article-classroom-screen-upgrade.html — 1024px — 报头版心左右留白对称 — L=32.0 R=32.0
+[RB1] [PASS] article-classroom-screen-upgrade.html — 1024px — 正文容器与报头同宽 — 960.0 vs 960.0
+[RB2] [PASS] article-classroom-screen-upgrade.html — 1024px — <h1> 逐字符等于矩阵期望 — 设备升级了，使用门槛也该降下来
+[RB2] [PASS] article-classroom-screen-upgrade.html — 1024px — 每页恰好一个 <h1> — 1
+[RB2] [PASS] article-classroom-screen-upgrade.html — 1024px — R3：每页 <nav> 数恒为 1（最新区不得引入第二个 nav） — 1
+[RB3] [PASS] article-classroom-screen-upgrade.html — 1024px — 报头单行完整显示、不被裁切（站点名取自矩阵后缀） — 自然选择号 行=1 381/381
+[RB3] [PASS] article-classroom-screen-upgrade.html — 1024px — 报头上下双细线（v1 RB3 语义无损迁移） — 3px double rgb(184, 170, 152) / 3px double rgb(184, 170, 152)
+[RB3] [PASS] article-classroom-screen-upgrade.html — 1024px — 双细线不被报头文字穿越 — {"above":20,"below":20}
+[RB3] [PASS] article-classroom-screen-upgrade.html — 1024px — 主导航 4 项同一行 — 150,150,150,150
+[RB3] [PASS] article-classroom-screen-upgrade.html — 1024px — 桌面导航顺序按 bounding box 读屏（不读源码顺序） — 首页|新闻消息|新闻通讯|新闻评论
+[RB3] [PASS] article-classroom-screen-upgrade.html — 1024px — 导航项互不重叠 — 331-366,406-475,515-584,624-693
+[RB4] [PASS] article-classroom-screen-upgrade.html — 1024px — 桌面隐藏菜单按钮（三态表末行） — none
+[RB4] [PASS] article-classroom-screen-upgrade.html — 1024px — 主导航横向常显、无 is-open 残留 — block/row/open=false
+[RB5] [PASS] article-classroom-screen-upgrade.html — 1024px — aria-current 落在矩阵规定的链接上（自身／所属栏目页） — news-commentary.html（新闻评论）
+[RB5] [PASS] article-classroom-screen-upgrade.html — 1024px — 每页恰好一个 aria-current="page" — 1
+[RB5] [PASS] article-classroom-screen-upgrade.html — 1024px — 当前项=暗红+700+实下边线（三重区分，不单靠颜色） — rgb(122, 36, 36)/700/2px solid rgb(122, 36, 36)
+[RB5] [PASS] article-classroom-screen-upgrade.html — 1024px — 非当前项导航链接为墨色（组件覆盖 a 基础色；已访问态另有 R-N 两条链，不在此放宽） — 首页=rgb(33, 31, 28),新闻消息=rgb(33, 31, 28),新闻通讯=rgb(33, 31, 28)
+[RB5] [PASS] article-classroom-screen-upgrade.html — 1024px — 链接无 overflow 裁切祖先（焦点轮廓不被裁） — ok,ok,ok,ok
+[RB5] [PASS] article-classroom-screen-upgrade.html — 1024px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — rgb(33, 31, 28)→rgb(122, 36, 36)
+[RB6] [PASS] article-classroom-screen-upgrade.html — 1024px — 暖白纸色底（--color-paper 解析值） — rgb(245, 239, 228)
+[RB6] [PASS] article-classroom-screen-upgrade.html — 1024px — 深色文字（--color-ink 解析值） — rgb(33, 31, 28)
+[RB6] [PASS] article-classroom-screen-upgrade.html — 1024px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] article-classroom-screen-upgrade.html — 1024px — 样式表可解析（95 条规则） — 规则 95
+[RB6] [PASS] article-classroom-screen-upgrade.html — 1024px — 无被禁视觉（渐变/阴影/圆角/分栏/滤镜/缩放过渡） — 0 类
+[RB7] [PASS] article-classroom-screen-upgrade.html — 1024px — 详情页正文宽度 ≤ --reading-max 实测值 — 736.0
+[RB7] [PASS] article-classroom-screen-upgrade.html — 1024px — 桌面正文两端对齐 — justify
+[RB7] [PASS] article-classroom-screen-upgrade.html — 1024px — 段落数 == Task13 基线 — 29
+[RB7] [PASS] article-classroom-screen-upgrade.html — 1024px — 末尾日期与 Task13 基线逐字符一致 — （自然选择号9月18日）
+[RB7] [PASS] article-classroom-screen-upgrade.html — 1024px — 末尾日期右对齐、无首行缩进 — right/0px
+[RC1] [PASS] article-classroom-screen-upgrade.html — 375px — 左右留白各约移动档 --page-gutter=1rem — L=16.0 R=16.0
+[RC1] [PASS] article-classroom-screen-upgrade.html — 375px — 版心随可用宽度收缩，无固定内容宽度 — 343.0
+[RC1] [PASS] article-classroom-screen-upgrade.html — 375px — 无内部滚动区（不靠 overflow:auto 掩盖溢出） — 0 个
+[RC1] [PASS] article-classroom-screen-upgrade.html — 375px — 无超出视口的固定像素宽元素 — 0 个
+[RC1] [PASS] article-classroom-screen-upgrade.html — 375px — 报头内部改为纵向流 — flex/column
+[RC1] [PASS] article-classroom-screen-upgrade.html — 375px — 命中移动断点且未命中桌面断点（768/769 互补） — mqM=true mqD=false
+[RC2] [PASS] article-classroom-screen-upgrade.html — 375px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小 — 41.25px
+[RC2] [PASS] article-classroom-screen-upgrade.html — 375px — 报头与页面标题不溢出 — mast 236/236 · title 343/343
+[RC2] [PASS] article-classroom-screen-upgrade.html — 375px — 最长详情页标题在窄宽度自然折行且任一移动宽度不溢出 — 行数=2 343<=343 盒宽=343.0
+[RC2] [PASS] article-classroom-screen-upgrade.html — 375px — 末行不残留单字孤悬 — 196px ≈ 7.0 字（字号 28px，共 2 行片段）
+[RC4] [PASS] article-classroom-screen-upgrade.html — 375px — 移动保持单栏且段落数=基线 — 29
+[RC7] [PASS] article-classroom-screen-upgrade.html — 375px — 移动端正文改为 text-align:start — start
+[RC4] [PASS] article-classroom-screen-upgrade.html — 375px — 正文段落首行缩进 2em — 34px vs 17px
+[RC5] [PASS] article-classroom-screen-upgrade.html — 375px — 基线命中的中英混排术语在渲染文本中原样完整 — AI,.exe,Windows 10,UOS,USB,OPS,Linux,4K
+[RC5] [PASS] article-classroom-screen-upgrade.html — 375px — 未插入软连字符/零宽字符（原文字符不变） — 0
+[RC8] [PASS] article-classroom-screen-upgrade.html — 375px — CDP 覆盖档无横向溢出（不放宽 1px） — de=375 body=375 client=375
+[RC9] [PASS] article-classroom-screen-upgrade.html — 375px/iframe — 同域 iframe 布局视口确实等于目标宽度（探针自证，排除顶层窗口约 500px 下限造成的裁剪假象） — 375（宿主标题=ready:375:closed）
+[RC9] [PASS] article-classroom-screen-upgrade.html — 375px/iframe — iframe 档无横向溢出：documentElement.scrollWidth<=clientWidth — 375
+[RC9] [PASS] article-classroom-screen-upgrade.html — 375px/iframe — iframe 档 body.scrollWidth<=clientWidth — 375
+[RC9] [PASS] article-classroom-screen-upgrade.html — 375px/iframe — 两条视口量具读到的段落数一致（探针未读到不同状态） — 29
+[RB1] [PASS] article-math-to-ai-learning.html — 1024px — 桌面无横向溢出（scrollWidth<=clientWidth） — 1024<=1024
+[RB1] [PASS] article-math-to-ai-learning.html — 1024px — 报头版心不超出 视口−2×--page-gutter — 960.0
+[RB1] [PASS] article-math-to-ai-learning.html — 1024px — 报头版心左右留白对称 — L=32.0 R=32.0
+[RB1] [PASS] article-math-to-ai-learning.html — 1024px — 正文容器与报头同宽 — 960.0 vs 960.0
+[RB2] [PASS] article-math-to-ai-learning.html — 1024px — <h1> 逐字符等于矩阵期望 — 从数学题到AI时代的学习
+[RB2] [PASS] article-math-to-ai-learning.html — 1024px — 每页恰好一个 <h1> — 1
+[RB2] [PASS] article-math-to-ai-learning.html — 1024px — R3：每页 <nav> 数恒为 1（最新区不得引入第二个 nav） — 1
+[RB3] [PASS] article-math-to-ai-learning.html — 1024px — 报头单行完整显示、不被裁切（站点名取自矩阵后缀） — 自然选择号 行=1 381/381
+[RB3] [PASS] article-math-to-ai-learning.html — 1024px — 报头上下双细线（v1 RB3 语义无损迁移） — 3px double rgb(184, 170, 152) / 3px double rgb(184, 170, 152)
+[RB3] [PASS] article-math-to-ai-learning.html — 1024px — 双细线不被报头文字穿越 — {"above":20,"below":20}
+[RB3] [PASS] article-math-to-ai-learning.html — 1024px — 主导航 4 项同一行 — 150,150,150,150
+[RB3] [PASS] article-math-to-ai-learning.html — 1024px — 桌面导航顺序按 bounding box 读屏（不读源码顺序） — 首页|新闻消息|新闻通讯|新闻评论
+[RB3] [PASS] article-math-to-ai-learning.html — 1024px — 导航项互不重叠 — 331-366,406-475,515-584,624-693
+[RB4] [PASS] article-math-to-ai-learning.html — 1024px — 桌面隐藏菜单按钮（三态表末行） — none
+[RB4] [PASS] article-math-to-ai-learning.html — 1024px — 主导航横向常显、无 is-open 残留 — block/row/open=false
+[RB5] [PASS] article-math-to-ai-learning.html — 1024px — aria-current 落在矩阵规定的链接上（自身／所属栏目页） — news-feature.html（新闻通讯）
+[RB5] [PASS] article-math-to-ai-learning.html — 1024px — 每页恰好一个 aria-current="page" — 1
+[RB5] [PASS] article-math-to-ai-learning.html — 1024px — 当前项=暗红+700+实下边线（三重区分，不单靠颜色） — rgb(122, 36, 36)/700/2px solid rgb(122, 36, 36)
+[RB5] [PASS] article-math-to-ai-learning.html — 1024px — 非当前项导航链接为墨色（组件覆盖 a 基础色；已访问态另有 R-N 两条链，不在此放宽） — 首页=rgb(33, 31, 28),新闻消息=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB5] [PASS] article-math-to-ai-learning.html — 1024px — 链接无 overflow 裁切祖先（焦点轮廓不被裁） — ok,ok,ok,ok
+[RB5] [PASS] article-math-to-ai-learning.html — 1024px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — rgb(33, 31, 28)→rgb(122, 36, 36)
+[RB6] [PASS] article-math-to-ai-learning.html — 1024px — 暖白纸色底（--color-paper 解析值） — rgb(245, 239, 228)
+[RB6] [PASS] article-math-to-ai-learning.html — 1024px — 深色文字（--color-ink 解析值） — rgb(33, 31, 28)
+[RB6] [PASS] article-math-to-ai-learning.html — 1024px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] article-math-to-ai-learning.html — 1024px — 样式表可解析（95 条规则） — 规则 95
+[RB6] [PASS] article-math-to-ai-learning.html — 1024px — 无被禁视觉（渐变/阴影/圆角/分栏/滤镜/缩放过渡） — 0 类
+[RB7] [PASS] article-math-to-ai-learning.html — 1024px — 详情页正文宽度 ≤ --reading-max 实测值 — 736.0
+[RB7] [PASS] article-math-to-ai-learning.html — 1024px — 桌面正文两端对齐 — justify
+[RB7] [PASS] article-math-to-ai-learning.html — 1024px — 段落数 == Task13 基线 — 23
+[RB7] [PASS] article-math-to-ai-learning.html — 1024px — 电头 .dateline 内联于首段首行且加粗 — {"text":"自然选择号9月17日电","disp":"inline","fw":"700","top":442,"firstP":true}
+[RC1] [PASS] article-math-to-ai-learning.html — 375px — 左右留白各约移动档 --page-gutter=1rem — L=16.0 R=16.0
+[RC1] [PASS] article-math-to-ai-learning.html — 375px — 版心随可用宽度收缩，无固定内容宽度 — 343.0
+[RC1] [PASS] article-math-to-ai-learning.html — 375px — 无内部滚动区（不靠 overflow:auto 掩盖溢出） — 0 个
+[RC1] [PASS] article-math-to-ai-learning.html — 375px — 无超出视口的固定像素宽元素 — 0 个
+[RC1] [PASS] article-math-to-ai-learning.html — 375px — 报头内部改为纵向流 — flex/column
+[RC1] [PASS] article-math-to-ai-learning.html — 375px — 命中移动断点且未命中桌面断点（768/769 互补） — mqM=true mqD=false
+[RC2] [PASS] article-math-to-ai-learning.html — 375px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小 — 41.25px
+[RC2] [PASS] article-math-to-ai-learning.html — 375px — 报头与页面标题不溢出 — mast 236/236 · title 343/343
+[RC4] [PASS] article-math-to-ai-learning.html — 375px — 移动保持单栏且段落数=基线 — 23
+[RC7] [PASS] article-math-to-ai-learning.html — 375px — 移动端正文改为 text-align:start — start
+[RC4] [PASS] article-math-to-ai-learning.html — 375px — 正文段落首行缩进 2em — 34px vs 17px
+[RC5] [PASS] article-math-to-ai-learning.html — 375px — 基线命中的中英混排术语在渲染文本中原样完整 — AI
+[RC5] [PASS] article-math-to-ai-learning.html — 375px — 未插入软连字符/零宽字符（原文字符不变） — 0
+[RC8] [PASS] article-math-to-ai-learning.html — 375px — CDP 覆盖档无横向溢出（不放宽 1px） — de=375 body=375 client=375
+[RC9] [PASS] article-math-to-ai-learning.html — 375px/iframe — 同域 iframe 布局视口确实等于目标宽度（探针自证，排除顶层窗口约 500px 下限造成的裁剪假象） — 375（宿主标题=ready:375:closed）
+[RC9] [PASS] article-math-to-ai-learning.html — 375px/iframe — iframe 档无横向溢出：documentElement.scrollWidth<=clientWidth — 375
+[RC9] [PASS] article-math-to-ai-learning.html — 375px/iframe — iframe 档 body.scrollWidth<=clientWidth — 375
+[RC9] [PASS] article-math-to-ai-learning.html — 375px/iframe — 两条视口量具读到的段落数一致（探针未读到不同状态） — 23
+[RB1] [PASS] article-north-of-dam-river.html — 1024px — 桌面无横向溢出（scrollWidth<=clientWidth） — 1024<=1024
+[RB1] [PASS] article-north-of-dam-river.html — 1024px — 报头版心不超出 视口−2×--page-gutter — 960.0
+[RB1] [PASS] article-north-of-dam-river.html — 1024px — 报头版心左右留白对称 — L=32.0 R=32.0
+[RB1] [PASS] article-north-of-dam-river.html — 1024px — 正文容器与报头同宽 — 960.0 vs 960.0
+[RB2] [PASS] article-north-of-dam-river.html — 1024px — <h1> 逐字符等于矩阵期望 — 坝河以北，走过的东坝
+[RB2] [PASS] article-north-of-dam-river.html — 1024px — 每页恰好一个 <h1> — 1
+[RB2] [PASS] article-north-of-dam-river.html — 1024px — R3：每页 <nav> 数恒为 1（最新区不得引入第二个 nav） — 1
+[RB3] [PASS] article-north-of-dam-river.html — 1024px — 报头单行完整显示、不被裁切（站点名取自矩阵后缀） — 自然选择号 行=1 381/381
+[RB3] [PASS] article-north-of-dam-river.html — 1024px — 报头上下双细线（v1 RB3 语义无损迁移） — 3px double rgb(184, 170, 152) / 3px double rgb(184, 170, 152)
+[RB3] [PASS] article-north-of-dam-river.html — 1024px — 双细线不被报头文字穿越 — {"above":20,"below":20}
+[RB3] [PASS] article-north-of-dam-river.html — 1024px — 主导航 4 项同一行 — 150,150,150,150
+[RB3] [PASS] article-north-of-dam-river.html — 1024px — 桌面导航顺序按 bounding box 读屏（不读源码顺序） — 首页|新闻消息|新闻通讯|新闻评论
+[RB3] [PASS] article-north-of-dam-river.html — 1024px — 导航项互不重叠 — 331-366,406-475,515-584,624-693
+[RB4] [PASS] article-north-of-dam-river.html — 1024px — 桌面隐藏菜单按钮（三态表末行） — none
+[RB4] [PASS] article-north-of-dam-river.html — 1024px — 主导航横向常显、无 is-open 残留 — block/row/open=false
+[RB5] [PASS] article-north-of-dam-river.html — 1024px — aria-current 落在矩阵规定的链接上（自身／所属栏目页） — news-feature.html（新闻通讯）
+[RB5] [PASS] article-north-of-dam-river.html — 1024px — 每页恰好一个 aria-current="page" — 1
+[RB5] [PASS] article-north-of-dam-river.html — 1024px — 当前项=暗红+700+实下边线（三重区分，不单靠颜色） — rgb(122, 36, 36)/700/2px solid rgb(122, 36, 36)
+[RB5] [PASS] article-north-of-dam-river.html — 1024px — 非当前项导航链接为墨色（组件覆盖 a 基础色；已访问态另有 R-N 两条链，不在此放宽） — 首页=rgb(33, 31, 28),新闻消息=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB5] [PASS] article-north-of-dam-river.html — 1024px — 链接无 overflow 裁切祖先（焦点轮廓不被裁） — ok,ok,ok,ok
+[RB5] [PASS] article-north-of-dam-river.html — 1024px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — rgb(33, 31, 28)→rgb(122, 36, 36)
+[RB6] [PASS] article-north-of-dam-river.html — 1024px — 暖白纸色底（--color-paper 解析值） — rgb(245, 239, 228)
+[RB6] [PASS] article-north-of-dam-river.html — 1024px — 深色文字（--color-ink 解析值） — rgb(33, 31, 28)
+[RB6] [PASS] article-north-of-dam-river.html — 1024px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] article-north-of-dam-river.html — 1024px — 样式表可解析（95 条规则） — 规则 95
+[RB6] [PASS] article-north-of-dam-river.html — 1024px — 无被禁视觉（渐变/阴影/圆角/分栏/滤镜/缩放过渡） — 0 类
+[RB7] [PASS] article-north-of-dam-river.html — 1024px — 详情页正文宽度 ≤ --reading-max 实测值 — 736.0
+[RB7] [PASS] article-north-of-dam-river.html — 1024px — 桌面正文两端对齐 — justify
+[RB7] [PASS] article-north-of-dam-river.html — 1024px — 段落数 == Task13 基线 — 5
+[RB7] [PASS] article-north-of-dam-river.html — 1024px — 末尾日期与 Task13 基线逐字符一致 — （自然选择号9月27日）
+[RB7] [PASS] article-north-of-dam-river.html — 1024px — 末尾日期右对齐、无首行缩进 — right/0px
+[RC1] [PASS] article-north-of-dam-river.html — 375px — 左右留白各约移动档 --page-gutter=1rem — L=16.0 R=16.0
+[RC1] [PASS] article-north-of-dam-river.html — 375px — 版心随可用宽度收缩，无固定内容宽度 — 343.0
+[RC1] [PASS] article-north-of-dam-river.html — 375px — 无内部滚动区（不靠 overflow:auto 掩盖溢出） — 0 个
+[RC1] [PASS] article-north-of-dam-river.html — 375px — 无超出视口的固定像素宽元素 — 0 个
+[RC1] [PASS] article-north-of-dam-river.html — 375px — 报头内部改为纵向流 — flex/column
+[RC1] [PASS] article-north-of-dam-river.html — 375px — 命中移动断点且未命中桌面断点（768/769 互补） — mqM=true mqD=false
+[RC2] [PASS] article-north-of-dam-river.html — 375px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小 — 41.25px
+[RC2] [PASS] article-north-of-dam-river.html — 375px — 报头与页面标题不溢出 — mast 236/236 · title 343/343
+[RC4] [PASS] article-north-of-dam-river.html — 375px — 移动保持单栏且段落数=基线 — 5
+[RC7] [PASS] article-north-of-dam-river.html — 375px — 移动端正文改为 text-align:start — start
+[RC4] [PASS] article-north-of-dam-river.html — 375px — 正文段落首行缩进 2em — 34px vs 17px
+[RC5] [PASS] article-north-of-dam-river.html — 375px — 基线命中的中英混排术语在渲染文本中原样完整 — 无命中
+[RC5] [PASS] article-north-of-dam-river.html — 375px — 未插入软连字符/零宽字符（原文字符不变） — 0
+[RC8] [PASS] article-north-of-dam-river.html — 375px — CDP 覆盖档无横向溢出（不放宽 1px） — de=375 body=375 client=375
+[RC9] [PASS] article-north-of-dam-river.html — 375px/iframe — 同域 iframe 布局视口确实等于目标宽度（探针自证，排除顶层窗口约 500px 下限造成的裁剪假象） — 375（宿主标题=ready:375:closed）
+[RC9] [PASS] article-north-of-dam-river.html — 375px/iframe — iframe 档无横向溢出：documentElement.scrollWidth<=clientWidth — 375
+[RC9] [PASS] article-north-of-dam-river.html — 375px/iframe — iframe 档 body.scrollWidth<=clientWidth — 375
+[RC9] [PASS] article-north-of-dam-river.html — 375px/iframe — 两条视口量具读到的段落数一致（探针未读到不同状态） — 5
+[RB1] [PASS] article-school-course-volunteer.html — 1024px — 桌面无横向溢出（scrollWidth<=clientWidth） — 1024<=1024
+[RB1] [PASS] article-school-course-volunteer.html — 1024px — 报头版心不超出 视口−2×--page-gutter — 960.0
+[RB1] [PASS] article-school-course-volunteer.html — 1024px — 报头版心左右留白对称 — L=32.0 R=32.0
+[RB1] [PASS] article-school-course-volunteer.html — 1024px — 正文容器与报头同宽 — 960.0 vs 960.0
+[RB2] [PASS] article-school-course-volunteer.html — 1024px — <h1> 逐字符等于矩阵期望 — 我校启动校本课程志愿填报
+[RB2] [PASS] article-school-course-volunteer.html — 1024px — 每页恰好一个 <h1> — 1
+[RB2] [PASS] article-school-course-volunteer.html — 1024px — R3：每页 <nav> 数恒为 1（最新区不得引入第二个 nav） — 1
+[RB3] [PASS] article-school-course-volunteer.html — 1024px — 报头单行完整显示、不被裁切（站点名取自矩阵后缀） — 自然选择号 行=1 381/381
+[RB3] [PASS] article-school-course-volunteer.html — 1024px — 报头上下双细线（v1 RB3 语义无损迁移） — 3px double rgb(184, 170, 152) / 3px double rgb(184, 170, 152)
+[RB3] [PASS] article-school-course-volunteer.html — 1024px — 双细线不被报头文字穿越 — {"above":20,"below":20}
+[RB3] [PASS] article-school-course-volunteer.html — 1024px — 主导航 4 项同一行 — 150,150,150,150
+[RB3] [PASS] article-school-course-volunteer.html — 1024px — 桌面导航顺序按 bounding box 读屏（不读源码顺序） — 首页|新闻消息|新闻通讯|新闻评论
+[RB3] [PASS] article-school-course-volunteer.html — 1024px — 导航项互不重叠 — 331-366,406-475,515-584,624-693
+[RB4] [PASS] article-school-course-volunteer.html — 1024px — 桌面隐藏菜单按钮（三态表末行） — none
+[RB4] [PASS] article-school-course-volunteer.html — 1024px — 主导航横向常显、无 is-open 残留 — block/row/open=false
+[RB5] [PASS] article-school-course-volunteer.html — 1024px — aria-current 落在矩阵规定的链接上（自身／所属栏目页） — news-message.html（新闻消息）
+[RB5] [PASS] article-school-course-volunteer.html — 1024px — 每页恰好一个 aria-current="page" — 1
+[RB5] [PASS] article-school-course-volunteer.html — 1024px — 当前项=暗红+700+实下边线（三重区分，不单靠颜色） — rgb(122, 36, 36)/700/2px solid rgb(122, 36, 36)
+[RB5] [PASS] article-school-course-volunteer.html — 1024px — 非当前项导航链接为墨色（组件覆盖 a 基础色；已访问态另有 R-N 两条链，不在此放宽） — 首页=rgb(33, 31, 28),新闻通讯=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB5] [PASS] article-school-course-volunteer.html — 1024px — 链接无 overflow 裁切祖先（焦点轮廓不被裁） — ok,ok,ok,ok
+[RB5] [PASS] article-school-course-volunteer.html — 1024px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — rgb(33, 31, 28)→rgb(122, 36, 36)
+[RB6] [PASS] article-school-course-volunteer.html — 1024px — 暖白纸色底（--color-paper 解析值） — rgb(245, 239, 228)
+[RB6] [PASS] article-school-course-volunteer.html — 1024px — 深色文字（--color-ink 解析值） — rgb(33, 31, 28)
+[RB6] [PASS] article-school-course-volunteer.html — 1024px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] article-school-course-volunteer.html — 1024px — 样式表可解析（95 条规则） — 规则 95
+[RB6] [PASS] article-school-course-volunteer.html — 1024px — 无被禁视觉（渐变/阴影/圆角/分栏/滤镜/缩放过渡） — 0 类
+[RB7] [PASS] article-school-course-volunteer.html — 1024px — 详情页正文宽度 ≤ --reading-max 实测值 — 736.0
+[RB7] [PASS] article-school-course-volunteer.html — 1024px — 桌面正文两端对齐 — justify
+[RB7] [PASS] article-school-course-volunteer.html — 1024px — 段落数 == Task13 基线 — 4
+[RB7] [PASS] article-school-course-volunteer.html — 1024px — 电头 .dateline 内联于首段首行且加粗 — {"text":"自然选择号9月18日7时电","disp":"inline","fw":"700","top":442,"firstP":true}
+[RC1] [PASS] article-school-course-volunteer.html — 375px — 左右留白各约移动档 --page-gutter=1rem — L=16.0 R=16.0
+[RC1] [PASS] article-school-course-volunteer.html — 375px — 版心随可用宽度收缩，无固定内容宽度 — 343.0
+[RC1] [PASS] article-school-course-volunteer.html — 375px — 无内部滚动区（不靠 overflow:auto 掩盖溢出） — 0 个
+[RC1] [PASS] article-school-course-volunteer.html — 375px — 无超出视口的固定像素宽元素 — 0 个
+[RC1] [PASS] article-school-course-volunteer.html — 375px — 报头内部改为纵向流 — flex/column
+[RC1] [PASS] article-school-course-volunteer.html — 375px — 命中移动断点且未命中桌面断点（768/769 互补） — mqM=true mqD=false
+[RC2] [PASS] article-school-course-volunteer.html — 375px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小 — 41.25px
+[RC2] [PASS] article-school-course-volunteer.html — 375px — 报头与页面标题不溢出 — mast 236/236 · title 343/343
+[RC4] [PASS] article-school-course-volunteer.html — 375px — 移动保持单栏且段落数=基线 — 4
+[RC7] [PASS] article-school-course-volunteer.html — 375px — 移动端正文改为 text-align:start — start
+[RC4] [PASS] article-school-course-volunteer.html — 375px — 正文段落首行缩进 2em — 34px vs 17px
+[RC5] [PASS] article-school-course-volunteer.html — 375px — 基线命中的中英混排术语在渲染文本中原样完整 — 无命中
+[RC5] [PASS] article-school-course-volunteer.html — 375px — 未插入软连字符/零宽字符（原文字符不变） — 0
+[RC8] [PASS] article-school-course-volunteer.html — 375px — CDP 覆盖档无横向溢出（不放宽 1px） — de=375 body=375 client=375
+[RC9] [PASS] article-school-course-volunteer.html — 375px/iframe — 同域 iframe 布局视口确实等于目标宽度（探针自证，排除顶层窗口约 500px 下限造成的裁剪假象） — 375（宿主标题=ready:375:closed）
+[RC9] [PASS] article-school-course-volunteer.html — 375px/iframe — iframe 档无横向溢出：documentElement.scrollWidth<=clientWidth — 375
+[RC9] [PASS] article-school-course-volunteer.html — 375px/iframe — iframe 档 body.scrollWidth<=clientWidth — 375
+[RC9] [PASS] article-school-course-volunteer.html — 375px/iframe — 两条视口量具读到的段落数一致（探针未读到不同状态） — 4
+[RB1] [PASS] index.html — 1024px — 桌面无横向溢出（scrollWidth<=clientWidth） — 1024<=1024
+[RB1] [PASS] index.html — 1024px — 报头版心不超出 视口−2×--page-gutter — 960.0
+[RB1] [PASS] index.html — 1024px — 报头版心左右留白对称 — L=32.0 R=32.0
+[RB1] [PASS] index.html — 1024px — 正文容器与报头同宽 — 960.0 vs 960.0
+[RB2] [PASS] index.html — 1024px — <h1> 逐字符等于矩阵期望 — 《自然选择号》报社简介
+[RB2] [PASS] index.html — 1024px — 每页恰好一个 <h1> — 1
+[RB2] [PASS] index.html — 1024px — R3：每页 <nav> 数恒为 1（最新区不得引入第二个 nav） — 1
+[RB3] [PASS] index.html — 1024px — 报头单行完整显示、不被裁切（站点名取自矩阵后缀） — 自然选择号 行=1 381/381
+[RB3] [PASS] index.html — 1024px — 报头上下双细线（v1 RB3 语义无损迁移） — 3px double rgb(184, 170, 152) / 3px double rgb(184, 170, 152)
+[RB3] [PASS] index.html — 1024px — 双细线不被报头文字穿越 — {"above":20,"below":20}
+[RB3] [PASS] index.html — 1024px — 主导航 4 项同一行 — 150,150,150,150
+[RB3] [PASS] index.html — 1024px — 桌面导航顺序按 bounding box 读屏（不读源码顺序） — 首页|新闻消息|新闻通讯|新闻评论
+[RB3] [PASS] index.html — 1024px — 导航项互不重叠 — 331-366,406-475,515-584,624-693
+[RB4] [PASS] index.html — 1024px — 桌面隐藏菜单按钮（三态表末行） — none
+[RB4] [PASS] index.html — 1024px — 主导航横向常显、无 is-open 残留 — block/row/open=false
+[RB5] [PASS] index.html — 1024px — aria-current 落在矩阵规定的链接上（自身／所属栏目页） — index.html（首页）
+[RB5] [PASS] index.html — 1024px — 每页恰好一个 aria-current="page" — 1
+[RB5] [PASS] index.html — 1024px — 当前项=暗红+700+实下边线（三重区分，不单靠颜色） — rgb(122, 36, 36)/700/2px solid rgb(122, 36, 36)
+[RB5] [PASS] index.html — 1024px — 非当前项导航链接为墨色（组件覆盖 a 基础色；已访问态另有 R-N 两条链，不在此放宽） — 新闻消息=rgb(33, 31, 28),新闻通讯=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB5] [PASS] index.html — 1024px — 链接无 overflow 裁切祖先（焦点轮廓不被裁） — ok,ok,ok,ok
+[RB5] [PASS] index.html — 1024px — 强制 hover 第 2 项：仅变暗红，不位移不缩放 — rgb(33, 31, 28)→rgb(122, 36, 36)
+[RB6] [PASS] index.html — 1024px — 暖白纸色底（--color-paper 解析值） — rgb(245, 239, 228)
+[RB6] [PASS] index.html — 1024px — 深色文字（--color-ink 解析值） — rgb(33, 31, 28)
+[RB6] [PASS] index.html — 1024px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] index.html — 1024px — 样式表可解析（95 条规则） — 规则 95
+[RB6] [PASS] index.html — 1024px — 无被禁视觉（渐变/阴影/圆角/分栏/滤镜/缩放过渡） — 0 类
+[RK3] [PASS] index.html — 1024px — 首页最新区条数恒等于 R11 合同值 — 3
+[RK3] [PASS] index.html — 1024px — R8：每条只允许一个 a.home-latest__link 包两个 span（标题+月日） — 2/article-along-the-north-small-river.html,2/article-north-of-dam-river.html,2/article-school-course-volunteer.html
+[RK3] [PASS] index.html — 1024px — 最新区条目内不得出现 img/time/p 等第二层结构 — span+span|span+span|span+span
+[RK9] [PASS] index.html — 1024px — R9③：display_date 齐备 → 每条带日期节点 — 10月1日,9月27日,9月18日
+[RB14] [PASS] index.html — 1024px — 最新区与引言区不粘连（正向间距且无重叠） — gap=64.0px
+[RB14] [PASS] index.html — 1024px — R4③：最新区标题是 h2（1×h1 + 4×h2，无跳级） — 最新报道 / h2=4
+[RK2b] [PASS] index.html — 1024px — 最新区视觉次序 == DOM 次序 — 封路之后，沿北小河往南|坝河以北，走过的东坝|我校启动校本课程志愿填报
+[RB15] [PASS] index.html — 1024px — 首页三区块单列、顺序不变 — 349-474,474-599,599-726
+[RB16] [PASS] index.html — 1024px — R4②：main 内标签计数逐类相等（不得出现第八种标签） — {"h1":1,"div":2,"section":3,"h2":4,"p":3,"ul":1,"li":3,"a":3,"span":6}
+[RB16] [PASS] index.html — 1024px — R4④：可见内容白名单按序 14 项逐字符命中（P_* 由 Task4 冻结表解析） — 《自然选择号》报社简介、名称由来、我们的名字来自《三体》里的一支舰队。、主要工作与报道方向、我们主要记录一些自己觉得有价值的东西。、成立时间、报社成立于“鸽子衔枝之年”。、最新报道、封路之后，沿北小河往南、10月1日、坝河以北，走过的东坝、9月27日、我校启动校本课程志愿填报、9月18日
+[RC1] [PASS] index.html — 375px — 左右留白各约移动档 --page-gutter=1rem — L=16.0 R=16.0
+[RC1] [PASS] index.html — 375px — 版心随可用宽度收缩，无固定内容宽度 — 343.0
+[RC1] [PASS] index.html — 375px — 无内部滚动区（不靠 overflow:auto 掩盖溢出） — 0 个
+[RC1] [PASS] index.html — 375px — 无超出视口的固定像素宽元素 — 0 个
+[RC1] [PASS] index.html — 375px — 报头内部改为纵向流 — flex/column
+[RC1] [PASS] index.html — 375px — 命中移动断点且未命中桌面断点（768/769 互补） — mqM=true mqD=false
+[RC2] [PASS] index.html — 375px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小 — 41.25px
+[RC2] [PASS] index.html — 375px — 报头与页面标题不溢出 — mast 236/236 · title 343/343
+[RC6] [PASS] index.html — 375px — 首页最新区在窄视口同样堆叠且标题在上 — column/724<752,column/832<860,column/939<967
+[RC6] [PASS] index.html — 375px — 最新区换行与日期不挤断同时成立 — anywhere/nowrap/1,anywhere/nowrap/1,anywhere/nowrap/1
+[RC3] [PASS] index.html — 375px — 首页三区块保持单列、顺序不变 — 16/263,16/373,16/483
+[RC5] [PASS] index.html — 375px — 基线命中的中英混排术语在渲染文本中原样完整 — 无命中
+[RC5] [PASS] index.html — 375px — 未插入软连字符/零宽字符（原文字符不变） — 0
+[RC8] [PASS] index.html — 375px — CDP 覆盖档无横向溢出（不放宽 1px） — de=375 body=375 client=375
+[RC9] [PASS] index.html — 375px/iframe — 同域 iframe 布局视口确实等于目标宽度（探针自证，排除顶层窗口约 500px 下限造成的裁剪假象） — 375（宿主标题=ready:375:closed）
+[RC9] [PASS] index.html — 375px/iframe — iframe 档无横向溢出：documentElement.scrollWidth<=clientWidth — 375
+[RC9] [PASS] index.html — 375px/iframe — iframe 档 body.scrollWidth<=clientWidth — 375
+[RC9] [PASS] index.html — 375px/iframe — 两条视口量具读到的段落数一致（探针未读到不同状态） — 0
+[RK3] [PASS] index.html — 375px/iframe — 首页最新区条数恒等于 R11 合同值 — 3
+[RK3] [PASS] index.html — 375px/iframe — R8：每条只允许一个 a.home-latest__link 包两个 span（标题+月日） — 2/article-along-the-north-small-river.html,2/article-north-of-dam-river.html,2/article-school-course-volunteer.html
+[RK3] [PASS] index.html — 375px/iframe — 最新区条目内不得出现 img/time/p 等第二层结构 — span+span|span+span|span+span
+[RK9] [PASS] index.html — 375px/iframe — R9③：display_date 齐备 → 每条带日期节点 — 10月1日,9月27日,9月18日
+[RB14] [PASS] index.html — 375px/iframe — 最新区与引言区不粘连（正向间距且无重叠） — gap=64.0px
+[RB14] [PASS] index.html — 375px/iframe — R4③：最新区标题是 h2（1×h1 + 4×h2，无跳级） — 最新报道 / h2=4
+[RK2b] [PASS] index.html — 375px/iframe — 最新区视觉次序 == DOM 次序 — 封路之后，沿北小河往南|坝河以北，走过的东坝|我校启动校本课程志愿填报
+[RB1] [PASS] news-commentary.html — 1024px — 桌面无横向溢出（scrollWidth<=clientWidth） — 1024<=1024
+[RB1] [PASS] news-commentary.html — 1024px — 报头版心不超出 视口−2×--page-gutter — 960.0
+[RB1] [PASS] news-commentary.html — 1024px — 报头版心左右留白对称 — L=32.0 R=32.0
+[RB1] [PASS] news-commentary.html — 1024px — 正文容器与报头同宽 — 960.0 vs 960.0
+[RB2] [PASS] news-commentary.html — 1024px — <h1> 逐字符等于矩阵期望 — 新闻评论
+[RB2] [PASS] news-commentary.html — 1024px — 每页恰好一个 <h1> — 1
+[RB2] [PASS] news-commentary.html — 1024px — R3：每页 <nav> 数恒为 1（最新区不得引入第二个 nav） — 1
+[RB3] [PASS] news-commentary.html — 1024px — 报头单行完整显示、不被裁切（站点名取自矩阵后缀） — 自然选择号 行=1 381/381
+[RB3] [PASS] news-commentary.html — 1024px — 报头上下双细线（v1 RB3 语义无损迁移） — 3px double rgb(184, 170, 152) / 3px double rgb(184, 170, 152)
+[RB3] [PASS] news-commentary.html — 1024px — 双细线不被报头文字穿越 — {"above":20,"below":20}
+[RB3] [PASS] news-commentary.html — 1024px — 主导航 4 项同一行 — 150,150,150,150
+[RB3] [PASS] news-commentary.html — 1024px — 桌面导航顺序按 bounding box 读屏（不读源码顺序） — 首页|新闻消息|新闻通讯|新闻评论
+[RB3] [PASS] news-commentary.html — 1024px — 导航项互不重叠 — 331-366,406-475,515-584,624-693
+[RB4] [PASS] news-commentary.html — 1024px — 桌面隐藏菜单按钮（三态表末行） — none
+[RB4] [PASS] news-commentary.html — 1024px — 主导航横向常显、无 is-open 残留 — block/row/open=false
+[RB5] [PASS] news-commentary.html — 1024px — aria-current 落在矩阵规定的链接上（自身／所属栏目页） — news-commentary.html（新闻评论）
+[RB5] [PASS] news-commentary.html — 1024px — 每页恰好一个 aria-current="page" — 1
+[RB5] [PASS] news-commentary.html — 1024px — 当前项=暗红+700+实下边线（三重区分，不单靠颜色） — rgb(122, 36, 36)/700/2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-commentary.html — 1024px — 非当前项导航链接为墨色（组件覆盖 a 基础色；已访问态另有 R-N 两条链，不在此放宽） — 首页=rgb(33, 31, 28),新闻消息=rgb(33, 31, 28),新闻通讯=rgb(33, 31, 28)
+[RB5] [PASS] news-commentary.html — 1024px — 链接无 overflow 裁切祖先（焦点轮廓不被裁） — ok,ok,ok,ok
+[RB5] [PASS] news-commentary.html — 1024px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — rgb(33, 31, 28)→rgb(122, 36, 36)
+[RB6] [PASS] news-commentary.html — 1024px — 暖白纸色底（--color-paper 解析值） — rgb(245, 239, 228)
+[RB6] [PASS] news-commentary.html — 1024px — 深色文字（--color-ink 解析值） — rgb(33, 31, 28)
+[RB6] [PASS] news-commentary.html — 1024px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-commentary.html — 1024px — 样式表可解析（95 条规则） — 规则 95
+[RB6] [PASS] news-commentary.html — 1024px — 无被禁视觉（渐变/阴影/圆角/分栏/滤镜/缩放过渡） — 0 类
+[RB8] [FAIL] news-commentary.html — 1024px — 条目数 == manifest 该栏目 articles 数（清单驱动） — 期望 1 / 实际 4 — 移交: Task 15
+[RB8] [PASS] news-commentary.html — 1024px — 每条 = 一个链接包标题与日期两个节点 — true/true/true,true/true/true,true/true/true,true/true/true
+[RB9] [PASS] news-commentary.html — 1024px — 列表版心 == min(--reading-max, 视口−2×gutter) 实测值 — 736.0px
+[RB9b] [PASS] news-commentary.html — 1024px — 列表版心不越出可用宽度 — 736.0
+[RB10] [FAIL] news-commentary.html — 1024px — 条目盒互不重叠（无重叠像素错位） — 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447 — 移交: Task 16
+[RB11] [PASS] news-commentary.html — 1024px — 条目细线连续（每条有上界线） — 1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)
+[RB11] [PASS] news-commentary.html — 1024px — 末条有下界线（细线不半路消失） — 1px solid rgb(184, 170, 152)
+[RB12] [PASS] news-commentary.html — 1024px — 标题左缘与版心左缘对齐 — 144.0,144.0,144.0,144.0
+[RB12] [PASS] news-commentary.html — 1024px — 桌面同行两列：日期右缘与版心右缘对齐 — 880.0,880.0,880.0,880.0
+[RB13] [PASS] news-commentary.html — 1024px — 标题折行数由 Range.getClientRects().length 判得 ≥1 — 1,1,1,1
+[RK2b] [FAIL] news-commentary.html — 1024px — 视觉次序（bounding box 排序）== DOM 次序 — 期望 新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） — 移交: Task 16
+[RC1] [PASS] news-commentary.html — 375px — 左右留白各约移动档 --page-gutter=1rem — L=16.0 R=16.0
+[RC1] [PASS] news-commentary.html — 375px — 版心随可用宽度收缩，无固定内容宽度 — 343.0
+[RC1] [PASS] news-commentary.html — 375px — 无内部滚动区（不靠 overflow:auto 掩盖溢出） — 0 个
+[RC1] [PASS] news-commentary.html — 375px — 无超出视口的固定像素宽元素 — 0 个
+[RC1] [PASS] news-commentary.html — 375px — 报头内部改为纵向流 — flex/column
+[RC1] [PASS] news-commentary.html — 375px — 命中移动断点且未命中桌面断点（768/769 互补） — mqM=true mqD=false
+[RC2] [PASS] news-commentary.html — 375px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小 — 41.25px
+[RC2] [PASS] news-commentary.html — 375px — 报头与页面标题不溢出 — mast 236/236 · title 343/343
+[RC6] [PASS] news-commentary.html — 375px — 窄视口条目堆叠（链接为纵向流） — column,column,column,column
+[RC6] [PASS] news-commentary.html — 375px — 堆叠次序：标题在上、日期在下（bounding box 判） — 687<733,561<607,435<481,308<354
+[RC6] [PASS] news-commentary.html — 375px — 紧急换行只用 overflow-wrap:anywhere（word-break 保持 normal） — anywhere/normal,anywhere/normal,anywhere/normal,anywhere/normal
+[RC6] [PASS] news-commentary.html — 375px — 日期 white-space:nowrap 未被挤断（行盒数=1） — nowrap/1,nowrap/1,nowrap/1,nowrap/1
+[RC6] [PASS] news-commentary.html — 375px — 窄视口下日期不溢出自身盒 — 44/44,44/44,44/44,44/44
+[RC6] [PASS] news-commentary.html — 375px — 长标题不撑出横向滚动（标题盒内自洽） — 343/343,343/343,343/343,343/343
+[RC5] [PASS] news-commentary.html — 375px — 基线命中的中英混排术语在渲染文本中原样完整 — 无命中
+[RC5] [PASS] news-commentary.html — 375px — 未插入软连字符/零宽字符（原文字符不变） — 0
+[RC8] [PASS] news-commentary.html — 375px — CDP 覆盖档无横向溢出（不放宽 1px） — de=375 body=375 client=375
+[RC9] [PASS] news-commentary.html — 375px/iframe — 同域 iframe 布局视口确实等于目标宽度（探针自证，排除顶层窗口约 500px 下限造成的裁剪假象） — 375（宿主标题=ready:375:closed）
+[RC9] [PASS] news-commentary.html — 375px/iframe — iframe 档无横向溢出：documentElement.scrollWidth<=clientWidth — 375
+[RC9] [PASS] news-commentary.html — 375px/iframe — iframe 档 body.scrollWidth<=clientWidth — 375
+[RC9] [PASS] news-commentary.html — 375px/iframe — 两条视口量具读到的段落数一致（探针未读到不同状态） — 0
+[RC9] [PASS] news-commentary.html — 375px/iframe — 两条量具的条目数一致 — 4
+[RC9] [PASS] news-commentary.html — 375px/iframe — iframe 档条目堆叠同样标题在上 — 687<733,561<607,435<481,308<354
+[RB8] [FAIL] news-commentary.html — 375px/iframe — 条目数 == manifest 该栏目 articles 数（清单驱动） — 期望 1 / 实际 4 — 移交: Task 15
+[RB8] [PASS] news-commentary.html — 375px/iframe — 每条 = 一个链接包标题与日期两个节点 — true/true/true,true/true/true,true/true/true,true/true/true
+[RB10] [FAIL] news-commentary.html — 375px/iframe — 条目盒互不重叠（无重叠像素错位） — 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406 — 移交: Task 16
+[RB11] [PASS] news-commentary.html — 375px/iframe — 条目细线连续（每条有上界线） — 1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)
+[RB11] [PASS] news-commentary.html — 375px/iframe — 末条有下界线（细线不半路消失） — 1px solid rgb(184, 170, 152)
+[RB12] [PASS] news-commentary.html — 375px/iframe — 标题左缘与版心左缘对齐 — 16.0,16.0,16.0,16.0
+[RB12m] [PASS] news-commentary.html — 375px/iframe — 移动堆叠档：日期与标题同贴版心左缘（对齐面随版式换，不放宽） — 16.0,16.0,16.0,16.0
+[RB13] [PASS] news-commentary.html — 375px/iframe — 标题折行数由 Range.getClientRects().length 判得 ≥1 — 2,2,2,2
+[RK2b] [FAIL] news-commentary.html — 375px/iframe — 视觉次序（bounding box 排序）== DOM 次序 — 期望 新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻评论样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻评论样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） — 移交: Task 16
+[RB1] [PASS] news-feature.html — 1024px — 桌面无横向溢出（scrollWidth<=clientWidth） — 1024<=1024
+[RB1] [PASS] news-feature.html — 1024px — 报头版心不超出 视口−2×--page-gutter — 960.0
+[RB1] [PASS] news-feature.html — 1024px — 报头版心左右留白对称 — L=32.0 R=32.0
+[RB1] [PASS] news-feature.html — 1024px — 正文容器与报头同宽 — 960.0 vs 960.0
+[RB2] [PASS] news-feature.html — 1024px — <h1> 逐字符等于矩阵期望 — 新闻通讯
+[RB2] [PASS] news-feature.html — 1024px — 每页恰好一个 <h1> — 1
+[RB2] [PASS] news-feature.html — 1024px — R3：每页 <nav> 数恒为 1（最新区不得引入第二个 nav） — 1
+[RB3] [PASS] news-feature.html — 1024px — 报头单行完整显示、不被裁切（站点名取自矩阵后缀） — 自然选择号 行=1 381/381
+[RB3] [PASS] news-feature.html — 1024px — 报头上下双细线（v1 RB3 语义无损迁移） — 3px double rgb(184, 170, 152) / 3px double rgb(184, 170, 152)
+[RB3] [PASS] news-feature.html — 1024px — 双细线不被报头文字穿越 — {"above":20,"below":20}
+[RB3] [PASS] news-feature.html — 1024px — 主导航 4 项同一行 — 150,150,150,150
+[RB3] [PASS] news-feature.html — 1024px — 桌面导航顺序按 bounding box 读屏（不读源码顺序） — 首页|新闻消息|新闻通讯|新闻评论
+[RB3] [PASS] news-feature.html — 1024px — 导航项互不重叠 — 331-366,406-475,515-584,624-693
+[RB4] [PASS] news-feature.html — 1024px — 桌面隐藏菜单按钮（三态表末行） — none
+[RB4] [PASS] news-feature.html — 1024px — 主导航横向常显、无 is-open 残留 — block/row/open=false
+[RB5] [PASS] news-feature.html — 1024px — aria-current 落在矩阵规定的链接上（自身／所属栏目页） — news-feature.html（新闻通讯）
+[RB5] [PASS] news-feature.html — 1024px — 每页恰好一个 aria-current="page" — 1
+[RB5] [PASS] news-feature.html — 1024px — 当前项=暗红+700+实下边线（三重区分，不单靠颜色） — rgb(122, 36, 36)/700/2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-feature.html — 1024px — 非当前项导航链接为墨色（组件覆盖 a 基础色；已访问态另有 R-N 两条链，不在此放宽） — 首页=rgb(33, 31, 28),新闻消息=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB5] [PASS] news-feature.html — 1024px — 链接无 overflow 裁切祖先（焦点轮廓不被裁） — ok,ok,ok,ok
+[RB5] [PASS] news-feature.html — 1024px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — rgb(33, 31, 28)→rgb(122, 36, 36)
+[RB6] [PASS] news-feature.html — 1024px — 暖白纸色底（--color-paper 解析值） — rgb(245, 239, 228)
+[RB6] [PASS] news-feature.html — 1024px — 深色文字（--color-ink 解析值） — rgb(33, 31, 28)
+[RB6] [PASS] news-feature.html — 1024px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-feature.html — 1024px — 样式表可解析（95 条规则） — 规则 95
+[RB6] [PASS] news-feature.html — 1024px — 无被禁视觉（渐变/阴影/圆角/分栏/滤镜/缩放过渡） — 0 类
+[RB8] [FAIL] news-feature.html — 1024px — 条目数 == manifest 该栏目 articles 数（清单驱动） — 期望 3 / 实际 4 — 移交: Task 15
+[RB8] [PASS] news-feature.html — 1024px — 每条 = 一个链接包标题与日期两个节点 — true/true/true,true/true/true,true/true/true,true/true/true
+[RB9] [PASS] news-feature.html — 1024px — 列表版心 == min(--reading-max, 视口−2×gutter) 实测值 — 736.0px
+[RB9b] [PASS] news-feature.html — 1024px — 列表版心不越出可用宽度 — 736.0
+[RB10] [FAIL] news-feature.html — 1024px — 条目盒互不重叠（无重叠像素错位） — 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447 — 移交: Task 16
+[RB11] [PASS] news-feature.html — 1024px — 条目细线连续（每条有上界线） — 1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)
+[RB11] [PASS] news-feature.html — 1024px — 末条有下界线（细线不半路消失） — 1px solid rgb(184, 170, 152)
+[RB12] [PASS] news-feature.html — 1024px — 标题左缘与版心左缘对齐 — 144.0,144.0,144.0,144.0
+[RB12] [PASS] news-feature.html — 1024px — 桌面同行两列：日期右缘与版心右缘对齐 — 880.0,880.0,880.0,880.0
+[RB13] [PASS] news-feature.html — 1024px — 标题折行数由 Range.getClientRects().length 判得 ≥1 — 1,1,1,1
+[RK2b] [FAIL] news-feature.html — 1024px — 视觉次序（bounding box 排序）== DOM 次序 — 期望 新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） — 移交: Task 16
+[RC1] [PASS] news-feature.html — 375px — 左右留白各约移动档 --page-gutter=1rem — L=16.0 R=16.0
+[RC1] [PASS] news-feature.html — 375px — 版心随可用宽度收缩，无固定内容宽度 — 343.0
+[RC1] [PASS] news-feature.html — 375px — 无内部滚动区（不靠 overflow:auto 掩盖溢出） — 0 个
+[RC1] [PASS] news-feature.html — 375px — 无超出视口的固定像素宽元素 — 0 个
+[RC1] [PASS] news-feature.html — 375px — 报头内部改为纵向流 — flex/column
+[RC1] [PASS] news-feature.html — 375px — 命中移动断点且未命中桌面断点（768/769 互补） — mqM=true mqD=false
+[RC2] [PASS] news-feature.html — 375px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小 — 41.25px
+[RC2] [PASS] news-feature.html — 375px — 报头与页面标题不溢出 — mast 236/236 · title 343/343
+[RC6] [PASS] news-feature.html — 375px — 窄视口条目堆叠（链接为纵向流） — column,column,column,column
+[RC6] [PASS] news-feature.html — 375px — 堆叠次序：标题在上、日期在下（bounding box 判） — 687<733,561<607,435<481,308<354
+[RC6] [PASS] news-feature.html — 375px — 紧急换行只用 overflow-wrap:anywhere（word-break 保持 normal） — anywhere/normal,anywhere/normal,anywhere/normal,anywhere/normal
+[RC6] [PASS] news-feature.html — 375px — 日期 white-space:nowrap 未被挤断（行盒数=1） — nowrap/1,nowrap/1,nowrap/1,nowrap/1
+[RC6] [PASS] news-feature.html — 375px — 窄视口下日期不溢出自身盒 — 44/44,44/44,44/44,44/44
+[RC6] [PASS] news-feature.html — 375px — 长标题不撑出横向滚动（标题盒内自洽） — 343/343,343/343,343/343,343/343
+[RC5] [PASS] news-feature.html — 375px — 基线命中的中英混排术语在渲染文本中原样完整 — 无命中
+[RC5] [PASS] news-feature.html — 375px — 未插入软连字符/零宽字符（原文字符不变） — 0
+[RC8] [PASS] news-feature.html — 375px — CDP 覆盖档无横向溢出（不放宽 1px） — de=375 body=375 client=375
+[RC9] [PASS] news-feature.html — 375px/iframe — 同域 iframe 布局视口确实等于目标宽度（探针自证，排除顶层窗口约 500px 下限造成的裁剪假象） — 375（宿主标题=ready:375:closed）
+[RC9] [PASS] news-feature.html — 375px/iframe — iframe 档无横向溢出：documentElement.scrollWidth<=clientWidth — 375
+[RC9] [PASS] news-feature.html — 375px/iframe — iframe 档 body.scrollWidth<=clientWidth — 375
+[RC9] [PASS] news-feature.html — 375px/iframe — 两条视口量具读到的段落数一致（探针未读到不同状态） — 0
+[RC9] [PASS] news-feature.html — 375px/iframe — 两条量具的条目数一致 — 4
+[RC9] [PASS] news-feature.html — 375px/iframe — iframe 档条目堆叠同样标题在上 — 687<733,561<607,435<481,308<354
+[RB8] [FAIL] news-feature.html — 375px/iframe — 条目数 == manifest 该栏目 articles 数（清单驱动） — 期望 3 / 实际 4 — 移交: Task 15
+[RB8] [PASS] news-feature.html — 375px/iframe — 每条 = 一个链接包标题与日期两个节点 — true/true/true,true/true/true,true/true/true,true/true/true
+[RB10] [FAIL] news-feature.html — 375px/iframe — 条目盒互不重叠（无重叠像素错位） — 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406 — 移交: Task 16
+[RB11] [PASS] news-feature.html — 375px/iframe — 条目细线连续（每条有上界线） — 1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)
+[RB11] [PASS] news-feature.html — 375px/iframe — 末条有下界线（细线不半路消失） — 1px solid rgb(184, 170, 152)
+[RB12] [PASS] news-feature.html — 375px/iframe — 标题左缘与版心左缘对齐 — 16.0,16.0,16.0,16.0
+[RB12m] [PASS] news-feature.html — 375px/iframe — 移动堆叠档：日期与标题同贴版心左缘（对齐面随版式换，不放宽） — 16.0,16.0,16.0,16.0
+[RB13] [PASS] news-feature.html — 375px/iframe — 标题折行数由 Range.getClientRects().length 判得 ≥1 — 2,2,2,2
+[RK2b] [FAIL] news-feature.html — 375px/iframe — 视觉次序（bounding box 排序）== DOM 次序 — 期望 新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻通讯样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻通讯样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） — 移交: Task 16
+[RB1] [PASS] news-message.html — 1024px — 桌面无横向溢出（scrollWidth<=clientWidth） — 1024<=1024
+[RB1] [PASS] news-message.html — 1024px — 报头版心不超出 视口−2×--page-gutter — 960.0
+[RB1] [PASS] news-message.html — 1024px — 报头版心左右留白对称 — L=32.0 R=32.0
+[RB1] [PASS] news-message.html — 1024px — 正文容器与报头同宽 — 960.0 vs 960.0
+[RB2] [PASS] news-message.html — 1024px — <h1> 逐字符等于矩阵期望 — 新闻消息
+[RB2] [PASS] news-message.html — 1024px — 每页恰好一个 <h1> — 1
+[RB2] [PASS] news-message.html — 1024px — R3：每页 <nav> 数恒为 1（最新区不得引入第二个 nav） — 1
+[RB3] [PASS] news-message.html — 1024px — 报头单行完整显示、不被裁切（站点名取自矩阵后缀） — 自然选择号 行=1 381/381
+[RB3] [PASS] news-message.html — 1024px — 报头上下双细线（v1 RB3 语义无损迁移） — 3px double rgb(184, 170, 152) / 3px double rgb(184, 170, 152)
+[RB3] [PASS] news-message.html — 1024px — 双细线不被报头文字穿越 — {"above":20,"below":20}
+[RB3] [PASS] news-message.html — 1024px — 主导航 4 项同一行 — 150,150,150,150
+[RB3] [PASS] news-message.html — 1024px — 桌面导航顺序按 bounding box 读屏（不读源码顺序） — 首页|新闻消息|新闻通讯|新闻评论
+[RB3] [PASS] news-message.html — 1024px — 导航项互不重叠 — 331-366,406-475,515-584,624-693
+[RB4] [PASS] news-message.html — 1024px — 桌面隐藏菜单按钮（三态表末行） — none
+[RB4] [PASS] news-message.html — 1024px — 主导航横向常显、无 is-open 残留 — block/row/open=false
+[RB5] [PASS] news-message.html — 1024px — aria-current 落在矩阵规定的链接上（自身／所属栏目页） — news-message.html（新闻消息）
+[RB5] [PASS] news-message.html — 1024px — 每页恰好一个 aria-current="page" — 1
+[RB5] [PASS] news-message.html — 1024px — 当前项=暗红+700+实下边线（三重区分，不单靠颜色） — rgb(122, 36, 36)/700/2px solid rgb(122, 36, 36)
+[RB5] [PASS] news-message.html — 1024px — 非当前项导航链接为墨色（组件覆盖 a 基础色；已访问态另有 R-N 两条链，不在此放宽） — 首页=rgb(33, 31, 28),新闻通讯=rgb(33, 31, 28),新闻评论=rgb(33, 31, 28)
+[RB5] [PASS] news-message.html — 1024px — 链接无 overflow 裁切祖先（焦点轮廓不被裁） — ok,ok,ok,ok
+[RB5] [PASS] news-message.html — 1024px — 强制 hover 第 1 项：仅变暗红，不位移不缩放 — rgb(33, 31, 28)→rgb(122, 36, 36)
+[RB6] [PASS] news-message.html — 1024px — 暖白纸色底（--color-paper 解析值） — rgb(245, 239, 228)
+[RB6] [PASS] news-message.html — 1024px — 深色文字（--color-ink 解析值） — rgb(33, 31, 28)
+[RB6] [PASS] news-message.html — 1024px — 宋体字体栈且保留 serif 回退 — "Songti SC", STSong, SimSun, serif
+[RB6] [PASS] news-message.html — 1024px — 样式表可解析（95 条规则） — 规则 95
+[RB6] [PASS] news-message.html — 1024px — 无被禁视觉（渐变/阴影/圆角/分栏/滤镜/缩放过渡） — 0 类
+[RB8] [FAIL] news-message.html — 1024px — 条目数 == manifest 该栏目 articles 数（清单驱动） — 期望 1 / 实际 4 — 移交: Task 15
+[RB8] [PASS] news-message.html — 1024px — 每条 = 一个链接包标题与日期两个节点 — true/true/true,true/true/true,true/true/true,true/true/true
+[RB9] [PASS] news-message.html — 1024px — 列表版心 == min(--reading-max, 视口−2×gutter) 实测值 — 736.0px
+[RB9b] [PASS] news-message.html — 1024px — 列表版心不越出可用宽度 — 736.0
+[RB10] [FAIL] news-message.html — 1024px — 条目盒互不重叠（无重叠像素错位） — 期望 纵向不重叠 / 实际 640-736,543-640,447-543,349-447 — 移交: Task 16
+[RB11] [PASS] news-message.html — 1024px — 条目细线连续（每条有上界线） — 1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)
+[RB11] [PASS] news-message.html — 1024px — 末条有下界线（细线不半路消失） — 1px solid rgb(184, 170, 152)
+[RB12] [PASS] news-message.html — 1024px — 标题左缘与版心左缘对齐 — 144.0,144.0,144.0,144.0
+[RB12] [PASS] news-message.html — 1024px — 桌面同行两列：日期右缘与版心右缘对齐 — 880.0,880.0,880.0,880.0
+[RB13] [PASS] news-message.html — 1024px — 标题折行数由 Range.getClientRects().length 判得 ≥1 — 1,1,1,1
+[RK2b] [FAIL] news-message.html — 1024px — 视觉次序（bounding box 排序）== DOM 次序 — 期望 新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） — 移交: Task 16
+[RC1] [PASS] news-message.html — 375px — 左右留白各约移动档 --page-gutter=1rem — L=16.0 R=16.0
+[RC1] [PASS] news-message.html — 375px — 版心随可用宽度收缩，无固定内容宽度 — 343.0
+[RC1] [PASS] news-message.html — 375px — 无内部滚动区（不靠 overflow:auto 掩盖溢出） — 0 个
+[RC1] [PASS] news-message.html — 375px — 无超出视口的固定像素宽元素 — 0 个
+[RC1] [PASS] news-message.html — 375px — 报头内部改为纵向流 — flex/column
+[RC1] [PASS] news-message.html — 375px — 命中移动断点且未命中桌面断点（768/769 互补） — mqM=true mqD=false
+[RC2] [PASS] news-message.html — 375px — 报头按 clamp(2.5rem,11vw,3.5rem) 流式缩小 — 41.25px
+[RC2] [PASS] news-message.html — 375px — 报头与页面标题不溢出 — mast 236/236 · title 343/343
+[RC6] [PASS] news-message.html — 375px — 窄视口条目堆叠（链接为纵向流） — column,column,column,column
+[RC6] [PASS] news-message.html — 375px — 堆叠次序：标题在上、日期在下（bounding box 判） — 687<733,561<607,435<481,308<354
+[RC6] [PASS] news-message.html — 375px — 紧急换行只用 overflow-wrap:anywhere（word-break 保持 normal） — anywhere/normal,anywhere/normal,anywhere/normal,anywhere/normal
+[RC6] [PASS] news-message.html — 375px — 日期 white-space:nowrap 未被挤断（行盒数=1） — nowrap/1,nowrap/1,nowrap/1,nowrap/1
+[RC6] [PASS] news-message.html — 375px — 窄视口下日期不溢出自身盒 — 44/44,44/44,44/44,44/44
+[RC6] [PASS] news-message.html — 375px — 长标题不撑出横向滚动（标题盒内自洽） — 343/343,343/343,343/343,343/343
+[RC5] [PASS] news-message.html — 375px — 基线命中的中英混排术语在渲染文本中原样完整 — 无命中
+[RC5] [PASS] news-message.html — 375px — 未插入软连字符/零宽字符（原文字符不变） — 0
+[RC8] [PASS] news-message.html — 375px — CDP 覆盖档无横向溢出（不放宽 1px） — de=375 body=375 client=375
+[RC9] [PASS] news-message.html — 375px/iframe — 同域 iframe 布局视口确实等于目标宽度（探针自证，排除顶层窗口约 500px 下限造成的裁剪假象） — 375（宿主标题=ready:375:closed）
+[RC9] [PASS] news-message.html — 375px/iframe — iframe 档无横向溢出：documentElement.scrollWidth<=clientWidth — 375
+[RC9] [PASS] news-message.html — 375px/iframe — iframe 档 body.scrollWidth<=clientWidth — 375
+[RC9] [PASS] news-message.html — 375px/iframe — 两条视口量具读到的段落数一致（探针未读到不同状态） — 0
+[RC9] [PASS] news-message.html — 375px/iframe — 两条量具的条目数一致 — 4
+[RC9] [PASS] news-message.html — 375px/iframe — iframe 档条目堆叠同样标题在上 — 687<733,561<607,435<481,308<354
+[RB8] [FAIL] news-message.html — 375px/iframe — 条目数 == manifest 该栏目 articles 数（清单驱动） — 期望 1 / 实际 4 — 移交: Task 15
+[RB8] [PASS] news-message.html — 375px/iframe — 每条 = 一个链接包标题与日期两个节点 — true/true/true,true/true/true,true/true/true,true/true/true
+[RB10] [FAIL] news-message.html — 375px/iframe — 条目盒互不重叠（无重叠像素错位） — 期望 纵向不重叠 / 实际 658-784,532-658,406-532,279-406 — 移交: Task 16
+[RB11] [PASS] news-message.html — 375px/iframe — 条目细线连续（每条有上界线） — 1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)|1px solid rgb(184, 170, 152)
+[RB11] [PASS] news-message.html — 375px/iframe — 末条有下界线（细线不半路消失） — 1px solid rgb(184, 170, 152)
+[RB12] [PASS] news-message.html — 375px/iframe — 标题左缘与版心左缘对齐 — 16.0,16.0,16.0,16.0
+[RB12m] [PASS] news-message.html — 375px/iframe — 移动堆叠档：日期与标题同贴版心左缘（对齐面随版式换，不放宽） — 16.0,16.0,16.0,16.0
+[RB13] [PASS] news-message.html — 375px/iframe — 标题折行数由 Range.getClientRects().length 判得 ≥1 — 2,2,2,2
+[RK2b] [FAIL] news-message.html — 375px/iframe — 视觉次序（bounding box 排序）== DOM 次序 — 期望 新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note） / 实际 新闻消息样本条目4（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目3（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目2（含 Windows 10 与 4K 混排长标题 volunteer-club-note）|新闻消息样本条目1（含 Windows 10 与 4K 混排长标题 volunteer-club-note） — 移交: Task 16
+[RJ5] [PASS] 全部 HTML 页全程 — 全部宽度/状态/操作 — 控制台 0 错误 0 警告 0 输出（含未捕获异常、浏览器日志与任何 console.log；探针自身不使用 console） — 0 条
+[RZ12] [REC] 全包 — - — 断言总数下限（≥1400）属全包闸门，单段模式记 REC，不参与判定 — 本段计分 530
+[RZ12] [PASS] 全包 — - — PENDING 恒为 0（等待外部动作只有 SKIPPED-BY-DESIGN 这一个名字） — 0
+[RZ10] [PASS] Results/ — - — 19.10 只读证明：Results/ 开工与完工逐项哈希相等 — 11 项 且内容一致
+[RZ10] [PASS] content/ — - — 19.10 只读证明：content/ 开工与完工逐项哈希相等 — 7 项 且内容一致
+[RZ10] [PASS] build/ — - — 19.10 只读证明：build/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] deploy/ — - — 19.10 只读证明：deploy/ 开工与完工逐项哈希相等 — 4 项 且内容一致
+[RZ10] [PASS] Materials/ — - — 19.10 只读证明：Materials/ 开工与完工逐项哈希相等 — 3 项 且内容一致
+[RZ10] [PASS] Results/ — - — 19.10 Results/ 无新增文件（压力样本与探针产物一律落在 _qa_task19/mutants/） — article-along-the-north-small-river.html,article-classroom-screen-upgrade.html,article-math-to-ai-learning.html,article-north-of-dam-river.html,article-school-course-volunteer.html,index.html,news-commentary.html,news-feature.html,news-message.html,script.js,styles.css
+[RZ11] [PASS] Results/ — - — 19.10 本包未修改任何被验对象（变异与压力跑均指向副本目录 C:\Users\weibo\Documents\语文报纸\qa\_qa_task19\mutants\m01-column-reverse） — ok
+[RZ11] [PASS] Results/ — - — 19.10 Results/ 内无清单外文件、无探针／截图／JSON 产物 — 0 个
+
+合计 542 条（计分 539）：PASS 521 / FAIL 18 / SKIPPED-BY-DESIGN 0 / REC 3 / PENDING 0

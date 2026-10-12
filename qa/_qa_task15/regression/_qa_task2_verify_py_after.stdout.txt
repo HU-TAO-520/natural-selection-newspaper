@@ -1,0 +1,41 @@
+断言 468 项 | 失败 40 项 => FAIL
+  FAIL: Results/ 恰好含四个 Task 2 HTML，名称与大小写准确 || 实际 ['article-classroom-screen-upgrade.html', 'article-math-to-ai-learning.html', 'article-school-course-volunteer.html', 'index.html', 'news-commentary.html', 'news-feature.html', 'news-message.html', 'script.js', 'styles.css']
+  FAIL: 未创建空 styles.css / script.js 占位文件 || 
+  FAIL: 项目根目录未产生约定外的新条目 || ['build', 'content', 'd9e2b35cb26c98dfbff2d77290cf1f0a.txt', 'deploy', 'Results.zip', '_qa_task10', '_qa_task11', '_qa_task13', '_qa_task14', '_qa_task15', '_qa_task3', '_qa_task4', '_qa_task5', '_qa_task6', '_qa_task7', '_qa_task8', '_qa_task9']
+  FAIL: news-message.html <title> 与页面登记表逐字符一致 || '新闻消息｜自然选择号' != '我校启动校本课程志愿填报｜自然选择号'
+  FAIL: news-feature.html <title> 与页面登记表逐字符一致 || '新闻通讯｜自然选择号' != '从数学题到AI时代的学习｜自然选择号'
+  FAIL: news-commentary.html <title> 与页面登记表逐字符一致 || '新闻评论｜自然选择号' != '设备升级了，使用门槛也该降下来｜自然选择号'
+  FAIL: index.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本 || ['h1', 'div', 'div']
+  FAIL: index.html 无公共壳合同外的标签（多出 ['h2', 'section']） || ['h2', 'section']
+  FAIL: news-message.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本 || ['h1', 'ul']
+  FAIL: news-message.html <h1> 为 class=page-title 且文字与登记表逐字符一致 || '新闻消息' != '我校启动校本课程志愿填报'
+  FAIL: news-feature.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本 || ['h1', 'ul']
+  FAIL: news-feature.html <h1> 为 class=page-title 且文字与登记表逐字符一致 || '新闻通讯' != '从数学题到AI时代的学习'
+  FAIL: news-commentary.html <main> 在 Task 2 阶段除唯一 <h1> 外无其他元素或可见文本 || ['h1', 'ul']
+  FAIL: news-commentary.html <h1> 为 class=page-title 且文字与登记表逐字符一致 || '新闻评论' != '设备升级了，使用门槛也该降下来'
+  FAIL: 规范化（title/h1/aria-current 三处）后四页 DOM 完全一致 || 
+  FAIL: 规范化后四页源码逐字节一致（严于 DOM 比较，含标签与属性顺序） || 
+  FAIL: news-message.html 与 index.html 规范化后无差异行 || -    <div class="home-sections"> | -      <section class="home-section" aria-labelledby="origin-title"> | -        <h2 class="home-section__title" id="origin-title">名称由来</h2> | -        <p class="home-section__text">我们的名字来自《三体》里的一支舰队。</p> | -      </section> | -
+  FAIL: news-feature.html 与 index.html 规范化后无差异行 || -    <div class="home-sections"> | -      <section class="home-section" aria-labelledby="origin-title"> | -        <h2 class="home-section__title" id="origin-title">名称由来</h2> | -        <p class="home-section__text">我们的名字来自《三体》里的一支舰队。</p> | -      </section> | -
+  FAIL: news-commentary.html 与 index.html 规范化后无差异行 || -    <div class="home-sections"> | -      <section class="home-section" aria-labelledby="origin-title"> | -        <h2 class="home-section__title" id="origin-title">名称由来</h2> | -        <p class="home-section__text">我们的名字来自《三体》里的一支舰队。</p> | -      </section> | -
+  FAIL: news-message.html 去除当前页标记后与 index.html 的行级差异只落在 title / h1 || ['OTHER', 'h1', 'title']
+  FAIL: news-message.html 等于 index.html 应用三处允许差异后的逐字节结果（无第四类差异） || 长度 3295 vs 1945
+  FAIL: news-feature.html 去除当前页标记后与 index.html 的行级差异只落在 title / h1 || ['OTHER', 'h1', 'title']
+  FAIL: news-feature.html 等于 index.html 应用三处允许差异后的逐字节结果（无第四类差异） || 长度 3295 vs 1941
+  FAIL: news-commentary.html 去除当前页标记后与 index.html 的行级差异只落在 title / h1 || ['OTHER', 'h1', 'title']
+  FAIL: news-commentary.html 等于 index.html 应用三处允许差异后的逐字节结果（无第四类差异） || 长度 3301 vs 1949
+  FAIL: 禁止串 “9月” 在四页命中 0 || ['index.html', 'news-message.html', 'news-feature.html', 'news-commentary.html']
+  FAIL: 禁止串 “role=” 在四页命中 0 || ['index.html']
+  FAIL: 禁止串 “<h2” 在四页命中 0 || ['index.html']
+  FAIL: 禁止串 “<section” 在四页命中 0 || ['index.html']
+  FAIL: index.html 可见文本集合精确等于 跳至正文 / 自然选择号 / 菜单 / 首页 / 新闻消息 / 新闻通讯 / 新闻评论 / 《自然选择号》报社简介 || ['跳至正文', '自然选择号', '菜单', '首页', '新闻消息', '新闻通讯', '新闻评论', '《自然选择号》报社简介', '名称由来', '我们的名字来自《三体》里的一支舰队。', '主要工作与报道方向', '我们主要记录一些自己觉得有价值的东西。', '成立时间', '报社成立于“鸽子衔枝之年”。', '最新报道', '我校启动校本课程志愿填报', '9月18日', '从数学题到AI时代的学习', '9月17日', '设备升级了，使用门槛也该降下来', '9月18日']
+  FAIL: index.html 无文章正文/署名/新闻日期/Word 属性的额外文本 || 21
+  FAIL: index.html 无页脚/搜索/评论/推荐/图片/外链/宣传语 || 
+  FAIL: news-message.html 可见文本集合精确等于 跳至正文 / 自然选择号 / 菜单 / 首页 / 新闻消息 / 新闻通讯 / 新闻评论 / 我校启动校本课程志愿填报 || ['跳至正文', '自然选择号', '菜单', '首页', '新闻消息', '新闻通讯', '新闻评论', '新闻消息', '我校启动校本课程志愿填报', '9月18日']
+  FAIL: news-message.html 无文章正文/署名/新闻日期/Word 属性的额外文本 || 10
+  FAIL: news-feature.html 可见文本集合精确等于 跳至正文 / 自然选择号 / 菜单 / 首页 / 新闻消息 / 新闻通讯 / 新闻评论 / 从数学题到AI时代的学习 || ['跳至正文', '自然选择号', '菜单', '首页', '新闻消息', '新闻通讯', '新闻评论', '新闻通讯', '从数学题到AI时代的学习', '9月17日']
+  FAIL: news-feature.html 无文章正文/署名/新闻日期/Word 属性的额外文本 || 10
+  FAIL: news-commentary.html 可见文本集合精确等于 跳至正文 / 自然选择号 / 菜单 / 首页 / 新闻消息 / 新闻通讯 / 新闻评论 / 设备升级了，使用门槛也该降下来 || ['跳至正文', '自然选择号', '菜单', '首页', '新闻消息', '新闻通讯', '新闻评论', '新闻评论', '设备升级了，使用门槛也该降下来', '9月18日']
+  FAIL: news-commentary.html 无文章正文/署名/新闻日期/Word 属性的额外文本 || 10
+  FAIL: Task 2 未提前实现样式/交互（Results/ 无 css/js，页面无 CSS 类定义） || 
+  FAIL: Task 2 未提前录入正文（<main> 内无 <article>/<p>/日期） || 

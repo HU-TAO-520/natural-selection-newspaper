@@ -1,0 +1,1870 @@
+{
+ "index.html": {
+  "file": "index.html",
+  "html": {
+   "attrs": {
+    "lang": "zh-CN",
+    "class": "js"
+   },
+   "lang": "zh-CN",
+   "cls": "js"
+  },
+  "headHTML": "\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>《自然选择号》报社简介｜自然选择号</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n  <script src=\"script.js\" defer=\"\"></script>\n",
+  "headTitle": "《自然选择号》报社简介｜自然选择号",
+  "metaCharset": [
+   "utf-8"
+  ],
+  "metaViewport": [
+   "width=device-width, initial-scale=1"
+  ],
+  "links": [
+   {
+    "rel": "stylesheet",
+    "href": "styles.css"
+   }
+  ],
+  "scripts": [
+   {
+    "attrs": {
+     "src": "script.js",
+     "defer": ""
+    },
+    "inline": false,
+    "text": ""
+   }
+  ],
+  "inlineStyleTags": 0,
+  "baseTags": 0,
+  "styleAttrs": [],
+  "eventAttrs": [],
+  "bodyChildren": [
+   {
+    "tag": "a",
+    "id": null,
+    "cls": "skip-link",
+    "attrs": {
+     "class": "skip-link",
+     "href": "#main-content"
+    },
+    "text": "跳至正文"
+   },
+   {
+    "tag": "header",
+    "id": null,
+    "cls": "site-header",
+    "attrs": {
+     "class": "site-header"
+    },
+    "text": "\n    \n      \n        自然选择号\n      \n\n      \n        \n        菜单\n      \n\n      \n        \n          \n            首页\n          \n          \n            新闻消息\n          \n          \n            新闻通讯\n          \n          \n            新闻评论\n          \n        \n      \n    \n  "
+   },
+   {
+    "tag": "main",
+    "id": "main-content",
+    "cls": "main-content",
+    "attrs": {
+     "class": "main-content",
+     "id": "main-content",
+     "tabindex": "-1"
+    },
+    "text": "\n    《自然选择号》报社简介\n\n    \n      \n        名称由来\n        我们的名字来自《三体》里的一支舰队。\n      \n\n      \n        主要工作与报道方向\n        我们主要记录一些自己觉得有价值的东西。\n      \n\n      \n        成立时间\n        报社成立于“鸽子衔枝之年”。\n      \n    \n\n    \n      最新报道\n      \n        \n          我校启动校本课程志愿填报9月18日\n        \n        \n          从数学题到AI时代的学习9月17日\n        \n        \n          设备升级了，使用门槛也该降下来9月18日\n        \n      \n    \n  "
+   }
+  ],
+  "bodyShellHTML": [
+   "<a class=\"skip-link\" href=\"#main-content\">跳至正文</a>",
+   "<header class=\"site-header\">\n    <div class=\"site-header__inner\">\n      <p class=\"site-masthead\">\n        <a class=\"site-masthead__link\" href=\"index.html\">自然选择号</a>\n      </p>\n\n      <button class=\"nav-toggle\" id=\"nav-toggle\" type=\"button\" aria-controls=\"site-navigation\" aria-expanded=\"false\">\n        <span class=\"nav-toggle__icon\" aria-hidden=\"true\"></span>\n        <span class=\"nav-toggle__text\">菜单</span>\n      </button>\n\n      <nav class=\"site-navigation\" id=\"site-navigation\" aria-label=\"主导航\">\n        <ul class=\"site-navigation__list\">\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"index.html\" aria-current=\"page\">首页</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-message.html\">新闻消息</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-feature.html\">新闻通讯</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-commentary.html\">新闻评论</a>\n          </li>\n        </ul>\n      </nav>\n    </div>\n  </header>"
+  ],
+  "mainHTML": "<main class=\"main-content\" id=\"main-content\" tabindex=\"-1\">\n    <h1 class=\"page-title\">《自然选择号》报社简介</h1>\n\n    <div class=\"home-sections\">\n      <section class=\"home-section\" aria-labelledby=\"origin-title\">\n        <h2 class=\"home-section__title\" id=\"origin-title\">名称由来</h2>\n        <p class=\"home-section__text\">我们的名字来自《三体》里的一支舰队。</p>\n      </section>\n\n      <section class=\"home-section\" aria-labelledby=\"work-title\">\n        <h2 class=\"home-section__title\" id=\"work-title\">主要工作与报道方向</h2>\n        <p class=\"home-section__text\">我们主要记录一些自己觉得有价值的东西。</p>\n      </section>\n\n      <section class=\"home-section\" aria-labelledby=\"founded-title\">\n        <h2 class=\"home-section__title\" id=\"founded-title\">成立时间</h2>\n        <p class=\"home-section__text\">报社成立于“鸽子衔枝之年”。</p>\n      </section>\n    </div>\n\n    <div class=\"home-latest\" role=\"region\" aria-labelledby=\"latest-title\">\n      <h2 class=\"home-latest__title\" id=\"latest-title\">最新报道</h2>\n      <ul class=\"home-latest__list\">\n        <li class=\"home-latest__item\">\n          <a class=\"home-latest__link\" href=\"article-school-course-volunteer.html\"><span class=\"home-latest__entry\">我校启动校本课程志愿填报</span><span class=\"home-latest__date\">9月18日</span></a>\n        </li>\n        <li class=\"home-latest__item\">\n          <a class=\"home-latest__link\" href=\"article-math-to-ai-learning.html\"><span class=\"home-latest__entry\">从数学题到AI时代的学习</span><span class=\"home-latest__date\">9月17日</span></a>\n        </li>\n        <li class=\"home-latest__item\">\n          <a class=\"home-latest__link\" href=\"article-classroom-screen-upgrade.html\"><span class=\"home-latest__entry\">设备升级了，使用门槛也该降下来</span><span class=\"home-latest__date\">9月18日</span></a>\n        </li>\n      </ul>\n    </div>\n  </main>",
+  "mainChildEls": [
+   {
+    "tag": "h1",
+    "id": null,
+    "cls": "page-title",
+    "attrs": {
+     "class": "page-title"
+    }
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "home-sections",
+    "attrs": {
+     "class": "home-sections"
+    }
+   },
+   {
+    "tag": "div",
+    "id": null,
+    "cls": "home-latest",
+    "attrs": {
+     "class": "home-latest",
+     "role": "region",
+     "aria-labelledby": "latest-title"
+    }
+   }
+  ],
+  "mainDirectElemTexts": [
+   "h1 :: 《自然选择号》报社简介",
+   "div :: \n      \n        名称由来\n        我们的名字来自《三体》里的一支舰队。\n      \n\n      \n        主要工作与报道方向\n        我们主要记录一些自己觉得有价值的东西。\n      \n\n      \n        成立时间\n        报社成立于“鸽子衔枝之年”。\n      \n    ",
+   "div :: \n      最新报道\n      \n        \n          我校启动校本课程志愿填报9月18日\n        \n        \n          从数学题到AI时代的学习9月17日\n        \n        \n          设备升级了，使用门槛也该降下来9月18日\n        \n      \n    "
+  ],
+  "h1s": [
+   {
+    "cls": "page-title",
+    "attrs": {
+     "class": "page-title"
+    },
+    "text": "《自然选择号》报社简介"
+   }
+  ],
+  "h2s": [
+   {
+    "cls": "home-section__title",
+    "text": "名称由来",
+    "inArticleBody": false
+   },
+   {
+    "cls": "home-section__title",
+    "text": "主要工作与报道方向",
+    "inArticleBody": false
+   },
+   {
+    "cls": "home-section__title",
+    "text": "成立时间",
+    "inArticleBody": false
+   },
+   {
+    "cls": "home-latest__title",
+    "text": "最新报道",
+    "inArticleBody": false
+   }
+  ],
+  "h3s": [],
+  "allIds": [
+   "nav-toggle",
+   "site-navigation",
+   "main-content",
+   "origin-title",
+   "work-title",
+   "founded-title",
+   "latest-title"
+  ],
+  "dupIds": [],
+  "skip": {
+   "tag": "a",
+   "href": "#main-content",
+   "text": "跳至正文",
+   "isBodyFirstChild": true
+  },
+  "counts": {
+   "siteHeader": 1,
+   "siteHeaderInner": 1,
+   "masthead": 1,
+   "mastheadLink": 1,
+   "navToggle": 1,
+   "nav": 1,
+   "navList": 1,
+   "navItem": 4,
+   "navLink": 4,
+   "main": 1,
+   "ariaCurrentPage": 1,
+   "ariaCurrentAny": 1,
+   "article": 0,
+   "articleHeader": 0,
+   "articleBody": 0,
+   "articleType": 0,
+   "articleByline": 0,
+   "articleDate": 0,
+   "homeSectionsWrap": 1,
+   "homeSection": 3,
+   "tabIndexMainNeg1": 1,
+   "pageTitle": 1,
+   "blockquote": 0,
+   "q": 0,
+   "cite": 0,
+   "ul": 2,
+   "ol": 0,
+   "liInBody": 3,
+   "img": 0,
+   "time": 0,
+   "datetimeAttr": 0,
+   "aInMain": 3,
+   "aInArticle": 0,
+   "strongInArticle": 0,
+   "br": 0,
+   "hr": 0,
+   "divInArticleBody": 0,
+   "footer": 0,
+   "form": 0,
+   "input": 0,
+   "svg": 0,
+   "em": 0,
+   "i": 0,
+   "b": 0,
+   "spanInBody": 6,
+   "code": 0,
+   "pre": 0,
+   "small": 0,
+   "sub": 0,
+   "sup": 0,
+   "s": 0,
+   "u": 0,
+   "mark": 0,
+   "abbr": 0,
+   "iframe": 0,
+   "objectTag": 0,
+   "embed": 0,
+   "video": 0,
+   "audio": 0,
+   "canvas": 0,
+   "figureTag": 0,
+   "picture": 0,
+   "tableTag": 0,
+   "sectionTotal": 3
+  },
+  "header": {
+   "exists": true,
+   "html": "<header class=\"site-header\">\n    <div class=\"site-header__inner\">\n      <p class=\"site-masthead\">\n        <a class=\"site-masthead__link\" href=\"index.html\">自然选择号</a>\n      </p>\n\n      <button class=\"nav-toggle\" id=\"nav-toggle\" type=\"button\" aria-controls=\"site-navigation\" aria-expanded=\"false\">\n        <span class=\"nav-toggle__icon\" aria-hidden=\"true\"></span>\n        <span class=\"nav-toggle__text\">菜单</span>\n      </button>\n\n      <nav class=\"site-navigation\" id=\"site-navigation\" aria-label=\"主导航\">\n        <ul class=\"site-navigation__list\">\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"index.html\" aria-current=\"page\">首页</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-message.html\">新闻消息</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-feature.html\">新闻通讯</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-commentary.html\">新闻评论</a>\n          </li>\n        </ul>\n      </nav>\n    </div>\n  </header>",
+   "innerParentIsHeader": true,
+   "innerChildren": [
+    {
+     "tag": "p",
+     "id": null,
+     "cls": "site-masthead",
+     "attrs": {
+      "class": "site-masthead"
+     }
+    },
+    {
+     "tag": "button",
+     "id": "nav-toggle",
+     "cls": "nav-toggle",
+     "attrs": {
+      "class": "nav-toggle",
+      "id": "nav-toggle",
+      "type": "button",
+      "aria-controls": "site-navigation",
+      "aria-expanded": "false"
+     }
+    },
+    {
+     "tag": "nav",
+     "id": "site-navigation",
+     "cls": "site-navigation",
+     "attrs": {
+      "class": "site-navigation",
+      "id": "site-navigation",
+      "aria-label": "主导航"
+     }
+    }
+   ],
+   "masthead": {
+    "tag": "p",
+    "attrs": {
+     "class": "site-masthead"
+    },
+    "text": "\n        自然选择号\n      ",
+    "childTags": [
+     "a"
+    ]
+   },
+   "mastheadLink": {
+    "attrs": {
+     "class": "site-masthead__link",
+     "href": "index.html"
+    },
+    "text": "自然选择号",
+    "parentTag": "p"
+   },
+   "orderInner": [
+    "p.site-masthead",
+    "button.nav-toggle",
+    "nav.site-navigation"
+   ]
+  },
+  "toggle": {
+   "tag": "button",
+   "attrs": {
+    "class": "nav-toggle",
+    "id": "nav-toggle",
+    "type": "button",
+    "aria-controls": "site-navigation",
+    "aria-expanded": "false"
+   },
+   "childTags": [
+    "span.nav-toggle__icon",
+    "span.nav-toggle__text"
+   ],
+   "icon": {
+    "attrs": {
+     "class": "nav-toggle__icon",
+     "aria-hidden": "true"
+    },
+    "html": "<span class=\"nav-toggle__icon\" aria-hidden=\"true\"></span>",
+    "directChild": true,
+    "text": ""
+   },
+   "textSpan": {
+    "attrs": {
+     "class": "nav-toggle__text"
+    },
+    "text": "菜单",
+    "directChild": true
+   },
+   "controlsEl": [
+    "nav"
+   ]
+  },
+  "nav": {
+   "attrs": {
+    "class": "site-navigation",
+    "id": "site-navigation",
+    "aria-label": "主导航"
+   },
+   "html": "<nav class=\"site-navigation\" id=\"site-navigation\" aria-label=\"主导航\">\n        <ul class=\"site-navigation__list\">\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"index.html\" aria-current=\"page\">首页</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-message.html\">新闻消息</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-feature.html\">新闻通讯</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-commentary.html\">新闻评论</a>\n          </li>\n        </ul>\n      </nav>",
+   "directChildTags": [
+    "ul"
+   ],
+   "ulIsDirectChild": true,
+   "listAttrs": {
+    "class": "site-navigation__list"
+   },
+   "items": [
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "index.html",
+       "aria-current": "page"
+      },
+      "text": "首页",
+      "directChild": true
+     }
+    },
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "news-message.html"
+      },
+      "text": "新闻消息",
+      "directChild": true
+     }
+    },
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "news-feature.html"
+      },
+      "text": "新闻通讯",
+      "directChild": true
+     }
+    },
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "news-commentary.html"
+      },
+      "text": "新闻评论",
+      "directChild": true
+     }
+    }
+   ]
+  },
+  "navSubtreeFlaggedAttrs": [],
+  "navLinks": [
+   {
+    "text": "首页",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "index.html",
+     "aria-current": "page"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   },
+   {
+    "text": "新闻消息",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "news-message.html"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   },
+   {
+    "text": "新闻通讯",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "news-feature.html"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   },
+   {
+    "text": "新闻评论",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "news-commentary.html"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   }
+  ],
+  "ariaCurrentEls": [
+   {
+    "tag": "a",
+    "cls": "site-navigation__link",
+    "val": "page",
+    "href": "index.html",
+    "text": "首页"
+   }
+  ],
+  "mainAttrs": {
+   "class": "main-content",
+   "id": "main-content",
+   "tabindex": "-1"
+  },
+  "sections": [
+   {
+    "attrs": {
+     "class": "home-section",
+     "aria-labelledby": "origin-title"
+    },
+    "ab": "origin-title",
+    "abResolvedCount": 1,
+    "abResolvesToOwnH2": true,
+    "childTags": [
+     "h2.home-section__title",
+     "p.home-section__text"
+    ],
+    "h2Count": 1,
+    "pCount": 1,
+    "directH2": true,
+    "directP": true,
+    "h2Id": "origin-title",
+    "h2Text": "名称由来",
+    "pText": "我们的名字来自《三体》里的一支舰队。",
+    "html": "\n        <h2 class=\"home-section__title\" id=\"origin-title\">名称由来</h2>\n        <p class=\"home-section__text\">我们的名字来自《三体》里的一支舰队。</p>\n      "
+   },
+   {
+    "attrs": {
+     "class": "home-section",
+     "aria-labelledby": "work-title"
+    },
+    "ab": "work-title",
+    "abResolvedCount": 1,
+    "abResolvesToOwnH2": true,
+    "childTags": [
+     "h2.home-section__title",
+     "p.home-section__text"
+    ],
+    "h2Count": 1,
+    "pCount": 1,
+    "directH2": true,
+    "directP": true,
+    "h2Id": "work-title",
+    "h2Text": "主要工作与报道方向",
+    "pText": "我们主要记录一些自己觉得有价值的东西。",
+    "html": "\n        <h2 class=\"home-section__title\" id=\"work-title\">主要工作与报道方向</h2>\n        <p class=\"home-section__text\">我们主要记录一些自己觉得有价值的东西。</p>\n      "
+   },
+   {
+    "attrs": {
+     "class": "home-section",
+     "aria-labelledby": "founded-title"
+    },
+    "ab": "founded-title",
+    "abResolvedCount": 1,
+    "abResolvesToOwnH2": true,
+    "childTags": [
+     "h2.home-section__title",
+     "p.home-section__text"
+    ],
+    "h2Count": 1,
+    "pCount": 1,
+    "directH2": true,
+    "directP": true,
+    "h2Id": "founded-title",
+    "h2Text": "成立时间",
+    "pText": "报社成立于“鸽子衔枝之年”。",
+    "html": "\n        <h2 class=\"home-section__title\" id=\"founded-title\">成立时间</h2>\n        <p class=\"home-section__text\">报社成立于“鸽子衔枝之年”。</p>\n      "
+   }
+  ],
+  "article": null,
+  "paragraphs": [],
+  "dateline": null,
+  "bodyText": "\n  跳至正文\n\n  \n    \n      \n        自然选择号\n      \n\n      \n        \n        菜单\n      \n\n      \n        \n          \n            首页\n          \n          \n            新闻消息\n          \n          \n            新闻通讯\n          \n          \n            新闻评论\n          \n        \n      \n    \n  \n\n  \n    《自然选择号》报社简介\n\n    \n      \n        名称由来\n        我们的名字来自《三体》里的一支舰队。\n      \n\n      \n        主要工作与报道方向\n        我们主要记录一些自己觉得有价值的东西。\n      \n\n      \n        成立时间\n        报社成立于“鸽子衔枝之年”。\n      \n    \n\n    \n      最新报道\n      \n        \n          我校启动校本课程志愿填报9月18日\n        \n        \n          从数学题到AI时代的学习9月17日\n        \n        \n          设备升级了，使用门槛也该降下来9月18日\n        \n      \n    \n  \n\n\n",
+  "cssParse": {
+   "ok": true,
+   "top": 45,
+   "mediaCount": 1,
+   "mediaIdx": 44,
+   "lastIsMedia": true,
+   "href": "styles.css",
+   "mediaText": "(max-width: 768px)"
+  },
+  "paraBoundary": [],
+  "textLen": [],
+  "homeTextLen": [
+   18,
+   19,
+   14
+  ]
+ },
+ "news-message.html": {
+  "file": "news-message.html",
+  "html": {
+   "attrs": {
+    "lang": "zh-CN",
+    "class": "js"
+   },
+   "lang": "zh-CN",
+   "cls": "js"
+  },
+  "headHTML": "\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>新闻消息｜自然选择号</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n  <script src=\"script.js\" defer=\"\"></script>\n",
+  "headTitle": "新闻消息｜自然选择号",
+  "metaCharset": [
+   "utf-8"
+  ],
+  "metaViewport": [
+   "width=device-width, initial-scale=1"
+  ],
+  "links": [
+   {
+    "rel": "stylesheet",
+    "href": "styles.css"
+   }
+  ],
+  "scripts": [
+   {
+    "attrs": {
+     "src": "script.js",
+     "defer": ""
+    },
+    "inline": false,
+    "text": ""
+   }
+  ],
+  "inlineStyleTags": 0,
+  "baseTags": 0,
+  "styleAttrs": [],
+  "eventAttrs": [],
+  "bodyChildren": [
+   {
+    "tag": "a",
+    "id": null,
+    "cls": "skip-link",
+    "attrs": {
+     "class": "skip-link",
+     "href": "#main-content"
+    },
+    "text": "跳至正文"
+   },
+   {
+    "tag": "header",
+    "id": null,
+    "cls": "site-header",
+    "attrs": {
+     "class": "site-header"
+    },
+    "text": "\n    \n      \n        自然选择号\n      \n\n      \n        \n        菜单\n      \n\n      \n        \n          \n            首页\n          \n          \n            新闻消息\n          \n          \n            新闻通讯\n          \n          \n            新闻评论\n          \n        \n      \n    \n  "
+   },
+   {
+    "tag": "main",
+    "id": "main-content",
+    "cls": "main-content",
+    "attrs": {
+     "class": "main-content",
+     "id": "main-content",
+     "tabindex": "-1"
+    },
+    "text": "\n    新闻消息\n\n    \n      \n        我校启动校本课程志愿填报9月18日\n      \n    \n  "
+   }
+  ],
+  "bodyShellHTML": [
+   "<a class=\"skip-link\" href=\"#main-content\">跳至正文</a>",
+   "<header class=\"site-header\">\n    <div class=\"site-header__inner\">\n      <p class=\"site-masthead\">\n        <a class=\"site-masthead__link\" href=\"index.html\">自然选择号</a>\n      </p>\n\n      <button class=\"nav-toggle\" id=\"nav-toggle\" type=\"button\" aria-controls=\"site-navigation\" aria-expanded=\"false\">\n        <span class=\"nav-toggle__icon\" aria-hidden=\"true\"></span>\n        <span class=\"nav-toggle__text\">菜单</span>\n      </button>\n\n      <nav class=\"site-navigation\" id=\"site-navigation\" aria-label=\"主导航\">\n        <ul class=\"site-navigation__list\">\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"index.html\">首页</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-message.html\" aria-current=\"page\">新闻消息</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-feature.html\">新闻通讯</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-commentary.html\">新闻评论</a>\n          </li>\n        </ul>\n      </nav>\n    </div>\n  </header>"
+  ],
+  "mainHTML": "<main class=\"main-content\" id=\"main-content\" tabindex=\"-1\">\n    <h1 class=\"page-title\">新闻消息</h1>\n\n    <ul class=\"entry-list\">\n      <li class=\"entry-list__item\">\n        <a class=\"entry-list__link\" href=\"article-school-course-volunteer.html\"><span class=\"entry-list__title\">我校启动校本课程志愿填报</span><span class=\"entry-list__date\">9月18日</span></a>\n      </li>\n    </ul>\n  </main>",
+  "mainChildEls": [
+   {
+    "tag": "h1",
+    "id": null,
+    "cls": "page-title",
+    "attrs": {
+     "class": "page-title"
+    }
+   },
+   {
+    "tag": "ul",
+    "id": null,
+    "cls": "entry-list",
+    "attrs": {
+     "class": "entry-list"
+    }
+   }
+  ],
+  "mainDirectElemTexts": [
+   "h1 :: 新闻消息",
+   "ul :: \n      \n        我校启动校本课程志愿填报9月18日\n      \n    "
+  ],
+  "h1s": [
+   {
+    "cls": "page-title",
+    "attrs": {
+     "class": "page-title"
+    },
+    "text": "新闻消息"
+   }
+  ],
+  "h2s": [],
+  "h3s": [],
+  "allIds": [
+   "nav-toggle",
+   "site-navigation",
+   "main-content"
+  ],
+  "dupIds": [],
+  "skip": {
+   "tag": "a",
+   "href": "#main-content",
+   "text": "跳至正文",
+   "isBodyFirstChild": true
+  },
+  "counts": {
+   "siteHeader": 1,
+   "siteHeaderInner": 1,
+   "masthead": 1,
+   "mastheadLink": 1,
+   "navToggle": 1,
+   "nav": 1,
+   "navList": 1,
+   "navItem": 4,
+   "navLink": 4,
+   "main": 1,
+   "ariaCurrentPage": 1,
+   "ariaCurrentAny": 1,
+   "article": 0,
+   "articleHeader": 0,
+   "articleBody": 0,
+   "articleType": 0,
+   "articleByline": 0,
+   "articleDate": 0,
+   "homeSectionsWrap": 0,
+   "homeSection": 0,
+   "tabIndexMainNeg1": 1,
+   "pageTitle": 1,
+   "blockquote": 0,
+   "q": 0,
+   "cite": 0,
+   "ul": 2,
+   "ol": 0,
+   "liInBody": 1,
+   "img": 0,
+   "time": 0,
+   "datetimeAttr": 0,
+   "aInMain": 1,
+   "aInArticle": 0,
+   "strongInArticle": 0,
+   "br": 0,
+   "hr": 0,
+   "divInArticleBody": 0,
+   "footer": 0,
+   "form": 0,
+   "input": 0,
+   "svg": 0,
+   "em": 0,
+   "i": 0,
+   "b": 0,
+   "spanInBody": 2,
+   "code": 0,
+   "pre": 0,
+   "small": 0,
+   "sub": 0,
+   "sup": 0,
+   "s": 0,
+   "u": 0,
+   "mark": 0,
+   "abbr": 0,
+   "iframe": 0,
+   "objectTag": 0,
+   "embed": 0,
+   "video": 0,
+   "audio": 0,
+   "canvas": 0,
+   "figureTag": 0,
+   "picture": 0,
+   "tableTag": 0,
+   "sectionTotal": 0
+  },
+  "header": {
+   "exists": true,
+   "html": "<header class=\"site-header\">\n    <div class=\"site-header__inner\">\n      <p class=\"site-masthead\">\n        <a class=\"site-masthead__link\" href=\"index.html\">自然选择号</a>\n      </p>\n\n      <button class=\"nav-toggle\" id=\"nav-toggle\" type=\"button\" aria-controls=\"site-navigation\" aria-expanded=\"false\">\n        <span class=\"nav-toggle__icon\" aria-hidden=\"true\"></span>\n        <span class=\"nav-toggle__text\">菜单</span>\n      </button>\n\n      <nav class=\"site-navigation\" id=\"site-navigation\" aria-label=\"主导航\">\n        <ul class=\"site-navigation__list\">\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"index.html\">首页</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-message.html\" aria-current=\"page\">新闻消息</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-feature.html\">新闻通讯</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-commentary.html\">新闻评论</a>\n          </li>\n        </ul>\n      </nav>\n    </div>\n  </header>",
+   "innerParentIsHeader": true,
+   "innerChildren": [
+    {
+     "tag": "p",
+     "id": null,
+     "cls": "site-masthead",
+     "attrs": {
+      "class": "site-masthead"
+     }
+    },
+    {
+     "tag": "button",
+     "id": "nav-toggle",
+     "cls": "nav-toggle",
+     "attrs": {
+      "class": "nav-toggle",
+      "id": "nav-toggle",
+      "type": "button",
+      "aria-controls": "site-navigation",
+      "aria-expanded": "false"
+     }
+    },
+    {
+     "tag": "nav",
+     "id": "site-navigation",
+     "cls": "site-navigation",
+     "attrs": {
+      "class": "site-navigation",
+      "id": "site-navigation",
+      "aria-label": "主导航"
+     }
+    }
+   ],
+   "masthead": {
+    "tag": "p",
+    "attrs": {
+     "class": "site-masthead"
+    },
+    "text": "\n        自然选择号\n      ",
+    "childTags": [
+     "a"
+    ]
+   },
+   "mastheadLink": {
+    "attrs": {
+     "class": "site-masthead__link",
+     "href": "index.html"
+    },
+    "text": "自然选择号",
+    "parentTag": "p"
+   },
+   "orderInner": [
+    "p.site-masthead",
+    "button.nav-toggle",
+    "nav.site-navigation"
+   ]
+  },
+  "toggle": {
+   "tag": "button",
+   "attrs": {
+    "class": "nav-toggle",
+    "id": "nav-toggle",
+    "type": "button",
+    "aria-controls": "site-navigation",
+    "aria-expanded": "false"
+   },
+   "childTags": [
+    "span.nav-toggle__icon",
+    "span.nav-toggle__text"
+   ],
+   "icon": {
+    "attrs": {
+     "class": "nav-toggle__icon",
+     "aria-hidden": "true"
+    },
+    "html": "<span class=\"nav-toggle__icon\" aria-hidden=\"true\"></span>",
+    "directChild": true,
+    "text": ""
+   },
+   "textSpan": {
+    "attrs": {
+     "class": "nav-toggle__text"
+    },
+    "text": "菜单",
+    "directChild": true
+   },
+   "controlsEl": [
+    "nav"
+   ]
+  },
+  "nav": {
+   "attrs": {
+    "class": "site-navigation",
+    "id": "site-navigation",
+    "aria-label": "主导航"
+   },
+   "html": "<nav class=\"site-navigation\" id=\"site-navigation\" aria-label=\"主导航\">\n        <ul class=\"site-navigation__list\">\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"index.html\">首页</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-message.html\" aria-current=\"page\">新闻消息</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-feature.html\">新闻通讯</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-commentary.html\">新闻评论</a>\n          </li>\n        </ul>\n      </nav>",
+   "directChildTags": [
+    "ul"
+   ],
+   "ulIsDirectChild": true,
+   "listAttrs": {
+    "class": "site-navigation__list"
+   },
+   "items": [
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "index.html"
+      },
+      "text": "首页",
+      "directChild": true
+     }
+    },
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "news-message.html",
+       "aria-current": "page"
+      },
+      "text": "新闻消息",
+      "directChild": true
+     }
+    },
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "news-feature.html"
+      },
+      "text": "新闻通讯",
+      "directChild": true
+     }
+    },
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "news-commentary.html"
+      },
+      "text": "新闻评论",
+      "directChild": true
+     }
+    }
+   ]
+  },
+  "navSubtreeFlaggedAttrs": [],
+  "navLinks": [
+   {
+    "text": "首页",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "index.html"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   },
+   {
+    "text": "新闻消息",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "news-message.html",
+     "aria-current": "page"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   },
+   {
+    "text": "新闻通讯",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "news-feature.html"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   },
+   {
+    "text": "新闻评论",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "news-commentary.html"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   }
+  ],
+  "ariaCurrentEls": [
+   {
+    "tag": "a",
+    "cls": "site-navigation__link",
+    "val": "page",
+    "href": "news-message.html",
+    "text": "新闻消息"
+   }
+  ],
+  "mainAttrs": {
+   "class": "main-content",
+   "id": "main-content",
+   "tabindex": "-1"
+  },
+  "sections": [],
+  "article": null,
+  "paragraphs": [],
+  "dateline": null,
+  "bodyText": "\n  跳至正文\n\n  \n    \n      \n        自然选择号\n      \n\n      \n        \n        菜单\n      \n\n      \n        \n          \n            首页\n          \n          \n            新闻消息\n          \n          \n            新闻通讯\n          \n          \n            新闻评论\n          \n        \n      \n    \n  \n\n  \n    新闻消息\n\n    \n      \n        我校启动校本课程志愿填报9月18日\n      \n    \n  \n\n\n",
+  "cssParse": {
+   "ok": true,
+   "top": 45,
+   "mediaCount": 1,
+   "mediaIdx": 44,
+   "lastIsMedia": true,
+   "href": "styles.css",
+   "mediaText": "(max-width: 768px)"
+  },
+  "paraBoundary": [],
+  "textLen": [],
+  "homeTextLen": []
+ },
+ "news-feature.html": {
+  "file": "news-feature.html",
+  "html": {
+   "attrs": {
+    "lang": "zh-CN",
+    "class": "js"
+   },
+   "lang": "zh-CN",
+   "cls": "js"
+  },
+  "headHTML": "\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>新闻通讯｜自然选择号</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n  <script src=\"script.js\" defer=\"\"></script>\n",
+  "headTitle": "新闻通讯｜自然选择号",
+  "metaCharset": [
+   "utf-8"
+  ],
+  "metaViewport": [
+   "width=device-width, initial-scale=1"
+  ],
+  "links": [
+   {
+    "rel": "stylesheet",
+    "href": "styles.css"
+   }
+  ],
+  "scripts": [
+   {
+    "attrs": {
+     "src": "script.js",
+     "defer": ""
+    },
+    "inline": false,
+    "text": ""
+   }
+  ],
+  "inlineStyleTags": 0,
+  "baseTags": 0,
+  "styleAttrs": [],
+  "eventAttrs": [],
+  "bodyChildren": [
+   {
+    "tag": "a",
+    "id": null,
+    "cls": "skip-link",
+    "attrs": {
+     "class": "skip-link",
+     "href": "#main-content"
+    },
+    "text": "跳至正文"
+   },
+   {
+    "tag": "header",
+    "id": null,
+    "cls": "site-header",
+    "attrs": {
+     "class": "site-header"
+    },
+    "text": "\n    \n      \n        自然选择号\n      \n\n      \n        \n        菜单\n      \n\n      \n        \n          \n            首页\n          \n          \n            新闻消息\n          \n          \n            新闻通讯\n          \n          \n            新闻评论\n          \n        \n      \n    \n  "
+   },
+   {
+    "tag": "main",
+    "id": "main-content",
+    "cls": "main-content",
+    "attrs": {
+     "class": "main-content",
+     "id": "main-content",
+     "tabindex": "-1"
+    },
+    "text": "\n    新闻通讯\n\n    \n      \n        从数学题到AI时代的学习9月17日\n      \n    \n  "
+   }
+  ],
+  "bodyShellHTML": [
+   "<a class=\"skip-link\" href=\"#main-content\">跳至正文</a>",
+   "<header class=\"site-header\">\n    <div class=\"site-header__inner\">\n      <p class=\"site-masthead\">\n        <a class=\"site-masthead__link\" href=\"index.html\">自然选择号</a>\n      </p>\n\n      <button class=\"nav-toggle\" id=\"nav-toggle\" type=\"button\" aria-controls=\"site-navigation\" aria-expanded=\"false\">\n        <span class=\"nav-toggle__icon\" aria-hidden=\"true\"></span>\n        <span class=\"nav-toggle__text\">菜单</span>\n      </button>\n\n      <nav class=\"site-navigation\" id=\"site-navigation\" aria-label=\"主导航\">\n        <ul class=\"site-navigation__list\">\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"index.html\">首页</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-message.html\">新闻消息</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-feature.html\" aria-current=\"page\">新闻通讯</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-commentary.html\">新闻评论</a>\n          </li>\n        </ul>\n      </nav>\n    </div>\n  </header>"
+  ],
+  "mainHTML": "<main class=\"main-content\" id=\"main-content\" tabindex=\"-1\">\n    <h1 class=\"page-title\">新闻通讯</h1>\n\n    <ul class=\"entry-list\">\n      <li class=\"entry-list__item\">\n        <a class=\"entry-list__link\" href=\"article-math-to-ai-learning.html\"><span class=\"entry-list__title\">从数学题到AI时代的学习</span><span class=\"entry-list__date\">9月17日</span></a>\n      </li>\n    </ul>\n  </main>",
+  "mainChildEls": [
+   {
+    "tag": "h1",
+    "id": null,
+    "cls": "page-title",
+    "attrs": {
+     "class": "page-title"
+    }
+   },
+   {
+    "tag": "ul",
+    "id": null,
+    "cls": "entry-list",
+    "attrs": {
+     "class": "entry-list"
+    }
+   }
+  ],
+  "mainDirectElemTexts": [
+   "h1 :: 新闻通讯",
+   "ul :: \n      \n        从数学题到AI时代的学习9月17日\n      \n    "
+  ],
+  "h1s": [
+   {
+    "cls": "page-title",
+    "attrs": {
+     "class": "page-title"
+    },
+    "text": "新闻通讯"
+   }
+  ],
+  "h2s": [],
+  "h3s": [],
+  "allIds": [
+   "nav-toggle",
+   "site-navigation",
+   "main-content"
+  ],
+  "dupIds": [],
+  "skip": {
+   "tag": "a",
+   "href": "#main-content",
+   "text": "跳至正文",
+   "isBodyFirstChild": true
+  },
+  "counts": {
+   "siteHeader": 1,
+   "siteHeaderInner": 1,
+   "masthead": 1,
+   "mastheadLink": 1,
+   "navToggle": 1,
+   "nav": 1,
+   "navList": 1,
+   "navItem": 4,
+   "navLink": 4,
+   "main": 1,
+   "ariaCurrentPage": 1,
+   "ariaCurrentAny": 1,
+   "article": 0,
+   "articleHeader": 0,
+   "articleBody": 0,
+   "articleType": 0,
+   "articleByline": 0,
+   "articleDate": 0,
+   "homeSectionsWrap": 0,
+   "homeSection": 0,
+   "tabIndexMainNeg1": 1,
+   "pageTitle": 1,
+   "blockquote": 0,
+   "q": 0,
+   "cite": 0,
+   "ul": 2,
+   "ol": 0,
+   "liInBody": 1,
+   "img": 0,
+   "time": 0,
+   "datetimeAttr": 0,
+   "aInMain": 1,
+   "aInArticle": 0,
+   "strongInArticle": 0,
+   "br": 0,
+   "hr": 0,
+   "divInArticleBody": 0,
+   "footer": 0,
+   "form": 0,
+   "input": 0,
+   "svg": 0,
+   "em": 0,
+   "i": 0,
+   "b": 0,
+   "spanInBody": 2,
+   "code": 0,
+   "pre": 0,
+   "small": 0,
+   "sub": 0,
+   "sup": 0,
+   "s": 0,
+   "u": 0,
+   "mark": 0,
+   "abbr": 0,
+   "iframe": 0,
+   "objectTag": 0,
+   "embed": 0,
+   "video": 0,
+   "audio": 0,
+   "canvas": 0,
+   "figureTag": 0,
+   "picture": 0,
+   "tableTag": 0,
+   "sectionTotal": 0
+  },
+  "header": {
+   "exists": true,
+   "html": "<header class=\"site-header\">\n    <div class=\"site-header__inner\">\n      <p class=\"site-masthead\">\n        <a class=\"site-masthead__link\" href=\"index.html\">自然选择号</a>\n      </p>\n\n      <button class=\"nav-toggle\" id=\"nav-toggle\" type=\"button\" aria-controls=\"site-navigation\" aria-expanded=\"false\">\n        <span class=\"nav-toggle__icon\" aria-hidden=\"true\"></span>\n        <span class=\"nav-toggle__text\">菜单</span>\n      </button>\n\n      <nav class=\"site-navigation\" id=\"site-navigation\" aria-label=\"主导航\">\n        <ul class=\"site-navigation__list\">\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"index.html\">首页</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-message.html\">新闻消息</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-feature.html\" aria-current=\"page\">新闻通讯</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-commentary.html\">新闻评论</a>\n          </li>\n        </ul>\n      </nav>\n    </div>\n  </header>",
+   "innerParentIsHeader": true,
+   "innerChildren": [
+    {
+     "tag": "p",
+     "id": null,
+     "cls": "site-masthead",
+     "attrs": {
+      "class": "site-masthead"
+     }
+    },
+    {
+     "tag": "button",
+     "id": "nav-toggle",
+     "cls": "nav-toggle",
+     "attrs": {
+      "class": "nav-toggle",
+      "id": "nav-toggle",
+      "type": "button",
+      "aria-controls": "site-navigation",
+      "aria-expanded": "false"
+     }
+    },
+    {
+     "tag": "nav",
+     "id": "site-navigation",
+     "cls": "site-navigation",
+     "attrs": {
+      "class": "site-navigation",
+      "id": "site-navigation",
+      "aria-label": "主导航"
+     }
+    }
+   ],
+   "masthead": {
+    "tag": "p",
+    "attrs": {
+     "class": "site-masthead"
+    },
+    "text": "\n        自然选择号\n      ",
+    "childTags": [
+     "a"
+    ]
+   },
+   "mastheadLink": {
+    "attrs": {
+     "class": "site-masthead__link",
+     "href": "index.html"
+    },
+    "text": "自然选择号",
+    "parentTag": "p"
+   },
+   "orderInner": [
+    "p.site-masthead",
+    "button.nav-toggle",
+    "nav.site-navigation"
+   ]
+  },
+  "toggle": {
+   "tag": "button",
+   "attrs": {
+    "class": "nav-toggle",
+    "id": "nav-toggle",
+    "type": "button",
+    "aria-controls": "site-navigation",
+    "aria-expanded": "false"
+   },
+   "childTags": [
+    "span.nav-toggle__icon",
+    "span.nav-toggle__text"
+   ],
+   "icon": {
+    "attrs": {
+     "class": "nav-toggle__icon",
+     "aria-hidden": "true"
+    },
+    "html": "<span class=\"nav-toggle__icon\" aria-hidden=\"true\"></span>",
+    "directChild": true,
+    "text": ""
+   },
+   "textSpan": {
+    "attrs": {
+     "class": "nav-toggle__text"
+    },
+    "text": "菜单",
+    "directChild": true
+   },
+   "controlsEl": [
+    "nav"
+   ]
+  },
+  "nav": {
+   "attrs": {
+    "class": "site-navigation",
+    "id": "site-navigation",
+    "aria-label": "主导航"
+   },
+   "html": "<nav class=\"site-navigation\" id=\"site-navigation\" aria-label=\"主导航\">\n        <ul class=\"site-navigation__list\">\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"index.html\">首页</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-message.html\">新闻消息</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-feature.html\" aria-current=\"page\">新闻通讯</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-commentary.html\">新闻评论</a>\n          </li>\n        </ul>\n      </nav>",
+   "directChildTags": [
+    "ul"
+   ],
+   "ulIsDirectChild": true,
+   "listAttrs": {
+    "class": "site-navigation__list"
+   },
+   "items": [
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "index.html"
+      },
+      "text": "首页",
+      "directChild": true
+     }
+    },
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "news-message.html"
+      },
+      "text": "新闻消息",
+      "directChild": true
+     }
+    },
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "news-feature.html",
+       "aria-current": "page"
+      },
+      "text": "新闻通讯",
+      "directChild": true
+     }
+    },
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "news-commentary.html"
+      },
+      "text": "新闻评论",
+      "directChild": true
+     }
+    }
+   ]
+  },
+  "navSubtreeFlaggedAttrs": [],
+  "navLinks": [
+   {
+    "text": "首页",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "index.html"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   },
+   {
+    "text": "新闻消息",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "news-message.html"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   },
+   {
+    "text": "新闻通讯",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "news-feature.html",
+     "aria-current": "page"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   },
+   {
+    "text": "新闻评论",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "news-commentary.html"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   }
+  ],
+  "ariaCurrentEls": [
+   {
+    "tag": "a",
+    "cls": "site-navigation__link",
+    "val": "page",
+    "href": "news-feature.html",
+    "text": "新闻通讯"
+   }
+  ],
+  "mainAttrs": {
+   "class": "main-content",
+   "id": "main-content",
+   "tabindex": "-1"
+  },
+  "sections": [],
+  "article": null,
+  "paragraphs": [],
+  "dateline": null,
+  "bodyText": "\n  跳至正文\n\n  \n    \n      \n        自然选择号\n      \n\n      \n        \n        菜单\n      \n\n      \n        \n          \n            首页\n          \n          \n            新闻消息\n          \n          \n            新闻通讯\n          \n          \n            新闻评论\n          \n        \n      \n    \n  \n\n  \n    新闻通讯\n\n    \n      \n        从数学题到AI时代的学习9月17日\n      \n    \n  \n\n\n",
+  "cssParse": {
+   "ok": true,
+   "top": 45,
+   "mediaCount": 1,
+   "mediaIdx": 44,
+   "lastIsMedia": true,
+   "href": "styles.css",
+   "mediaText": "(max-width: 768px)"
+  },
+  "paraBoundary": [],
+  "textLen": [],
+  "homeTextLen": []
+ },
+ "news-commentary.html": {
+  "file": "news-commentary.html",
+  "html": {
+   "attrs": {
+    "lang": "zh-CN",
+    "class": "js"
+   },
+   "lang": "zh-CN",
+   "cls": "js"
+  },
+  "headHTML": "\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>新闻评论｜自然选择号</title>\n  <link rel=\"stylesheet\" href=\"styles.css\">\n  <script src=\"script.js\" defer=\"\"></script>\n",
+  "headTitle": "新闻评论｜自然选择号",
+  "metaCharset": [
+   "utf-8"
+  ],
+  "metaViewport": [
+   "width=device-width, initial-scale=1"
+  ],
+  "links": [
+   {
+    "rel": "stylesheet",
+    "href": "styles.css"
+   }
+  ],
+  "scripts": [
+   {
+    "attrs": {
+     "src": "script.js",
+     "defer": ""
+    },
+    "inline": false,
+    "text": ""
+   }
+  ],
+  "inlineStyleTags": 0,
+  "baseTags": 0,
+  "styleAttrs": [],
+  "eventAttrs": [],
+  "bodyChildren": [
+   {
+    "tag": "a",
+    "id": null,
+    "cls": "skip-link",
+    "attrs": {
+     "class": "skip-link",
+     "href": "#main-content"
+    },
+    "text": "跳至正文"
+   },
+   {
+    "tag": "header",
+    "id": null,
+    "cls": "site-header",
+    "attrs": {
+     "class": "site-header"
+    },
+    "text": "\n    \n      \n        自然选择号\n      \n\n      \n        \n        菜单\n      \n\n      \n        \n          \n            首页\n          \n          \n            新闻消息\n          \n          \n            新闻通讯\n          \n          \n            新闻评论\n          \n        \n      \n    \n  "
+   },
+   {
+    "tag": "main",
+    "id": "main-content",
+    "cls": "main-content",
+    "attrs": {
+     "class": "main-content",
+     "id": "main-content",
+     "tabindex": "-1"
+    },
+    "text": "\n    新闻评论\n\n    \n      \n        设备升级了，使用门槛也该降下来9月18日\n      \n    \n  "
+   }
+  ],
+  "bodyShellHTML": [
+   "<a class=\"skip-link\" href=\"#main-content\">跳至正文</a>",
+   "<header class=\"site-header\">\n    <div class=\"site-header__inner\">\n      <p class=\"site-masthead\">\n        <a class=\"site-masthead__link\" href=\"index.html\">自然选择号</a>\n      </p>\n\n      <button class=\"nav-toggle\" id=\"nav-toggle\" type=\"button\" aria-controls=\"site-navigation\" aria-expanded=\"false\">\n        <span class=\"nav-toggle__icon\" aria-hidden=\"true\"></span>\n        <span class=\"nav-toggle__text\">菜单</span>\n      </button>\n\n      <nav class=\"site-navigation\" id=\"site-navigation\" aria-label=\"主导航\">\n        <ul class=\"site-navigation__list\">\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"index.html\">首页</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-message.html\">新闻消息</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-feature.html\">新闻通讯</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-commentary.html\" aria-current=\"page\">新闻评论</a>\n          </li>\n        </ul>\n      </nav>\n    </div>\n  </header>"
+  ],
+  "mainHTML": "<main class=\"main-content\" id=\"main-content\" tabindex=\"-1\">\n    <h1 class=\"page-title\">新闻评论</h1>\n\n    <ul class=\"entry-list\">\n      <li class=\"entry-list__item\">\n        <a class=\"entry-list__link\" href=\"article-classroom-screen-upgrade.html\"><span class=\"entry-list__title\">设备升级了，使用门槛也该降下来</span><span class=\"entry-list__date\">9月18日</span></a>\n      </li>\n    </ul>\n  </main>",
+  "mainChildEls": [
+   {
+    "tag": "h1",
+    "id": null,
+    "cls": "page-title",
+    "attrs": {
+     "class": "page-title"
+    }
+   },
+   {
+    "tag": "ul",
+    "id": null,
+    "cls": "entry-list",
+    "attrs": {
+     "class": "entry-list"
+    }
+   }
+  ],
+  "mainDirectElemTexts": [
+   "h1 :: 新闻评论",
+   "ul :: \n      \n        设备升级了，使用门槛也该降下来9月18日\n      \n    "
+  ],
+  "h1s": [
+   {
+    "cls": "page-title",
+    "attrs": {
+     "class": "page-title"
+    },
+    "text": "新闻评论"
+   }
+  ],
+  "h2s": [],
+  "h3s": [],
+  "allIds": [
+   "nav-toggle",
+   "site-navigation",
+   "main-content"
+  ],
+  "dupIds": [],
+  "skip": {
+   "tag": "a",
+   "href": "#main-content",
+   "text": "跳至正文",
+   "isBodyFirstChild": true
+  },
+  "counts": {
+   "siteHeader": 1,
+   "siteHeaderInner": 1,
+   "masthead": 1,
+   "mastheadLink": 1,
+   "navToggle": 1,
+   "nav": 1,
+   "navList": 1,
+   "navItem": 4,
+   "navLink": 4,
+   "main": 1,
+   "ariaCurrentPage": 1,
+   "ariaCurrentAny": 1,
+   "article": 0,
+   "articleHeader": 0,
+   "articleBody": 0,
+   "articleType": 0,
+   "articleByline": 0,
+   "articleDate": 0,
+   "homeSectionsWrap": 0,
+   "homeSection": 0,
+   "tabIndexMainNeg1": 1,
+   "pageTitle": 1,
+   "blockquote": 0,
+   "q": 0,
+   "cite": 0,
+   "ul": 2,
+   "ol": 0,
+   "liInBody": 1,
+   "img": 0,
+   "time": 0,
+   "datetimeAttr": 0,
+   "aInMain": 1,
+   "aInArticle": 0,
+   "strongInArticle": 0,
+   "br": 0,
+   "hr": 0,
+   "divInArticleBody": 0,
+   "footer": 0,
+   "form": 0,
+   "input": 0,
+   "svg": 0,
+   "em": 0,
+   "i": 0,
+   "b": 0,
+   "spanInBody": 2,
+   "code": 0,
+   "pre": 0,
+   "small": 0,
+   "sub": 0,
+   "sup": 0,
+   "s": 0,
+   "u": 0,
+   "mark": 0,
+   "abbr": 0,
+   "iframe": 0,
+   "objectTag": 0,
+   "embed": 0,
+   "video": 0,
+   "audio": 0,
+   "canvas": 0,
+   "figureTag": 0,
+   "picture": 0,
+   "tableTag": 0,
+   "sectionTotal": 0
+  },
+  "header": {
+   "exists": true,
+   "html": "<header class=\"site-header\">\n    <div class=\"site-header__inner\">\n      <p class=\"site-masthead\">\n        <a class=\"site-masthead__link\" href=\"index.html\">自然选择号</a>\n      </p>\n\n      <button class=\"nav-toggle\" id=\"nav-toggle\" type=\"button\" aria-controls=\"site-navigation\" aria-expanded=\"false\">\n        <span class=\"nav-toggle__icon\" aria-hidden=\"true\"></span>\n        <span class=\"nav-toggle__text\">菜单</span>\n      </button>\n\n      <nav class=\"site-navigation\" id=\"site-navigation\" aria-label=\"主导航\">\n        <ul class=\"site-navigation__list\">\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"index.html\">首页</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-message.html\">新闻消息</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-feature.html\">新闻通讯</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-commentary.html\" aria-current=\"page\">新闻评论</a>\n          </li>\n        </ul>\n      </nav>\n    </div>\n  </header>",
+   "innerParentIsHeader": true,
+   "innerChildren": [
+    {
+     "tag": "p",
+     "id": null,
+     "cls": "site-masthead",
+     "attrs": {
+      "class": "site-masthead"
+     }
+    },
+    {
+     "tag": "button",
+     "id": "nav-toggle",
+     "cls": "nav-toggle",
+     "attrs": {
+      "class": "nav-toggle",
+      "id": "nav-toggle",
+      "type": "button",
+      "aria-controls": "site-navigation",
+      "aria-expanded": "false"
+     }
+    },
+    {
+     "tag": "nav",
+     "id": "site-navigation",
+     "cls": "site-navigation",
+     "attrs": {
+      "class": "site-navigation",
+      "id": "site-navigation",
+      "aria-label": "主导航"
+     }
+    }
+   ],
+   "masthead": {
+    "tag": "p",
+    "attrs": {
+     "class": "site-masthead"
+    },
+    "text": "\n        自然选择号\n      ",
+    "childTags": [
+     "a"
+    ]
+   },
+   "mastheadLink": {
+    "attrs": {
+     "class": "site-masthead__link",
+     "href": "index.html"
+    },
+    "text": "自然选择号",
+    "parentTag": "p"
+   },
+   "orderInner": [
+    "p.site-masthead",
+    "button.nav-toggle",
+    "nav.site-navigation"
+   ]
+  },
+  "toggle": {
+   "tag": "button",
+   "attrs": {
+    "class": "nav-toggle",
+    "id": "nav-toggle",
+    "type": "button",
+    "aria-controls": "site-navigation",
+    "aria-expanded": "false"
+   },
+   "childTags": [
+    "span.nav-toggle__icon",
+    "span.nav-toggle__text"
+   ],
+   "icon": {
+    "attrs": {
+     "class": "nav-toggle__icon",
+     "aria-hidden": "true"
+    },
+    "html": "<span class=\"nav-toggle__icon\" aria-hidden=\"true\"></span>",
+    "directChild": true,
+    "text": ""
+   },
+   "textSpan": {
+    "attrs": {
+     "class": "nav-toggle__text"
+    },
+    "text": "菜单",
+    "directChild": true
+   },
+   "controlsEl": [
+    "nav"
+   ]
+  },
+  "nav": {
+   "attrs": {
+    "class": "site-navigation",
+    "id": "site-navigation",
+    "aria-label": "主导航"
+   },
+   "html": "<nav class=\"site-navigation\" id=\"site-navigation\" aria-label=\"主导航\">\n        <ul class=\"site-navigation__list\">\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"index.html\">首页</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-message.html\">新闻消息</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-feature.html\">新闻通讯</a>\n          </li>\n          <li class=\"site-navigation__item\">\n            <a class=\"site-navigation__link\" href=\"news-commentary.html\" aria-current=\"page\">新闻评论</a>\n          </li>\n        </ul>\n      </nav>",
+   "directChildTags": [
+    "ul"
+   ],
+   "ulIsDirectChild": true,
+   "listAttrs": {
+    "class": "site-navigation__list"
+   },
+   "items": [
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "index.html"
+      },
+      "text": "首页",
+      "directChild": true
+     }
+    },
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "news-message.html"
+      },
+      "text": "新闻消息",
+      "directChild": true
+     }
+    },
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "news-feature.html"
+      },
+      "text": "新闻通讯",
+      "directChild": true
+     }
+    },
+    {
+     "tag": "li",
+     "attrs": {
+      "class": "site-navigation__item"
+     },
+     "childTags": [
+      "a"
+     ],
+     "linkCount": 1,
+     "link": {
+      "attrs": {
+       "class": "site-navigation__link",
+       "href": "news-commentary.html",
+       "aria-current": "page"
+      },
+      "text": "新闻评论",
+      "directChild": true
+     }
+    }
+   ]
+  },
+  "navSubtreeFlaggedAttrs": [],
+  "navLinks": [
+   {
+    "text": "首页",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "index.html"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   },
+   {
+    "text": "新闻消息",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "news-message.html"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   },
+   {
+    "text": "新闻通讯",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "news-feature.html"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   },
+   {
+    "text": "新闻评论",
+    "attrs": {
+     "class": "site-navigation__link",
+     "href": "news-commentary.html",
+     "aria-current": "page"
+    },
+    "tag": "a",
+    "parentTag": "li"
+   }
+  ],
+  "ariaCurrentEls": [
+   {
+    "tag": "a",
+    "cls": "site-navigation__link",
+    "val": "page",
+    "href": "news-commentary.html",
+    "text": "新闻评论"
+   }
+  ],
+  "mainAttrs": {
+   "class": "main-content",
+   "id": "main-content",
+   "tabindex": "-1"
+  },
+  "sections": [],
+  "article": null,
+  "paragraphs": [],
+  "dateline": null,
+  "bodyText": "\n  跳至正文\n\n  \n    \n      \n        自然选择号\n      \n\n      \n        \n        菜单\n      \n\n      \n        \n          \n            首页\n          \n          \n            新闻消息\n          \n          \n            新闻通讯\n          \n          \n            新闻评论\n          \n        \n      \n    \n  \n\n  \n    新闻评论\n\n    \n      \n        设备升级了，使用门槛也该降下来9月18日\n      \n    \n  \n\n\n",
+  "cssParse": {
+   "ok": true,
+   "top": 45,
+   "mediaCount": 1,
+   "mediaIdx": 44,
+   "lastIsMedia": true,
+   "href": "styles.css",
+   "mediaText": "(max-width: 768px)"
+  },
+  "paraBoundary": [],
+  "textLen": [],
+  "homeTextLen": []
+ }
+}

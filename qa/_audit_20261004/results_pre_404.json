@@ -1,0 +1,62 @@
+[
+  {
+    "path": "article-along-the-north-small-river.html",
+    "bytes": 3129,
+    "sha256": "28a18f3a37e0577d1527aa19d925b3a0b6cd2d959d4166a7d01b0bbe583e2617"
+  },
+  {
+    "path": "article-classroom-screen-upgrade.html",
+    "bytes": 8486,
+    "sha256": "a2dbf4aac57472e8a8728f80908dc366d3aa9076310bbb39b24d71f251ea8d52"
+  },
+  {
+    "path": "article-math-to-ai-learning.html",
+    "bytes": 6962,
+    "sha256": "73ff75678c453badbc1edcb1ff590001dc93cade3260ff364e042d02075df9a5"
+  },
+  {
+    "path": "article-north-of-dam-river.html",
+    "bytes": 3292,
+    "sha256": "2b6d2d5d51f8247a087906c2ea6c180fd052268db75379c5bed97e09e90acbb6"
+  },
+  {
+    "path": "article-school-course-selection-results.html",
+    "bytes": 2508,
+    "sha256": "58da6cff5b2411403b6b03317a1061b391647b0768459a015f0000d1afa4de2f"
+  },
+  {
+    "path": "article-school-course-volunteer.html",
+    "bytes": 3011,
+    "sha256": "66ae5826bbdf9829206c6374305e7bf4bab546c65485349db5fff40e0b5fa0e8"
+  },
+  {
+    "path": "index.html",
+    "bytes": 3631,
+    "sha256": "14b82801fc5c1a965e94fd3d9956bd54ae41ac61f996441b5f0a68f66973dd40"
+  },
+  {
+    "path": "news-commentary.html",
+    "bytes": 2067,
+    "sha256": "76aa950d2967b064b57d4359160ca5007d285ad639bfc44b6b834143c59dcfc8"
+  },
+  {
+    "path": "news-feature.html",
+    "bytes": 2549,
+    "sha256": "203a111b51988e1f91ef9dbeefab2a1a54f1aaf26efc192cfbe6aa5965373f4c"
+  },
+  {
+    "path": "news-message.html",
+    "bytes": 2320,
+    "sha256": "2e84e8001fa4bb1a95aeaa3a10d14ae0c6df6e8f98e54f2fa0a25ac0a2399bf3"
+  },
+  {
+    "path": "script.js",
+    "bytes": 2204,
+    "sha256": "abb39e4a6d218546b45eded0fa601540d2c5195d93c9fe1dfa8aaaabca13c666"
+  },
+  {
+    "path": "styles.css",
+    "bytes": 15340,
+    "sha256": "de2d9022625d6c6a6c2833c09ad4cccd73dd0582689d018374ed09f68f3f5cc4"
+  }
+]

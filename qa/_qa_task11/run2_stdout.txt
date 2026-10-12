@@ -1,0 +1,6 @@
+FAIL RC2 [news-commentary.html @375px] 长评论标题在窄宽度自然折成多行、任一移动宽度都不溢出（768px 下单行即为正确结果） :: 行数=2 343<=343 盒宽=undefined client=375 -> Task 8
+FAIL RC2 [news-commentary.html @768px] 长评论标题在窄宽度自然折成多行、任一移动宽度都不溢出（768px 下单行即为正确结果） :: 行数=1 736<=736 盒宽=undefined client=768 -> Task 8
+FAIL RC2 [news-commentary.html @375px] 长评论标题在窄宽度自然折成多行、任一移动宽度都不溢出（768px 下单行即为正确结果） :: 行数=2 343<=343 盒宽=undefined client=375 -> Task 8
+FAIL RC2 [news-commentary.html @768px] 长评论标题在窄宽度自然折成多行、任一移动宽度都不溢出（768px 下单行即为正确结果） :: 行数=1 736<=736 盒宽=undefined client=768 -> Task 8
+
+== Task 11 CDP 回归：805 PASS / 2 FAIL / 共 807 条 ==

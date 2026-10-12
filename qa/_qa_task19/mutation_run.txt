@@ -1,0 +1,30 @@
+[1/12] m01-column-reverse → 捕获（指定 RK2b；差分命中 RK2b）
+[2/12] m02-aria-current-self → 捕获（指定 RK4；差分命中 RK4）
+[3/12] m03-latest-href-other-column → 捕获（指定 RK3；差分命中 RK3）
+[4/12] m04-drop-home-latest-visited → 无效变异（前置自证不成立 → 修台架，不改判据也不改产品代码）（指定 RN7；差分命中 无）
+[5/12] m04b-drop-site-navigation-visited → 无效变异（前置自证不成立 → 修台架，不改判据也不改产品代码）（指定 RN4；差分命中 无）
+[6/12] m04c-paint-current-link-paper → 捕获（指定 RN5,RK4-PIX；差分命中 RN5）
+[7/12] m05-shrink-tap-target → 捕获（指定 RD1；差分命中 RD1）
+[8/12] m06-drop-matchmedia-reset → 捕获（指定 RG1；差分命中 RG1）
+[9/12] m07-inject-console-log → 捕获（指定 RJ4；差分命中 RJ4）
+[10/12] m08-inject-external-image → 捕获（指定 RA2；差分命中 RA2）
+[11/12] m09-punctuation-swap → 捕获（指定 RJ1；差分命中 RJ1）
+[12/12] m10-h1-add-booktitle-mark → 捕获（指定 RK5；差分命中 RK5）
+
+{
+ "registered": 12,
+ "ran": 12,
+ "validMutations": 10,
+ "invalid": 2,
+ "captured": 10,
+ "missed": 0,
+ "captureRate": "100%",
+ "realResultsUnchanged": true,
+ "selfShaUnchanged": true,
+ "firstCaseMustRed": "捕获",
+ "notes": [
+  "两台一套：每例先跑 control（仅结构性准备，不含违约），再跑 mutant，捕获 = 指定判据在差集中翻红。"
+ ]
+}
+MUT_EXIT=0
+mutation_log19.md 已生成（60 行，捕获率 100%，第 1 例=捕获）

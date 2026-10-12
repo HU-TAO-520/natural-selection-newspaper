@@ -1,0 +1,66 @@
+A 组：5 PASS / 0 FAIL
+D 组：2 PASS / 0 FAIL
+M 组：9 PASS / 0 FAIL
+N 组：8 PASS / 0 FAIL
+O 组：2 PASS / 0 FAIL
+R 组：2 PASS / 0 FAIL
+U 组：4 PASS / 0 FAIL
+X 组：8 PASS / 0 FAIL
+Z 组：12 PASS / 0 FAIL
+
+PASS A      A1/集合双向相等                                                  磁盘 13／期望 13／子目录 无
+PASS A      A2/装配出口字节==磁盘                                              漂移 无
+PASS A      A3/页集合来自构建器非目录通配                                           derive_page_set 内通配 token=无，含 build_pages=True
+PASS A      A4/Results 无部署期文件                                          干净
+PASS A      A5/deploy 恰四文件                                             ['UPLOAD.md', '_headers', 'manifest.json', 'site.zip']
+PASS M      M1/顶层键序与 schema                                            ['schema', 'columns', 'pages', 'config', 'counts']
+PASS M      M2/pages==交付集合且字典序                                         ['404.html', 'article-along-the-north-small-river.html', 'article-classroom-screen-upgrade.html', 'article-math-to-ai-learning.html', 'article-north-o
+PASS M      M3/pages 逐项 bytes+sha256==磁盘实测                             13/13 相等
+PASS M      M4/config 仅 _headers                                       
+PASS M      M5/部署期文件不在 pages                                           无
+PASS M      M6/columns 三栏与注册表等长                                        
+PASS M      M7/articles 顺序==列表页实际条目顺序                                  三栏一致
+PASS M      M8/counts 四式独立成立                                           counts={'pages': 13, 'html': 11, 'config': 1, 'articles': 6}（交付 7+N=13，zip 条目 8+N=14，HTML 5+N=11）
+PASS M      M9/字节形态 UTF-8无BOM LF 两空格缩进                                 3860 字节
+PASS Z      Z1/0 目录条目                                                  []
+PASS Z      Z2/0 含分隔符条目名                                               []
+PASS Z      Z3/文件条目集合==pages∪config                                    []
+PASS Z      Z4/条目数==counts.pages+config                                zip 14 vs 期望 14
+PASS Z      Z5/无禁止条目                                                   []
+PASS Z      Z6/_headers 在场且==基线                                        
+PASS Z      Z7/时间戳固定为常量                                                [(1980, 1, 1, 0, 0, 0)]
+PASS Z      Z8/全部 ZIP_DEFLATED                                         [8]
+PASS Z      Z9/无 extra／comment                                         []
+PASS Z      Z10/条目顺序为 sorted(名)                                        
+PASS Z      Z11/create_system 与 external_attr 统一                       cs={0} ext={27525120}
+PASS Z      Z12/逐条目 SHA-256 与字节数三方相等（zip／磁盘源／清单）                       14/14 相等
+PASS D      D1/manifest+UPLOAD+zip 日期扫描命中 0                            命中 0
+PASS D      D2/内容源日期值清单（比对基准）                                          10月1日、2026-09-27、2026-09-29、2026-10-01、9月17日、9月18日、9月27日、9月29日、（自然选择号10月1日）、（自然选择号9月18日）、（自然选择号9月27日）
+PASS U      U1/三个数字与包哈希由 counts／实测值生成且一致                               6 行全在
+PASS U      U2/清单逐项路径+哈希前16位，按字典序且与 zip 同序                             表 14 行 vs zip 14 条目；首个条目 404.html
+PASS U      U3/人工可读：三数各 7+N／8+N／5+N（由 N 推导，不钉死篇数）                      N=6 → 交付 13／zip 条目 14／HTML 11
+PASS U      U4/关闭项与手工上传前提在文                                            
+PASS N      N/目录条目 被形态检查命中                                             
+PASS N      N/Results/ 前缀 被形态检查命中                                      
+PASS N      N/缺 _headers 被形态检查命中                                       
+PASS N      N/文件条目数不符 被形态检查命中                                          
+PASS N      N/哈希或字节与当前源不符 被形态检查命中                                      
+PASS N      N/含旧版 styles.css 被形态检查命中                                   
+PASS N      N/旧 CSS 尺寸实测 12062（早于 v1 的 12401）                          包内 12062 B，当前源 15340 B；回验命中：True
+PASS N      N/时间戳与压缩方式同样被判红                                            时间戳 [(2026, 9, 19, 9, 30, 12), (2026, 9, 19, 9, 53, 20), (2026, 9, 19, 12, 52, 42), (2026, 9, 19, 14, 34, 42), (2026, 9, 19, 15, 1, 22), (2026, 9, 19,
+PASS X      X1/无上传／无网络／无外部服务调用                                         []
+PASS X      X2/写盘语句不指向 Results/                                        5 条写盘语句；指向 Results 的：无
+PASS X      X3/四个部署期路径常量都在 deploy/                                     {'MANIFEST_REL': 'deploy/manifest.json', 'ZIP_REL': 'deploy/site.zip', 'UPLOAD_REL': 'deploy/UPLOAD.md', 'HEADERS_REL': 'deploy/'}
+PASS X      X4/删除只针对本包自写产物（zip／manifest／UPLOAD 局部变量）                   ['path', 'zip_path']
+PASS X      X5/无 .bak／无 zip comment 字面量                                
+PASS X      X6/build 内本包只新增 pack.py                                    ['build.py', 'pack.py', 'shell.html']
+PASS X      X7/无 __pycache__ 副作用                                       build/__pycache__=False
+PASS X      X8/仅标准库与 build 模块                                          引入：['argparse', 'build', 'hashlib', 'json', 'pathlib', 're', 'shutil', 'sys', 'tempfile', 'time', 'zipfile']；越界：[]
+PASS O      O/跑 R 组之前 只读证明：28 项指纹逐项相等                                  全等
+PASS R      R1/连续两次重跑：三产物 SHA-256 全等（可复现）                              site.zip=72870029e949… manifest=fee87a7b7577… UPLOAD=4d68dd825172…
+PASS R      R2/时间戳不继承 mtime                                            [(1980, 1, 1, 0, 0, 0)]
+PASS O      O/重跑打包之后 只读证明：28 项指纹逐项相等                                   全等
+
+合计 52 条断言，FAIL 0
+site.zip SHA-256 72870029e94964f79d57ec5f7ce830004b180d2e8460662ecd96b8765f5821c8
+manifest.json SHA-256 fee87a7b7577dc71367fc2bad44a3dcfc3c6a382e72ad5b10097463356d7a547

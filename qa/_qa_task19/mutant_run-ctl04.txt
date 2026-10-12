@@ -1,0 +1,16 @@
+
+
+合计 77 条（计分 67）：PASS 67 / FAIL 0 / SKIPPED-BY-DESIGN 0 / REC 10 / PENDING 0
+
+
+合计 91 条（计分 79）：PASS 79 / FAIL 0 / SKIPPED-BY-DESIGN 0 / REC 12 / PENDING 0
+FAIL RZ10 [build/ @-] 19.10 只读证明：build/ 开工与完工逐项哈希相等 :: 期望 5 项 / 实际 4 项 内容不一致
+FAIL RZ10 [build/ @-] 19.10 只读证明：build/ 开工与完工逐项哈希相等 :: 4 项 内容不一致 -> Task 19 驱动自身
+
+合计 91 条（计分 79）：PASS 78 / FAIL 1 / SKIPPED-BY-DESIGN 0 / REC 12 / PENDING 0
+
+
+合计 91 条（计分 79）：PASS 79 / FAIL 0 / SKIPPED-BY-DESIGN 0 / REC 12 / PENDING 0
+
+
+合计 91 条（计分 79）：PASS 79 / FAIL 0 / SKIPPED-BY-DESIGN 0 / REC 12 / PENDING 0

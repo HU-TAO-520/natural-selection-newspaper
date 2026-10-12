@@ -1,0 +1,6 @@
+news-commentary.main-interior.html vs article-classroom-screen-upgrade.html: 切片 6735 B, main 内部(不含 </main> 前缩进) 6738 B, 切片逐字节==内部尾部 False, 切片在整页中出现 True
+   内部首尾: b'\n    <article class=' … b'p>\n    </article>\n  ' ; 切片首尾: b'    <article class="' … b'</p>\n    </article>\n'
+news-feature.main-interior.html vs article-math-to-ai-learning.html: 切片 5224 B, main 内部(不含 </main> 前缩进) 5227 B, 切片逐字节==内部尾部 False, 切片在整页中出现 True
+   内部首尾: b'\n    <article class=' … b'v>\n    </article>\n  ' ; 切片首尾: b'    <article class="' … b'div>\n    </article>\n'
+news-message.main-interior.html vs article-school-course-volunteer.html: 切片 1269 B, main 内部(不含 </main> 前缩进) 1272 B, 切片逐字节==内部尾部 False, 切片在整页中出现 True
+   内部首尾: b'\n    <article class=' … b'v>\n    </article>\n  ' ; 切片首尾: b'    <article class="' … b'div>\n    </article>\n'
